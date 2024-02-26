@@ -1,14 +1,17 @@
 # awesome-x-ops
 
-Awesome for x-ops.
+Awesome for any ops.
 
-一些关于 AIOps、DataOps、DevSecOps、GitOps、FinOps 的优秀软件、博客、技术文档，以及配套工具技术。
+一些关于 AIOps、DataOps、DevOps、GitOps、FinOps 的优秀软件、博客，以及配套工具技术。
 
 ## AIOps
 
 ## DataOps
 
-## DevSecOps
+## DevOps
+
+- [OpenRewrite](https://docs.openrewrite.org) - 自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
+- [reviewdog](https://github.com/reviewdog) - 自动代码审查和分析工具，支持所有语言。
 
 ## FinOps
 
