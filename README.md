@@ -31,3 +31,10 @@ Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道
 - [dexidp/dex](https://github.com/dexidp/dex) - 插件化的 OpenID Connect (OIDC) 和 OAuth 2.0 提供商，主要是轻，很简单。
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持简单的权限校验。
 - [pomerium](https://github.com/pomerium/pomerium) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持相对复杂的权限校验。
+
+### Virtual Machines
+
+一些虚拟化工具，通过虚拟机协助搭建 K8S、容器云平台，便于日常开发和调试。
+
+- [lima](https://github.com/lima-vm/lima) - Lima 能够运行具有自动文件共享和端口转发功能的 Linux 虚拟机，支持模拟异构虚拟机。
+- [multipass](https://github.com/canonical/multipass) - Ubuntu 出品轻量级虚拟化工具。
