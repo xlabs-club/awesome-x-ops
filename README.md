@@ -38,3 +38,9 @@ Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道
 
 - [lima](https://github.com/lima-vm/lima) - Lima 能够运行具有自动文件共享和端口转发功能的 Linux 虚拟机，支持模拟异构虚拟机。
 - [multipass](https://github.com/canonical/multipass) - Ubuntu 出品轻量级虚拟化工具。
+
+## License
+
+本文档采用 [CC BY-NC 4.0][] 许可协议。
+
+[CC BY-NC 4.0]: https://creativecommons.org/licenses/by-nc/4.0/
