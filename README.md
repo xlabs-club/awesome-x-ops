@@ -8,22 +8,24 @@ Awesome for any ops.
 
 ## DataOps
 
-## DevOps
-
-- [OpenRewrite](https://docs.openrewrite.org) - 自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
-- [reviewdog](https://github.com/reviewdog) - 自动代码审查和分析工具，支持所有语言。
-
 ## FinOps
-
-## GitOps
 
 ## Platform Engineering 平台工程
 
 平台工程技术栈和依赖工具链合集。
 
-### IAM
+### CI/CD
 
-Identity and Access Management(IAM)。
+### Code Service
+
+- [OpenRewrite](https://docs.openrewrite.org) - 自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
+- [reviewdog](https://github.com/reviewdog) - 自动代码审查和分析工具，支持所有语言。
+
+### Event Mesh
+
+### IaC
+
+### Identity and Access Management(IAM)
 
 Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道该信任谁，更难。
 
@@ -34,7 +36,7 @@ Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道
 
 ### Virtual Machines
 
-一些虚拟化工具，通过虚拟机协助搭建 K8S、容器云平台，便于日常开发和调试。
+一些轻量级虚拟化工具，通过虚拟机协助搭建 K8S、容器云平台，便于日常调试。
 
 - [lima](https://github.com/lima-vm/lima) - Lima 能够运行具有自动文件共享和端口转发功能的 Linux 虚拟机，支持模拟异构虚拟机。
 - [multipass](https://github.com/canonical/multipass) - Ubuntu 出品轻量级虚拟化工具。
