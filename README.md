@@ -16,6 +16,8 @@ Awesome for any ops.
 
 ### CI/CD
 
+- [argo-workflows](https://github.com/argoproj/argo-workflows) - 基于 Kubernetes 的云原生工作流引擎，是一个 Engine。
+
 ### Code Service
 
 - [OpenRewrite](https://docs.openrewrite.org) - 自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
@@ -42,6 +44,12 @@ Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道
 - [dexidp/dex](https://github.com/dexidp/dex) - 插件化的 OpenID Connect (OIDC) 和 OAuth 2.0 提供商，主要是轻，很简单。
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持简单的权限校验。
 - [pomerium](https://github.com/pomerium/pomerium) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持相对复杂的权限校验。
+
+### IDP
+
+Internal Developer Platform(IDP), 内部开发者平台开源软件。
+
+- [backstage](https://github.com/backstage/backstage) - Backstage 是一个构建开发者门户的开放平台，旨在帮助团队构建、部署和维护软件。
 
 ### Virtual Machines
 
