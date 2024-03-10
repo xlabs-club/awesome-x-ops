@@ -14,6 +14,11 @@ Awesome for any ops.
 
 平台工程技术栈和依赖工具链合集。
 
+### API Management
+
+- [usebruno/bruno](https://github.com/usebruno/bruno) - Bruno 是一个快速且 Git 友好的开源 API 客户端，旨在彻底改变以 Postman、Insomnia 和类似工具为代表的现状。可以使用 git 来协作处理 API 集合。
+- [grafana/k6](https://github.com/grafana/k6) - 使用 Go 和 JavaScript 的现代负载测试工具。
+
 ### CI/CD
 
 - [argo-workflows](https://github.com/argoproj/argo-workflows) - 基于 Kubernetes 的云原生工作流引擎，是一个 Engine。
