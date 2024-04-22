@@ -46,6 +46,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道该信任谁，更难。
 
 - [keycloak](https://github.com/keycloak/keycloak) - keycloak 是一个开源的、面向现代应用和服务的 IAM 软件。
+- [zitadel](https://github.com/zitadel/zitadel) - zitadel 是一个开源的、面向现代应用和服务的 IAM 软件，主打简单。
 - [dexidp/dex](https://github.com/dexidp/dex) - 插件化的 OpenID Connect (OIDC) 和 OAuth 2.0 提供商，主要是轻，很简单。
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持简单的权限校验。
 - [pomerium](https://github.com/pomerium/pomerium) - 一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持相对复杂的权限校验。
