@@ -34,9 +34,9 @@ Awesome for any ops.
 
 Infrastructure as Code，基础设施即代码，是通过代码而非手动流程来管理和配置基础设施的方法。
 
+- [Pulumi](https://github.com/pulumi/pulumi) - 使用熟悉的语言在任何云上直观地构建基础设施，支持任何编程语言的 IaC 工具。
 - [OpenTofu](https://github.com/opentofu/opentofu) - 开源 IaC 工具，OpenTofu 是由社区驱动的 Terraform 的一个分支，并由 Linux 基金会管理。
 - [Crossplane](https://github.com/crossplane/crossplane) - Crossplane 是一个开源的 Kubernetes 插件，它允许平台团队组装来自多个供应商的基础设施，并向应用程序团队公开更高级别的自助服务 API，而不需要编写任何代码。
-- [Pulumi](https://github.com/pulumi/pulumi) - 使用熟悉的语言在任何云上直观地构建基础设施，支持任何编程语言的 IaC 工具。
 - [helmfile](https://github.com/helmfile) - Helmfile 是一个声明式 Helm Chart 编排和部署工具。
 - [sops](https://github.com/getsops/sops) - sops 是加密文件的编辑器，支持 YAML、JSON、ENV、INI 和 BINARY 格式，并可使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
 - [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets) - Sealed Secrets 以安全的方式提供声明式 Kubernetes 秘密管理。加密后存放到任何地方比如 Git，在 Kubernetes 集群中通过 Controller 自动解密。
