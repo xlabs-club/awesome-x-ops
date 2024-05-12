@@ -14,6 +14,10 @@ Awesome for any ops.
 
 平台工程技术栈和依赖工具链合集。
 
+### Artifact 制品管理
+
+- [ORAS](https://github.com/oras-project/oras) - 一个将任意内容存储为 OCI 格式容器镜像的工具。
+
 ### CI/CD
 
 - [argo-workflows](https://github.com/argoproj/argo-workflows) - 基于 Kubernetes 的云原生工作流引擎，是一个 Engine。
@@ -54,7 +58,7 @@ Internal Developer Platform(IDP), 内部开发者平台开源软件。
 
 - [backstage](https://github.com/backstage/backstage) - Backstage 是一个构建开发者门户的开放平台，旨在帮助团队构建、部署和维护软件。
 
-### Virtual Machines
+### IaaS Tools
 
 一些轻量级虚拟化工具，通过虚拟机协助搭建 K8S、容器云平台，便于日常调试。
 
