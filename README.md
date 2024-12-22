@@ -47,7 +47,7 @@ Awesome for any ops.
 - [Apache Kafka](https://kafka.apache.org/)：分布式事件流处理平台，用于构建实时数据管道和流式应用。
 - [NATS](https://nats.io/)：轻量级、开源的云原生消息队列和事件流解决方案。
 
-### IaC
+### Infrastructure as Code(IaC)
 
 Infrastructure as Code，基础设施即代码，是通过代码而非手动流程来管理和配置基础设施的方法。
 
