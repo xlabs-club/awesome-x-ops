@@ -36,7 +36,6 @@ Awesome for any ops.
 
 ### Code Service
 
-- [grafana/k6](https://github.com/grafana/k6)：使用 Go 和 JavaScript 的现代负载测试工具，也可以用来作为 API 管理和测试工具。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
 - [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持所有语言。
 - [Dependency-Track](https://dependencytrack.org/)：开源软件组件合规分析检测平台，帮助识别和管理供应链风险，支持 SBOM 分析、License 检查。
@@ -83,6 +82,13 @@ Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道
 
 - [lima](https://github.com/lima-vm/lima)：Lima 能够运行具有自动文件共享和端口转发功能的 Linux 虚拟机，支持模拟异构虚拟机。
 - [multipass](https://github.com/canonical/multipass)：Ubuntu 出品轻量级虚拟化工具。
+
+### Tester Tools
+
+专为测试人员准备的工具集。
+
+- [grafana/k6](https://github.com/grafana/k6)：使用 Go 和 JavaScript 的现代负载测试工具，也可以用来作为 API 管理和测试工具。
+- [googletest](https://github.com/google/googletest)：Google Testing and Mocking Framework。
 
 ## License
 
