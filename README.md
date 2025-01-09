@@ -15,7 +15,11 @@ Awesome for any ops.
 
 ## Platform Engineering 平台工程
 
-平台工程技术栈和依赖工具链合集。
+平台工程技术栈和工具链合集。
+
+### API Management Tools
+
+- [Bruno](https://github.com/usebruno/bruno)：Bruno 是一个快速且 Git 友好的开源 API 客户端，旨在彻底改变以 Postman、Insomnia 和类似工具为代表的现状。使用 Git 来协作处理 API 集合，使用客户端或 cli 命令行来执行 API 调用。
 
 ### Artifact 制品管理
 
@@ -32,7 +36,6 @@ Awesome for any ops.
 
 ### Code Service
 
-- [usebruno/bruno](https://github.com/usebruno/bruno)：Bruno 是一个快速且 Git 友好的开源 API 客户端，旨在彻底改变以 Postman、Insomnia 和类似工具为代表的现状。可以使用 git 来协作处理 API 集合。
 - [grafana/k6](https://github.com/grafana/k6)：使用 Go 和 JavaScript 的现代负载测试工具，也可以用来作为 API 管理和测试工具。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
 - [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持所有语言。
