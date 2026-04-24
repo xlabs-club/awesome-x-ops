@@ -31,6 +31,7 @@ Awesome for any ops.
 - [kubecost](https://kubecost.com/)：Kubernetes 成本管理与监控工具。
 - [OpenCost](https://opencost.io/)：一个开源工具，用于跟踪和分配 Kubernetes 环境的云成本。
 - [Infracost](https://github.com/infracost/infracost)：云成本预测工具，支持 Terraform 和 Kubernetes 成本估算。
+- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Platform Engineering 平台工程
 
