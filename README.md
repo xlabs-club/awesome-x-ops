@@ -1,128 +1,136 @@
 # awesome-x-ops
 
-Awesome for any ops.
+Awesome tools, projects, blogs, and companion technologies for AI, DataOps, DevOps, GitOps, FinOps, and Platform Engineering.
 
-一些关于 AI、DataOps、DevOps、GitOps、FinOps、Platform Engineering 的优秀软件、博客，以及配套工具技术。
+Languages: English | [简体中文](README.zh-CN.md)
 
-## AIOps 智能运维
+## Curation Principles
 
-- [NetData](https://github.com/netdata/netdata)：分布式实时监控系统，提供基础设施指标收集、可视化和告警功能。
-- [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
+- Keep entries concise, efficient, accurate, and relevant.
+- Prefer GitHub links when a reliable project repository exists.
+- Include only proven, reliable, and high-quality projects.
+- Ignore duplicates or projects already covered by an equivalent entry.
+- Add or refine categories when useful, but avoid unrelated content.
 
-## Agentic Workflow 智能体工作流
+## AIOps
 
-- [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)：自主 AI 代理框架，能够自主分解和执行复杂任务。
-- [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持智能体工作流编排。
-- [crewAI](https://github.com/joaomdmoura/crewAI)：面向协作式 AI 代理的框架，支持角色定义和任务编排。
-- [Dify](https://github.com/langgenius/dify)：开源的 LLM 应用开发平台，支持可视化 Agent 工作流编排和 AI 应用部署。
-- [Flowise](https://github.com/FlowiseAI/Flowise)：低代码 LLM 工作流编排工具，支持可视化构建 AI 应用链。
-- [Langflow](https://github.com/langflow-ai/langflow)：LangChain 的图形化版本，支持拖拽式构建 LLM 工作流。
-- [BentoML](https://github.com/bentoml/BentoML)：开源模型服务平台，支持多框架模型部署和 AI 应用编排。
-- [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
-- [LlamaIndex](https://github.com/run-llama/llama_index)：LLM 数据框架，支持结构化数据检索和增强。
+- [Netdata](https://github.com/netdata/netdata): Distributed real-time monitoring for infrastructure metrics, visualization, and alerting.
+- [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
+
+## Agentic Workflow
+
+- [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
+- [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
+- [crewAI](https://github.com/joaomdmoura/crewAI): Framework for collaborative AI agents with role definition and task orchestration.
+- [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
+- [Flowise](https://github.com/FlowiseAI/Flowise): Low-code LLM workflow orchestration tool for visually building AI application chains.
+- [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
+- [BentoML](https://github.com/bentoml/BentoML): Open-source model serving platform for deploying models across frameworks and orchestrating AI applications.
+- [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
+- [LlamaIndex](https://github.com/run-llama/llama_index): Data framework for LLM applications, supporting structured data retrieval and augmentation.
 
 ## DataOps
 
-- [Apache NiFi](https://nifi.apache.org/)：可视化数据流编排工具，支持数据路由、转换和系统间协调。
-- [Dagster](https://dagster.io/)：数据编排平台，支持数据资产建模和全生命周期管理。
+- [Apache NiFi](https://nifi.apache.org/): Visual dataflow orchestration for routing, transforming, and coordinating data across systems.
+- [Dagster](https://dagster.io/): Data orchestration platform for modeling data assets and managing the data lifecycle.
 
 ## FinOps
 
-- [kubecost](https://kubecost.com/)：Kubernetes 成本管理与监控工具。
-- [OpenCost](https://opencost.io/)：一个开源工具，用于跟踪和分配 Kubernetes 环境的云成本。
-- [Infracost](https://github.com/infracost/infracost)：云成本预测工具，支持 Terraform 和 Kubernetes 成本估算。
-- [KubeStellar Console](https://github.com/kubestellar/console) - Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
+- [kubecost](https://kubecost.com/): Kubernetes cost management and monitoring platform.
+- [OpenCost](https://opencost.io/): Open-source tool for tracking and allocating cloud costs in Kubernetes environments.
+- [Infracost](https://github.com/infracost/infracost): Cloud cost forecasting tool for Terraform and Kubernetes cost estimates.
+- [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
-## Platform Engineering 平台工程
+## Platform Engineering
 
-平台工程技术栈和工具链合集。
+A curated technology stack and toolchain for platform engineering.
 
 ### API Management Tools
 
-- [Bruno](https://github.com/usebruno/bruno)：Bruno 是一个快速且 Git 友好的开源 API 客户端，旨在彻底改变以 Postman、Insomnia 和类似工具为代表的现状。使用 Git 来协作处理 API 集合，使用客户端或 cli 命令行来执行 API 调用。
-- [Hoppscotch](https://github.com/hoppscotch/hoppscotch)：轻量级 API 开发工具套件，支持 REST、GraphQL 和 WebSocket。
+- [Bruno](https://github.com/usebruno/bruno): Fast, Git-friendly open-source API client for managing API collections and running API calls via desktop app or CLI.
+- [Hoppscotch](https://github.com/hoppscotch/hoppscotch): Lightweight API development suite for REST, GraphQL, and WebSocket.
 
-### Artifact 制品管理
+### Artifact Management
 
-- [ORAS](https://github.com/oras-project/oras)：一个将任意内容存储为 OCI 格式容器镜像的工具。
-- [Skopeo](https://github.com/containers/skopeo)：用于检查、复制和签署容器镜像的开源工具，镜像同步和拷贝的利器。
-- [Harbor](https://github.com/goharbor/harbor)：企业级容器镜像仓库，支持安全扫描和访问控制。
-- [Nexus Repository](https://github.com/sonatype/nexus-public)：通用制品管理工具，支持 Maven、NPM、Docker 等格式。
+- [ORAS](https://github.com/oras-project/oras): Tool for storing arbitrary content as OCI artifacts.
+- [Skopeo](https://github.com/containers/skopeo): Open-source tool for inspecting, copying, and signing container images.
+- [Harbor](https://github.com/goharbor/harbor): Enterprise-grade container registry with security scanning and access control.
+- [Nexus Repository](https://github.com/sonatype/nexus-public): Universal artifact repository supporting Maven, npm, Docker, and more.
 
 ### CI/CD
 
-- [argo-workflows](https://github.com/argoproj/argo-workflows)：基于 Kubernetes 的云原生工作流引擎，是一个 Engine。
-- [argo-cd](https://argo-cd.readthedocs.io/)：相当流行的一款用于 Kubernetes 的声明式 GitOps CD 工具。
-- [Flux](https://fluxcd.io/)：相当流行的又一款 Kubernetes 的 GitOps 工具包。
-- [Apache Airflow](https://airflow.apache.org/)：一个开源的数据管道工作流编排工具。
-- [Jenkins](https://www.jenkins.io/)：一个开源的 CI/CD 自动化服务器，有丰富的插件，重量级软件。
-- [Tekton](https://tekton.dev/)：Kubernetes 原生 CI/CD 框架，提供灵活的任务编排能力。
+- [argo-workflows](https://github.com/argoproj/argo-workflows): Kubernetes-native workflow engine.
+- [argo-cd](https://argo-cd.readthedocs.io/): Popular declarative GitOps CD tool for Kubernetes.
+- [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
+- [Apache Airflow](https://airflow.apache.org/): Open-source workflow orchestration platform for data pipelines.
+- [Jenkins](https://www.jenkins.io/): Open-source CI/CD automation server with a large plugin ecosystem.
+- [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 
 ### Code Service
 
-- [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构工具，进行代码分析、代码风格一致、框架迁移升级。
-- [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持所有语言。
-- [Dependency Track](https://dependencytrack.org/)：开源软件组件合规分析检测平台，帮助识别和管理供应链风险，支持 SBOM 分析、License 检查。
-- [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，准备替代 Dependency-Track，静待发布稳定版本。
-- [SonarQube](https://github.com/SonarSource/sonarqube)：代码质量持续检测平台，支持 27+编程语言。
-- [Trivy](https://github.com/aquasecurity/trivy)：全面的容器/代码安全扫描工具，支持 SBOM 生成。
+- [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
+- [reviewdog](https://github.com/reviewdog): Automated code review and analysis tool for many languages and linters.
+- [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
+- [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization.
+- [SonarQube](https://github.com/SonarSource/sonarqube): Continuous code quality platform supporting 27+ programming languages.
+- [Trivy](https://github.com/aquasecurity/trivy): Comprehensive scanner for containers, code, vulnerabilities, misconfigurations, and SBOMs.
 
 ### Event Mesh
 
-- [CloudEvents](https://cloudevents.io/)：一个事件规范，用于实现事件驱动系统的互操作性。
-- [Apache Event Mesh](https://eventmesh.apache.org/)：分布式事件中间件，支持多种消息协议和事件流管理。
-- [Argo Events](https://argoproj.github.io/argo-events/)：一个事件驱动的 Kubernetes 工作流编排工具。
+- [CloudEvents](https://cloudevents.io/): Specification for interoperable event-driven systems.
+- [Apache EventMesh](https://eventmesh.apache.org/): Distributed event middleware supporting multiple messaging protocols and event stream management.
+- [Argo Events](https://argoproj.github.io/argo-events/): Event-driven workflow automation framework for Kubernetes.
 
-### Infrastructure as Code(IaC)
+### Infrastructure as Code (IaC)
 
-Infrastructure as Code，基础设施即代码，是通过代码而非手动流程来管理和配置基础设施的方法。
+Infrastructure as Code manages and provisions infrastructure through code instead of manual processes.
 
-- [Pulumi](https://github.com/pulumi/pulumi)：使用熟悉的语言在任何云上直观地构建基础设施，支持任何编程语言的 IaC 工具。
-- [OpenTofu](https://github.com/opentofu/opentofu)：开源 IaC 工具，OpenTofu 是由社区驱动的 Terraform 的一个分支，并由 Linux 基金会管理。
-- [Crossplane](https://github.com/crossplane/crossplane)：Crossplane 是一个开源的 Kubernetes 插件，它允许平台团队组装来自多个供应商的基础设施，并向应用程序团队公开更高级别的自助服务 API，而不需要编写任何代码。
-- [helmfile](https://github.com/helmfile)：Helmfile 是一个声明式 Helm Chart 编排和部署工具。
-- [sops](https://github.com/getsops/sops)：sops 是加密文件的编辑器，支持 YAML、JSON、ENV、INI 和 BINARY 格式，并可使用 AWS KMS、GCP KMS、Azure Key Vault、age 和 PGP 进行加密。
-- [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)：Sealed Secrets 以安全的方式提供声明式 Kubernetes 秘密管理。加密后存放到任何地方比如 Git，在 Kubernetes 集群中通过 Controller 自动解密。
-- [Terragrunt](https://github.com/gruntwork-io/terragrunt)：Terraform 的增强工具，提供 DRY 配置和远程状态管理。
-- [Checkov](https://github.com/bridgecrewio/checkov)：基础设施即代码静态分析工具，支持安全合规检查。
+- [Pulumi](https://github.com/pulumi/pulumi): IaC tool for building infrastructure on any cloud using familiar programming languages.
+- [OpenTofu](https://github.com/opentofu/opentofu): Community-driven Terraform fork governed by the Linux Foundation.
+- [Crossplane](https://github.com/crossplane/crossplane): Kubernetes add-on that lets platform teams compose infrastructure from multiple vendors and expose higher-level self-service APIs.
+- [helmfile](https://github.com/helmfile): Declarative tool for orchestrating and deploying Helm charts.
+- [sops](https://github.com/getsops/sops): Editor for encrypted YAML, JSON, ENV, INI, and binary files using AWS KMS, GCP KMS, Azure Key Vault, age, or PGP.
+- [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): Declarative Kubernetes secret management by encrypting secrets for safe storage in Git and decrypting them in-cluster.
+- [Terragrunt](https://github.com/gruntwork-io/terragrunt): Terraform wrapper for DRY configuration and remote state management.
+- [Checkov](https://github.com/bridgecrewio/checkov): Static analysis tool for Infrastructure as Code security and compliance.
 
-### Identity and Access Management(IAM)
+### Identity and Access Management (IAM)
 
-Trusting is hard. Knowing who to trust, even harder. 信任是困难的。知道该信任谁，更难。
+Trusting is hard. Knowing who to trust is even harder.
 
-- [keycloak](https://github.com/keycloak/keycloak)：keycloak 是一个开源的、面向现代应用和服务的 IAM 软件。
-- [zitadel](https://github.com/zitadel/zitadel)：zitadel 是一个开源的、面向现代应用和服务的 IAM 软件，主打简单。
-- [dexidp/dex](https://github.com/dexidp/dex)：插件化的 OpenID Connect (OIDC) 和 OAuth 2.0 提供商，主要是轻，很简单。
-- [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)：一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持简单的权限校验。
-- [pomerium](https://github.com/pomerium/pomerium)：一个轻量级 OAuth2 反向代理，支持 Google、Azure、OpenID Connect 和更多身份提供商的身份验证，同时支持相对复杂的权限校验。
-- [Casdoor](https://github.com/casdoor/casdoor)：开源身份管理平台，支持 OAuth 2.0/OIDC/SAML 协议。
+- [keycloak](https://github.com/keycloak/keycloak): Open-source IAM for modern applications and services.
+- [zitadel](https://github.com/zitadel/zitadel): Open-source IAM for modern applications and services, focused on simplicity.
+- [dexidp/dex](https://github.com/dexidp/dex): Lightweight pluggable OpenID Connect (OIDC) and OAuth 2.0 provider.
+- [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy): Lightweight OAuth2 reverse proxy for Google, Azure, OpenID Connect, and more, with simple authorization checks.
+- [pomerium](https://github.com/pomerium/pomerium): Identity-aware proxy with richer access-control capabilities.
+- [Casdoor](https://github.com/casdoor/casdoor): Open-source identity management platform supporting OAuth 2.0, OIDC, and SAML.
 
-### Internal Developer Platform(IDP)
+### Internal Developer Platform (IDP)
 
-内部开发者平台，不仅仅是一大堆工具的集合，不是再建一个管理平台 Console 或者 Dashboard。
+An internal developer platform is more than a pile of tools; it is not just another management console or dashboard.
 
-- [backstage](https://github.com/backstage/backstage)：Backstage 是一个构建开发者门户的开放平台，旨在帮助团队构建、部署和维护软件。
+- [backstage](https://github.com/backstage/backstage): Open platform for building developer portals that help teams build, deploy, and maintain software.
 
 ### IaaS Tools
 
-一些轻量级虚拟化工具，通过虚拟机协助搭建 K8S、容器云平台，便于日常调试。
+Lightweight virtualization tools useful for local Kubernetes and container-platform debugging.
 
-- [lima](https://github.com/lima-vm/lima)：Lima 能够运行具有自动文件共享和端口转发功能的 Linux 虚拟机，支持模拟异构虚拟机。
-- [multipass](https://github.com/canonical/multipass)：Ubuntu 出品轻量级虚拟化工具。
-- [Vagrant](https://github.com/hashicorp/vagrant)：跨平台虚拟机管理工具，支持多种虚拟化后端。
-- [Minikube](https://github.com/kubernetes/minikube)：本地 Kubernetes 集群部署工具。
+- [lima](https://github.com/lima-vm/lima): Linux virtual machines with automatic file sharing and port forwarding, including heterogeneous VM simulation.
+- [multipass](https://github.com/canonical/multipass): Lightweight virtualization tool from Ubuntu.
+- [Vagrant](https://github.com/hashicorp/vagrant): Cross-platform virtual machine management tool supporting multiple virtualization backends.
+- [Minikube](https://github.com/kubernetes/minikube): Local Kubernetes cluster deployment tool.
 
-### Tester Tools
+### Testing Tools
 
-专为测试人员准备的工具集。
+Tools for testing engineers and quality-focused platform teams.
 
-- [grafana/k6](https://github.com/grafana/k6)：使用 Go 和 JavaScript 的现代负载测试工具，也可以用来作为 API 管理和测试工具。
-- [googletest](https://github.com/google/googletest)：Google Testing and Mocking Framework。
-- [JMeter](https://github.com/apache/jmeter)：Java 编写的性能测试工具，支持多种协议。
-- [Selenium](https://github.com/SeleniumHQ/selenium)：浏览器自动化框架，支持 Web 应用测试。
+- [grafana/k6](https://github.com/grafana/k6): Modern load-testing tool using Go and JavaScript, also useful for API testing workflows.
+- [googletest](https://github.com/google/googletest): Google Testing and Mocking Framework.
+- [JMeter](https://github.com/apache/jmeter): Java-based performance testing tool supporting many protocols.
+- [Selenium](https://github.com/SeleniumHQ/selenium): Browser automation framework for web application testing.
 
 ## License
 
-本文档采用 [CC BY-NC 4.0][] 许可协议。
+This document is licensed under [CC BY-NC 4.0][].
 
 [CC BY-NC 4.0]: https://creativecommons.org/licenses/by-nc/4.0/
