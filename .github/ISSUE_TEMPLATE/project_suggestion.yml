@@ -1,0 +1,50 @@
+name: Suggest a project
+description: Suggest a production-grade open-source project for awesome-x-ops
+title: "[Project]: "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+      placeholder: e.g. Langfuse
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      placeholder: https://github.com/org/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - LLM and Agent Observability
+        - AIOps
+        - Agentic Workflow
+        - DataOps
+        - FinOps
+        - Observability
+        - Kubernetes Operations
+        - Security and Supply Chain
+        - Platform Engineering
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+      description: Explain why this project matters for production operations, platform engineering, or AI-native systems.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Maintenance or adoption evidence
+      description: Recent releases, active commits, community adoption, CNCF/Apache/Linux Foundation status, production usage, etc.
+    validations:
+      required: false
