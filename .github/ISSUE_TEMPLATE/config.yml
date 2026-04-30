@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Read the contribution guide
+    url: https://github.com/xlabs-club/awesome-x-ops/blob/main/CONTRIBUTING.md
+    about: Please check the curation rules before suggesting a project.

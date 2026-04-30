@@ -1,8 +1,35 @@
 # awesome-x-ops
 
-Awesome tools, projects, blogs, and companion technologies for AI, DataOps, DevOps, GitOps, FinOps, and Platform Engineering.
+A curated map of modern X-Ops: AI Ops, LLM/Agent Observability, Platform Engineering, GitOps, DataOps, FinOps, DevSecOps, and production-grade open-source operations tooling.
 
 Languages: English | [简体中文](README.zh-CN.md)
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+## Why awesome-x-ops?
+
+Operations work is no longer just infrastructure monitoring or CI/CD glue. Modern teams need a practical map across AI-native applications, LLM observability, platform engineering, software delivery, cloud cost, security, and developer experience.
+
+This list focuses on tools that help teams build, run, observe, secure, and optimize production systems.
+
+## Featured Maps
+
+- [LLM and Agent Observability Stack](#llm-and-agent-observability): tracing, prompt monitoring, evaluation, feedback, and production telemetry for LLM and agent systems.
+- [Platform Engineering Stack](#platform-engineering): internal developer platforms, IAM, IaC, artifacts, API tooling, CI/CD, and testing.
+- [GitOps and Kubernetes Operations Stack](#kubernetes-operations): cluster networking, autoscaling, deployment, and runtime operations.
+- [FinOps Stack](#finops): cloud and Kubernetes cost visibility, allocation, and forecasting.
+- [DevSecOps and Supply Chain Stack](#security-and-supply-chain): policy, runtime security, SBOM, scanning, and software supply-chain risk management.
+- [DataOps Stack](#dataops): dataflow, orchestration, and data asset lifecycle tooling.
+
+## Who is this for?
+
+- Platform engineering teams building internal developer platforms.
+- DevOps, SRE, and infrastructure teams modernizing operations stacks.
+- AI engineering teams operating LLM, RAG, and agent applications in production.
+- Engineering leaders looking for reliable open-source options before buying or building.
+- Open-source maintainers who want their production-grade operations tools to be discoverable.
 
 ## Curation Principles
 
@@ -11,6 +38,27 @@ Languages: English | [简体中文](README.zh-CN.md)
 - Include only proven, reliable, and high-quality projects.
 - Ignore duplicates or projects already covered by an equivalent entry.
 - Add or refine categories when useful, but avoid unrelated content.
+- Prefer production-grade open source over demos, abandoned experiments, or vendor-only marketing pages.
+
+## Growth and Contribution
+
+This project aims to become a practical open-source map for modern X-Ops. Contributions are welcome if they improve accuracy, coverage, or navigation without turning the list into a link dump.
+
+- Suggest a missing project via [Issues](https://github.com/xlabs-club/awesome-x-ops/issues).
+- Open a focused pull request using [CONTRIBUTING.md](CONTRIBUTING.md).
+- Keep descriptions short and explain why the project belongs in an operations/platform context.
+
+## LLM and Agent Observability
+
+Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent applications in production.
+
+- [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
+- [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based observability for LLM applications and agent workflows.
+- [Arize Phoenix](https://github.com/Arize-ai/phoenix): Open-source observability and evaluation platform for LLM, RAG, and ML systems.
+- [Helicone](https://github.com/Helicone/helicone): Open-source observability platform for LLM usage, latency, cost, caching, and request logs.
+- [DeepEval](https://github.com/confident-ai/deepeval): LLM evaluation framework for testing RAG, agents, and model outputs in CI or production workflows.
+- [Ragas](https://github.com/explodinggradients/ragas): Evaluation framework for RAG pipelines and LLM applications.
+- [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 
 ## AIOps
 
@@ -21,7 +69,7 @@ Languages: English | [简体中文](README.zh-CN.md)
 
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
-- [crewAI](https://github.com/joaomdmoura/crewAI): Framework for collaborative AI agents with role definition and task orchestration.
+- [crewAI](https://github.com/crewAIInc/crewAI): Framework for collaborative AI agents with role definition and task orchestration.
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [Flowise](https://github.com/FlowiseAI/Flowise): Low-code LLM workflow orchestration tool for visually building AI application chains.
 - [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
