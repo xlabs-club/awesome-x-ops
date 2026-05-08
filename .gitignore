@@ -12,3 +12,4 @@ pnpm-lock.yaml
 .vscode
 .impl
 *.log
+output/
