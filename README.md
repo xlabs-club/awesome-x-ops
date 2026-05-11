@@ -101,6 +101,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 - [Cilium](https://github.com/cilium/cilium): eBPF-based Kubernetes networking, security, and observability platform.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter): Flexible Kubernetes node autoscaler for improving cluster efficiency and workload scheduling.
+- [cert-manager](https://github.com/cert-manager/cert-manager): Kubernetes-native certificate management controller for issuing and renewing TLS certificates.
+- [External Secrets Operator](https://github.com/external-secrets/external-secrets): Kubernetes operator that syncs secrets from external secret managers into Kubernetes Secrets.
+- [KEDA](https://github.com/kedacore/keda): Kubernetes event-driven autoscaler for scaling workloads from external metrics and event sources.
 
 ## Security and Supply Chain
 
