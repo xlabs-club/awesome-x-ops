@@ -131,6 +131,7 @@ A curated technology stack and toolchain for platform engineering.
 ### CI/CD
 
 - [argo-workflows](https://github.com/argoproj/argo-workflows): Kubernetes-native workflow engine.
+- [Harness](https://github.com/harness/harness): Open-source end-to-end developer platform for source control, CI/CD pipelines, hosted development environments, and artifact registries.
 - [argo-cd](https://argo-cd.readthedocs.io/): Popular declarative GitOps CD tool for Kubernetes.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
 - [Apache Airflow](https://airflow.apache.org/): Open-source workflow orchestration platform for data pipelines.
