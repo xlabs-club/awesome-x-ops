@@ -131,6 +131,7 @@
 ### CI/CD
 
 - [argo-workflows](https://github.com/argoproj/argo-workflows)：Kubernetes 原生工作流引擎。
+- [Harness](https://github.com/harness/harness)：开源端到端开发者平台，支持源码管理、CI/CD 流水线、托管开发环境和制品仓库。
 - [argo-cd](https://argo-cd.readthedocs.io/)：流行的 Kubernetes 声明式 GitOps CD 工具。
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
 - [Apache Airflow](https://airflow.apache.org/)：开源工作流编排平台，常用于数据流水线。
