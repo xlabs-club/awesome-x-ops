@@ -84,6 +84,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 - [Dagster](https://dagster.io/): Data orchestration platform for modeling data assets and managing the data lifecycle.
 - [Apache NiFi](https://nifi.apache.org/): Visual dataflow orchestration for routing, transforming, and coordinating data across systems.
+- [DataHub](https://github.com/datahub-project/datahub): Metadata platform for data discovery, lineage, governance, and observability across modern data and AI stacks.
+- [Great Expectations](https://github.com/great-expectations/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
 
 ## FinOps
 
@@ -111,6 +113,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
 - [Kyverno](https://github.com/kyverno/kyverno): Kubernetes-native policy engine for validation, mutation, generation, and image verification.
+- [Syft](https://github.com/anchore/syft): CLI and library for generating SBOMs from container images and filesystems.
+- [Grype](https://github.com/anchore/grype): Vulnerability scanner for container images and filesystems that works well with Syft-generated SBOMs.
 
 ## Platform Engineering
 
