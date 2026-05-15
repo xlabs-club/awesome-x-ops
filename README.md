@@ -214,3 +214,5 @@ Tools for testing engineers and quality-focused platform teams.
 This document is licensed under [CC BY-NC 4.0][].
 
 [CC BY-NC 4.0]: https://creativecommons.org/licenses/by-nc/4.0/
+
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) - Real-time monitoring dashboard for OpenClaw AI agents. Track token usage, session status, and message trends.
