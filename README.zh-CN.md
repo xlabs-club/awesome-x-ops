@@ -57,9 +57,12 @@
 - [DeepEval](https://github.com/confident-ai/deepeval)：LLM 评估框架，适合在 CI 或生产流程中测试 RAG、Agent 和模型输出。
 - [Ragas](https://github.com/explodinggradients/ragas)：面向 RAG 流水线和 LLM 应用的评估框架。
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)：面向 LLM、RAG 和机器学习系统的开源可观测与评估平台。
+- [OpenInference](https://github.com/Arize-ai/openinference)：面向 LLM、RAG 和 Agent 应用的 OpenTelemetry 插桩与语义约定。
 - [OpenLLMetry](https://github.com/traceloop/openllmetry)：基于 OpenTelemetry 的 LLM 应用和 Agent 工作流可观测性工具。
 - [Helicone](https://github.com/Helicone/helicone)：开源 LLM 可观测平台，支持用量、延迟、成本、缓存和请求日志分析。
 - [OpenLIT](https://github.com/openlit/openlit)：基于 OpenTelemetry 的 AI 工程平台，支持 LLM 可观测性、评估、护栏、Prompt 管理和 GPU 监控。
+- [LangWatch](https://github.com/langwatch/langwatch)：开源平台，支持 LLM 监控、评估、链路追踪和 Agent 测试。
+- [promptfoo](https://github.com/promptfoo/promptfoo)：开源 CLI 与平台，用于 Prompt 测试、LLM 评估、红队测试和 CI/CD 回归检查。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
 
