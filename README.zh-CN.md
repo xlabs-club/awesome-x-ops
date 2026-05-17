@@ -62,6 +62,7 @@
 - [Helicone](https://github.com/Helicone/helicone)：开源 LLM 可观测平台，支持用量、延迟、成本、缓存和请求日志分析。
 - [OpenLIT](https://github.com/openlit/openlit)：基于 OpenTelemetry 的 AI 工程平台，支持 LLM 可观测性、评估、护栏、Prompt 管理和 GPU 监控。
 - [LangWatch](https://github.com/langwatch/langwatch)：开源平台，支持 LLM 监控、评估、链路追踪和 Agent 测试。
+- [Opik](https://github.com/comet-ml/opik)：开源平台，用于追踪、评估和监控 LLM 应用、RAG 系统与 Agent 工作流。
 - [promptfoo](https://github.com/promptfoo/promptfoo)：开源 CLI 与平台，用于 Prompt 测试、LLM 评估、红队测试和 CI/CD 回归检查。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
@@ -107,6 +108,8 @@
 - [Prometheus](https://github.com/prometheus/prometheus)：云原生广泛采用的监控系统和时序数据库，适用于指标采集与告警。
 - [Grafana Loki](https://github.com/grafana/loki)：面向标签索引设计的日志聚合系统，可与 Grafana 深度集成。
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)：厂商中立的遥测数据采集器，支持接收、处理和导出指标、日志与链路数据。
+- [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
+- [Parca](https://github.com/parca-dev/parca)：持续性能剖析平台，用于分析 CPU 和内存使用随时间的变化，提升性能、可靠性和基础设施效率。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -122,6 +125,7 @@
 - [Kyverno](https://github.com/kyverno/kyverno)：Kubernetes 原生策略引擎，支持校验、变更、生成和镜像验证。
 - [Syft](https://github.com/anchore/syft)：用于从容器镜像和文件系统生成 SBOM 的 CLI 与库。
 - [Grype](https://github.com/anchore/grype)：面向容器镜像和文件系统的漏洞扫描器，可与 Syft 生成的 SBOM 配合使用。
+- [Kubescape](https://github.com/kubescape/kubescape)：Kubernetes 安全平台，支持风险分析、合规、错误配置扫描，以及 CI/CD 或集群检查。
 
 ## Platform Engineering 平台工程
 
