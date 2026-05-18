@@ -130,6 +130,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Syft](https://github.com/anchore/syft): CLI and library for generating SBOMs from container images and filesystems.
 - [Grype](https://github.com/anchore/grype): Vulnerability scanner for container images and filesystems that works well with Syft-generated SBOMs.
 - [Kubescape](https://github.com/kubescape/kubescape): Kubernetes security platform for risk analysis, compliance, misconfiguration scanning, and CI/CD or cluster checks.
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ## Platform Engineering
 
