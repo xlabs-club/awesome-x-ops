@@ -110,14 +110,18 @@
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)：厂商中立的遥测数据采集器，支持接收、处理和导出指标、日志与链路数据。
 - [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
 - [Parca](https://github.com/parca-dev/parca)：持续性能剖析平台，用于分析 CPU 和内存使用随时间的变化，提升性能、可靠性和基础设施效率。
+- [Kepler](https://github.com/sustainable-computing-io/kepler)：Kubernetes 功耗与能耗 Exporter，用 Prometheus 衡量容器、Pod 和节点的能耗指标。
+- [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)：基于 eBPF 的检查工具集，用于采集 Kubernetes 与 Linux 的底层运维遥测。
 
 ## Kubernetes Operations Kubernetes 运维
 
 - [Cilium](https://github.com/cilium/cilium)：基于 eBPF 的 Kubernetes 网络、安全和可观测性平台。
+- [Headlamp](https://github.com/kubernetes-sigs/headlamp)：可扩展的 Kubernetes Web UI，用于集群可见性、资源管理和运维插件集成。
 - [cert-manager](https://github.com/cert-manager/cert-manager)：Kubernetes 原生证书管理控制器，用于签发和续期 TLS 证书。
 - [KEDA](https://github.com/kedacore/keda)：Kubernetes 事件驱动自动伸缩器，可基于外部指标和事件源扩缩容工作负载。
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets)：Kubernetes Operator，可将外部 Secret 管理系统中的密钥同步为 Kubernetes Secrets。
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter)：灵活的 Kubernetes 节点自动扩缩容工具，用于提升集群效率和调度效果。
+- [Capsule](https://github.com/projectcapsule/capsule)：Kubernetes 多租户框架，帮助平台团队通过策略化租户边界委派命名空间管理。
 
 ## Security and Supply Chain 安全与供应链
 
