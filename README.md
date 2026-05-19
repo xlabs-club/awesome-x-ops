@@ -112,6 +112,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Parca](https://github.com/parca-dev/parca): Continuous profiling platform for analyzing CPU and memory usage over time to improve performance, reliability, and infrastructure efficiency.
 - [Kepler](https://github.com/sustainable-computing-io/kepler): Kubernetes power and energy exporter for measuring container, pod, and node energy consumption with Prometheus.
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget): eBPF-based inspection toolkit for collecting low-level Kubernetes and Linux operational telemetry.
+- [Robusta](https://github.com/robusta-dev/robusta): Kubernetes alert enrichment and automation platform for Prometheus alerts, runbooks, and remediation workflows.
 
 ## Kubernetes Operations
 
@@ -122,6 +123,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets): Kubernetes operator that syncs secrets from external secret managers into Kubernetes Secrets.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter): Flexible Kubernetes node autoscaler for improving cluster efficiency and workload scheduling.
 - [Capsule](https://github.com/projectcapsule/capsule): Kubernetes multi-tenancy framework that lets platform teams delegate namespaces with policy-based tenant boundaries.
+- [vCluster](https://github.com/loft-sh/vcluster): Virtual Kubernetes clusters that run inside namespaces for multi-tenancy, isolation, and platform engineering workflows.
 
 ## Security and Supply Chain
 
@@ -184,6 +186,7 @@ Infrastructure as Code manages and provisions infrastructure through code instea
 - [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): Declarative Kubernetes secret management by encrypting secrets for safe storage in Git and decrypting them in-cluster.
 - [Checkov](https://github.com/bridgecrewio/checkov): Static analysis tool for Infrastructure as Code security and compliance.
 - [helmfile](https://github.com/helmfile): Declarative tool for orchestrating and deploying Helm charts.
+- [Atlantis](https://github.com/runatlantis/atlantis): Pull request automation for Terraform workflows, plans, applies, and collaborative infrastructure reviews.
 
 ### Identity and Access Management (IAM)
 
