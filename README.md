@@ -132,10 +132,13 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
 - [Kyverno](https://github.com/kyverno/kyverno): Kubernetes-native policy engine for validation, mutation, generation, and image verification.
+- [Open Policy Agent](https://github.com/open-policy-agent/opa): General-purpose policy engine for policy-as-code across Kubernetes, CI/CD, APIs, and infrastructure.
+- [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Kubernetes admission controller that enforces OPA policies and audit constraints across clusters.
 - [Syft](https://github.com/anchore/syft): CLI and library for generating SBOMs from container images and filesystems.
 - [Grype](https://github.com/anchore/grype): Vulnerability scanner for container images and filesystems that works well with Syft-generated SBOMs.
 - [Kubescape](https://github.com/kubescape/kubescape): Kubernetes security platform for risk analysis, compliance, misconfiguration scanning, and CI/CD or cluster checks.
 - [Gitleaks](https://github.com/gitleaks/gitleaks): Secrets scanner for detecting hardcoded credentials in Git repositories, files, and CI/CD workflows.
+- [KubeArmor](https://github.com/kubearmor/KubeArmor): Kubernetes runtime security enforcement system for least-privilege workload hardening with LSM-based policies.
 - [cosign](https://github.com/sigstore/cosign): Sigstore tool for signing and verifying container images, blobs, and software artifacts with transparency log support.
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator): GitHub Actions workflows for generating SLSA provenance for builds and release artifacts.
 
