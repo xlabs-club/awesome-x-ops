@@ -64,6 +64,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LangWatch](https://github.com/langwatch/langwatch): Open-source platform for LLM monitoring, evaluations, traces, and agent testing.
 - [Opik](https://github.com/comet-ml/opik): Open-source platform for tracing, evaluating, and monitoring LLM applications, RAG systems, and agent workflows.
 - [promptfoo](https://github.com/promptfoo/promptfoo): Open-source CLI and platform for prompt testing, LLM evaluations, red teaming, and CI/CD regression checks.
+- [Langtrace](https://github.com/Scale3-Labs/langtrace): OpenTelemetry-based observability platform for tracing, evaluating, and monitoring LLM applications.
+- [Future AGI](https://github.com/future-agi/future-agi): Self-hostable platform for evaluating, observing, and improving LLM and AI agent applications.
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
 
@@ -112,6 +114,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Parca](https://github.com/parca-dev/parca): Continuous profiling platform for analyzing CPU and memory usage over time to improve performance, reliability, and infrastructure efficiency.
 - [Kepler](https://github.com/sustainable-computing-io/kepler): Kubernetes power and energy exporter for measuring container, pod, and node energy consumption with Prometheus.
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget): eBPF-based inspection toolkit for collecting low-level Kubernetes and Linux operational telemetry.
+- [Robusta](https://github.com/robusta-dev/robusta): Kubernetes alert enrichment and automation platform for Prometheus alerts, runbooks, and remediation workflows.
 
 ## Kubernetes Operations
 
@@ -122,14 +125,22 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets): Kubernetes operator that syncs secrets from external secret managers into Kubernetes Secrets.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter): Flexible Kubernetes node autoscaler for improving cluster efficiency and workload scheduling.
 - [Capsule](https://github.com/projectcapsule/capsule): Kubernetes multi-tenancy framework that lets platform teams delegate namespaces with policy-based tenant boundaries.
+- [vCluster](https://github.com/loft-sh/vcluster): Virtual Kubernetes clusters that run inside namespaces for multi-tenancy, isolation, and platform engineering workflows.
+- [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
 
 ## Security and Supply Chain
 
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
 - [Kyverno](https://github.com/kyverno/kyverno): Kubernetes-native policy engine for validation, mutation, generation, and image verification.
+- [Open Policy Agent](https://github.com/open-policy-agent/opa): General-purpose policy engine for policy-as-code across Kubernetes, CI/CD, APIs, and infrastructure.
+- [Gatekeeper](https://github.com/open-policy-agent/gatekeeper): Kubernetes admission controller that enforces OPA policies and audit constraints across clusters.
 - [Syft](https://github.com/anchore/syft): CLI and library for generating SBOMs from container images and filesystems.
 - [Grype](https://github.com/anchore/grype): Vulnerability scanner for container images and filesystems that works well with Syft-generated SBOMs.
 - [Kubescape](https://github.com/kubescape/kubescape): Kubernetes security platform for risk analysis, compliance, misconfiguration scanning, and CI/CD or cluster checks.
+- [Gitleaks](https://github.com/gitleaks/gitleaks): Secrets scanner for detecting hardcoded credentials in Git repositories, files, and CI/CD workflows.
+- [KubeArmor](https://github.com/kubearmor/KubeArmor): Kubernetes runtime security enforcement system for least-privilege workload hardening with LSM-based policies.
+- [cosign](https://github.com/sigstore/cosign): Sigstore tool for signing and verifying container images, blobs, and software artifacts with transparency log support.
+- [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator): GitHub Actions workflows for generating SLSA provenance for builds and release artifacts.
 - [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ## Platform Engineering
@@ -185,6 +196,7 @@ Infrastructure as Code manages and provisions infrastructure through code instea
 - [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): Declarative Kubernetes secret management by encrypting secrets for safe storage in Git and decrypting them in-cluster.
 - [Checkov](https://github.com/bridgecrewio/checkov): Static analysis tool for Infrastructure as Code security and compliance.
 - [helmfile](https://github.com/helmfile): Declarative tool for orchestrating and deploying Helm charts.
+- [Atlantis](https://github.com/runatlantis/atlantis): Pull request automation for Terraform workflows, plans, applies, and collaborative infrastructure reviews.
 
 ### Identity and Access Management (IAM)
 
@@ -203,6 +215,7 @@ An internal developer platform is more than a pile of tools; it is not just anot
 
 - [backstage](https://github.com/backstage/backstage): Open platform for building developer portals that help teams build, deploy, and maintain software.
 - [OpenChoreo](https://github.com/openchoreo/openchoreo): Open-source developer platform for Kubernetes with a Backstage-powered portal, CI/CD, GitOps, observability, and platform abstractions.
+- [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
 
 ### IaaS Tools
 
