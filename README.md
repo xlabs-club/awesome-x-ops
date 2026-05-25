@@ -126,6 +126,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Velero](https://github.com/velero-io/velero): Kubernetes backup, restore, and migration tool for cluster resources and persistent volumes.
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets): Kubernetes operator that syncs secrets from external secret managers into Kubernetes Secrets.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter): Flexible Kubernetes node autoscaler for improving cluster efficiency and workload scheduling.
+- [Koordinator](https://github.com/koordinator-sh/koordinator): Kubernetes scheduling system for workload colocation, resource optimization, and cost-aware cluster operations.
 - [Capsule](https://github.com/projectcapsule/capsule): Kubernetes multi-tenancy framework that lets platform teams delegate namespaces with policy-based tenant boundaries.
 - [vCluster](https://github.com/loft-sh/vcluster): Virtual Kubernetes clusters that run inside namespaces for multi-tenancy, isolation, and platform engineering workflows.
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
@@ -166,6 +167,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Harness](https://github.com/harness/harness): Open-source end-to-end developer platform for source control, CI/CD pipelines, hosted development environments, and artifact registries.
 - [Jenkins](https://www.jenkins.io/): Open-source CI/CD automation server with a large plugin ecosystem.
 - [argo-cd](https://argo-cd.readthedocs.io/): Popular declarative GitOps CD tool for Kubernetes.
+- [Argo Rollouts](https://github.com/argoproj/argo-rollouts): Kubernetes progressive delivery controller for blue-green, canary, and experiment-based deployments.
 - [argo-workflows](https://github.com/argoproj/argo-workflows): Kubernetes-native workflow engine.
 - [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.

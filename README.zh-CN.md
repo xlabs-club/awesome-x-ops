@@ -126,6 +126,7 @@
 - [Velero](https://github.com/velero-io/velero)：Kubernetes 备份、恢复和迁移工具，支持集群资源与持久卷保护。
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets)：Kubernetes Operator，可将外部 Secret 管理系统中的密钥同步为 Kubernetes Secrets。
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter)：灵活的 Kubernetes 节点自动扩缩容工具，用于提升集群效率和调度效果。
+- [Koordinator](https://github.com/koordinator-sh/koordinator)：Kubernetes 调度系统，用于工作负载混部、资源优化和成本感知的集群运维。
 - [Capsule](https://github.com/projectcapsule/capsule)：Kubernetes 多租户框架，帮助平台团队通过策略化租户边界委派命名空间管理。
 - [vCluster](https://github.com/loft-sh/vcluster)：运行在命名空间内的虚拟 Kubernetes 集群，适合多租户、隔离和平台工程工作流。
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)：Kubernetes 原生混沌工程平台，用于在受控故障下测试系统韧性。
@@ -166,6 +167,7 @@
 - [Harness](https://github.com/harness/harness)：开源端到端开发者平台，支持源码管理、CI/CD 流水线、托管开发环境和制品仓库。
 - [Jenkins](https://www.jenkins.io/)：开源 CI/CD 自动化服务器，拥有丰富插件生态。
 - [argo-cd](https://argo-cd.readthedocs.io/)：流行的 Kubernetes 声明式 GitOps CD 工具。
+- [Argo Rollouts](https://github.com/argoproj/argo-rollouts)：Kubernetes 渐进式交付控制器，支持蓝绿发布、金丝雀发布和基于实验的部署。
 - [argo-workflows](https://github.com/argoproj/argo-workflows)：Kubernetes 原生工作流引擎。
 - [Tekton](https://tekton.dev/)：Kubernetes 原生 CI/CD 框架，提供灵活的任务编排能力。
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
