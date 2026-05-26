@@ -125,11 +125,13 @@
 - [KEDA](https://github.com/kedacore/keda)：Kubernetes 事件驱动自动伸缩器，可基于外部指标和事件源扩缩容工作负载。
 - [Velero](https://github.com/velero-io/velero)：Kubernetes 备份、恢复和迁移工具，支持集群资源与持久卷保护。
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets)：Kubernetes Operator，可将外部 Secret 管理系统中的密钥同步为 Kubernetes Secrets。
+- [Reloader](https://github.com/stakater/Reloader)：Kubernetes 控制器，可在引用的 ConfigMap 或 Secret 变更时触发工作负载滚动重启。
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter)：灵活的 Kubernetes 节点自动扩缩容工具，用于提升集群效率和调度效果。
 - [Koordinator](https://github.com/koordinator-sh/koordinator)：Kubernetes 调度系统，用于工作负载混部、资源优化和成本感知的集群运维。
 - [Capsule](https://github.com/projectcapsule/capsule)：Kubernetes 多租户框架，帮助平台团队通过策略化租户边界委派命名空间管理。
 - [vCluster](https://github.com/loft-sh/vcluster)：运行在命名空间内的虚拟 Kubernetes 集群，适合多租户、隔离和平台工程工作流。
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)：Kubernetes 原生混沌工程平台，用于在受控故障下测试系统韧性。
+- [Goldilocks](https://github.com/FairwindsOps/goldilocks)：Kubernetes 资源推荐仪表盘，基于 VPA 洞察帮助调优工作负载 requests 和 limits。
 
 ## Security and Supply Chain 安全与供应链
 
