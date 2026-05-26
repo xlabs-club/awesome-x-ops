@@ -125,11 +125,13 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [KEDA](https://github.com/kedacore/keda): Kubernetes event-driven autoscaler for scaling workloads from external metrics and event sources.
 - [Velero](https://github.com/velero-io/velero): Kubernetes backup, restore, and migration tool for cluster resources and persistent volumes.
 - [External Secrets Operator](https://github.com/external-secrets/external-secrets): Kubernetes operator that syncs secrets from external secret managers into Kubernetes Secrets.
+- [Reloader](https://github.com/stakater/Reloader): Kubernetes controller that triggers rolling workload restarts when referenced ConfigMaps or Secrets change.
 - [Karpenter](https://github.com/kubernetes-sigs/karpenter): Flexible Kubernetes node autoscaler for improving cluster efficiency and workload scheduling.
 - [Koordinator](https://github.com/koordinator-sh/koordinator): Kubernetes scheduling system for workload colocation, resource optimization, and cost-aware cluster operations.
 - [Capsule](https://github.com/projectcapsule/capsule): Kubernetes multi-tenancy framework that lets platform teams delegate namespaces with policy-based tenant boundaries.
 - [vCluster](https://github.com/loft-sh/vcluster): Virtual Kubernetes clusters that run inside namespaces for multi-tenancy, isolation, and platform engineering workflows.
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
+- [Goldilocks](https://github.com/FairwindsOps/goldilocks): Kubernetes resource recommendation dashboard that helps tune workload requests and limits from VPA insights.
 
 ## Security and Supply Chain
 
