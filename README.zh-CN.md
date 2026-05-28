@@ -91,11 +91,15 @@
 - [Dagster](https://dagster.io/)：数据编排平台，支持数据资产建模和全生命周期管理。
 - [Apache NiFi](https://nifi.apache.org/)：可视化数据流编排工具，支持数据路由、转换和系统间协调。
 - [DataHub](https://github.com/datahub-project/datahub)：面向现代数据与 AI 技术栈的元数据平台，支持数据发现、血缘、治理和可观测性。
+- [OpenMetadata](https://github.com/open-metadata/OpenMetadata)：统一元数据平台，支持数据发现、血缘、治理和数据可观测性。
 - [Great Expectations](https://github.com/great-expectations/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
+- [Soda Core](https://github.com/sodadata/soda-core)：面向现代数据栈的数据契约和质量检查引擎，用于验证数据流水线。
+- [Elementary](https://github.com/elementary-data/elementary)：dbt 原生数据可观测平台，用于监控流水线、测试、新鲜度和异常。
 
 ### Streaming Operations 流式数据运维
 
 - [Kafbat UI](https://github.com/kafbat/kafka-ui)：开源 Web UI，用于管理 Apache Kafka 集群、Topic、消费者、Schema 和 Kafka Connect。
+- [Apache SeaTunnel](https://github.com/apache/seatunnel)：分布式数据集成平台，适合大规模批处理和流式数据传输。
 
 ## FinOps
 

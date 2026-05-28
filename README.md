@@ -91,11 +91,15 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Dagster](https://dagster.io/): Data orchestration platform for modeling data assets and managing the data lifecycle.
 - [Apache NiFi](https://nifi.apache.org/): Visual dataflow orchestration for routing, transforming, and coordinating data across systems.
 - [DataHub](https://github.com/datahub-project/datahub): Metadata platform for data discovery, lineage, governance, and observability across modern data and AI stacks.
+- [OpenMetadata](https://github.com/open-metadata/OpenMetadata): Unified metadata platform for data discovery, lineage, governance, and data observability.
 - [Great Expectations](https://github.com/great-expectations/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
+- [Soda Core](https://github.com/sodadata/soda-core): Data contracts and quality checks engine for validating data pipelines in modern data stacks.
+- [Elementary](https://github.com/elementary-data/elementary): dbt-native data observability platform for monitoring pipelines, tests, freshness, and anomalies.
 
 ### Streaming Operations
 
 - [Kafbat UI](https://github.com/kafbat/kafka-ui): Open-source web UI for managing Apache Kafka clusters, topics, consumers, schemas, and Kafka Connect.
+- [Apache SeaTunnel](https://github.com/apache/seatunnel): Distributed data integration platform for high-volume batch and streaming data movement.
 
 ## FinOps
 
