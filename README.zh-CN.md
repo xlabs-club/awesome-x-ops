@@ -66,6 +66,8 @@
 - [promptfoo](https://github.com/promptfoo/promptfoo)：开源 CLI 与平台，用于 Prompt 测试、LLM 评估、红队测试和 CI/CD 回归检查。
 - [Langtrace](https://github.com/Scale3-Labs/langtrace)：基于 OpenTelemetry 的可观测平台，用于追踪、评估和监控 LLM 应用。
 - [Future AGI](https://github.com/future-agi/future-agi)：可自托管平台，用于评估、观测和改进 LLM 与 AI Agent 应用。
+- [CozeLoop](https://github.com/coze-dev/coze-loop)：AI Agent 优化平台，覆盖开发、调试、评估和生产监控流程。
+- [Agenta](https://github.com/Agenta-AI/agenta)：开源 LLMOps 平台，支持 Prompt 管理、调试 playground、评估和可观测性。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
 
@@ -150,6 +152,8 @@
 - [KubeArmor](https://github.com/kubearmor/KubeArmor)：Kubernetes 运行时安全加固系统，基于 LSM 策略实现最小权限工作负载防护。
 - [cosign](https://github.com/sigstore/cosign)：Sigstore 工具，用于签名和验证容器镜像、Blob 与软件制品，并支持透明日志。
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator)：用于在 GitHub Actions 中为构建和发布制品生成 SLSA provenance 的工作流。
+- [Chainloop](https://github.com/chainloop-dev/chainloop)：软件供应链控制平面，用于收集 SDLC 证据、attestation、SBOM、VEX、SARIF 和策略检查结果。
+- [SafeDep vet](https://github.com/safedep/vet)：基于 policy-as-code 的工具，用于发现恶意、有漏洞或高风险的开源依赖包。
 
 ## Platform Engineering 平台工程
 
