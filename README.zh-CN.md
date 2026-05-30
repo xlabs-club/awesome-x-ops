@@ -70,6 +70,9 @@
 - [Agenta](https://github.com/Agenta-AI/agenta)：开源 LLMOps 平台，支持 Prompt 管理、调试 playground、评估和可观测性。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
+- [TensorZero](https://github.com/tensorzero/tensorzero)：开源 LLMOps 平台，整合 LLM 网关、可观测性、评估、优化和实验能力。
+- [Evidently](https://github.com/evidentlyai/evidently)：开源 ML 与 LLM 可观测性框架，支持评估、测试、监控和数据质量检查。
+- [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
 
 ## AIOps 智能运维
 
