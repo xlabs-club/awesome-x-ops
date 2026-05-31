@@ -100,6 +100,8 @@
 - [Great Expectations](https://github.com/great-expectations/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
 - [Soda Core](https://github.com/sodadata/soda-core)：面向现代数据栈的数据契约和质量检查引擎，用于验证数据流水线。
 - [Elementary](https://github.com/elementary-data/elementary)：dbt 原生数据可观测平台，用于监控流水线、测试、新鲜度和异常。
+- [Temporal](https://github.com/temporalio/temporal)：持久化执行平台，用于构建可靠的工作流、后台任务和长周期业务流程。
+- [Kestra](https://github.com/kestra-io/kestra)：事件驱动的编排与调度平台，支持声明式数据、基础设施和运维工作流。
 
 ### Streaming Operations 流式数据运维
 
@@ -125,6 +127,7 @@
 - [Kepler](https://github.com/sustainable-computing-io/kepler)：Kubernetes 功耗与能耗 Exporter，用 Prometheus 衡量容器、Pod 和节点的能耗指标。
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)：基于 eBPF 的检查工具集，用于采集 Kubernetes 与 Linux 的底层运维遥测。
 - [Robusta](https://github.com/robusta-dev/robusta)：Kubernetes 告警增强与自动化平台，支持 Prometheus 告警、Runbook 和修复工作流。
+- [Coroot](https://github.com/coroot/coroot)：开源可观测性与 APM 平台，整合指标、日志、链路、性能剖析、SLO 和 AI 辅助根因分析。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -141,6 +144,7 @@
 - [vCluster](https://github.com/loft-sh/vcluster)：运行在命名空间内的虚拟 Kubernetes 集群，适合多租户、隔离和平台工程工作流。
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)：Kubernetes 原生混沌工程平台，用于在受控故障下测试系统韧性。
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks)：Kubernetes 资源推荐仪表盘，基于 VPA 洞察帮助调优工作负载 requests 和 limits。
+- [Glasskube](https://github.com/glasskube/glasskube)：Kubernetes 包管理器，提供 GUI 与 CLI，支持依赖感知和 GitOps 化的应用运维。
 
 ## Security and Supply Chain 安全与供应链
 
