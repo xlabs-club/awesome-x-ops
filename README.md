@@ -164,6 +164,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator): GitHub Actions workflows for generating SLSA provenance for builds and release artifacts.
 - [Chainloop](https://github.com/chainloop-dev/chainloop): Software supply-chain control plane for collecting SDLC evidence, attestations, SBOMs, VEX, SARIF, and policy checks.
 - [SafeDep vet](https://github.com/safedep/vet): Policy-as-code tool for detecting malicious, vulnerable, or risky open-source package dependencies.
+- [OSV-Scanner](https://github.com/google/osv-scanner): Vulnerability scanner that uses OSV.dev data to find known vulnerabilities across source, lockfiles, SBOMs, and container images.
+- [OpenSSF Scorecard](https://github.com/ossf/scorecard): Automated security health checker for open-source projects, covering dependency, CI/CD, branch protection, and vulnerability hygiene signals.
+- [GUAC](https://github.com/guacsec/guac): Software supply-chain graph that aggregates SBOMs, SLSA attestations, vulnerabilities, and dependency metadata for risk analysis.
 
 ## Platform Engineering
 

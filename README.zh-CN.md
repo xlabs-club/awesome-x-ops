@@ -164,6 +164,9 @@
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator)：用于在 GitHub Actions 中为构建和发布制品生成 SLSA provenance 的工作流。
 - [Chainloop](https://github.com/chainloop-dev/chainloop)：软件供应链控制平面，用于收集 SDLC 证据、attestation、SBOM、VEX、SARIF 和策略检查结果。
 - [SafeDep vet](https://github.com/safedep/vet)：基于 policy-as-code 的工具，用于发现恶意、有漏洞或高风险的开源依赖包。
+- [OSV-Scanner](https://github.com/google/osv-scanner)：使用 OSV.dev 数据的漏洞扫描器，可在源码、lockfile、SBOM 和容器镜像中发现已知漏洞。
+- [OpenSSF Scorecard](https://github.com/ossf/scorecard)：面向开源项目的自动化安全健康检查工具，覆盖依赖、CI/CD、分支保护和漏洞治理等信号。
+- [GUAC](https://github.com/guacsec/guac)：软件供应链图谱，可聚合 SBOM、SLSA attestation、漏洞和依赖元数据用于风险分析。
 
 ## Platform Engineering 平台工程
 
