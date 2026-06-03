@@ -159,6 +159,8 @@
 - [Grype](https://github.com/anchore/grype)：面向容器镜像和文件系统的漏洞扫描器，可与 Syft 生成的 SBOM 配合使用。
 - [Kubescape](https://github.com/kubescape/kubescape)：Kubernetes 安全平台，支持风险分析、合规、错误配置扫描，以及 CI/CD 或集群检查。
 - [Gitleaks](https://github.com/gitleaks/gitleaks)：Secret 扫描工具，用于在 Git 仓库、文件和 CI/CD 流程中发现硬编码凭据。
+- [TruffleHog](https://github.com/trufflesecurity/trufflehog)：Secret 扫描工具，可在 Git、文件系统、CI 日志和云端来源中发现、验证并分析泄露凭据。
+- [Prowler](https://github.com/prowler-cloud/prowler)：多云安全与合规平台，用于审计 AWS、Azure、GCP、Kubernetes 和 SaaS 环境。
 - [KubeArmor](https://github.com/kubearmor/KubeArmor)：Kubernetes 运行时安全加固系统，基于 LSM 策略实现最小权限工作负载防护。
 - [cosign](https://github.com/sigstore/cosign)：Sigstore 工具，用于签名和验证容器镜像、Blob 与软件制品，并支持透明日志。
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator)：用于在 GitHub Actions 中为构建和发布制品生成 SLSA provenance 的工作流。
