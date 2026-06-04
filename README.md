@@ -169,6 +169,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OSV-Scanner](https://github.com/google/osv-scanner): Vulnerability scanner that uses OSV.dev data to find known vulnerabilities across source, lockfiles, SBOMs, and container images.
 - [OpenSSF Scorecard](https://github.com/ossf/scorecard): Automated security health checker for open-source projects, covering dependency, CI/CD, branch protection, and vulnerability hygiene signals.
 - [GUAC](https://github.com/guacsec/guac): Software supply-chain graph that aggregates SBOMs, SLSA attestations, vulnerabilities, and dependency metadata for risk analysis.
+- [ORT](https://github.com/oss-review-toolkit/ort): Toolkit for automating open-source compliance checks across dependencies, licenses, copyrights, vulnerabilities, and SBOM generation.
+- [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli): Command-line tool for validating, converting, merging, and diffing CycloneDX SBOMs and related formats.
 
 ## Platform Engineering
 

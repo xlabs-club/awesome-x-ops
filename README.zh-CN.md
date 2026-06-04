@@ -169,6 +169,8 @@
 - [OSV-Scanner](https://github.com/google/osv-scanner)：使用 OSV.dev 数据的漏洞扫描器，可在源码、lockfile、SBOM 和容器镜像中发现已知漏洞。
 - [OpenSSF Scorecard](https://github.com/ossf/scorecard)：面向开源项目的自动化安全健康检查工具，覆盖依赖、CI/CD、分支保护和漏洞治理等信号。
 - [GUAC](https://github.com/guacsec/guac)：软件供应链图谱，可聚合 SBOM、SLSA attestation、漏洞和依赖元数据用于风险分析。
+- [ORT](https://github.com/oss-review-toolkit/ort)：用于自动化开源合规检查的工具集，覆盖依赖、License、版权、漏洞和 SBOM 生成。
+- [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)：用于校验、转换、合并和比对 CycloneDX SBOM 及相关格式的命令行工具。
 
 ## Platform Engineering 平台工程
 
