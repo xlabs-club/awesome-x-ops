@@ -148,6 +148,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks): Kubernetes resource recommendation dashboard that helps tune workload requests and limits from VPA insights.
 - [Glasskube](https://github.com/glasskube/glasskube): Kubernetes package manager with GUI and CLI support for dependency-aware, GitOps-ready application operations.
+- [Botkube](https://github.com/kubeshop/botkube): Kubernetes ChatOps assistant for monitoring clusters, surfacing events, and helping teams debug deployments.
+- [mirrord](https://github.com/metalbear-co/mirrord): Kubernetes development tool that lets local processes run with cluster networking, environment, and traffic context.
 
 ## Security and Supply Chain
 
@@ -162,6 +164,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): Secrets scanner that finds, verifies, and analyzes leaked credentials across Git, filesystems, CI logs, and cloud sources.
 - [Prowler](https://github.com/prowler-cloud/prowler): Multi-cloud security and compliance platform for auditing AWS, Azure, GCP, Kubernetes, and SaaS environments.
 - [KubeArmor](https://github.com/kubearmor/KubeArmor): Kubernetes runtime security enforcement system for least-privilege workload hardening with LSM-based policies.
+- [Kubewarden](https://github.com/kubewarden/adm-controller): Kubernetes admission policy engine that runs WebAssembly policies for policy-as-code governance.
 - [cosign](https://github.com/sigstore/cosign): Sigstore tool for signing and verifying container images, blobs, and software artifacts with transparency log support.
 - [SLSA GitHub Generator](https://github.com/slsa-framework/slsa-github-generator): GitHub Actions workflows for generating SLSA provenance for builds and release artifacts.
 - [Chainloop](https://github.com/chainloop-dev/chainloop): Software supply-chain control plane for collecting SDLC evidence, attestations, SBOMs, VEX, SARIF, and policy checks.
@@ -265,6 +268,7 @@ Tools for testing engineers and quality-focused platform teams.
 - [Selenium](https://github.com/SeleniumHQ/selenium): Browser automation framework for web application testing.
 - [grafana/k6](https://github.com/grafana/k6): Modern load-testing tool using Go and JavaScript, also useful for API testing workflows.
 - [JMeter](https://github.com/apache/jmeter): Java-based performance testing tool supporting many protocols.
+- [Tracetest](https://github.com/kubeshop/tracetest): OpenTelemetry-based trace testing tool for validating distributed workflows and observability instrumentation.
 
 ## License
 
