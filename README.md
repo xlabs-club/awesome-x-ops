@@ -90,6 +90,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LlamaIndex](https://github.com/run-llama/llama_index): Data framework for LLM applications, supporting structured data retrieval and augmentation.
 - [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
 - [BentoML](https://github.com/bentoml/BentoML): Open-source model serving platform for deploying models across frameworks and orchestrating AI applications.
+- [KnoxOps](https://knoxops.app/?invite_token=GITHUB26): AI-native ops agent for SREs — gives agents production execution power with safety guardrails, human review, and a built-in knowledge graph of your infrastructure.
 
 ## DataOps
 
