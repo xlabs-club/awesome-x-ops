@@ -90,6 +90,7 @@
 - [LlamaIndex](https://github.com/run-llama/llama_index)：LLM 数据框架，支持结构化数据检索和增强。
 - [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
 - [BentoML](https://github.com/bentoml/BentoML)：开源模型服务平台，支持多框架模型部署和 AI 应用编排。
+- [KnoxOps](https://knoxops.app/?invite_token=GITHUB26)：AI 原生的 SRE 运维智能体——在安全围栏内赋予 Agent 生产环境执行能力，强制人工审核，内置基础设施知识图谱。
 
 ## DataOps
 
