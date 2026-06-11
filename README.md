@@ -75,6 +75,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Agent AI observability and evaluation SDK for tracing, debugging, and monitoring multi-agent LLM systems.
 - [Pydantic Logfire](https://github.com/pydantic/logfire): AI observability platform for tracing and monitoring production LLM and agent systems.
 - [Laminar](https://github.com/lmnr-ai/lmnr): Open-source observability platform purpose-built for AI agents and LLM applications.
+- [MLflow](https://github.com/mlflow/mlflow): Open-source AI engineering platform for debugging, evaluating, monitoring, and optimizing agents, LLMs, and ML models.
 
 ## AIOps
 

@@ -75,6 +75,7 @@
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
 - [Pydantic Logfire](https://github.com/pydantic/logfire)：面向生产级 LLM 与 Agent 系统的 AI 可观测平台，用于链路追踪和监控。
 - [Laminar](https://github.com/lmnr-ai/lmnr)：专为 AI Agent 和 LLM 应用构建的开源可观测平台。
+- [MLflow](https://github.com/mlflow/mlflow)：开源 AI 工程平台，用于调试、评估、监控和优化 Agent、LLM 与机器学习模型。
 
 ## AIOps 智能运维
 
