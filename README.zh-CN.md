@@ -122,6 +122,10 @@
 ## Observability 可观测性
 
 - [Prometheus](https://github.com/prometheus/prometheus)：云原生广泛采用的监控系统和时序数据库，适用于指标采集与告警。
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)：高性能、成本友好的时序数据库和监控栈，适合大规模 Prometheus 兼容指标场景。
+- [Grafana Mimir](https://github.com/grafana/mimir)：可水平扩展、多租户的 Prometheus 指标长期存储后端。
+- [Grafana Tempo](https://github.com/grafana/tempo)：面向大规模链路数据的分布式追踪后端，以较低索引开销存储高容量 trace。
+- [Perses](https://github.com/perses/perses)：CNCF 可观测性可视化项目，用于基于 Prometheus、Tempo、Loki 等数据源构建仪表盘。
 - [Grafana Loki](https://github.com/grafana/loki)：面向标签索引设计的日志聚合系统，可与 Grafana 深度集成。
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)：厂商中立的遥测数据采集器，支持接收、处理和导出指标、日志与链路数据。
 - [SigNoz](https://github.com/SigNoz/signoz)：基于 OpenTelemetry 的开源可观测平台，整合指标、链路、日志、仪表盘和告警。

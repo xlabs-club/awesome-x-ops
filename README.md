@@ -122,6 +122,10 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 ## Observability
 
 - [Prometheus](https://github.com/prometheus/prometheus): Monitoring system and time-series database widely used for cloud-native metrics and alerting.
+- [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics): Fast, cost-efficient time-series database and monitoring stack for Prometheus-compatible metrics at scale.
+- [Grafana Mimir](https://github.com/grafana/mimir): Horizontally scalable, multi-tenant long-term storage backend for Prometheus metrics.
+- [Grafana Tempo](https://github.com/grafana/tempo): Distributed tracing backend for high-volume trace storage with minimal indexing overhead.
+- [Perses](https://github.com/perses/perses): CNCF observability visualization project for building dashboards across Prometheus, Tempo, Loki, and related data sources.
 - [Grafana Loki](https://github.com/grafana/loki): Log aggregation system designed to index labels efficiently and integrate with Grafana.
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector): Vendor-neutral collector for receiving, processing, and exporting telemetry data.
 - [SigNoz](https://github.com/SigNoz/signoz): OpenTelemetry-native observability platform combining metrics, traces, logs, dashboards, and alerts.
