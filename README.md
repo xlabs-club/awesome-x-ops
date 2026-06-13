@@ -80,6 +80,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 ## AIOps
 
 - [Netdata](https://github.com/netdata/netdata): Distributed real-time monitoring for infrastructure metrics, visualization, and alerting.
+- [Apache HertzBeat](https://github.com/apache/hertzbeat): Apache real-time observability and monitoring system with agentless collection, alerting, status pages, and AI-assisted operations.
 - [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
 
 ## Agentic Workflow
