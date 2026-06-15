@@ -259,7 +259,9 @@ Trusting is hard. Knowing who to trust is even harder.
 An internal developer platform is more than a pile of tools; it is not just another management console or dashboard.
 
 - [backstage](https://github.com/backstage/backstage): Open platform for building developer portals that help teams build, deploy, and maintain software.
+- [Kratix](https://github.com/syntasso/kratix): Framework for building platform APIs that let teams compose and operate internal platforms on Kubernetes.
 - [OpenChoreo](https://github.com/openchoreo/openchoreo): Open-source developer platform for Kubernetes with a Backstage-powered portal, CI/CD, GitOps, observability, and platform abstractions.
+- [Score](https://github.com/score-spec/spec): Platform-agnostic workload specification for describing services once and generating environment-specific platform configuration.
 - [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
 
 ### IaaS Tools
