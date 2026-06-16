@@ -85,6 +85,7 @@
 - [Netdata](https://github.com/netdata/netdata)：分布式实时监控系统，提供基础设施指标收集、可视化和告警功能。
 - [Apache HertzBeat](https://github.com/apache/hertzbeat)：Apache 实时可观测与监控系统，支持无 Agent 采集、告警、状态页和 AI 辅助运维。
 - [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
+- [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
 
 ## Agentic Workflow 智能体工作流
 
@@ -121,6 +122,7 @@
 - [kubecost](https://kubecost.com/)：Kubernetes 成本管理与监控工具。
 - [OpenCost](https://opencost.io/)：开源工具，用于跟踪和分摊 Kubernetes 环境中的云成本。
 - [OptScale](https://github.com/hystax/optscale)：开源 FinOps 与云成本优化平台，支持 AWS、Azure、GCP、阿里云和 Kubernetes。
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)：基于 policy-as-code 的云治理和成本优化规则引擎，支持自动化资源处置。
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
 
 ## Observability 可观测性

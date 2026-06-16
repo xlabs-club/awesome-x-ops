@@ -85,6 +85,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Netdata](https://github.com/netdata/netdata): Distributed real-time monitoring for infrastructure metrics, visualization, and alerting.
 - [Apache HertzBeat](https://github.com/apache/hertzbeat): Apache real-time observability and monitoring system with agentless collection, alerting, status pages, and AI-assisted operations.
 - [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
+- [SREWorks](https://github.com/alibaba/SREWorks): Cloud-native DataOps and AIOps platform for operating Kubernetes-based applications and infrastructure.
 
 ## Agentic Workflow
 
@@ -121,6 +122,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [kubecost](https://kubecost.com/): Kubernetes cost management and monitoring platform.
 - [OpenCost](https://opencost.io/): Open-source tool for tracking and allocating cloud costs in Kubernetes environments.
 - [OptScale](https://github.com/hystax/optscale): Open-source FinOps and cloud cost optimization platform for AWS, Azure, GCP, Alibaba Cloud, and Kubernetes.
+- [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Policy-as-code rules engine for cloud governance, cost optimization, and automated resource actions.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Observability
