@@ -187,6 +187,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [GUAC](https://github.com/guacsec/guac): Software supply-chain graph that aggregates SBOMs, SLSA attestations, vulnerabilities, and dependency metadata for risk analysis.
 - [ORT](https://github.com/oss-review-toolkit/ort): Toolkit for automating open-source compliance checks across dependencies, licenses, copyrights, vulnerabilities, and SBOM generation.
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli): Command-line tool for validating, converting, merging, and diffing CycloneDX SBOMs and related formats.
+- [Dependency-Track](https://github.com/DependencyTrack/dependency-track): Component analysis platform for tracking SBOMs, vulnerabilities, licenses, and software supply-chain risk.
 
 ## Platform Engineering
 

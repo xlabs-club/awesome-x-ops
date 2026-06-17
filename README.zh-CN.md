@@ -187,6 +187,7 @@
 - [GUAC](https://github.com/guacsec/guac)：软件供应链图谱，可聚合 SBOM、SLSA attestation、漏洞和依赖元数据用于风险分析。
 - [ORT](https://github.com/oss-review-toolkit/ort)：用于自动化开源合规检查的工具集，覆盖依赖、License、版权、漏洞和 SBOM 生成。
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)：用于校验、转换、合并和比对 CycloneDX SBOM 及相关格式的命令行工具。
+- [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：组件分析平台，用于跟踪 SBOM、漏洞、License 和软件供应链风险。
 
 ## Platform Engineering 平台工程
 
