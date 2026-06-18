@@ -108,6 +108,8 @@
 - [Great Expectations](https://github.com/great-expectations/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
 - [Soda Core](https://github.com/sodadata/soda-core)：面向现代数据栈的数据契约和质量检查引擎，用于验证数据流水线。
 - [Elementary](https://github.com/elementary-data/elementary)：dbt 原生数据可观测平台，用于监控流水线、测试、新鲜度和异常。
+- [OpenLineage](https://github.com/OpenLineage/OpenLineage)：用于在数据流水线和平台之间采集血缘元数据的开放标准与工具集。
+- [Marquez](https://github.com/MarquezProject/marquez)：元数据服务，用于采集、聚合并可视化作业和数据集之间的数据血缘。
 - [Temporal](https://github.com/temporalio/temporal)：持久化执行平台，用于构建可靠的工作流、后台任务和长周期业务流程。
 - [Kestra](https://github.com/kestra-io/kestra)：事件驱动的编排与调度平台，支持声明式数据、基础设施和运维工作流。
 
