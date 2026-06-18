@@ -108,6 +108,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Great Expectations](https://github.com/great-expectations/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
 - [Soda Core](https://github.com/sodadata/soda-core): Data contracts and quality checks engine for validating data pipelines in modern data stacks.
 - [Elementary](https://github.com/elementary-data/elementary): dbt-native data observability platform for monitoring pipelines, tests, freshness, and anomalies.
+- [OpenLineage](https://github.com/OpenLineage/OpenLineage): Open standard and tooling for collecting lineage metadata across data pipelines and platforms.
+- [Marquez](https://github.com/MarquezProject/marquez): Metadata service for collecting, aggregating, and visualizing data lineage across jobs and datasets.
 - [Temporal](https://github.com/temporalio/temporal): Durable execution platform for building reliable workflows, background jobs, and long-running business processes.
 - [Kestra](https://github.com/kestra-io/kestra): Event-driven orchestration and scheduling platform for declarative data, infrastructure, and operational workflows.
 
