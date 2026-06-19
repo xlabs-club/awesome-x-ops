@@ -165,6 +165,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Glasskube](https://github.com/glasskube/glasskube): Kubernetes package manager with GUI and CLI support for dependency-aware, GitOps-ready application operations.
 - [Botkube](https://github.com/kubeshop/botkube): Kubernetes ChatOps assistant for monitoring clusters, surfacing events, and helping teams debug deployments.
 - [mirrord](https://github.com/metalbear-co/mirrord): Kubernetes development tool that lets local processes run with cluster networking, environment, and traffic context.
+- [OpenKruise](https://github.com/openkruise/kruise): CNCF Kubernetes workload automation suite for advanced application deployment, scaling, and lifecycle management.
 
 ## Security and Supply Chain
 
@@ -266,6 +267,7 @@ An internal developer platform is more than a pile of tools; it is not just anot
 - [backstage](https://github.com/backstage/backstage): Open platform for building developer portals that help teams build, deploy, and maintain software.
 - [Kratix](https://github.com/syntasso/kratix): Framework for building platform APIs that let teams compose and operate internal platforms on Kubernetes.
 - [OpenChoreo](https://github.com/openchoreo/openchoreo): Open-source developer platform for Kubernetes with a Backstage-powered portal, CI/CD, GitOps, observability, and platform abstractions.
+- [KubeVela](https://github.com/kubevela/kubevela): CNCF application delivery platform for managing Kubernetes workloads across hybrid and multi-cluster environments.
 - [Score](https://github.com/score-spec/spec): Platform-agnostic workload specification for describing services once and generating environment-specific platform configuration.
 - [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
 
