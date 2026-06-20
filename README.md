@@ -166,6 +166,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Botkube](https://github.com/kubeshop/botkube): Kubernetes ChatOps assistant for monitoring clusters, surfacing events, and helping teams debug deployments.
 - [mirrord](https://github.com/metalbear-co/mirrord): Kubernetes development tool that lets local processes run with cluster networking, environment, and traffic context.
 - [OpenKruise](https://github.com/openkruise/kruise): CNCF Kubernetes workload automation suite for advanced application deployment, scaling, and lifecycle management.
+- [kOps](https://github.com/kubernetes/kops): Production-grade Kubernetes cluster lifecycle tool for installation, upgrades, and operations across cloud environments.
+- [KubeOne](https://github.com/kubermatic/kubeone): Kubernetes cluster lifecycle management tool for automating operations across cloud, on-prem, edge, and IoT environments.
 
 ## Security and Supply Chain
 
@@ -218,6 +220,7 @@ A curated technology stack and toolchain for platform engineering.
 - [argo-workflows](https://github.com/argoproj/argo-workflows): Kubernetes-native workflow engine.
 - [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
+- [PipeCD](https://github.com/pipe-cd/pipecd): CNCF continuous delivery platform for applications, infrastructure, and platform operations across multiple deployment targets.
 
 ### Code Service
 
