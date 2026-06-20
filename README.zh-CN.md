@@ -166,6 +166,8 @@
 - [Botkube](https://github.com/kubeshop/botkube)：Kubernetes ChatOps 助手，用于监控集群、暴露事件并帮助团队调试部署。
 - [mirrord](https://github.com/metalbear-co/mirrord)：Kubernetes 开发工具，让本地进程使用集群网络、环境变量和流量上下文运行。
 - [OpenKruise](https://github.com/openkruise/kruise)：CNCF Kubernetes 工作负载自动化套件，支持高级应用部署、弹性伸缩和生命周期管理。
+- [kOps](https://github.com/kubernetes/kops)：生产级 Kubernetes 集群生命周期工具，支持跨云环境的安装、升级和运维。
+- [KubeOne](https://github.com/kubermatic/kubeone)：Kubernetes 集群生命周期管理工具，用于自动化云端、本地、边缘和 IoT 环境的集群运维。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -218,6 +220,7 @@
 - [argo-workflows](https://github.com/argoproj/argo-workflows)：Kubernetes 原生工作流引擎。
 - [Tekton](https://tekton.dev/)：Kubernetes 原生 CI/CD 框架，提供灵活的任务编排能力。
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
+- [PipeCD](https://github.com/pipe-cd/pipecd)：CNCF 持续交付平台，支持跨多种部署目标管理应用、基础设施和平台运维。
 
 ### Code Service 代码服务
 
