@@ -238,6 +238,11 @@
 - [Argo Events](https://argoproj.github.io/argo-events/)：Kubernetes 事件驱动工作流自动化框架。
 - [Apache EventMesh](https://eventmesh.apache.org/)：分布式事件中间件，支持多种消息协议和事件流管理。
 
+### Feature Management and Experimentation 特性管理与实验
+
+- [GrowthBook](https://github.com/growthbook/growthbook)：开源特性开关、实验和产品分析平台，用于更安全的渐进式交付。
+- [Flagsmith](https://github.com/Flagsmith/flagsmith)：开源特性开关与远程配置服务，支持自托管或托管模式下的发布控制。
+
 ### Infrastructure as Code (IaC)
 
 Infrastructure as Code，基础设施即代码，是通过代码而非手动流程来管理和配置基础设施的方法。

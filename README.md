@@ -238,6 +238,11 @@ A curated technology stack and toolchain for platform engineering.
 - [Argo Events](https://argoproj.github.io/argo-events/): Event-driven workflow automation framework for Kubernetes.
 - [Apache EventMesh](https://eventmesh.apache.org/): Distributed event middleware supporting multiple messaging protocols and event stream management.
 
+### Feature Management and Experimentation
+
+- [GrowthBook](https://github.com/growthbook/growthbook): Open-source feature flagging, experimentation, and product analytics platform for safer progressive delivery.
+- [Flagsmith](https://github.com/Flagsmith/flagsmith): Open-source feature flag and remote configuration service for self-hosted or managed release control.
+
 ### Infrastructure as Code (IaC)
 
 Infrastructure as Code manages and provisions infrastructure through code instead of manual processes.
