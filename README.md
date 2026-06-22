@@ -80,6 +80,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Giskard](https://github.com/Giskard-AI/giskard-oss): Open-source evaluation and testing framework for LLM applications and AI agents.
 - [ZenML](https://github.com/zenml-io/zenml): AI platform for production ML, LLM, and agent pipelines with orchestration, tracking, and deployment workflows.
 - [Guardrails](https://github.com/guardrails-ai/guardrails): Framework for validating LLM outputs and enforcing safety, quality, and structured response checks.
+- [Plano](https://github.com/katanemo/plano): AI-native proxy and data plane for agentic applications with routing, safety, orchestration, and observability.
+- [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 
 ## AIOps
 
@@ -99,6 +101,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LlamaIndex](https://github.com/run-llama/llama_index): Data framework for LLM applications, supporting structured data retrieval and augmentation.
 - [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
 - [BentoML](https://github.com/bentoml/BentoML): Open-source model serving platform for deploying models across frameworks and orchestrating AI applications.
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go): Go framework for production agent systems with graph workflows, tools, memory, evaluation, and observability.
 
 ## DataOps
 

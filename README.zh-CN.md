@@ -80,6 +80,8 @@
 - [Giskard](https://github.com/Giskard-AI/giskard-oss)：面向 LLM 应用和 AI Agent 的开源评估与测试框架。
 - [ZenML](https://github.com/zenml-io/zenml)：面向生产级 ML、LLM 和 Agent 流水线的 AI 平台，支持编排、追踪和部署工作流。
 - [Guardrails](https://github.com/guardrails-ai/guardrails)：用于校验 LLM 输出并执行安全、质量和结构化响应检查的框架。
+- [Plano](https://github.com/katanemo/plano)：面向 Agent 应用的 AI 原生代理与数据平面，支持路由、安全、编排和可观测性。
+- [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 
 ## AIOps 智能运维
 
@@ -99,6 +101,7 @@
 - [LlamaIndex](https://github.com/run-llama/llama_index)：LLM 数据框架，支持结构化数据检索和增强。
 - [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
 - [BentoML](https://github.com/bentoml/BentoML)：开源模型服务平台，支持多框架模型部署和 AI 应用编排。
+- [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)：用于构建生产级 Agent 系统的 Go 框架，支持图工作流、工具、记忆、评估和可观测性。
 
 ## DataOps
 
