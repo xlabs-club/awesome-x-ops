@@ -82,6 +82,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Guardrails](https://github.com/guardrails-ai/guardrails): Framework for validating LLM outputs and enforcing safety, quality, and structured response checks.
 - [Plano](https://github.com/katanemo/plano): AI-native proxy and data plane for agentic applications with routing, safety, orchestration, and observability.
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
+- [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
+- [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
 
 ## AIOps
 

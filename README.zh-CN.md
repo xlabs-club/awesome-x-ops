@@ -82,6 +82,8 @@
 - [Guardrails](https://github.com/guardrails-ai/guardrails)：用于校验 LLM 输出并执行安全、质量和结构化响应检查的框架。
 - [Plano](https://github.com/katanemo/plano)：面向 Agent 应用的 AI 原生代理与数据平面，支持路由、安全、编排和可观测性。
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
+- [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
+- [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
 
 ## AIOps 智能运维
 
