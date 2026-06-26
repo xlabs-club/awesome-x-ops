@@ -17,7 +17,7 @@
 ## 精选地图
 
 - [LLM 和 Agent 可观测性栈](#llm-和-agent-可观测性)：面向 LLM 与 Agent 系统的追踪、Prompt 监控、评估、反馈和生产遥测。
-- [AI 数据与搜索基础设施](#ai-数据与搜索基础设施)：Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集。
+- [AI 基础设施](#ai-基础设施)：Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集。
 - [平台工程栈](#platform-engineering-平台工程)：内部开发者平台、IAM、IaC、制品、API 工具、CI/CD 和测试。
 - [GitOps 与 Kubernetes 运维栈](#kubernetes-operations-kubernetes-运维)：集群网络、弹性伸缩、部署和运行时运维。
 - [FinOps 栈](#finops)：云和 Kubernetes 成本可见性、分摊与预测。
@@ -96,7 +96,7 @@
 - [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
 - [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
 
-## AI 数据与搜索基础设施
+## AI 基础设施
 
 用于 Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集工作流的基础设施。
 
