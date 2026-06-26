@@ -17,6 +17,7 @@
 ## 精选地图
 
 - [LLM 和 Agent 可观测性栈](#llm-和-agent-可观测性)：面向 LLM 与 Agent 系统的追踪、Prompt 监控、评估、反馈和生产遥测。
+- [AI 数据与搜索基础设施](#ai-数据与搜索基础设施)：Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集。
 - [平台工程栈](#platform-engineering-平台工程)：内部开发者平台、IAM、IaC、制品、API 工具、CI/CD 和测试。
 - [GitOps 与 Kubernetes 运维栈](#kubernetes-operations-kubernetes-运维)：集群网络、弹性伸缩、部署和运行时运维。
 - [FinOps 栈](#finops)：云和 Kubernetes 成本可见性、分摊与预测。
@@ -94,6 +95,14 @@
 - [Apache HertzBeat](https://github.com/apache/hertzbeat)：Apache 实时可观测与监控系统，支持无 Agent 采集、告警、状态页和 AI 辅助运维。
 - [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
 - [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
+
+## AI 数据与搜索基础设施
+
+用于 Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集工作流的基础设施。
+
+- [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
+- [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
+- [Open SEO](https://github.com/every-app/open-seo)：开源 SEO 与搜索情报平台，支持关键词研究、站点审计、反向链接分析和 Google Search Console MCP 工作流。
 
 ## Agentic Workflow 智能体工作流
 
