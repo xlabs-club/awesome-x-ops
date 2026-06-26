@@ -17,7 +17,7 @@ This list focuses on tools that help teams build, run, observe, secure, and opti
 ## Featured Maps
 
 - [LLM and Agent Observability Stack](#llm-and-agent-observability): tracing, prompt monitoring, evaluation, feedback, and production telemetry for LLM and agent systems.
-- [AI Data and Search Infrastructure](#ai-data-and-search-infrastructure): web crawling, AI-ready extraction, search intelligence, and RAG data acquisition.
+- [AI Infrastructure](#ai-infrastructure): web crawling, AI-ready extraction, search intelligence, and RAG data acquisition.
 - [Platform Engineering Stack](#platform-engineering): internal developer platforms, IAM, IaC, artifacts, API tooling, CI/CD, and testing.
 - [GitOps and Kubernetes Operations Stack](#kubernetes-operations): cluster networking, autoscaling, deployment, and runtime operations.
 - [FinOps Stack](#finops): cloud and Kubernetes cost visibility, allocation, and forecasting.
@@ -96,7 +96,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
 - [SREWorks](https://github.com/alibaba/SREWorks): Cloud-native DataOps and AIOps platform for operating Kubernetes-based applications and infrastructure.
 
-## AI Data and Search Infrastructure
+## AI Infrastructure
 
 Infrastructure for web crawling, AI-ready extraction, search intelligence, and RAG data acquisition workflows.
 
