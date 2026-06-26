@@ -86,6 +86,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
 - [OpenObserve](https://github.com/openobserve/openobserve): Open-source observability platform for logs, metrics, traces, frontend monitoring, pipelines, and LLM observability.
+- [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
 
 ## AIOps
 

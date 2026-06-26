@@ -86,6 +86,7 @@
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
+- [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
 
 ## AIOps 智能运维
 
