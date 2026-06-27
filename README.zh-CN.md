@@ -88,6 +88,10 @@
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
+- [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
+- [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
+- [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
+- [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 
 ## AIOps 智能运维
 
