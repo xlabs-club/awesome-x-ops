@@ -92,6 +92,8 @@
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
+- [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway)：用于运维 MCP Server 的反向代理与管理层，支持会话感知路由和 Kubernetes 生命周期管理。
+- [CoAI](https://github.com/coaidev/coai)：多租户 AI 平台，提供统一 LLM 网关、供应商路由、成本管理、计费和模型缓存，适合企业级部署。
 
 ## AIOps 智能运维
 
