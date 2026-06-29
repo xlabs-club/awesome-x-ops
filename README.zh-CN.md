@@ -95,6 +95,15 @@
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway)：用于运维 MCP Server 的反向代理与管理层，支持会话感知路由和 Kubernetes 生命周期管理。
 - [CoAI](https://github.com/coaidev/coai)：多租户 AI 平台，提供统一 LLM 网关、供应商路由、成本管理、计费和模型缓存，适合企业级部署。
 
+## AI Serving and Inference Operations AI 推理服务运维
+
+用于在生产环境部署、扩缩容、路由和运维 AI 模型推理负载的工具。
+
+- [Ray Serve](https://github.com/ray-project/ray)：Ray 中的可扩展模型服务库，用于构建分布式在线推理 API 和 LLM 服务负载。
+- [Triton Inference Server](https://github.com/triton-inference-server/server)：优化的推理服务器，用于在 GPU、CPU、云端和边缘环境部署 AI 模型。
+- [KServe](https://github.com/kserve/kserve)：Kubernetes 原生平台，用于标准化、可扩展地服务生成式和预测式 AI 推理。
+- [AIBrix](https://github.com/vllm-project/aibrix)：云原生基础设施组件，用于高性价比、可扩展地运维 GenAI 和 LLM 推理。
+
 ## AIOps 智能运维
 
 - [Netdata](https://github.com/netdata/netdata)：分布式实时监控系统，提供基础设施指标收集、可视化和告警功能。
