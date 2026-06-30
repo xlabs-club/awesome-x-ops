@@ -90,8 +90,10 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit for adding programmable safety, dialog, and policy guardrails to LLM-based conversational systems.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama): Meta's open trust and safety toolkit for evaluating and filtering LLM inputs, outputs, and model risks.
+- [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
+- [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway): Reverse proxy and management layer for operating MCP servers with session-aware routing and Kubernetes lifecycle support.
 - [CoAI](https://github.com/coaidev/coai): Multi-tenant AI platform with a unified LLM gateway, provider routing, cost management, billing, and model cache for enterprise deployments.
 

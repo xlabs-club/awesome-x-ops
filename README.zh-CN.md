@@ -90,8 +90,10 @@
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
+- [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
+- [OneAIFW](https://github.com/funstory-ai/aifw)：轻量级本地 AI 防火墙，可在调用 LLM 前匿名化敏感数据，并在响应后还原。
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway)：用于运维 MCP Server 的反向代理与管理层，支持会话感知路由和 Kubernetes 生命周期管理。
 - [CoAI](https://github.com/coaidev/coai)：多租户 AI 平台，提供统一 LLM 网关、供应商路由、成本管理、计费和模型缓存，适合企业级部署。
 
