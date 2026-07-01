@@ -93,6 +93,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
+- [Inference Gateway](https://github.com/inference-gateway/inference-gateway): Cloud-native LLM gateway for unifying providers, routing inference traffic, and exposing OpenTelemetry-friendly operations on Kubernetes.
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway): Reverse proxy and management layer for operating MCP servers with session-aware routing and Kubernetes lifecycle support.
 - [CoAI](https://github.com/coaidev/coai): Multi-tenant AI platform with a unified LLM gateway, provider routing, cost management, billing, and model cache for enterprise deployments.
