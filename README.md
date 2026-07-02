@@ -106,6 +106,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Triton Inference Server](https://github.com/triton-inference-server/server): Optimized inference server for deploying AI models across GPUs, CPUs, and cloud or edge environments.
 - [KServe](https://github.com/kserve/kserve): Kubernetes-native platform for standardized, scalable generative and predictive AI inference serving.
 - [AIBrix](https://github.com/vllm-project/aibrix): Cloud-native infrastructure components for cost-efficient, scalable GenAI and LLM inference operations.
+- [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
+- [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
 
 ## AIOps
 
