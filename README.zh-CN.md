@@ -108,6 +108,8 @@
 - [AIBrix](https://github.com/vllm-project/aibrix)：云原生基础设施组件，用于高性价比、可扩展地运维 GenAI 和 LLM 推理。
 - [Dynamo](https://github.com/ai-dynamo/dynamo)：面向数据中心规模 LLM 与生成式 AI 负载的分布式推理服务框架，支持 Kubernetes 场景下的路由和扩缩容。
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
+- [llm-d](https://github.com/llm-d/llm-d)：Kubernetes 原生分布式推理栈，面向现代加速器上的高性能 LLM 服务和智能路由。
+- [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes AI 推理 Operator，用 OpenAI 兼容 API 服务 LLM、VLM、Embedding 和语音模型。
 
 ## AIOps 智能运维
 
