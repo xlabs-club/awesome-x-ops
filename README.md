@@ -108,6 +108,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [AIBrix](https://github.com/vllm-project/aibrix): Cloud-native infrastructure components for cost-efficient, scalable GenAI and LLM inference operations.
 - [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
 - [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
+- [llm-d](https://github.com/llm-d/llm-d): Kubernetes-native distributed inference stack for high-performance LLM serving with intelligent routing on modern accelerators.
+- [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes AI inference operator for serving LLMs, VLMs, embeddings, and speech models with OpenAI-compatible APIs.
 
 ## AIOps
 
