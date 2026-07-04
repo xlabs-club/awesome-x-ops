@@ -91,6 +91,7 @@
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
+- [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway)：云原生 LLM 网关，用于统一模型供应商、路由推理流量，并在 Kubernetes 上提供 OpenTelemetry 友好的运维能力。
@@ -110,6 +111,8 @@
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
 - [llm-d](https://github.com/llm-d/llm-d)：Kubernetes 原生分布式推理栈，面向现代加速器上的高性能 LLM 服务和智能路由。
 - [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes AI 推理 Operator，用 OpenAI 兼容 API 服务 LLM、VLM、Embedding 和语音模型。
+- [SkyPilot](https://github.com/skypilot-org/skypilot)：面向多云与 Kubernetes 的控制平面，用于在异构 GPU 基础设施上运行、扩缩容和管理 AI 工作负载。
+- [KubeRay](https://github.com/ray-project/kuberay)：Kubernetes Operator 与工具集，用于部署和管理 Ray 集群及分布式 AI 工作负载。
 
 ## AIOps 智能运维
 
