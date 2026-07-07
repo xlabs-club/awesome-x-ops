@@ -93,6 +93,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner for probing prompt injection, jailbreaks, data leakage, hallucination, and other generative AI risks.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
+- [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway): Cloud-native LLM gateway for unifying providers, routing inference traffic, and exposing OpenTelemetry-friendly operations on Kubernetes.
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
@@ -113,6 +114,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes AI inference operator for serving LLMs, VLMs, embeddings, and speech models with OpenAI-compatible APIs.
 - [SkyPilot](https://github.com/skypilot-org/skypilot): Multi-cloud and Kubernetes control plane for running, scaling, and managing AI workloads across heterogeneous GPU infrastructure.
 - [KubeRay](https://github.com/ray-project/kuberay): Kubernetes operator and toolkit for deploying and managing Ray clusters and distributed AI workloads.
+- [SGLang](https://github.com/sgl-project/sglang): High-performance serving framework for large language models and multimodal models with efficient attention and structured outputs.
+- [vLLM](https://github.com/vllm-project/vllm): High-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and quantization.
 
 ## AIOps
 
@@ -168,6 +171,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [OpenCost](https://opencost.io/): Open-source tool for tracking and allocating cloud costs in Kubernetes environments.
 - [OptScale](https://github.com/hystax/optscale): Open-source FinOps and cloud cost optimization platform for AWS, Azure, GCP, Alibaba Cloud, and Kubernetes.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Policy-as-code rules engine for cloud governance, cost optimization, and automated resource actions.
+- [OpenMeter](https://github.com/openmeterio/openmeter): Open-source metering and billing for AI, API, and DevOps with real-time usage aggregation and usage-based pricing.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Observability
