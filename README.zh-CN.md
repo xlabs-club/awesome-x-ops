@@ -78,6 +78,7 @@
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
 - [Pydantic Logfire](https://github.com/pydantic/logfire)：面向生产级 LLM 与 Agent 系统的 AI 可观测平台，用于链路追踪和监控。
 - [Laminar](https://github.com/lmnr-ai/lmnr)：专为 AI Agent 和 LLM 应用构建的开源可观测平台。
+- [whylogs](https://github.com/whylabs/whylogs)：开源数据日志库，用于 ML 和 LLM 数据画像、漂移检测和生产流水线遥测监控。
 - [MLflow](https://github.com/mlflow/mlflow)：开源 AI 工程平台，用于调试、评估、监控和优化 Agent、LLM 与机器学习模型。
 - [Giskard](https://github.com/Giskard-AI/giskard-oss)：面向 LLM 应用和 AI Agent 的开源评估与测试框架。
 - [ZenML](https://github.com/zenml-io/zenml)：面向生产级 ML、LLM 和 Agent 流水线的 AI 平台，支持编排、追踪和部署工作流。
@@ -138,6 +139,10 @@
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
 - [Open SEO](https://github.com/every-app/open-seo)：开源 SEO 与搜索情报平台，支持关键词研究、站点审计、反向链接分析和 Google Search Console MCP 工作流。
+- [Milvus](https://github.com/milvus-io/milvus)：云原生向量数据库，支持十亿级相似度搜索和非结构化数据检索，适用于 RAG 和 AI 流水线。
+- [Qdrant](https://github.com/qdrant/qdrant)：高性能向量搜索引擎，支持丰富过滤、负载存储和生产级扩展，适用于 AI 应用。
+- [Chroma](https://github.com/chroma-core/chroma)：以 Embedding 为优先的向量数据库，支持简单的本地开发和客户端-服务端部署，用于构建 LLM 应用。
+- [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
 
 ## LLM 知识库
 
@@ -161,6 +166,7 @@
 - [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
 - [BentoML](https://github.com/bentoml/BentoML)：开源模型服务平台，支持多框架模型部署和 AI 应用编排。
 - [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)：用于构建生产级 Agent 系统的 Go 框架，支持图工作流、工具、记忆、评估和可观测性。
+- [LangGraph](https://github.com/langchain-ai/langgraph)：用于构建有状态多 Actor Agent 的框架，支持图编排、持久化和人机协作工作流。
 
 ## DataOps
 
@@ -233,6 +239,7 @@
 - [OpenKruise](https://github.com/openkruise/kruise)：CNCF Kubernetes 工作负载自动化套件，支持高级应用部署、弹性伸缩和生命周期管理。
 - [kOps](https://github.com/kubernetes/kops)：生产级 Kubernetes 集群生命周期工具，支持跨云环境的安装、升级和运维。
 - [KubeOne](https://github.com/kubermatic/kubeone)：Kubernetes 集群生命周期管理工具，用于自动化云端、本地、边缘和 IoT 环境的集群运维。
+- [Tilt](https://github.com/tilt-dev/tilt)：本地 Kubernetes 开发工具，支持多服务微服务的实时更新和声明式开发环境配置。
 
 ## Security and Supply Chain 安全与供应链
 
