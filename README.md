@@ -78,6 +78,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Agent AI observability and evaluation SDK for tracing, debugging, and monitoring multi-agent LLM systems.
 - [Pydantic Logfire](https://github.com/pydantic/logfire): AI observability platform for tracing and monitoring production LLM and agent systems.
 - [Laminar](https://github.com/lmnr-ai/lmnr): Open-source observability platform purpose-built for AI agents and LLM applications.
+- [whylogs](https://github.com/whylabs/whylogs): Open-source data logging library for profiling ML and LLM data quality, drift detection, and telemetry monitoring in production pipelines.
 - [MLflow](https://github.com/mlflow/mlflow): Open-source AI engineering platform for debugging, evaluating, monitoring, and optimizing agents, LLMs, and ML models.
 - [Giskard](https://github.com/Giskard-AI/giskard-oss): Open-source evaluation and testing framework for LLM applications and AI agents.
 - [ZenML](https://github.com/zenml-io/zenml): AI platform for production ML, LLM, and agent pipelines with orchestration, tracking, and deployment workflows.
@@ -138,6 +139,10 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
 - [Open SEO](https://github.com/every-app/open-seo): Open-source SEO and search intelligence platform for keyword research, site audits, backlink analysis, and Google Search Console MCP workflows.
+- [Milvus](https://github.com/milvus-io/milvus): Cloud-native vector database for billion-scale similarity search and unstructured data retrieval in RAG and AI pipelines.
+- [Qdrant](https://github.com/qdrant/qdrant): High-performance vector search engine with rich filtering, payload storage, and production-ready scalability for AI applications.
+- [Chroma](https://github.com/chroma-core/chroma): Embedding-first vector database for building LLM applications with simple local development and client-server deployment.
+- [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
 
 ## LLM Knowledge
 
@@ -161,6 +166,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
 - [BentoML](https://github.com/bentoml/BentoML): Open-source model serving platform for deploying models across frameworks and orchestrating AI applications.
 - [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go): Go framework for production agent systems with graph workflows, tools, memory, evaluation, and observability.
+- [LangGraph](https://github.com/langchain-ai/langgraph): Framework for building stateful, multi-actor agents with graph-based orchestration, persistence, and human-in-the-loop workflows.
 
 ## DataOps
 
@@ -233,6 +239,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenKruise](https://github.com/openkruise/kruise): CNCF Kubernetes workload automation suite for advanced application deployment, scaling, and lifecycle management.
 - [kOps](https://github.com/kubernetes/kops): Production-grade Kubernetes cluster lifecycle tool for installation, upgrades, and operations across cloud environments.
 - [KubeOne](https://github.com/kubermatic/kubeone): Kubernetes cluster lifecycle management tool for automating operations across cloud, on-prem, edge, and IoT environments.
+- [Tilt](https://github.com/tilt-dev/tilt): Local Kubernetes development tool for multi-service microservices with live updates and declarative dev environment configuration.
 
 ## Security and Supply Chain
 
