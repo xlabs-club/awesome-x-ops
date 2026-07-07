@@ -95,6 +95,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner for probing prompt injection, jailbreaks, data leakage, hallucination, and other generative AI risks.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
+- [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
@@ -120,6 +121,9 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [KubeRay](https://github.com/ray-project/kuberay): Kubernetes operator and toolkit for deploying and managing Ray clusters and distributed AI workloads.
 - [SGLang](https://github.com/sgl-project/sglang): High-performance serving framework for large language models and multimodal models with efficient attention and structured outputs.
 - [vLLM](https://github.com/vllm-project/vllm): High-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and quantization.
+- [Ollama](https://github.com/ollama/ollama): Local-first LLM runner for getting started quickly with models locally, on edge, or in development environments.
+- [llama.cpp](https://github.com/ggml-org/llama.cpp): High-performance C/C++ LLM inference engine with quantization, powering many local and server-side AI backends.
+- [LoRAX](https://github.com/predibase/lorax): Multi-LoRA inference server for hosting thousands of fine-tuned LLMs on shared base model infrastructure.
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator): Kubernetes operator for automating NVIDIA GPU driver installation, configuration, and lifecycle management.
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit): Build and run GPU-accelerated containers with NVIDIA CUDA support in Docker and Kubernetes environments.
 - [Volcano](https://github.com/volcano-sh/volcano): CNCF batch scheduling system for AI/ML, big data, and HPC workloads with gang scheduling, queue management, and fair-share policies.
@@ -143,6 +147,10 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Qdrant](https://github.com/qdrant/qdrant): High-performance vector search engine with rich filtering, payload storage, and production-ready scalability for AI applications.
 - [Chroma](https://github.com/chroma-core/chroma): Embedding-first vector database for building LLM applications with simple local development and client-server deployment.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
+- [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
+- [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
+- [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
+- [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
 
 ## LLM Knowledge
 
@@ -153,6 +161,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): Local-first document chat and agent platform that turns any document into a context-aware LLM knowledge base.
 - [WeKnora](https://github.com/Tencent/WeKnora): Open-source LLM knowledge platform that turns raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB): Open-source enterprise platform for building knowledge base agents with RAG, multi-model support, and visual workflow design.
+- [GraphRAG](https://github.com/microsoft/graphrag): Microsoft's modular graph-based RAG system for extracting knowledge graphs from documents and improving retrieval quality.
 
 ## Agentic Workflow
 
@@ -181,6 +190,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Marquez](https://github.com/MarquezProject/marquez): Metadata service for collecting, aggregating, and visualizing data lineage across jobs and datasets.
 - [Temporal](https://github.com/temporalio/temporal): Durable execution platform for building reliable workflows, background jobs, and long-running business processes.
 - [Kestra](https://github.com/kestra-io/kestra): Event-driven orchestration and scheduling platform for declarative data, infrastructure, and operational workflows.
+- [n8n](https://github.com/n8n-io/n8n): Fair-code workflow automation platform with native AI capabilities for connecting services and building automated data and ops pipelines.
 
 ### Streaming Operations
 
