@@ -17,6 +17,7 @@ This list focuses on tools that help teams build, run, observe, secure, and opti
 ## Featured Maps
 
 - [LLM and Agent Observability Stack](#llm-and-agent-observability): tracing, prompt monitoring, evaluation, feedback, and production telemetry for LLM and agent systems.
+- [LLM Knowledge](#llm-knowledge): open-source platforms for turning documents into RAG knowledge bases, autonomous reasoning agents, and self-maintaining wikis.
 - [AI Infrastructure](#ai-infrastructure): web crawling, AI-ready extraction, search intelligence, and RAG data acquisition.
 - [Platform Engineering Stack](#platform-engineering): internal developer platforms, IAM, IaC, artifacts, API tooling, CI/CD, and testing.
 - [GitOps and Kubernetes Operations Stack](#kubernetes-operations): cluster networking, autoscaling, deployment, and runtime operations.
@@ -131,6 +132,16 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
 - [Open SEO](https://github.com/every-app/open-seo): Open-source SEO and search intelligence platform for keyword research, site audits, backlink analysis, and Google Search Console MCP workflows.
+
+## LLM Knowledge
+
+Open-source platforms for building, managing, and querying LLM-powered knowledge bases from unstructured documents.
+
+- [RAGFlow](https://github.com/infiniflow/ragflow): Leading open-source RAG engine that combines deep document understanding, knowledge base management, and agent capabilities for enterprise knowledge workflows.
+- [FastGPT](https://github.com/labring/FastGPT): Knowledge-based LLM application platform with out-of-the-box data processing, model invocation, RAG, and visual workflow orchestration.
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): Local-first document chat and agent platform that turns any document into a context-aware LLM knowledge base.
+- [WeKnora](https://github.com/Tencent/WeKnora): Open-source LLM knowledge platform that turns raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
+- [MaxKB](https://github.com/1Panel-dev/MaxKB): Open-source enterprise platform for building knowledge base agents with RAG, multi-model support, and visual workflow design.
 
 ## Agentic Workflow
 
@@ -268,6 +279,10 @@ A curated technology stack and toolchain for platform engineering.
 - [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
 - [PipeCD](https://github.com/pipe-cd/pipecd): CNCF continuous delivery platform for applications, infrastructure, and platform operations across multiple deployment targets.
+
+### Code Search and Understanding
+
+- [sourcebot](https://github.com/sourcebot-dev/sourcebot): Self-hosted code search and understanding tool for humans and AI agents to navigate, query, and comprehend large codebases.
 
 ### Code Service
 

@@ -17,6 +17,7 @@
 ## 精选地图
 
 - [LLM 和 Agent 可观测性栈](#llm-和-agent-可观测性)：面向 LLM 与 Agent 系统的追踪、Prompt 监控、评估、反馈和生产遥测。
+- [LLM 知识库](#llm-知识库)：将文档转化为 RAG 知识库、自主推理 Agent 和自维护 Wiki 的开源平台。
 - [AI 基础设施](#ai-基础设施)：Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集。
 - [平台工程栈](#platform-engineering-平台工程)：内部开发者平台、IAM、IaC、制品、API 工具、CI/CD 和测试。
 - [GitOps 与 Kubernetes 运维栈](#kubernetes-operations-kubernetes-运维)：集群网络、弹性伸缩、部署和运行时运维。
@@ -131,6 +132,16 @@
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
 - [Open SEO](https://github.com/every-app/open-seo)：开源 SEO 与搜索情报平台，支持关键词研究、站点审计、反向链接分析和 Google Search Console MCP 工作流。
+
+## LLM 知识库
+
+用于从非结构化文档构建、管理和查询 LLM 知识库的开源平台。
+
+- [RAGFlow](https://github.com/infiniflow/ragflow)：领先的开源 RAG 引擎，融合深度文档理解、知识库管理和 Agent 能力，适合企业知识工作流。
+- [FastGPT](https://github.com/labring/FastGPT)：基于 LLM 的知识库应用平台，提供开箱即用的数据处理、模型调用、RAG 和可视化工作流编排。
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)：本地优先的文档对话和 Agent 平台，可将任意文档转化为上下文感知的 LLM 知识库。
+- [WeKnora](https://github.com/Tencent/WeKnora)：开源 LLM 知识平台，可将原始文档转化为可查询的 RAG、自主推理 Agent 和自维护 Wiki。
+- [MaxKB](https://github.com/1Panel-dev/MaxKB)：开源企业级智能体平台，支持基于知识库的 RAG、多模型接入和可视化工作流设计。
 
 ## Agentic Workflow 智能体工作流
 
@@ -268,6 +279,10 @@
 - [Tekton](https://tekton.dev/)：Kubernetes 原生 CI/CD 框架，提供灵活的任务编排能力。
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
 - [PipeCD](https://github.com/pipe-cd/pipecd)：CNCF 持续交付平台，支持跨多种部署目标管理应用、基础设施和平台运维。
+
+### Code Search and Understanding 代码搜索与理解
+
+- [sourcebot](https://github.com/sourcebot-dev/sourcebot)：自托管的代码搜索与理解工具，帮助人类和 AI Agent 导航、查询和理解大型代码库。
 
 ### Code Service 代码服务
 
