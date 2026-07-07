@@ -95,6 +95,7 @@
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
 - [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
+- [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
@@ -120,6 +121,9 @@
 - [KubeRay](https://github.com/ray-project/kuberay)：Kubernetes Operator 与工具集，用于部署和管理 Ray 集群及分布式 AI 工作负载。
 - [SGLang](https://github.com/sgl-project/sglang)：高性能 LLM 与多模态模型推理服务框架，支持高效注意力机制和结构化输出。
 - [vLLM](https://github.com/vllm-project/vllm)：高吞吐、内存高效的 LLM 推理与服务引擎，支持连续批处理与量化。
+- [Ollama](https://github.com/ollama/ollama)：本地优先的 LLM 运行工具，适合在本地、边缘或开发环境中快速上手模型推理。
+- [llama.cpp](https://github.com/ggml-org/llama.cpp)：高性能 C/C++ LLM 推理引擎，支持量化，为众多本地和服务端 AI 后端提供基础能力。
+- [LoRAX](https://github.com/predibase/lorax)：多 LoRA 推理服务器，可在共享基座模型基础设施上托管数千个微调 LLM。
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator)：Kubernetes Operator，用于自动化 NVIDIA GPU 驱动安装、配置和生命周期管理。
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)：在 Docker 和 Kubernetes 环境中构建和运行支持 NVIDIA CUDA 的 GPU 加速容器。
 - [Volcano](https://github.com/volcano-sh/volcano)：CNCF 批调度系统，用于 AI/ML、大数据和 HPC 工作负载，支持 Gang 调度、队列管理和公平份额策略。
@@ -143,6 +147,10 @@
 - [Qdrant](https://github.com/qdrant/qdrant)：高性能向量搜索引擎，支持丰富过滤、负载存储和生产级扩展，适用于 AI 应用。
 - [Chroma](https://github.com/chroma-core/chroma)：以 Embedding 为优先的向量数据库，支持简单的本地开发和客户端-服务端部署，用于构建 LLM 应用。
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
+- [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
+- [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
+- [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
+- [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
 
 ## LLM 知识库
 
@@ -153,6 +161,7 @@
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)：本地优先的文档对话和 Agent 平台，可将任意文档转化为上下文感知的 LLM 知识库。
 - [WeKnora](https://github.com/Tencent/WeKnora)：开源 LLM 知识平台，可将原始文档转化为可查询的 RAG、自主推理 Agent 和自维护 Wiki。
 - [MaxKB](https://github.com/1Panel-dev/MaxKB)：开源企业级智能体平台，支持基于知识库的 RAG、多模型接入和可视化工作流设计。
+- [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
 
 ## Agentic Workflow 智能体工作流
 
@@ -181,6 +190,7 @@
 - [Marquez](https://github.com/MarquezProject/marquez)：元数据服务，用于采集、聚合并可视化作业和数据集之间的数据血缘。
 - [Temporal](https://github.com/temporalio/temporal)：持久化执行平台，用于构建可靠的工作流、后台任务和长周期业务流程。
 - [Kestra](https://github.com/kestra-io/kestra)：事件驱动的编排与调度平台，支持声明式数据、基础设施和运维工作流。
+- [n8n](https://github.com/n8n-io/n8n)：公平代码的工作流自动化平台，内置 AI 能力，用于连接服务并构建自动化数据和运维流水线。
 
 ### Streaming Operations 流式数据运维
 
