@@ -151,6 +151,8 @@
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
 - [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
+- [Feast](https://github.com/feast-dev/feast)：面向 AI/ML 的开源特征存储，可在模型训练和在线推理中一致地提供特征数据。
+- [Instructor](https://github.com/567-labs/instructor)：面向 LLM 的结构化输出工具，基于 Pydantic 校验，支持自动重试和跨供应商统一 API。
 
 ## LLM 知识库
 
@@ -162,6 +164,7 @@
 - [WeKnora](https://github.com/Tencent/WeKnora)：开源 LLM 知识平台，可将原始文档转化为可查询的 RAG、自主推理 Agent 和自维护 Wiki。
 - [MaxKB](https://github.com/1Panel-dev/MaxKB)：开源企业级智能体平台，支持基于知识库的 RAG、多模型接入和可视化工作流设计。
 - [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
+- [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
 
 ## Agentic Workflow 智能体工作流
 
@@ -176,6 +179,8 @@
 - [BentoML](https://github.com/bentoml/BentoML)：开源模型服务平台，支持多框架模型部署和 AI 应用编排。
 - [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go)：用于构建生产级 Agent 系统的 Go 框架，支持图工作流、工具、记忆、评估和可观测性。
 - [LangGraph](https://github.com/langchain-ai/langgraph)：用于构建有状态多 Actor Agent 的框架，支持图编排、持久化和人机协作工作流。
+- [DSPy](https://github.com/stanfordnlp/dspy)：用于编程而非提示 LLM 的框架，支持模块化 AI 系统构建和 Prompt 自动优化算法。
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai)：类型安全的 Python Agent 框架，支持模型无关、结构化输出、评估、MCP 集成和持久化执行。
 
 ## DataOps
 
@@ -191,6 +196,8 @@
 - [Temporal](https://github.com/temporalio/temporal)：持久化执行平台，用于构建可靠的工作流、后台任务和长周期业务流程。
 - [Kestra](https://github.com/kestra-io/kestra)：事件驱动的编排与调度平台，支持声明式数据、基础设施和运维工作流。
 - [n8n](https://github.com/n8n-io/n8n)：公平代码的工作流自动化平台，内置 AI 能力，用于连接服务并构建自动化数据和运维流水线。
+- [dbt](https://github.com/dbt-labs/dbt-core)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
+- [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
 
 ### Streaming Operations 流式数据运维
 
