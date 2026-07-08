@@ -97,6 +97,7 @@
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
+- [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
@@ -106,6 +107,7 @@
 - [CoAI](https://github.com/coaidev/coai)：多租户 AI 平台，提供统一 LLM 网关、供应商路由、成本管理、计费和模型缓存，适合企业级部署。
 - [Kong](https://github.com/Kong/kong)：云原生 API、LLM 和 MCP 网关，支持高级 AI 流量管理、多供应商路由、语义安全和丰富的插件生态。
 - [Apache APISIX](https://github.com/apache/apisix)：Apache 动态 API 和 AI 网关，支持 LLM 代理、Token 限流、MCP bridge 和基于插件的 AI 流量管控。
+- [LangKit](https://github.com/whylabs/langkit)：开源 LLM 监控工具包，可从 Prompt 和响应中提取信号，包括文本质量、相关性、情感分析和 Prompt 注入检测。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -237,6 +239,7 @@
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)：基于 eBPF 的检查工具集，用于采集 Kubernetes 与 Linux 的底层运维遥测。
 - [Robusta](https://github.com/robusta-dev/robusta)：Kubernetes 告警增强与自动化平台，支持 Prometheus 告警、Runbook 和修复工作流。
 - [Coroot](https://github.com/coroot/coroot)：开源可观测性与 APM 平台，整合指标、日志、链路、性能剖析、SLO 和 AI 辅助根因分析。
+- [Pyrra](https://github.com/pyrra-dev/pyrra)：面向 Prometheus 的 SLO 管理工具，让服务等级目标更易访问、可操作和团队使用。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -261,10 +264,14 @@
 - [kOps](https://github.com/kubernetes/kops)：生产级 Kubernetes 集群生命周期工具，支持跨云环境的安装、升级和运维。
 - [KubeOne](https://github.com/kubermatic/kubeone)：Kubernetes 集群生命周期管理工具，用于自动化云端、本地、边缘和 IoT 环境的集群运维。
 - [Tilt](https://github.com/tilt-dev/tilt)：本地 Kubernetes 开发工具，支持多服务微服务的实时更新和声明式开发环境配置。
+- [k3s](https://github.com/k3s-io/k3s)：轻量级 Kubernetes 发行版，专为边缘、IoT、CI 和资源受限环境设计。
+- [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
+- [Talos Linux](https://github.com/siderolabs/talos)：专为 Kubernetes 构建的现代 Linux 发行版，支持 API 驱动配置、不可变根文件系统和零接触 provisioning。
 
 ## Security and Supply Chain 安全与供应链
 
 - [Falco](https://github.com/falcosecurity/falco)：CNCF 运行时安全工具，用于检测容器和 Kubernetes 中的可疑行为。
+- [Tetragon](https://github.com/cilium/tetragon)：基于 eBPF 的安全可观测与运行时执行工具，实时检测和拦截内核、容器及网络层的可疑活动。
 - [Kyverno](https://github.com/kyverno/kyverno)：Kubernetes 原生策略引擎，支持校验、变更、生成和镜像验证。
 - [Open Policy Agent](https://github.com/open-policy-agent/opa)：通用 policy-as-code 策略引擎，适用于 Kubernetes、CI/CD、API 和基础设施场景。
 - [Gatekeeper](https://github.com/open-policy-agent/gatekeeper)：基于 OPA 的 Kubernetes 准入控制器，用于在集群中执行策略和审计约束。
