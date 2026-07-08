@@ -108,6 +108,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Kong](https://github.com/Kong/kong): Cloud-native API, LLM, and MCP gateway with advanced AI traffic management, multi-provider routing, semantic security, and rich plugin ecosystem.
 - [Apache APISIX](https://github.com/apache/apisix): Apache dynamic API and AI gateway with LLM proxying, token-based rate limiting, MCP bridge, and plugin-based AI traffic control.
 - [LangKit](https://github.com/whylabs/langkit): Open-source toolkit for monitoring LLMs by extracting signals from prompts and responses, including text quality, relevance, sentiment, and prompt injection detection.
+- [AxonHub](https://github.com/looplj/axonhub): Open-source AI gateway with failover, load balancing, cost control, and end-to-end tracing across 100+ LLM providers.
 
 ## AI Serving and Inference Operations
 
@@ -141,6 +142,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Apache HertzBeat](https://github.com/apache/hertzbeat): Apache real-time observability and monitoring system with agentless collection, alerting, status pages, and AI-assisted operations.
 - [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
 - [SREWorks](https://github.com/alibaba/SREWorks): Cloud-native DataOps and AIOps platform for operating Kubernetes-based applications and infrastructure.
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents with observability, incident management, alerting, and automated root-cause analysis.
 
 ## AI Infrastructure
 
@@ -187,6 +189,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [LangGraph](https://github.com/langchain-ai/langgraph): Framework for building stateful, multi-actor agents with graph-based orchestration, persistence, and human-in-the-loop workflows.
 - [DSPy](https://github.com/stanfordnlp/dspy): Framework for programming—not prompting—LLMs with modular AI system building and prompt optimization algorithms.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai): Type-safe Python agent framework with model-agnostic support, structured outputs, evals, MCP integration, and durable execution.
+- [VoltAgent](https://github.com/VoltAgent/voltagent): Open-source TypeScript AI agent engineering platform with multi-agent framework, LLM observability, MCP support, and RAG capabilities.
 
 ## DataOps
 
@@ -240,6 +243,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Robusta](https://github.com/robusta-dev/robusta): Kubernetes alert enrichment and automation platform for Prometheus alerts, runbooks, and remediation workflows.
 - [Coroot](https://github.com/coroot/coroot): Open-source observability and APM platform with metrics, logs, traces, profiling, SLOs, and AI-assisted root-cause analysis.
 - [Pyrra](https://github.com/pyrra-dev/pyrra): SLO management tool for Prometheus that makes service-level objectives accessible, actionable, and easy to use for everyone.
+- [Superlog](https://github.com/superloglabs/superlog): Open-source observability tool that uses AI agents to self-heal software by detecting issues and automating fixes.
 
 ## Kubernetes Operations
 
@@ -293,6 +297,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [ORT](https://github.com/oss-review-toolkit/ort): Toolkit for automating open-source compliance checks across dependencies, licenses, copyrights, vulnerabilities, and SBOM generation.
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli): Command-line tool for validating, converting, merging, and diffing CycloneDX SBOMs and related formats.
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track): Component analysis platform for tracking SBOMs, vulnerabilities, licenses, and software supply-chain risk.
+- [Tracecat](https://github.com/TracecatHQ/tracecat): Open-source security automation platform for teams and AI agents with event-driven orchestration, monitoring, and low-code workflows.
+- [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
+- [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 
 ## Platform Engineering
 

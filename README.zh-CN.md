@@ -108,6 +108,7 @@
 - [Kong](https://github.com/Kong/kong)：云原生 API、LLM 和 MCP 网关，支持高级 AI 流量管理、多供应商路由、语义安全和丰富的插件生态。
 - [Apache APISIX](https://github.com/apache/apisix)：Apache 动态 API 和 AI 网关，支持 LLM 代理、Token 限流、MCP bridge 和基于插件的 AI 流量管控。
 - [LangKit](https://github.com/whylabs/langkit)：开源 LLM 监控工具包，可从 Prompt 和响应中提取信号，包括文本质量、相关性、情感分析和 Prompt 注入检测。
+- [AxonHub](https://github.com/looplj/axonhub)：开源 AI 网关，支持故障转移、负载均衡、成本控制和端到端追踪，覆盖 100+ LLM 供应商。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -141,6 +142,7 @@
 - [Apache HertzBeat](https://github.com/apache/hertzbeat)：Apache 实时可观测与监控系统，支持无 Agent 采集、告警、状态页和 AI 辅助运维。
 - [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
 - [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
+- [OpenSRE](https://github.com/Tracer-Cloud/opensre)：开源 AI SRE 工具包，用于构建具备可观测性、事件管理、告警和自动化根因分析能力的 AI SRE Agent。
 
 ## AI 基础设施
 
@@ -187,6 +189,7 @@
 - [LangGraph](https://github.com/langchain-ai/langgraph)：用于构建有状态多 Actor Agent 的框架，支持图编排、持久化和人机协作工作流。
 - [DSPy](https://github.com/stanfordnlp/dspy)：用于编程而非提示 LLM 的框架，支持模块化 AI 系统构建和 Prompt 自动优化算法。
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai)：类型安全的 Python Agent 框架，支持模型无关、结构化输出、评估、MCP 集成和持久化执行。
+- [VoltAgent](https://github.com/VoltAgent/voltagent)：开源 TypeScript AI Agent 工程平台，提供多 Agent 框架、LLM 可观测性、MCP 支持和 RAG 能力。
 
 ## DataOps
 
@@ -240,6 +243,7 @@
 - [Robusta](https://github.com/robusta-dev/robusta)：Kubernetes 告警增强与自动化平台，支持 Prometheus 告警、Runbook 和修复工作流。
 - [Coroot](https://github.com/coroot/coroot)：开源可观测性与 APM 平台，整合指标、日志、链路、性能剖析、SLO 和 AI 辅助根因分析。
 - [Pyrra](https://github.com/pyrra-dev/pyrra)：面向 Prometheus 的 SLO 管理工具，让服务等级目标更易访问、可操作和团队使用。
+- [Superlog](https://github.com/superloglabs/superlog)：开源可观测性工具，利用 AI Agent 检测问题并自动修复，实现软件自愈。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -293,6 +297,9 @@
 - [ORT](https://github.com/oss-review-toolkit/ort)：用于自动化开源合规检查的工具集，覆盖依赖、License、版权、漏洞和 SBOM 生成。
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)：用于校验、转换、合并和比对 CycloneDX SBOM 及相关格式的命令行工具。
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：组件分析平台，用于跟踪 SBOM、漏洞、License 和软件供应链风险。
+- [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
+- [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
+- [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
 
 ## Platform Engineering 平台工程
 
