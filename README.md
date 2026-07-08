@@ -151,6 +151,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
+- [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
+- [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
 
 ## LLM Knowledge
 
@@ -162,6 +164,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [WeKnora](https://github.com/Tencent/WeKnora): Open-source LLM knowledge platform that turns raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB): Open-source enterprise platform for building knowledge base agents with RAG, multi-model support, and visual workflow design.
 - [GraphRAG](https://github.com/microsoft/graphrag): Microsoft's modular graph-based RAG system for extracting knowledge graphs from documents and improving retrieval quality.
+- [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
 
 ## Agentic Workflow
 
@@ -176,6 +179,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [BentoML](https://github.com/bentoml/BentoML): Open-source model serving platform for deploying models across frameworks and orchestrating AI applications.
 - [trpc-agent-go](https://github.com/trpc-group/trpc-agent-go): Go framework for production agent systems with graph workflows, tools, memory, evaluation, and observability.
 - [LangGraph](https://github.com/langchain-ai/langgraph): Framework for building stateful, multi-actor agents with graph-based orchestration, persistence, and human-in-the-loop workflows.
+- [DSPy](https://github.com/stanfordnlp/dspy): Framework for programming—not prompting—LLMs with modular AI system building and prompt optimization algorithms.
+- [Pydantic AI](https://github.com/pydantic/pydantic-ai): Type-safe Python agent framework with model-agnostic support, structured outputs, evals, MCP integration, and durable execution.
 
 ## DataOps
 
@@ -191,6 +196,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Temporal](https://github.com/temporalio/temporal): Durable execution platform for building reliable workflows, background jobs, and long-running business processes.
 - [Kestra](https://github.com/kestra-io/kestra): Event-driven orchestration and scheduling platform for declarative data, infrastructure, and operational workflows.
 - [n8n](https://github.com/n8n-io/n8n): Fair-code workflow automation platform with native AI capabilities for connecting services and building automated data and ops pipelines.
+- [dbt](https://github.com/dbt-labs/dbt-core): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
+- [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
 
 ### Streaming Operations
 
