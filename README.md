@@ -104,6 +104,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway): Reverse proxy and management layer for operating MCP servers with session-aware routing and Kubernetes lifecycle support.
 - [CoAI](https://github.com/coaidev/coai): Multi-tenant AI platform with a unified LLM gateway, provider routing, cost management, billing, and model cache for enterprise deployments.
+- [Kong](https://github.com/Kong/kong): Cloud-native API, LLM, and MCP gateway with advanced AI traffic management, multi-provider routing, semantic security, and rich plugin ecosystem.
+- [Apache APISIX](https://github.com/apache/apisix): Apache dynamic API and AI gateway with LLM proxying, token-based rate limiting, MCP bridge, and plugin-based AI traffic control.
 
 ## AI Serving and Inference Operations
 
@@ -128,6 +130,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit): Build and run GPU-accelerated containers with NVIDIA CUDA support in Docker and Kubernetes environments.
 - [Volcano](https://github.com/volcano-sh/volcano): CNCF batch scheduling system for AI/ML, big data, and HPC workloads with gang scheduling, queue management, and fair-share policies.
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer): Kubernetes-native operator for distributed AI/ML model training and LLM fine-tuning with PyTorch, JAX, and MPI support.
+- [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLM as an OpenAI-compatible API endpoint with built-in chat UI, model catalog, and cloud deployment workflows.
+- [Oumi](https://github.com/oumi-ai/oumi): Open-source platform for fine-tuning, evaluating, and deploying any open-source LLM or VLM with production-ready training and deployment workflows.
 
 ## AIOps
 
