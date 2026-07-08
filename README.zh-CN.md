@@ -104,6 +104,8 @@
 - [OneAIFW](https://github.com/funstory-ai/aifw)：轻量级本地 AI 防火墙，可在调用 LLM 前匿名化敏感数据，并在响应后还原。
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway)：用于运维 MCP Server 的反向代理与管理层，支持会话感知路由和 Kubernetes 生命周期管理。
 - [CoAI](https://github.com/coaidev/coai)：多租户 AI 平台，提供统一 LLM 网关、供应商路由、成本管理、计费和模型缓存，适合企业级部署。
+- [Kong](https://github.com/Kong/kong)：云原生 API、LLM 和 MCP 网关，支持高级 AI 流量管理、多供应商路由、语义安全和丰富的插件生态。
+- [Apache APISIX](https://github.com/apache/apisix)：Apache 动态 API 和 AI 网关，支持 LLM 代理、Token 限流、MCP bridge 和基于插件的 AI 流量管控。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -128,6 +130,8 @@
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)：在 Docker 和 Kubernetes 环境中构建和运行支持 NVIDIA CUDA 的 GPU 加速容器。
 - [Volcano](https://github.com/volcano-sh/volcano)：CNCF 批调度系统，用于 AI/ML、大数据和 HPC 工作负载，支持 Gang 调度、队列管理和公平份额策略。
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer)：Kubernetes 原生 Operator，用于分布式 AI/ML 模型训练和 LLM 微调，支持 PyTorch、JAX 和 MPI。
+- [OpenLLM](https://github.com/bentoml/OpenLLM)：将任意开源 LLM 以 OpenAI 兼容 API 运行，内置聊天 UI、模型目录和云端部署工作流。
+- [Oumi](https://github.com/oumi-ai/oumi)：开源 LLM/VLM 微调、评估和部署平台，支持生产就绪的训练与上线工作流。
 
 ## AIOps 智能运维
 
