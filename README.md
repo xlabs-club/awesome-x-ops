@@ -94,6 +94,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama): Meta's open trust and safety toolkit for evaluating and filtering LLM inputs, outputs, and model risks.
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner for probing prompt injection, jailbreaks, data leakage, hallucination, and other generative AI risks.
+- [Superagent](https://github.com/superagent-ai/superagent): Open-source AI security SDK for protecting LLM applications against prompt injections, data leaks, and harmful outputs.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
@@ -145,6 +146,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [PostHog](https://github.com/PostHog/posthog): Open-source product analytics platform for user behavior tracking and product metrics.
 - [SREWorks](https://github.com/alibaba/SREWorks): Cloud-native DataOps and AIOps platform for operating Kubernetes-based applications and infrastructure.
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents with observability, incident management, alerting, and automated root-cause analysis.
+- [Keep](https://github.com/keephq/keep): Open-source AIOps and alert management platform for correlating, enriching, and automating incident response across monitoring tools.
 
 ## AI Infrastructure
 
@@ -152,11 +154,13 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
+- [Jina Reader](https://github.com/jina-ai/reader): URL-to-LLM converter that turns any web page into clean, LLM-friendly Markdown with a simple prefix.
 - [Open SEO](https://github.com/every-app/open-seo): Open-source SEO and search intelligence platform for keyword research, site audits, backlink analysis, and Google Search Console MCP workflows.
 - [Milvus](https://github.com/milvus-io/milvus): Cloud-native vector database for billion-scale similarity search and unstructured data retrieval in RAG and AI pipelines.
 - [Qdrant](https://github.com/qdrant/qdrant): High-performance vector search engine with rich filtering, payload storage, and production-ready scalability for AI applications.
 - [Chroma](https://github.com/chroma-core/chroma): Embedding-first vector database for building LLM applications with simple local development and client-server deployment.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
+- [MarkItDown](https://github.com/microsoft/markitdown): Microsoft's open-source tool for converting files and Office documents to Markdown for LLM and RAG data pipelines.
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
@@ -164,6 +168,9 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
 - [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
 - [pgai](https://github.com/timescale/pgai): Open-source suite for building RAG, semantic search, and AI applications directly on PostgreSQL with vector and AI tooling.
+- [Browser Use](https://github.com/browser-use/browser-use): Open-source web automation toolkit that enables AI agents to browse websites, extract data, and automate online tasks at scale.
+- [Steel Browser](https://github.com/steel-dev/steel-browser): Open-source headless browser sandbox for AI agents and applications, providing production-ready web automation infrastructure.
+- [E2B](https://github.com/e2b-dev/E2B): Open-source secure cloud sandbox for running AI agent code with isolated environments, file system access, and real-world tool execution.
 
 ## LLM Knowledge
 
@@ -176,6 +183,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [MaxKB](https://github.com/1Panel-dev/MaxKB): Open-source enterprise platform for building knowledge base agents with RAG, multi-model support, and visual workflow design.
 - [GraphRAG](https://github.com/microsoft/graphrag): Microsoft's modular graph-based RAG system for extracting knowledge graphs from documents and improving retrieval quality.
 - [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
+- [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
 
 ## Agentic Workflow
 

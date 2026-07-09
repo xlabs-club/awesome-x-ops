@@ -94,6 +94,7 @@
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
 - [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
+- [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
@@ -145,6 +146,7 @@
 - [PostHog](https://github.com/PostHog/posthog)：开源产品分析平台，支持用户行为追踪和产品指标分析。
 - [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre)：开源 AI SRE 工具包，用于构建具备可观测性、事件管理、告警和自动化根因分析能力的 AI SRE Agent。
+- [Keep](https://github.com/keephq/keep)：开源 AIOps 与告警管理平台，支持跨监控工具的告警关联、增强和事件响应自动化。
 
 ## AI 基础设施
 
@@ -152,11 +154,13 @@
 
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
+- [Jina Reader](https://github.com/jina-ai/reader)：URL 转 LLM 输入工具，通过简单前缀将任意网页转为清理后的 LLM 友好 Markdown 格式。
 - [Open SEO](https://github.com/every-app/open-seo)：开源 SEO 与搜索情报平台，支持关键词研究、站点审计、反向链接分析和 Google Search Console MCP 工作流。
 - [Milvus](https://github.com/milvus-io/milvus)：云原生向量数据库，支持十亿级相似度搜索和非结构化数据检索，适用于 RAG 和 AI 流水线。
 - [Qdrant](https://github.com/qdrant/qdrant)：高性能向量搜索引擎，支持丰富过滤、负载存储和生产级扩展，适用于 AI 应用。
 - [Chroma](https://github.com/chroma-core/chroma)：以 Embedding 为优先的向量数据库，支持简单的本地开发和客户端-服务端部署，用于构建 LLM 应用。
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
+- [MarkItDown](https://github.com/microsoft/markitdown)：微软开源的文件转 Markdown 工具，可将 Office 文档和各类文件转换为 LLM 和 RAG 流水线可用的 Markdown 格式。
 - [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
@@ -164,6 +168,9 @@
 - [Feast](https://github.com/feast-dev/feast)：面向 AI/ML 的开源特征存储，可在模型训练和在线推理中一致地提供特征数据。
 - [Instructor](https://github.com/567-labs/instructor)：面向 LLM 的结构化输出工具，基于 Pydantic 校验，支持自动重试和跨供应商统一 API。
 - [pgai](https://github.com/timescale/pgai)：面向 PostgreSQL 的开源 AI 工具套件，支持在 PostgreSQL 上直接构建 RAG、语义搜索和 AI 应用。
+- [Browser Use](https://github.com/browser-use/browser-use)：开源 Web 自动化工具包，让 AI Agent 能够浏览网页、提取数据并大规模执行在线自动化任务。
+- [Steel Browser](https://github.com/steel-dev/steel-browser)：开源无头浏览器沙箱，为 AI Agent 和应用提供生产就绪的 Web 自动化基础设施。
+- [E2B](https://github.com/e2b-dev/E2B)：开源安全云沙箱，用于运行 AI Agent 代码，提供隔离环境、文件系统访问和真实工具执行能力。
 
 ## LLM 知识库
 
@@ -176,6 +183,7 @@
 - [MaxKB](https://github.com/1Panel-dev/MaxKB)：开源企业级智能体平台，支持基于知识库的 RAG、多模型接入和可视化工作流设计。
 - [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
 - [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
+- [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
 
 ## Agentic Workflow 智能体工作流
 
