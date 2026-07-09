@@ -94,7 +94,9 @@
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
 - [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
+- [agentic-security](https://github.com/msoedov/agentic_security)：开源 LLM 漏洞扫描器与 AI 红队工具包，用于模糊测试和验证 LLM 护栏对抗攻击能力。
 - [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
+- [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
@@ -263,6 +265,7 @@
 ## Kubernetes Operations Kubernetes 运维
 
 - [Cilium](https://github.com/cilium/cilium)：基于 eBPF 的 Kubernetes 网络、安全和可观测性平台。
+- [kgateway](https://github.com/kgateway-dev/kgateway)：基于 Envoy 的云原生 API 与 AI 网关，支持 Kubernetes 入口流量管理、AI 服务路由。
 - [Istio](https://github.com/istio/istio)：主流开源服务网格，用于连接、保护和观测微服务，支持流量管理、安全策略和遥测。
 - [Headlamp](https://github.com/kubernetes-sigs/headlamp)：可扩展的 Kubernetes Web UI，用于集群可见性、资源管理和运维插件集成。
 - [cert-manager](https://github.com/cert-manager/cert-manager)：Kubernetes 原生证书管理控制器，用于签发和续期 TLS 证书。
@@ -315,6 +318,8 @@
 - [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
+- [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
+- [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 
 ## Platform Engineering 平台工程
 
