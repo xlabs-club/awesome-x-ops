@@ -109,6 +109,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Apache APISIX](https://github.com/apache/apisix): Apache dynamic API and AI gateway with LLM proxying, token-based rate limiting, MCP bridge, and plugin-based AI traffic control.
 - [LangKit](https://github.com/whylabs/langkit): Open-source toolkit for monitoring LLMs by extracting signals from prompts and responses, including text quality, relevance, sentiment, and prompt injection detection.
 - [AxonHub](https://github.com/looplj/axonhub): Open-source AI gateway with failover, load balancing, cost control, and end-to-end tracing across 100+ LLM providers.
+- [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
+- [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 
 ## AI Serving and Inference Operations
 
@@ -161,6 +163,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
 - [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
 - [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
+- [pgai](https://github.com/timescale/pgai): Open-source suite for building RAG, semantic search, and AI applications directly on PostgreSQL with vector and AI tooling.
 
 ## LLM Knowledge
 
@@ -190,6 +193,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [DSPy](https://github.com/stanfordnlp/dspy): Framework for programming—not prompting—LLMs with modular AI system building and prompt optimization algorithms.
 - [Pydantic AI](https://github.com/pydantic/pydantic-ai): Type-safe Python agent framework with model-agnostic support, structured outputs, evals, MCP integration, and durable execution.
 - [VoltAgent](https://github.com/VoltAgent/voltagent): Open-source TypeScript AI agent engineering platform with multi-agent framework, LLM observability, MCP support, and RAG capabilities.
+- [AutoGen](https://github.com/microsoft/autogen): Microsoft's multi-agent conversation framework for building complex agentic AI applications with flexible conversation patterns and human-in-the-loop workflows.
+- [Agno](https://github.com/agno-agi/agno): Open-source platform for building, running, and managing AI agent platforms with model-agnostic support and production-grade tooling.
+- [Mastra](https://github.com/mastra-ai/mastra): Modern TypeScript framework for building production AI-powered applications and multi-agent systems with built-in observability.
+- [Letta](https://github.com/letta-ai/letta): Platform for building stateful AI agents with advanced long-term memory, learning, and self-improvement capabilities over time.
 
 ## DataOps
 
@@ -328,6 +335,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
 - [PipeCD](https://github.com/pipe-cd/pipecd): CNCF continuous delivery platform for applications, infrastructure, and platform operations across multiple deployment targets.
+- [Dagger](https://github.com/dagger/dagger): Open-source automation engine for building, testing, and shipping code in CI/CD pipelines with programmable, containerized workflows.
 
 ### Code Search and Understanding
 
@@ -378,6 +386,7 @@ Trusting is hard. Knowing who to trust is even harder.
 - [Casdoor](https://github.com/casdoor/casdoor): Open-source identity management platform supporting OAuth 2.0, OIDC, and SAML.
 - [dexidp/dex](https://github.com/dexidp/dex): Lightweight pluggable OpenID Connect (OIDC) and OAuth 2.0 provider.
 - [pomerium](https://github.com/pomerium/pomerium): Identity-aware proxy with richer access-control capabilities.
+- [Infisical](https://github.com/Infisical/infisical): Open-source platform for secrets management, certificate automation, and privileged access management across development and production environments.
 
 ### Internal Developer Platform (IDP)
 
