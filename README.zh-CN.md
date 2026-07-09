@@ -140,6 +140,7 @@
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer)：Kubernetes 原生 Operator，用于分布式 AI/ML 模型训练和 LLM 微调，支持 PyTorch、JAX 和 MPI。
 - [OpenLLM](https://github.com/bentoml/OpenLLM)：将任意开源 LLM 以 OpenAI 兼容 API 运行，内置聊天 UI、模型目录和云端部署工作流。
 - [Oumi](https://github.com/oumi-ai/oumi)：开源 LLM/VLM 微调、评估和部署平台，支持生产就绪的训练与上线工作流。
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)：NVIDIA 官方 LLM 推理优化框架，提供先进的 GPU 优化和高效的运行时编排能力，适用于生产环境部署。
 
 ## AIOps 智能运维
 
@@ -173,6 +174,8 @@
 - [Browser Use](https://github.com/browser-use/browser-use)：开源 Web 自动化工具包，让 AI Agent 能够浏览网页、提取数据并大规模执行在线自动化任务。
 - [Steel Browser](https://github.com/steel-dev/steel-browser)：开源无头浏览器沙箱，为 AI Agent 和应用提供生产就绪的 Web 自动化基础设施。
 - [E2B](https://github.com/e2b-dev/E2B)：开源安全云沙箱，用于运行 AI Agent 代码，提供隔离环境、文件系统访问和真实工具执行能力。
+- [headroom](https://github.com/headroomlabs-ai/headroom)：在 LLM 调用前压缩工具输出、日志、文件和 RAG 片段——节省 60-95% Token，效果不变。
+- [fastmcp](https://github.com/PrefectHQ/fastmcp)：快速、Pythonic 的方式构建 MCP Server 与 Client，为 AI Agent 工具基础设施提供基础能力。
 
 ## LLM 知识库
 
@@ -207,6 +210,8 @@
 - [Agno](https://github.com/agno-agi/agno)：开源 Agent 平台，支持构建、运行和管理 AI Agent 平台，模型无关且配备生产级工具链。
 - [Mastra](https://github.com/mastra-ai/mastra)：现代 TypeScript 框架，用于构建生产级 AI 应用和多 Agent 系统，内置可观测能力。
 - [Letta](https://github.com/letta-ai/letta)：用于构建有状态 AI Agent 的平台，支持高级长期记忆、学习和自我进化能力。
+- [mission-control](https://github.com/builderz-labs/mission-control)：可自托管的 AI Agent 编排平台，支持任务分发、多 Agent 工作流、支出监控和运维治理。
+- [kiwiq](https://github.com/rcortx/kiwiq)：生产级多 Agent 编排平台，支持 JSON 定义 Agent、多层记忆和内置可观测性。
 
 ## DataOps
 

@@ -140,6 +140,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer): Kubernetes-native operator for distributed AI/ML model training and LLM fine-tuning with PyTorch, JAX, and MPI support.
 - [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLM as an OpenAI-compatible API endpoint with built-in chat UI, model catalog, and cloud deployment workflows.
 - [Oumi](https://github.com/oumi-ai/oumi): Open-source platform for fine-tuning, evaluating, and deploying any open-source LLM or VLM with production-ready training and deployment workflows.
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA's official LLM inference optimization framework with state-of-the-art GPU optimizations and efficient runtime orchestration for production deployments.
 
 ## AIOps
 
@@ -173,6 +174,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Browser Use](https://github.com/browser-use/browser-use): Open-source web automation toolkit that enables AI agents to browse websites, extract data, and automate online tasks at scale.
 - [Steel Browser](https://github.com/steel-dev/steel-browser): Open-source headless browser sandbox for AI agents and applications, providing production-ready web automation infrastructure.
 - [E2B](https://github.com/e2b-dev/E2B): Open-source secure cloud sandbox for running AI agent code with isolated environments, file system access, and real-world tool execution.
+- [headroom](https://github.com/headroomlabs-ai/headroom): Compress tool outputs, logs, files, and RAG chunks before reaching the LLM — 60-95% fewer tokens, same answers.
+- [fastmcp](https://github.com/PrefectHQ/fastmcp): The fast, Pythonic way to build MCP servers and clients for AI agent tool infrastructure.
 
 ## LLM Knowledge
 
@@ -207,6 +210,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Agno](https://github.com/agno-agi/agno): Open-source platform for building, running, and managing AI agent platforms with model-agnostic support and production-grade tooling.
 - [Mastra](https://github.com/mastra-ai/mastra): Modern TypeScript framework for building production AI-powered applications and multi-agent systems with built-in observability.
 - [Letta](https://github.com/letta-ai/letta): Platform for building stateful AI agents with advanced long-term memory, learning, and self-improvement capabilities over time.
+- [mission-control](https://github.com/builderz-labs/mission-control): Self-hosted AI agent orchestration platform for dispatching tasks, running multi-agent workflows, monitoring spend, and governing operations.
+- [kiwiq](https://github.com/rcortx/kiwiq): Production-grade multi-agent orchestration platform with JSON-defined agents, multi-tier memory, and built-in observability.
 
 ## DataOps
 
