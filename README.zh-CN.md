@@ -148,6 +148,7 @@
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
+- [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
 
 ## AIOps 智能运维
 
@@ -187,6 +188,9 @@
 - [Stagehand](https://github.com/browserbase/stagehand)：开源浏览器 Agent SDK，支持 AI 驱动的 Web 自动化、数据提取和大规模页面交互。
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding)：开源嵌入与重排序模型工具包（BGE 系列），为检索增强 LLM 应用提供核心能力。
 - [Open WebUI](https://github.com/open-webui/open-webui)：自托管的 LLM 对话界面，集成 RAG、Web 搜索、工具调用、模型管理和多用户部署能力，适用于内部 AI 平台。
+- [Label Studio](https://github.com/HumanSignal/label-studio)：开源数据标注平台，支持图像、文本、音频、视频和时序数据标注，适用于 ML 和 LLM 训练工作流。
+- [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
+- [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 
 ## LLM 知识库
 
@@ -242,6 +246,7 @@
 - [n8n](https://github.com/n8n-io/n8n)：公平代码的工作流自动化平台，内置 AI 能力，用于连接服务并构建自动化数据和运维流水线。
 - [dbt](https://github.com/dbt-labs/dbt-core)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
 - [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
+- [Flyte](https://github.com/flyteorg/flyte)：可扩展的 AI 与数据编排平台，使用强类型和 Kubernetes 原生执行构建可复现的声明式机器学习流水线。
 
 ### Streaming Operations 流式数据运维
 
@@ -271,6 +276,7 @@
 - [Jaeger](https://github.com/jaegertracing/jaeger)：CNCF 分布式链路追踪平台，用于监控和排查微服务系统。
 - [Vector](https://github.com/vectordotdev/vector)：高性能可观测数据流水线，用于采集、转换和路由日志与指标。
 - [Grafana Alloy](https://github.com/grafana/alloy)：OpenTelemetry Collector 发行版，提供可编程流水线，用于采集、处理和转发可观测性信号。
+- [Grafana](https://github.com/grafana/grafana)：开源监控、可观测与数据可视化平台，支持仪表盘、告警和多数据源探索。
 - [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
 - [Parca](https://github.com/parca-dev/parca)：持续性能剖析平台，用于分析 CPU 和内存使用随时间的变化，提升性能、可靠性和基础设施效率。
 - [Kepler](https://github.com/sustainable-computing-io/kepler)：Kubernetes 功耗与能耗 Exporter，用 Prometheus 衡量容器、Pod 和节点的能耗指标。
@@ -313,6 +319,7 @@
 - [KubeEdge](https://github.com/kubeedge/kubeedge)：CNCF Kubernetes 原生边缘计算框架，支持将容器化应用延伸到边缘节点，实现云边协同。
 - [Rook](https://github.com/rook/rook)：CNCF Kubernetes 存储编排器，为 Ceph、NFS 等存储系统提供自管理、自扩容和自修复的存储服务。
 - [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
+- [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 
 ## Security and Supply Chain 安全与供应链
 
