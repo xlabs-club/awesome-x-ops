@@ -114,6 +114,7 @@
 - [AxonHub](https://github.com/looplj/axonhub)：开源 AI 网关，支持故障转移、负载均衡、成本控制和端到端追踪，覆盖 100+ LLM 供应商。
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
+- [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -141,6 +142,9 @@
 - [OpenLLM](https://github.com/bentoml/OpenLLM)：将任意开源 LLM 以 OpenAI 兼容 API 运行，内置聊天 UI、模型目录和云端部署工作流。
 - [Oumi](https://github.com/oumi-ai/oumi)：开源 LLM/VLM 微调、评估和部署平台，支持生产就绪的训练与上线工作流。
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)：NVIDIA 官方 LLM 推理优化框架，提供先进的 GPU 优化和高效的运行时编排能力，适用于生产环境部署。
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference)：HuggingFace 的生产级 LLM 推理服务器，支持张量并行、连续批处理和量化。
+- [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference)：极速文本嵌入与重排序模型推理服务器，具备生产就绪性能。
+- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
 
 ## AIOps 智能运维
 
@@ -176,6 +180,8 @@
 - [E2B](https://github.com/e2b-dev/E2B)：开源安全云沙箱，用于运行 AI Agent 代码，提供隔离环境、文件系统访问和真实工具执行能力。
 - [headroom](https://github.com/headroomlabs-ai/headroom)：在 LLM 调用前压缩工具输出、日志、文件和 RAG 片段——节省 60-95% Token，效果不变。
 - [fastmcp](https://github.com/PrefectHQ/fastmcp)：快速、Pythonic 的方式构建 MCP Server 与 Client，为 AI Agent 工具基础设施提供基础能力。
+- [Stagehand](https://github.com/browserbase/stagehand)：开源浏览器 Agent SDK，支持 AI 驱动的 Web 自动化、数据提取和大规模页面交互。
+- [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding)：开源嵌入与重排序模型工具包（BGE 系列），为检索增强 LLM 应用提供核心能力。
 
 ## LLM 知识库
 
@@ -189,6 +195,7 @@
 - [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
 - [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
 - [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
+- [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)：开源 RAG 评估与优化框架，通过 AutoML 风格自动化进行流水线调优。
 
 ## Agentic Workflow 智能体工作流
 
@@ -212,6 +219,7 @@
 - [Letta](https://github.com/letta-ai/letta)：用于构建有状态 AI Agent 的平台，支持高级长期记忆、学习和自我进化能力。
 - [mission-control](https://github.com/builderz-labs/mission-control)：可自托管的 AI Agent 编排平台，支持任务分发、多 Agent 工作流、支出监控和运维治理。
 - [kiwiq](https://github.com/rcortx/kiwiq)：生产级多 Agent 编排平台，支持 JSON 定义 Agent、多层记忆和内置可观测性。
+- [DeerFlow](https://github.com/bytedance/deer-flow)：字节跳动开源的长周期 SuperAgent 框架，支持沙箱、记忆、工具和多 Agent 协调，可进行研究、编码和创作。
 
 ## DataOps
 
