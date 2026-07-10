@@ -168,6 +168,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Chroma](https://github.com/chroma-core/chroma): Embedding-first vector database for building LLM applications with simple local development and client-server deployment.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
 - [MarkItDown](https://github.com/microsoft/markitdown): Microsoft's open-source tool for converting files and Office documents to Markdown for LLM and RAG data pipelines.
+- [Docling](https://github.com/docling-project/docling): IBM's open-source document understanding toolkit for converting PDFs, DOCX, PPTX, images, and HTML into LLM-ready structured formats at scale.
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
@@ -278,8 +279,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 ## Kubernetes Operations
 
 - [Cilium](https://github.com/cilium/cilium): eBPF-based Kubernetes networking, security, and observability platform.
+- [Traefik](https://github.com/traefik/traefik): Cloud-native application proxy and ingress controller with automatic service discovery, middleware, and multi-protocol support.
 - [kgateway](https://github.com/kgateway-dev/kgateway): Cloud-native API and AI gateway built on Envoy for Kubernetes ingress, traffic management, and AI service routing.
 - [Istio](https://github.com/istio/istio): Leading open-source service mesh for connecting, securing, and observing microservices with traffic management, security policies, and telemetry.
+- [Linkerd](https://github.com/linkerd/linkerd2): Ultralight, security-first CNCF service mesh for Kubernetes with zero-config mutual TLS and minimal resource footprint.
 - [Headlamp](https://github.com/kubernetes-sigs/headlamp): Extensible Kubernetes web UI for cluster visibility, resource management, and operational plugins.
 - [cert-manager](https://github.com/cert-manager/cert-manager): Kubernetes-native certificate management controller for issuing and renewing TLS certificates.
 - [KEDA](https://github.com/kedacore/keda): Kubernetes event-driven autoscaler for scaling workloads from external metrics and event sources.
@@ -299,9 +302,11 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [kOps](https://github.com/kubernetes/kops): Production-grade Kubernetes cluster lifecycle tool for installation, upgrades, and operations across cloud environments.
 - [KubeOne](https://github.com/kubermatic/kubeone): Kubernetes cluster lifecycle management tool for automating operations across cloud, on-prem, edge, and IoT environments.
 - [Tilt](https://github.com/tilt-dev/tilt): Local Kubernetes development tool for multi-service microservices with live updates and declarative dev environment configuration.
+- [Knative](https://github.com/knative/serving): CNCF serverless platform for Kubernetes with scale-to-zero, request-driven compute, and event-driven workloads.
 - [k3s](https://github.com/k3s-io/k3s): Lightweight Kubernetes distribution designed for edge, IoT, CI, and resource-constrained environments.
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
 - [Talos Linux](https://github.com/siderolabs/talos): Modern Linux distribution built specifically for Kubernetes with API-driven configuration, immutable root filesystem, and zero-touch provisioning.
+- [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
 
 ## Security and Supply Chain
 
@@ -367,10 +372,15 @@ A curated technology stack and toolchain for platform engineering.
 
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot): Self-hosted code search and understanding tool for humans and AI agents to navigate, query, and comprehend large codebases.
 
+### Developer Environments
+
+- [Coder](https://github.com/coder/coder): Self-hosted remote development platform for provisioning secure, pre-configured workspaces for developers and AI agents on any infrastructure.
+
 ### Code Service
 
 - [Trivy](https://github.com/aquasecurity/trivy): Comprehensive scanner for containers, code, vulnerabilities, misconfigurations, and SBOMs.
 - [SonarQube](https://github.com/SonarSource/sonarqube): Continuous code quality platform supporting 27+ programming languages.
+- [Open Code Review](https://github.com/alibaba/open-code-review): Open-source hybrid code review tool combining deterministic pipelines with LLM agents for precise, line-level feedback at scale.
 - [reviewdog](https://github.com/reviewdog): Automated code review and analysis tool for many languages and linters.
 - [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
 - [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
@@ -410,6 +420,7 @@ Trusting is hard. Knowing who to trust is even harder.
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy): Lightweight OAuth2 reverse proxy for Google, Azure, OpenID Connect, and more, with simple authorization checks.
 - [zitadel](https://github.com/zitadel/zitadel): Open-source IAM for modern applications and services, focused on simplicity.
 - [Casdoor](https://github.com/casdoor/casdoor): Open-source identity management platform supporting OAuth 2.0, OIDC, and SAML.
+- [Cerbos](https://github.com/cerbos/cerbos): Open-core, language-agnostic authorization layer with context-aware access control policies for application resources.
 - [dexidp/dex](https://github.com/dexidp/dex): Lightweight pluggable OpenID Connect (OIDC) and OAuth 2.0 provider.
 - [pomerium](https://github.com/pomerium/pomerium): Identity-aware proxy with richer access-control capabilities.
 - [Infisical](https://github.com/Infisical/infisical): Open-source platform for secrets management, certificate automation, and privileged access management across development and production environments.
