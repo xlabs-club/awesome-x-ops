@@ -134,6 +134,7 @@
 - [vLLM](https://github.com/vllm-project/vllm)：高吞吐、内存高效的 LLM 推理与服务引擎，支持连续批处理与量化。
 - [Ollama](https://github.com/ollama/ollama)：本地优先的 LLM 运行工具，适合在本地、边缘或开发环境中快速上手模型推理。
 - [llama.cpp](https://github.com/ggml-org/llama.cpp)：高性能 C/C++ LLM 推理引擎，支持量化，为众多本地和服务端 AI 后端提供基础能力。
+- [LocalAI](https://github.com/mudler/LocalAI)：自托管的 OpenAI 兼容本地 AI API，支持基于容器部署运行 LLM、图像生成和音频模型。
 - [LoRAX](https://github.com/predibase/lorax)：多 LoRA 推理服务器，可在共享基座模型基础设施上托管数千个微调 LLM。
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator)：Kubernetes Operator，用于自动化 NVIDIA GPU 驱动安装、配置和生命周期管理。
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)：在 Docker 和 Kubernetes 环境中构建和运行支持 NVIDIA CUDA 的 GPU 加速容器。
@@ -145,6 +146,8 @@
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference)：HuggingFace 的生产级 LLM 推理服务器，支持张量并行、连续批处理和量化。
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference)：极速文本嵌入与重排序模型推理服务器，具备生产就绪性能。
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
+- [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
 
 ## AIOps 智能运维
 
@@ -183,6 +186,7 @@
 - [fastmcp](https://github.com/PrefectHQ/fastmcp)：快速、Pythonic 的方式构建 MCP Server 与 Client，为 AI Agent 工具基础设施提供基础能力。
 - [Stagehand](https://github.com/browserbase/stagehand)：开源浏览器 Agent SDK，支持 AI 驱动的 Web 自动化、数据提取和大规模页面交互。
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding)：开源嵌入与重排序模型工具包（BGE 系列），为检索增强 LLM 应用提供核心能力。
+- [Open WebUI](https://github.com/open-webui/open-webui)：自托管的 LLM 对话界面，集成 RAG、Web 搜索、工具调用、模型管理和多用户部署能力，适用于内部 AI 平台。
 
 ## LLM 知识库
 
@@ -307,6 +311,8 @@
 - [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
 - [Talos Linux](https://github.com/siderolabs/talos)：专为 Kubernetes 构建的现代 Linux 发行版，支持 API 驱动配置、不可变根文件系统和零接触 provisioning。
 - [KubeEdge](https://github.com/kubeedge/kubeedge)：CNCF Kubernetes 原生边缘计算框架，支持将容器化应用延伸到边缘节点，实现云边协同。
+- [Rook](https://github.com/rook/rook)：CNCF Kubernetes 存储编排器，为 Ceph、NFS 等存储系统提供自管理、自扩容和自修复的存储服务。
+- [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -375,6 +381,7 @@
 ### Developer Environments 开发环境
 
 - [Coder](https://github.com/coder/coder)：自托管远程开发平台，可在任意基础设施上为开发者和 AI Agent 配置安全、预配置的工作空间。
+- [DevPod](https://github.com/loft-sh/devpod)：开源、仅客户端的开发环境工具，可在任意云、Kubernetes 或本地机器上创建可复现、基础设施无关的工作空间。
 
 ### Code Service 代码服务
 
