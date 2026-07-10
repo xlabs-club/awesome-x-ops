@@ -134,6 +134,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [vLLM](https://github.com/vllm-project/vllm): High-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and quantization.
 - [Ollama](https://github.com/ollama/ollama): Local-first LLM runner for getting started quickly with models locally, on edge, or in development environments.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp): High-performance C/C++ LLM inference engine with quantization, powering many local and server-side AI backends.
+- [LocalAI](https://github.com/mudler/LocalAI): Self-hosted, OpenAI-compatible local AI API for running LLMs, image generation, and audio models with container-based deployment.
 - [LoRAX](https://github.com/predibase/lorax): Multi-LoRA inference server for hosting thousands of fine-tuned LLMs on shared base model infrastructure.
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator): Kubernetes operator for automating NVIDIA GPU driver installation, configuration, and lifecycle management.
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit): Build and run GPU-accelerated containers with NVIDIA CUDA support in Docker and Kubernetes environments.
@@ -145,6 +146,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference): HuggingFace's production-grade inference server for LLMs with tensor parallelism, continuous batching, and quantization support.
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference): Blazing-fast inference server for text embedding and reranking models with production-ready performance.
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl): Open-source LLM fine-tuning framework with support for LoRA, QLoRA, and full-parameter training across popular model architectures.
+- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
+- [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
 
 ## AIOps
 
@@ -183,6 +186,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [fastmcp](https://github.com/PrefectHQ/fastmcp): The fast, Pythonic way to build MCP servers and clients for AI agent tool infrastructure.
 - [Stagehand](https://github.com/browserbase/stagehand): Open-source SDK for building browser agents with AI-powered web automation, extraction, and interaction at scale.
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding): Open-source toolkit for embedding and reranking models (BGE series) powering retrieval-augmented LLM applications.
+- [Open WebUI](https://github.com/open-webui/open-webui): Self-hosted LLM chat interface with RAG, web search, tool integration, model management, and multi-user deployment for internal AI platforms.
 
 ## LLM Knowledge
 
@@ -307,6 +311,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
 - [Talos Linux](https://github.com/siderolabs/talos): Modern Linux distribution built specifically for Kubernetes with API-driven configuration, immutable root filesystem, and zero-touch provisioning.
 - [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
+- [Rook](https://github.com/rook/rook): CNCF storage orchestrator for Kubernetes, providing self-managing, self-scaling, and self-healing storage services for Ceph, NFS, and other providers.
+- [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
 
 ## Security and Supply Chain
 
@@ -375,6 +381,7 @@ A curated technology stack and toolchain for platform engineering.
 ### Developer Environments
 
 - [Coder](https://github.com/coder/coder): Self-hosted remote development platform for provisioning secure, pre-configured workspaces for developers and AI agents on any infrastructure.
+- [DevPod](https://github.com/loft-sh/devpod): Open-source, client-only development environment tool for creating reproducible, infrastructure-agnostic workspaces on any cloud, Kubernetes, or local machine.
 
 ### Code Service
 
