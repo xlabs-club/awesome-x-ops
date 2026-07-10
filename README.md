@@ -148,6 +148,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl): Open-source LLM fine-tuning framework with support for LoRA, QLoRA, and full-parameter training across popular model architectures.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
+- [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
 
 ## AIOps
 
@@ -187,6 +188,9 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Stagehand](https://github.com/browserbase/stagehand): Open-source SDK for building browser agents with AI-powered web automation, extraction, and interaction at scale.
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding): Open-source toolkit for embedding and reranking models (BGE series) powering retrieval-augmented LLM applications.
 - [Open WebUI](https://github.com/open-webui/open-webui): Self-hosted LLM chat interface with RAG, web search, tool integration, model management, and multi-user deployment for internal AI platforms.
+- [Label Studio](https://github.com/HumanSignal/label-studio): Open-source data labeling platform for images, text, audio, video, and time series in ML and LLM training workflows.
+- [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
+- [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 
 ## LLM Knowledge
 
@@ -242,6 +246,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [n8n](https://github.com/n8n-io/n8n): Fair-code workflow automation platform with native AI capabilities for connecting services and building automated data and ops pipelines.
 - [dbt](https://github.com/dbt-labs/dbt-core): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
 - [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
+- [Flyte](https://github.com/flyteorg/flyte): Scalable AI and data orchestration platform for building reproducible, declarative ML pipelines with strong typing and Kubernetes-native execution.
 
 ### Streaming Operations
 
@@ -271,6 +276,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Jaeger](https://github.com/jaegertracing/jaeger): CNCF distributed tracing platform for monitoring and troubleshooting microservices.
 - [Vector](https://github.com/vectordotdev/vector): High-performance observability data pipeline for collecting, transforming, and routing logs and metrics.
 - [Grafana Alloy](https://github.com/grafana/alloy): OpenTelemetry Collector distribution with programmable pipelines for collecting, processing, and forwarding observability signals.
+- [Grafana](https://github.com/grafana/grafana): Open-source platform for monitoring, observability, and data visualization with dashboards, alerts, and multi-data-source exploration.
 - [Pixie](https://github.com/pixie-io/pixie): Kubernetes-native observability platform that uses eBPF to capture metrics, events, traces, and network telemetry without manual instrumentation.
 - [Parca](https://github.com/parca-dev/parca): Continuous profiling platform for analyzing CPU and memory usage over time to improve performance, reliability, and infrastructure efficiency.
 - [Kepler](https://github.com/sustainable-computing-io/kepler): Kubernetes power and energy exporter for measuring container, pod, and node energy consumption with Prometheus.
@@ -313,6 +319,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
 - [Rook](https://github.com/rook/rook): CNCF storage orchestrator for Kubernetes, providing self-managing, self-scaling, and self-healing storage services for Ceph, NFS, and other providers.
 - [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
+- [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 
 ## Security and Supply Chain
 
