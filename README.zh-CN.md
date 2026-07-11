@@ -118,6 +118,8 @@
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness)：用于语言模型的标准化 few-shot 和 zero-shot 评估框架，覆盖数百个任务和基准测试。
 - [Weave](https://github.com/wandb/weave)：用于追踪、评估和改进 LLM 应用的工具包，支持自动版本控制和交互式调试工作流。
 - [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
+- [Latitude](https://github.com/latitude-dev/latitude-llm)：开源 AI 监控与评估平台，面向生产环境 LLM 应用，支持协作调试、数据集管理和 CI/CD 集成。
+- [TraceRoot](https://github.com/traceroot-ai/traceroot)：面向 AI Agent 的开源可观测与自愈层，提供实时监控和自动修复能力。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -153,6 +155,7 @@
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
 - [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
 - [Llama Deploy](https://github.com/run-llama/llama_deploy)：面向 LlamaIndex Agent 工作流的生产部署框架，支持异步任务编排和服务管理。
+- [Semantic Router](https://github.com/vllm-project/semantic-router)：系统级智能混合模型运行时，支持动态模型选择和跨边缘、数据中心及云环境的智能路由。
 
 ## AIOps 智能运维
 
@@ -162,6 +165,7 @@
 - [SREWorks](https://github.com/alibaba/SREWorks)：云原生 DataOps 与 AIOps 平台，用于运维 Kubernetes 应用和基础设施。
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre)：开源 AI SRE 工具包，用于构建具备可观测性、事件管理、告警和自动化根因分析能力的 AI SRE Agent。
 - [Keep](https://github.com/keephq/keep)：开源 AIOps 与告警管理平台，支持跨监控工具的告警关联、增强和事件响应自动化。
+- [AiSOC](https://github.com/beenuar/AiSOC)：开源 AI 驱动安全运营中心，支持告警融合、Agent 辅助分类、紫队演练和 MITRE ATT&CK 调查工作流。
 
 ## AI 基础设施
 
@@ -195,6 +199,8 @@
 - [Label Studio](https://github.com/HumanSignal/label-studio)：开源数据标注平台，支持图像、文本、音频、视频和时序数据标注，适用于 ML 和 LLM 训练工作流。
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
+- [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
+- [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
 
 ## LLM 知识库
 
@@ -265,6 +271,7 @@
 - [OptScale](https://github.com/hystax/optscale)：开源 FinOps 与云成本优化平台，支持 AWS、Azure、GCP、阿里云和 Kubernetes。
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)：基于 policy-as-code 的云治理和成本优化规则引擎，支持自动化资源处置。
 - [OpenMeter](https://github.com/openmeterio/openmeter)：面向 AI、API 和 DevOps 的开源计量与计费平台，支持实时用量聚合与按量计费。
+- [NadirClaw](https://github.com/NadirRouter/NadirClaw)：开源 LLM 路由器和 AI 成本优化工具，自动将简单请求路由至低成本模型、将复杂请求路由至高级模型，通过 OpenAI 兼容代理节省 40-70% 的 API 开销。
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
 
 ## Observability 可观测性
@@ -355,6 +362,7 @@
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
+- [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
 
 ## Platform Engineering 平台工程
 
