@@ -219,6 +219,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): Open-source framework for RAG evaluation and optimization with AutoML-style automation for pipeline tuning.
 - [MemPalace](https://github.com/MemPalace/mempalace): Open-source AI memory system with best-in-class benchmarks, providing persistent knowledge storage for AI agents and LLM applications.
+- [LightRAG](https://github.com/HKUDS/LightRAG): Simple and fast RAG framework with graph-based retrieval, supporting incremental updates and efficient knowledge graph construction.
+- [Kotaemon](https://github.com/Cinnamon/kotaemon): Open-source RAG-based document QA tool with multi-model support and a customizable UI for chatting with documents.
+- [Quivr](https://github.com/QuivrHQ/quivr): Opinionated RAG platform for integrating GenAI into applications, supporting any LLM, vector store, and file type.
+- [R2R](https://github.com/sciphi-ai/r2r): Production-ready AI retrieval system with agentic RAG and a RESTful API for enterprise knowledge workflows.
 
 ## Agentic Workflow
 
@@ -412,6 +416,8 @@ A curated technology stack and toolchain for platform engineering.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands): AI-driven development platform for automated coding, code review, and software engineering tasks with agent-based workflows.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent): LLM-powered agent that automatically resolves GitHub issues and fixes bugs with iterative, tool-using workflows.
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot): AI developer that builds production-ready applications from natural language specifications with human-in-the-loop guidance.
+- [OpenAI Codex CLI](https://github.com/openai/codex): Lightweight coding agent that runs in the terminal, providing AI-powered code editing and task automation from the command line.
+- [Void](https://github.com/voideditor/void): Open-source AI code editor with intelligent code completion, editing, and agentic coding workflows in a modern editor environment.
 
 ### Developer Environments
 
