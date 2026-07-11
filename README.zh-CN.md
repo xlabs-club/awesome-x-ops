@@ -201,6 +201,7 @@
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
 - [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
+- [GPT-Researcher](https://github.com/assafelovic/gpt-researcher)：自主 AI 研究 Agent，支持全面的 Web 研究、报告生成和知识聚合，基于多源数据检索。
 
 ## LLM 知识库
 
@@ -402,6 +403,10 @@
 - [Aider](https://github.com/Aider-AI/aider)：终端中的 AI 结对编程工具，支持多文件编辑、Git 集成和主流 LLM。
 - [Continue](https://github.com/continuedev/continue)：开源 AI 代码助手，以自动驾驶模式集成到 IDE 中，支持自定义上下文和模型。
 - [Tabby](https://github.com/TabbyML/tabby)：自托管的 AI 编码助手，提供代码补全、对话和 Agent 能力，可完全在本地运行。
+- [Cline](https://github.com/cline/cline)：自主编码 Agent，以 SDK、IDE 扩展和 CLI 助手形式提供，支持 AI 驱动开发工作流。
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands)：AI 驱动开发平台，通过 Agent 工作流实现自动化编码、代码审查和软件工程任务。
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent)：基于 LLM 的智能 Agent，可自动解决 GitHub Issue 和修复 Bug，支持迭代式工具调用工作流。
+- [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot)：AI 开发者，可从自然语言规格说明构建生产就绪应用，支持人机协作引导。
 
 ### Developer Environments 开发环境
 
@@ -415,6 +420,7 @@
 - [Open Code Review](https://github.com/alibaba/open-code-review)：阿里巴巴开源混合代码审查工具，结合确定性流水线与 LLM Agent，提供精确的行级审查反馈。
 - [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持多种语言和 linter。
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent)：开源的 AI 驱动 PR 审查工具，支持自动代码审查、描述生成和跨 Git 平台的优化建议。
+- [opencommit](https://github.com/di-sukharev/opencommit)：AI 驱动的 CLI 工具，使用 LLM 生成有意义的 Git 提交信息，支持所有主流模型供应商和本地模型。
 - [Dependency Track](https://dependencytrack.org/)：开源软件组件分析平台，支持供应链风险、SBOM 和 License 检查。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构与现代化工具。
 - [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，稳定后计划替代 Dependency-Track。

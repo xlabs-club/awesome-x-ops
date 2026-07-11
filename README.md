@@ -201,6 +201,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
 - [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
+- [GPT-Researcher](https://github.com/assafelovic/gpt-researcher): Autonomous AI agent for comprehensive web research, report generation, and knowledge synthesis using multi-source data retrieval.
 
 ## LLM Knowledge
 
@@ -402,6 +403,10 @@ A curated technology stack and toolchain for platform engineering.
 - [Aider](https://github.com/Aider-AI/aider): AI pair programming tool that works in your terminal with multi-file editing, git integration, and support for leading LLMs.
 - [Continue](https://github.com/continuedev/continue): Open-source AI code assistant that integrates with IDEs as an autopilot for software development with customizable context and models.
 - [Tabby](https://github.com/TabbyML/tabby): Self-hosted AI coding assistant with code completion, chat, and agent capabilities that can run fully on-premises.
+- [Cline](https://github.com/cline/cline): Autonomous coding agent available as an SDK, IDE extension, and CLI assistant for AI-driven development workflows.
+- [OpenHands](https://github.com/All-Hands-AI/OpenHands): AI-driven development platform for automated coding, code review, and software engineering tasks with agent-based workflows.
+- [SWE-agent](https://github.com/SWE-agent/SWE-agent): LLM-powered agent that automatically resolves GitHub issues and fixes bugs with iterative, tool-using workflows.
+- [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot): AI developer that builds production-ready applications from natural language specifications with human-in-the-loop guidance.
 
 ### Developer Environments
 
@@ -415,6 +420,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Open Code Review](https://github.com/alibaba/open-code-review): Open-source hybrid code review tool combining deterministic pipelines with LLM agents for precise, line-level feedback at scale.
 - [reviewdog](https://github.com/reviewdog): Automated code review and analysis tool for many languages and linters.
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent): Open-source AI-powered PR reviewer for automated code review, description generation, and improvement suggestions across git platforms.
+- [opencommit](https://github.com/di-sukharev/opencommit): AI-powered CLI that generates meaningful git commit messages using LLMs, supporting all major providers and local models.
 - [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
 - [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
 - [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization.
