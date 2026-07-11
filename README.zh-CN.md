@@ -202,6 +202,8 @@
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
 - [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher)：自主 AI 研究 Agent，支持全面的 Web 研究、报告生成和知识聚合，基于多源数据检索。
+- [rtk](https://github.com/rtk-ai/rtk)：CLI 代理工具，可将日常开发命令的 LLM Token 消耗降低 60-90%，降低 AI 基础设施成本。
+- [Context7](https://github.com/upstash/context7)：MCP Server，在推理时为 LLM 和 AI 代码编辑器提供最新的代码文档和库参考信息。
 
 ## LLM 知识库
 
@@ -216,6 +218,7 @@
 - [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
 - [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)：开源 RAG 评估与优化框架，通过 AutoML 风格自动化进行流水线调优。
+- [MemPalace](https://github.com/MemPalace/mempalace)：开源 AI 记忆系统，提供基准测试最优的持久化知识存储能力，适用于 AI Agent 和 LLM 应用。
 
 ## Agentic Workflow 智能体工作流
 
@@ -397,6 +400,8 @@
 ### Code Search and Understanding 代码搜索与理解
 
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot)：自托管的代码搜索与理解工具，帮助人类和 AI Agent 导航、查询和理解大型代码库。
+- [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp)：代码智能 MCP Server，可将代码库索引为持久化知识图谱，支持 158 种语言的亚毫秒级查询。
+- [Semble](https://github.com/MinishLab/semble)：面向 AI Agent 优化的代码搜索引擎，基于嵌入检索，Token 消耗比 grep 方案减少约 98%。
 
 ### AI Coding Tools AI 编码工具
 
