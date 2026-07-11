@@ -115,6 +115,9 @@
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
+- [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness)：用于语言模型的标准化 few-shot 和 zero-shot 评估框架，覆盖数百个任务和基准测试。
+- [Weave](https://github.com/wandb/weave)：用于追踪、评估和改进 LLM 应用的工具包，支持自动版本控制和交互式调试工作流。
+- [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -149,6 +152,7 @@
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
 - [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
+- [Llama Deploy](https://github.com/run-llama/llama_deploy)：面向 LlamaIndex Agent 工作流的生产部署框架，支持异步任务编排和服务管理。
 
 ## AIOps 智能运维
 
@@ -385,6 +389,12 @@
 
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot)：自托管的代码搜索与理解工具，帮助人类和 AI Agent 导航、查询和理解大型代码库。
 
+### AI Coding Tools AI 编码工具
+
+- [Aider](https://github.com/Aider-AI/aider)：终端中的 AI 结对编程工具，支持多文件编辑、Git 集成和主流 LLM。
+- [Continue](https://github.com/continuedev/continue)：开源 AI 代码助手，以自动驾驶模式集成到 IDE 中，支持自定义上下文和模型。
+- [Tabby](https://github.com/TabbyML/tabby)：自托管的 AI 编码助手，提供代码补全、对话和 Agent 能力，可完全在本地运行。
+
 ### Developer Environments 开发环境
 
 - [Coder](https://github.com/coder/coder)：自托管远程开发平台，可在任意基础设施上为开发者和 AI Agent 配置安全、预配置的工作空间。
@@ -396,6 +406,7 @@
 - [SonarQube](https://github.com/SonarSource/sonarqube)：持续代码质量平台，支持 27+ 编程语言。
 - [Open Code Review](https://github.com/alibaba/open-code-review)：阿里巴巴开源混合代码审查工具，结合确定性流水线与 LLM Agent，提供精确的行级审查反馈。
 - [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持多种语言和 linter。
+- [PR-Agent](https://github.com/The-PR-Agent/pr-agent)：开源的 AI 驱动 PR 审查工具，支持自动代码审查、描述生成和跨 Git 平台的优化建议。
 - [Dependency Track](https://dependencytrack.org/)：开源软件组件分析平台，支持供应链风险、SBOM 和 License 检查。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构与现代化工具。
 - [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，稳定后计划替代 Dependency-Track。
