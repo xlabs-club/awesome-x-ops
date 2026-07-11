@@ -202,6 +202,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
 - [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher): Autonomous AI agent for comprehensive web research, report generation, and knowledge synthesis using multi-source data retrieval.
+- [rtk](https://github.com/rtk-ai/rtk): CLI proxy that reduces LLM token consumption by 60-90% on common dev commands, lowering AI infrastructure costs in development workflows.
+- [Context7](https://github.com/upstash/context7): MCP server that provides up-to-date code documentation and library references to LLMs and AI code editors at inference time.
 
 ## LLM Knowledge
 
@@ -216,6 +218,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
 - [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): Open-source framework for RAG evaluation and optimization with AutoML-style automation for pipeline tuning.
+- [MemPalace](https://github.com/MemPalace/mempalace): Open-source AI memory system with best-in-class benchmarks, providing persistent knowledge storage for AI agents and LLM applications.
 
 ## Agentic Workflow
 
@@ -397,6 +400,8 @@ A curated technology stack and toolchain for platform engineering.
 ### Code Search and Understanding
 
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot): Self-hosted code search and understanding tool for humans and AI agents to navigate, query, and comprehend large codebases.
+- [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp): Code intelligence MCP server that indexes codebases into persistent knowledge graphs for AI agents with sub-ms queries across 158 languages.
+- [Semble](https://github.com/MinishLab/semble): Code search engine optimized for AI agents, using embeddings-based retrieval with ~98% fewer tokens than grep-based approaches.
 
 ### AI Coding Tools
 
