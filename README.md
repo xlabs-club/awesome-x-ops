@@ -115,6 +115,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
 - [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway): Fast, lightweight Rust-based AI gateway with smart routing, caching, rate limiting, and built-in observability across 100+ LLM providers.
+- [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness): Standardized framework for few-shot and zero-shot evaluation of language models across hundreds of tasks and benchmarks.
+- [Weave](https://github.com/wandb/weave): Toolkit for tracing, evaluating, and improving LLM applications with automatic versioning and interactive debugging workflows.
+- [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.
 
 ## AI Serving and Inference Operations
 
@@ -149,6 +152,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
 - [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
+- [Llama Deploy](https://github.com/run-llama/llama_deploy): Production deployment framework for LlamaIndex agentic workflows with asynchronous task orchestration and service management.
 
 ## AIOps
 
@@ -385,6 +389,12 @@ A curated technology stack and toolchain for platform engineering.
 
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot): Self-hosted code search and understanding tool for humans and AI agents to navigate, query, and comprehend large codebases.
 
+### AI Coding Tools
+
+- [Aider](https://github.com/Aider-AI/aider): AI pair programming tool that works in your terminal with multi-file editing, git integration, and support for leading LLMs.
+- [Continue](https://github.com/continuedev/continue): Open-source AI code assistant that integrates with IDEs as an autopilot for software development with customizable context and models.
+- [Tabby](https://github.com/TabbyML/tabby): Self-hosted AI coding assistant with code completion, chat, and agent capabilities that can run fully on-premises.
+
 ### Developer Environments
 
 - [Coder](https://github.com/coder/coder): Self-hosted remote development platform for provisioning secure, pre-configured workspaces for developers and AI agents on any infrastructure.
@@ -396,6 +406,7 @@ A curated technology stack and toolchain for platform engineering.
 - [SonarQube](https://github.com/SonarSource/sonarqube): Continuous code quality platform supporting 27+ programming languages.
 - [Open Code Review](https://github.com/alibaba/open-code-review): Open-source hybrid code review tool combining deterministic pipelines with LLM agents for precise, line-level feedback at scale.
 - [reviewdog](https://github.com/reviewdog): Automated code review and analysis tool for many languages and linters.
+- [PR-Agent](https://github.com/The-PR-Agent/pr-agent): Open-source AI-powered PR reviewer for automated code review, description generation, and improvement suggestions across git platforms.
 - [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
 - [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
 - [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization.
