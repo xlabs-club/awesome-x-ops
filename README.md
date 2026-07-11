@@ -118,6 +118,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness): Standardized framework for few-shot and zero-shot evaluation of language models across hundreds of tasks and benchmarks.
 - [Weave](https://github.com/wandb/weave): Toolkit for tracing, evaluating, and improving LLM applications with automatic versioning and interactive debugging workflows.
 - [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.
+- [Latitude](https://github.com/latitude-dev/latitude-llm): Open-source AI monitoring and evaluation platform for production LLM applications with collaborative debugging, dataset management, and CI/CD integration.
+- [TraceRoot](https://github.com/traceroot-ai/traceroot): Open-source observability and self-healing layer for AI agents, providing real-time monitoring and automated remediation.
 
 ## AI Serving and Inference Operations
 
@@ -153,6 +155,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
 - [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
 - [Llama Deploy](https://github.com/run-llama/llama_deploy): Production deployment framework for LlamaIndex agentic workflows with asynchronous task orchestration and service management.
+- [Semantic Router](https://github.com/vllm-project/semantic-router): System-level intelligent runtime for Mixture-of-Models, enabling dynamic model selection and intelligent routing across edge, data center, and cloud environments.
 
 ## AIOps
 
@@ -162,6 +165,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [SREWorks](https://github.com/alibaba/SREWorks): Cloud-native DataOps and AIOps platform for operating Kubernetes-based applications and infrastructure.
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents with observability, incident management, alerting, and automated root-cause analysis.
 - [Keep](https://github.com/keephq/keep): Open-source AIOps and alert management platform for correlating, enriching, and automating incident response across monitoring tools.
+- [AiSOC](https://github.com/beenuar/AiSOC): Open-source AI-powered Security Operations Center for alert fusion, agent-assisted triage, purple-team drills, and MITRE ATT&CK investigation workflows.
 
 ## AI Infrastructure
 
@@ -195,6 +199,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Label Studio](https://github.com/HumanSignal/label-studio): Open-source data labeling platform for images, text, audio, video, and time series in ML and LLM training workflows.
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
+- [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
+- [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
 
 ## LLM Knowledge
 
@@ -265,6 +271,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OptScale](https://github.com/hystax/optscale): Open-source FinOps and cloud cost optimization platform for AWS, Azure, GCP, Alibaba Cloud, and Kubernetes.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Policy-as-code rules engine for cloud governance, cost optimization, and automated resource actions.
 - [OpenMeter](https://github.com/openmeterio/openmeter): Open-source metering and billing for AI, API, and DevOps with real-time usage aggregation and usage-based pricing.
+- [NadirClaw](https://github.com/NadirRouter/NadirClaw): Open-source LLM router and AI cost optimizer that routes simple prompts to cheap models and complex ones to premium, saving 40-70% on API costs with an OpenAI-compatible proxy.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
 ## Observability
@@ -355,6 +362,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
+- [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
 
 ## Platform Engineering
 
