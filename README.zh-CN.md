@@ -219,6 +219,10 @@
 - [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)：开源 RAG 评估与优化框架，通过 AutoML 风格自动化进行流水线调优。
 - [MemPalace](https://github.com/MemPalace/mempalace)：开源 AI 记忆系统，提供基准测试最优的持久化知识存储能力，适用于 AI Agent 和 LLM 应用。
+- [LightRAG](https://github.com/HKUDS/LightRAG)：简洁高效的 RAG 框架，基于图谱检索，支持增量更新和高效知识图谱构建。
+- [Kotaemon](https://github.com/Cinnamon/kotaemon)：开源的 RAG 文档问答工具，支持多模型接入和可定制 UI，实现与文档的智能对话交互。
+- [Quivr](https://github.com/QuivrHQ/quivr)：面向应用集成的 RAG 平台，支持任意 LLM、向量存储和文件类型，让团队专注产品而非 RAG 实现细节。
+- [R2R](https://github.com/sciphi-ai/r2r)：生产就绪的 AI 检索系统，支持 Agentic RAG 和 RESTful API，适合企业级知识工作流。
 
 ## Agentic Workflow 智能体工作流
 
@@ -412,6 +416,8 @@
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands)：AI 驱动开发平台，通过 Agent 工作流实现自动化编码、代码审查和软件工程任务。
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent)：基于 LLM 的智能 Agent，可自动解决 GitHub Issue 和修复 Bug，支持迭代式工具调用工作流。
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot)：AI 开发者，可从自然语言规格说明构建生产就绪应用，支持人机协作引导。
+- [OpenAI Codex CLI](https://github.com/openai/codex)：轻量级终端 AI 编码 Agent，在命令行中提供 AI 驱动的代码编辑和任务自动化能力。
+- [Void](https://github.com/voideditor/void)：开源 AI 代码编辑器，提供智能代码补全、编辑和 Agent 编码工作流。
 
 ### Developer Environments 开发环境
 
