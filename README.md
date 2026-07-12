@@ -156,6 +156,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
 - [Llama Deploy](https://github.com/run-llama/llama_deploy): Production deployment framework for LlamaIndex agentic workflows with asynchronous task orchestration and service management.
 - [Semantic Router](https://github.com/vllm-project/semantic-router): System-level intelligent runtime for Mixture-of-Models, enabling dynamic model selection and intelligent routing across edge, data center, and cloud environments.
+- [FastChat](https://github.com/lm-sys/FastChat): Open platform for training, serving, and evaluating LLMs. Release repo for Vicuna and Chatbot Arena.
+- [text-generation-webui](https://github.com/oobabooga/textgen): Open-source desktop app for running LLMs locally with text, vision, tool-calling, and OpenAI/Anthropic-compatible API support.
 
 ## AIOps
 
@@ -204,6 +206,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher): Autonomous AI agent for comprehensive web research, report generation, and knowledge synthesis using multi-source data retrieval.
 - [rtk](https://github.com/rtk-ai/rtk): CLI proxy that reduces LLM token consumption by 60-90% on common dev commands, lowering AI infrastructure costs in development workflows.
 - [Context7](https://github.com/upstash/context7): MCP server that provides up-to-date code documentation and library references to LLMs and AI code editors at inference time.
+- [Pathway](https://github.com/pathwaycom/pathway): Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG with unified batch-and-streaming execution.
+- [MindsDB](https://github.com/mindsdb/mindshub): AI database platform that connects models to data sources, enabling AI-powered queries, automations, and agent workflows.
 
 ## LLM Knowledge
 
@@ -223,6 +227,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Kotaemon](https://github.com/Cinnamon/kotaemon): Open-source RAG-based document QA tool with multi-model support and a customizable UI for chatting with documents.
 - [Quivr](https://github.com/QuivrHQ/quivr): Opinionated RAG platform for integrating GenAI into applications, supporting any LLM, vector store, and file type.
 - [R2R](https://github.com/sciphi-ai/r2r): Production-ready AI retrieval system with agentic RAG and a RESTful API for enterprise knowledge workflows.
+- [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): RAG and Agent application platform based on LangChain and local LLMs such as ChatGLM, Qwen, and Llama with knowledge base management.
 
 ## Agentic Workflow
 
@@ -247,6 +252,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [mission-control](https://github.com/builderz-labs/mission-control): Self-hosted AI agent orchestration platform for dispatching tasks, running multi-agent workflows, monitoring spend, and governing operations.
 - [kiwiq](https://github.com/rcortx/kiwiq): Production-grade multi-agent orchestration platform with JSON-defined agents, multi-tier memory, and built-in observability.
 - [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source long-horizon SuperAgent harness that researches, codes, and creates with sandboxes, memory, tools, and multi-agent coordination.
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit): Frontend stack for agents and generative UI with React, Angular, and mobile support. Makers of the AG-UI Protocol for agent-user interaction.
 
 ## DataOps
 
