@@ -189,11 +189,13 @@
 - [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
+- [zvec](https://github.com/alibaba/zvec)：阿里巴巴开源的轻量级、极速进程内向量数据库，用于嵌入式 AI 搜索和检索，Apache-2.0 许可。
 - [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
 - [Feast](https://github.com/feast-dev/feast)：面向 AI/ML 的开源特征存储，可在模型训练和在线推理中一致地提供特征数据。
 - [Instructor](https://github.com/567-labs/instructor)：面向 LLM 的结构化输出工具，基于 Pydantic 校验，支持自动重试和跨供应商统一 API。
 - [pgai](https://github.com/timescale/pgai)：面向 PostgreSQL 的开源 AI 工具套件，支持在 PostgreSQL 上直接构建 RAG、语义搜索和 AI 应用。
 - [Browser Use](https://github.com/browser-use/browser-use)：开源 Web 自动化工具包，让 AI Agent 能够浏览网页、提取数据并大规模执行在线自动化任务。
+- [Agent-Reach](https://github.com/Panniantong/Agent-Reach)：为 AI Agent 装上观察互联网的眼睛——通过一条 CLI 零 API 费用阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 等平台。
 - [Steel Browser](https://github.com/steel-dev/steel-browser)：开源无头浏览器沙箱，为 AI Agent 和应用提供生产就绪的 Web 自动化基础设施。
 - [E2B](https://github.com/e2b-dev/E2B)：开源安全云沙箱，用于运行 AI Agent 代码，提供隔离环境、文件系统访问和真实工具执行能力。
 - [headroom](https://github.com/headroomlabs-ai/headroom)：在 LLM 调用前压缩工具输出、日志、文件和 RAG 片段——节省 60-95% Token，效果不变。
@@ -258,6 +260,7 @@
 - [DeerFlow](https://github.com/bytedance/deer-flow)：字节跳动开源的长周期 SuperAgent 框架，支持沙箱、记忆、工具和多 Agent 协调，可进行研究、编码和创作。
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit)：面向 Agent 和生成式 UI 的前端技术栈，支持 React、Angular 和移动端。AG-UI Protocol 的创建者，用于 Agent 与用户的交互。
 - [Aegra](https://github.com/aegra/aegra)：开源自托管 AI Agent 后端，基于 FastAPI 和 PostgreSQL 构建，是托管式 Agent 部署平台的零锁定替代方案。
+- [CowAgent](https://github.com/zhayujie/CowAgent)：开源超级 AI 助手与 Agent 驾驭框架，支持任务规划、工具与技能执行，通过记忆和知识实现自我进化（原 chatgpt-on-wechat）。
 
 ## DataOps
 
@@ -434,6 +437,7 @@
 - [Goose](https://github.com/aaif-goose/goose)：开源可扩展 AI Agent，可用任意 LLM 安装、执行、编辑和测试代码，超越代码建议进入完整任务执行。
 - [Qwen Code](https://github.com/QwenLM/qwen-code)：开源终端 AI 编码 Agent，支持多文件编辑、任务规划和 MCP Server 集成。
 - [Open SWE](https://github.com/langchain-ai/open-swe)：LangChain 出品的开源异步编码 Agent，支持并行任务执行的自动化软件工程。
+- [OpenCode](https://github.com/anomalyco/opencode)：开源编码 Agent——快速、轻量的 CLI 编码工具，以低 Token 开销和广泛 LLM 支持著称。
 
 ### Developer Environments 开发环境
 

@@ -189,11 +189,13 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
+- [zvec](https://github.com/alibaba/zvec): Lightweight, lightning-fast in-process vector database from Alibaba for embedded AI search and retrieval, Apache-2.0.
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
 - [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
 - [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
 - [pgai](https://github.com/timescale/pgai): Open-source suite for building RAG, semantic search, and AI applications directly on PostgreSQL with vector and AI tooling.
 - [Browser Use](https://github.com/browser-use/browser-use): Open-source web automation toolkit that enables AI agents to browse websites, extract data, and automate online tasks at scale.
+- [Agent-Reach](https://github.com/Panniantong/Agent-Reach): Give your AI agent eyes to see the entire internet — read and search Twitter, Reddit, YouTube, GitHub, Bilibili, and more via one CLI with zero API fees.
 - [Steel Browser](https://github.com/steel-dev/steel-browser): Open-source headless browser sandbox for AI agents and applications, providing production-ready web automation infrastructure.
 - [E2B](https://github.com/e2b-dev/E2B): Open-source secure cloud sandbox for running AI agent code with isolated environments, file system access, and real-world tool execution.
 - [headroom](https://github.com/headroomlabs-ai/headroom): Compress tool outputs, logs, files, and RAG chunks before reaching the LLM — 60-95% fewer tokens, same answers.
@@ -258,6 +260,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source long-horizon SuperAgent harness that researches, codes, and creates with sandboxes, memory, tools, and multi-agent coordination.
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit): Frontend stack for agents and generative UI with React, Angular, and mobile support. Makers of the AG-UI Protocol for agent-user interaction.
 - [Aegra](https://github.com/aegra/aegra): Open-source self-hosted AI agent backend built with FastAPI and PostgreSQL, a zero-lock-in alternative to managed agent deployment platforms.
+- [CowAgent](https://github.com/zhayujie/CowAgent): Open-source super AI assistant and agent harness that plans tasks, runs tools and skills, and self-evolves with memory and knowledge (formerly chatgpt-on-wechat).
 
 ## DataOps
 
@@ -434,6 +437,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Goose](https://github.com/aaif-goose/goose): Open-source extensible AI agent that installs, executes, edits, and tests code with any LLM, going beyond code suggestions into full task execution.
 - [Qwen Code](https://github.com/QwenLM/qwen-code): Open-source AI coding agent that runs in the terminal with multi-file editing, task planning, and MCP server integration.
 - [Open SWE](https://github.com/langchain-ai/open-swe): Open-source asynchronous coding agent from LangChain for automated software engineering with parallel task execution.
+- [OpenCode](https://github.com/anomalyco/opencode): The open source coding agent — fast, lightweight CLI coding agent with low token overhead and broad LLM support.
 
 ### Developer Environments
 
