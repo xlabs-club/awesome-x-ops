@@ -208,6 +208,7 @@
 - [Context7](https://github.com/upstash/context7)：MCP Server，在推理时为 LLM 和 AI 代码编辑器提供最新的代码文档和库参考信息。
 - [Pathway](https://github.com/pathwaycom/pathway)：Python ETL 框架，支持流处理、实时分析、LLM 流水线和 RAG，统一批处理和流式执行。
 - [MindsDB](https://github.com/mindsdb/mindshub)：AI 数据库平台，将模型连接到数据源，支持 AI 驱动的查询、自动化和 Agent 工作流。
+- [Open Connector](https://github.com/oomol-lab/open-connector)：开源认证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000+ SaaS 提供商连接到 AI Agent。
 
 ## LLM 知识库
 
@@ -253,6 +254,7 @@
 - [kiwiq](https://github.com/rcortx/kiwiq)：生产级多 Agent 编排平台，支持 JSON 定义 Agent、多层记忆和内置可观测性。
 - [DeerFlow](https://github.com/bytedance/deer-flow)：字节跳动开源的长周期 SuperAgent 框架，支持沙箱、记忆、工具和多 Agent 协调，可进行研究、编码和创作。
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit)：面向 Agent 和生成式 UI 的前端技术栈，支持 React、Angular 和移动端。AG-UI Protocol 的创建者，用于 Agent 与用户的交互。
+- [Aegra](https://github.com/aegra/aegra)：开源自托管 AI Agent 后端，基于 FastAPI 和 PostgreSQL 构建，是托管式 Agent 部署平台的零锁定替代方案。
 
 ## DataOps
 
@@ -412,6 +414,7 @@
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot)：自托管的代码搜索与理解工具，帮助人类和 AI Agent 导航、查询和理解大型代码库。
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp)：代码智能 MCP Server，可将代码库索引为持久化知识图谱，支持 158 种语言的亚毫秒级查询。
 - [Semble](https://github.com/MinishLab/semble)：面向 AI Agent 优化的代码搜索引擎，基于嵌入检索，Token 消耗比 grep 方案减少约 98%。
+- [OpenSrc](https://github.com/vercel-labs/opensrc)：按需获取 npm 包的真实源码，为 AI 编码 Agent 提供更深的库上下文，提升代码生成准确性。
 
 ### AI Coding Tools AI 编码工具
 
@@ -424,6 +427,9 @@
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot)：AI 开发者，可从自然语言规格说明构建生产就绪应用，支持人机协作引导。
 - [OpenAI Codex CLI](https://github.com/openai/codex)：轻量级终端 AI 编码 Agent，在命令行中提供 AI 驱动的代码编辑和任务自动化能力。
 - [Void](https://github.com/voideditor/void)：开源 AI 代码编辑器，提供智能代码补全、编辑和 Agent 编码工作流。
+- [Goose](https://github.com/aaif-goose/goose)：开源可扩展 AI Agent，可用任意 LLM 安装、执行、编辑和测试代码，超越代码建议进入完整任务执行。
+- [Qwen Code](https://github.com/QwenLM/qwen-code)：开源终端 AI 编码 Agent，支持多文件编辑、任务规划和 MCP Server 集成。
+- [Open SWE](https://github.com/langchain-ai/open-swe)：LangChain 出品的开源异步编码 Agent，支持并行任务执行的自动化软件工程。
 
 ### Developer Environments 开发环境
 
