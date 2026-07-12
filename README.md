@@ -208,6 +208,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Context7](https://github.com/upstash/context7): MCP server that provides up-to-date code documentation and library references to LLMs and AI code editors at inference time.
 - [Pathway](https://github.com/pathwaycom/pathway): Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG with unified batch-and-streaming execution.
 - [MindsDB](https://github.com/mindsdb/mindshub): AI database platform that connects models to data sources, enabling AI-powered queries, automations, and agent workflows.
+- [Open Connector](https://github.com/oomol-lab/open-connector): Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
 
 ## LLM Knowledge
 
@@ -253,6 +254,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [kiwiq](https://github.com/rcortx/kiwiq): Production-grade multi-agent orchestration platform with JSON-defined agents, multi-tier memory, and built-in observability.
 - [DeerFlow](https://github.com/bytedance/deer-flow): ByteDance's open-source long-horizon SuperAgent harness that researches, codes, and creates with sandboxes, memory, tools, and multi-agent coordination.
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit): Frontend stack for agents and generative UI with React, Angular, and mobile support. Makers of the AG-UI Protocol for agent-user interaction.
+- [Aegra](https://github.com/aegra/aegra): Open-source self-hosted AI agent backend built with FastAPI and PostgreSQL, a zero-lock-in alternative to managed agent deployment platforms.
 
 ## DataOps
 
@@ -412,6 +414,7 @@ A curated technology stack and toolchain for platform engineering.
 - [sourcebot](https://github.com/sourcebot-dev/sourcebot): Self-hosted code search and understanding tool for humans and AI agents to navigate, query, and comprehend large codebases.
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp): Code intelligence MCP server that indexes codebases into persistent knowledge graphs for AI agents with sub-ms queries across 158 languages.
 - [Semble](https://github.com/MinishLab/semble): Code search engine optimized for AI agents, using embeddings-based retrieval with ~98% fewer tokens than grep-based approaches.
+- [OpenSrc](https://github.com/vercel-labs/opensrc): Fetch real source code for npm packages on-demand, giving AI coding agents deeper library context for more accurate code generation.
 
 ### AI Coding Tools
 
@@ -424,6 +427,9 @@ A curated technology stack and toolchain for platform engineering.
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot): AI developer that builds production-ready applications from natural language specifications with human-in-the-loop guidance.
 - [OpenAI Codex CLI](https://github.com/openai/codex): Lightweight coding agent that runs in the terminal, providing AI-powered code editing and task automation from the command line.
 - [Void](https://github.com/voideditor/void): Open-source AI code editor with intelligent code completion, editing, and agentic coding workflows in a modern editor environment.
+- [Goose](https://github.com/aaif-goose/goose): Open-source extensible AI agent that installs, executes, edits, and tests code with any LLM, going beyond code suggestions into full task execution.
+- [Qwen Code](https://github.com/QwenLM/qwen-code): Open-source AI coding agent that runs in the terminal with multi-file editing, task planning, and MCP server integration.
+- [Open SWE](https://github.com/langchain-ai/open-swe): Open-source asynchronous coding agent from LangChain for automated software engineering with parallel task execution.
 
 ### Developer Environments
 
