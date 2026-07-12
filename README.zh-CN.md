@@ -156,6 +156,8 @@
 - [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
 - [Llama Deploy](https://github.com/run-llama/llama_deploy)：面向 LlamaIndex Agent 工作流的生产部署框架，支持异步任务编排和服务管理。
 - [Semantic Router](https://github.com/vllm-project/semantic-router)：系统级智能混合模型运行时，支持动态模型选择和跨边缘、数据中心及云环境的智能路由。
+- [FastChat](https://github.com/lm-sys/FastChat)：用于训练、部署和评估 LLM 的开放平台。Vicuna 和 Chatbot Arena 的发布仓库。
+- [text-generation-webui](https://github.com/oobabooga/textgen)：开源桌面应用，可在本地运行 LLM，支持文本、视觉、工具调用和 OpenAI/Anthropic 兼容 API。
 
 ## AIOps 智能运维
 
@@ -204,6 +206,8 @@
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher)：自主 AI 研究 Agent，支持全面的 Web 研究、报告生成和知识聚合，基于多源数据检索。
 - [rtk](https://github.com/rtk-ai/rtk)：CLI 代理工具，可将日常开发命令的 LLM Token 消耗降低 60-90%，降低 AI 基础设施成本。
 - [Context7](https://github.com/upstash/context7)：MCP Server，在推理时为 LLM 和 AI 代码编辑器提供最新的代码文档和库参考信息。
+- [Pathway](https://github.com/pathwaycom/pathway)：Python ETL 框架，支持流处理、实时分析、LLM 流水线和 RAG，统一批处理和流式执行。
+- [MindsDB](https://github.com/mindsdb/mindshub)：AI 数据库平台，将模型连接到数据源，支持 AI 驱动的查询、自动化和 Agent 工作流。
 
 ## LLM 知识库
 
@@ -223,6 +227,7 @@
 - [Kotaemon](https://github.com/Cinnamon/kotaemon)：开源的 RAG 文档问答工具，支持多模型接入和可定制 UI，实现与文档的智能对话交互。
 - [Quivr](https://github.com/QuivrHQ/quivr)：面向应用集成的 RAG 平台，支持任意 LLM、向量存储和文件类型，让团队专注产品而非 RAG 实现细节。
 - [R2R](https://github.com/sciphi-ai/r2r)：生产就绪的 AI 检索系统，支持 Agentic RAG 和 RESTful API，适合企业级知识工作流。
+- [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)：基于 LangChain 和 ChatGLM、Qwen、Llama 等本地 LLM 的 RAG 与 Agent 应用平台，支持知识库管理。
 
 ## Agentic Workflow 智能体工作流
 
@@ -247,6 +252,7 @@
 - [mission-control](https://github.com/builderz-labs/mission-control)：可自托管的 AI Agent 编排平台，支持任务分发、多 Agent 工作流、支出监控和运维治理。
 - [kiwiq](https://github.com/rcortx/kiwiq)：生产级多 Agent 编排平台，支持 JSON 定义 Agent、多层记忆和内置可观测性。
 - [DeerFlow](https://github.com/bytedance/deer-flow)：字节跳动开源的长周期 SuperAgent 框架，支持沙箱、记忆、工具和多 Agent 协调，可进行研究、编码和创作。
+- [CopilotKit](https://github.com/CopilotKit/CopilotKit)：面向 Agent 和生成式 UI 的前端技术栈，支持 React、Angular 和移动端。AG-UI Protocol 的创建者，用于 Agent 与用户的交互。
 
 ## DataOps
 
