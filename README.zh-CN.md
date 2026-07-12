@@ -73,6 +73,7 @@
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
 - [ax](https://github.com/Necmttn/ax)：面向 AI 编码 Agent 的本地优先遥测与记忆图，覆盖成本、工具、技能、会话和 OTLP 事件。
+- [Mindwalk](https://github.com/cosmtrek/mindwalk)：可视化工具，在代码库 3D 地图上回放编码 Agent 会话，帮助调试和理解 Agent 行为。
 - [TensorZero](https://github.com/tensorzero/tensorzero)：开源 LLMOps 平台，整合 LLM 网关、可观测性、评估、优化和实验能力。
 - [Evidently](https://github.com/evidentlyai/evidently)：开源 ML 与 LLM 可观测性框架，支持评估、测试、监控和数据质量检查。
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
@@ -112,6 +113,7 @@
 - [Apache APISIX](https://github.com/apache/apisix)：Apache 动态 API 和 AI 网关，支持 LLM 代理、Token 限流、MCP bridge 和基于插件的 AI 流量管控。
 - [LangKit](https://github.com/whylabs/langkit)：开源 LLM 监控工具包，可从 Prompt 和响应中提取信号，包括文本质量、相关性、情感分析和 Prompt 注入检测。
 - [AxonHub](https://github.com/looplj/axonhub)：开源 AI 网关，支持故障转移、负载均衡、成本控制和端到端追踪，覆盖 100+ LLM 供应商。
+- [MCP Gateway & Registry](https://github.com/agentic-community/mcp-gateway-registry)：企业级 MCP 网关与 AI 资产注册中心，支持 OAuth 认证、语义搜索、审计追踪，为 Agent、Skills 和 MCP Server 提供统一治理。
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
@@ -168,6 +170,7 @@
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre)：开源 AI SRE 工具包，用于构建具备可观测性、事件管理、告警和自动化根因分析能力的 AI SRE Agent。
 - [Keep](https://github.com/keephq/keep)：开源 AIOps 与告警管理平台，支持跨监控工具的告警关联、增强和事件响应自动化。
 - [AiSOC](https://github.com/beenuar/AiSOC)：开源 AI 驱动安全运营中心，支持告警融合、Agent 辅助分类、紫队演练和 MITRE ATT&CK 调查工作流。
+- [APO](https://github.com/CloudDetail/apo)：AI 驱动的可观测平台，融合 OpenTelemetry、eBPF 和 LLM Agent 工作流，实现自动化根因分析和智能排障。
 
 ## AI 基础设施
 
@@ -312,6 +315,7 @@
 - [Coroot](https://github.com/coroot/coroot)：开源可观测性与 APM 平台，整合指标、日志、链路、性能剖析、SLO 和 AI 辅助根因分析。
 - [Pyrra](https://github.com/pyrra-dev/pyrra)：面向 Prometheus 的 SLO 管理工具，让服务等级目标更易访问、可操作和团队使用。
 - [Superlog](https://github.com/superloglabs/superlog)：开源可观测性工具，利用 AI Agent 检测问题并自动修复，实现软件自愈。
+- [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
 
 ## Kubernetes Operations Kubernetes 运维
 

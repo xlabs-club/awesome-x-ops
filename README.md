@@ -73,6 +73,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
+- [Mindwalk](https://github.com/cosmtrek/mindwalk): Visualization tool that replays coding-agent sessions on a 3D map of your codebase for debugging and understanding agent behavior.
 - [TensorZero](https://github.com/tensorzero/tensorzero): Open-source LLMOps platform that combines an LLM gateway, observability, evaluations, optimization, and experimentation.
 - [Evidently](https://github.com/evidentlyai/evidently): Open-source ML and LLM observability framework for evaluation, testing, monitoring, and data quality checks.
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Agent AI observability and evaluation SDK for tracing, debugging, and monitoring multi-agent LLM systems.
@@ -112,6 +113,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Apache APISIX](https://github.com/apache/apisix): Apache dynamic API and AI gateway with LLM proxying, token-based rate limiting, MCP bridge, and plugin-based AI traffic control.
 - [LangKit](https://github.com/whylabs/langkit): Open-source toolkit for monitoring LLMs by extracting signals from prompts and responses, including text quality, relevance, sentiment, and prompt injection detection.
 - [AxonHub](https://github.com/looplj/axonhub): Open-source AI gateway with failover, load balancing, cost control, and end-to-end tracing across 100+ LLM providers.
+- [MCP Gateway & Registry](https://github.com/agentic-community/mcp-gateway-registry): Enterprise MCP gateway and AI asset registry with OAuth, semantic search, audit trails, and unified governance for agents, skills, and MCP servers.
 - [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
 - [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway): Fast, lightweight Rust-based AI gateway with smart routing, caching, rate limiting, and built-in observability across 100+ LLM providers.
@@ -168,6 +170,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [OpenSRE](https://github.com/Tracer-Cloud/opensre): Open-source toolkit for building AI SRE agents with observability, incident management, alerting, and automated root-cause analysis.
 - [Keep](https://github.com/keephq/keep): Open-source AIOps and alert management platform for correlating, enriching, and automating incident response across monitoring tools.
 - [AiSOC](https://github.com/beenuar/AiSOC): Open-source AI-powered Security Operations Center for alert fusion, agent-assisted triage, purple-team drills, and MITRE ATT&CK investigation workflows.
+- [APO](https://github.com/CloudDetail/apo): AI-powered observability platform combining OpenTelemetry, eBPF, and LLM agentic workflows for automated root-cause analysis and intelligent troubleshooting.
 
 ## AI Infrastructure
 
@@ -312,6 +315,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Coroot](https://github.com/coroot/coroot): Open-source observability and APM platform with metrics, logs, traces, profiling, SLOs, and AI-assisted root-cause analysis.
 - [Pyrra](https://github.com/pyrra-dev/pyrra): SLO management tool for Prometheus that makes service-level objectives accessible, actionable, and easy to use for everyone.
 - [Superlog](https://github.com/superloglabs/superlog): Open-source observability tool that uses AI agents to self-heal software by detecting issues and automating fixes.
+- [Monoscope](https://github.com/monoscope-tech/monoscope): Open-source observability platform with S3-native storage, OpenTelemetry-native ingest, natural language queries, and AI agents for anomaly detection and scheduled reports.
 
 ## Kubernetes Operations
 
