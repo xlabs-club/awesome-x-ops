@@ -122,6 +122,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.
 - [Latitude](https://github.com/latitude-dev/latitude-llm): Open-source AI monitoring and evaluation platform for production LLM applications with collaborative debugging, dataset management, and CI/CD integration.
 - [TraceRoot](https://github.com/traceroot-ai/traceroot): Open-source observability and self-healing layer for AI agents, providing real-time monitoring and automated remediation.
+- [SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft's text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits and validation-gated updates.
 
 ## AI Serving and Inference Operations
 
@@ -160,6 +161,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Semantic Router](https://github.com/vllm-project/semantic-router): System-level intelligent runtime for Mixture-of-Models, enabling dynamic model selection and intelligent routing across edge, data center, and cloud environments.
 - [FastChat](https://github.com/lm-sys/FastChat): Open platform for training, serving, and evaluating LLMs. Release repo for Vicuna and Chatbot Arena.
 - [text-generation-webui](https://github.com/oobabooga/textgen): Open-source desktop app for running LLMs locally with text, vision, tool-calling, and OpenAI/Anthropic-compatible API support.
+- [DS4](https://github.com/antirez/ds4): High-performance local inference engine for DeepSeek 4 Flash and PRO, optimized for Metal, CUDA, and ROCm platforms.
 
 ## AIOps
 
@@ -214,6 +216,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Pathway](https://github.com/pathwaycom/pathway): Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG with unified batch-and-streaming execution.
 - [MindsDB](https://github.com/mindsdb/mindshub): AI database platform that connects models to data sources, enabling AI-powered queries, automations, and agent workflows.
 - [Open Connector](https://github.com/oomol-lab/open-connector): Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
+- [MCP Use](https://github.com/mcp-use/mcp-use): Fullstack MCP framework for building MCP applications, servers, and agent tools for ChatGPT, Claude, and other AI assistants.
 
 ## LLM Knowledge
 
@@ -261,6 +264,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit): Frontend stack for agents and generative UI with React, Angular, and mobile support. Makers of the AG-UI Protocol for agent-user interaction.
 - [Aegra](https://github.com/aegra/aegra): Open-source self-hosted AI agent backend built with FastAPI and PostgreSQL, a zero-lock-in alternative to managed agent deployment platforms.
 - [CowAgent](https://github.com/zhayujie/CowAgent): Open-source super AI assistant and agent harness that plans tasks, runs tools and skills, and self-evolves with memory and knowledge (formerly chatgpt-on-wechat).
+- [Activepieces](https://github.com/activepieces/activepieces): Open-source AI automation platform with ~400 built-in MCP servers for no-code AI agent workflows, automation, and MCP integrations.
+- [NanoBot](https://github.com/HKUDS/nanobot): Lightweight, open-source AI agent for tools, chats, and automated workflows with extensible plugin architecture.
 
 ## DataOps
 
@@ -438,6 +443,8 @@ A curated technology stack and toolchain for platform engineering.
 - [Qwen Code](https://github.com/QwenLM/qwen-code): Open-source AI coding agent that runs in the terminal with multi-file editing, task planning, and MCP server integration.
 - [Open SWE](https://github.com/langchain-ai/open-swe): Open-source asynchronous coding agent from LangChain for automated software engineering with parallel task execution.
 - [OpenCode](https://github.com/anomalyco/opencode): The open source coding agent — fast, lightweight CLI coding agent with low token overhead and broad LLM support.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli): Google's open-source AI agent that brings Gemini's power into the terminal for coding, file editing, and task automation.
+- [OpenWiki](https://github.com/langchain-ai/openwiki): CLI that writes and maintains agent documentation for codebases, automatically keeping docs in sync as the code evolves.
 
 ### Developer Environments
 
