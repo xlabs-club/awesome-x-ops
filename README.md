@@ -217,6 +217,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [MindsDB](https://github.com/mindsdb/mindshub): AI database platform that connects models to data sources, enabling AI-powered queries, automations, and agent workflows.
 - [Open Connector](https://github.com/oomol-lab/open-connector): Open-source auth gateway connecting 1000+ SaaS providers to AI agents through SDK, CLI, MCP, HTTP, and OpenAPI.
 - [MCP Use](https://github.com/mcp-use/mcp-use): Fullstack MCP framework for building MCP applications, servers, and agent tools for ChatGPT, Claude, and other AI assistants.
+- [Composio](https://github.com/ComposioHQ/composio): Agent tool-integration platform with managed toolkits, tool search, authentication, context management, and sandboxed execution.
+- [PageIndex](https://github.com/VectifyAI/PageIndex): Vectorless, reasoning-based document indexing system for retrieval-augmented generation over long documents.
 
 ## LLM Knowledge
 
@@ -385,6 +387,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [ORT](https://github.com/oss-review-toolkit/ort): Toolkit for automating open-source compliance checks across dependencies, licenses, copyrights, vulnerabilities, and SBOM generation.
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli): Command-line tool for validating, converting, merging, and diffing CycloneDX SBOMs and related formats.
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track): Component analysis platform for tracking SBOMs, vulnerabilities, licenses, and software supply-chain risk.
+- [ToolHive](https://github.com/stacklok/toolhive): Enterprise platform for securely running and managing MCP servers with isolation, lifecycle controls, and operational governance.
 - [Tracecat](https://github.com/TracecatHQ/tracecat): Open-source security automation platform for teams and AI agents with event-driven orchestration, monitoring, and low-code workflows.
 - [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
