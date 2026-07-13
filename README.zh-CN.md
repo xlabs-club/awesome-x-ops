@@ -123,6 +123,8 @@
 - [Latitude](https://github.com/latitude-dev/latitude-llm)：开源 AI 监控与评估平台，面向生产环境 LLM 应用，支持协作调试、数据集管理和 CI/CD 集成。
 - [TraceRoot](https://github.com/traceroot-ai/traceroot)：面向 AI Agent 的开源可观测与自愈层，提供实时监控和自动修复能力。
 - [SkillOpt](https://github.com/microsoft/SkillOpt)：微软开源的文本空间优化器，通过轨迹驱动的编辑和验证门控更新，为冻结参数的 LLM Agent 训练可复用的自然语言技能。
+- [AgentField](https://github.com/Agent-Field/agentfield)：用于构建、运行和扩展 AI Agent 的控制平面，让 Agent 以可观测、可审计、具备身份感知的 API 和微服务方式运行。
+- [Prompty](https://github.com/microsoft/prompty)：基于 Markdown 的 Prompt 格式与工具链，用于创建、管理、调试和评估可移植的 LLM Prompt。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -162,6 +164,7 @@
 - [FastChat](https://github.com/lm-sys/FastChat)：用于训练、部署和评估 LLM 的开放平台。Vicuna 和 Chatbot Arena 的发布仓库。
 - [text-generation-webui](https://github.com/oobabooga/textgen)：开源桌面应用，可在本地运行 LLM，支持文本、视觉、工具调用和 OpenAI/Anthropic 兼容 API。
 - [DS4](https://github.com/antirez/ds4)：高性能本地推理引擎，支持 DeepSeek 4 Flash 和 PRO 模型，针对 Metal、CUDA 和 ROCm 平台优化。
+- [RouteLLM](https://github.com/lm-sys/RouteLLM)：用于部署和评估 LLM 路由器的框架，可在保持响应质量的同时将请求转发给更低成本的模型。
 
 ## AIOps 智能运维
 
@@ -268,6 +271,7 @@
 - [CowAgent](https://github.com/zhayujie/CowAgent)：开源超级 AI 助手与 Agent 驾驭框架，支持任务规划、工具与技能执行，通过记忆和知识实现自我进化（原 chatgpt-on-wechat）。
 - [Activepieces](https://github.com/activepieces/activepieces)：开源 AI 自动化平台，内置约 400 个 MCP Server，支持无代码 AI Agent 工作流、自动化和 MCP 集成。
 - [NanoBot](https://github.com/HKUDS/nanobot)：轻量级开源 AI Agent，适用于工具调用、对话和自动化工作流，支持可扩展插件架构。
+- [Harbor Framework](https://github.com/harbor-framework/harbor)：用于在可复现环境和并行实验中评估与改进 Agent 及语言模型的框架。
 
 ## DataOps
 
@@ -394,6 +398,7 @@
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。
 
 ## Platform Engineering 平台工程
 

@@ -123,6 +123,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Latitude](https://github.com/latitude-dev/latitude-llm): Open-source AI monitoring and evaluation platform for production LLM applications with collaborative debugging, dataset management, and CI/CD integration.
 - [TraceRoot](https://github.com/traceroot-ai/traceroot): Open-source observability and self-healing layer for AI agents, providing real-time monitoring and automated remediation.
 - [SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft's text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits and validation-gated updates.
+- [AgentField](https://github.com/Agent-Field/agentfield): Control plane for building, running, and scaling observable, auditable, identity-aware AI agents as APIs and microservices.
+- [Prompty](https://github.com/microsoft/prompty): Markdown-based prompt format and tooling for creating, managing, debugging, and evaluating portable LLM prompts.
 
 ## AI Serving and Inference Operations
 
@@ -162,6 +164,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [FastChat](https://github.com/lm-sys/FastChat): Open platform for training, serving, and evaluating LLMs. Release repo for Vicuna and Chatbot Arena.
 - [text-generation-webui](https://github.com/oobabooga/textgen): Open-source desktop app for running LLMs locally with text, vision, tool-calling, and OpenAI/Anthropic-compatible API support.
 - [DS4](https://github.com/antirez/ds4): High-performance local inference engine for DeepSeek 4 Flash and PRO, optimized for Metal, CUDA, and ROCm platforms.
+- [RouteLLM](https://github.com/lm-sys/RouteLLM): Framework for serving and evaluating LLM routers that direct requests to cheaper models while preserving response quality.
 
 ## AIOps
 
@@ -268,6 +271,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [CowAgent](https://github.com/zhayujie/CowAgent): Open-source super AI assistant and agent harness that plans tasks, runs tools and skills, and self-evolves with memory and knowledge (formerly chatgpt-on-wechat).
 - [Activepieces](https://github.com/activepieces/activepieces): Open-source AI automation platform with ~400 built-in MCP servers for no-code AI agent workflows, automation, and MCP integrations.
 - [NanoBot](https://github.com/HKUDS/nanobot): Lightweight, open-source AI agent for tools, chats, and automated workflows with extensible plugin architecture.
+- [Harbor Framework](https://github.com/harbor-framework/harbor): Framework for evaluating and improving agents and language models across reproducible environments and parallel experiments.
 
 ## DataOps
 
@@ -394,6 +398,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
 - [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
 
 ## Platform Engineering
 
