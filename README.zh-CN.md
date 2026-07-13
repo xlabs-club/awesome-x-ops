@@ -122,6 +122,7 @@
 - [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
 - [Latitude](https://github.com/latitude-dev/latitude-llm)：开源 AI 监控与评估平台，面向生产环境 LLM 应用，支持协作调试、数据集管理和 CI/CD 集成。
 - [TraceRoot](https://github.com/traceroot-ai/traceroot)：面向 AI Agent 的开源可观测与自愈层，提供实时监控和自动修复能力。
+- [SkillOpt](https://github.com/microsoft/SkillOpt)：微软开源的文本空间优化器，通过轨迹驱动的编辑和验证门控更新，为冻结参数的 LLM Agent 训练可复用的自然语言技能。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -160,6 +161,7 @@
 - [Semantic Router](https://github.com/vllm-project/semantic-router)：系统级智能混合模型运行时，支持动态模型选择和跨边缘、数据中心及云环境的智能路由。
 - [FastChat](https://github.com/lm-sys/FastChat)：用于训练、部署和评估 LLM 的开放平台。Vicuna 和 Chatbot Arena 的发布仓库。
 - [text-generation-webui](https://github.com/oobabooga/textgen)：开源桌面应用，可在本地运行 LLM，支持文本、视觉、工具调用和 OpenAI/Anthropic 兼容 API。
+- [DS4](https://github.com/antirez/ds4)：高性能本地推理引擎，支持 DeepSeek 4 Flash 和 PRO 模型，针对 Metal、CUDA 和 ROCm 平台优化。
 
 ## AIOps 智能运维
 
@@ -214,6 +216,7 @@
 - [Pathway](https://github.com/pathwaycom/pathway)：Python ETL 框架，支持流处理、实时分析、LLM 流水线和 RAG，统一批处理和流式执行。
 - [MindsDB](https://github.com/mindsdb/mindshub)：AI 数据库平台，将模型连接到数据源，支持 AI 驱动的查询、自动化和 Agent 工作流。
 - [Open Connector](https://github.com/oomol-lab/open-connector)：开源认证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000+ SaaS 提供商连接到 AI Agent。
+- [MCP Use](https://github.com/mcp-use/mcp-use)：全栈 MCP 框架，用于构建面向 ChatGPT、Claude 等 AI 助手的 MCP 应用、Server 和 Agent 工具。
 
 ## LLM 知识库
 
@@ -261,6 +264,8 @@
 - [CopilotKit](https://github.com/CopilotKit/CopilotKit)：面向 Agent 和生成式 UI 的前端技术栈，支持 React、Angular 和移动端。AG-UI Protocol 的创建者，用于 Agent 与用户的交互。
 - [Aegra](https://github.com/aegra/aegra)：开源自托管 AI Agent 后端，基于 FastAPI 和 PostgreSQL 构建，是托管式 Agent 部署平台的零锁定替代方案。
 - [CowAgent](https://github.com/zhayujie/CowAgent)：开源超级 AI 助手与 Agent 驾驭框架，支持任务规划、工具与技能执行，通过记忆和知识实现自我进化（原 chatgpt-on-wechat）。
+- [Activepieces](https://github.com/activepieces/activepieces)：开源 AI 自动化平台，内置约 400 个 MCP Server，支持无代码 AI Agent 工作流、自动化和 MCP 集成。
+- [NanoBot](https://github.com/HKUDS/nanobot)：轻量级开源 AI Agent，适用于工具调用、对话和自动化工作流，支持可扩展插件架构。
 
 ## DataOps
 
@@ -438,6 +443,8 @@
 - [Qwen Code](https://github.com/QwenLM/qwen-code)：开源终端 AI 编码 Agent，支持多文件编辑、任务规划和 MCP Server 集成。
 - [Open SWE](https://github.com/langchain-ai/open-swe)：LangChain 出品的开源异步编码 Agent，支持并行任务执行的自动化软件工程。
 - [OpenCode](https://github.com/anomalyco/opencode)：开源编码 Agent——快速、轻量的 CLI 编码工具，以低 Token 开销和广泛 LLM 支持著称。
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli)：谷歌开源的 AI Agent，将 Gemini 的强大能力带入终端，用于编码、文件编辑和任务自动化。
+- [OpenWiki](https://github.com/langchain-ai/openwiki)：用于为代码库编写和维护 Agent 文档的 CLI 工具，随代码演进自动保持文档同步。
 
 ### Developer Environments 开发环境
 
