@@ -217,6 +217,8 @@
 - [MindsDB](https://github.com/mindsdb/mindshub)：AI 数据库平台，将模型连接到数据源，支持 AI 驱动的查询、自动化和 Agent 工作流。
 - [Open Connector](https://github.com/oomol-lab/open-connector)：开源认证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000+ SaaS 提供商连接到 AI Agent。
 - [MCP Use](https://github.com/mcp-use/mcp-use)：全栈 MCP 框架，用于构建面向 ChatGPT、Claude 等 AI 助手的 MCP 应用、Server 和 Agent 工具。
+- [Composio](https://github.com/ComposioHQ/composio)：Agent 工具集成平台，提供托管工具包、工具搜索、身份认证、上下文管理和沙箱执行能力。
+- [PageIndex](https://github.com/VectifyAI/PageIndex)：基于向量无关、推理驱动的文档索引系统，用于对长文档执行检索增强生成。
 
 ## LLM 知识库
 
@@ -385,6 +387,7 @@
 - [ORT](https://github.com/oss-review-toolkit/ort)：用于自动化开源合规检查的工具集，覆盖依赖、License、版权、漏洞和 SBOM 生成。
 - [CycloneDX CLI](https://github.com/CycloneDX/cyclonedx-cli)：用于校验、转换、合并和比对 CycloneDX SBOM 及相关格式的命令行工具。
 - [Dependency-Track](https://github.com/DependencyTrack/dependency-track)：组件分析平台，用于跟踪 SBOM、漏洞、License 和软件供应链风险。
+- [ToolHive](https://github.com/stacklok/toolhive)：企业级 MCP Server 安全运行与管理平台，提供隔离、生命周期控制和运维治理能力。
 - [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
