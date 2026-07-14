@@ -130,6 +130,10 @@
 - [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO)：自托管 AI SRE，提供无需插桩的 eBPF 可观测性，以及带护栏、可自验证的 Kubernetes 故障修复能力。
 - [AgentProvenance](https://github.com/ByteYellow/AgentProvenance)：面向沙箱 AI Agent 的安全观测工具，将模型意图、应用上下文和运行时遥测汇聚为可验证的证据图谱。
 - [AgentCanvas](https://github.com/vstorm-co/agentcanvas)：根据 Logfire trace 生成交互式 HTML 图，展示 Pydantic AI Agent 工作流中的工具、嵌套 Agent、Token 和成本。
+- [Kaito](https://github.com/kaito-project/kaito)：Kubernetes AI 工具链 Operator，用于简化 Kubernetes 上的模型部署和 AI 工作负载管理。
+- [OME](https://github.com/ome-projects/ome)：Kubernetes Operator，用于管理 LLM 服务、GPU 调度和模型生命周期，支持 SGLang、vLLM、TensorRT-LLM 与 Triton。
+- [AURA](https://github.com/mezmo/aura)：面向生产的安全 AI SRE Agent 驾驭框架，提供护栏、状态管理、身份认证、流式执行和运维工具集成。
+- [ongrid](https://github.com/ongridio/ongrid)：运维 AI Agent，可通过常见团队聊天界面调查基础设施根因并执行带护栏的修复。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
