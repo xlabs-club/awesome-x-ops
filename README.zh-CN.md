@@ -125,6 +125,7 @@
 - [SkillOpt](https://github.com/microsoft/SkillOpt)：微软开源的文本空间优化器，通过轨迹驱动的编辑和验证门控更新，为冻结参数的 LLM Agent 训练可复用的自然语言技能。
 - [AgentField](https://github.com/Agent-Field/agentfield)：用于构建、运行和扩展 AI Agent 的控制平面，让 Agent 以可观测、可审计、具备身份感知的 API 和微服务方式运行。
 - [Prompty](https://github.com/microsoft/prompty)：基于 Markdown 的 Prompt 格式与工具链，用于创建、管理、调试和评估可移植的 LLM Prompt。
+- [Archestra](https://github.com/archestra-ai/archestra)：企业级 AI 平台，提供护栏、MCP 注册中心、网关和编排能力，用于治理 Agent 运维。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -176,6 +177,7 @@
 - [Keep](https://github.com/keephq/keep)：开源 AIOps 与告警管理平台，支持跨监控工具的告警关联、增强和事件响应自动化。
 - [AiSOC](https://github.com/beenuar/AiSOC)：开源 AI 驱动安全运营中心，支持告警融合、Agent 辅助分类、紫队演练和 MITRE ATT&CK 调查工作流。
 - [APO](https://github.com/CloudDetail/apo)：AI 驱动的可观测平台，融合 OpenTelemetry、eBPF 和 LLM Agent 工作流，实现自动化根因分析和智能排障。
+- [HolmesGPT](https://github.com/HolmesGPT/holmesgpt)：CNCF Sandbox SRE Agent，结合集群上下文、Runbook 和可观测数据调查告警与运维事件。
 
 ## AI 基础设施
 
@@ -330,6 +332,7 @@
 - [Pyrra](https://github.com/pyrra-dev/pyrra)：面向 Prometheus 的 SLO 管理工具，让服务等级目标更易访问、可操作和团队使用。
 - [Superlog](https://github.com/superloglabs/superlog)：开源可观测性工具，利用 AI Agent 检测问题并自动修复，实现软件自愈。
 - [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
+- [DeepFlow](https://github.com/deepflowio/deepflow)：基于 eBPF 的可观测平台，支持分布式追踪、性能剖析、网络遥测和自动应用拓扑发现。
 
 ## Kubernetes Operations Kubernetes 运维
 
