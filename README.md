@@ -130,6 +130,10 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO): Self-hosted AI SRE for Kubernetes with zero-instrumentation eBPF observability and guardrailed, self-verifying remediation.
 - [AgentProvenance](https://github.com/ByteYellow/AgentProvenance): Security-oriented observability for sandboxed AI agents, combining model intent, application context, and runtime telemetry into verifiable evidence graphs.
 - [AgentCanvas](https://github.com/vstorm-co/agentcanvas): Interactive HTML diagrams for visualizing Pydantic AI agent workflows from Logfire traces, including tools, nested agents, tokens, and cost.
+- [Kaito](https://github.com/kaito-project/kaito): Kubernetes AI Toolchain Operator for simplifying model deployment and AI workload management on Kubernetes.
+- [OME](https://github.com/ome-projects/ome): Kubernetes operator for LLM serving, GPU scheduling, and model lifecycle management across SGLang, vLLM, TensorRT-LLM, and Triton.
+- [AURA](https://github.com/mezmo/aura): Production-oriented harness for safe AI SRE agents, with guardrails, state management, authentication, streaming, and operational tool integrations.
+- [ongrid](https://github.com/ongridio/ongrid): Ops AI agent that investigates infrastructure root causes and performs guarded remediation through common team-chat interfaces.
 
 ## AI Serving and Inference Operations
 
