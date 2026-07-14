@@ -126,6 +126,10 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentField](https://github.com/Agent-Field/agentfield): Control plane for building, running, and scaling observable, auditable, identity-aware AI agents as APIs and microservices.
 - [Prompty](https://github.com/microsoft/prompty): Markdown-based prompt format and tooling for creating, managing, debugging, and evaluating portable LLM prompts.
 - [Archestra](https://github.com/archestra-ai/archestra): Enterprise AI platform with guardrails, MCP registry, gateway, and orchestration for governed agent operations.
+- [Databuff](https://github.com/databufflabs/databuff): AI-native OpenTelemetry APM with multi-agent root-cause analysis across traces, metrics, and service topology.
+- [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO): Self-hosted AI SRE for Kubernetes with zero-instrumentation eBPF observability and guardrailed, self-verifying remediation.
+- [AgentProvenance](https://github.com/ByteYellow/AgentProvenance): Security-oriented observability for sandboxed AI agents, combining model intent, application context, and runtime telemetry into verifiable evidence graphs.
+- [AgentCanvas](https://github.com/vstorm-co/agentcanvas): Interactive HTML diagrams for visualizing Pydantic AI agent workflows from Logfire traces, including tools, nested agents, tokens, and cost.
 
 ## AI Serving and Inference Operations
 
