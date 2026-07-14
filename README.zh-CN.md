@@ -227,7 +227,8 @@
 - [Open Connector](https://github.com/oomol-lab/open-connector)：开源认证网关，通过 SDK、CLI、MCP、HTTP 和 OpenAPI 将 1000+ SaaS 提供商连接到 AI Agent。
 - [MCP Use](https://github.com/mcp-use/mcp-use)：全栈 MCP 框架，用于构建面向 ChatGPT、Claude 等 AI 助手的 MCP 应用、Server 和 Agent 工具。
 - [Composio](https://github.com/ComposioHQ/composio)：Agent 工具集成平台，提供托管工具包、工具搜索、身份认证、上下文管理和沙箱执行能力。
-- [PageIndex](https://github.com/VectifyAI/PageIndex)：基于向量无关、推理驱动的文档索引系统，用于对长文档执行检索增强生成。
+- [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
+- [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
 
 ## LLM 知识库
 
@@ -277,7 +278,8 @@
 - [CowAgent](https://github.com/zhayujie/CowAgent)：开源超级 AI 助手与 Agent 驾驭框架，支持任务规划、工具与技能执行，通过记忆和知识实现自我进化（原 chatgpt-on-wechat）。
 - [Activepieces](https://github.com/activepieces/activepieces)：开源 AI 自动化平台，内置约 400 个 MCP Server，支持无代码 AI Agent 工作流、自动化和 MCP 集成。
 - [NanoBot](https://github.com/HKUDS/nanobot)：轻量级开源 AI Agent，适用于工具调用、对话和自动化工作流，支持可扩展插件架构。
-- [Harbor Framework](https://github.com/harbor-framework/harbor)：用于在可复现环境和并行实验中评估与改进 Agent 及语言模型的框架。
+- [Harbor Framework](https://github.com/harbor-framework/harbor)：用于在可复现环境和并行实验中评估与改进 Agent 和语言模型的框架。
+- [LangBot](https://github.com/langbot-app/LangBot)：面向生产的多平台机器人平台，支持 Agent 工作流、知识库、插件，以及与多种聊天系统集成。
 
 ## DataOps
 
