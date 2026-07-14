@@ -125,6 +125,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft's text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits and validation-gated updates.
 - [AgentField](https://github.com/Agent-Field/agentfield): Control plane for building, running, and scaling observable, auditable, identity-aware AI agents as APIs and microservices.
 - [Prompty](https://github.com/microsoft/prompty): Markdown-based prompt format and tooling for creating, managing, debugging, and evaluating portable LLM prompts.
+- [Archestra](https://github.com/archestra-ai/archestra): Enterprise AI platform with guardrails, MCP registry, gateway, and orchestration for governed agent operations.
 
 ## AI Serving and Inference Operations
 
@@ -176,6 +177,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Keep](https://github.com/keephq/keep): Open-source AIOps and alert management platform for correlating, enriching, and automating incident response across monitoring tools.
 - [AiSOC](https://github.com/beenuar/AiSOC): Open-source AI-powered Security Operations Center for alert fusion, agent-assisted triage, purple-team drills, and MITRE ATT&CK investigation workflows.
 - [APO](https://github.com/CloudDetail/apo): AI-powered observability platform combining OpenTelemetry, eBPF, and LLM agentic workflows for automated root-cause analysis and intelligent troubleshooting.
+- [HolmesGPT](https://github.com/HolmesGPT/holmesgpt): CNCF Sandbox SRE agent that investigates alerts and operational incidents using cluster context, runbooks, and observability data.
 
 ## AI Infrastructure
 
@@ -330,6 +332,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Pyrra](https://github.com/pyrra-dev/pyrra): SLO management tool for Prometheus that makes service-level objectives accessible, actionable, and easy to use for everyone.
 - [Superlog](https://github.com/superloglabs/superlog): Open-source observability tool that uses AI agents to self-heal software by detecting issues and automating fixes.
 - [Monoscope](https://github.com/monoscope-tech/monoscope): Open-source observability platform with S3-native storage, OpenTelemetry-native ingest, natural language queries, and AI agents for anomaly detection and scheduled reports.
+- [DeepFlow](https://github.com/deepflowio/deepflow): eBPF-based observability platform for distributed tracing, profiling, network telemetry, and automatic application topology discovery.
 
 ## Kubernetes Operations
 
