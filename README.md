@@ -228,6 +228,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [MCP Use](https://github.com/mcp-use/mcp-use): Fullstack MCP framework for building MCP applications, servers, and agent tools for ChatGPT, Claude, and other AI assistants.
 - [Composio](https://github.com/ComposioHQ/composio): Agent tool-integration platform with managed toolkits, tool search, authentication, context management, and sandboxed execution.
 - [PageIndex](https://github.com/VectifyAI/PageIndex): Vectorless, reasoning-based document indexing system for retrieval-augmented generation over long documents.
+- [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
 
 ## LLM Knowledge
 
@@ -278,6 +279,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Activepieces](https://github.com/activepieces/activepieces): Open-source AI automation platform with ~400 built-in MCP servers for no-code AI agent workflows, automation, and MCP integrations.
 - [NanoBot](https://github.com/HKUDS/nanobot): Lightweight, open-source AI agent for tools, chats, and automated workflows with extensible plugin architecture.
 - [Harbor Framework](https://github.com/harbor-framework/harbor): Framework for evaluating and improving agents and language models across reproducible environments and parallel experiments.
+- [LangBot](https://github.com/langbot-app/LangBot): Production-oriented multi-platform bot platform with agent workflows, knowledge bases, plugins, and integrations for chat systems.
 
 ## DataOps
 
