@@ -126,6 +126,10 @@
 - [AgentField](https://github.com/Agent-Field/agentfield)：用于构建、运行和扩展 AI Agent 的控制平面，让 Agent 以可观测、可审计、具备身份感知的 API 和微服务方式运行。
 - [Prompty](https://github.com/microsoft/prompty)：基于 Markdown 的 Prompt 格式与工具链，用于创建、管理、调试和评估可移植的 LLM Prompt。
 - [Archestra](https://github.com/archestra-ai/archestra)：企业级 AI 平台，提供护栏、MCP 注册中心、网关和编排能力，用于治理 Agent 运维。
+- [Databuff](https://github.com/databufflabs/databuff)：AI 原生 OpenTelemetry APM，支持跨链路、指标和服务拓扑的多 Agent 根因分析。
+- [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO)：自托管 AI SRE，提供无需插桩的 eBPF 可观测性，以及带护栏、可自验证的 Kubernetes 故障修复能力。
+- [AgentProvenance](https://github.com/ByteYellow/AgentProvenance)：面向沙箱 AI Agent 的安全观测工具，将模型意图、应用上下文和运行时遥测汇聚为可验证的证据图谱。
+- [AgentCanvas](https://github.com/vstorm-co/agentcanvas)：根据 Logfire trace 生成交互式 HTML 图，展示 Pydantic AI Agent 工作流中的工具、嵌套 Agent、Token 和成本。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
