@@ -69,6 +69,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Langtrace](https://github.com/Scale3-Labs/langtrace): OpenTelemetry-based observability platform for tracing, evaluating, and monitoring LLM applications.
 - [Future AGI](https://github.com/future-agi/future-agi): Self-hostable platform for evaluating, observing, and improving LLM and AI agent applications.
 - [CozeLoop](https://github.com/coze-dev/coze-loop): AI agent optimization platform covering development, debugging, evaluation, and production monitoring workflows.
+- [Judgeval](https://github.com/JudgmentLabs/judgeval): Continuous-improvement stack for agents, combining environment data and evaluations to improve and monitor agent behavior.
+- [Acontext](https://github.com/memodb-io/Acontext): Open-source memory layer for AI agents that turns reusable agent skills and context into an operational service.
 - [Agenta](https://github.com/Agenta-AI/agenta): Open-source LLMOps platform for prompt management, playgrounds, evaluations, and observability.
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
@@ -88,6 +90,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
+- [Manifest](https://github.com/mnfst/manifest): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute): Self-hosted AI gateway that unifies many model providers behind one endpoint with automatic fallback, routing, MCP/A2A support, and token-saving compression.
 - [Otari](https://github.com/mozilla-ai/otari): Open-source, OpenAI-compatible LLM gateway from Mozilla AI with one endpoint for 40+ providers, virtual keys, budgets, and usage tracking.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
@@ -350,6 +353,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Superlog](https://github.com/superloglabs/superlog): Open-source observability tool that uses AI agents to self-heal software by detecting issues and automating fixes.
 - [Monoscope](https://github.com/monoscope-tech/monoscope): Open-source observability platform with S3-native storage, OpenTelemetry-native ingest, natural language queries, and AI agents for anomaly detection and scheduled reports.
 - [DeepFlow](https://github.com/deepflowio/deepflow): eBPF-based observability platform for distributed tracing, profiling, network telemetry, and automatic application topology discovery.
+- [Parseable](https://github.com/parseablehq/parseable): Rust-based, data-lake observability platform for logs, metrics, traces, and events across applications, agents, and infrastructure.
 
 ## Kubernetes Operations
 
