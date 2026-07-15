@@ -69,6 +69,8 @@
 - [Langtrace](https://github.com/Scale3-Labs/langtrace)：基于 OpenTelemetry 的可观测平台，用于追踪、评估和监控 LLM 应用。
 - [Future AGI](https://github.com/future-agi/future-agi)：可自托管平台，用于评估、观测和改进 LLM 与 AI Agent 应用。
 - [CozeLoop](https://github.com/coze-dev/coze-loop)：AI Agent 优化平台，覆盖开发、调试、评估和生产监控流程。
+- [Judgeval](https://github.com/JudgmentLabs/judgeval)：面向 Agent 的持续改进工具栈，结合环境数据与评估能力，持续改进并监控 Agent 行为。
+- [Acontext](https://github.com/memodb-io/Acontext)：开源 AI Agent 记忆层，将可复用的 Agent 技能与上下文转化为可运营的服务。
 - [Agenta](https://github.com/Agenta-AI/agenta)：开源 LLMOps 平台，支持 Prompt 管理、调试 playground、评估和可观测性。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
@@ -88,6 +90,7 @@
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
+- [Manifest](https://github.com/mnfst/manifest)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)：自托管 AI 网关，将多个模型供应商统一到一个端点，支持自动故障转移、路由、MCP/A2A，以及节省 Token 的压缩能力。
 - [Otari](https://github.com/mozilla-ai/otari)：Mozilla AI 出品的开源、OpenAI 兼容 LLM 网关，一个端点支持 40+ 供应商，提供虚拟密钥、预算和使用量追踪。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
@@ -350,6 +353,7 @@
 - [Superlog](https://github.com/superloglabs/superlog)：开源可观测性工具，利用 AI Agent 检测问题并自动修复，实现软件自愈。
 - [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
 - [DeepFlow](https://github.com/deepflowio/deepflow)：基于 eBPF 的可观测平台，支持分布式追踪、性能剖析、网络遥测和自动应用拓扑发现。
+- [Parseable](https://github.com/parseablehq/parseable)：基于 Rust 和数据湖架构的可观测平台，统一采集应用、Agent 和基础设施的日志、指标、链路与事件。
 
 ## Kubernetes Operations Kubernetes 运维
 
