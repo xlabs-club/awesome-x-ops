@@ -89,6 +89,7 @@
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)：自托管 AI 网关，将多个模型供应商统一到一个端点，支持自动故障转移、路由、MCP/A2A，以及节省 Token 的压缩能力。
+- [Otari](https://github.com/mozilla-ai/otari)：Mozilla AI 出品的开源、OpenAI 兼容 LLM 网关，一个端点支持 40+ 供应商，提供虚拟密钥、预算和使用量追踪。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
@@ -118,6 +119,7 @@
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
+- [SMG](https://github.com/lightseekorg/smg)：Rust 编写的引擎无关 LLM 网关，支持 gRPC 管道、KV 缓存感知路由、WASM 插件、MCP 和多租户认证，覆盖 vLLM、TensorRT-LLM、SGLang 和云供应商。
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness)：用于语言模型的标准化 few-shot 和 zero-shot 评估框架，覆盖数百个任务和基准测试。
 - [Weave](https://github.com/wandb/weave)：用于追踪、评估和改进 LLM 应用的工具包，支持自动版本控制和交互式调试工作流。
 - [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
@@ -485,6 +487,7 @@
 - [reviewdog](https://github.com/reviewdog)：自动代码审查和分析工具，支持多种语言和 linter。
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent)：开源的 AI 驱动 PR 审查工具，支持自动代码审查、描述生成和跨 Git 平台的优化建议。
 - [opencommit](https://github.com/di-sukharev/opencommit)：AI 驱动的 CLI 工具，使用 LLM 生成有意义的 Git 提交信息，支持所有主流模型供应商和本地模型。
+- [OpenReview](https://github.com/vercel-labs/openreview)：开源、可自托管的 AI 代码审查机器人，基于 Vercel 部署，支持自动化 Pull Request 审查。
 - [Dependency Track](https://dependencytrack.org/)：开源软件组件分析平台，支持供应链风险、SBOM 和 License 检查。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构与现代化工具。
 - [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，稳定后计划替代 Dependency-Track。
@@ -499,6 +502,7 @@
 
 - [GrowthBook](https://github.com/growthbook/growthbook)：开源特性开关、实验和产品分析平台，用于更安全的渐进式交付。
 - [Flagsmith](https://github.com/Flagsmith/flagsmith)：开源特性开关与远程配置服务，支持自托管或托管模式下的发布控制。
+- [GO Feature Flag](https://github.com/thomaspoignant/go-feature-flag)：基于 OpenFeature 构建的自托管云原生特性开关方案，轻量级 Go 部署，支持多供应商。
 
 ### Infrastructure as Code (IaC)
 

@@ -89,6 +89,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute): Self-hosted AI gateway that unifies many model providers behind one endpoint with automatic fallback, routing, MCP/A2A support, and token-saving compression.
+- [Otari](https://github.com/mozilla-ai/otari): Open-source, OpenAI-compatible LLM gateway from Mozilla AI with one endpoint for 40+ providers, virtual keys, budgets, and usage tracking.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
 - [OpenObserve](https://github.com/openobserve/openobserve): Open-source observability platform for logs, metrics, traces, frontend monitoring, pipelines, and LLM observability.
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
@@ -118,6 +119,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
 - [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway): Fast, lightweight Rust-based AI gateway with smart routing, caching, rate limiting, and built-in observability across 100+ LLM providers.
+- [SMG](https://github.com/lightseekorg/smg): Engine-agnostic LLM gateway in Rust with gRPC pipeline, KV cache-aware routing, WASM plugins, MCP support, and multi-tenant auth across vLLM, TensorRT-LLM, SGLang, and cloud providers.
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness): Standardized framework for few-shot and zero-shot evaluation of language models across hundreds of tasks and benchmarks.
 - [Weave](https://github.com/wandb/weave): Toolkit for tracing, evaluating, and improving LLM applications with automatic versioning and interactive debugging workflows.
 - [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.
@@ -485,6 +487,7 @@ A curated technology stack and toolchain for platform engineering.
 - [reviewdog](https://github.com/reviewdog): Automated code review and analysis tool for many languages and linters.
 - [PR-Agent](https://github.com/The-PR-Agent/pr-agent): Open-source AI-powered PR reviewer for automated code review, description generation, and improvement suggestions across git platforms.
 - [opencommit](https://github.com/di-sukharev/opencommit): AI-powered CLI that generates meaningful git commit messages using LLMs, supporting all major providers and local models.
+- [OpenReview](https://github.com/vercel-labs/openreview): Open-source, self-hosted AI code review bot that runs automated pull request reviews with Vercel-powered deployment.
 - [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
 - [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
 - [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization.
@@ -499,6 +502,7 @@ A curated technology stack and toolchain for platform engineering.
 
 - [GrowthBook](https://github.com/growthbook/growthbook): Open-source feature flagging, experimentation, and product analytics platform for safer progressive delivery.
 - [Flagsmith](https://github.com/Flagsmith/flagsmith): Open-source feature flag and remote configuration service for self-hosted or managed release control.
+- [GO Feature Flag](https://github.com/thomaspoignant/go-feature-flag): Self-hosted cloud-native feature flag solution built on OpenFeature, with lightweight Go deployment and multi-provider support.
 
 ### Infrastructure as Code (IaC)
 
