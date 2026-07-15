@@ -175,6 +175,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [text-generation-webui](https://github.com/oobabooga/textgen): Open-source desktop app for running LLMs locally with text, vision, tool-calling, and OpenAI/Anthropic-compatible API support.
 - [DS4](https://github.com/antirez/ds4): High-performance local inference engine for DeepSeek 4 Flash and PRO, optimized for Metal, CUDA, and ROCm platforms.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM): Framework for serving and evaluating LLM routers that direct requests to cheaper models while preserving response quality.
+- [Rig](https://github.com/0xPlaygrounds/rig): Rust framework for building modular, scalable LLM applications with composable components and provider integrations.
+- [Agent Lightning](https://github.com/microsoft/agent-lightning): Framework for training and optimizing AI agents by connecting agent execution with reinforcement learning and other training methods.
 
 ## AIOps
 
@@ -187,6 +189,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [AiSOC](https://github.com/beenuar/AiSOC): Open-source AI-powered Security Operations Center for alert fusion, agent-assisted triage, purple-team drills, and MITRE ATT&CK investigation workflows.
 - [APO](https://github.com/CloudDetail/apo): AI-powered observability platform combining OpenTelemetry, eBPF, and LLM agentic workflows for automated root-cause analysis and intelligent troubleshooting.
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt): CNCF Sandbox SRE agent that investigates alerts and operational incidents using cluster context, runbooks, and observability data.
+- [Metaflow](https://github.com/Netflix/metaflow): Human-centric framework for developing, versioning, scaling, and deploying production AI/ML systems from prototypes to reliable workflows.
 
 ## AI Infrastructure
 
@@ -234,6 +237,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Composio](https://github.com/ComposioHQ/composio): Agent tool-integration platform with managed toolkits, tool search, authentication, context management, and sandboxed execution.
 - [PageIndex](https://github.com/VectifyAI/PageIndex): Vectorless, reasoning-based document indexing system for retrieval-augmented generation over long documents.
 - [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
+- [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack): Production-oriented templates for shipping AI agents with built-in CI/CD, evaluation, observability, and Google Cloud deployment paths.
 
 ## LLM Knowledge
 

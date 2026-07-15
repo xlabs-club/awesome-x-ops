@@ -175,6 +175,8 @@
 - [text-generation-webui](https://github.com/oobabooga/textgen)：开源桌面应用，可在本地运行 LLM，支持文本、视觉、工具调用和 OpenAI/Anthropic 兼容 API。
 - [DS4](https://github.com/antirez/ds4)：高性能本地推理引擎，支持 DeepSeek 4 Flash 和 PRO 模型，针对 Metal、CUDA 和 ROCm 平台优化。
 - [RouteLLM](https://github.com/lm-sys/RouteLLM)：用于部署和评估 LLM 路由器的框架，可在保持响应质量的同时将请求转发给更低成本的模型。
+- [Rig](https://github.com/0xPlaygrounds/rig)：用于构建模块化、可扩展 LLM 应用的 Rust 框架，提供可组合组件和多供应商集成。
+- [Agent Lightning](https://github.com/microsoft/agent-lightning)：用于训练和优化 AI Agent 的框架，可将 Agent 执行过程连接到强化学习及其他训练方法。
 
 ## AIOps 智能运维
 
@@ -187,6 +189,7 @@
 - [AiSOC](https://github.com/beenuar/AiSOC)：开源 AI 驱动安全运营中心，支持告警融合、Agent 辅助分类、紫队演练和 MITRE ATT&CK 调查工作流。
 - [APO](https://github.com/CloudDetail/apo)：AI 驱动的可观测平台，融合 OpenTelemetry、eBPF 和 LLM Agent 工作流，实现自动化根因分析和智能排障。
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt)：CNCF Sandbox SRE Agent，结合集群上下文、Runbook 和可观测数据调查告警与运维事件。
+- [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
 
 ## AI 基础设施
 
@@ -234,6 +237,7 @@
 - [Composio](https://github.com/ComposioHQ/composio)：Agent 工具集成平台，提供托管工具包、工具搜索、身份认证、上下文管理和沙箱执行能力。
 - [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
+- [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 模板，内置 CI/CD、评估和可观测性，并提供 Google Cloud 部署路径。
 
 ## LLM 知识库
 
