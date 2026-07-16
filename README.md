@@ -63,6 +63,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based observability for LLM applications and agent workflows.
 - [Helicone](https://github.com/Helicone/helicone): Open-source observability platform for LLM usage, latency, cost, caching, and request logs.
 - [OpenLIT](https://github.com/openlit/openlit): OpenTelemetry-native AI engineering platform for LLM observability, evaluations, guardrails, prompt management, and GPU monitoring.
+- [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk): Open-source SDKs and coding-agent plugins for sending production agent and LLM telemetry to Grafana AI observability.
 - [LangWatch](https://github.com/langwatch/langwatch): Open-source platform for LLM monitoring, evaluations, traces, and agent testing.
 - [Opik](https://github.com/comet-ml/opik): Open-source platform for tracing, evaluating, and monitoring LLM applications, RAG systems, and agent workflows.
 - [promptfoo](https://github.com/promptfoo/promptfoo): Open-source CLI and platform for prompt testing, LLM evaluations, red teaming, and CI/CD regression checks.
@@ -90,6 +91,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
+- [Traceloop Hub](https://github.com/traceloop/hub): High-performance Rust LLM gateway with a unified provider API, OpenTelemetry traces, Prometheus metrics, and configurable request pipelines.
 - [New API](https://github.com/QuantumNous/new-api): Unified AI model gateway for aggregating providers, normalizing OpenAI/Claude/Gemini-compatible APIs, and managing enterprise model access.
 - [Manifest](https://github.com/mnfst/manifest): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute): Self-hosted AI gateway that unifies many model providers behind one endpoint with automatic fallback, routing, MCP/A2A support, and token-saving compression.
@@ -426,6 +428,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
+- [Crust](https://github.com/BakeLens/crust): Local AI-agent security gateway that intercepts tool calls and MCP/ACP traffic to block dangerous actions, scan secrets, and enforce runtime rules.
 - [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
