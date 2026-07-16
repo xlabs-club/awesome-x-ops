@@ -195,6 +195,7 @@
 - [AiSOC](https://github.com/beenuar/AiSOC)：开源 AI 驱动安全运营中心，支持告警融合、Agent 辅助分类、紫队演练和 MITRE ATT&CK 调查工作流。
 - [APO](https://github.com/CloudDetail/apo)：AI 驱动的可观测平台，融合 OpenTelemetry、eBPF 和 LLM Agent 工作流，实现自动化根因分析和智能排障。
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt)：CNCF Sandbox SRE Agent，结合集群上下文、Runbook 和可观测数据调查告警与运维事件。
+- [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)：Kubernetes 故障排查工具，将编码后的 SRE 分析器用于诊断和分流集群问题，并支持可选的 AI 后端。
 - [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
 
 ## AI 基础设施
@@ -244,6 +245,7 @@
 - [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
 - [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 模板，内置 CI/CD、评估和可观测性，并提供 Google Cloud 部署路径。
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：带有 Web 客户端和代理的开发者工具，用于通过多种传输方式交互式测试和调试 MCP Server。
 
 ## LLM 知识库
 
@@ -426,6 +428,7 @@
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。
+- [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
 
 ## Platform Engineering 平台工程
 
