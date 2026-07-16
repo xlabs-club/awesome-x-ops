@@ -90,6 +90,7 @@
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
+- [New API](https://github.com/QuantumNous/new-api)：统一 AI 模型网关，用于聚合供应商、兼容 OpenAI/Claude/Gemini API，并管理企业级模型访问。
 - [Manifest](https://github.com/mnfst/manifest)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)：自托管 AI 网关，将多个模型供应商统一到一个端点，支持自动故障转移、路由、MCP/A2A，以及节省 Token 的压缩能力。
 - [Otari](https://github.com/mozilla-ai/otari)：Mozilla AI 出品的开源、OpenAI 兼容 LLM 网关，一个端点支持 40+ 供应商，提供虚拟密钥、预算和使用量追踪。
@@ -338,6 +339,8 @@
 - [Perses](https://github.com/perses/perses)：CNCF 可观测性可视化项目，用于基于 Prometheus、Tempo、Loki 等数据源构建仪表盘。
 - [Grafana Loki](https://github.com/grafana/loki)：面向标签索引设计的日志聚合系统，可与 Grafana 深度集成。
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)：厂商中立的遥测数据采集器，支持接收、处理和导出指标、日志与链路数据。
+- [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)：OpenTelemetry Collector 的社区发行版，提供面向生产系统的遥测采集、处理和导出组件。
+- [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions)：标准化遥测属性与命名约定，让不同工具和领域中的链路、指标与日志保持一致。
 - [SigNoz](https://github.com/SigNoz/signoz)：基于 OpenTelemetry 的开源可观测平台，整合指标、链路、日志、仪表盘和告警。
 - [Jaeger](https://github.com/jaegertracing/jaeger)：CNCF 分布式链路追踪平台，用于监控和排查微服务系统。
 - [Vector](https://github.com/vectordotdev/vector)：高性能可观测数据流水线，用于采集、转换和路由日志与指标。
