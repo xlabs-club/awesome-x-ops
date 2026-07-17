@@ -75,6 +75,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Agenta](https://github.com/Agenta-AI/agenta): Open-source LLMOps platform for prompt management, playgrounds, evaluations, and observability.
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
+- [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
+- [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
 - [Mindwalk](https://github.com/cosmtrek/mindwalk): Visualization tool that replays coding-agent sessions on a 3D map of your codebase for debugging and understanding agent behavior.
 - [TensorZero](https://github.com/tensorzero/tensorzero): Open-source LLMOps platform that combines an LLM gateway, observability, evaluations, optimization, and experimentation.
@@ -299,6 +301,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [NanoBot](https://github.com/HKUDS/nanobot): Lightweight, open-source AI agent for tools, chats, and automated workflows with extensible plugin architecture.
 - [Harbor Framework](https://github.com/harbor-framework/harbor): Framework for evaluating and improving agents and language models across reproducible environments and parallel experiments.
 - [LangBot](https://github.com/langbot-app/LangBot): Production-oriented multi-platform bot platform with agent workflows, knowledge bases, plugins, and integrations for chat systems.
+- [Dapr Agents](https://github.com/dapr/dapr-agents): CNCF-aligned framework for resilient, observable AI agents with durable workflows, state, messaging, MCP integration, and Kubernetes-native operations.
+- [Workflow SDK](https://github.com/vercel/workflow): TypeScript SDK for adding durable execution, reliability, and observability to asynchronous applications and AI agents.
 
 ## DataOps
 
@@ -555,6 +559,7 @@ An internal developer platform is more than a pile of tools; it is not just anot
 - [KubeVela](https://github.com/kubevela/kubevela): CNCF application delivery platform for managing Kubernetes workloads across hybrid and multi-cluster environments.
 - [Score](https://github.com/score-spec/spec): Platform-agnostic workload specification for describing services once and generating environment-specific platform configuration.
 - [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
+- [Agyn](https://github.com/agynio/platform): Kubernetes-native runtime for moving AI coding agents from laptops to company infrastructure with enterprise controls.
 
 ### IaaS Tools
 
