@@ -113,6 +113,7 @@
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
+- [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)：基于 MIT 许可的框架，用于构建、运行和分析可复现的大语言模型评测。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
@@ -191,6 +192,7 @@
 - [RouteLLM](https://github.com/lm-sys/RouteLLM)：用于部署和评估 LLM 路由器的框架，可在保持响应质量的同时将请求转发给更低成本的模型。
 - [Rig](https://github.com/0xPlaygrounds/rig)：用于构建模块化、可扩展 LLM 应用的 Rust 框架，提供可组合组件和多供应商集成。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning)：用于训练和优化 AI Agent 的框架，可将 Agent 执行过程连接到强化学习及其他训练方法。
+- [verl](https://github.com/verl-project/verl)：灵活高效的大语言模型后训练强化学习框架，可用于优化推理和 Agent 工作负载。
 
 ## AIOps 智能运维
 
@@ -307,6 +309,7 @@
 - [LangBot](https://github.com/langbot-app/LangBot)：面向生产的多平台机器人平台，支持 Agent 工作流、知识库、插件，以及与多种聊天系统集成。
 - [Dapr Agents](https://github.com/dapr/dapr-agents)：与 CNCF 生态契合的 Agent 框架，提供持久化工作流、状态、消息、MCP 集成和 Kubernetes 原生运维能力，帮助构建可靠且可观测的 AI Agent。
 - [Workflow SDK](https://github.com/vercel/workflow)：用于 TypeScript 的 SDK，为异步应用和 AI Agent 增加持久化执行、可靠性和可观测性。
+- [LiveKit Agents](https://github.com/livekit/agents)：用于构建生产级实时语音和多模态 AI Agent 的框架，集成模型、工具和电话系统。
 
 ## DataOps
 

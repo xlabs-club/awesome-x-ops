@@ -113,6 +113,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
+- [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai): MIT-licensed framework for building, running, and analyzing reproducible evaluations of large language models.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
@@ -191,6 +192,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [RouteLLM](https://github.com/lm-sys/RouteLLM): Framework for serving and evaluating LLM routers that direct requests to cheaper models while preserving response quality.
 - [Rig](https://github.com/0xPlaygrounds/rig): Rust framework for building modular, scalable LLM applications with composable components and provider integrations.
 - [Agent Lightning](https://github.com/microsoft/agent-lightning): Framework for training and optimizing AI agents by connecting agent execution with reinforcement learning and other training methods.
+- [verl](https://github.com/verl-project/verl): Flexible and efficient reinforcement-learning framework for post-training large language models and optimizing reasoning or agent workloads.
 
 ## AIOps
 
@@ -307,6 +309,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [LangBot](https://github.com/langbot-app/LangBot): Production-oriented multi-platform bot platform with agent workflows, knowledge bases, plugins, and integrations for chat systems.
 - [Dapr Agents](https://github.com/dapr/dapr-agents): CNCF-aligned framework for resilient, observable AI agents with durable workflows, state, messaging, MCP integration, and Kubernetes-native operations.
 - [Workflow SDK](https://github.com/vercel/workflow): TypeScript SDK for adding durable execution, reliability, and observability to asynchronous applications and AI agents.
+- [LiveKit Agents](https://github.com/livekit/agents): Framework for building production-ready realtime voice and multimodal AI agents with integrations for models, tools, and telephony.
 
 ## DataOps
 
