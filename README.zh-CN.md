@@ -148,6 +148,8 @@
 - [OME](https://github.com/ome-projects/ome)：Kubernetes Operator，用于管理 LLM 服务、GPU 调度和模型生命周期，支持 SGLang、vLLM、TensorRT-LLM 与 Triton。
 - [AURA](https://github.com/mezmo/aura)：面向生产的安全 AI SRE Agent 驾驭框架，提供护栏、状态管理、身份认证、流式执行和运维工具集成。
 - [ongrid](https://github.com/ongridio/ongrid)：运维 AI Agent，可通过常见团队聊天界面调查基础设施根因并执行带护栏的修复。
+- [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
+- [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -451,6 +453,7 @@
 - [Pipelock](https://github.com/luckyPipewrench/pipelock)：开源 AI Agent 防火墙，可检查 MCP、A2A、HTTP 和 WebSocket 出站流量，识别 Prompt 注入、SSRF、Secret 泄露和高风险工具调用链。
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar)：面向 Agent 工作流的安全扫描器，可可视化工具与 MCP Server，并将发现的漏洞映射到安全框架。
 - [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
+- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 安全威胁的开源检测规则标准，覆盖 Prompt 注入、MCP 风险、工具滥用等行为。
 
 ## Platform Engineering 平台工程
 
