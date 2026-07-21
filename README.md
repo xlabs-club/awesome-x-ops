@@ -447,6 +447,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills.
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents that limits filesystem access to only the paths they need.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
+- [nono](https://github.com/nolabs-ai/nono): Zero-setup, least-privilege sandbox for running AI agents and the tools they invoke across macOS, Linux, and Windows WSL2.
+- [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
+- [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
 
 ## Platform Engineering
@@ -560,6 +563,7 @@ Trusting is hard. Knowing who to trust is even harder.
 - [dexidp/dex](https://github.com/dexidp/dex): Lightweight pluggable OpenID Connect (OIDC) and OAuth 2.0 provider.
 - [pomerium](https://github.com/pomerium/pomerium): Identity-aware proxy with richer access-control capabilities.
 - [Infisical](https://github.com/Infisical/infisical): Open-source platform for secrets management, certificate automation, and privileged access management across development and production environments.
+- [Metorial](https://github.com/metorial/metorial): Open-source identity and access layer for AI agents, standardizing authentication, scoped permissions, integrations, and auditability for external systems.
 
 ### Internal Developer Platform (IDP)
 
