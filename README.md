@@ -148,6 +148,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OME](https://github.com/ome-projects/ome): Kubernetes operator for LLM serving, GPU scheduling, and model lifecycle management across SGLang, vLLM, TensorRT-LLM, and Triton.
 - [AURA](https://github.com/mezmo/aura): Production-oriented harness for safe AI SRE agents, with guardrails, state management, authentication, streaming, and operational tool integrations.
 - [ongrid](https://github.com/ongridio/ongrid): Ops AI agent that investigates infrastructure root causes and performs guarded remediation through common team-chat interfaces.
+- [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
+- [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
 
 ## AI Serving and Inference Operations
 
@@ -451,6 +453,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
+- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent security threats, covering prompt injection, MCP risks, tool abuse, and related behaviors.
 
 ## Platform Engineering
 
