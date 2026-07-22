@@ -113,6 +113,7 @@
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
+- [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。
 - [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)：基于 MIT 许可的框架，用于构建、运行和分析可复现的大语言模型评测。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。

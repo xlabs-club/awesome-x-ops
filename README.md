@@ -113,6 +113,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
+- [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
 - [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai): MIT-licensed framework for building, running, and analyzing reproducible evaluations of large language models.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
