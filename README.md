@@ -150,6 +150,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [ongrid](https://github.com/ongridio/ongrid): Ops AI agent that investigates infrastructure root causes and performs guarded remediation through common team-chat interfaces.
 - [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
+- [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
+- [Agent Prism](https://github.com/evilmartians/agent-prism): React components for visualizing AI agent traces and making multi-step agent execution easier to inspect.
+- [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills): OpenTelemetry skills and reference material for AI coding assistants, covering instrumentation patterns and telemetry quality.
 
 ## AI Serving and Inference Operations
 
@@ -454,6 +457,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent security threats, covering prompt injection, MCP risks, tool abuse, and related behaviors.
+- [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
 
 ## Platform Engineering
 
