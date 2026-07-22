@@ -381,6 +381,10 @@
 - [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
 - [DeepFlow](https://github.com/deepflowio/deepflow)：基于 eBPF 的可观测平台，支持分布式追踪、性能剖析、网络遥测和自动应用拓扑发现。
 - [Parseable](https://github.com/parseablehq/parseable)：基于 Rust 和数据湖架构的可观测平台，统一采集应用、Agent 和基础设施的日志、指标、链路与事件。
+- [PandaProbe](https://github.com/chirpz-ai/pandaprobe)：开源 Agent 工程平台，面向 LangGraph、CrewAI、Claude Agent SDK 等运行时提供链路、评估和指标能力。
+- [Claude Tap](https://github.com/liaohch3/claude-tap)：本地 trace 查看器，可拦截和检查 Claude Code、Codex CLI、Gemini CLI、Cursor CLI、OpenCode 等编码 Agent 的 API 流量。
+- [Grafana Agento11y](https://github.com/grafana/agento11y)：Grafana 的实用型 AI 可观测性项目，用于采集 Agent 和 LLM 工作流的有效遥测数据。
+- [dt-evals](https://github.com/dynatrace-oss/dt-evals)：Apache-2.0 许可的 AI 应用与 Agent 评估 CLI，包含 LLM-as-a-judge 评估器，可接入可观测性反馈闭环。
 
 ## Kubernetes Operations Kubernetes 运维
 
