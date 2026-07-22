@@ -198,6 +198,7 @@
 - [Rig](https://github.com/0xPlaygrounds/rig)：用于构建模块化、可扩展 LLM 应用的 Rust 框架，提供可组合组件和多供应商集成。
 - [Agent Lightning](https://github.com/microsoft/agent-lightning)：用于训练和优化 AI Agent 的框架，可将 Agent 执行过程连接到强化学习及其他训练方法。
 - [verl](https://github.com/verl-project/verl)：灵活高效的大语言模型后训练强化学习框架，可用于优化推理和 Agent 工作负载。
+- [aikit](https://github.com/kaito-project/aikit)：Kubernetes 原生工具包，支持基于 buildkit 的镜像构建和 GPU 加速推理，用于微调、构建和部署开源 LLM。
 
 ## AIOps 智能运维
 
@@ -212,6 +213,7 @@
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt)：CNCF Sandbox SRE Agent，结合集群上下文、Runbook 和可观测数据调查告警与运维事件。
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)：Kubernetes 故障排查工具，将编码后的 SRE 分析器用于诊断和分流集群问题，并支持可选的 AI 后端。
 - [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
+- [Chaterm](https://github.com/chaterm/Chaterm)：开源 AI 终端，面向云和基础设施管理，支持通过自然语言跨 SSH、Kubernetes 和云服务进行部署、排障和自动化。
 
 ## AI 基础设施
 
@@ -261,6 +263,8 @@
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
 - [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 模板，内置 CI/CD、评估和可观测性，并提供 Google Cloud 部署路径。
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：带有 Web 客户端和代理的开发者工具，用于通过多种传输方式交互式测试和调试 MCP Server。
+- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
+- [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 
 ## LLM 知识库
 
@@ -412,6 +416,7 @@
 - [Rook](https://github.com/rook/rook)：CNCF Kubernetes 存储编排器，为 Ceph、NFS 等存储系统提供自管理、自扩容和自修复的存储服务。
 - [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
+- [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -458,6 +463,8 @@
 - [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 安全威胁的开源检测规则标准，覆盖 Prompt 注入、MCP 风险、工具滥用等行为。
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
+- [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
+- [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
 
 ## Platform Engineering 平台工程
 
@@ -512,6 +519,7 @@
 - [OpenCode](https://github.com/anomalyco/opencode)：开源编码 Agent——快速、轻量的 CLI 编码工具，以低 Token 开销和广泛 LLM 支持著称。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli)：谷歌开源的 AI Agent，将 Gemini 的强大能力带入终端，用于编码、文件编辑和任务自动化。
 - [OpenWiki](https://github.com/langchain-ai/openwiki)：用于为代码库编写和维护 Agent 文档的 CLI 工具，随代码演进自动保持文档同步。
+- [CodeBurn](https://github.com/getagentseal/codeburn)：免费本地工具，可追踪 31 种 AI 编码工具和 Agent 的 Token 用量与成本，按模型、项目和任务维度拆分。
 
 ### Developer Environments 开发环境
 

@@ -198,6 +198,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Rig](https://github.com/0xPlaygrounds/rig): Rust framework for building modular, scalable LLM applications with composable components and provider integrations.
 - [Agent Lightning](https://github.com/microsoft/agent-lightning): Framework for training and optimizing AI agents by connecting agent execution with reinforcement learning and other training methods.
 - [verl](https://github.com/verl-project/verl): Flexible and efficient reinforcement-learning framework for post-training large language models and optimizing reasoning or agent workloads.
+- [aikit](https://github.com/kaito-project/aikit): Kubernetes-native toolkit for fine-tuning, building, and deploying open-source LLMs with buildkit-based image construction and GPU-accelerated inference.
 
 ## AIOps
 
@@ -212,6 +213,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt): CNCF Sandbox SRE agent that investigates alerts and operational incidents using cluster context, runbooks, and observability data.
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt): Kubernetes troubleshooting tool that applies codified SRE analyzers to diagnose and triage cluster issues with optional AI backends.
 - [Metaflow](https://github.com/Netflix/metaflow): Human-centric framework for developing, versioning, scaling, and deploying production AI/ML systems from prototypes to reliable workflows.
+- [Chaterm](https://github.com/chaterm/Chaterm): Open-source AI terminal for cloud and infrastructure management, enabling natural-language deployment, troubleshooting, and automation across SSH, Kubernetes, and cloud services.
 
 ## AI Infrastructure
 
@@ -261,6 +263,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
 - [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack): Production-oriented templates for shipping AI agents with built-in CI/CD, evaluation, observability, and Google Cloud deployment paths.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Developer tool with a web client and proxy for interactively testing and debugging MCP servers across supported transports.
+- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data sources.
+- [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
 
 ## LLM Knowledge
 
@@ -412,6 +416,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Rook](https://github.com/rook/rook): CNCF storage orchestrator for Kubernetes, providing self-managing, self-scaling, and self-healing storage services for Ceph, NFS, and other providers.
 - [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
+- [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 
 ## Security and Supply Chain
 
@@ -458,6 +463,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent security threats, covering prompt injection, MCP risks, tool abuse, and related behaviors.
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
+- [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
+- [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
 
 ## Platform Engineering
 
@@ -512,6 +519,7 @@ A curated technology stack and toolchain for platform engineering.
 - [OpenCode](https://github.com/anomalyco/opencode): The open source coding agent — fast, lightweight CLI coding agent with low token overhead and broad LLM support.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli): Google's open-source AI agent that brings Gemini's power into the terminal for coding, file editing, and task automation.
 - [OpenWiki](https://github.com/langchain-ai/openwiki): CLI that writes and maintains agent documentation for codebases, automatically keeping docs in sync as the code evolves.
+- [CodeBurn](https://github.com/getagentseal/codeburn): Free local tool for tracking AI coding token usage and cost across 31 tools and agents, with breakdowns by model, project, and task.
 
 ### Developer Environments
 
