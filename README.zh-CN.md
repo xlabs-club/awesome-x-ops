@@ -92,6 +92,7 @@
 - [Plano](https://github.com/katanemo/plano)：面向 Agent 应用的 AI 原生代理与数据平面，支持路由、安全、编排和可观测性。
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
+- [LLM Gateway](https://github.com/theopenco/llmgateway)：开源 LLM 网关，通过统一 API 在多个供应商之间路由、管理和分析 LLM 请求。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
 - [Traceloop Hub](https://github.com/traceloop/hub)：基于 Rust 的高性能 LLM 网关，提供统一供应商 API、OpenTelemetry 链路、Prometheus 指标和可配置请求流水线。
 - [New API](https://github.com/QuantumNous/new-api)：统一 AI 模型网关，用于聚合供应商、兼容 OpenAI/Claude/Gemini API，并管理企业级模型访问。
@@ -460,6 +461,8 @@
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器。
+- [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw)：面向 Agentic AI 安全的开源治理工具包，用于评估和控制自主 AI 系统中的风险。
+- [Semia](https://github.com/berabuddies/Semia)：AI Agent Skill 安全审计工具，用于检查 Skill 包中的可疑行为和安全风险。
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse)：本地 AI Agent 沙箱，只允许 Agent 访问所需的文件系统路径。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。
 - [nono](https://github.com/nolabs-ai/nono)：零配置、最小权限的 AI Agent 沙箱，可在 macOS、Linux 和 Windows WSL2 上隔离运行 Agent 及其调用的工具。
