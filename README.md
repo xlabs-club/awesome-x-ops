@@ -231,6 +231,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
 - [MarkItDown](https://github.com/microsoft/markitdown): Microsoft's open-source tool for converting files and Office documents to Markdown for LLM and RAG data pipelines.
 - [Docling](https://github.com/docling-project/docling): IBM's open-source document understanding toolkit for converting PDFs, DOCX, PPTX, images, and HTML into LLM-ready structured formats at scale.
+- [Pathway LLM App](https://github.com/pathwaycom/llm-app): Ready-to-run templates for production RAG, AI pipelines, and enterprise search with live data connectors and Docker-friendly deployment.
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
@@ -383,6 +384,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Monoscope](https://github.com/monoscope-tech/monoscope): Open-source observability platform with S3-native storage, OpenTelemetry-native ingest, natural language queries, and AI agents for anomaly detection and scheduled reports.
 - [DeepFlow](https://github.com/deepflowio/deepflow): eBPF-based observability platform for distributed tracing, profiling, network telemetry, and automatic application topology discovery.
 - [Parseable](https://github.com/parseablehq/parseable): Rust-based, data-lake observability platform for logs, metrics, traces, and events across applications, agents, and infrastructure.
+- [Traccia](https://github.com/traccia-ai/traccia-py): OpenTelemetry-based Python SDK for AI-agent tracing, token and cost tracking, guardrail detection, governance evidence, and OTLP export.
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe): Open-source agent engineering platform for traces, evaluations, and metrics across LangGraph, CrewAI, Claude Agent SDK, and other agent runtimes.
 - [Claude Tap](https://github.com/liaohch3/claude-tap): Local trace viewer that intercepts and inspects coding-agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and other clients.
 - [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical AI observability project for collecting useful telemetry from agent and LLM workflows.
@@ -469,6 +471,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
+- [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner): MIT-licensed scanner for testing RAG and LLM applications against prompt injection, data leakage, function abuse, and context manipulation.
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent security threats, covering prompt injection, MCP risks, tool abuse, and related behaviors.
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
