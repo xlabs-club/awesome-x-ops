@@ -99,6 +99,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Manifest](https://github.com/mnfst/manifest): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute): Self-hosted AI gateway that unifies many model providers behind one endpoint with automatic fallback, routing, MCP/A2A support, and token-saving compression.
 - [Otari](https://github.com/mozilla-ai/otari): Open-source, OpenAI-compatible LLM gateway from Mozilla AI with one endpoint for 40+ providers, virtual keys, budgets, and usage tracking.
+- [1flowbase](https://github.com/taichuy/1flowbase): Self-hosted AI gateway for composing multi-model workflows behind OpenAI-compatible virtual models with traces, token usage, latency, and cost visibility.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
 - [OpenObserve](https://github.com/openobserve/openobserve): Open-source observability platform for logs, metrics, traces, frontend monitoring, pipelines, and LLM observability.
 - [Kubeshark](https://github.com/kubeshark/kubeshark): eBPF-powered Kubernetes network observability with L4/L7 traffic context, TLS visibility, and an MCP interface for AI-assisted investigation.
@@ -155,6 +156,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
 - [Agent Prism](https://github.com/evilmartians/agent-prism): React components for visualizing AI agent traces and making multi-step agent execution easier to inspect.
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills): OpenTelemetry skills and reference material for AI coding assistants, covering instrumentation patterns and telemetry quality.
+- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring for Claude Code agents through simple hook-based event tracking.
+- [tma1](https://github.com/tma1-ai/tma1): Local-first observability for coding agents that records LLM calls and exposes logs, metrics, traces, and cost data through hooks and MCP.
 
 ## AI Serving and Inference Operations
 
@@ -216,6 +219,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt): Kubernetes troubleshooting tool that applies codified SRE analyzers to diagnose and triage cluster issues with optional AI backends.
 - [Metaflow](https://github.com/Netflix/metaflow): Human-centric framework for developing, versioning, scaling, and deploying production AI/ML systems from prototypes to reliable workflows.
 - [Chaterm](https://github.com/chaterm/Chaterm): Open-source AI terminal for cloud and infrastructure management, enabling natural-language deployment, troubleshooting, and automation across SSH, Kubernetes, and cloud services.
+- [Versus Incident](https://github.com/VersusControl/versus-incident): Self-hosted AI SRE agent that learns normal system behavior and routes novel or unexpected incidents to chat and on-call platforms.
 
 ## AI Infrastructure
 
