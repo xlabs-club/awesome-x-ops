@@ -464,6 +464,7 @@
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器。
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw)：面向 Agentic AI 安全的开源治理工具包，用于评估和控制自主 AI 系统中的风险。
+- [Apache Casbin Gateway](https://github.com/apache/casbin-gateway)：基于 Apache 许可证的 AI 与 MCP 安全网关，支持 HTTP 访问控制、策略执行和 Web 应用防火墙集成。
 - [Semia](https://github.com/berabuddies/Semia)：AI Agent Skill 安全审计工具，用于检查 Skill 包中的可疑行为和安全风险。
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse)：本地 AI Agent 沙箱，只允许 Agent 访问所需的文件系统路径。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。

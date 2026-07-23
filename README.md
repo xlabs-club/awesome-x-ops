@@ -464,6 +464,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
 - [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills.
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw): Open-source governance toolkit for agentic AI security, helping assess and control risks in autonomous AI systems.
+- [Apache Casbin Gateway](https://github.com/apache/casbin-gateway): Apache-licensed AI and MCP security gateway for HTTP access control, policy enforcement, and web application firewall integration.
 - [Semia](https://github.com/berabuddies/Semia): Security audit tool for AI agent skills that checks skill packages for suspicious behavior and security risks.
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents that limits filesystem access to only the paths they need.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
