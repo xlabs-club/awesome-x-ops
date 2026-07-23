@@ -231,6 +231,7 @@
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
 - [MarkItDown](https://github.com/microsoft/markitdown)：微软开源的文件转 Markdown 工具，可将 Office 文档和各类文件转换为 LLM 和 RAG 流水线可用的 Markdown 格式。
 - [Docling](https://github.com/docling-project/docling)：IBM 开源文档理解工具包，可将 PDF、DOCX、PPTX、图片和 HTML 大规模转换为 LLM 友好的结构化格式。
+- [Pathway LLM App](https://github.com/pathwaycom/llm-app)：面向生产 RAG、AI 流水线和企业搜索的开箱即用模板，支持实时数据连接器和适合 Docker 的部署方式。
 - [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
@@ -383,6 +384,7 @@
 - [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
 - [DeepFlow](https://github.com/deepflowio/deepflow)：基于 eBPF 的可观测平台，支持分布式追踪、性能剖析、网络遥测和自动应用拓扑发现。
 - [Parseable](https://github.com/parseablehq/parseable)：基于 Rust 和数据湖架构的可观测平台，统一采集应用、Agent 和基础设施的日志、指标、链路与事件。
+- [Traccia](https://github.com/traccia-ai/traccia-py)：基于 OpenTelemetry 的 Python SDK，支持 AI Agent 追踪、Token 与成本统计、护栏检测、治理证据和 OTLP 导出。
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe)：开源 Agent 工程平台，面向 LangGraph、CrewAI、Claude Agent SDK 等运行时提供链路、评估和指标能力。
 - [Claude Tap](https://github.com/liaohch3/claude-tap)：本地 trace 查看器，可拦截和检查 Claude Code、Codex CLI、Gemini CLI、Cursor CLI、OpenCode 等编码 Agent 的 API 流量。
 - [Grafana Agento11y](https://github.com/grafana/agento11y)：Grafana 的实用型 AI 可观测性项目，用于采集 Agent 和 LLM 工作流的有效遥测数据。
@@ -469,6 +471,7 @@
 - [Pipelock](https://github.com/luckyPipewrench/pipelock)：开源 AI Agent 防火墙，可检查 MCP、A2A、HTTP 和 WebSocket 出站流量，识别 Prompt 注入、SSRF、Secret 泄露和高风险工具调用链。
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar)：面向 Agent 工作流的安全扫描器，可可视化工具与 MCP Server，并将发现的漏洞映射到安全框架。
 - [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
+- [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner)：基于 MIT 许可的扫描器，用于测试 RAG 与 LLM 应用中的 Prompt 注入、数据泄露、函数滥用和上下文操纵风险。
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 安全威胁的开源检测规则标准，覆盖 Prompt 注入、MCP 风险、工具滥用等行为。
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
