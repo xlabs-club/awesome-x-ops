@@ -99,6 +99,7 @@
 - [Manifest](https://github.com/mnfst/manifest)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)：自托管 AI 网关，将多个模型供应商统一到一个端点，支持自动故障转移、路由、MCP/A2A，以及节省 Token 的压缩能力。
 - [Otari](https://github.com/mozilla-ai/otari)：Mozilla AI 出品的开源、OpenAI 兼容 LLM 网关，一个端点支持 40+ 供应商，提供虚拟密钥、预算和使用量追踪。
+- [1flowbase](https://github.com/taichuy/1flowbase)：自托管 AI 网关，可将多模型工作流组合为 OpenAI 兼容的虚拟模型，并提供链路、Token 用量、延迟和成本可见性。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
 - [Kubeshark](https://github.com/kubeshark/kubeshark)：基于 eBPF 的 Kubernetes 网络可观测工具，提供 L4/L7 流量上下文、TLS 可见性，以及供 AI 辅助调查使用的 MCP 接口。
@@ -155,6 +156,8 @@
 - [Observal](https://github.com/Observal/Observal)：本地优先的注册与分析平台，用于治理和理解 AI Agent、MCP Server 及可复用 Agent Skill。
 - [Agent Prism](https://github.com/evilmartians/agent-prism)：用于可视化 AI Agent trace 的 React 组件，帮助检查多步骤 Agent 执行过程。
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills)：面向 AI 编码助手的 OpenTelemetry Skill 与参考资料，涵盖插桩模式和遥测质量指南。
+- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过简单的 Hook 事件追踪，实时监控 Claude Code Agent。
+- [tma1](https://github.com/tma1-ai/tma1)：本地优先的编码 Agent 可观测性工具，通过 Hook 和 MCP 记录 LLM 调用，并提供日志、指标、链路和成本数据。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -216,6 +219,7 @@
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)：Kubernetes 故障排查工具，将编码后的 SRE 分析器用于诊断和分流集群问题，并支持可选的 AI 后端。
 - [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
 - [Chaterm](https://github.com/chaterm/Chaterm)：开源 AI 终端，面向云和基础设施管理，支持通过自然语言跨 SSH、Kubernetes 和云服务进行部署、排障和自动化。
+- [Versus Incident](https://github.com/VersusControl/versus-incident)：可自托管的 AI SRE Agent，学习系统的正常行为，并将新出现或异常的事件路由到聊天和值班平台。
 
 ## AI 基础设施
 
