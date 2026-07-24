@@ -151,6 +151,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OME](https://github.com/ome-projects/ome): Kubernetes operator for LLM serving, GPU scheduling, and model lifecycle management across SGLang, vLLM, TensorRT-LLM, and Triton.
 - [AURA](https://github.com/mezmo/aura): Production-oriented harness for safe AI SRE agents, with guardrails, state management, authentication, streaming, and operational tool integrations.
 - [ongrid](https://github.com/ongridio/ongrid): Ops AI agent that investigates infrastructure root causes and performs guarded remediation through common team-chat interfaces.
+- [Agents Observe](https://github.com/simple10/agents-observe): Real-time observability dashboard for Claude Code and Codex agents with session replay, filtering, and token usage statistics.
 - [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
 - [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
@@ -257,6 +258,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
+- [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry): Enterprise MCP and A2A gateway with identity-aware access control, tool discovery, OpenTelemetry tracing, and Prometheus metrics.
 - [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher): Autonomous AI agent for comprehensive web research, report generation, and knowledge synthesis using multi-source data retrieval.
 - [rtk](https://github.com/rtk-ai/rtk): CLI proxy that reduces LLM token consumption by 60-90% on common dev commands, lowering AI infrastructure costs in development workflows.
@@ -535,6 +537,7 @@ A curated technology stack and toolchain for platform engineering.
 - [OpenCode](https://github.com/anomalyco/opencode): The open source coding agent — fast, lightweight CLI coding agent with low token overhead and broad LLM support.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli): Google's open-source AI agent that brings Gemini's power into the terminal for coding, file editing, and task automation.
 - [OpenWiki](https://github.com/langchain-ai/openwiki): CLI that writes and maintains agent documentation for codebases, automatically keeping docs in sync as the code evolves.
+- [VibeKit](https://github.com/superagent-ai/vibekit): Safety layer for coding agents that provides isolated sandboxes, sensitive-data redaction, and built-in execution observability.
 - [CodeBurn](https://github.com/getagentseal/codeburn): Free local tool for tracking AI coding token usage and cost across 31 tools and agents, with breakdowns by model, project, and task.
 
 ### Developer Environments

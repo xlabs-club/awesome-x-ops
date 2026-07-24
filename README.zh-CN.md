@@ -151,6 +151,7 @@
 - [OME](https://github.com/ome-projects/ome)：Kubernetes Operator，用于管理 LLM 服务、GPU 调度和模型生命周期，支持 SGLang、vLLM、TensorRT-LLM 与 Triton。
 - [AURA](https://github.com/mezmo/aura)：面向生产的安全 AI SRE Agent 驾驭框架，提供护栏、状态管理、身份认证、流式执行和运维工具集成。
 - [ongrid](https://github.com/ongridio/ongrid)：运维 AI Agent，可通过常见团队聊天界面调查基础设施根因并执行带护栏的修复。
+- [Agents Observe](https://github.com/simple10/agents-observe)：Claude Code 和 Codex Agent 的实时可观测仪表盘，支持会话回放、过滤和 Token 用量统计。
 - [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
 - [Observal](https://github.com/Observal/Observal)：本地优先的注册与分析平台，用于治理和理解 AI Agent、MCP Server 及可复用 Agent Skill。
@@ -257,6 +258,7 @@
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
+- [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry)：企业级 MCP 与 A2A 网关，提供身份感知访问控制、工具发现、OpenTelemetry 链路和 Prometheus 指标。
 - [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher)：自主 AI 研究 Agent，支持全面的 Web 研究、报告生成和知识聚合，基于多源数据检索。
 - [rtk](https://github.com/rtk-ai/rtk)：CLI 代理工具，可将日常开发命令的 LLM Token 消耗降低 60-90%，降低 AI 基础设施成本。
@@ -535,6 +537,7 @@
 - [OpenCode](https://github.com/anomalyco/opencode)：开源编码 Agent——快速、轻量的 CLI 编码工具，以低 Token 开销和广泛 LLM 支持著称。
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli)：谷歌开源的 AI Agent，将 Gemini 的强大能力带入终端，用于编码、文件编辑和任务自动化。
 - [OpenWiki](https://github.com/langchain-ai/openwiki)：用于为代码库编写和维护 Agent 文档的 CLI 工具，随代码演进自动保持文档同步。
+- [VibeKit](https://github.com/superagent-ai/vibekit)：编码 Agent 的安全层，提供隔离沙箱、敏感数据脱敏和内置执行可观测性。
 - [CodeBurn](https://github.com/getagentseal/codeburn)：免费本地工具，可追踪 31 种 AI 编码工具和 Agent 的 Token 用量与成本，按模型、项目和任务维度拆分。
 
 ### Developer Environments 开发环境
