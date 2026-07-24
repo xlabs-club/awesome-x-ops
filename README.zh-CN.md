@@ -462,6 +462,8 @@
 - [ToolHive](https://github.com/stacklok/toolhive)：企业级 MCP Server 安全运行与管理平台，提供隔离、生命周期控制和运维治理能力。
 - [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
+- [Preloop](https://github.com/preloop/preloop)：可自托管的 AI Agent 控制平面，整合 MCP 防火墙、模型网关、policy-as-code、人机审批、运行时可观测性、预算和审计轨迹。
+- [hoop](https://github.com/hoophq/hoop)：开源七层网关，面向工程师和 AI Agent 对数据库、Kubernetes、SSH、API 与 MCP 访问执行敏感数据脱敏、危险操作拦截、审批和会话记录。
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。
