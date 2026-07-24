@@ -462,6 +462,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [ToolHive](https://github.com/stacklok/toolhive): Enterprise platform for securely running and managing MCP servers with isolation, lifecycle controls, and operational governance.
 - [Tracecat](https://github.com/TracecatHQ/tracecat): Open-source security automation platform for teams and AI agents with event-driven orchestration, monitoring, and low-code workflows.
 - [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
+- [Preloop](https://github.com/preloop/preloop): Self-hostable AI agent control plane combining an MCP firewall, model gateway, policy-as-code, human approvals, runtime observability, budgets, and audit trails.
+- [hoop](https://github.com/hoophq/hoop): Open-source layer-7 gateway for engineers and AI agents that masks sensitive data, blocks dangerous infrastructure operations, supports approvals, and records sessions across databases, Kubernetes, SSH, APIs, and MCP.
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
