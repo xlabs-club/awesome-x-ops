@@ -159,6 +159,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills): OpenTelemetry skills and reference material for AI coding assistants, covering instrumentation patterns and telemetry quality.
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring for Claude Code agents through simple hook-based event tracking.
 - [tma1](https://github.com/tma1-ai/tma1): Local-first observability for coding agents that records LLM calls and exposes logs, metrics, traces, and cost data through hooks and MCP.
+- [VictoriaMetrics MCP Server](https://github.com/VictoriaMetrics/mcp-victoriametrics): MCP server for querying VictoriaMetrics from AI assistants and agents, bringing time-series observability context into operational investigations.
 
 ## AI Serving and Inference Operations
 
@@ -191,6 +192,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA's official LLM inference optimization framework with state-of-the-art GPU optimizations and efficient runtime orchestration for production deployments.
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference): HuggingFace's production-grade inference server for LLMs with tensor parallelism, continuous batching, and quantization support.
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference): Blazing-fast inference server for text embedding and reranking models with production-ready performance.
+- [OpenVINO Model Server](https://github.com/openvinotoolkit/model_server): Scalable inference server for OpenVINO-optimized models, exposing production-friendly APIs for deploying AI models.
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl): Open-source LLM fine-tuning framework with support for LoRA, QLoRA, and full-parameter training across popular model architectures.
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
@@ -483,6 +485,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
+- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that detects malicious patterns, vulnerabilities, and other risks before skills are used.
 
 ## Platform Engineering
 

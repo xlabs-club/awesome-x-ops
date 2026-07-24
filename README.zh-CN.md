@@ -159,6 +159,7 @@
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills)：面向 AI 编码助手的 OpenTelemetry Skill 与参考资料，涵盖插桩模式和遥测质量指南。
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过简单的 Hook 事件追踪，实时监控 Claude Code Agent。
 - [tma1](https://github.com/tma1-ai/tma1)：本地优先的编码 Agent 可观测性工具，通过 Hook 和 MCP 记录 LLM 调用，并提供日志、指标、链路和成本数据。
+- [VictoriaMetrics MCP Server](https://github.com/VictoriaMetrics/mcp-victoriametrics)：用于从 AI 助手和 Agent 查询 VictoriaMetrics 的 MCP Server，将时序可观测数据带入运维调查。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -191,6 +192,7 @@
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)：NVIDIA 官方 LLM 推理优化框架，提供先进的 GPU 优化和高效的运行时编排能力，适用于生产环境部署。
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference)：HuggingFace 的生产级 LLM 推理服务器，支持张量并行、连续批处理和量化。
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference)：极速文本嵌入与重排序模型推理服务器，具备生产就绪性能。
+- [OpenVINO Model Server](https://github.com/openvinotoolkit/model_server)：面向 OpenVINO 优化模型的可扩展推理服务器，提供适合生产部署 AI 模型的 API。
 - [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
 - [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
@@ -483,6 +485,7 @@
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
+- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，可在使用 Skill 前检测恶意模式、漏洞和其他风险。
 
 ## Platform Engineering 平台工程
 
