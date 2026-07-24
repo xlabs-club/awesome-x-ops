@@ -109,6 +109,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner for probing prompt injection, jailbreaks, data leakage, hallucination, and other generative AI risks.
 - [agentic-security](https://github.com/msoedov/agentic_security): Open-source LLM vulnerability scanner and AI red teaming kit for fuzzing and testing LLM guardrails against adversarial attacks.
+- [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security): Agent security review framework for adversarial environments, centered on treating every external input as untrusted until verified.
 - [Superagent](https://github.com/superagent-ai/superagent): Open-source AI security SDK for protecting LLM applications against prompt injections, data leaks, and harmful outputs.
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark): Open-source benchmark for evaluating prompt injection detection systems across diverse attack vectors.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
