@@ -109,6 +109,7 @@
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
 - [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
 - [agentic-security](https://github.com/msoedov/agentic_security)：开源 LLM 漏洞扫描器与 AI 红队工具包，用于模糊测试和验证 LLM 护栏对抗攻击能力。
+- [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security)：面向对抗性环境的 Agent 安全审查框架，强调在验证前将所有外部输入视为不可信。
 - [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
