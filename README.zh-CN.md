@@ -158,9 +158,12 @@
 - [Observal](https://github.com/Observal/Observal)：本地优先的注册与分析平台，用于治理和理解 AI Agent、MCP Server 及可复用 Agent Skill。
 - [Agent Prism](https://github.com/evilmartians/agent-prism)：用于可视化 AI Agent trace 的 React 组件，帮助检查多步骤 Agent 执行过程。
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills)：面向 AI 编码助手的 OpenTelemetry Skill 与参考资料，涵盖插桩模式和遥测质量指南。
-- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过简单的 Hook 事件追踪，实时监控 Claude Code Agent。
 - [tma1](https://github.com/tma1-ai/tma1)：本地优先的编码 Agent 可观测性工具，通过 Hook 和 MCP 记录 LLM 调用，并提供日志、指标、链路和成本数据。
 - [VictoriaMetrics MCP Server](https://github.com/VictoriaMetrics/mcp-victoriametrics)：用于从 AI 助手和 Agent 查询 VictoriaMetrics 的 MCP Server，将时序可观测数据带入运维调查。
+- [AgentLens](https://github.com/dreadnode/agent-lens)：用于运行多会话 Claude Code 与 Codex 轨迹的工具，提供标准化 trace、文件变更归因和回放能力，适合研究 Agent 行为。
+- [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK)：开源 Python SDK，用于分析、评估和整理存储在 BigQuery 中的生产 Agent trace。
+- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过 Hook 事件追踪、会话过滤和实时更新，监控并可视化 Claude Code Agent 集群。
+- [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit)：将数据血缘、监控、校验、告警和元数据检查能力带入 AI 编码工作流的 Agent Skill 与插件工具包。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -276,6 +279,7 @@
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：带有 Web 客户端和代理的开发者工具，用于通过多种传输方式交互式测试和调试 MCP Server。
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
+- [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
 
 ## LLM 知识库
 
@@ -490,6 +494,7 @@
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，可在使用 Skill 前检测恶意模式、漏洞和其他风险。
+- [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
 
 ## Platform Engineering 平台工程
 
