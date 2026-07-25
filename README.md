@@ -158,9 +158,12 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
 - [Agent Prism](https://github.com/evilmartians/agent-prism): React components for visualizing AI agent traces and making multi-step agent execution easier to inspect.
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills): OpenTelemetry skills and reference material for AI coding assistants, covering instrumentation patterns and telemetry quality.
-- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring for Claude Code agents through simple hook-based event tracking.
 - [tma1](https://github.com/tma1-ai/tma1): Local-first observability for coding agents that records LLM calls and exposes logs, metrics, traces, and cost data through hooks and MCP.
 - [VictoriaMetrics MCP Server](https://github.com/VictoriaMetrics/mcp-victoriametrics): MCP server for querying VictoriaMetrics from AI assistants and agents, bringing time-series observability context into operational investigations.
+- [AgentLens](https://github.com/dreadnode/agent-lens): Harness for running multi-session Claude Code and Codex trajectories with standardized traces, file-change attribution, and replay for agent behavior research.
+- [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK): Open-source Python SDK for analyzing, evaluating, and curating production agent traces stored in BigQuery.
+- [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring and visualization for Claude Code agent swarms through hook event tracking, session filters, and live updates.
+- [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit): Agent skills and plugins that bring data lineage, monitoring, validation, alerting, and metadata checks into AI coding workflows.
 
 ## AI Serving and Inference Operations
 
@@ -276,6 +279,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Developer tool with a web client and proxy for interactively testing and debugging MCP servers across supported transports.
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data sources.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
+- [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
 
 ## LLM Knowledge
 
@@ -490,6 +494,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that detects malicious patterns, vulnerabilities, and other risks before skills are used.
+- [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 
 ## Platform Engineering
 
