@@ -439,6 +439,7 @@
 - [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
+- [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
 
 ## Security and Supply Chain 安全与供应链
 

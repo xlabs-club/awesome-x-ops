@@ -439,6 +439,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
+- [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
 
 ## Security and Supply Chain
 
