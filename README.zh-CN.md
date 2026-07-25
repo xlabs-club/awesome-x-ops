@@ -273,7 +273,6 @@
 - [Composio](https://github.com/ComposioHQ/composio)：Agent 工具集成平台，提供托管工具包、工具搜索、身份认证、上下文管理和沙箱执行能力。
 - [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
-- [Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 模板，内置 CI/CD、评估和可观测性，并提供 Google Cloud 部署路径。
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：带有 Web 客户端和代理的开发者工具，用于通过多种传输方式交互式测试和调试 MCP Server。
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
@@ -331,6 +330,8 @@
 - [Dapr Agents](https://github.com/dapr/dapr-agents)：与 CNCF 生态契合的 Agent 框架，提供持久化工作流、状态、消息、MCP 集成和 Kubernetes 原生运维能力，帮助构建可靠且可观测的 AI Agent。
 - [Workflow SDK](https://github.com/vercel/workflow)：用于 TypeScript 的 SDK，为异步应用和 AI Agent 增加持久化执行、可靠性和可观测性。
 - [LiveKit Agents](https://github.com/livekit/agents)：用于构建生产级实时语音和多模态 AI Agent 的框架，集成模型、工具和电话系统。
+- [Heym](https://github.com/heymrun/heym)：可自托管的 AI 工作流平台，支持可视化和 Prompt 驱动工作流、RAG、MCP、人机审批、可观测性、评估和 Token 成本追踪。
+- [Rapida](https://github.com/rapidaai/voice-ai)：开源端到端语音 AI 编排平台，面向实时 Agent，集成音频流、STT、TTS、VAD、多渠道交付和可观测性。
 
 ## DataOps
 
