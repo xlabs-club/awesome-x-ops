@@ -552,6 +552,7 @@ A curated technology stack and toolchain for platform engineering.
 - [OpenWiki](https://github.com/langchain-ai/openwiki): CLI that writes and maintains agent documentation for codebases, automatically keeping docs in sync as the code evolves.
 - [VibeKit](https://github.com/superagent-ai/vibekit): Safety layer for coding agents that provides isolated sandboxes, sensitive-data redaction, and built-in execution observability.
 - [CodeBurn](https://github.com/getagentseal/codeburn): Free local tool for tracking AI coding token usage and cost across 31 tools and agents, with breakdowns by model, project, and task.
+- [h5i](https://github.com/h5i-dev/h5i): Apache-2.0 platform for auditable AI coding-agent workspaces, with sandboxed Git worktrees, multi-agent orchestration, prompt and context tracking, review gates, and token-efficient logs.
 
 ### Developer Environments
 
