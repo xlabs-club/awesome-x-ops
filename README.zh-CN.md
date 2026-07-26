@@ -158,6 +158,8 @@
 - [Agents Observe](https://github.com/simple10/agents-observe)：Claude Code 和 Codex Agent 的实时可观测仪表盘，支持会话回放、过滤和 Token 用量统计。
 - [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
+- [EvalScope](https://github.com/modelscope/evalscope)：LLM 评估框架，支持能力基准测试、带 trace 记录的 Agent Loop 评估、推理性能测试和交互式结果分析。
+- [Kiln](https://github.com/Kiln-AI/kiln)：用于构建和改进 AI 系统的开源工作台，支持协作式评估、Prompt 优化、RAG、Agent、合成数据和生产部署。
 - [Observal](https://github.com/Observal/Observal)：本地优先的注册与分析平台，用于治理和理解 AI Agent、MCP Server 及可复用 Agent Skill。
 - [Agent Prism](https://github.com/evilmartians/agent-prism)：用于可视化 AI Agent trace 的 React 组件，帮助检查多步骤 Agent 执行过程。
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills)：面向 AI 编码助手的 OpenTelemetry Skill 与参考资料，涵盖插桩模式和遥测质量指南。
