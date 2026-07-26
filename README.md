@@ -211,6 +211,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Agent Lightning](https://github.com/microsoft/agent-lightning): Framework for training and optimizing AI agents by connecting agent execution with reinforcement learning and other training methods.
 - [verl](https://github.com/verl-project/verl): Flexible and efficient reinforcement-learning framework for post-training large language models and optimizing reasoning or agent workloads.
 - [aikit](https://github.com/kaito-project/aikit): Kubernetes-native toolkit for fine-tuning, building, and deploying open-source LLMs with buildkit-based image construction and GPU-accelerated inference.
+- [NVIDIA NVCF](https://github.com/NVIDIA/nvcf): Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.
+- [Grove](https://github.com/ai-dynamo/grove): Kubernetes enhancements for topology-aware gang scheduling and autoscaling of distributed AI workloads.
 
 ## AIOps
 
