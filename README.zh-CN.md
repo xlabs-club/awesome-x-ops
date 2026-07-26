@@ -211,6 +211,8 @@
 - [Agent Lightning](https://github.com/microsoft/agent-lightning)：用于训练和优化 AI Agent 的框架，可将 Agent 执行过程连接到强化学习及其他训练方法。
 - [verl](https://github.com/verl-project/verl)：灵活高效的大语言模型后训练强化学习框架，可用于优化推理和 Agent 工作负载。
 - [aikit](https://github.com/kaito-project/aikit)：Kubernetes 原生工具包，支持基于 buildkit 的镜像构建和 GPU 加速推理，用于微调、构建和部署开源 LLM。
+- [NVIDIA NVCF](https://github.com/NVIDIA/nvcf)：用于大规模部署和路由 GPU 加速推理、流式处理及批处理工作负载的平台。
+- [Grove](https://github.com/ai-dynamo/grove)：面向分布式 AI 工作负载的 Kubernetes 增强组件，支持拓扑感知的 Gang 调度和自动扩缩容。
 
 ## AIOps 智能运维
 
