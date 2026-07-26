@@ -167,6 +167,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK): Open-source Python SDK for analyzing, evaluating, and curating production agent traces stored in BigQuery.
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring and visualization for Claude Code agent swarms through hook event tracking, session filters, and live updates.
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit): Agent skills and plugins that bring data lineage, monitoring, validation, alerting, and metadata checks into AI coding workflows.
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench): Open-source benchmark and runner for evaluating browser agents on live websites, with 283 tasks and five-layer recordings spanning video, screenshots, HTTP traffic, browser actions, and agent messages.
 
 ## AI Serving and Inference Operations
 

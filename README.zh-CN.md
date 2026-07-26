@@ -167,6 +167,7 @@
 - [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK)：开源 Python SDK，用于分析、评估和整理存储在 BigQuery 中的生产 Agent trace。
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过 Hook 事件追踪、会话过滤和实时更新，监控并可视化 Claude Code Agent 集群。
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit)：将数据血缘、监控、校验、告警和元数据检查能力带入 AI 编码工作流的 Agent Skill 与插件工具包。
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)：用于在真实网站上评测浏览器 Agent 的开源基准与运行框架，包含 283 项任务，并以会话视频、操作截图、HTTP 流量、浏览器动作和 Agent 消息进行五层记录。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
