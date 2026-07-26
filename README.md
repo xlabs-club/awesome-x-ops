@@ -93,6 +93,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [LLM Gateway](https://github.com/theopenco/llmgateway): Open-source gateway for routing, managing, and analyzing LLM requests across multiple providers through one API.
+- [LLMIO](https://github.com/atopos31/llmio): Go-based LLM gateway with weighted provider routing, an admin UI, request tracing, latency and token metrics, cost tracking, and failure handling.
+- [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway): Zero-trust, OpenAI-compatible gateway with identity-based access, semantic routing, and load balancing across hosted and self-hosted model providers.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
 - [Traceloop Hub](https://github.com/traceloop/hub): High-performance Rust LLM gateway with a unified provider API, OpenTelemetry traces, Prometheus metrics, and configurable request pipelines.
 - [New API](https://github.com/QuantumNous/new-api): Unified AI model gateway for aggregating providers, normalizing OpenAI/Claude/Gemini-compatible APIs, and managing enterprise model access.
@@ -113,6 +115,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Superagent](https://github.com/superagent-ai/superagent): Open-source AI security SDK for protecting LLM applications against prompt injections, data leaks, and harmful outputs.
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark): Open-source benchmark for evaluating prompt injection detection systems across diverse attack vectors.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
+- [RAGEval](https://github.com/BytePioneer-AI/RAGEval): Open-source RAG evaluation system for automating dataset-based quality checks across retrieval and generation workflows.
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
@@ -487,6 +490,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Semia](https://github.com/berabuddies/Semia): Security audit tool for AI agent skills that checks skill packages for suspicious behavior and security risks.
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents that limits filesystem access to only the paths they need.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
+- [SCAM](https://github.com/1Password/SCAM): Open-source benchmark that tests whether AI agents recognize and report security threats during realistic, multi-turn workplace tasks.
 - [nono](https://github.com/nolabs-ai/nono): Zero-setup, least-privilege sandbox for running AI agents and the tools they invoke across macOS, Linux, and Windows WSL2.
 - [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.

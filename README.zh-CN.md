@@ -93,6 +93,8 @@
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [LLM Gateway](https://github.com/theopenco/llmgateway)：开源 LLM 网关，通过统一 API 在多个供应商之间路由、管理和分析 LLM 请求。
+- [LLMIO](https://github.com/atopos31/llmio)：基于 Go 的 LLM 网关，支持按权重路由供应商、管理控制台、请求追踪、延迟与 Token 指标、成本统计和故障处理。
+- [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway)：零信任、兼容 OpenAI API 的网关，支持基于身份的访问控制、语义路由，以及在托管和自托管模型供应商之间负载均衡。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
 - [Traceloop Hub](https://github.com/traceloop/hub)：基于 Rust 的高性能 LLM 网关，提供统一供应商 API、OpenTelemetry 链路、Prometheus 指标和可配置请求流水线。
 - [New API](https://github.com/QuantumNous/new-api)：统一 AI 模型网关，用于聚合供应商、兼容 OpenAI/Claude/Gemini API，并管理企业级模型访问。
@@ -113,6 +115,7 @@
 - [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
+- [RAGEval](https://github.com/BytePioneer-AI/RAGEval)：开源 RAG 评测系统，用于自动化执行覆盖检索和生成流程的数据集质量检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
@@ -487,6 +490,7 @@
 - [Semia](https://github.com/berabuddies/Semia)：AI Agent Skill 安全审计工具，用于检查 Skill 包中的可疑行为和安全风险。
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse)：本地 AI Agent 沙箱，只允许 Agent 访问所需的文件系统路径。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。
+- [SCAM](https://github.com/1Password/SCAM)：开源基准测试工具，用于检验 AI Agent 能否在真实、多轮办公任务中识别并报告安全威胁。
 - [nono](https://github.com/nolabs-ai/nono)：零配置、最小权限的 AI Agent 沙箱，可在 macOS、Linux 和 Windows WSL2 上隔离运行 Agent 及其调用的工具。
 - [Pipelock](https://github.com/luckyPipewrench/pipelock)：开源 AI Agent 防火墙，可检查 MCP、A2A、HTTP 和 WebSocket 出站流量，识别 Prompt 注入、SSRF、Secret 泄露和高风险工具调用链。
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar)：面向 Agent 工作流的安全扫描器，可可视化工具与 MCP Server，并将发现的漏洞映射到安全框架。
