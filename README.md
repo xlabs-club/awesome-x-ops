@@ -537,6 +537,7 @@ A curated technology stack and toolchain for platform engineering.
 
 ### AI Coding Tools
 
+- [agents-cli](https://github.com/google/agents-cli): CLI and reusable skills for scaffolding, evaluating, deploying, publishing, and observing production AI agents on Google Cloud.
 - [Aider](https://github.com/Aider-AI/aider): AI pair programming tool that works in your terminal with multi-file editing, git integration, and support for leading LLMs.
 - [Continue](https://github.com/continuedev/continue): Open-source AI code assistant that integrates with IDEs as an autopilot for software development with customizable context and models.
 - [Tabby](https://github.com/TabbyML/tabby): Self-hosted AI coding assistant with code completion, chat, and agent capabilities that can run fully on-premises.

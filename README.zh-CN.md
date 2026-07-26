@@ -537,6 +537,7 @@
 
 ### AI Coding Tools AI 编码工具
 
+- [agents-cli](https://github.com/google/agents-cli)：用于在 Google Cloud 上构建生产级 AI Agent 的 CLI 与可复用 Skill，覆盖脚手架、评估、部署、发布和可观测性。
 - [Aider](https://github.com/Aider-AI/aider)：终端中的 AI 结对编程工具，支持多文件编辑、Git 集成和主流 LLM。
 - [Continue](https://github.com/continuedev/continue)：开源 AI 代码助手，以自动驾驶模式集成到 IDE 中，支持自定义上下文和模型。
 - [Tabby](https://github.com/TabbyML/tabby)：自托管的 AI 编码助手，提供代码补全、对话和 Agent 能力，可完全在本地运行。
