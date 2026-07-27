@@ -76,6 +76,7 @@
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
+- [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
 - [Kitaru](https://github.com/zenml-io/kitaru)：面向生产环境的 AI Agent 录制与回放工具，用于分析运行过程并改进 Agent 行为。
 - [ax](https://github.com/Necmttn/ax)：面向 AI 编码 Agent 的本地优先遥测与记忆图，覆盖成本、工具、技能、会话和 OTLP 事件。
 - [Mindwalk](https://github.com/cosmtrek/mindwalk)：可视化工具，在代码库 3D 地图上回放编码 Agent 会话，帮助调试和理解 Agent 行为。
@@ -218,6 +219,7 @@
 - [aikit](https://github.com/kaito-project/aikit)：Kubernetes 原生工具包，支持基于 buildkit 的镜像构建和 GPU 加速推理，用于微调、构建和部署开源 LLM。
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf)：用于大规模部署和路由 GPU 加速推理、流式处理及批处理工作负载的平台。
 - [Grove](https://github.com/ai-dynamo/grove)：面向分布式 AI 工作负载的 Kubernetes 增强组件，支持拓扑感知的 Gang 调度和自动扩缩容。
+- [Cube Studio](https://github.com/data-infra/cube-studio)：面向 Kubernetes 的云原生 AI 平台，提供 MLOps 工作流、分布式训练、GPU 虚拟化、推理服务和 LLMOps 能力。
 
 ## AIOps 智能运维
 
@@ -404,6 +406,7 @@
 - [Superlog](https://github.com/superloglabs/superlog)：开源可观测性工具，利用 AI Agent 检测问题并自动修复，实现软件自愈。
 - [Monoscope](https://github.com/monoscope-tech/monoscope)：开源可观测平台，支持 S3 原生存储、OpenTelemetry 原生采集、自然语言查询和 AI Agent 驱动的异常检测与定时报告。
 - [DeepFlow](https://github.com/deepflowio/deepflow)：基于 eBPF 的可观测平台，支持分布式追踪、性能剖析、网络遥测和自动应用拓扑发现。
+- [Qtap](https://github.com/qpoint-io/qtap)：基于 eBPF 的 Agent，可捕获加密前的网络流量及进程、容器、主机和协议上下文，用于安全审计与故障排查。
 - [Parseable](https://github.com/parseablehq/parseable)：基于 Rust 和数据湖架构的可观测平台，统一采集应用、Agent 和基础设施的日志、指标、链路与事件。
 - [Traccia](https://github.com/traccia-ai/traccia-py)：基于 OpenTelemetry 的 Python SDK，支持 AI Agent 追踪、Token 与成本统计、护栏检测、治理证据和 OTLP 导出。
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe)：开源 Agent 工程平台，面向 LangGraph、CrewAI、Claude Agent SDK 等运行时提供链路、评估和指标能力。
