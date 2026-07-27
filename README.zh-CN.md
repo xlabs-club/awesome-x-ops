@@ -250,8 +250,9 @@
 - [Chroma](https://github.com/chroma-core/chroma)：以 Embedding 为优先的向量数据库，支持简单的本地开发和客户端-服务端部署，用于构建 LLM 应用。
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
 - [MarkItDown](https://github.com/microsoft/markitdown)：微软开源的文件转 Markdown 工具，可将 Office 文档和各类文件转换为 LLM 和 RAG 流水线可用的 Markdown 格式。
-- [Docling](https://github.com/docling-project/docling)：IBM 开源文档理解工具包，可将 PDF、DOCX、PPTX、图片和 HTML 大规模转换为 LLM 友好的结构化格式。
-- [Pathway LLM App](https://github.com/pathwaycom/llm-app)：面向生产 RAG、AI 流水线和企业搜索的开箱即用模板，支持实时数据连接器和适合 Docker 的部署方式。
+- [Docling](https://github.com/docling-project/docling)：IBM 开源的文档理解工具包，可将 PDF、DOCX、PPTX、图片和 HTML 转换为适合 LLM 使用的结构化格式，并支持规模化处理。
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)：开源 OCR 工具包，可将 PDF 和图片转换为结构化数据，适用于多语言 AI 与 RAG 流水线。
+- [Pathway LLM App](https://github.com/pathwaycom/llm-app)：生产级 RAG、AI 流水线和企业搜索的开箱即用模板，支持实时数据连接器和 Docker 部署。
 - [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
