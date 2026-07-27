@@ -170,6 +170,7 @@
 - [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK)：开源 Python SDK，用于分析、评估和整理存储在 BigQuery 中的生产 Agent trace。
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过 Hook 事件追踪、会话过滤和实时更新，监控并可视化 Claude Code Agent 集群。
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit)：将数据血缘、监控、校验、告警和元数据检查能力带入 AI 编码工作流的 Agent Skill 与插件工具包。
+- [AgentOps Accelerator](https://github.com/Azure/agentops)：开源 CLI 与框架，用于持续执行 Agent 评估、安全测试、可观测性检查和发布就绪证据收集。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -274,6 +275,7 @@
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
+- [Lunar.dev](https://github.com/TheLunarCompany/lunar)：开源网关，用于治理和优化应用及 AI Agent 的第三方 API 与 MCP 流量，提供流量可见性、策略执行和流量整形能力。
 - [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry)：企业级 MCP 与 A2A 网关，提供身份感知访问控制、工具发现、OpenTelemetry 链路和 Prometheus 指标。
 - [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher)：自主 AI 研究 Agent，支持全面的 Web 研究、报告生成和知识聚合，基于多源数据检索。
@@ -509,6 +511,7 @@
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，可在使用 Skill 前检测恶意模式、漏洞和其他风险。
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
+- [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
 
 ## Platform Engineering 平台工程
