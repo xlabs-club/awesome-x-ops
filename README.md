@@ -76,6 +76,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
+- [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.
 - [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
 - [Mindwalk](https://github.com/cosmtrek/mindwalk): Visualization tool that replays coding-agent sessions on a 3D map of your codebase for debugging and understanding agent behavior.
@@ -218,6 +219,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [aikit](https://github.com/kaito-project/aikit): Kubernetes-native toolkit for fine-tuning, building, and deploying open-source LLMs with buildkit-based image construction and GPU-accelerated inference.
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf): Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.
 - [Grove](https://github.com/ai-dynamo/grove): Kubernetes enhancements for topology-aware gang scheduling and autoscaling of distributed AI workloads.
+- [Cube Studio](https://github.com/data-infra/cube-studio): Cloud-native AI platform for Kubernetes with MLOps workflows, distributed training, GPU virtualization, inference serving, and LLMOps capabilities.
 
 ## AIOps
 
@@ -404,6 +406,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Superlog](https://github.com/superloglabs/superlog): Open-source observability tool that uses AI agents to self-heal software by detecting issues and automating fixes.
 - [Monoscope](https://github.com/monoscope-tech/monoscope): Open-source observability platform with S3-native storage, OpenTelemetry-native ingest, natural language queries, and AI agents for anomaly detection and scheduled reports.
 - [DeepFlow](https://github.com/deepflowio/deepflow): eBPF-based observability platform for distributed tracing, profiling, network telemetry, and automatic application topology discovery.
+- [Qtap](https://github.com/qpoint-io/qtap): eBPF agent that captures pre-encrypted network traffic with process, container, host, and protocol context for security auditing and troubleshooting.
 - [Parseable](https://github.com/parseablehq/parseable): Rust-based, data-lake observability platform for logs, metrics, traces, and events across applications, agents, and infrastructure.
 - [Traccia](https://github.com/traccia-ai/traccia-py): OpenTelemetry-based Python SDK for AI-agent tracing, token and cost tracking, guardrail detection, governance evidence, and OTLP export.
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe): Open-source agent engineering platform for traces, evaluations, and metrics across LangGraph, CrewAI, Claude Agent SDK, and other agent runtimes.
