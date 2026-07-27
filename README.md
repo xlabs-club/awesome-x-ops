@@ -346,6 +346,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [LiveKit Agents](https://github.com/livekit/agents): Framework for building production-ready realtime voice and multimodal AI agents with integrations for models, tools, and telephony.
 - [Heym](https://github.com/heymrun/heym): Self-hosted AI workflow platform with visual and prompt-driven workflows, RAG, MCP, human approval, observability, evaluations, and token-cost tracking.
 - [Rapida](https://github.com/rapidaai/voice-ai): Open-source, end-to-end voice AI orchestration platform for real-time agents, integrating audio streaming, STT, TTS, VAD, multi-channel delivery, and observability.
+- [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack): Production-oriented templates for deploying AI agents to Google Cloud with built-in CI/CD, evaluation, observability, and common enterprise integrations.
 
 ## DataOps
 
@@ -507,6 +508,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that detects malicious patterns, vulnerabilities, and other risks before skills are used.
+- [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 
 ## Platform Engineering

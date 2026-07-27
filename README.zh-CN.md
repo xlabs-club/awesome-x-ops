@@ -346,6 +346,7 @@
 - [LiveKit Agents](https://github.com/livekit/agents)：用于构建生产级实时语音和多模态 AI Agent 的框架，集成模型、工具和电话系统。
 - [Heym](https://github.com/heymrun/heym)：可自托管的 AI 工作流平台，支持可视化和 Prompt 驱动工作流、RAG、MCP、人机审批、可观测性、评估和 Token 成本追踪。
 - [Rapida](https://github.com/rapidaai/voice-ai)：开源端到端语音 AI 编排平台，面向实时 Agent，集成音频流、STT、TTS、VAD、多渠道交付和可观测性。
+- [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 部署模板，可将 Agent 部署到 Google Cloud，并内置 CI/CD、评估、可观测性和常见企业集成。
 
 ## DataOps
 
@@ -507,6 +508,7 @@
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，可在使用 Skill 前检测恶意模式、漏洞和其他风险。
+- [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
 
 ## Platform Engineering 平台工程
