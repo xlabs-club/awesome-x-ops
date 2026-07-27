@@ -170,6 +170,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [BigQuery Agent Analytics SDK](https://github.com/GoogleCloudPlatform/BigQuery-Agent-Analytics-SDK): Open-source Python SDK for analyzing, evaluating, and curating production agent traces stored in BigQuery.
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring and visualization for Claude Code agent swarms through hook event tracking, session filters, and live updates.
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit): Agent skills and plugins that bring data lineage, monitoring, validation, alerting, and metadata checks into AI coding workflows.
+- [AgentOps Accelerator](https://github.com/Azure/agentops): Open-source CLI and framework for continuous agent evaluation, safety testing, observability, and release-readiness evidence.
 
 ## AI Serving and Inference Operations
 
@@ -274,6 +275,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
+- [Lunar.dev](https://github.com/TheLunarCompany/lunar): Open-source gateway for governing and optimizing third-party API and MCP traffic from applications and AI agents with visibility, policy enforcement, and traffic shaping.
 - [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry): Enterprise MCP and A2A gateway with identity-aware access control, tool discovery, OpenTelemetry tracing, and Prometheus metrics.
 - [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
 - [GPT-Researcher](https://github.com/assafelovic/gpt-researcher): Autonomous AI agent for comprehensive web research, report generation, and knowledge synthesis using multi-source data retrieval.
@@ -509,6 +511,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that detects malicious patterns, vulnerabilities, and other risks before skills are used.
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
+- [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 
 ## Platform Engineering
