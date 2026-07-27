@@ -251,6 +251,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
 - [MarkItDown](https://github.com/microsoft/markitdown): Microsoft's open-source tool for converting files and Office documents to Markdown for LLM and RAG data pipelines.
 - [Docling](https://github.com/docling-project/docling): IBM's open-source document understanding toolkit for converting PDFs, DOCX, PPTX, images, and HTML into LLM-ready structured formats at scale.
+- [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): Open-source OCR toolkit for converting PDFs and images into structured data for multilingual AI and RAG pipelines.
 - [Pathway LLM App](https://github.com/pathwaycom/llm-app): Ready-to-run templates for production RAG, AI pipelines, and enterprise search with live data connectors and Docker-friendly deployment.
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
