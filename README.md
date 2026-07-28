@@ -175,7 +175,11 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [agent-inspect](https://github.com/rajudandigam/agent-inspect): Local TypeScript agent debugging and regression-testing toolkit that turns runs into execution trees, deterministic contracts, CI gates, and safe evidence bundles.
 - [brain0](https://github.com/Brain0-ai/brain0): Offline decision graph for AI-written code that links commits to agent prompts and read context, with drift detection, DLP auditing, risk signals, and signed provenance.
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry): Local dashboard for tracking tokens, costs, tool calls, sessions, and reasoning across coding and autonomous agents.
-- [Zabbix MCP Server](https://github.com/initMAX/zabbix-mcp-server): MCP server exposing the Zabbix API to AI assistants, with multi-server support, OAuth 2.1, reports, and operational tooling for infrastructure investigations.
+- [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox): Local-first flight recorder and context-efficiency profiler for coding agents, with replayable session maps, cost analysis, and task-outcome signals.
+- [Mira](https://github.com/everruns/mira): Rust-first evaluation framework for multi-turn, tool-using, long-running agent trajectories with operational budgets and CI-native reports.
+- [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
+- [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
+- [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
 
 ## AI Serving and Inference Operations
 

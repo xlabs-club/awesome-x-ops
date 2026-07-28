@@ -175,7 +175,11 @@
 - [agent-inspect](https://github.com/rajudandigam/agent-inspect)：本地 TypeScript Agent 调试与回归测试工具包，可将运行过程转换为执行树、确定性契约、CI 门禁和安全证据包。
 - [brain0](https://github.com/Brain0-ai/brain0)：面向 AI 编写代码的离线决策图，将提交关联到 Agent Prompt 和读取过的上下文，并提供漂移检测、DLP 审计、风险信号和签名溯源。
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)：本地仪表盘，用于统一追踪编码 Agent 和自主 Agent 的 Token、成本、工具调用、会话与推理步骤。
-- [Zabbix MCP Server](https://github.com/initMAX/zabbix-mcp-server)：将 Zabbix API 暴露给 AI 助手的 MCP Server，支持多服务器、OAuth 2.1、报表和基础设施调查所需的运维工具。
+- [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox)：本地优先的编码 Agent 黑盒记录器与上下文效率分析工具，提供可回放的会话地图、成本分析和任务结果信号。
+- [Mira](https://github.com/everruns/mira)：Rust 优先的 Agent 评估框架，面向多轮、工具调用型和长时间运行的 Agent 轨迹，支持运行指标预算和 CI 原生报告。
+- [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
+- [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
+- [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
