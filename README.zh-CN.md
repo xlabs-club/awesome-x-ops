@@ -303,6 +303,7 @@
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
+- [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
 
 ## LLM 知识库
 
@@ -323,6 +324,7 @@
 - [Quivr](https://github.com/QuivrHQ/quivr)：面向应用集成的 RAG 平台，支持任意 LLM、向量存储和文件类型，让团队专注产品而非 RAG 实现细节。
 - [R2R](https://github.com/sciphi-ai/r2r)：生产就绪的 AI 检索系统，支持 Agentic RAG 和 RESTful API，适合企业级知识工作流。
 - [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)：基于 LangChain 和 ChatGLM、Qwen、Llama 等本地 LLM 的 RAG 与 Agent 应用平台，支持知识库管理。
+- [Semantica](https://github.com/semantica-agi/semantica)：面向 AI 系统的图原生基础设施，用于连接上下文、知识与可审计的证据。
 
 ## Agentic Workflow 智能体工作流
 
@@ -524,6 +526,7 @@
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
+- [SkillHub](https://github.com/iflytek/skillhub)：可自托管的 Agent Skill 注册中心，支持发布与版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
 
 ## Platform Engineering 平台工程
 
