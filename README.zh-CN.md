@@ -171,6 +171,11 @@
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability)：通过 Hook 事件追踪、会话过滤和实时更新，监控并可视化 Claude Code Agent 集群。
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit)：将数据血缘、监控、校验、告警和元数据检查能力带入 AI 编码工作流的 Agent Skill 与插件工具包。
 - [AgentOps Accelerator](https://github.com/Azure/agentops)：开源 CLI 与框架，用于持续执行 Agent 评估、安全测试、可观测性检查和发布就绪证据收集。
+- [Smithers](https://github.com/smithersai/smithers)：Agent 工作流编排器，支持实时运行观测、人机审批，以及跨编码 Agent 运行时的回退、分叉和回放。
+- [agent-inspect](https://github.com/rajudandigam/agent-inspect)：本地 TypeScript Agent 调试与回归测试工具包，可将运行过程转换为执行树、确定性契约、CI 门禁和安全证据包。
+- [brain0](https://github.com/Brain0-ai/brain0)：面向 AI 编写代码的离线决策图，将提交关联到 Agent Prompt 和读取过的上下文，并提供漂移检测、DLP 审计、风险信号和签名溯源。
+- [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)：本地仪表盘，用于统一追踪编码 Agent 和自主 Agent 的 Token、成本、工具调用、会话与推理步骤。
+- [Zabbix MCP Server](https://github.com/initMAX/zabbix-mcp-server)：将 Zabbix API 暴露给 AI 助手的 MCP Server，支持多服务器、OAuth 2.1、报表和基础设施调查所需的运维工具。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 

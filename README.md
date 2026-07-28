@@ -171,6 +171,11 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Claude Code Hooks Multi-Agent Observability](https://github.com/disler/claude-code-hooks-multi-agent-observability): Real-time monitoring and visualization for Claude Code agent swarms through hook event tracking, session filters, and live updates.
 - [MC Agent Toolkit](https://github.com/monte-carlo-data/mc-agent-toolkit): Agent skills and plugins that bring data lineage, monitoring, validation, alerting, and metadata checks into AI coding workflows.
 - [AgentOps Accelerator](https://github.com/Azure/agentops): Open-source CLI and framework for continuous agent evaluation, safety testing, observability, and release-readiness evidence.
+- [Smithers](https://github.com/smithersai/smithers): Agent workflow orchestrator with live run observability, human approval gates, and rewind, fork, and replay support across coding-agent runtimes.
+- [agent-inspect](https://github.com/rajudandigam/agent-inspect): Local TypeScript agent debugging and regression-testing toolkit that turns runs into execution trees, deterministic contracts, CI gates, and safe evidence bundles.
+- [brain0](https://github.com/Brain0-ai/brain0): Offline decision graph for AI-written code that links commits to agent prompts and read context, with drift detection, DLP auditing, risk signals, and signed provenance.
+- [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry): Local dashboard for tracking tokens, costs, tool calls, sessions, and reasoning across coding and autonomous agents.
+- [Zabbix MCP Server](https://github.com/initMAX/zabbix-mcp-server): MCP server exposing the Zabbix API to AI assistants, with multi-server support, OAuth 2.1, reports, and operational tooling for infrastructure investigations.
 
 ## AI Serving and Inference Operations
 
