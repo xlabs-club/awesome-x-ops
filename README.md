@@ -161,6 +161,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
 - [EvalScope](https://github.com/modelscope/evalscope): LLM evaluation framework for capability benchmarks, agent-loop evaluation with recorded traces, inference performance testing, and interactive result analysis.
 - [Kiln](https://github.com/Kiln-AI/kiln): Open-source workbench for building and improving AI systems with collaborative evals, prompt optimization, RAG, agents, synthetic data, and production deployment support.
+- [Google ADK Python](https://github.com/google/adk-python): Code-first Python toolkit for building, evaluating, and deploying production-oriented AI agents with flexible orchestration and tool integration.
+- [AssetOpsBench](https://github.com/IBM/AssetOpsBench): Benchmark and framework for building, orchestrating, and evaluating domain-specific industrial AI agents across reproducible asset-operations scenarios.
 - [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
 - [Agent Prism](https://github.com/evilmartians/agent-prism): React components for visualizing AI agent traces and making multi-step agent execution easier to inspect.
 - [Dash0 Agent Skills](https://github.com/dash0hq/agent-skills): OpenTelemetry skills and reference material for AI coding assistants, covering instrumentation patterns and telemetry quality.
