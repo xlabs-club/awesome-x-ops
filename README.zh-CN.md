@@ -304,6 +304,8 @@
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
+- [HelixDB](https://github.com/HelixDB/helix-db)：基于 Rust 构建的图-向量数据库，面向知识图谱、AI 记忆，并统一访问关系型、文档、键值和向量数据。
+- [RocketRide](https://github.com/rocketride-org/rocketride-server)：开源 AI 流水线构建器与运行时，采用 C++ 核心，提供可扩展节点、向量数据库集成，以及面向生产 AI 系统的 IDE/CLI 工作流。
 - [Golf](https://github.com/golf-mcp/golf)：面向生产的 MCP Server 框架，提供认证、可观测性、调试、遥测和运行时能力，用于部署安全的 Agent 基础设施。
 - [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)：安全、快速且可扩展的沙箱运行时，用于隔离 AI Agent 代码和工具执行。
@@ -533,6 +535,7 @@
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
+- [Rogue](https://github.com/qualifire-dev/rogue)：AI Agent 评估与红队平台，支持回归测试、策略校验、对抗性探测和安全报告，覆盖多种 Agent 协议。
 - [SkillHub](https://github.com/iflytek/skillhub)：可自托管的 Agent Skill 注册中心，支持发布与版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
 
 ## Platform Engineering 平台工程
