@@ -162,6 +162,7 @@
 - [EvalScope](https://github.com/modelscope/evalscope)：LLM 评估框架，支持能力基准测试、带 trace 记录的 Agent Loop 评估、推理性能测试和交互式结果分析。
 - [Kiln](https://github.com/Kiln-AI/kiln)：用于构建和改进 AI 系统的开源工作台，支持协作式评估、Prompt 优化、RAG、Agent、合成数据和生产部署。
 - [Google ADK Python](https://github.com/google/adk-python)：面向代码优先开发的 Python 工具包，用于构建、评估和部署生产导向的 AI Agent，支持灵活编排和工具集成。
+- [Google ADK Go](https://github.com/google/adk-go)：面向代码优先开发的 Go 工具包，用于构建、评估和部署生产导向的 AI Agent，支持灵活编排和工具集成。
 - [AssetOpsBench](https://github.com/IBM/AssetOpsBench)：用于构建、编排和评估行业 AI Agent 的基准与框架，覆盖可复现的工业资产运维场景。
 - [Observal](https://github.com/Observal/Observal)：本地优先的注册与分析平台，用于治理和理解 AI Agent、MCP Server 及可复用 Agent Skill。
 - [Agent Prism](https://github.com/evilmartians/agent-prism)：用于可视化 AI Agent trace 的 React 组件，帮助检查多步骤 Agent 执行过程。
@@ -305,6 +306,10 @@
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
 - [Golf](https://github.com/golf-mcp/golf)：面向生产的 MCP Server 框架，提供认证、可观测性、调试、遥测和运行时能力，用于部署安全的 Agent 基础设施。
 - [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
+- [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)：安全、快速且可扩展的沙箱运行时，用于隔离 AI Agent 代码和工具执行。
+- [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)：用于管理隔离、有状态、单例工作负载的 Kubernetes API 与控制器，适合 AI Agent 运行时。
+- [AgentOS](https://github.com/rivet-dev/agentos)：基于 WebAssembly 和 V8 isolate 的库，可在现有后端中为 AI Agent 提供类似操作系统的运行时。
+- [Cua](https://github.com/trycua/cua)：开源 computer-use 基础设施，提供跨平台驱动、设备集群和基准测试，用于 Agent 训练、评估和数据生成。
 
 ## LLM 知识库
 
