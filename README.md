@@ -363,6 +363,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Heym](https://github.com/heymrun/heym): Self-hosted AI workflow platform with visual and prompt-driven workflows, RAG, MCP, human approval, observability, evaluations, and token-cost tracking.
 - [Rapida](https://github.com/rapidaai/voice-ai): Open-source, end-to-end voice AI orchestration platform for real-time agents, integrating audio streaming, STT, TTS, VAD, multi-channel delivery, and observability.
 - [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack): Production-oriented templates for deploying AI agents to Google Cloud with built-in CI/CD, evaluation, observability, and common enterprise integrations.
+- [LiteLLM Agent Control Plane](https://github.com/LiteLLM-Labs/litellm-agent-control-plane): Self-hosted control plane for running agents across multiple runtimes with unified access, persistent sessions, scheduled jobs, and shared team management.
 
 ## DataOps
 

@@ -363,6 +363,7 @@
 - [Heym](https://github.com/heymrun/heym)：可自托管的 AI 工作流平台，支持可视化和 Prompt 驱动工作流、RAG、MCP、人机审批、可观测性、评估和 Token 成本追踪。
 - [Rapida](https://github.com/rapidaai/voice-ai)：开源端到端语音 AI 编排平台，面向实时 Agent，集成音频流、STT、TTS、VAD、多渠道交付和可观测性。
 - [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 部署模板，可将 Agent 部署到 Google Cloud，并内置 CI/CD、评估、可观测性和常见企业集成。
+- [LiteLLM Agent Control Plane](https://github.com/LiteLLM-Labs/litellm-agent-control-plane)：可自托管的 Agent 控制平面，支持跨多种运行时统一访问、持久化会话、定时任务和团队共享管理。
 
 ## DataOps
 
