@@ -304,6 +304,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data sources.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
+- [HelixDB](https://github.com/HelixDB/helix-db): Rust-built graph-vector database for knowledge graphs, AI memory, and unified access to relational, document, key-value, and vector data.
+- [RocketRide](https://github.com/rocketride-org/rocketride-server): Open-source AI pipeline builder and runtime with a C++ core, extensible nodes, vector database integrations, and IDE/CLI workflows for production AI systems.
 - [Golf](https://github.com/golf-mcp/golf): Production-ready MCP server framework with authentication, observability, debugging, telemetry, and runtime capabilities for deploying secure agent infrastructure.
 - [Airweave](https://github.com/airweave-ai/airweave): Open-source context retrieval layer that syncs diverse data sources into searchable context for AI agents and applications.
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): Secure, fast, and extensible sandbox runtime for isolating AI agent code and tool execution.
@@ -533,6 +535,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
 - [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
+- [Rogue](https://github.com/qualifire-dev/rogue): AI agent evaluation and red-team platform for regression testing, policy validation, adversarial probing, and security reporting across agent protocols.
 - [SkillHub](https://github.com/iflytek/skillhub): Self-hosted registry for publishing and versioning agent skills with RBAC, audit logs, and Docker or Kubernetes deployment.
 
 ## Platform Engineering
