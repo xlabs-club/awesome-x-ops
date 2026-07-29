@@ -303,6 +303,7 @@
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
+- [Golf](https://github.com/golf-mcp/golf)：面向生产的 MCP Server 框架，提供认证、可观测性、调试、遥测和运行时能力，用于部署安全的 Agent 基础设施。
 - [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
 
 ## LLM 知识库
