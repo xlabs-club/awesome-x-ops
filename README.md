@@ -162,6 +162,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [EvalScope](https://github.com/modelscope/evalscope): LLM evaluation framework for capability benchmarks, agent-loop evaluation with recorded traces, inference performance testing, and interactive result analysis.
 - [Kiln](https://github.com/Kiln-AI/kiln): Open-source workbench for building and improving AI systems with collaborative evals, prompt optimization, RAG, agents, synthetic data, and production deployment support.
 - [Google ADK Python](https://github.com/google/adk-python): Code-first Python toolkit for building, evaluating, and deploying production-oriented AI agents with flexible orchestration and tool integration.
+- [Google ADK Go](https://github.com/google/adk-go): Code-first Go toolkit for building, evaluating, and deploying production-oriented AI agents with flexible orchestration and tool integration.
 - [AssetOpsBench](https://github.com/IBM/AssetOpsBench): Benchmark and framework for building, orchestrating, and evaluating domain-specific industrial AI agents across reproducible asset-operations scenarios.
 - [Observal](https://github.com/Observal/Observal): Local registry and analytics platform for governing and understanding AI agents, MCP servers, and reusable agent skills.
 - [Agent Prism](https://github.com/evilmartians/agent-prism): React components for visualizing AI agent traces and making multi-step agent execution easier to inspect.
@@ -305,6 +306,10 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
 - [Golf](https://github.com/golf-mcp/golf): Production-ready MCP server framework with authentication, observability, debugging, telemetry, and runtime capabilities for deploying secure agent infrastructure.
 - [Airweave](https://github.com/airweave-ai/airweave): Open-source context retrieval layer that syncs diverse data sources into searchable context for AI agents and applications.
+- [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): Secure, fast, and extensible sandbox runtime for isolating AI agent code and tool execution.
+- [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes API and controller for managing isolated, stateful, singleton workloads such as AI agent runtimes.
+- [AgentOS](https://github.com/rivet-dev/agentos): Library that gives AI agents an operating-system-like runtime in an existing backend using WebAssembly and V8 isolates.
+- [Cua](https://github.com/trycua/cua): Open-source computer-use infrastructure with cross-platform drivers, fleets, and benchmarks for agent training, evaluation, and data generation.
 
 ## LLM Knowledge
 
