@@ -183,6 +183,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
+- [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
+- [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 
 ## AI Serving and Inference Operations
 
@@ -202,6 +204,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [KubeRay](https://github.com/ray-project/kuberay): Kubernetes operator and toolkit for deploying and managing Ray clusters and distributed AI workloads.
 - [SGLang](https://github.com/sgl-project/sglang): High-performance serving framework for large language models and multimodal models with efficient attention and structured outputs.
 - [vLLM](https://github.com/vllm-project/vllm): High-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and quantization.
+- [GuideLLM](https://github.com/vllm-project/guidellm): Benchmarking tool for evaluating LLM deployments with real-world latency, throughput, and performance measurements.
 - [Ollama](https://github.com/ollama/ollama): Local-first LLM runner for getting started quickly with models locally, on edge, or in development environments.
 - [llama.cpp](https://github.com/ggml-org/llama.cpp): High-performance C/C++ LLM inference engine with quantization, powering many local and server-side AI backends.
 - [LocalAI](https://github.com/mudler/LocalAI): Self-hosted, OpenAI-compatible local AI API for running LLMs, image generation, and audio models with container-based deployment.

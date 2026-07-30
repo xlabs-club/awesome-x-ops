@@ -183,6 +183,8 @@
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
+- [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
+- [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -202,6 +204,7 @@
 - [KubeRay](https://github.com/ray-project/kuberay)：Kubernetes Operator 与工具集，用于部署和管理 Ray 集群及分布式 AI 工作负载。
 - [SGLang](https://github.com/sgl-project/sglang)：高性能 LLM 与多模态模型推理服务框架，支持高效注意力机制和结构化输出。
 - [vLLM](https://github.com/vllm-project/vllm)：高吞吐、内存高效的 LLM 推理与服务引擎，支持连续批处理与量化。
+- [GuideLLM](https://github.com/vllm-project/guidellm)：用于评估 LLM 部署的基准测试工具，可测量真实场景下的延迟、吞吐和性能。
 - [Ollama](https://github.com/ollama/ollama)：本地优先的 LLM 运行工具，适合在本地、边缘或开发环境中快速上手模型推理。
 - [llama.cpp](https://github.com/ggml-org/llama.cpp)：高性能 C/C++ LLM 推理引擎，支持量化，为众多本地和服务端 AI 后端提供基础能力。
 - [LocalAI](https://github.com/mudler/LocalAI)：自托管的 OpenAI 兼容本地 AI API，支持基于容器部署运行 LLM、图像生成和音频模型。
