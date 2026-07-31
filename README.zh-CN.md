@@ -189,6 +189,8 @@
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟 Agent 测试、自定义目标、Hook 以及 CI/CD 集成。
+- [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。
+- [numbat](https://github.com/perplexityai/numbat)：面向本地端点的 AI Agent 活动可见性工具，支持基于 Hook 的监控、CEL 检测、可选的执行前拦截和取证重建。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -546,6 +548,8 @@
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
 - [Rogue](https://github.com/qualifire-dev/rogue)：AI Agent 评估与红队平台，支持回归测试、策略校验、对抗性探测和安全报告，覆盖多种 Agent 协议。
 - [SkillHub](https://github.com/iflytek/skillhub)：可自托管的 Agent Skill 注册中心，支持发布与版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
+- [MEDUSA](https://github.com/Pantheon-Security/medusa)：面向 AI/ML 应用、Agent、MCP Server 和代码的 AI 原生安全扫描器，支持供应链、Prompt 注入、Secret 和漏洞检测。
+- [Arcjet JS](https://github.com/arcjet/arcjet-js)：面向 AI 应用和 Agent 的运行时安全 SDK，支持 Prompt 注入检测、工具调用授权、敏感数据脱敏、机器人防护和限流。
 
 ## Platform Engineering 平台工程
 

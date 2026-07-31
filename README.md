@@ -189,6 +189,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [Nasiko](https://github.com/Nasiko-Labs/nasiko): AI agent developer control plane for registry, deployment, routing, health monitoring, observability, and lifecycle operations.
+- [numbat](https://github.com/perplexityai/numbat): Local endpoint visibility for AI agent activity with hook-based monitoring, CEL detections, optional pre-action blocking, and forensic reconstruction.
 
 ## AI Serving and Inference Operations
 
@@ -546,6 +548,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 - [Rogue](https://github.com/qualifire-dev/rogue): AI agent evaluation and red-team platform for regression testing, policy validation, adversarial probing, and security reporting across agent protocols.
 - [SkillHub](https://github.com/iflytek/skillhub): Self-hosted registry for publishing and versioning agent skills with RBAC, audit logs, and Docker or Kubernetes deployment.
+- [MEDUSA](https://github.com/Pantheon-Security/medusa): AI-first security scanner for AI/ML applications, agents, MCP servers, and code, with supply-chain, prompt-injection, secret, and vulnerability detection.
+- [Arcjet JS](https://github.com/arcjet/arcjet-js): Runtime security SDK for AI applications and agents with prompt-injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting.
 
 ## Platform Engineering
 
