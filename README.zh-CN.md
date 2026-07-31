@@ -256,6 +256,8 @@
 - [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
 - [Chaterm](https://github.com/chaterm/Chaterm)：开源 AI 终端，面向云和基础设施管理，支持通过自然语言跨 SSH、Kubernetes 和云服务进行部署、排障和自动化。
 - [Versus Incident](https://github.com/VersusControl/versus-incident)：可自托管的 AI SRE Agent，学习系统的正常行为，并将新出现或异常的事件路由到聊天和值班平台。
+- [Flawless](https://github.com/William-Lu-stack/Flawless)：面向 Kubernetes 和云基础设施的 AI 原生 SRE 控制平面，将证据收集、人机审批、受控修复、回滚和恢复验证连接成可审计闭环。
+- [Nudgebee](https://github.com/nudgebee/nudgebee)：面向 Kubernetes 和主流云平台的开源 SRE Copilot，整合可观测性、FinOps、Runbook 自动化、事件响应和 ChatOps 工作流。
 
 ## AI 基础设施
 

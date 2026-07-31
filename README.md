@@ -256,6 +256,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Metaflow](https://github.com/Netflix/metaflow): Human-centric framework for developing, versioning, scaling, and deploying production AI/ML systems from prototypes to reliable workflows.
 - [Chaterm](https://github.com/chaterm/Chaterm): Open-source AI terminal for cloud and infrastructure management, enabling natural-language deployment, troubleshooting, and automation across SSH, Kubernetes, and cloud services.
 - [Versus Incident](https://github.com/VersusControl/versus-incident): Self-hosted AI SRE agent that learns normal system behavior and routes novel or unexpected incidents to chat and on-call platforms.
+- [Flawless](https://github.com/William-Lu-stack/Flawless): AI-native SRE control plane for Kubernetes and cloud infrastructure, connecting evidence, human approval, controlled remediation, rollback, and recovery verification in an auditable loop.
+- [Nudgebee](https://github.com/nudgebee/nudgebee): Open-source SRE copilot for Kubernetes and major clouds, combining observability, FinOps, runbook automation, incident response, and ChatOps workflows.
 
 ## AI Infrastructure
 
