@@ -116,11 +116,13 @@
 - [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security)：面向对抗性环境的 Agent 安全审查框架，强调在验证前将所有外部输入视为不可信。
 - [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。
+- [FuzzyAI](https://github.com/cyberark/FuzzyAI)：基于 Apache-2.0 许可的 LLM 模糊测试工具，用于发现并缓解 LLM API 中的越狱漏洞。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval)：开源 RAG 评测系统，用于自动化执行覆盖检索和生成流程的数据集质量检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
+- [AgentBench](https://github.com/THUDM/AgentBench)：基于 Apache-2.0 许可的基准测试工具，用于在多种环境和任务中评估 LLM 作为 Agent 的能力。
 - [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。
 - [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)：基于 MIT 许可的框架，用于构建、运行和分析可复现的大语言模型评测。
