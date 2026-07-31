@@ -54,6 +54,8 @@ This project aims to become a practical open-source map for modern X-Ops. Contri
 
 Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent applications in production.
 
+**Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose.
+
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.
