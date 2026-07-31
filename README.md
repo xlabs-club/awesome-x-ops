@@ -116,11 +116,13 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security): Agent security review framework for adversarial environments, centered on treating every external input as untrusted until verified.
 - [Superagent](https://github.com/superagent-ai/superagent): Open-source AI security SDK for protecting LLM applications against prompt injections, data leaks, and harmful outputs.
 - [PINT Benchmark](https://github.com/lakeraai/pint-benchmark): Open-source benchmark for evaluating prompt injection detection systems across diverse attack vectors.
+- [FuzzyAI](https://github.com/cyberark/FuzzyAI): Apache-2.0 LLM fuzzing tool for finding and mitigating jailbreak vulnerabilities in LLM APIs.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval): Open-source RAG evaluation system for automating dataset-based quality checks across retrieval and generation workflows.
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
+- [AgentBench](https://github.com/THUDM/AgentBench): Apache-2.0 benchmark for evaluating LLMs as agents across diverse environments and tasks.
 - [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
 - [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai): MIT-licensed framework for building, running, and analyzing reproducible evaluations of large language models.
