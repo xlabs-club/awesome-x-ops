@@ -162,6 +162,7 @@
 - [AURA](https://github.com/mezmo/aura)：面向生产的安全 AI SRE Agent 驾驭框架，提供护栏、状态管理、身份认证、流式执行和运维工具集成。
 - [ongrid](https://github.com/ongridio/ongrid)：运维 AI Agent，可通过常见团队聊天界面调查基础设施根因并执行带护栏的修复。
 - [Agents Observe](https://github.com/simple10/agents-observe)：Claude Code 和 Codex Agent 的实时可观测仪表盘，支持会话回放、过滤和 Token 用量统计。
+- [Pi Agent Observability](https://github.com/disler/pi-agent-observability)：面向 Pi 编码 Agent 的本地可观测性栈，将每轮执行、工具调用、模型变更及 Token 成本遥测流入仪表盘，支持回放和对比。
 - [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
 - [EvalScope](https://github.com/modelscope/evalscope)：LLM 评估框架，支持能力基准测试、带 trace 记录的 Agent Loop 评估、推理性能测试和交互式结果分析。
