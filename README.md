@@ -192,6 +192,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [AgentEval](https://github.com/canwhite/AgentEval): Agent evaluation framework for testing tool use, task completion, and behavior across repeatable scenarios.
+- [Bananalyzer](https://github.com/reworkd/bananalyzer): Open-source framework for evaluating AI agents on web tasks with reproducible test environments and result analysis.
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko): AI agent developer control plane for registry, deployment, routing, health monitoring, observability, and lifecycle operations.
 - [numbat](https://github.com/perplexityai/numbat): Local endpoint visibility for AI agent activity with hook-based monitoring, CEL detections, optional pre-action blocking, and forensic reconstruction.
 
@@ -318,6 +320,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data sources.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
+- [Unla](https://github.com/AmoyLab/Unla): Lightweight MCP gateway that exposes existing MCP servers and APIs through a managed endpoint with Docker deployment and a management UI.
 - [HelixDB](https://github.com/HelixDB/helix-db): Rust-built graph-vector database for knowledge graphs, AI memory, and unified access to relational, document, key-value, and vector data.
 - [RocketRide](https://github.com/rocketride-org/rocketride-server): Open-source AI pipeline builder and runtime with a C++ core, extensible nodes, vector database integrations, and IDE/CLI workflows for production AI systems.
 - [Golf](https://github.com/golf-mcp/golf): Production-ready MCP server framework with authentication, observability, debugging, telemetry, and runtime capabilities for deploying secure agent infrastructure.

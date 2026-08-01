@@ -192,6 +192,8 @@
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟 Agent 测试、自定义目标、Hook 以及 CI/CD 集成。
+- [AgentEval](https://github.com/canwhite/AgentEval)：AI Agent 评估框架，用于在可重复场景中测试工具调用、任务完成度和 Agent 行为。
+- [Bananalyzer](https://github.com/reworkd/bananalyzer)：开源 AI Agent Web 任务评估框架，提供可复现的测试环境和结果分析能力。
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。
 - [numbat](https://github.com/perplexityai/numbat)：面向本地端点的 AI Agent 活动可见性工具，支持基于 Hook 的监控、CEL 检测、可选的执行前拦截和取证重建。
 
@@ -318,6 +320,7 @@
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
+- [Unla](https://github.com/AmoyLab/Unla)：轻量级 MCP 网关，可将现有 MCP Server 和 API 通过统一端点暴露，并提供 Docker 部署和管理界面。
 - [HelixDB](https://github.com/HelixDB/helix-db)：基于 Rust 构建的图-向量数据库，面向知识图谱、AI 记忆，并统一访问关系型、文档、键值和向量数据。
 - [RocketRide](https://github.com/rocketride-org/rocketride-server)：开源 AI 流水线构建器与运行时，采用 C++ 核心，提供可扩展节点、向量数据库集成，以及面向生产 AI 系统的 IDE/CLI 工作流。
 - [Golf](https://github.com/golf-mcp/golf)：面向生产的 MCP Server 框架，提供认证、可观测性、调试、遥测和运行时能力，用于部署安全的 Agent 基础设施。
