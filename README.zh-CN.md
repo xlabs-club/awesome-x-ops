@@ -331,6 +331,7 @@
 
 用于从非结构化文档构建、管理和查询 LLM 知识库的开源平台。
 
+- [Agentset](https://github.com/agentset-ai/agentset)：用于构建、评估和交付生产级 RAG 与 Agent 应用的开源平台，提供数据摄取、向量索引、引用、托管和开发者 API。
 - [RAGFlow](https://github.com/infiniflow/ragflow)：领先的开源 RAG 引擎，融合深度文档理解、知识库管理和 Agent 能力，适合企业知识工作流。
 - [FastGPT](https://github.com/labring/FastGPT)：基于 LLM 的知识库应用平台，提供开箱即用的数据处理、模型调用、RAG 和可视化工作流编排。
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)：本地优先的文档对话和 Agent 平台，可将任意文档转化为上下文感知的 LLM 知识库。
