@@ -453,6 +453,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe): Open-source agent engineering platform for traces, evaluations, and metrics across LangGraph, CrewAI, Claude Agent SDK, and other agent runtimes.
 - [Claude Tap](https://github.com/liaohch3/claude-tap): Local trace viewer that intercepts and inspects coding-agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and other clients.
 - [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical AI observability project for collecting useful telemetry from agent and LLM workflows.
+- [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon): Unified telemetry layer for AI agents running locally, in CI, or in the cloud, with a local dashboard and security-team workflows.
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals): Apache-2.0 CLI with evaluators for AI applications and agents, including LLM-as-a-judge workflows that support observability feedback loops.
 
 ## Kubernetes Operations
@@ -522,6 +523,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
 - [Preloop](https://github.com/preloop/preloop): Self-hostable AI agent control plane combining an MCP firewall, model gateway, policy-as-code, human approvals, runtime observability, budgets, and audit trails.
 - [hoop](https://github.com/hoophq/hoop): Open-source layer-7 gateway for engineers and AI agents that masks sensitive data, blocks dangerous infrastructure operations, supports approvals, and records sessions across databases, Kubernetes, SSH, APIs, and MCP.
+- [Octelium](https://github.com/octelium/octelium): Self-hosted zero-trust access platform that also operates as an API, AI/LLM, MCP, Kubernetes, and container application gateway.
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
@@ -594,6 +596,7 @@ A curated technology stack and toolchain for platform engineering.
 ### AI Coding Tools
 
 - [agents-cli](https://github.com/google/agents-cli): CLI and reusable skills for scaffolding, evaluating, deploying, publishing, and observing production AI agents on Google Cloud.
+- [9Router](https://github.com/decolua/9router): Self-hosted AI router for connecting coding agents to multiple providers with automatic fallback, routing, and token-usage reduction.
 - [Aider](https://github.com/Aider-AI/aider): AI pair programming tool that works in your terminal with multi-file editing, git integration, and support for leading LLMs.
 - [Continue](https://github.com/continuedev/continue): Open-source AI code assistant that integrates with IDEs as an autopilot for software development with customizable context and models.
 - [Tabby](https://github.com/TabbyML/tabby): Self-hosted AI coding assistant with code completion, chat, and agent capabilities that can run fully on-premises.

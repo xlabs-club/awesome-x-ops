@@ -453,6 +453,7 @@
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe)：开源 Agent 工程平台，面向 LangGraph、CrewAI、Claude Agent SDK 等运行时提供链路、评估和指标能力。
 - [Claude Tap](https://github.com/liaohch3/claude-tap)：本地 trace 查看器，可拦截和检查 Claude Code、Codex CLI、Gemini CLI、Cursor CLI、OpenCode 等编码 Agent 的 API 流量。
 - [Grafana Agento11y](https://github.com/grafana/agento11y)：Grafana 的实用型 AI 可观测性项目，用于采集 Agent 和 LLM 工作流的有效遥测数据。
+- [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon)：面向本地、CI 和云端 AI Agent 的统一遥测层，并提供本地仪表盘和面向安全团队的工作流。
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals)：Apache-2.0 许可的 AI 应用与 Agent 评估 CLI，包含 LLM-as-a-judge 评估器，可接入可观测性反馈闭环。
 
 ## Kubernetes Operations Kubernetes 运维
@@ -522,6 +523,7 @@
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
 - [Preloop](https://github.com/preloop/preloop)：可自托管的 AI Agent 控制平面，整合 MCP 防火墙、模型网关、policy-as-code、人机审批、运行时可观测性、预算和审计轨迹。
 - [hoop](https://github.com/hoophq/hoop)：开源七层网关，面向工程师和 AI Agent 对数据库、Kubernetes、SSH、API 与 MCP 访问执行敏感数据脱敏、危险操作拦截、审批和会话记录。
+- [Octelium](https://github.com/octelium/octelium)：可自托管的零信任访问平台，同时可作为 API、AI/LLM、MCP、Kubernetes 和容器应用网关。
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。
@@ -594,6 +596,7 @@
 ### AI Coding Tools AI 编码工具
 
 - [agents-cli](https://github.com/google/agents-cli)：用于在 Google Cloud 上构建生产级 AI Agent 的 CLI 与可复用 Skill，覆盖脚手架、评估、部署、发布和可观测性。
+- [9Router](https://github.com/decolua/9router)：自托管 AI 路由器，可将编码 Agent 连接到多个供应商，并提供自动故障转移、路由和 Token 用量优化。
 - [Aider](https://github.com/Aider-AI/aider)：终端中的 AI 结对编程工具，支持多文件编辑、Git 集成和主流 LLM。
 - [Continue](https://github.com/continuedev/continue)：开源 AI 代码助手，以自动驾驶模式集成到 IDE 中，支持自定义上下文和模型。
 - [Tabby](https://github.com/TabbyML/tabby)：自托管的 AI 编码助手，提供代码补全、对话和 Agent 能力，可完全在本地运行。
