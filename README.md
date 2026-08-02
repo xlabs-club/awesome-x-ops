@@ -108,6 +108,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [1flowbase](https://github.com/taichuy/1flowbase): Self-hosted AI gateway for composing multi-model workflows behind OpenAI-compatible virtual models with traces, token usage, latency, and cost visibility.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
 - [OpenObserve](https://github.com/openobserve/openobserve): Open-source observability platform for logs, metrics, traces, frontend monitoring, pipelines, and LLM observability.
+- [Trench](https://github.com/FrigadeHQ/trench): Open-source analytics infrastructure for building production event tracking, LLM/RAG observability, and analytics products on ClickHouse and Kafka.
 - [Kubeshark](https://github.com/kubeshark/kubeshark): eBPF-powered Kubernetes network observability with L4/L7 traffic context, TLS visibility, and an MCP interface for AI-assisted investigation.
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit for adding programmable safety, dialog, and policy guardrails to LLM-based conversational systems.
@@ -189,6 +190,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
+- [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval): .NET toolkit for evaluating AI agents with tool-use validation, RAG quality metrics, stochastic testing, and model comparison.
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
