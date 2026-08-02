@@ -54,7 +54,7 @@
 
 用于追踪、评估、调试和生产化运行 LLM、RAG 与 Agent 应用的工具。
 
-**选择建议：** 优先选择能将 trace 与 Prompt、模型版本、评估结果及成本或延迟信号关联起来的工具；如果工具的主要职责不是可观测性，应放入专门的网关、安全或推理服务分类。
+**选择建议：** 优先选择能将 trace 与 Prompt、模型版本、评估结果及成本或延迟信号关联起来的工具；对于 RAG，优先选择无需依赖脆弱标准答案集、同时衡量检索和回答质量的评估工作流；如果工具的主要职责不是可观测性，应放入专门的网关、安全或推理服务分类。
 
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
@@ -164,8 +164,8 @@
 - [ongrid](https://github.com/ongridio/ongrid)：运维 AI Agent，可通过常见团队聊天界面调查基础设施根因并执行带护栏的修复。
 - [Agents Observe](https://github.com/simple10/agents-observe)：Claude Code 和 Codex Agent 的实时可观测仪表盘，支持会话回放、过滤和 Token 用量统计。
 - [Pi Agent Observability](https://github.com/disler/pi-agent-observability)：面向 Pi 编码 Agent 的本地可观测性栈，将每轮执行、工具调用、模型变更及 Token 成本遥测流入仪表盘，支持回放和对比。
-- [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
+- [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [EvalScope](https://github.com/modelscope/evalscope)：LLM 评估框架，支持能力基准测试、带 trace 记录的 Agent Loop 评估、推理性能测试和交互式结果分析。
 - [Kiln](https://github.com/Kiln-AI/kiln)：用于构建和改进 AI 系统的开源工作台，支持协作式评估、Prompt 优化、RAG、Agent、合成数据和生产部署。
 - [Google ADK Python](https://github.com/google/adk-python)：面向代码优先开发的 Python 工具包，用于构建、评估和部署生产导向的 AI Agent，支持灵活编排和工具集成。
