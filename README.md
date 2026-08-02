@@ -79,6 +79,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
+- [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.
 - [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
@@ -111,6 +112,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Trench](https://github.com/FrigadeHQ/trench): Open-source analytics infrastructure for building production event tracking, LLM/RAG observability, and analytics products on ClickHouse and Kafka.
 - [Kubeshark](https://github.com/kubeshark/kubeshark): eBPF-powered Kubernetes network observability with L4/L7 traffic context, TLS visibility, and an MCP interface for AI-assisted investigation.
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
+- [Supergateway](https://github.com/supercorp-ai/supergateway): Lightweight bridge that runs MCP stdio servers over SSE and converts SSE connections back to stdio for interoperable deployments.
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit for adding programmable safety, dialog, and policy guardrails to LLM-based conversational systems.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama): Meta's open trust and safety toolkit for evaluating and filtering LLM inputs, outputs, and model risks.
 - [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.

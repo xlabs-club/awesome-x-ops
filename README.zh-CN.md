@@ -79,6 +79,7 @@
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
+- [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
 - [Kitaru](https://github.com/zenml-io/kitaru)：面向生产环境的 AI Agent 录制与回放工具，用于分析运行过程并改进 Agent 行为。
 - [ax](https://github.com/Necmttn/ax)：面向 AI 编码 Agent 的本地优先遥测与记忆图，覆盖成本、工具、技能、会话和 OTLP 事件。
@@ -111,6 +112,7 @@
 - [Trench](https://github.com/FrigadeHQ/trench)：基于 ClickHouse 和 Kafka 的开源分析基础设施，可用于构建生产事件追踪、LLM/RAG 可观测性和分析产品。
 - [Kubeshark](https://github.com/kubeshark/kubeshark)：基于 eBPF 的 Kubernetes 网络可观测工具，提供 L4/L7 流量上下文、TLS 可见性，以及供 AI 辅助调查使用的 MCP 接口。
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
+- [Supergateway](https://github.com/supercorp-ai/supergateway)：轻量级桥接工具，可将 MCP stdio Server 通过 SSE 暴露，也能将 SSE 连接转换回 stdio，便于不同部署方式互通。
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
 - [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
