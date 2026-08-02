@@ -54,7 +54,7 @@ This project aims to become a practical open-source map for modern X-Ops. Contri
 
 Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent applications in production.
 
-**Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose.
+**Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; for RAG, favor evaluation workflows that measure retrieval and answer quality without requiring brittle golden-answer sets; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose.
 
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
@@ -164,8 +164,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [ongrid](https://github.com/ongridio/ongrid): Ops AI agent that investigates infrastructure root causes and performs guarded remediation through common team-chat interfaces.
 - [Agents Observe](https://github.com/simple10/agents-observe): Real-time observability dashboard for Claude Code and Codex agents with session replay, filtering, and token usage statistics.
 - [Pi Agent Observability](https://github.com/disler/pi-agent-observability): Local observability stack for the Pi coding agent, streaming turns, tool calls, model changes, and token-cost telemetry into a dashboard for replay and comparison.
-- [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
+- [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
 - [EvalScope](https://github.com/modelscope/evalscope): LLM evaluation framework for capability benchmarks, agent-loop evaluation with recorded traces, inference performance testing, and interactive result analysis.
 - [Kiln](https://github.com/Kiln-AI/kiln): Open-source workbench for building and improving AI systems with collaborative evals, prompt optimization, RAG, agents, synthetic data, and production deployment support.
 - [Google ADK Python](https://github.com/google/adk-python): Code-first Python toolkit for building, evaluating, and deploying production-oriented AI agents with flexible orchestration and tool integration.
