@@ -108,6 +108,7 @@
 - [1flowbase](https://github.com/taichuy/1flowbase)：自托管 AI 网关，可将多模型工作流组合为 OpenAI 兼容的虚拟模型，并提供链路、Token 用量、延迟和成本可见性。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
+- [Trench](https://github.com/FrigadeHQ/trench)：基于 ClickHouse 和 Kafka 的开源分析基础设施，可用于构建生产事件追踪、LLM/RAG 可观测性和分析产品。
 - [Kubeshark](https://github.com/kubeshark/kubeshark)：基于 eBPF 的 Kubernetes 网络可观测工具，提供 L4/L7 流量上下文、TLS 可见性，以及供 AI 辅助调查使用的 MCP 接口。
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
@@ -189,6 +190,7 @@
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
+- [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval)：面向 .NET 的 AI Agent 评估工具包，支持工具调用校验、RAG 质量指标、随机性测试和模型对比。
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟 Agent 测试、自定义目标、Hook 以及 CI/CD 集成。
