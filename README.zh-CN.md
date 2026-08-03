@@ -539,6 +539,8 @@
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 - [Crust](https://github.com/BakeLens/crust)：本地 AI Agent 安全网关，可拦截工具调用及 MCP/ACP 流量，阻止危险操作、扫描 Secret 并执行运行时规则。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
+- [Doberman](https://github.com/fu351/Doberman-Core)：面向 AI 编码 Agent 的运行时护栏与自适应授权工具，通过 MCP 或主机 Hook 在执行前实施策略，提供审批、审计日志和默认拒绝机制。
+- [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器。
