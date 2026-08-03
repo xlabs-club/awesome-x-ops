@@ -335,6 +335,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes API and controller for managing isolated, stateful, singleton workloads such as AI agent runtimes.
 - [AgentOS](https://github.com/rivet-dev/agentos): Library that gives AI agents an operating-system-like runtime in an existing backend using WebAssembly and V8 isolates.
 - [Cua](https://github.com/trycua/cua): Open-source computer-use infrastructure with cross-platform drivers, fleets, and benchmarks for agent training, evaluation, and data generation.
+- [Apache Doris](https://github.com/apache/doris): Real-time analytics and hybrid-search database for AI agents and operational data workloads.
 
 ## LLM Knowledge
 
@@ -350,6 +351,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
 - [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): Open-source framework for RAG evaluation and optimization with AutoML-style automation for pipeline tuning.
+- [MemoryBench](https://github.com/supermemoryai/memorybench): Unified benchmark for evaluating conversational memory and RAG across multiple datasets.
 - [MemPalace](https://github.com/MemPalace/mempalace): Open-source AI memory system with best-in-class benchmarks, providing persistent knowledge storage for AI agents and LLM applications.
 - [LightRAG](https://github.com/HKUDS/LightRAG): Simple and fast RAG framework with graph-based retrieval, supporting incremental updates and efficient knowledge graph construction.
 - [Kotaemon](https://github.com/Cinnamon/kotaemon): Open-source RAG-based document QA tool with multi-model support and a customizable UI for chatting with documents.
@@ -535,6 +537,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Octelium](https://github.com/octelium/octelium): Self-hosted zero-trust access platform that also operates as an API, AI/LLM, MCP, Kubernetes, and container application gateway.
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
+- [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): Apache-2.0 collection of structured cybersecurity skills for AI agents, mapped to ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, and AI RMF.
+- [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom): Kubernetes controller that generates CycloneDX ML-BOM documents for AI workloads with traceable runtime evidence.
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
 - [Crust](https://github.com/BakeLens/crust): Local AI-agent security gateway that intercepts tool calls and MCP/ACP traffic to block dangerous actions, scan secrets, and enforce runtime rules.
