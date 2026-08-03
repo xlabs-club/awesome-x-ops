@@ -196,6 +196,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [Dokimos](https://github.com/dokimos-dev/dokimos): Java and Kotlin LLM and agent evaluation framework with JUnit and CI integration, tool-call validation, quality metrics, and cost or latency tracking.
+- [eval-guide](https://github.com/microsoft/eval-guide): Microsoft toolkit for planning agent evaluations, generating test cases, interpreting results, and triaging failures in Copilot Studio workflows.
 - [AgentEval](https://github.com/canwhite/AgentEval): Agent evaluation framework for testing tool use, task completion, and behavior across repeatable scenarios.
 - [Bananalyzer](https://github.com/reworkd/bananalyzer): Open-source framework for evaluating AI agents on web tasks with reproducible test environments and result analysis.
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko): AI agent developer control plane for registry, deployment, routing, health monitoring, observability, and lifecycle operations.

@@ -196,6 +196,8 @@
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟 Agent 测试、自定义目标、Hook 以及 CI/CD 集成。
+- [Dokimos](https://github.com/dokimos-dev/dokimos)：面向 Java 和 Kotlin 的 LLM 与 Agent 评估框架，支持 JUnit、CI 集成、工具调用校验、质量指标以及成本和延迟追踪。
+- [eval-guide](https://github.com/microsoft/eval-guide)：微软的 Agent 评估工具包，用于在 Copilot Studio 工作流中规划评估、生成测试用例、解读结果和分流失败原因。
 - [AgentEval](https://github.com/canwhite/AgentEval)：AI Agent 评估框架，用于在可重复场景中测试工具调用、任务完成度和 Agent 行为。
 - [Bananalyzer](https://github.com/reworkd/bananalyzer)：开源 AI Agent Web 任务评估框架，提供可复现的测试环境和结果分析能力。
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。
