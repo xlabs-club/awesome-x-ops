@@ -208,6 +208,8 @@
 
 用于在生产环境部署、扩缩容、路由和运维 AI 模型推理负载的工具。
 
+**选择建议：** 区分推理引擎与控制平面：推理引擎重点看吞吐、延迟、批处理和硬件支持；Operator 与网关重点看发布安全、路由、配额、自动扩缩容和遥测能力。优先选择提供可复现基准，以及明确升级和回滚路径的项目。
+
 - [Ray Serve](https://github.com/ray-project/ray)：Ray 中的可扩展模型服务库，用于构建分布式在线推理 API 和 LLM 服务负载。
 - [KubeTorch](https://github.com/run-house/kubetorch)：面向 Python 的 Kubernetes 控制层，用于在集群资源上分发和运行 AI 工作负载。
 - [ModelPlane](https://github.com/modelplaneai/modelplane)：开源 AI 推理控制平面，用于部署、路由和运维推理工作负载。
