@@ -125,7 +125,8 @@
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval)：开源 RAG 评测系统，用于自动化执行覆盖检索和生成流程的数据集质量检查。
 - [TruLens](https://github.com/truera/trulens)：LLM 评估与追踪框架，支持反馈函数、护栏和迭代改进工作流，适用于 LLM 实验与 AI Agent。
-- [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持 100+ 数据集上对多种模型的评测和可复现基准测试。
+- [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持在 100+ 数据集上对多种模型进行评测和可复现基准测试。
+- [Lighteval](https://github.com/huggingface/lighteval)：模块化的 LLM 评估工具包，支持多种后端、任务、指标和分布式执行环境，适合构建可复现的评估流程。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
 - [AgentBench](https://github.com/THUDM/AgentBench)：基于 Apache-2.0 许可的基准测试工具，用于在多种环境和任务中评估 LLM 作为 Agent 的能力。
 - [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。

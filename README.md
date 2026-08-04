@@ -126,6 +126,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval): Open-source RAG evaluation system for automating dataset-based quality checks across retrieval and generation workflows.
 - [TruLens](https://github.com/truera/trulens): Evaluation and tracking framework for LLM experiments and AI agents with feedback functions, guardrails, and iterative improvement workflows.
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
+- [Lighteval](https://github.com/huggingface/lighteval): Modular toolkit for reproducible LLM evaluations across multiple backends, tasks, metrics, and distributed execution environments.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
 - [AgentBench](https://github.com/THUDM/AgentBench): Apache-2.0 benchmark for evaluating LLMs as agents across diverse environments and tasks.
 - [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
