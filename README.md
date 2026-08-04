@@ -208,6 +208,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 Tools for deploying, scaling, routing, and operating AI model inference workloads in production.
 
+**Selection guidance:** Separate the serving engine from the control plane: choose engines for throughput, latency, batching, and hardware support; choose operators and gateways for rollout safety, routing, quotas, autoscaling, and telemetry. Prefer projects with reproducible benchmarks and an explicit upgrade or rollback path.
+
 - [Ray Serve](https://github.com/ray-project/ray): Scalable model serving library in Ray for building distributed online inference APIs and LLM serving workloads.
 - [KubeTorch](https://github.com/run-house/kubetorch): Python-native Kubernetes control layer for distributing and running AI workloads across cluster resources.
 - [ModelPlane](https://github.com/modelplaneai/modelplane): Open-source control plane for deploying, routing, and operating AI inference workloads.
