@@ -98,6 +98,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [LLM Gateway](https://github.com/theopenco/llmgateway): Open-source gateway for routing, managing, and analyzing LLM requests across multiple providers through one API.
+- [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway and control plane with OpenAI- and Anthropic-compatible APIs, routing, failover, guardrails, cost tracking, and operational logs.
+- [AI Proxy](https://github.com/labring/aiproxy): High-performance AI gateway with OpenAI-, Claude-, and Gemini-compatible protocols, multi-channel management, rate limiting, multi-tenant isolation, and monitoring.
 - [LLMIO](https://github.com/atopos31/llmio): Go-based LLM gateway with weighted provider routing, an admin UI, request tracing, latency and token metrics, cost tracking, and failure handling.
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway): Zero-trust, OpenAI-compatible gateway with identity-based access, semantic routing, and load balancing across hosted and self-hosted model providers.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.

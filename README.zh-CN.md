@@ -98,6 +98,8 @@
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [LLM Gateway](https://github.com/theopenco/llmgateway)：开源 LLM 网关，通过统一 API 在多个供应商之间路由、管理和分析 LLM 请求。
+- [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关与控制平面，提供兼容 OpenAI 和 Anthropic 的 API、路由、故障转移、护栏、成本追踪和运维日志。
+- [AI Proxy](https://github.com/labring/aiproxy)：高性能 AI 网关，支持 OpenAI、Claude 和 Gemini 兼容协议，以及多渠道管理、限流、多租户隔离和监控。
 - [LLMIO](https://github.com/atopos31/llmio)：基于 Go 的 LLM 网关，支持按权重路由供应商、管理控制台、请求追踪、延迟与 Token 指标、成本统计和故障处理。
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway)：零信任、兼容 OpenAI API 的网关，支持基于身份的访问控制、语义路由，以及在托管和自托管模型供应商之间负载均衡。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
