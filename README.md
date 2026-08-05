@@ -474,6 +474,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical AI observability project for collecting useful telemetry from agent and LLM workflows.
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon): Unified telemetry layer for AI agents running locally, in CI, or in the cloud, with a local dashboard and security-team workflows.
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals): Apache-2.0 CLI with evaluators for AI applications and agents, including LLM-as-a-judge workflows that support observability feedback loops.
+- [EfficientAI](https://github.com/EfficientAI-tech/efficientAI): Open-source voice AI evaluation platform for testing, comparing, and shipping reliable voice agents.
+- [AI Eval Platform](https://github.com/huangyiminghappy/ai-eval-platform): Open-source evaluation platform for RAG, AI agents, multi-turn conversations, LLM-as-a-judge workflows, endpoint testing, reports, and blind human review.
 
 ## Kubernetes Operations
 
