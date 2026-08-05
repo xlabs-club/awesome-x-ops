@@ -474,6 +474,8 @@
 - [Grafana Agento11y](https://github.com/grafana/agento11y)：Grafana 的实用型 AI 可观测性项目，用于采集 Agent 和 LLM 工作流的有效遥测数据。
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon)：面向本地、CI 和云端 AI Agent 的统一遥测层，并提供本地仪表盘和面向安全团队的工作流。
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals)：Apache-2.0 许可的 AI 应用与 Agent 评估 CLI，包含 LLM-as-a-judge 评估器，可接入可观测性反馈闭环。
+- [EfficientAI](https://github.com/EfficientAI-tech/efficientAI)：开源语音 AI 评估平台，用于测试、比较并交付可靠的语音 Agent。
+- [AI Eval Platform](https://github.com/huangyiminghappy/ai-eval-platform)：开源 AI 应用评估平台，支持 RAG、AI Agent、多轮对话、LLM-as-a-judge、接口评测、评测报告和人工盲测。
 
 ## Kubernetes Operations Kubernetes 运维
 
