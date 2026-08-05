@@ -64,6 +64,7 @@
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)：面向 LLM、RAG 和机器学习系统的开源可观测与评估平台。
 - [OpenInference](https://github.com/Arize-ai/openinference)：面向 LLM、RAG 和 Agent 应用的 OpenTelemetry 插桩与语义约定。
 - [OpenLLMetry](https://github.com/traceloop/openllmetry)：基于 OpenTelemetry 的 LLM 应用和 Agent 工作流可观测性工具。
+- [Multi-agent Observability with OpenTelemetry](https://github.com/chrisipanaque/multi-agent-observability-opentelemetry)：面向 LangGraph 多 Agent 系统的 OpenTelemetry 可观测性参考实现，覆盖路由决策、工具调用、LLM 调用、指标和 OTLP 导出。
 - [Helicone](https://github.com/Helicone/helicone)：开源 LLM 可观测平台，支持用量、延迟、成本、缓存和请求日志分析。
 - [OpenLIT](https://github.com/openlit/openlit)：基于 OpenTelemetry 的 AI 工程平台，支持 LLM 可观测性、评估、护栏、Prompt 管理和 GPU 监控。
 - [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk)：开源 SDK 与编码 Agent 插件，用于将生产环境 Agent 和 LLM 遥测数据发送到 Grafana AI observability。
