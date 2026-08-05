@@ -64,6 +64,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix): Open-source observability and evaluation platform for LLM, RAG, and ML systems.
 - [OpenInference](https://github.com/Arize-ai/openinference): OpenTelemetry instrumentation and semantic conventions for tracing LLM, RAG, and agent applications.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based observability for LLM applications and agent workflows.
+- [Multi-agent Observability with OpenTelemetry](https://github.com/chrisipanaque/multi-agent-observability-opentelemetry): OpenTelemetry reference implementation for tracing LangGraph multi-agent systems, including routing decisions, tool calls, LLM invocations, metrics, and OTLP export.
 - [Helicone](https://github.com/Helicone/helicone): Open-source observability platform for LLM usage, latency, cost, caching, and request logs.
 - [OpenLIT](https://github.com/openlit/openlit): OpenTelemetry-native AI engineering platform for LLM observability, evaluations, guardrails, prompt management, and GPU monitoring.
 - [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk): Open-source SDKs and coding-agent plugins for sending production agent and LLM telemetry to Grafana AI observability.
