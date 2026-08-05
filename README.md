@@ -578,6 +578,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenHack](https://github.com/openhackai/OpenHack): Open-source agentic security scanner and verifier for finding and validating vulnerabilities in codebases with open-source models.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 - [Rogue](https://github.com/qualifire-dev/rogue): AI agent evaluation and red-team platform for regression testing, policy validation, adversarial probing, and security reporting across agent protocols.
+- [Augustus](https://github.com/praetorian-inc/augustus): Apache-2.0 LLM security testing framework that detects prompt injection, jailbreaks, and adversarial weaknesses with 190+ probes across 28 model providers.
 - [SkillHub](https://github.com/iflytek/skillhub): Self-hosted registry for publishing and versioning agent skills with RBAC, audit logs, and Docker or Kubernetes deployment.
 - [MEDUSA](https://github.com/Pantheon-Security/medusa): AI-first security scanner for AI/ML applications, agents, MCP servers, and code, with supply-chain, prompt-injection, secret, and vulnerability detection.
 - [Arcjet JS](https://github.com/arcjet/arcjet-js): Runtime security SDK for AI applications and agents with prompt-injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting.

@@ -577,8 +577,9 @@
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OpenHack](https://github.com/openhackai/OpenHack)：开源 Agent 安全扫描与验证工具，使用开源模型在代码库中发现并验证安全漏洞。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
-- [Rogue](https://github.com/qualifire-dev/rogue)：AI Agent 评估与红队平台，支持回归测试、策略校验、对抗性探测和安全报告，覆盖多种 Agent 协议。
-- [SkillHub](https://github.com/iflytek/skillhub)：可自托管的 Agent Skill 注册中心，支持发布与版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
+- [Rogue](https://github.com/qualifire-dev/rogue)：面向 AI Agent 的评估与红队平台，支持回归测试、策略校验、对抗性探测和跨 Agent 协议的安全报告。
+- [Augustus](https://github.com/praetorian-inc/augustus)：基于 Apache-2.0 许可的 LLM 安全测试框架，使用覆盖 28 个模型供应商的 190+ 探针检测 Prompt 注入、越狱和对抗性弱点。
+- [SkillHub](https://github.com/iflytek/skillhub)：自托管 Agent Skill 注册中心，支持发布、版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
 - [MEDUSA](https://github.com/Pantheon-Security/medusa)：面向 AI/ML 应用、Agent、MCP Server 和代码的 AI 原生安全扫描器，支持供应链、Prompt 注入、Secret 和漏洞检测。
 - [Arcjet JS](https://github.com/arcjet/arcjet-js)：面向 AI 应用和 Agent 的运行时安全 SDK，支持 Prompt 注入检测、工具调用授权、敏感数据脱敏、机器人防护和限流。
 
