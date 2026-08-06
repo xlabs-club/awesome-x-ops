@@ -590,6 +590,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [MEDUSA](https://github.com/Pantheon-Security/medusa): AI-first security scanner for AI/ML applications, agents, MCP servers, and code, with supply-chain, prompt-injection, secret, and vulnerability detection.
 - [Arcjet JS](https://github.com/arcjet/arcjet-js): Runtime security SDK for AI applications and agents with prompt-injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting.
 - [ADR](https://github.com/uber/ADR): Apache-2.0 agentic AI detection and response system combining agent telemetry, security benchmarking, and threat detection for enterprise AI agents.
+- [MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist): Practical security checklist for MCP hosts, clients, servers, multi-MCP deployments, and tool-ecosystem integrations.
+- [Google Security Operations MCP Server](https://github.com/google/mcp-security): Official MCP servers for integrating Google SecOps, Google Threat Intelligence, Security Command Center, and SOAR capabilities with AI assistants.
+- [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security): Spring AI security and authorization support for MCP clients, servers, and authorization servers, including OAuth 2.0 flows.
+- [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector): Trail of Bits security wrapper for MCP servers with configuration pinning, tool-response quarantine, and prompt-injection defenses.
 
 ## Platform Engineering
 
