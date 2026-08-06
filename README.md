@@ -476,6 +476,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals): Apache-2.0 CLI with evaluators for AI applications and agents, including LLM-as-a-judge workflows that support observability feedback loops.
 - [EfficientAI](https://github.com/EfficientAI-tech/efficientAI): Open-source voice AI evaluation platform for testing, comparing, and shipping reliable voice agents.
 - [AI Eval Platform](https://github.com/huangyiminghappy/ai-eval-platform): Open-source evaluation platform for RAG, AI agents, multi-turn conversations, LLM-as-a-judge workflows, endpoint testing, reports, and blind human review.
+- [Foglamp](https://github.com/foglamp-labs/foglamp): Apache-2.0 self-hosted observability layer for the Vercel AI SDK, covering token usage, cost, latency, traces, and prompt or response logs.
+- [HUATUO](https://github.com/ccfos/huatuo): Apache-2.0 eBPF-based observability for Linux kernels, AI-agent sandboxes, and heterogeneous infrastructure, with automatic tracing and continuous profiling.
+- [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus): Self-hosted management panel and AI gateway observability dashboard for request history, usage, cost, quotas, failures, and account health.
 
 ## Kubernetes Operations
 
@@ -584,6 +587,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [SkillHub](https://github.com/iflytek/skillhub): Self-hosted registry for publishing and versioning agent skills with RBAC, audit logs, and Docker or Kubernetes deployment.
 - [MEDUSA](https://github.com/Pantheon-Security/medusa): AI-first security scanner for AI/ML applications, agents, MCP servers, and code, with supply-chain, prompt-injection, secret, and vulnerability detection.
 - [Arcjet JS](https://github.com/arcjet/arcjet-js): Runtime security SDK for AI applications and agents with prompt-injection detection, tool-call authorization, sensitive-data redaction, bot protection, and rate limiting.
+- [ADR](https://github.com/uber/ADR): Apache-2.0 agentic AI detection and response system combining agent telemetry, security benchmarking, and threat detection for enterprise AI agents.
 
 ## Platform Engineering
 
