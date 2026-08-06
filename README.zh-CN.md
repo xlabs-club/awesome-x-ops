@@ -476,6 +476,9 @@
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals)：Apache-2.0 许可的 AI 应用与 Agent 评估 CLI，包含 LLM-as-a-judge 评估器，可接入可观测性反馈闭环。
 - [EfficientAI](https://github.com/EfficientAI-tech/efficientAI)：开源语音 AI 评估平台，用于测试、比较并交付可靠的语音 Agent。
 - [AI Eval Platform](https://github.com/huangyiminghappy/ai-eval-platform)：开源 AI 应用评估平台，支持 RAG、AI Agent、多轮对话、LLM-as-a-judge、接口评测、评测报告和人工盲测。
+- [Foglamp](https://github.com/foglamp-labs/foglamp)：基于 Apache-2.0 许可、可自托管的 Vercel AI SDK 可观测性层，覆盖 Token 用量、成本、延迟、trace 以及 Prompt 和响应日志。
+- [HUATUO](https://github.com/ccfos/huatuo)：基于 Apache-2.0 许可的 eBPF 可观测性工具，面向 Linux 内核、AI Agent 沙箱和异构基础设施，支持自动追踪与持续性能剖析。
+- [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus)：可自托管的管理面板与 AI 网关可观测性仪表盘，支持请求历史、用量、成本、配额、失败分析和账户健康度。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -584,6 +587,7 @@
 - [SkillHub](https://github.com/iflytek/skillhub)：自托管 Agent Skill 注册中心，支持发布、版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
 - [MEDUSA](https://github.com/Pantheon-Security/medusa)：面向 AI/ML 应用、Agent、MCP Server 和代码的 AI 原生安全扫描器，支持供应链、Prompt 注入、Secret 和漏洞检测。
 - [Arcjet JS](https://github.com/arcjet/arcjet-js)：面向 AI 应用和 Agent 的运行时安全 SDK，支持 Prompt 注入检测、工具调用授权、敏感数据脱敏、机器人防护和限流。
+- [ADR](https://github.com/uber/ADR)：基于 Apache-2.0 许可的 Agentic AI 检测与响应系统，将 Agent 遥测、安全基准测试和威胁检测结合起来，面向企业 AI Agent。
 
 ## Platform Engineering 平台工程
 
