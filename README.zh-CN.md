@@ -399,6 +399,8 @@
 - [Harbor Framework](https://github.com/harbor-framework/harbor)：用于在可复现环境和并行实验中评估与改进 Agent 和语言模型的框架。
 - [LangBot](https://github.com/langbot-app/LangBot)：面向生产的多平台机器人平台，支持 Agent 工作流、知识库、插件，以及与多种聊天系统集成。
 - [Dapr Agents](https://github.com/dapr/dapr-agents)：与 CNCF 生态契合的 Agent 框架，提供持久化工作流、状态、消息、MCP 集成和 Kubernetes 原生运维能力，帮助构建可靠且可观测的 AI Agent。
+- [Agent Control Plane](https://github.com/humanlayer/agentcontrolplane)：面向无人值守长周期 Agent 的分布式调度器，支持异步工具调用、人机反馈门禁和 MCP。
+- [Agent Control](https://github.com/agentcontrol/agent-control)：基于 Apache-2.0 许可的控制平面，用于规模化治理 Agent 运行时行为，并支持可配置策略和扩展。
 - [Workflow SDK](https://github.com/vercel/workflow)：用于 TypeScript 的 SDK，为异步应用和 AI Agent 增加持久化执行、可靠性和可观测性。
 - [LiveKit Agents](https://github.com/livekit/agents)：用于构建生产级实时语音和多模态 AI Agent 的框架，集成模型、工具和电话系统。
 - [Heym](https://github.com/heymrun/heym)：可自托管的 AI 工作流平台，支持可视化和 Prompt 驱动工作流、RAG、MCP、人机审批、可观测性、评估和 Token 成本追踪。
