@@ -590,6 +590,10 @@
 - [MEDUSA](https://github.com/Pantheon-Security/medusa)：面向 AI/ML 应用、Agent、MCP Server 和代码的 AI 原生安全扫描器，支持供应链、Prompt 注入、Secret 和漏洞检测。
 - [Arcjet JS](https://github.com/arcjet/arcjet-js)：面向 AI 应用和 Agent 的运行时安全 SDK，支持 Prompt 注入检测、工具调用授权、敏感数据脱敏、机器人防护和限流。
 - [ADR](https://github.com/uber/ADR)：基于 Apache-2.0 许可的 Agentic AI 检测与响应系统，将 Agent 遥测、安全基准测试和威胁检测结合起来，面向企业 AI Agent。
+- [MCP Security Checklist](https://github.com/slowmist/MCP-Security-Checklist)：面向 MCP Host、Client、Server、多 MCP 部署和工具生态集成的实用安全检查清单。
+- [Google Security Operations MCP Server](https://github.com/google/mcp-security)：谷歌官方 MCP Server，用于将 Google SecOps、Google Threat Intelligence、Security Command Center 和 SOAR 能力接入 AI 助手。
+- [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security)：为 Spring AI 的 MCP Client、Server 和授权服务器提供安全与授权支持，包括 OAuth 2.0 流程。
+- [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)：Trail of Bits 的 MCP Server 安全包装器，提供配置固定、工具响应隔离和 Prompt 注入防护。
 
 ## Platform Engineering 平台工程
 
