@@ -399,6 +399,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Harbor Framework](https://github.com/harbor-framework/harbor): Framework for evaluating and improving agents and language models across reproducible environments and parallel experiments.
 - [LangBot](https://github.com/langbot-app/LangBot): Production-oriented multi-platform bot platform with agent workflows, knowledge bases, plugins, and integrations for chat systems.
 - [Dapr Agents](https://github.com/dapr/dapr-agents): CNCF-aligned framework for resilient, observable AI agents with durable workflows, state, messaging, MCP integration, and Kubernetes-native operations.
+- [Agent Control Plane](https://github.com/humanlayer/agentcontrolplane): Distributed scheduler for unsupervised, long-running agents with asynchronous tool calls, human feedback gates, and MCP support.
+- [Agent Control](https://github.com/agentcontrol/agent-control): Apache-2.0 control plane for governing agent runtime behavior at scale with configurable policies and extensibility.
 - [Workflow SDK](https://github.com/vercel/workflow): TypeScript SDK for adding durable execution, reliability, and observability to asynchronous applications and AI agents.
 - [LiveKit Agents](https://github.com/livekit/agents): Framework for building production-ready realtime voice and multimodal AI agents with integrations for models, tools, and telephony.
 - [Heym](https://github.com/heymrun/heym): Self-hosted AI workflow platform with visual and prompt-driven workflows, RAG, MCP, human approval, observability, evaluations, and token-cost tracking.
