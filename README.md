@@ -56,6 +56,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 **Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; for RAG, favor evaluation workflows that measure retrieval and answer quality without requiring brittle golden-answer sets; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose.
 
+**Production checklist:** Before adopting a tool, verify OpenTelemetry or an exportable trace format, retention and redaction controls, reproducible evaluation runs, framework coverage, and a clear path from an alert to the underlying prompt, tool call, model, and cost. A dashboard without failure evidence is just a very colorful shrug.
+
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.

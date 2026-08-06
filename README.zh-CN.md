@@ -56,6 +56,8 @@
 
 **选择建议：** 优先选择能将 trace 与 Prompt、模型版本、评估结果及成本或延迟信号关联起来的工具；对于 RAG，优先选择无需依赖脆弱标准答案集、同时衡量检索和回答质量的评估工作流；如果工具的主要职责不是可观测性，应放入专门的网关、安全或推理服务分类。
 
+**生产检查清单：** 采用前确认工具支持 OpenTelemetry 或可导出的 trace 格式、保留与脱敏控制、可复现的评估运行、目标框架覆盖，以及从告警追溯到具体 Prompt、工具调用、模型和成本的清晰路径。只有仪表盘而没有失败证据，就像把生产事故换成了彩色壁纸。
+
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
