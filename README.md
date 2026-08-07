@@ -195,6 +195,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry): Local dashboard for tracking tokens, costs, tool calls, sessions, and reasoning across coding and autonomous agents.
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox): Local-first flight recorder and context-efficiency profiler for coding agents, with replayable session maps, cost analysis, and task-outcome signals.
 - [Mira](https://github.com/everruns/mira): Rust-first evaluation framework for multi-turn, tool-using, long-running agent trajectories with operational budgets and CI-native reports.
+- [Tracely](https://github.com/Jwuthri/Tracely): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
@@ -202,6 +203,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [o11y-bench](https://github.com/grafana/o11y-bench): Open benchmark for evaluating AI agents on observability tasks in reproducible Harbor environments.
 - [Dokimos](https://github.com/dokimos-dev/dokimos): Java and Kotlin LLM and agent evaluation framework with JUnit and CI integration, tool-call validation, quality metrics, and cost or latency tracking.
 - [eval-guide](https://github.com/microsoft/eval-guide): Microsoft toolkit for planning agent evaluations, generating test cases, interpreting results, and triaging failures in Copilot Studio workflows.
 - [AgentEval](https://github.com/canwhite/AgentEval): Agent evaluation framework for testing tool use, task completion, and behavior across repeatable scenarios.
