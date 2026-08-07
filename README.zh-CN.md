@@ -140,6 +140,7 @@
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
+- [Adaline Gateway](https://github.com/adaline/gateway)：完全本地化的 TypeScript 网关 SDK，可调用 300+ 个 LLM，并支持批处理、重试、缓存、回调和 OpenTelemetry 集成。
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway)：云原生 LLM 网关，用于统一模型供应商、路由推理流量，并在 Kubernetes 上提供 OpenTelemetry 友好的运维能力。
 - [OneAIFW](https://github.com/funstory-ai/aifw)：轻量级本地 AI 防火墙，可在调用 LLM 前匿名化敏感数据，并在响应后还原。
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway)：用于运维 MCP Server 的反向代理与管理层，支持会话感知路由和 Kubernetes 生命周期管理。
@@ -553,6 +554,7 @@
 - [ToolHive](https://github.com/stacklok/toolhive)：企业级 MCP Server 安全运行与管理平台，提供隔离、生命周期控制和运维治理能力。
 - [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
+- [Privacy Filter](https://github.com/packyme/privacy-filter)：纯 Go 实现的隐私网关，在 Prompt 发送给 LLM 前脱敏 PII 和密钥，并提供 HTTP、gRPC 与可嵌入的包接口。
 - [Preloop](https://github.com/preloop/preloop)：可自托管的 AI Agent 控制平面，整合 MCP 防火墙、模型网关、policy-as-code、人机审批、运行时可观测性、预算和审计轨迹。
 - [hoop](https://github.com/hoophq/hoop)：开源七层网关，面向工程师和 AI Agent 对数据库、Kubernetes、SSH、API 与 MCP 访问执行敏感数据脱敏、危险操作拦截、审批和会话记录。
 - [Octelium](https://github.com/octelium/octelium)：可自托管的零信任访问平台，同时可作为 API、AI/LLM、MCP、Kubernetes 和容器应用网关。
