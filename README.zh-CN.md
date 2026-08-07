@@ -351,6 +351,8 @@
 
 用于从非结构化文档构建、管理和查询 LLM 知识库的开源平台。
 
+**选择建议：** 将数据摄取、检索、评估和服务视为不同的故障域。优先选择支持增量索引、来源引用、丰富连接器或解析器、访问控制边界，以及可量化检索或回答质量检查的项目。无法说明答案来源的聊天机器人，通常只是戴着生产帽子的 Demo。
+
 - [Agentset](https://github.com/agentset-ai/agentset)：用于构建、评估和交付生产级 RAG 与 Agent 应用的开源平台，提供数据摄取、向量索引、引用、托管和开发者 API。
 - [RAGFlow](https://github.com/infiniflow/ragflow)：领先的开源 RAG 引擎，融合深度文档理解、知识库管理和 Agent 能力，适合企业知识工作流。
 - [FastGPT](https://github.com/labring/FastGPT)：基于 LLM 的知识库应用平台，提供开箱即用的数据处理、模型调用、RAG 和可视化工作流编排。
