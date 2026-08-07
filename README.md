@@ -140,6 +140,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
 - [Bifrost](https://github.com/maximhq/bifrost): High-performance enterprise AI gateway with adaptive load balancing, guardrails, cluster mode, and 1000+ model support.
+- [Adaline Gateway](https://github.com/adaline/gateway): Fully local TypeScript gateway SDK for calling 300+ LLMs with batching, retries, caching, callbacks, and OpenTelemetry integration.
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway): Cloud-native LLM gateway for unifying providers, routing inference traffic, and exposing OpenTelemetry-friendly operations on Kubernetes.
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
 - [Microsoft MCP Gateway](https://github.com/microsoft/mcp-gateway): Reverse proxy and management layer for operating MCP servers with session-aware routing and Kubernetes lifecycle support.
@@ -553,6 +554,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [ToolHive](https://github.com/stacklok/toolhive): Enterprise platform for securely running and managing MCP servers with isolation, lifecycle controls, and operational governance.
 - [Tracecat](https://github.com/TracecatHQ/tracecat): Open-source security automation platform for teams and AI agents with event-driven orchestration, monitoring, and low-code workflows.
 - [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
+- [Privacy Filter](https://github.com/packyme/privacy-filter): Pure-Go privacy gateway that redacts PII and secrets before prompts reach an LLM, with HTTP, gRPC, and embeddable package interfaces.
 - [Preloop](https://github.com/preloop/preloop): Self-hostable AI agent control plane combining an MCP firewall, model gateway, policy-as-code, human approvals, runtime observability, budgets, and audit trails.
 - [hoop](https://github.com/hoophq/hoop): Open-source layer-7 gateway for engineers and AI agents that masks sensitive data, blocks dangerous infrastructure operations, supports approvals, and records sessions across databases, Kubernetes, SSH, APIs, and MCP.
 - [Octelium](https://github.com/octelium/octelium): Self-hosted zero-trust access platform that also operates as an API, AI/LLM, MCP, Kubernetes, and container application gateway.
