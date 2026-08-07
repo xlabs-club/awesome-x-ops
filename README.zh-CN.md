@@ -195,14 +195,16 @@
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)：本地仪表盘，用于统一追踪编码 Agent 和自主 Agent 的 Token、成本、工具调用、会话与推理步骤。
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox)：本地优先的编码 Agent 黑盒记录器与上下文效率分析工具，提供可回放的会话地图、成本分析和任务结果信号。
 - [Mira](https://github.com/everruns/mira)：Rust 优先的 Agent 评估框架，面向多轮、工具调用型和长时间运行的 Agent 轨迹，支持运行指标预算和 CI 原生报告。
+- [Tracely](https://github.com/Jwuthri/Tracely)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
 - [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval)：面向 .NET 的 AI Agent 评估工具包，支持工具调用校验、RAG 质量指标、随机性测试和模型对比。
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
-- [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟 Agent 测试、自定义目标、Hook 以及 CI/CD 集成。
-- [Dokimos](https://github.com/dokimos-dev/dokimos)：面向 Java 和 Kotlin 的 LLM 与 Agent 评估框架，支持 JUnit、CI 集成、工具调用校验、质量指标以及成本和延迟追踪。
+- [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟客服测试、自定义目标、钩子和 CI/CD 集成。
+- [o11y-bench](https://github.com/grafana/o11y-bench)：基于可复现 Harbor 环境、用于评估 AI Agent 执行可观测性任务能力的开放基准。
+- [Dokimos](https://github.com/dokimos-dev/dokimos)：Java 和 Kotlin LLM 与 Agent 评估框架，支持 JUnit 和 CI 集成、工具调用校验、质量指标以及成本或延迟追踪。
 - [eval-guide](https://github.com/microsoft/eval-guide)：微软的 Agent 评估工具包，用于在 Copilot Studio 工作流中规划评估、生成测试用例、解读结果和分流失败原因。
 - [AgentEval](https://github.com/canwhite/AgentEval)：AI Agent 评估框架，用于在可重复场景中测试工具调用、任务完成度和 Agent 行为。
 - [Bananalyzer](https://github.com/reworkd/bananalyzer)：开源 AI Agent Web 任务评估框架，提供可复现的测试环境和结果分析能力。
