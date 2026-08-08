@@ -137,6 +137,7 @@
 - [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。
 - [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)：基于 MIT 许可的框架，用于构建、运行和分析可复现的大语言模型评测。
+- [HELM](https://github.com/stanford-crfm/helm)：开源框架，用于对语言模型和多模态模型进行全面、可复现且透明的评估。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
@@ -408,6 +409,7 @@
 - [Agent Control Plane](https://github.com/humanlayer/agentcontrolplane)：面向无人值守长周期 Agent 的分布式调度器，支持异步工具调用、人机反馈门禁和 MCP。
 - [Agent Control](https://github.com/agentcontrol/agent-control)：基于 Apache-2.0 许可的控制平面，用于规模化治理 Agent 运行时行为，并支持可配置策略和扩展。
 - [Workflow SDK](https://github.com/vercel/workflow)：用于 TypeScript 的 SDK，为异步应用和 AI Agent 增加持久化执行、可靠性和可观测性。
+- [Amazon Bedrock AgentCore Samples](https://github.com/awslabs/agentcore-samples)：面向生产的示例集合，展示如何在 AWS 上部署 AI Agent，并覆盖评估、可观测性和运维模式。
 - [LiveKit Agents](https://github.com/livekit/agents)：用于构建生产级实时语音和多模态 AI Agent 的框架，集成模型、工具和电话系统。
 - [Heym](https://github.com/heymrun/heym)：可自托管的 AI 工作流平台，支持可视化和 Prompt 驱动工作流、RAG、MCP、人机审批、可观测性、评估和 Token 成本追踪。
 - [Rapida](https://github.com/rapidaai/voice-ai)：开源端到端语音 AI 编排平台，面向实时 Agent，集成音频流、STT、TTS、VAD、多渠道交付和可观测性。
