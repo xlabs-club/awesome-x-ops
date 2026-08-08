@@ -153,7 +153,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
 - [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway): Fast, lightweight Rust-based AI gateway with smart routing, caching, rate limiting, and built-in observability across 100+ LLM providers.
-- [SMG](https://github.com/lightseekorg/smg): Engine-agnostic LLM gateway in Rust with gRPC pipeline, KV cache-aware routing, WASM plugins, MCP support, and multi-tenant auth across vLLM, TensorRT-LLM, SGLang, and cloud providers.
+- [SMG](https://github.com/smg-project/smg): Engine-agnostic LLM gateway in Rust with gRPC pipeline, KV cache-aware routing, WASM plugins, MCP support, and multi-tenant auth across vLLM, TensorRT-LLM, SGLang, and cloud providers.
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness): Standardized framework for few-shot and zero-shot evaluation of language models across hundreds of tasks and benchmarks.
 - [Weave](https://github.com/wandb/weave): Toolkit for tracing, evaluating, and improving LLM applications with automatic versioning and interactive debugging workflows.
 - [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.

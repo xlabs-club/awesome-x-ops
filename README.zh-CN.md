@@ -153,7 +153,7 @@
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
-- [SMG](https://github.com/lightseekorg/smg)：Rust 编写的引擎无关 LLM 网关，支持 gRPC 管道、KV 缓存感知路由、WASM 插件、MCP 和多租户认证，覆盖 vLLM、TensorRT-LLM、SGLang 和云供应商。
+- [SMG](https://github.com/smg-project/smg)：Rust 编写的引擎无关 LLM 网关，支持 gRPC 管道、KV 缓存感知路由、WASM 插件、MCP 和多租户认证，覆盖 vLLM、TensorRT-LLM、SGLang 和云供应商。
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness)：用于语言模型的标准化 few-shot 和 zero-shot 评估框架，覆盖数百个任务和基准测试。
 - [Weave](https://github.com/wandb/weave)：用于追踪、评估和改进 LLM 应用的工具包，支持自动版本控制和交互式调试工作流。
 - [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
