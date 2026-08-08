@@ -162,7 +162,6 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [SkillOpt](https://github.com/microsoft/SkillOpt): Microsoft's text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits and validation-gated updates.
 - [AgentField](https://github.com/Agent-Field/agentfield): Control plane for building, running, and scaling observable, auditable, identity-aware AI agents as APIs and microservices.
 - [Prompty](https://github.com/microsoft/prompty): Markdown-based prompt format and tooling for creating, managing, debugging, and evaluating portable LLM prompts.
-- [Archestra](https://github.com/archestra-ai/archestra): Enterprise AI platform with guardrails, MCP registry, gateway, and orchestration for governed agent operations.
 - [Databuff](https://github.com/databufflabs/databuff): AI-native OpenTelemetry APM with multi-agent root-cause analysis across traces, metrics, and service topology.
 - [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO): Self-hosted AI SRE for Kubernetes with zero-instrumentation eBPF observability and guardrailed, self-verifying remediation.
 - [AgentProvenance](https://github.com/ByteYellow/AgentProvenance): Security-oriented observability for sandboxed AI agents, combining model intent, application context, and runtime telemetry into verifiable evidence graphs.
@@ -227,7 +226,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
 - [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
 - [llm-d](https://github.com/llm-d/llm-d): Kubernetes-native distributed inference stack for high-performance LLM serving with intelligent routing on modern accelerators.
-- [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes AI inference operator for serving LLMs, VLMs, embeddings, and speech models with OpenAI-compatible APIs.
+- [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes-native inference operator for deploying and scaling LLMs, VLMs, embeddings, rerankers, and speech-to-text models with OpenAI-compatible APIs.
 - [SkyPilot](https://github.com/skypilot-org/skypilot): Multi-cloud and Kubernetes control plane for running, scaling, and managing AI workloads across heterogeneous GPU infrastructure.
 - [KubeRay](https://github.com/ray-project/kuberay): Kubernetes operator and toolkit for deploying and managing Ray clusters and distributed AI workloads.
 - [SGLang](https://github.com/sgl-project/sglang): High-performance serving framework for large language models and multimodal models with efficient attention and structured outputs.
@@ -414,6 +413,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Rapida](https://github.com/rapidaai/voice-ai): Open-source, end-to-end voice AI orchestration platform for real-time agents, integrating audio streaming, STT, TTS, VAD, multi-channel delivery, and observability.
 - [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack): Production-oriented templates for deploying AI agents to Google Cloud with built-in CI/CD, evaluation, observability, and common enterprise integrations.
 - [LiteLLM Agent Control Plane](https://github.com/LiteLLM-Labs/litellm-agent-control-plane): Self-hosted control plane for running agents across multiple runtimes with unified access, persistent sessions, scheduled jobs, and shared team management.
+- [Claude Code Router](https://github.com/musistudio/claude-code-router): Local control plane for routing Claude Code requests across model providers and orchestrating agent capabilities.
+- [ClawManager](https://github.com/Yuan-lab-LLM/ClawManager): Kubernetes-native control plane for governing AI agent instances, runtime orchestration, AI access, and reusable resources across agent runtimes.
+- [Archestra](https://github.com/archestra-ai/archestra): Enterprise AI platform with guardrails, an MCP registry, gateway, and orchestration for governed agent operations.
 
 ## DataOps
 

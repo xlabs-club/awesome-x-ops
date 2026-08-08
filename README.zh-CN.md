@@ -162,7 +162,6 @@
 - [SkillOpt](https://github.com/microsoft/SkillOpt)：微软开源的文本空间优化器，通过轨迹驱动的编辑和验证门控更新，为冻结参数的 LLM Agent 训练可复用的自然语言技能。
 - [AgentField](https://github.com/Agent-Field/agentfield)：用于构建、运行和扩展 AI Agent 的控制平面，让 Agent 以可观测、可审计、具备身份感知的 API 和微服务方式运行。
 - [Prompty](https://github.com/microsoft/prompty)：基于 Markdown 的 Prompt 格式与工具链，用于创建、管理、调试和评估可移植的 LLM Prompt。
-- [Archestra](https://github.com/archestra-ai/archestra)：企业级 AI 平台，提供护栏、MCP 注册中心、网关和编排能力，用于治理 Agent 运维。
 - [Databuff](https://github.com/databufflabs/databuff)：AI 原生 OpenTelemetry APM，支持跨链路、指标和服务拓扑的多 Agent 根因分析。
 - [RocketplaneIO](https://github.com/olemeyer/rocketplaneIO)：自托管 AI SRE，提供无需插桩的 eBPF 可观测性，以及带护栏、可自验证的 Kubernetes 故障修复能力。
 - [AgentProvenance](https://github.com/ByteYellow/AgentProvenance)：面向沙箱 AI Agent 的安全观测工具，将模型意图、应用上下文和运行时遥测汇聚为可验证的证据图谱。
@@ -227,7 +226,7 @@
 - [Dynamo](https://github.com/ai-dynamo/dynamo)：面向数据中心规模 LLM 与生成式 AI 负载的分布式推理服务框架，支持 Kubernetes 场景下的路由和扩缩容。
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
 - [llm-d](https://github.com/llm-d/llm-d)：Kubernetes 原生分布式推理栈，面向现代加速器上的高性能 LLM 服务和智能路由。
-- [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes AI 推理 Operator，用 OpenAI 兼容 API 服务 LLM、VLM、Embedding 和语音模型。
+- [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes 原生推理 Operator，用 OpenAI 兼容 API 部署和扩缩容 LLM、VLM、Embedding、重排序及语音转文本模型。
 - [SkyPilot](https://github.com/skypilot-org/skypilot)：面向多云与 Kubernetes 的控制平面，用于在异构 GPU 基础设施上运行、扩缩容和管理 AI 工作负载。
 - [KubeRay](https://github.com/ray-project/kuberay)：Kubernetes Operator 与工具集，用于部署和管理 Ray 集群及分布式 AI 工作负载。
 - [SGLang](https://github.com/sgl-project/sglang)：高性能 LLM 与多模态模型推理服务框架，支持高效注意力机制和结构化输出。
@@ -414,6 +413,9 @@
 - [Rapida](https://github.com/rapidaai/voice-ai)：开源端到端语音 AI 编排平台，面向实时 Agent，集成音频流、STT、TTS、VAD、多渠道交付和可观测性。
 - [Google Cloud Agent Starter Pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)：面向生产的 AI Agent 部署模板，可将 Agent 部署到 Google Cloud，并内置 CI/CD、评估、可观测性和常见企业集成。
 - [LiteLLM Agent Control Plane](https://github.com/LiteLLM-Labs/litellm-agent-control-plane)：可自托管的 Agent 控制平面，支持跨多种运行时统一访问、持久化会话、定时任务和团队共享管理。
+- [Claude Code Router](https://github.com/musistudio/claude-code-router)：本地 AI Agent 控制平面，可在多个模型供应商之间路由 Claude Code 请求，并编排 Agent 能力。
+- [ClawManager](https://github.com/Yuan-lab-LLM/ClawManager)：Kubernetes 原生控制平面，用于治理 AI Agent 实例、编排运行时、管理 AI 访问，并复用跨运行时资源。
+- [Archestra](https://github.com/archestra-ai/archestra)：面向企业的 AI 平台，提供安全护栏、MCP 注册中心、网关和编排能力，用于治理 Agent 运维。
 
 ## DataOps
 
