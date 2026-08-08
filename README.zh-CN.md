@@ -661,7 +661,8 @@
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli)：谷歌开源的 AI Agent，将 Gemini 的强大能力带入终端，用于编码、文件编辑和任务自动化。
 - [OpenWiki](https://github.com/langchain-ai/openwiki)：用于为代码库编写和维护 Agent 文档的 CLI 工具，随代码演进自动保持文档同步。
 - [VibeKit](https://github.com/superagent-ai/vibekit)：编码 Agent 的安全层，提供隔离沙箱、敏感数据脱敏和内置执行可观测性。
-- [CodeBurn](https://github.com/getagentseal/codeburn)：免费本地工具，可追踪 31 种 AI 编码工具和 Agent 的 Token 用量与成本，按模型、项目和任务维度拆分。
+- [CodeBurn](https://github.com/getagentseal/codeburn)：免费本地工具，可追踪 31 种 AI 编码工具和 Agent 的 Token 用量与成本，按模型、项目、任务和客户端维度拆分。
+- [Sourcery](https://github.com/sourcery-ai/sourcery)：即时 AI 代码审查工具，可为 Pull Request 和代码变更提供自动化反馈。
 - [h5i](https://github.com/h5i-dev/h5i)：Apache-2.0 许可的 AI 编码 Agent 可审计工作区平台，提供隔离 Git worktree、多 Agent 编排、Prompt 与上下文追踪、评审门禁和高效日志压缩。
 
 ### Developer Environments 开发环境
