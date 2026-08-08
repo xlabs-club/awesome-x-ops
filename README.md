@@ -137,6 +137,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
 - [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai): MIT-licensed framework for building, running, and analyzing reproducible evaluations of large language models.
+- [HELM](https://github.com/stanford-crfm/helm): Open-source framework for holistic, reproducible, and transparent evaluation of language and multimodal models.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
 - [Bifrost](https://github.com/maximhq/bifrost): High-performance enterprise AI gateway with adaptive load balancing, guardrails, cluster mode, and 1000+ model support.
@@ -408,6 +409,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Agent Control Plane](https://github.com/humanlayer/agentcontrolplane): Distributed scheduler for unsupervised, long-running agents with asynchronous tool calls, human feedback gates, and MCP support.
 - [Agent Control](https://github.com/agentcontrol/agent-control): Apache-2.0 control plane for governing agent runtime behavior at scale with configurable policies and extensibility.
 - [Workflow SDK](https://github.com/vercel/workflow): TypeScript SDK for adding durable execution, reliability, and observability to asynchronous applications and AI agents.
+- [Amazon Bedrock AgentCore Samples](https://github.com/awslabs/agentcore-samples): Production-oriented examples for deploying AI agents with evaluation, observability, and operational patterns on AWS.
 - [LiveKit Agents](https://github.com/livekit/agents): Framework for building production-ready realtime voice and multimodal AI agents with integrations for models, tools, and telephony.
 - [Heym](https://github.com/heymrun/heym): Self-hosted AI workflow platform with visual and prompt-driven workflows, RAG, MCP, human approval, observability, evaluations, and token-cost tracking.
 - [Rapida](https://github.com/rapidaai/voice-ai): Open-source, end-to-end voice AI orchestration platform for real-time agents, integrating audio streaming, STT, TTS, VAD, multi-channel delivery, and observability.
