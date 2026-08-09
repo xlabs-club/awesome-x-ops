@@ -420,6 +420,10 @@
 - [Claude Code Router](https://github.com/musistudio/claude-code-router)：本地 AI Agent 控制平面，可在多个模型供应商之间路由 Claude Code 请求，并编排 Agent 能力。
 - [ClawManager](https://github.com/Yuan-lab-LLM/ClawManager)：Kubernetes 原生控制平面，用于治理 AI Agent 实例、编排运行时、管理 AI 访问，并复用跨运行时资源。
 - [Archestra](https://github.com/archestra-ai/archestra)：面向企业的 AI 平台，提供安全护栏、MCP 注册中心、网关和编排能力，用于治理 Agent 运维。
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)：MIT 许可的 AI Agent 框架，支持使用 Python 和 .NET 构建、编排和部署 AI Agent 及多 Agent 工作流。
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)：轻量级 Python 多 Agent 工作流框架，提供工具调用、交接、护栏和面向追踪的运行时能力。
+- [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk)：Apache-2.0 许可的 SDK，用于在 Python 和 TypeScript 中构建并控制跨模型、跨云的生产级 AI Agent Harness。
+- [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
 
 ## DataOps
 
