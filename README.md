@@ -599,6 +599,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
 - [OpenHack](https://github.com/openhackai/OpenHack): Open-source agentic security scanner and verifier for finding and validating vulnerabilities in codebases with open-source models.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
+- [Agent Security Harness](https://github.com/msaleme/red-team-blue-team-agent-fabric): Executable security-testing harness for AI agents covering MCP, A2A, tool-use governance, and agentic supply-chain scenarios.
 - [Rogue](https://github.com/qualifire-dev/rogue): AI agent evaluation and red-team platform for regression testing, policy validation, adversarial probing, and security reporting across agent protocols.
 - [Augustus](https://github.com/praetorian-inc/augustus): Apache-2.0 LLM security testing framework that detects prompt injection, jailbreaks, and adversarial weaknesses with 190+ probes across 28 model providers.
 - [SkillHub](https://github.com/iflytek/skillhub): Self-hosted registry for publishing and versioning agent skills with RBAC, audit logs, and Docker or Kubernetes deployment.

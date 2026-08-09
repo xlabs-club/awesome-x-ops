@@ -599,6 +599,7 @@
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OpenHack](https://github.com/openhackai/OpenHack)：开源 Agent 安全扫描与验证工具，使用开源模型在代码库中发现并验证安全漏洞。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
+- [Agent Security Harness](https://github.com/msaleme/red-team-blue-team-agent-fabric)：面向 AI Agent 的可执行安全测试框架，覆盖 MCP、A2A、工具使用治理和 Agent 供应链场景。
 - [Rogue](https://github.com/qualifire-dev/rogue)：面向 AI Agent 的评估与红队平台，支持回归测试、策略校验、对抗性探测和跨 Agent 协议的安全报告。
 - [Augustus](https://github.com/praetorian-inc/augustus)：基于 Apache-2.0 许可的 LLM 安全测试框架，使用覆盖 28 个模型供应商的 190+ 探针检测 Prompt 注入、越狱和对抗性弱点。
 - [SkillHub](https://github.com/iflytek/skillhub)：自托管 Agent Skill 注册中心，支持发布、版本管理、RBAC、审计日志，以及 Docker 或 Kubernetes 部署。
