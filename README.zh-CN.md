@@ -566,6 +566,7 @@
 - [Octelium](https://github.com/octelium/octelium)：可自托管的零信任访问平台，同时可作为 API、AI/LLM、MCP、Kubernetes 和容器应用网关。
 - [OpenAnt](https://github.com/knostic/OpenAnt)：基于 LLM 的开源漏洞发现工具，可主动发现 AI 系统中经过验证的安全漏洞。
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard)：全栈 AI 红队平台，用于扫描 AI 基础设施、Agent、技能、MCP Server 和 LLM 越狱漏洞。
+- [MCP Security Hub](https://github.com/FuzzingLabs/mcp-security-hub)：面向授权安全流程的 MCP 安全工具集合，将 Nmap、Ghidra、Nuclei、SQLMap 和 Hashcat 等工具带给 AI 助手。
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)：Apache-2.0 许可的结构化 AI Agent 网络安全 Skill 集合，映射 MITRE ATT&CK、NIST CSF、MITRE ATLAS、D3FEND 和 AI RMF。
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom)：Kubernetes 控制器，可为 AI 工作负载生成 CycloneDX ML-BOM，并提供可追溯的运行时证据。
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。

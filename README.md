@@ -566,6 +566,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Octelium](https://github.com/octelium/octelium): Self-hosted zero-trust access platform that also operates as an API, AI/LLM, MCP, Kubernetes, and container application gateway.
 - [OpenAnt](https://github.com/knostic/OpenAnt): Open-source LLM-based vulnerability discovery tool for proactively finding verified security flaws in AI systems.
 - [AI-Infra-Guard](https://github.com/Tencent/AI-Infra-Guard): Full-stack AI red teaming platform for scanning AI infrastructure, agents, skills, MCP servers, and LLM jailbreak vulnerabilities.
+- [MCP Security Hub](https://github.com/FuzzingLabs/mcp-security-hub): Collection of offensive-security MCP servers that brings tools such as Nmap, Ghidra, Nuclei, SQLMap, and Hashcat to AI assistants for authorized security workflows.
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): Apache-2.0 collection of structured cybersecurity skills for AI agents, mapped to ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, and AI RMF.
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom): Kubernetes controller that generates CycloneDX ML-BOM documents for AI workloads with traceable runtime evidence.
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
