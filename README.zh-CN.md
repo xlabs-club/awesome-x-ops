@@ -287,6 +287,8 @@
 
 用于 Web 爬取、AI 友好抽取、搜索情报和 RAG 数据采集工作流的基础设施。
 
+**选择建议：** 将数据采集与检索分开评估：爬虫和解析器应提供来源追踪、增量刷新、限流控制和失败可见性；向量或混合检索层应明确索引、过滤、访问控制和相关性评估。优先选择可以独立运维的组件，而不是不透明的端到端演示。
+
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
 - [Jina Reader](https://github.com/jina-ai/reader)：URL 转 LLM 输入工具，通过简单前缀将任意网页转为清理后的 LLM 友好 Markdown 格式。

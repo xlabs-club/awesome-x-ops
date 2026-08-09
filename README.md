@@ -287,6 +287,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 
 Infrastructure for web crawling, AI-ready extraction, search intelligence, and RAG data acquisition workflows.
 
+**Selection guidance:** Separate acquisition from retrieval: crawlers and parsers should expose provenance, incremental refresh, rate-limit controls, and failure visibility; vector or hybrid search layers should make indexing, filtering, access control, and relevance evaluation explicit. Prefer components that can be operated independently rather than opaque end-to-end demos.
+
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
 - [Jina Reader](https://github.com/jina-ai/reader): URL-to-LLM converter that turns any web page into clean, LLM-friendly Markdown with a simple prefix.
