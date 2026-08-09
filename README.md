@@ -420,6 +420,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Claude Code Router](https://github.com/musistudio/claude-code-router): Local control plane for routing Claude Code requests across model providers and orchestrating agent capabilities.
 - [ClawManager](https://github.com/Yuan-lab-LLM/ClawManager): Kubernetes-native control plane for governing AI agent instances, runtime orchestration, AI access, and reusable resources across agent runtimes.
 - [Archestra](https://github.com/archestra-ai/archestra): Enterprise AI platform with guardrails, an MCP registry, gateway, and orchestration for governed agent operations.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework): MIT-licensed framework for building, orchestrating, and deploying AI agents and multi-agent workflows across Python and .NET.
+- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python): Lightweight Python framework for multi-agent workflows with tools, handoffs, guardrails, and tracing-oriented runtime patterns.
+- [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk): Apache-2.0 SDK for building and controlling production AI-agent harnesses in Python and TypeScript across models and clouds.
+- [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
 
 ## DataOps
 
