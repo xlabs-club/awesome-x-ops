@@ -371,6 +371,9 @@
 - [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
 - [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
 - [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
+- [Graphiti](https://github.com/getzep/graphiti)：开源引擎，用于构建具备时间感知能力、实时更新的知识图谱，为 AI Agent 提供结构化且持续更新的上下文。
+- [Memori](https://github.com/MemoriLabs/Memori)：与 LLM 解耦的记忆基础设施，将 Agent 执行过程和对话转化为生产系统可持久化的结构化状态。
+- [Memvid](https://github.com/memvid/memvid)：面向 Agent 的无服务器单文件记忆层，以本地优先的方式提供检索，避免多服务 RAG 栈的运维开销。
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG)：开源 RAG 评估与优化框架，通过 AutoML 风格自动化进行流水线调优。
 - [MemoryBench](https://github.com/supermemoryai/memorybench)：用于在多个数据集上评估对话记忆和 RAG 能力的统一基准测试工具。
 - [MemPalace](https://github.com/MemPalace/mempalace)：开源 AI 记忆系统，提供基准测试最优的持久化知识存储能力，适用于 AI Agent 和 LLM 应用。
