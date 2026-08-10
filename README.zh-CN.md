@@ -133,6 +133,7 @@
 - [OpenCompass](https://github.com/open-compass/opencompass)：LLM 评估平台，支持在 100+ 数据集上对多种模型进行评测和可复现基准测试。
 - [Lighteval](https://github.com/huggingface/lighteval)：模块化的 LLM 评估工具包，支持多种后端、任务、指标和分布式执行环境，适合构建可复现的评估流程。
 - [OpenAI Evals](https://github.com/openai/evals)：用于评估 LLM 和 LLM 系统的框架，提供开源基准测试注册表和评估工作流。
+- [Hugging Face Evaluation Guidebook](https://github.com/huggingface/evaluation-guidebook)：介绍 LLM 评估指标、方法和实践经验的指南，内容来自大规模模型评估项目的运行经验。
 - [AgentBench](https://github.com/THUDM/AgentBench)：基于 Apache-2.0 许可的基准测试工具，用于在多种环境和任务中评估 LLM 作为 Agent 的能力。
 - [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。
 - [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
@@ -223,6 +224,7 @@
 - [ModelPlane](https://github.com/modelplaneai/modelplane)：开源 AI 推理控制平面，用于部署、路由和运维推理工作负载。
 - [Triton Inference Server](https://github.com/triton-inference-server/server)：优化的推理服务器，用于在 GPU、CPU、云端和边缘环境部署 AI 模型。
 - [KServe](https://github.com/kserve/kserve)：Kubernetes 原生平台，用于标准化、可扩展地服务生成式和预测式 AI 推理。
+- [LitServe](https://github.com/Lightning-AI/LitServe)：简洁的 Python 框架，用于构建自定义 AI 推理服务器，并精细控制批处理、请求逻辑和扩缩容。
 - [AIBrix](https://github.com/vllm-project/aibrix)：云原生基础设施组件，用于高性价比、可扩展地运维 GenAI 和 LLM 推理。
 - [Dynamo](https://github.com/ai-dynamo/dynamo)：面向数据中心规模 LLM 与生成式 AI 负载的分布式推理服务框架，支持 Kubernetes 场景下的路由和扩缩容。
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
