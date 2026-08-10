@@ -205,6 +205,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [Intellagent](https://github.com/plurai-ai/intellagent): Framework for diagnosing and optimizing agents through realistic simulated interactions and repeatable evaluation workflows.
+- [Rhesis](https://github.com/rhesis-ai/rhesis): Open-source collaboration layer where domain experts annotate agent behavior and engineering teams turn findings into evaluation and improvement loops.
 - [o11y-bench](https://github.com/grafana/o11y-bench): Open benchmark for evaluating AI agents on observability tasks in reproducible Harbor environments.
 - [Dokimos](https://github.com/dokimos-dev/dokimos): Java and Kotlin LLM and agent evaluation framework with JUnit and CI integration, tool-call validation, quality metrics, and cost or latency tracking.
 - [eval-guide](https://github.com/microsoft/eval-guide): Microsoft toolkit for planning agent evaluations, generating test cases, interpreting results, and triaging failures in Copilot Studio workflows.
@@ -426,6 +428,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python): Lightweight Python framework for multi-agent workflows with tools, handoffs, guardrails, and tracing-oriented runtime patterns.
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk): Apache-2.0 SDK for building and controlling production AI-agent harnesses in Python and TypeScript across models and clouds.
 - [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
+- [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 
 ## DataOps
 

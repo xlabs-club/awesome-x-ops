@@ -205,6 +205,8 @@
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟客服测试、自定义目标、钩子和 CI/CD 集成。
+- [Intellagent](https://github.com/plurai-ai/intellagent)：通过逼真的模拟交互和可重复评估流程，诊断并优化 Agent 的框架。
+- [Rhesis](https://github.com/rhesis-ai/rhesis)：开源协作平台，让领域专家标注 Agent 行为，帮助工程团队将发现转化为评估与改进闭环。
 - [o11y-bench](https://github.com/grafana/o11y-bench)：基于可复现 Harbor 环境、用于评估 AI Agent 执行可观测性任务能力的开放基准。
 - [Dokimos](https://github.com/dokimos-dev/dokimos)：Java 和 Kotlin LLM 与 Agent 评估框架，支持 JUnit 和 CI 集成、工具调用校验、质量指标以及成本或延迟追踪。
 - [eval-guide](https://github.com/microsoft/eval-guide)：微软的 Agent 评估工具包，用于在 Copilot Studio 工作流中规划评估、生成测试用例、解读结果和分流失败原因。
@@ -426,6 +428,7 @@
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)：轻量级 Python 多 Agent 工作流框架，提供工具调用、交接、护栏和面向追踪的运行时能力。
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk)：Apache-2.0 许可的 SDK，用于在 Python 和 TypeScript 中构建并控制跨模型、跨云的生产级 AI Agent Harness。
 - [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
+- [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 
 ## DataOps
 
