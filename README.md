@@ -371,6 +371,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [GraphRAG](https://github.com/microsoft/graphrag): Microsoft's modular graph-based RAG system for extracting knowledge graphs from documents and improving retrieval quality.
 - [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
 - [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
+- [Graphiti](https://github.com/getzep/graphiti): Open-source engine for building temporally aware, real-time knowledge graphs that give AI agents structured, continuously updated context.
+- [Memori](https://github.com/MemoriLabs/Memori): LLM-agnostic memory infrastructure that turns agent execution and conversations into persistent, structured state for production systems.
+- [Memvid](https://github.com/memvid/memvid): Serverless, single-file memory layer for agents that provides local-first retrieval without the operational overhead of a multi-service RAG stack.
 - [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG): Open-source framework for RAG evaluation and optimization with AutoML-style automation for pipeline tuning.
 - [MemoryBench](https://github.com/supermemoryai/memorybench): Unified benchmark for evaluating conversational memory and RAG across multiple datasets.
 - [MemPalace](https://github.com/MemPalace/mempalace): Open-source AI memory system with best-in-class benchmarks, providing persistent knowledge storage for AI agents and LLM applications.
