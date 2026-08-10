@@ -133,6 +133,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OpenCompass](https://github.com/open-compass/opencompass): LLM evaluation platform supporting a wide range of models across 100+ datasets with reproducible benchmarks.
 - [Lighteval](https://github.com/huggingface/lighteval): Modular toolkit for reproducible LLM evaluations across multiple backends, tasks, metrics, and distributed execution environments.
 - [OpenAI Evals](https://github.com/openai/evals): Framework for evaluating LLMs and LLM systems with an open-source registry of benchmarks and evaluation workflows.
+- [Hugging Face Evaluation Guidebook](https://github.com/huggingface/evaluation-guidebook): Practical guide to LLM evaluation metrics, methods, and lessons from operating large-model evaluation programs.
 - [AgentBench](https://github.com/THUDM/AgentBench): Apache-2.0 benchmark for evaluating LLMs as agents across diverse environments and tasks.
 - [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
 - [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
@@ -223,6 +224,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [ModelPlane](https://github.com/modelplaneai/modelplane): Open-source control plane for deploying, routing, and operating AI inference workloads.
 - [Triton Inference Server](https://github.com/triton-inference-server/server): Optimized inference server for deploying AI models across GPUs, CPUs, and cloud or edge environments.
 - [KServe](https://github.com/kserve/kserve): Kubernetes-native platform for standardized, scalable generative and predictive AI inference serving.
+- [LitServe](https://github.com/Lightning-AI/LitServe): Minimal Python framework for building custom AI inference servers with explicit control over batching, request logic, and scaling.
 - [AIBrix](https://github.com/vllm-project/aibrix): Cloud-native infrastructure components for cost-efficient, scalable GenAI and LLM inference operations.
 - [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
 - [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
