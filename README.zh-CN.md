@@ -210,6 +210,7 @@
 - [o11y-bench](https://github.com/grafana/o11y-bench)：基于可复现 Harbor 环境、用于评估 AI Agent 执行可观测性任务能力的开放基准。
 - [Dokimos](https://github.com/dokimos-dev/dokimos)：Java 和 Kotlin LLM 与 Agent 评估框架，支持 JUnit 和 CI 集成、工具调用校验、质量指标以及成本或延迟追踪。
 - [eval-guide](https://github.com/microsoft/eval-guide)：微软的 Agent 评估工具包，用于在 Copilot Studio 工作流中规划评估、生成测试用例、解读结果和分流失败原因。
+- [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator)：多层 AI Agent Skill 评估框架，支持质量门禁、去重、安全扫描和实时评估，并生成可复现报告。
 - [AgentEval](https://github.com/canwhite/AgentEval)：AI Agent 评估框架，用于在可重复场景中测试工具调用、任务完成度和 Agent 行为。
 - [Bananalyzer](https://github.com/reworkd/bananalyzer)：开源 AI Agent Web 任务评估框架，提供可复现的测试环境和结果分析能力。
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。

@@ -210,6 +210,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [o11y-bench](https://github.com/grafana/o11y-bench): Open benchmark for evaluating AI agents on observability tasks in reproducible Harbor environments.
 - [Dokimos](https://github.com/dokimos-dev/dokimos): Java and Kotlin LLM and agent evaluation framework with JUnit and CI integration, tool-call validation, quality metrics, and cost or latency tracking.
 - [eval-guide](https://github.com/microsoft/eval-guide): Microsoft toolkit for planning agent evaluations, generating test cases, interpreting results, and triaging failures in Copilot Studio workflows.
+- [SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator): Multi-tier framework for validating, deduplicating, security-scanning, and live-evaluating AI agent skills with quality gates and reproducible reports.
 - [AgentEval](https://github.com/canwhite/AgentEval): Agent evaluation framework for testing tool use, task completion, and behavior across repeatable scenarios.
 - [Bananalyzer](https://github.com/reworkd/bananalyzer): Open-source framework for evaluating AI agents on web tasks with reproducible test environments and result analysis.
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko): AI agent developer control plane for registry, deployment, routing, health monitoring, observability, and lifecycle operations.
