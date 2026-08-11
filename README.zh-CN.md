@@ -81,6 +81,8 @@
 - [Agenta](https://github.com/Agenta-AI/agenta)：开源 LLMOps 平台，支持 Prompt 管理、调试 playground、评估和可观测性。
 - [abtop](https://github.com/graykode/abtop)：类似 htop 的终端监控工具，用于查看 AI 编码 Agent 会话、Token、上下文窗口、速率限制和端口。
 - [agenttrace](https://github.com/luoyuctl/agenttrace)：本地优先的 TUI，用于检查 AI 编码 Agent 的成本、Token、延迟、失败和报告。
+- [agentacct](https://github.com/mikehasa/agentacct)：本地优先的终端仪表盘，将编码 Agent 会话用量与记录的工作步骤、检查结果、供应商限额和成本估算关联起来。
+- [agentglass](https://github.com/SirAllap/agentglass)：本地优先的控制台，可通过 hooks 或 OpenTelemetry 监控编码 Agent 会话、工具调用、Token、成本和延迟，并提供可选的审批控制。
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
 - [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
