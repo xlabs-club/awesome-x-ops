@@ -223,6 +223,8 @@
 
 **选择建议：** 区分推理引擎与控制平面：推理引擎重点看吞吐、延迟、批处理和硬件支持；Operator 与网关重点看发布安全、路由、配额、自动扩缩容和遥测能力。优先选择提供可复现基准，以及明确升级和回滚路径的项目。
 
+- [GenAI Factory](https://github.com/GoogleCloudPlatform/genai-factory)：面向生产的生成式 AI 基础设施蓝图，使用基础设施即代码在 Google Cloud 上部署，并遵循安全最佳实践。
+- [GenAI on EKS Starter Kit](https://github.com/aws-samples/sample-genai-on-eks-starter-kit)：面向 Amazon EKS 的 Kubernetes 部署蓝图，整合 AI 网关、LLM 服务、向量数据库、Embedding 模型和可观测性组件。
 - [Ray Serve](https://github.com/ray-project/ray)：Ray 中的可扩展模型服务库，用于构建分布式在线推理 API 和 LLM 服务负载。
 - [KubeTorch](https://github.com/run-house/kubetorch)：面向 Python 的 Kubernetes 控制层，用于在集群资源上分发和运行 AI 工作负载。
 - [ModelPlane](https://github.com/modelplaneai/modelplane)：开源 AI 推理控制平面，用于部署、路由和运维推理工作负载。
@@ -549,6 +551,7 @@
 
 ## Security and Supply Chain 安全与供应链
 
+- [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails)：面向 AI Agent 和 LLM 交互的低延迟信任层，用于筛查并执行安全策略。
 - [Falco](https://github.com/falcosecurity/falco)：CNCF 运行时安全工具，用于检测容器和 Kubernetes 中的可疑行为。
 - [Tetragon](https://github.com/cilium/tetragon)：基于 eBPF 的安全可观测与运行时执行工具，实时检测和拦截内核、容器及网络层的可疑活动。
 - [Kyverno](https://github.com/kyverno/kyverno)：Kubernetes 原生策略引擎，支持校验、变更、生成和镜像验证。
