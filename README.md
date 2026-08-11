@@ -223,6 +223,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 
 **Selection guidance:** Separate the serving engine from the control plane: choose engines for throughput, latency, batching, and hardware support; choose operators and gateways for rollout safety, routing, quotas, autoscaling, and telemetry. Prefer projects with reproducible benchmarks and an explicit upgrade or rollback path.
 
+- [GenAI Factory](https://github.com/GoogleCloudPlatform/genai-factory): Production-oriented blueprints for deploying generative AI infrastructure on Google Cloud with infrastructure as code and security best practices.
+- [GenAI on EKS Starter Kit](https://github.com/aws-samples/sample-genai-on-eks-starter-kit): Kubernetes deployment blueprint combining an AI gateway, LLM serving, vector databases, embedding models, and observability on Amazon EKS.
 - [Ray Serve](https://github.com/ray-project/ray): Scalable model serving library in Ray for building distributed online inference APIs and LLM serving workloads.
 - [KubeTorch](https://github.com/run-house/kubetorch): Python-native Kubernetes control layer for distributing and running AI workloads across cluster resources.
 - [ModelPlane](https://github.com/modelplaneai/modelplane): Open-source control plane for deploying, routing, and operating AI inference workloads.
@@ -549,6 +551,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 ## Security and Supply Chain
 
+- [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails): Low-latency trust layer for screening and enforcing security policies around AI-agent and LLM interactions.
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
 - [Tetragon](https://github.com/cilium/tetragon): eBPF-based security observability and runtime enforcement tool for detecting and blocking suspicious kernel, container, and network activity in real time.
 - [Kyverno](https://github.com/kyverno/kyverno): Kubernetes-native policy engine for validation, mutation, generation, and image verification.
