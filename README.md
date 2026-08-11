@@ -81,6 +81,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Agenta](https://github.com/Agenta-AI/agenta): Open-source LLMOps platform for prompt management, playgrounds, evaluations, and observability.
 - [abtop](https://github.com/graykode/abtop): htop-style terminal monitor for AI coding agent sessions, tokens, context windows, rate limits, and ports.
 - [agenttrace](https://github.com/luoyuctl/agenttrace): Local-first TUI for inspecting AI coding agent cost, tokens, latency, failures, and reports.
+- [agentacct](https://github.com/mikehasa/agentacct): Local-first terminal dashboard that joins coding-agent session usage with recorded work steps, checks, provider limits, and estimated cost.
+- [agentglass](https://github.com/SirAllap/agentglass): Local-first cockpit for monitoring coding-agent sessions, tool calls, tokens, costs, and latency through hooks or OpenTelemetry, with optional approval controls.
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
 - [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.
