@@ -101,11 +101,12 @@
 - [AgentSight](https://github.com/eunomia-bpf/agentsight)：基于 eBPF 的系统级追踪工具，无需应用插桩即可观测 AI Agent 执行过程。
 - [AgentOps](https://github.com/AgentOps-AI/agentops)：用于监控 AI Agent、追踪 LLM 成本、基准测试运行并集成常见 Agent 框架的 Python SDK。
 - [LLM Gateway](https://github.com/theopenco/llmgateway)：开源 LLM 网关，通过统一 API 在多个供应商之间路由、管理和分析 LLM 请求。
-- [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关与控制平面，提供兼容 OpenAI 和 Anthropic 的 API、路由、故障转移、护栏、成本追踪和运维日志。
 - [AI Proxy](https://github.com/labring/aiproxy)：高性能 AI 网关，支持 OpenAI、Claude 和 Gemini 兼容协议，以及多渠道管理、限流、多租户隔离和监控。
 - [LLMIO](https://github.com/atopos31/llmio)：基于 Go 的 LLM 网关，支持按权重路由供应商、管理控制台、请求追踪、延迟与 Token 指标、成本统计和故障处理。
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway)：零信任、兼容 OpenAI API 的网关，支持基于身份的访问控制、语义路由，以及在托管和自托管模型供应商之间负载均衡。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
+- [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg)：高性能、引擎无关的 LLM 网关，支持缓存感知路由、HTTP/gRPC Worker、多租户控制、MCP，以及 OpenTelemetry 指标和链路追踪。
+- [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关，支持 OpenAI 和 Anthropic 兼容 API、供应商路由、故障转移、可观测性、成本追踪和多租户控制。
 - [Traceloop Hub](https://github.com/traceloop/hub)：基于 Rust 的高性能 LLM 网关，提供统一供应商 API、OpenTelemetry 链路、Prometheus 指标和可配置请求流水线。
 - [New API](https://github.com/QuantumNous/new-api)：统一 AI 模型网关，用于聚合供应商、兼容 OpenAI/Claude/Gemini API，并管理企业级模型访问。
 - [Manifest](https://github.com/mnfst/manifest)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
@@ -114,7 +115,6 @@
 - [1flowbase](https://github.com/taichuy/1flowbase)：自托管 AI 网关，可将多模型工作流组合为 OpenAI 兼容的虚拟模型，并提供链路、Token 用量、延迟和成本可见性。
 - [BISHENG](https://github.com/dataelement/bisheng)：面向企业 AI 应用的开源 LLM DevOps 平台，覆盖 GenAI 工作流、RAG、Agent、模型管理、评估、数据集和可观测性。
 - [OpenObserve](https://github.com/openobserve/openobserve)：开源可观测平台，覆盖日志、指标、链路、前端监控、流水线和 LLM 可观测性。
-- [Trench](https://github.com/FrigadeHQ/trench)：基于 ClickHouse 和 Kafka 的开源分析基础设施，可用于构建生产事件追踪、LLM/RAG 可观测性和分析产品。
 - [Kubeshark](https://github.com/kubeshark/kubeshark)：基于 eBPF 的 Kubernetes 网络可观测工具，提供 L4/L7 流量上下文、TLS 可见性，以及供 AI 辅助调查使用的 MCP 接口。
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge)：面向 MCP、A2A 和 API 工具的 AI 网关、注册表与代理，支持集中发现、护栏和管理。
 - [Supergateway](https://github.com/supercorp-ai/supergateway)：轻量级桥接工具，可将 MCP stdio Server 通过 SSE 暴露，也能将 SSE 连接转换回 stdio，便于不同部署方式互通。
@@ -155,7 +155,6 @@
 - [Weights & Biases](https://github.com/wandb/wandb)：AI 开发者平台，提供实验追踪、模型管理和 ML/LLM 工作流监控，覆盖从训练到生产的全流程。
 - [ClearML](https://github.com/clearml/clearml)：开源 MLOps/LLMOps 平台，支持实验管理、数据流水线、编排和模型服务。
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway)：基于 Rust 构建的快速轻量 AI 网关，支持智能路由、缓存、速率限制和内置可观测性，覆盖 100+ LLM 供应商。
-- [SMG](https://github.com/smg-project/smg)：Rust 编写的引擎无关 LLM 网关，支持 gRPC 管道、KV 缓存感知路由、WASM 插件、MCP 和多租户认证，覆盖 vLLM、TensorRT-LLM、SGLang 和云供应商。
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness)：用于语言模型的标准化 few-shot 和 zero-shot 评估框架，覆盖数百个任务和基准测试。
 - [Weave](https://github.com/wandb/weave)：用于追踪、评估和改进 LLM 应用的工具包，支持自动版本控制和交互式调试工作流。
 - [Pezzo](https://github.com/pezzolabs/pezzo)：开源 LLMOps 平台，支持 Prompt 管理、版本控制、A/B 测试、故障排查和可观测性。
@@ -465,6 +464,7 @@
 - [OptScale](https://github.com/hystax/optscale)：开源 FinOps 与云成本优化平台，支持 AWS、Azure、GCP、阿里云和 Kubernetes。
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian)：基于 policy-as-code 的云治理和成本优化规则引擎，支持自动化资源处置。
 - [OpenMeter](https://github.com/openmeterio/openmeter)：面向 AI、API 和 DevOps 的开源计量与计费平台，支持实时用量聚合与按量计费。
+- [Trench](https://github.com/FrigadeHQ/trench)：基于 Kafka 和 ClickHouse 构建的自托管分析基础设施，支持高吞吐事件追踪和实时运营分析。
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw)：开源 LLM 路由器和 AI 成本优化工具，自动将简单请求路由至低成本模型、将复杂请求路由至高级模型，通过 OpenAI 兼容代理节省 40-70% 的 API 开销。
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
 
