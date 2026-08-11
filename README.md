@@ -101,11 +101,12 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentSight](https://github.com/eunomia-bpf/agentsight): eBPF-based system-level tracing for observing AI agent execution without application instrumentation.
 - [AgentOps](https://github.com/AgentOps-AI/agentops): Python SDK for monitoring AI agents, tracking LLM costs, benchmarking runs, and integrating with common agent frameworks.
 - [LLM Gateway](https://github.com/theopenco/llmgateway): Open-source gateway for routing, managing, and analyzing LLM requests across multiple providers through one API.
-- [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway and control plane with OpenAI- and Anthropic-compatible APIs, routing, failover, guardrails, cost tracking, and operational logs.
 - [AI Proxy](https://github.com/labring/aiproxy): High-performance AI gateway with OpenAI-, Claude-, and Gemini-compatible protocols, multi-channel management, rate limiting, multi-tenant isolation, and monitoring.
 - [LLMIO](https://github.com/atopos31/llmio): Go-based LLM gateway with weighted provider routing, an admin UI, request tracing, latency and token metrics, cost tracking, and failure handling.
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway): Zero-trust, OpenAI-compatible gateway with identity-based access, semantic routing, and load balancing across hosted and self-hosted model providers.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
+- [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg): High-performance, engine-agnostic LLM gateway with cache-aware routing, HTTP/gRPC workers, multi-tenant controls, MCP support, and OpenTelemetry metrics and traces.
+- [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway with OpenAI and Anthropic-compatible APIs, provider routing, failover, observability, cost tracking, and multi-tenant controls.
 - [Traceloop Hub](https://github.com/traceloop/hub): High-performance Rust LLM gateway with a unified provider API, OpenTelemetry traces, Prometheus metrics, and configurable request pipelines.
 - [New API](https://github.com/QuantumNous/new-api): Unified AI model gateway for aggregating providers, normalizing OpenAI/Claude/Gemini-compatible APIs, and managing enterprise model access.
 - [Manifest](https://github.com/mnfst/manifest): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
@@ -114,7 +115,6 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [1flowbase](https://github.com/taichuy/1flowbase): Self-hosted AI gateway for composing multi-model workflows behind OpenAI-compatible virtual models with traces, token usage, latency, and cost visibility.
 - [BISHENG](https://github.com/dataelement/bisheng): Open LLM DevOps platform for enterprise AI applications, with GenAI workflows, RAG, agents, model management, evaluation, datasets, and observability.
 - [OpenObserve](https://github.com/openobserve/openobserve): Open-source observability platform for logs, metrics, traces, frontend monitoring, pipelines, and LLM observability.
-- [Trench](https://github.com/FrigadeHQ/trench): Open-source analytics infrastructure for building production event tracking, LLM/RAG observability, and analytics products on ClickHouse and Kafka.
 - [Kubeshark](https://github.com/kubeshark/kubeshark): eBPF-powered Kubernetes network observability with L4/L7 traffic context, TLS visibility, and an MCP interface for AI-assisted investigation.
 - [MCP Gateway](https://github.com/IBM/mcp-context-forge): AI gateway, registry, and proxy for MCP, A2A, and API tools with centralized discovery, guardrails, and management.
 - [Supergateway](https://github.com/supercorp-ai/supergateway): Lightweight bridge that runs MCP stdio servers over SSE and converts SSE connections back to stdio for interoperable deployments.
@@ -155,7 +155,6 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Weights & Biases](https://github.com/wandb/wandb): AI developer platform for experiment tracking, model management, and monitoring ML/LLM workflows from training to production.
 - [ClearML](https://github.com/clearml/clearml): Open-source MLOps/LLMOps platform for experiment management, data pipelines, orchestration, and model serving.
 - [Helicone AI Gateway](https://github.com/Helicone/ai-gateway): Fast, lightweight Rust-based AI gateway with smart routing, caching, rate limiting, and built-in observability across 100+ LLM providers.
-- [SMG](https://github.com/smg-project/smg): Engine-agnostic LLM gateway in Rust with gRPC pipeline, KV cache-aware routing, WASM plugins, MCP support, and multi-tenant auth across vLLM, TensorRT-LLM, SGLang, and cloud providers.
 - [EleutherAI LM Eval](https://github.com/EleutherAI/lm-evaluation-harness): Standardized framework for few-shot and zero-shot evaluation of language models across hundreds of tasks and benchmarks.
 - [Weave](https://github.com/wandb/weave): Toolkit for tracing, evaluating, and improving LLM applications with automatic versioning and interactive debugging workflows.
 - [Pezzo](https://github.com/pezzolabs/pezzo): Open-source LLMOps platform for prompt management, version control, A/B testing, troubleshooting, and observability.
@@ -465,6 +464,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OptScale](https://github.com/hystax/optscale): Open-source FinOps and cloud cost optimization platform for AWS, Azure, GCP, Alibaba Cloud, and Kubernetes.
 - [Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian): Policy-as-code rules engine for cloud governance, cost optimization, and automated resource actions.
 - [OpenMeter](https://github.com/openmeterio/openmeter): Open-source metering and billing for AI, API, and DevOps with real-time usage aggregation and usage-based pricing.
+- [Trench](https://github.com/FrigadeHQ/trench): Self-hosted analytics infrastructure built on Kafka and ClickHouse for high-volume event tracking and real-time operational analytics.
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw): Open-source LLM router and AI cost optimizer that routes simple prompts to cheap models and complex ones to premium, saving 40-70% on API costs with an OpenAI-compatible proxy.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 
