@@ -349,7 +349,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [PageIndex](https://github.com/VectifyAI/PageIndex): Vectorless, reasoning-based document indexing system for retrieval-augmented generation over long documents.
 - [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Developer tool with a web client and proxy for interactively testing and debugging MCP servers across supported transports.
-- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data sources.
+- [MCP Router](https://github.com/mcp-router/mcp-router): Unified MCP server management application for discovering, configuring, and operating MCP servers from one interface.
+- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
 - [Unla](https://github.com/AmoyLab/Unla): Lightweight MCP gateway that exposes existing MCP servers and APIs through a managed endpoint with Docker deployment and a management UI.
