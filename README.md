@@ -229,6 +229,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Ray Serve](https://github.com/ray-project/ray): Scalable model serving library in Ray for building distributed online inference APIs and LLM serving workloads.
 - [KubeTorch](https://github.com/run-house/kubetorch): Python-native Kubernetes control layer for distributing and running AI workloads across cluster resources.
 - [ModelPlane](https://github.com/modelplaneai/modelplane): Open-source control plane for deploying, routing, and operating AI inference workloads.
+- [Polyaxon](https://github.com/polyaxon/polyaxon): Open-source AI infrastructure and orchestration platform for managing reproducible ML and LLM workloads across development and production.
 - [Triton Inference Server](https://github.com/triton-inference-server/server): Optimized inference server for deploying AI models across GPUs, CPUs, and cloud or edge environments.
 - [KServe](https://github.com/kserve/kserve): Kubernetes-native platform for standardized, scalable generative and predictive AI inference serving.
 - [LitServe](https://github.com/Lightning-AI/LitServe): Minimal Python framework for building custom AI inference servers with explicit control over batching, request logic, and scaling.

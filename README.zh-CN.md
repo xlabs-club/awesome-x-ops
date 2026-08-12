@@ -229,6 +229,7 @@
 - [Ray Serve](https://github.com/ray-project/ray)：Ray 中的可扩展模型服务库，用于构建分布式在线推理 API 和 LLM 服务负载。
 - [KubeTorch](https://github.com/run-house/kubetorch)：面向 Python 的 Kubernetes 控制层，用于在集群资源上分发和运行 AI 工作负载。
 - [ModelPlane](https://github.com/modelplaneai/modelplane)：开源 AI 推理控制平面，用于部署、路由和运维推理工作负载。
+- [Polyaxon](https://github.com/polyaxon/polyaxon)：开源 AI 基础设施与编排平台，用于在开发和生产环境管理可复现的 ML 与 LLM 工作负载。
 - [Triton Inference Server](https://github.com/triton-inference-server/server)：优化的推理服务器，用于在 GPU、CPU、云端和边缘环境部署 AI 模型。
 - [KServe](https://github.com/kserve/kserve)：Kubernetes 原生平台，用于标准化、可扩展地服务生成式和预测式 AI 推理。
 - [LitServe](https://github.com/Lightning-AI/LitServe)：简洁的 Python 框架，用于构建自定义 AI 推理服务器，并精细控制批处理、请求逻辑和扩缩容。
