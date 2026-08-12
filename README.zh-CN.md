@@ -348,8 +348,9 @@
 - [Composio](https://github.com/ComposioHQ/composio)：Agent 工具集成平台，提供托管工具包、工具搜索、身份认证、上下文管理和沙箱执行能力。
 - [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
-- [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：带有 Web 客户端和代理的开发者工具，用于通过多种传输方式交互式测试和调试 MCP Server。
-- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，支持构建数据产品、Text-to-SQL、RAG 和基于私有数据源的多 Agent 工作流。
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：开发者工具，提供 Web 客户端和代理，用于在支持的传输协议上交互式测试和调试 MCP Server。
+- [MCP Router](https://github.com/mcp-router/mcp-router)：统一的 MCP Server 管理应用，用于从一个界面发现、配置和运维 MCP Server。
+- [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，用于基于私有数据构建数据产品、Text-to-SQL、RAG 和多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
 - [Unla](https://github.com/AmoyLab/Unla)：轻量级 MCP 网关，可将现有 MCP Server 和 API 通过统一端点暴露，并提供 Docker 部署和管理界面。
