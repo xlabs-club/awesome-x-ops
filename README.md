@@ -202,6 +202,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
+- [OpenJudge](https://github.com/agentscope-ai/OpenJudge): Open-source evaluation framework for AI applications with reusable graders, scenario-specific rubrics, scalable runs, and reward signals for continuous optimization.
 - [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval): .NET toolkit for evaluating AI agents with tool-use validation, RAG quality metrics, stochastic testing, and model comparison.
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
@@ -444,6 +445,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [DataHub](https://github.com/datahub-project/datahub): Metadata platform for data discovery, lineage, governance, and observability across modern data and AI stacks.
 - [OpenMetadata](https://github.com/open-metadata/OpenMetadata): Unified metadata platform for data discovery, lineage, governance, and data observability.
 - [Great Expectations](https://github.com/great-expectations/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
+- [Dingo](https://github.com/MigoXLab/dingo): Open-source AI data-quality evaluation tool for validating LLM datasets, detecting hallucinations, and checking RAG application quality.
 - [Soda Core](https://github.com/sodadata/soda-core): Data contracts and quality checks engine for validating data pipelines in modern data stacks.
 - [Elementary](https://github.com/elementary-data/elementary): dbt-native data observability platform for monitoring pipelines, tests, freshness, and anomalies.
 - [OpenLineage](https://github.com/OpenLineage/OpenLineage): Open standard and tooling for collecting lineage metadata across data pipelines and platforms.
