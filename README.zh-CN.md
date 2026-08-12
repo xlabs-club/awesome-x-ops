@@ -237,7 +237,9 @@
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
 - [llm-d](https://github.com/llm-d/llm-d)：Kubernetes 原生分布式推理栈，面向现代加速器上的高性能 LLM 服务和智能路由。
 - [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes 原生推理 Operator，用 OpenAI 兼容 API 部署和扩缩容 LLM、VLM、Embedding、重排序及语音转文本模型。
+- [Kthena](https://github.com/volcano-sh/kthena)：Kubernetes 原生 AI 服务平台，用于可扩展的模型服务和生产推理运维。
 - [SkyPilot](https://github.com/skypilot-org/skypilot)：面向多云与 Kubernetes 的控制平面，用于在异构 GPU 基础设施上运行、扩缩容和管理 AI 工作负载。
+- [GPUStack](https://github.com/gpustack/gpustack)：GPU 集群管理器，支持基于 vLLM 和 SGLang 的高性能 AI 模型服务，以及按需 GPU 实例。
 - [KubeRay](https://github.com/ray-project/kuberay)：Kubernetes Operator 与工具集，用于部署和管理 Ray 集群及分布式 AI 工作负载。
 - [SGLang](https://github.com/sgl-project/sglang)：高性能 LLM 与多模态模型推理服务框架，支持高效注意力机制和结构化输出。
 - [vLLM](https://github.com/vllm-project/vllm)：高吞吐、内存高效的 LLM 推理与服务引擎，支持连续批处理与量化。
@@ -374,6 +376,7 @@
 - [WeKnora](https://github.com/Tencent/WeKnora)：开源 LLM 知识平台，可将原始文档转化为可查询的 RAG、自主推理 Agent 和自维护 Wiki。
 - [MaxKB](https://github.com/1Panel-dev/MaxKB)：开源企业级智能体平台，支持基于知识库的 RAG、多模型接入和可视化工作流设计。
 - [GraphRAG](https://github.com/microsoft/graphrag)：微软开源的模块化图谱 RAG 系统，可从文档中提取知识图谱以提升检索质量。
+- [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG)：受人类长期记忆启发的 RAG 框架，结合知识图谱和个性化 PageRank，持续整合外部文档知识。
 - [Mem0](https://github.com/mem0ai/mem0)：面向 AI Agent 的通用记忆层，支持多级记忆、实体链接和时间推理，实现个性化交互。
 - [Zep](https://github.com/getzep/zep)：开源 AI Agent 记忆层，提供长期记忆召回、用户事实和知识图谱能力，实现持久的 Agent 记忆。
 - [Graphiti](https://github.com/getzep/graphiti)：开源引擎，用于构建具备时间感知能力、实时更新的知识图谱，为 AI Agent 提供结构化且持续更新的上下文。
@@ -596,6 +599,7 @@
 - [Doberman](https://github.com/fu351/Doberman-Core)：面向 AI 编码 Agent 的运行时护栏与自适应授权工具，通过 MCP 或主机 Hook 在执行前实施策略，提供审批、审计日志和默认拒绝机制。
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
+- [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：面向企业 Agent 操作授权的框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器。
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus)：本地优先的 MCP Server 与 CLI，将 SAST、Secret、依赖和 AI 代码专项检查整合为面向 AI 生成应用的扫描、修复、复扫工作流。

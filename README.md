@@ -237,7 +237,9 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
 - [llm-d](https://github.com/llm-d/llm-d): Kubernetes-native distributed inference stack for high-performance LLM serving with intelligent routing on modern accelerators.
 - [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes-native inference operator for deploying and scaling LLMs, VLMs, embeddings, rerankers, and speech-to-text models with OpenAI-compatible APIs.
+- [Kthena](https://github.com/volcano-sh/kthena): Kubernetes-native AI serving platform for scalable model serving and production inference operations.
 - [SkyPilot](https://github.com/skypilot-org/skypilot): Multi-cloud and Kubernetes control plane for running, scaling, and managing AI workloads across heterogeneous GPU infrastructure.
+- [GPUStack](https://github.com/gpustack/gpustack): GPU cluster manager for high-performance AI model serving with vLLM and SGLang, plus on-demand GPU instances.
 - [KubeRay](https://github.com/ray-project/kuberay): Kubernetes operator and toolkit for deploying and managing Ray clusters and distributed AI workloads.
 - [SGLang](https://github.com/sgl-project/sglang): High-performance serving framework for large language models and multimodal models with efficient attention and structured outputs.
 - [vLLM](https://github.com/vllm-project/vllm): High-throughput and memory-efficient inference and serving engine for LLMs with continuous batching and quantization.
@@ -374,6 +376,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [WeKnora](https://github.com/Tencent/WeKnora): Open-source LLM knowledge platform that turns raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
 - [MaxKB](https://github.com/1Panel-dev/MaxKB): Open-source enterprise platform for building knowledge base agents with RAG, multi-model support, and visual workflow design.
 - [GraphRAG](https://github.com/microsoft/graphrag): Microsoft's modular graph-based RAG system for extracting knowledge graphs from documents and improving retrieval quality.
+- [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG): RAG framework inspired by human long-term memory that combines knowledge graphs and personalized PageRank for continuous knowledge integration.
 - [Mem0](https://github.com/mem0ai/mem0): Universal memory layer for AI agents with multi-level memory, entity linking, and temporal reasoning for personalized interactions.
 - [Zep](https://github.com/getzep/zep): Open-source memory layer for AI agents providing long-term recall, user facts, and knowledge graph capabilities for persistent agent memory.
 - [Graphiti](https://github.com/getzep/graphiti): Open-source engine for building temporally aware, real-time knowledge graphs that give AI agents structured, continuously updated context.
@@ -596,6 +599,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Doberman](https://github.com/fu351/Doberman-Core): Runtime guardrails and adaptive authorization for AI coding agents, with MCP or host-hook enforcement, approvals, audit logs, and fail-closed policy decisions.
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary): Sandboxed framework for evaluating AI agent security in realistic tool-using workflows, with trajectory-based scoring across safety, awareness, and task utility.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
+- [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
 - [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills.
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus): Local-first MCP server and CLI that combines SAST, secret, dependency, and AI-code-specific checks into a scan-fix-rescan workflow for AI-generated applications.
