@@ -202,6 +202,7 @@
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
+- [OpenJudge](https://github.com/agentscope-ai/OpenJudge)：面向 AI 应用的开源评估框架，提供可复用 Grader、场景化评测规则、规模化运行和用于持续优化的奖励信号。
 - [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval)：面向 .NET 的 AI Agent 评估工具包，支持工具调用校验、RAG 质量指标、随机性测试和模型对比。
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
@@ -444,6 +445,7 @@
 - [DataHub](https://github.com/datahub-project/datahub)：面向现代数据与 AI 技术栈的元数据平台，支持数据发现、血缘、治理和可观测性。
 - [OpenMetadata](https://github.com/open-metadata/OpenMetadata)：统一元数据平台，支持数据发现、血缘、治理和数据可观测性。
 - [Great Expectations](https://github.com/great-expectations/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
+- [Dingo](https://github.com/MigoXLab/dingo)：开源 AI 数据质量评估工具，用于验证 LLM 数据集、检测幻觉并检查 RAG 应用质量。
 - [Soda Core](https://github.com/sodadata/soda-core)：面向现代数据栈的数据契约和质量检查引擎，用于验证数据流水线。
 - [Elementary](https://github.com/elementary-data/elementary)：dbt 原生数据可观测平台，用于监控流水线、测试、新鲜度和异常。
 - [OpenLineage](https://github.com/OpenLineage/OpenLineage)：用于在数据流水线和平台之间采集血缘元数据的开放标准与工具集。
