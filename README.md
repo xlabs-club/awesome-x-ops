@@ -301,6 +301,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 
 **Selection guidance:** Separate acquisition from retrieval: crawlers and parsers should expose provenance, incremental refresh, rate-limit controls, and failure visibility; vector or hybrid search layers should make indexing, filtering, access control, and relevance evaluation explicit. Prefer components that can be operated independently rather than opaque end-to-end demos.
 
+- [MetaMCP](https://github.com/metatool-ai/metamcp): Self-hosted MCP aggregator, orchestrator, middleware, and gateway for composing and governing tool servers.
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
 - [Jina Reader](https://github.com/jina-ai/reader): URL-to-LLM converter that turns any web page into clean, LLM-friendly Markdown with a simple prefix.
@@ -745,6 +746,7 @@ Infrastructure as Code manages and provisions infrastructure through code instea
 
 Trusting is hard. Knowing who to trust is even harder.
 
+- [OpenFGA](https://github.com/openfga/openfga): High-performance authorization engine inspired by Google Zanzibar for fine-grained, relationship-based access control.
 - [keycloak](https://github.com/keycloak/keycloak): Open-source IAM for modern applications and services.
 - [OpenBao](https://github.com/openbao/openbao): Open-source secrets management system for storing and distributing secrets, certificates, and keys.
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy): Lightweight OAuth2 reverse proxy for Google, Azure, OpenID Connect, and more, with simple authorization checks.
