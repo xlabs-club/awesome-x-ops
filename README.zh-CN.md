@@ -58,6 +58,8 @@
 
 **生产检查清单：** 采用前确认工具支持 OpenTelemetry 或可导出的 trace 格式、保留与脱敏控制、可复现的评估运行、目标框架覆盖，以及从告警追溯到具体 Prompt、工具调用、模型和成本的清晰路径。只有仪表盘而没有失败证据，就像把生产事故换成了彩色壁纸。
 
+**网关边界：** 路由、限流、预算、重试和供应商故障转移应归入网关职责；只有当追踪、评估以及 Prompt/响应分析是工具的主要运维目的时，才放在本节。这样可以避免同一个网关换三顶帽子后被重复算成三个可观测平台。
+
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
