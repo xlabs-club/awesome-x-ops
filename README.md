@@ -144,6 +144,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
 - [Bifrost](https://github.com/maximhq/bifrost): High-performance enterprise AI gateway with adaptive load balancing, guardrails, cluster mode, and 1000+ model support.
+- [TokenHub](https://github.com/astaxie/TokenHub): Enterprise AI gateway for unified model access, request governance, traceability, and usage attribution.
+- [CliRelay](https://github.com/kittors/CliRelay): Self-hosted AI gateway for coding CLIs with a unified endpoint, multi-tenant console, request logs, and spend quotas.
 - [Adaline Gateway](https://github.com/adaline/gateway): Fully local TypeScript gateway SDK for calling 300+ LLMs with batching, retries, caching, callbacks, and OpenTelemetry integration.
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway): Cloud-native LLM gateway for unifying providers, routing inference traffic, and exposing OpenTelemetry-friendly operations on Kubernetes.
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
