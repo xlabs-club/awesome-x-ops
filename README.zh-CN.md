@@ -144,6 +144,8 @@
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
+- [TokenHub](https://github.com/astaxie/TokenHub)：企业级 AI 网关，用于统一模型访问、请求治理、可追溯性和用量归因。
+- [CliRelay](https://github.com/kittors/CliRelay)：面向 Coding CLI 的自托管 AI 网关，提供统一端点、多租户控制台、请求日志和费用配额。
 - [Adaline Gateway](https://github.com/adaline/gateway)：完全本地化的 TypeScript 网关 SDK，可调用 300+ 个 LLM，并支持批处理、重试、缓存、回调和 OpenTelemetry 集成。
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway)：云原生 LLM 网关，用于统一模型供应商、路由推理流量，并在 Kubernetes 上提供 OpenTelemetry 友好的运维能力。
 - [OneAIFW](https://github.com/funstory-ai/aifw)：轻量级本地 AI 防火墙，可在调用 LLM 前匿名化敏感数据，并在响应后还原。
