@@ -301,6 +301,7 @@
 
 **选择建议：** 将数据采集与检索分开评估：爬虫和解析器应提供来源追踪、增量刷新、限流控制和失败可见性；向量或混合检索层应明确索引、过滤、访问控制和相关性评估。优先选择可以独立运维的组件，而不是不透明的端到端演示。
 
+- [MetaMCP](https://github.com/metatool-ai/metamcp)：可自托管的 MCP 聚合器、编排器、中间件和网关，用于组合并治理工具服务器。
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
 - [Jina Reader](https://github.com/jina-ai/reader)：URL 转 LLM 输入工具，通过简单前缀将任意网页转为清理后的 LLM 友好 Markdown 格式。
@@ -745,6 +746,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 
 信任很难，知道该信任谁更难。
 
+- [OpenFGA](https://github.com/openfga/openfga)：受 Google Zanzibar 启发的高性能授权引擎，支持细粒度、基于关系的访问控制。
 - [keycloak](https://github.com/keycloak/keycloak)：面向现代应用和服务的开源 IAM。
 - [OpenBao](https://github.com/openbao/openbao)：开源 Secret 管理系统，用于存储和分发密钥、证书与加密密钥。
 - [oauth2-proxy](https://github.com/oauth2-proxy/oauth2-proxy)：轻量级 OAuth2 反向代理，支持多种身份提供商和简单授权校验。
