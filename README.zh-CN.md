@@ -370,6 +370,8 @@
 - [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)：安全、快速且可扩展的沙箱运行时，用于隔离 AI Agent 代码和工具执行。
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)：用于管理隔离、有状态、单例工作负载的 Kubernetes API 与控制器，适合 AI Agent 运行时。
+- [KARS](https://github.com/Azure/kars)：Microsoft 面向 Kubernetes 的 AI Agent 参考栈，提供强化的 Agent 独立沙箱、受治理的出站流量和端到端加密的 Agent 间通信。
+- [Pullrun](https://github.com/pullrun/pullrun)：AI Agent 沙箱运行时，可在 Firecracker microVM、Linux 容器或 Apple Silicon VM 中启动 OCI 镜像，并原生支持 MCP。
 - [AgentOS](https://github.com/rivet-dev/agentos)：基于 WebAssembly 和 V8 isolate 的库，可在现有后端中为 AI Agent 提供类似操作系统的运行时。
 - [Cua](https://github.com/trycua/cua)：开源 computer-use 基础设施，提供跨平台驱动、设备集群和基准测试，用于 Agent 训练、评估和数据生成。
 - [Apache Doris](https://github.com/apache/doris)：面向 AI Agent 和运维数据工作负载的实时分析与混合搜索数据库。

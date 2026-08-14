@@ -370,6 +370,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Airweave](https://github.com/airweave-ai/airweave): Open-source context retrieval layer that syncs diverse data sources into searchable context for AI agents and applications.
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): Secure, fast, and extensible sandbox runtime for isolating AI agent code and tool execution.
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes API and controller for managing isolated, stateful, singleton workloads such as AI agent runtimes.
+- [KARS](https://github.com/Azure/kars): Microsoft’s Kubernetes reference stack for running AI agents with hardened per-agent sandboxes, governed egress, and encrypted inter-agent communication.
+- [Pullrun](https://github.com/pullrun/pullrun): AI agent sandbox runtime that boots OCI images in Firecracker microVMs, Linux containers, or Apple Silicon VMs with native MCP support.
 - [AgentOS](https://github.com/rivet-dev/agentos): Library that gives AI agents an operating-system-like runtime in an existing backend using WebAssembly and V8 isolates.
 - [Cua](https://github.com/trycua/cua): Open-source computer-use infrastructure with cross-platform drivers, fleets, and benchmarks for agent training, evaluation, and data generation.
 - [Apache Doris](https://github.com/apache/doris): Real-time analytics and hybrid-search database for AI agents and operational data workloads.
