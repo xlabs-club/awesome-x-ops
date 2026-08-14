@@ -301,6 +301,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Versus Incident](https://github.com/VersusControl/versus-incident): Self-hosted AI SRE agent that learns normal system behavior and routes novel or unexpected incidents to chat and on-call platforms.
 - [Flawless](https://github.com/William-Lu-stack/Flawless): AI-native SRE control plane for Kubernetes and cloud infrastructure, connecting evidence, human approval, controlled remediation, rollback, and recovery verification in an auditable loop.
 - [Nudgebee](https://github.com/nudgebee/nudgebee): Open-source SRE copilot for Kubernetes and major clouds, combining observability, FinOps, runbook automation, incident response, and ChatOps workflows.
+- [AIOpsLab](https://github.com/microsoft/AIOpsLab): Holistic framework for designing, developing, and evaluating autonomous AIOps agents against reproducible operations scenarios.
 
 ## AI Infrastructure
 
@@ -611,7 +612,6 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
-- [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills.
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus): Local-first MCP server and CLI that combines SAST, secret, dependency, and AI-code-specific checks into a scan-fix-rescan workflow for AI-generated applications.
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw): Open-source governance toolkit for agentic AI security, helping assess and control risks in autonomous AI systems.
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway): Apache-licensed AI and MCP security gateway for HTTP access control, policy enforcement, and web application firewall integration.
@@ -644,6 +644,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Google Security Operations MCP Server](https://github.com/google/mcp-security): Official MCP servers for integrating Google SecOps, Google Threat Intelligence, Security Command Center, and SOAR capabilities with AI assistants.
 - [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security): Spring AI security and authorization support for MCP clients, servers, and authorization servers, including OAuth 2.0 flows.
 - [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector): Trail of Bits security wrapper for MCP servers with configuration pinning, tool-response quarantine, and prompt-injection defenses.
+- [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills, designed to catch risks before agent components enter a workflow.
 
 ## Platform Engineering
 

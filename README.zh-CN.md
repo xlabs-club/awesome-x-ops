@@ -301,6 +301,7 @@
 - [Versus Incident](https://github.com/VersusControl/versus-incident)：可自托管的 AI SRE Agent，学习系统的正常行为，并将新出现或异常的事件路由到聊天和值班平台。
 - [Flawless](https://github.com/William-Lu-stack/Flawless)：面向 Kubernetes 和云基础设施的 AI 原生 SRE 控制平面，将证据收集、人机审批、受控修复、回滚和恢复验证连接成可审计闭环。
 - [Nudgebee](https://github.com/nudgebee/nudgebee)：面向 Kubernetes 和主流云平台的开源 SRE Copilot，整合可观测性、FinOps、Runbook 自动化、事件响应和 ChatOps 工作流。
+- [AIOpsLab](https://github.com/microsoft/AIOpsLab)：用于设计、开发和评估自主 AIOps Agent 的综合框架，支持在可复现场景中验证运维能力。
 
 ## AI 基础设施
 
@@ -611,7 +612,6 @@
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：面向企业 Agent 操作授权的框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
-- [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器。
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus)：本地优先的 MCP Server 与 CLI，将 SAST、Secret、依赖和 AI 代码专项检查整合为面向 AI 生成应用的扫描、修复、复扫工作流。
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw)：面向 Agentic AI 安全的开源治理工具包，用于评估和控制自主 AI 系统中的风险。
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway)：基于 Apache 许可证的 AI 与 MCP 安全网关，支持 HTTP 访问控制、策略执行和 Web 应用防火墙集成。
@@ -644,6 +644,7 @@
 - [Google Security Operations MCP Server](https://github.com/google/mcp-security)：谷歌官方 MCP Server，用于将 Google SecOps、Google Threat Intelligence、Security Command Center 和 SOAR 能力接入 AI 助手。
 - [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security)：为 Spring AI 的 MCP Client、Server 和授权服务器提供安全与授权支持，包括 OAuth 2.0 流程。
 - [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)：Trail of Bits 的 MCP Server 安全包装器，提供配置固定、工具响应隔离和 Prompt 注入防护。
+- [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器，用于在组件进入工作流前发现风险。
 
 ## Platform Engineering 平台工程
 
