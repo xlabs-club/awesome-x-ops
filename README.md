@@ -295,6 +295,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [APO](https://github.com/CloudDetail/apo): AI-powered observability platform combining OpenTelemetry, eBPF, and LLM agentic workflows for automated root-cause analysis and intelligent troubleshooting.
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt): CNCF Sandbox SRE agent that investigates alerts and operational incidents using cluster context, runbooks, and observability data.
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt): Kubernetes troubleshooting tool that applies codified SRE analyzers to diagnose and triage cluster issues with optional AI backends.
+- [kagent](https://github.com/kagent-dev/kagent): Kubernetes-native framework for building, deploying, and managing AI agents with MCP tools and OpenTelemetry tracing for infrastructure operations.
 - [Metaflow](https://github.com/Netflix/metaflow): Human-centric framework for developing, versioning, scaling, and deploying production AI/ML systems from prototypes to reliable workflows.
 - [Chaterm](https://github.com/chaterm/Chaterm): Open-source AI terminal for cloud and infrastructure management, enabling natural-language deployment, troubleshooting, and automation across SSH, Kubernetes, and cloud services.
 - [Versus Incident](https://github.com/VersusControl/versus-incident): Self-hosted AI SRE agent that learns normal system behavior and routes novel or unexpected incidents to chat and on-call platforms.

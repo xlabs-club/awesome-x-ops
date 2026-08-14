@@ -295,6 +295,7 @@
 - [APO](https://github.com/CloudDetail/apo)：AI 驱动的可观测平台，融合 OpenTelemetry、eBPF 和 LLM Agent 工作流，实现自动化根因分析和智能排障。
 - [HolmesGPT](https://github.com/HolmesGPT/holmesgpt)：CNCF Sandbox SRE Agent，结合集群上下文、Runbook 和可观测数据调查告警与运维事件。
 - [K8sGPT](https://github.com/k8sgpt-ai/k8sgpt)：Kubernetes 故障排查工具，将编码后的 SRE 分析器用于诊断和分流集群问题，并支持可选的 AI 后端。
+- [kagent](https://github.com/kagent-dev/kagent)：Kubernetes 原生 AI Agent 框架，用于构建、部署和管理 AI Agent，并通过 MCP 工具与 OpenTelemetry 追踪支持基础设施运维。
 - [Metaflow](https://github.com/Netflix/metaflow)：面向人的 AI/ML 系统开发框架，支持从原型到生产工作流的开发、版本管理、扩展和部署。
 - [Chaterm](https://github.com/chaterm/Chaterm)：开源 AI 终端，面向云和基础设施管理，支持通过自然语言跨 SSH、Kubernetes 和云服务进行部署、排障和自动化。
 - [Versus Incident](https://github.com/VersusControl/versus-incident)：可自托管的 AI SRE Agent，学习系统的正常行为，并将新出现或异常的事件路由到聊天和值班平台。
