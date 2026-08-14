@@ -311,6 +311,7 @@
 
 - [MetaMCP](https://github.com/metatool-ai/metamcp)：可自托管的 MCP 聚合器、编排器、中间件和网关，用于组合并治理工具服务器。
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
+- [anydoc](https://github.com/firecrawl/anydoc)：基于 Rust 的快速文档转换库，提供 Node.js、Python 和 WebAssembly 绑定，可将 Office 文档、PDF 等文件转换为干净、适合 LLM 的 Markdown。
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)：面向 LLM 的开源 Web 爬虫与抓取工具，适合构建 RAG、Agent 和 Web 数据流水线。
 - [Jina Reader](https://github.com/jina-ai/reader)：URL 转 LLM 输入工具，通过简单前缀将任意网页转为清理后的 LLM 友好 Markdown 格式。
 - [Open SEO](https://github.com/every-app/open-seo)：开源 SEO 与搜索情报平台，支持关键词研究、站点审计、反向链接分析和 Google Search Console MCP 工作流。
@@ -372,6 +373,7 @@
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)：用于管理隔离、有状态、单例工作负载的 Kubernetes API 与控制器，适合 AI Agent 运行时。
 - [KARS](https://github.com/Azure/kars)：Microsoft 面向 Kubernetes 的 AI Agent 参考栈，提供强化的 Agent 独立沙箱、受治理的出站流量和端到端加密的 Agent 间通信。
 - [Pullrun](https://github.com/pullrun/pullrun)：AI Agent 沙箱运行时，可在 Firecracker microVM、Linux 容器或 Apple Silicon VM 中启动 OCI 镜像，并原生支持 MCP。
+- [AgentENV](https://github.com/kvcache-ai/AgentENV)：用于大规模运行 Agent 环境的分布式平台，基于快照的 Firecracker 环境提供快速启动、暂停、分叉和兼容 E2B 的 API。
 - [AgentOS](https://github.com/rivet-dev/agentos)：基于 WebAssembly 和 V8 isolate 的库，可在现有后端中为 AI Agent 提供类似操作系统的运行时。
 - [Cua](https://github.com/trycua/cua)：开源 computer-use 基础设施，提供跨平台驱动、设备集群和基准测试，用于 Agent 训练、评估和数据生成。
 - [Apache Doris](https://github.com/apache/doris)：面向 AI Agent 和运维数据工作负载的实时分析与混合搜索数据库。
@@ -452,6 +454,7 @@
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)：轻量级 Python 多 Agent 工作流框架，提供工具调用、交接、护栏和面向追踪的运行时能力。
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk)：Apache-2.0 许可的 SDK，用于在 Python 和 TypeScript 中构建并控制跨模型、跨云的生产级 AI Agent Harness。
 - [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
+- [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)：面向循环工程的 Harness，可在桌面应用和终端中运行 Claude Code、Codex 与 DeepSeek Harness，并提供检查点、验证、恢复和长任务状态管理。
 - [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 
 ## DataOps
