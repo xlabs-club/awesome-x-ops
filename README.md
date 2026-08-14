@@ -311,6 +311,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 
 - [MetaMCP](https://github.com/metatool-ai/metamcp): Self-hosted MCP aggregator, orchestrator, middleware, and gateway for composing and governing tool servers.
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
+- [anydoc](https://github.com/firecrawl/anydoc): Fast Rust library with Node.js, Python, and WebAssembly bindings for converting office documents, PDFs, and other files into clean, LLM-ready Markdown.
 - [Crawl4AI](https://github.com/unclecode/crawl4ai): Open-source LLM-friendly web crawler and scraper for building RAG, agent, and web data pipelines.
 - [Jina Reader](https://github.com/jina-ai/reader): URL-to-LLM converter that turns any web page into clean, LLM-friendly Markdown with a simple prefix.
 - [Open SEO](https://github.com/every-app/open-seo): Open-source SEO and search intelligence platform for keyword research, site audits, backlink analysis, and Google Search Console MCP workflows.
@@ -372,6 +373,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes API and controller for managing isolated, stateful, singleton workloads such as AI agent runtimes.
 - [KARS](https://github.com/Azure/kars): Microsoft’s Kubernetes reference stack for running AI agents with hardened per-agent sandboxes, governed egress, and encrypted inter-agent communication.
 - [Pullrun](https://github.com/pullrun/pullrun): AI agent sandbox runtime that boots OCI images in Firecracker microVMs, Linux containers, or Apple Silicon VMs with native MCP support.
+- [AgentENV](https://github.com/kvcache-ai/AgentENV): Distributed platform for running large numbers of snapshot-backed Firecracker agent environments with fast startup, pause, fork, and E2B-compatible APIs.
 - [AgentOS](https://github.com/rivet-dev/agentos): Library that gives AI agents an operating-system-like runtime in an existing backend using WebAssembly and V8 isolates.
 - [Cua](https://github.com/trycua/cua): Open-source computer-use infrastructure with cross-platform drivers, fleets, and benchmarks for agent training, evaluation, and data generation.
 - [Apache Doris](https://github.com/apache/doris): Real-time analytics and hybrid-search database for AI agents and operational data workloads.
@@ -452,6 +454,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python): Lightweight Python framework for multi-agent workflows with tools, handoffs, guardrails, and tracing-oriented runtime patterns.
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk): Apache-2.0 SDK for building and controlling production AI-agent harnesses in Python and TypeScript across models and clouds.
 - [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
+- [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness): Loop-engineering harness for running Claude Code, Codex, and DeepSeek Harness across desktop apps and terminals with checkpoints, verification, recovery, and long-running task state.
 - [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 
 ## DataOps
