@@ -88,6 +88,8 @@
 - [agentacct](https://github.com/mikehasa/agentacct)：本地优先的终端仪表盘，将编码 Agent 会话用量与记录的工作步骤、检查结果、供应商限额和成本估算关联起来。
 - [agentglass](https://github.com/SirAllap/agentglass)：本地优先的控制台，可通过 hooks 或 OpenTelemetry 监控编码 Agent 会话、工具调用、Token、成本和延迟，并提供可选的审批控制。
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
+- [Agent Diff](https://github.com/agent-diff-bench/agent-diff)：提供第三方 API 的交互式沙箱副本，用于在无外部副作用的情况下对 AI Agent 进行确定性评估和强化学习实验。
+- [ClawLens](https://github.com/nk3750/clawlens)：面向 OpenClaw 的本地可观测性插件，提供工具调用审计日志、风险评分、实时会话和由运维人员控制的防护规则。
 - [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
 - [Kitaru](https://github.com/zenml-io/kitaru)：面向生产环境的 AI Agent 录制与回放工具，用于分析运行过程并改进 Agent 行为。

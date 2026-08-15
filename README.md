@@ -88,6 +88,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [agentacct](https://github.com/mikehasa/agentacct): Local-first terminal dashboard that joins coding-agent session usage with recorded work steps, checks, provider limits, and estimated cost.
 - [agentglass](https://github.com/SirAllap/agentglass): Local-first cockpit for monitoring coding-agent sessions, tool calls, tokens, costs, and latency through hooks or OpenTelemetry, with optional approval controls.
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
+- [Agent Diff](https://github.com/agent-diff-bench/agent-diff): Interactive, sandboxed replicas of third-party APIs for deterministic AI agent evaluation and reinforcement-learning experiments without external side effects.
+- [ClawLens](https://github.com/nk3750/clawlens): Local OpenClaw observability plugin with tool-call audit logs, risk scoring, live sessions, and operator-controlled guardrails.
 - [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.
 - [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
