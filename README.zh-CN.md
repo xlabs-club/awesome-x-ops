@@ -342,6 +342,7 @@
 - [Stagehand](https://github.com/browserbase/stagehand)：开源浏览器 Agent SDK，支持 AI 驱动的 Web 自动化、数据提取和大规模页面交互。
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding)：开源嵌入与重排序模型工具包（BGE 系列），为检索增强 LLM 应用提供核心能力。
 - [Open WebUI](https://github.com/open-webui/open-webui)：自托管的 LLM 对话界面，集成 RAG、Web 搜索、工具调用、模型管理和多用户部署能力，适用于内部 AI 平台。
+- [InsForge](https://github.com/InsForge/InsForge)：面向 Agentic Coding 的开源后端平台，提供数据库、身份认证、存储、计算、托管和 AI 网关，支持端到端构建全栈应用。
 - [Label Studio](https://github.com/HumanSignal/label-studio)：开源数据标注平台，支持图像、文本、音频、视频和时序数据标注，适用于 ML 和 LLM 训练工作流。
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
@@ -651,6 +652,8 @@
 - [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security)：为 Spring AI 的 MCP Client、Server 和授权服务器提供安全与授权支持，包括 OAuth 2.0 流程。
 - [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector)：Trail of Bits 的 MCP Server 安全包装器，提供配置固定、工具响应隔离和 Prompt 注入防护。
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器，用于在组件进入工作流前发现风险。
+- [Strix](https://github.com/usestrix/strix)：开源 AI 渗透测试工具，使用自主 Agent 发现并验证应用漏洞，并生成可复现的概念验证利用结果。
+- [Shannon](https://github.com/KeygraphHQ/shannon)：面向 Web 应用和 API 的自主 AI 渗透测试工具，将源码分析与真实利用验证结合起来，在漏洞进入生产环境前发现问题。
 
 ## Platform Engineering 平台工程
 

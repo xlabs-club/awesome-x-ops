@@ -342,6 +342,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Stagehand](https://github.com/browserbase/stagehand): Open-source SDK for building browser agents with AI-powered web automation, extraction, and interaction at scale.
 - [FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding): Open-source toolkit for embedding and reranking models (BGE series) powering retrieval-augmented LLM applications.
 - [Open WebUI](https://github.com/open-webui/open-webui): Self-hosted LLM chat interface with RAG, web search, tool integration, model management, and multi-user deployment for internal AI platforms.
+- [InsForge](https://github.com/InsForge/InsForge): Open-source backend platform for agentic coding that provides database, authentication, storage, compute, hosting, and an AI gateway for full-stack applications.
 - [Label Studio](https://github.com/HumanSignal/label-studio): Open-source data labeling platform for images, text, audio, video, and time series in ML and LLM training workflows.
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
@@ -651,6 +652,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Spring AI MCP Security](https://github.com/spring-ai-community/mcp-security): Spring AI security and authorization support for MCP clients, servers, and authorization servers, including OAuth 2.0 flows.
 - [mcp-context-protector](https://github.com/trailofbits/mcp-context-protector): Trail of Bits security wrapper for MCP servers with configuration pinning, tool-response quarantine, and prompt-injection defenses.
 - [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills, designed to catch risks before agent components enter a workflow.
+- [Strix](https://github.com/usestrix/strix): Open-source AI penetration-testing tool that uses autonomous agents to discover and validate application vulnerabilities with proof-of-concept exploits.
+- [Shannon](https://github.com/KeygraphHQ/shannon): Autonomous AI pentester for web applications and APIs that combines source analysis with live exploit validation before vulnerabilities reach production.
 
 ## Platform Engineering
 
