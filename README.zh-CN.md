@@ -487,8 +487,10 @@
 
 ### Streaming Operations 流式数据运维
 
+流式系统为遥测、RAG 刷新、用量计量和其他持续更新的运维数据流提供事件传输与分析基础。
+
 - [Kafbat UI](https://github.com/kafbat/kafka-ui)：开源 Web UI，用于管理 Apache Kafka 集群、Topic、消费者、Schema 和 Kafka Connect。
-- [Apache SeaTunnel](https://github.com/apache/seatunnel)：分布式数据集成平台，适合大规模批处理和流式数据传输。
+- [Apache SeaTunnel](https://github.com/apache/seatunnel)：分布式数据集成平台，支持高吞吐批处理和流式数据传输。
 
 ## FinOps
 
