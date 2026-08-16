@@ -90,6 +90,7 @@
 - [agentacct](https://github.com/mikehasa/agentacct)：本地优先的终端仪表盘，将编码 Agent 会话用量与记录的工作步骤、检查结果、供应商限额和成本估算关联起来。
 - [agentglass](https://github.com/SirAllap/agentglass)：本地优先的控制台，可通过 hooks 或 OpenTelemetry 监控编码 Agent 会话、工具调用、Token、成本和延迟，并提供可选的审批控制。
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
+- [Langfuse MCP Server](https://github.com/avivsinai/langfuse-mcp)：面向 MCP Client 和 Agent Skill 的 Langfuse 连接器，可查询 trace、调试 Agent 运行、检查会话，并在 AI 编码客户端中管理 Prompt。
 - [Agent Diff](https://github.com/agent-diff-bench/agent-diff)：提供第三方 API 的交互式沙箱副本，用于在无外部副作用的情况下对 AI Agent 进行确定性评估和强化学习实验。
 - [ClawLens](https://github.com/nk3750/clawlens)：面向 OpenClaw 的本地可观测性插件，提供工具调用审计日志、风险评分、实时会话和由运维人员控制的防护规则。
 - [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
@@ -115,6 +116,7 @@
 - [LLMIO](https://github.com/atopos31/llmio)：基于 Go 的 LLM 网关，支持按权重路由供应商、管理控制台、请求追踪、延迟与 Token 指标、成本统计和故障处理。
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway)：零信任、兼容 OpenAI API 的网关，支持基于身份的访问控制、语义路由，以及在托管和自托管模型供应商之间负载均衡。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
+- [Braintrust AI Proxy](https://github.com/braintrustdata/braintrust-proxy)：可自托管的统一 AI 模型代理，提供跨供应商访问、响应缓存和请求可观测性接入能力。
 - [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg)：高性能、引擎无关的 LLM 网关，支持缓存感知路由、HTTP/gRPC Worker、多租户控制、MCP，以及 OpenTelemetry 指标和链路追踪。
 - [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关，支持 OpenAI 和 Anthropic 兼容 API、供应商路由、故障转移、可观测性、成本追踪和多租户控制。
 - [Traceloop Hub](https://github.com/traceloop/hub)：基于 Rust 的高性能 LLM 网关，提供统一供应商 API、OpenTelemetry 链路、Prometheus 指标和可配置请求流水线。

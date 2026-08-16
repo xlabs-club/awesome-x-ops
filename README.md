@@ -90,6 +90,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [agentacct](https://github.com/mikehasa/agentacct): Local-first terminal dashboard that joins coding-agent session usage with recorded work steps, checks, provider limits, and estimated cost.
 - [agentglass](https://github.com/SirAllap/agentglass): Local-first cockpit for monitoring coding-agent sessions, tool calls, tokens, costs, and latency through hooks or OpenTelemetry, with optional approval controls.
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
+- [Langfuse MCP Server](https://github.com/avivsinai/langfuse-mcp): MCP server and agent skill for querying Langfuse traces, debugging agent runs, inspecting sessions, and managing prompts from AI coding clients.
 - [Agent Diff](https://github.com/agent-diff-bench/agent-diff): Interactive, sandboxed replicas of third-party APIs for deterministic AI agent evaluation and reinforcement-learning experiments without external side effects.
 - [ClawLens](https://github.com/nk3750/clawlens): Local OpenClaw observability plugin with tool-call audit logs, risk scoring, live sessions, and operator-controlled guardrails.
 - [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
@@ -115,6 +116,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLMIO](https://github.com/atopos31/llmio): Go-based LLM gateway with weighted provider routing, an admin UI, request tracing, latency and token metrics, cost tracking, and failure handling.
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway): Zero-trust, OpenAI-compatible gateway with identity-based access, semantic routing, and load balancing across hosted and self-hosted model providers.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
+- [Braintrust AI Proxy](https://github.com/braintrustdata/braintrust-proxy): Self-hostable unified AI model proxy with provider-neutral access, response caching, and request observability hooks.
 - [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg): High-performance, engine-agnostic LLM gateway with cache-aware routing, HTTP/gRPC workers, multi-tenant controls, MCP support, and OpenTelemetry metrics and traces.
 - [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway with OpenAI and Anthropic-compatible APIs, provider routing, failover, observability, cost tracking, and multi-tenant controls.
 - [Traceloop Hub](https://github.com/traceloop/hub): High-performance Rust LLM gateway with a unified provider API, OpenTelemetry traces, Prometheus metrics, and configurable request pipelines.
