@@ -64,6 +64,8 @@
 
 **网关选择建议：** 选择能够覆盖供应商抽象、路由策略、配额、重试和审计的最小控制面。上线前确认流式响应、超时与故障转移语义、租户隔离、密钥轮换、成本归因，以及上游供应商降级时仍然有用的指标或 trace。
 
+**回归门禁：** 在 CI 中维护一组小而有版本控制的评估集，分别比较检索质量与回答质量，并在修改 Prompt、模型、检索器或网关策略前定义回滚阈值。“Demo 里看起来不错”不是发布策略。
+
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
