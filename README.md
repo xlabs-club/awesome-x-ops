@@ -487,6 +487,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 ### Streaming Operations
 
+Streaming systems provide the event transport and analytics foundation for telemetry, RAG refreshes, usage metering, and other continuously updated operational data flows.
+
 - [Kafbat UI](https://github.com/kafbat/kafka-ui): Open-source web UI for managing Apache Kafka clusters, topics, consumers, schemas, and Kafka Connect.
 - [Apache SeaTunnel](https://github.com/apache/seatunnel): Distributed data integration platform for high-volume batch and streaming data movement.
 
