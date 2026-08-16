@@ -62,6 +62,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 **Gateway boundary:** Treat routing, rate limits, budgets, retries, and provider failover as gateway concerns; keep tracing, evaluation, and prompt or response analysis here only when they are the tool’s primary operational purpose. This avoids counting one gateway as three observability platforms with different hats.
 
+**Gateway selection guidance:** Choose the smallest control surface that covers provider abstraction, routing policy, quotas, retries, and auditability. Before production rollout, verify streaming behavior, timeout and fallback semantics, tenant isolation, secret rotation, cost attribution, and metrics or traces that remain useful when an upstream provider is degraded.
+
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.

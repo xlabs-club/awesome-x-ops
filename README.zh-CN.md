@@ -62,6 +62,8 @@
 
 **网关边界：** 路由、限流、预算、重试和供应商故障转移应归入网关职责；只有当追踪、评估以及 Prompt/响应分析是工具的主要运维目的时，才放在本节。这样可以避免同一个网关换三顶帽子后被重复算成三个可观测平台。
 
+**网关选择建议：** 选择能够覆盖供应商抽象、路由策略、配额、重试和审计的最小控制面。上线前确认流式响应、超时与故障转移语义、租户隔离、密钥轮换、成本归因，以及上游供应商降级时仍然有用的指标或 trace。
+
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
