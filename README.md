@@ -625,11 +625,13 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent threats, with executable rules covering prompt injection, tool abuse, data exfiltration, and related attack categories.
+- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that helps identify risky behavior before skills are deployed.
 - [Crust](https://github.com/BakeLens/crust): Local AI-agent security gateway that intercepts tool calls and MCP/ACP traffic to block dangerous actions, scan secrets, and enforce runtime rules.
 - [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
 - [Sage](https://github.com/gendigitalinc/sage): Lightweight Agent Detection & Response layer that guards AI-agent commands, files, and web requests.
 - [Doberman](https://github.com/fu351/Doberman-Core): Runtime guardrails and adaptive authorization for AI coding agents, with MCP or host-hook enforcement, approvals, audit logs, and fail-closed policy decisions.
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary): Sandboxed framework for evaluating AI agent security in realistic tool-using workflows, with trajectory-based scoring across safety, awareness, and task utility.
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating attacks and defenses against LLM agents in realistic tool-use workflows.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
@@ -638,7 +640,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway): Apache-licensed AI and MCP security gateway for HTTP access control, policy enforcement, and web application firewall integration.
 - [Semia](https://github.com/berabuddies/Semia): Security audit tool for AI agent skills that checks skill packages for suspicious behavior and security risks.
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse): Sandbox for local AI agents that limits filesystem access to only the paths they need.
-- [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating prompt-injection attacks and defenses in tool-using LLM agents.
 - [SCAM](https://github.com/1Password/SCAM): Open-source benchmark that tests whether AI agents recognize and report security threats during realistic, multi-turn workplace tasks.
 - [nono](https://github.com/nolabs-ai/nono): Zero-setup, least-privilege sandbox for running AI agents and the tools they invoke across macOS, Linux, and Windows WSL2.
 - [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
@@ -648,7 +649,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
-- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that detects malicious patterns, vulnerabilities, and other risks before skills are used.
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
 - [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
 - [OpenHack](https://github.com/openhackai/OpenHack): Open-source agentic security scanner and verifier for finding and validating vulnerabilities in codebases with open-source models.

@@ -625,11 +625,13 @@
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 威胁的开放检测规则标准，提供覆盖 Prompt 注入、工具滥用、数据外泄等攻击类别的可执行规则。
+- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，用于在 Skill 部署前发现高风险行为。
 - [Crust](https://github.com/BakeLens/crust)：本地 AI Agent 安全网关，可拦截工具调用及 MCP/ACP 流量，阻止危险操作、扫描 Secret 并执行运行时规则。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
 - [Sage](https://github.com/gendigitalinc/sage)：轻量级 Agent Detection & Response 层，用于保护 AI Agent 的命令、文件和 Web 请求。
 - [Doberman](https://github.com/fu351/Doberman-Core)：面向 AI 编码 Agent 的运行时护栏与自适应授权工具，通过 MCP 或主机 Hook 在执行前实施策略，提供审批、审计日志和默认拒绝机制。
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于在真实工具调用工作流中评估 LLM Agent 攻击与防御能力的动态环境。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：面向企业 Agent 操作授权的框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
@@ -638,7 +640,6 @@
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway)：基于 Apache 许可证的 AI 与 MCP 安全网关，支持 HTTP 访问控制、策略执行和 Web 应用防火墙集成。
 - [Semia](https://github.com/berabuddies/Semia)：AI Agent Skill 安全审计工具，用于检查 Skill 包中的可疑行为和安全风险。
 - [Agent Safehouse](https://github.com/eugene1g/agent-safehouse)：本地 AI Agent 沙箱，只允许 Agent 访问所需的文件系统路径。
-- [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于评估工具调用型 LLM Agent 中 Prompt 注入攻击与防御的动态环境。
 - [SCAM](https://github.com/1Password/SCAM)：开源基准测试工具，用于检验 AI Agent 能否在真实、多轮办公任务中识别并报告安全威胁。
 - [nono](https://github.com/nolabs-ai/nono)：零配置、最小权限的 AI Agent 沙箱，可在 macOS、Linux 和 Windows WSL2 上隔离运行 Agent 及其调用的工具。
 - [Pipelock](https://github.com/luckyPipewrench/pipelock)：开源 AI Agent 防火墙，可检查 MCP、A2A、HTTP 和 WebSocket 出站流量，识别 Prompt 注入、SSRF、Secret 泄露和高风险工具调用链。
@@ -648,7 +649,6 @@
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
-- [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，可在使用 Skill 前检测恶意模式、漏洞和其他风险。
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OpenHack](https://github.com/openhackai/OpenHack)：开源 Agent 安全扫描与验证工具，使用开源模型在代码库中发现并验证安全漏洞。
