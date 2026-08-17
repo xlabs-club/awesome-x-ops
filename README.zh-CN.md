@@ -652,6 +652,8 @@
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
 - [OpenHack](https://github.com/openhackai/OpenHack)：开源 Agent 安全扫描与验证工具，使用开源模型在代码库中发现并验证安全漏洞。
+- [AgentStalker](https://github.com/Gach0ng/AgentStalker)：端到端 LLM Agent 安全审计框架，结合静态建模、攻击合成、沙箱回放、MCP 审计和基于证据的报告。
+- [Agent Security Bench (ASB)](https://github.com/agiresearch/ASB)：用于系统评估 LLM Agent 对抗性攻击与防御策略的研究基准和攻击框架，覆盖多类 Agent 场景。
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard)：OWASP 项目，为可信 AI Agent 定义可检查、可追踪和可插桩的可观测性实践。
 - [Agent Security Harness](https://github.com/msaleme/red-team-blue-team-agent-fabric)：面向 AI Agent 的可执行安全测试框架，覆盖 MCP、A2A、工具使用治理和 Agent 供应链场景。
 - [Rogue](https://github.com/qualifire-dev/rogue)：面向 AI Agent 的评估与红队平台，支持回归测试、策略校验、对抗性探测和跨 Agent 协议的安全报告。
