@@ -310,6 +310,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Flawless](https://github.com/William-Lu-stack/Flawless): AI-native SRE control plane for Kubernetes and cloud infrastructure, connecting evidence, human approval, controlled remediation, rollback, and recovery verification in an auditable loop.
 - [Nudgebee](https://github.com/nudgebee/nudgebee): Open-source SRE copilot for Kubernetes and major clouds, combining observability, FinOps, runbook automation, incident response, and ChatOps workflows.
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab): Holistic framework for designing, developing, and evaluating autonomous AIOps agents against reproducible operations scenarios.
+- [SREGym](https://github.com/SREGym/SREGym): Benchmark and experimentation framework for evaluating whether AI agents can diagnose and resolve production incidents in reproducible SRE environments.
 
 ## AI Infrastructure
 
@@ -543,6 +544,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Foglamp](https://github.com/foglamp-labs/foglamp): Apache-2.0 self-hosted observability layer for the Vercel AI SDK, covering token usage, cost, latency, traces, and prompt or response logs.
 - [HUATUO](https://github.com/ccfos/huatuo): Apache-2.0 eBPF-based observability for Linux kernels, AI-agent sandboxes, and heterogeneous infrastructure, with automatic tracing and continuous profiling.
 - [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus): Self-hosted management panel and AI gateway observability dashboard for request history, usage, cost, quotas, failures, and account health.
+- [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot): Local-first OpenTelemetry collector for coding-agent events from Claude Code, Codex, Cursor, and other clients, including token, cost, trace, and security-audit telemetry.
 
 ## Kubernetes Operations
 
@@ -580,6 +582,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
+- [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator): Kubernetes operator for deploying and managing OpenClaw AI agent instances with security, observability, and lifecycle controls.
 
 ## Security and Supply Chain
 
