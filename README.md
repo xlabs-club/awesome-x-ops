@@ -624,6 +624,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom): Kubernetes controller that generates CycloneDX ML-BOM documents for AI workloads with traceable runtime evidence.
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
+- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent threats, with executable rules covering prompt injection, tool abuse, data exfiltration, and related attack categories.
 - [Crust](https://github.com/BakeLens/crust): Local AI-agent security gateway that intercepts tool calls and MCP/ACP traffic to block dangerous actions, scan secrets, and enforce runtime rules.
 - [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
 - [Sage](https://github.com/gendigitalinc/sage): Lightweight Agent Detection & Response layer that guards AI-agent commands, files, and web requests.
@@ -644,7 +645,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
 - [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner): MIT-licensed scanner for testing RAG and LLM applications against prompt injection, data leakage, function abuse, and context manipulation.
-- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent security threats, covering prompt injection, MCP risks, tool abuse, and related behaviors.
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.
 - [Tirith](https://github.com/sheeki03/tirith): Terminal security tool for developers and AI agents that intercepts homograph URLs, pipe-to-shell, ANSI injection, obfuscated payloads, and data exfiltration before execution.
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.

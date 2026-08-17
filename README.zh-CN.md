@@ -624,6 +624,7 @@
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom)：Kubernetes 控制器，可为 AI 工作负载生成 CycloneDX ML-BOM，并提供可追溯的运行时证据。
 - [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
+- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 威胁的开放检测规则标准，提供覆盖 Prompt 注入、工具滥用、数据外泄等攻击类别的可执行规则。
 - [Crust](https://github.com/BakeLens/crust)：本地 AI Agent 安全网关，可拦截工具调用及 MCP/ACP 流量，阻止危险操作、扫描 Secret 并执行运行时规则。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
 - [Sage](https://github.com/gendigitalinc/sage)：轻量级 Agent Detection & Response 层，用于保护 AI Agent 的命令、文件和 Web 请求。
@@ -644,7 +645,6 @@
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar)：面向 Agent 工作流的安全扫描器，可可视化工具与 MCP Server，并将发现的漏洞映射到安全框架。
 - [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
 - [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner)：基于 MIT 许可的扫描器，用于测试 RAG 与 LLM 应用中的 Prompt 注入、数据泄露、函数滥用和上下文操纵风险。
-- [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 安全威胁的开源检测规则标准，覆盖 Prompt 注入、MCP 风险、工具滥用等行为。
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
 - [Tirith](https://github.com/sheeki03/tirith)：面向开发者和 AI Agent 的终端安全工具，在执行前拦截同形异义 URL、管道注入、ANSI 注入、混淆载荷和数据泄露。
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
