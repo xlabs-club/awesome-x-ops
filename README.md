@@ -652,6 +652,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
 - [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
 - [OpenHack](https://github.com/openhackai/OpenHack): Open-source agentic security scanner and verifier for finding and validating vulnerabilities in codebases with open-source models.
+- [AgentStalker](https://github.com/Gach0ng/AgentStalker): End-to-end LLM agent security audit framework combining static modeling, attack synthesis, sandbox replay, MCP auditing, and evidence-backed reports.
+- [Agent Security Bench (ASB)](https://github.com/agiresearch/ASB): Research benchmark and attack framework for systematically evaluating adversarial attacks and defenses across LLM-based agent scenarios.
 - [OWASP Agent Observability Standard](https://github.com/OWASP/www-project-agent-observability-standard): OWASP project defining inspectable, traceable, and instrumentable observability practices for trustworthy AI agents.
 - [Agent Security Harness](https://github.com/msaleme/red-team-blue-team-agent-fabric): Executable security-testing harness for AI agents covering MCP, A2A, tool-use governance, and agentic supply-chain scenarios.
 - [Rogue](https://github.com/qualifire-dev/rogue): AI agent evaluation and red-team platform for regression testing, policy validation, adversarial probing, and security reporting across agent protocols.
