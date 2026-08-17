@@ -310,6 +310,7 @@
 - [Flawless](https://github.com/William-Lu-stack/Flawless)：面向 Kubernetes 和云基础设施的 AI 原生 SRE 控制平面，将证据收集、人机审批、受控修复、回滚和恢复验证连接成可审计闭环。
 - [Nudgebee](https://github.com/nudgebee/nudgebee)：面向 Kubernetes 和主流云平台的开源 SRE Copilot，整合可观测性、FinOps、Runbook 自动化、事件响应和 ChatOps 工作流。
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab)：用于设计、开发和评估自主 AIOps Agent 的综合框架，支持在可复现场景中验证运维能力。
+- [SREGym](https://github.com/SREGym/SREGym)：用于评估 AI Agent 能否在可复现 SRE 环境中诊断并解决生产事故的基准测试与实验框架。
 
 ## AI 基础设施
 
@@ -543,6 +544,7 @@
 - [Foglamp](https://github.com/foglamp-labs/foglamp)：基于 Apache-2.0 许可、可自托管的 Vercel AI SDK 可观测性层，覆盖 Token 用量、成本、延迟、trace 以及 Prompt 和响应日志。
 - [HUATUO](https://github.com/ccfos/huatuo)：基于 Apache-2.0 许可的 eBPF 可观测性工具，面向 Linux 内核、AI Agent 沙箱和异构基础设施，支持自动追踪与持续性能剖析。
 - [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus)：可自托管的管理面板与 AI 网关可观测性仪表盘，支持请求历史、用量、成本、配额、失败分析和账户健康度。
+- [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot)：本地优先的 OpenTelemetry Collector，可采集 Claude Code、Codex、Cursor 等编码 Agent 的事件，以及 Token、成本、Trace 和安全审计遥测数据。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -580,6 +582,7 @@
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
+- [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator)：用于在 Kubernetes 上部署和管理 OpenClaw AI Agent 实例的 Operator，提供安全、可观测性和生命周期控制。
 
 ## Security and Supply Chain 安全与供应链
 
