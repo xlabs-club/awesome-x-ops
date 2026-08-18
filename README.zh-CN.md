@@ -230,6 +230,7 @@
 - [AgentEval](https://github.com/canwhite/AgentEval)：AI Agent 评估框架，用于在可重复场景中测试工具调用、任务完成度和 Agent 行为。
 - [Bananalyzer](https://github.com/reworkd/bananalyzer)：开源 AI Agent Web 任务评估框架，提供可复现的测试环境和结果分析能力。
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。
+- [Nexent](https://github.com/ModelEngine-Group/nexent)：零代码平台，用于生成面向生产的 AI Agent，提供受治理的工具、技能、记忆、编排、反馈闭环和控制平面。
 - [numbat](https://github.com/perplexityai/numbat)：面向本地端点的 AI Agent 活动可见性工具，支持基于 Hook 的监控、CEL 检测、可选的执行前拦截和取证重建。
 
 ## AI Serving and Inference Operations AI 推理服务运维
