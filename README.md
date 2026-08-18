@@ -238,6 +238,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 
 **Selection guidance:** Separate the serving engine from the control plane: choose engines for throughput, latency, batching, and hardware support; choose operators and gateways for rollout safety, routing, quotas, autoscaling, and telemetry. Prefer projects with reproducible benchmarks and an explicit upgrade or rollback path.
 
+**Rollout gate:** Before shifting production traffic, record a baseline for throughput, tail latency, error rate, GPU utilization, and cost per request; canary model and runtime changes with representative prompts; and keep the previous artifact and routing policy ready for rollback. A faster token/sec number is not a release if the p99 or failure recovery got worse.
+
 - [GenAI Factory](https://github.com/GoogleCloudPlatform/genai-factory): Production-oriented blueprints for deploying generative AI infrastructure on Google Cloud with infrastructure as code and security best practices.
 - [GenAI on EKS Starter Kit](https://github.com/aws-samples/sample-genai-on-eks-starter-kit): Kubernetes deployment blueprint combining an AI gateway, LLM serving, vector databases, embedding models, and observability on Amazon EKS.
 - [Ray Serve](https://github.com/ray-project/ray): Scalable model serving library in Ray for building distributed online inference APIs and LLM serving workloads.

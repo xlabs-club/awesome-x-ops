@@ -238,6 +238,8 @@
 
 **选择建议：** 区分推理引擎与控制平面：推理引擎重点看吞吐、延迟、批处理和硬件支持；Operator 与网关重点看发布安全、路由、配额、自动扩缩容和遥测能力。优先选择提供可复现基准，以及明确升级和回滚路径的项目。
 
+**发布门禁：** 切换生产流量前，记录吞吐、尾延迟、错误率、GPU 利用率和单请求成本基线；用有代表性的 Prompt 对模型与运行时变更做金丝雀发布；并保留上一版制品和路由策略以便回滚。tokens/sec 更高不代表可以发布——如果 p99 或故障恢复变差，性能数字只是穿了西装的回归。
+
 - [GenAI Factory](https://github.com/GoogleCloudPlatform/genai-factory)：面向生产的生成式 AI 基础设施蓝图，使用基础设施即代码在 Google Cloud 上部署，并遵循安全最佳实践。
 - [GenAI on EKS Starter Kit](https://github.com/aws-samples/sample-genai-on-eks-starter-kit)：面向 Amazon EKS 的 Kubernetes 部署蓝图，整合 AI 网关、LLM 服务、向量数据库、Embedding 模型和可观测性组件。
 - [Ray Serve](https://github.com/ray-project/ray)：Ray 中的可扩展模型服务库，用于构建分布式在线推理 API 和 LLM 服务负载。
