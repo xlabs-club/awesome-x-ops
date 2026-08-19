@@ -390,6 +390,10 @@
 - [AgentOS](https://github.com/rivet-dev/agentos)：基于 WebAssembly 和 V8 isolate 的库，可在现有后端中为 AI Agent 提供类似操作系统的运行时。
 - [Cua](https://github.com/trycua/cua)：开源 computer-use 基础设施，提供跨平台驱动、设备集群和基准测试，用于 Agent 训练、评估和数据生成。
 - [Apache Doris](https://github.com/apache/doris)：面向 AI Agent 和运维数据工作负载的实时分析与混合搜索数据库。
+- [Dormice](https://github.com/BitMiracle-AI/Dormice)：自托管、兼容 E2B 的 Agent 沙箱运行时，沙箱可持久存在且空闲零成本。
+- [Agent-Sandbox](https://github.com/agent-sandbox/agent-sandbox)：企业级 AI Agent 沙箱平台，支持安全执行不可信的 LLM 生成代码、Browser Use 和 Computer Use。
+- [OpenKruise Agents](https://github.com/openkruise/agents)：Kubernetes Operator 与最佳实践指南，用于大规模、快速且低成本的 Agent 沙箱生命周期管理。
+- [ArtifactFS](https://github.com/cloudflare/artifact-fs)：FUSE 文件系统驱动，可即时挂载大型 Git 仓库并按需加载文件内容，消除 Agent、沙箱和容器的克隆延迟。
 
 ## LLM 知识库
 
@@ -732,6 +736,7 @@
 - [VibeKit](https://github.com/superagent-ai/vibekit)：编码 Agent 的安全层，提供隔离沙箱、敏感数据脱敏和内置执行可观测性。
 - [CodeBurn](https://github.com/getagentseal/codeburn)：免费本地工具，可追踪 31 种 AI 编码工具和 Agent 的 Token 用量与成本，按模型、项目、任务和客户端维度拆分。
 - [Sourcery](https://github.com/sourcery-ai/sourcery)：即时 AI 代码审查工具，可为 Pull Request 和代码变更提供自动化反馈。
+- [Kodus](https://github.com/kodustech/kodus-ai)：开源 AI 代码审查 Agent，可完全控制模型选择和成本，支持多供应商 LLM 和企业级部署。
 - [h5i](https://github.com/h5i-dev/h5i)：Apache-2.0 许可的 AI 编码 Agent 可审计工作区平台，提供隔离 Git worktree、多 Agent 编排、Prompt 与上下文追踪、评审门禁和高效日志压缩。
 
 ### Developer Environments 开发环境
