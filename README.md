@@ -426,6 +426,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [R2R](https://github.com/sciphi-ai/r2r): Production-ready AI retrieval system with agentic RAG and a RESTful API for enterprise knowledge workflows.
 - [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): RAG and Agent application platform based on LangChain and local LLMs such as ChatGLM, Qwen, and Llama with knowledge base management.
 - [Semantica](https://github.com/semantica-agi/semantica): Graph-native infrastructure for connecting context, knowledge, and accountable evidence in AI systems.
+- [Cognee](https://github.com/topoteretes/cognee): Open-source AI memory platform that gives agents persistent long-term memory through a self-hosted knowledge graph and vector database engine.
+- [OpenViking](https://github.com/volcengine/OpenViking): Self-evolving context database for AI agents that unifies agent memory, knowledge RAG, and skills into a single retrieval surface.
 
 ## Agentic Workflow
 
@@ -496,6 +498,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [dbt](https://github.com/dbt-labs/dbt-core): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
 - [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
 - [Flyte](https://github.com/flyteorg/flyte): Scalable AI and data orchestration platform for building reproducible, declarative ML pipelines with strong typing and Kubernetes-native execution.
+- [Airbyte](https://github.com/airbytehq/airbyte): Open-source data integration platform for building ELT pipelines from APIs, databases, and files to warehouses, lakes, and AI applications.
 
 ### Streaming Operations
 
@@ -683,6 +686,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Shannon](https://github.com/KeygraphHQ/shannon): Autonomous AI pentester for web applications and APIs that combines source analysis with live exploit validation before vulnerabilities reach production.
 - [Pentest AI](https://github.com/0xSteph/pentest-ai): Open-source AI pentester that validates every finding with machine oracles, shipping replayable proof capsules for verified vulnerabilities.
 - [Akto](https://github.com/akto-api-security/akto): Open-source AI security platform for testing and securing AI agents, MCP servers, LLM integrations, and GenAI applications against API-level threats.
+- [Prompt Injection Defenses](https://github.com/tldrsec/prompt-injection-defenses): Comprehensive guide cataloging every practical and proposed defense against prompt injection attacks on LLM systems.
+- [AIRT](https://github.com/0x4D31/airt): Free, open-source AI red teaming course with hands-on Docker labs covering adversarial testing and security evaluation of LLM systems.
 
 ## Platform Engineering
 

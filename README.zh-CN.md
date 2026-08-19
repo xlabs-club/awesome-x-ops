@@ -426,6 +426,8 @@
 - [R2R](https://github.com/sciphi-ai/r2r)：生产就绪的 AI 检索系统，支持 Agentic RAG 和 RESTful API，适合企业级知识工作流。
 - [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)：基于 LangChain 和 ChatGLM、Qwen、Llama 等本地 LLM 的 RAG 与 Agent 应用平台，支持知识库管理。
 - [Semantica](https://github.com/semantica-agi/semantica)：面向 AI 系统的图原生基础设施，用于连接上下文、知识与可审计的证据。
+- [Cognee](https://github.com/topoteretes/cognee)：开源 AI 记忆平台，通过自托管知识图谱和向量数据库引擎为 Agent 提供跨会话的持久长期记忆。
+- [OpenViking](https://github.com/volcengine/OpenViking)：面向 AI Agent 的自进化上下文数据库，将 Agent 记忆、知识 RAG 和技能统一到一个检索入口。
 
 ## Agentic Workflow 智能体工作流
 
@@ -496,6 +498,7 @@
 - [dbt](https://github.com/dbt-labs/dbt-core)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
 - [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
 - [Flyte](https://github.com/flyteorg/flyte)：可扩展的 AI 与数据编排平台，使用强类型和 Kubernetes 原生执行构建可复现的声明式机器学习流水线。
+- [Airbyte](https://github.com/airbytehq/airbyte)：开源数据集成平台，用于构建从 API、数据库和文件到数据仓库、数据湖及 AI 应用的 ELT 流水线。
 
 ### Streaming Operations 流式数据运维
 
@@ -683,6 +686,8 @@
 - [Shannon](https://github.com/KeygraphHQ/shannon)：面向 Web 应用和 API 的自主 AI 渗透测试工具，将源码分析与真实利用验证结合起来，在漏洞进入生产环境前发现问题。
 - [Pentest AI](https://github.com/0xSteph/pentest-ai)：开源 AI 渗透测试工具，使用机器预言机验证每个发现，为已确认漏洞输出可重放的验证胶囊。
 - [Akto](https://github.com/akto-api-security/akto)：开源 AI 安全平台，用于测试和保障 AI Agent、MCP 服务器、LLM 集成和 GenAI 应用免受 API 层面威胁。
+- [Prompt Injection Defenses](https://github.com/tldrsec/prompt-injection-defenses)：全面的 Prompt 注入防御指南，系统梳理了针对 LLM 系统的各类实用和理论防御方案。
+- [AIRT](https://github.com/0x4D31/airt)：免费开源的 AI 红队课程，包含动手 Docker 实验环境，覆盖 LLM 系统的对抗性测试和安全评估。
 
 ## Platform Engineering 平台工程
 
