@@ -390,6 +390,10 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [AgentOS](https://github.com/rivet-dev/agentos): Library that gives AI agents an operating-system-like runtime in an existing backend using WebAssembly and V8 isolates.
 - [Cua](https://github.com/trycua/cua): Open-source computer-use infrastructure with cross-platform drivers, fleets, and benchmarks for agent training, evaluation, and data generation.
 - [Apache Doris](https://github.com/apache/doris): Real-time analytics and hybrid-search database for AI agents and operational data workloads.
+- [Dormice](https://github.com/BitMiracle-AI/Dormice): Self-hosted, E2B-compatible agent sandbox runtime where sandboxes persist indefinitely and idle costs nothing.
+- [Agent-Sandbox](https://github.com/agent-sandbox/agent-sandbox): Enterprise-grade sandbox platform for AI agents, supporting secure execution of untrusted LLM-generated code, browser use, and computer use.
+- [OpenKruise Agents](https://github.com/openkruise/agents): Kubernetes operator and best-practice guide for rapid, cost-effective agent sandbox lifecycle management at scale.
+- [ArtifactFS](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver that mounts large git repos instantly with on-demand hydration, eliminating clone latency for agents, sandboxes, and containers.
 
 ## LLM Knowledge
 
@@ -732,6 +736,7 @@ A curated technology stack and toolchain for platform engineering.
 - [VibeKit](https://github.com/superagent-ai/vibekit): Safety layer for coding agents that provides isolated sandboxes, sensitive-data redaction, and built-in execution observability.
 - [CodeBurn](https://github.com/getagentseal/codeburn): Free local tool for tracking AI coding token usage and cost across 31 tools and agents, with breakdowns by model, project, task, and client.
 - [Sourcery](https://github.com/sourcery-ai/sourcery): Instant AI code review tool that provides automated feedback on pull requests and changes.
+- [Kodus](https://github.com/kodustech/kodus-ai): Open-source AI code review agent with full control over model choice and costs, supporting multi-provider LLMs and enterprise-grade deployment.
 - [h5i](https://github.com/h5i-dev/h5i): Apache-2.0 platform for auditable AI coding-agent workspaces, with sandboxed Git worktrees, multi-agent orchestration, prompt and context tracking, review gates, and token-efficient logs.
 
 ### Developer Environments
