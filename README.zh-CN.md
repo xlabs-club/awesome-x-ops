@@ -232,6 +232,9 @@
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko)：AI Agent 开发控制平面，支持注册、部署、路由、健康监控、可观测性和生命周期运维。
 - [Nexent](https://github.com/ModelEngine-Group/nexent)：零代码平台，用于生成面向生产的 AI Agent，提供受治理的工具、技能、记忆、编排、反馈闭环和控制平面。
 - [numbat](https://github.com/perplexityai/numbat)：面向本地端点的 AI Agent 活动可见性工具，支持基于 Hook 的监控、CEL 检测、可选的执行前拦截和取证重建。
+- [continuous-eval](https://github.com/relari-ai/continuous-eval)：开源数据驱动评估框架，面向 LLM 应用提供检索、生成和端到端流水线质量指标。
+- [UQLM](https://github.com/cvs-health/uqlm)：Apache-2.0 许可的 LLM 不确定性量化 Python 包，用于在生产 Agent 工作流中检测幻觉和低置信度输出。
+- [APIPark](https://github.com/APIParkLab/APIPark)：云原生 AI 与 API 网关，提供统一 LLM 提供商管理、请求路由、负载均衡、多模型灾备、用量分析和 API 治理。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -473,6 +476,7 @@
 - [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)：面向循环工程的 Harness，可在桌面应用和终端中运行 Claude Code、Codex 与 DeepSeek Harness，并提供检查点、验证、恢复和长任务状态管理。
 - [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
+- [Ouroboros](https://github.com/Q00/ouroboros)：自进化 Agent OS，提供面试门控的分阶段评估和预算化进化循环，支持 Claude Code、Codex、Gemini CLI 等 13 种编码 Agent 运行时。
 
 ## DataOps
 
@@ -677,6 +681,8 @@
 - [Agent Scan](https://github.com/snyk/agent-scan)：面向 AI Agent、MCP Server 和 Agent Skill 的安全扫描器，用于在组件进入工作流前发现风险。
 - [Strix](https://github.com/usestrix/strix)：开源 AI 渗透测试工具，使用自主 Agent 发现并验证应用漏洞，并生成可复现的概念验证利用结果。
 - [Shannon](https://github.com/KeygraphHQ/shannon)：面向 Web 应用和 API 的自主 AI 渗透测试工具，将源码分析与真实利用验证结合起来，在漏洞进入生产环境前发现问题。
+- [Pentest AI](https://github.com/0xSteph/pentest-ai)：开源 AI 渗透测试工具，使用机器预言机验证每个发现，为已确认漏洞输出可重放的验证胶囊。
+- [Akto](https://github.com/akto-api-security/akto)：开源 AI 安全平台，用于测试和保障 AI Agent、MCP 服务器、LLM 集成和 GenAI 应用免受 API 层面威胁。
 
 ## Platform Engineering 平台工程
 

@@ -232,6 +232,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Nasiko](https://github.com/Nasiko-Labs/nasiko): AI agent developer control plane for registry, deployment, routing, health monitoring, observability, and lifecycle operations.
 - [Nexent](https://github.com/ModelEngine-Group/nexent): Zero-code platform for generating production-oriented AI agents with governed tools, skills, memory, orchestration, feedback loops, and control planes.
 - [numbat](https://github.com/perplexityai/numbat): Local endpoint visibility for AI agent activity with hook-based monitoring, CEL detections, optional pre-action blocking, and forensic reconstruction.
+- [continuous-eval](https://github.com/relari-ai/continuous-eval): Open-source data-driven evaluation framework for LLM-powered applications, covering retrieval, generation, and end-to-end pipeline quality metrics.
+- [UQLM](https://github.com/cvs-health/uqlm): Apache-2.0 Python package for uncertainty quantification in LLMs, detecting hallucinations and low-confidence outputs in production agent workflows.
+- [APIPark](https://github.com/APIParkLab/APIPark): Cloud-native AI and API gateway for unified LLM provider management, request routing, load balancing, multi-model failover, usage analytics, and API governance.
 
 ## AI Serving and Inference Operations
 
@@ -473,6 +476,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness): Loop-engineering harness for running Claude Code, Codex, and DeepSeek Harness across desktop apps and terminals with checkpoints, verification, recovery, and long-running task state.
 - [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
+- [Ouroboros](https://github.com/Q00/ouroboros): Self-improving Agent OS with interview-gated, staged evaluation and budgeted evolution loops across 13 coding-agent runtimes including Claude Code, Codex, and Gemini CLI.
 
 ## DataOps
 
@@ -677,6 +681,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Agent Scan](https://github.com/snyk/agent-scan): Security scanner for AI agents, MCP servers, and agent skills, designed to catch risks before agent components enter a workflow.
 - [Strix](https://github.com/usestrix/strix): Open-source AI penetration-testing tool that uses autonomous agents to discover and validate application vulnerabilities with proof-of-concept exploits.
 - [Shannon](https://github.com/KeygraphHQ/shannon): Autonomous AI pentester for web applications and APIs that combines source analysis with live exploit validation before vulnerabilities reach production.
+- [Pentest AI](https://github.com/0xSteph/pentest-ai): Open-source AI pentester that validates every finding with machine oracles, shipping replayable proof capsules for verified vulnerabilities.
+- [Akto](https://github.com/akto-api-security/akto): Open-source AI security platform for testing and securing AI agents, MCP servers, LLM integrations, and GenAI applications against API-level threats.
 
 ## Platform Engineering
 
