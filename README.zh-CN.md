@@ -484,6 +484,7 @@
 - [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)：面向循环工程的 Harness，可在桌面应用和终端中运行 Claude Code、Codex 与 DeepSeek Harness，并提供检查点、验证、恢复和长任务状态管理。
 - [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
+- [Google ADK Java](https://github.com/google/adk-java)：基于代码的 Java 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 - [Ouroboros](https://github.com/Q00/ouroboros)：自进化 Agent OS，提供面试门控的分阶段评估和预算化进化循环，支持 Claude Code、Codex、Gemini CLI 等 13 种编码 Agent 运行时。
 
 ## DataOps
