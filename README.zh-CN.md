@@ -221,6 +221,7 @@
 - [LLM Space](https://github.com/deer-flow/llm-space)：本地优先的桌面工作台，用于构建 Agent 原型、检查 Harness 每一步、回放失败过程并评估 Agent 性能。
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym)：用于通过可配置环境和评估工作流评估与改进模型及 Agent 的开源框架。
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation)：生成式 AI 评估框架，支持并发多轮虚拟客服测试、自定义目标、钩子和 CI/CD 集成。
+- [AgentArk](https://github.com/P90-RushB/AgentArk)：面向可复现多模态 Agent 评估、回放和强化学习工作流的开放环境框架，支持带可验证反馈的任务。
 - [Intellagent](https://github.com/plurai-ai/intellagent)：通过逼真的模拟交互和可重复评估流程，诊断并优化 Agent 的框架。
 - [Rhesis](https://github.com/rhesis-ai/rhesis)：开源协作平台，让领域专家标注 Agent 行为，帮助工程团队将发现转化为评估与改进闭环。
 - [o11y-bench](https://github.com/grafana/o11y-bench)：基于可复现 Harbor 环境、用于评估 AI Agent 执行可观测性任务能力的开放基准。
@@ -398,6 +399,7 @@
 - [Agent-Sandbox](https://github.com/agent-sandbox/agent-sandbox)：企业级 AI Agent 沙箱平台，支持安全执行不可信的 LLM 生成代码、Browser Use 和 Computer Use。
 - [OpenKruise Agents](https://github.com/openkruise/agents)：Kubernetes Operator 与最佳实践指南，用于大规模、快速且低成本的 Agent 沙箱生命周期管理。
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs)：FUSE 文件系统驱动，可即时挂载大型 Git 仓库并按需加载文件内容，消除 Agent、沙箱和容器的克隆延迟。
+- [Docker Compose for Agents](https://github.com/docker/compose-for-agents)：使用 Docker Compose 运行开源 LLM、工具和 Agent 运行时的示例集合，便于构建可复现的本地或部署工作流。
 
 ## LLM 知识库
 
@@ -433,6 +435,9 @@
 ## Agentic Workflow 智能体工作流
 
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)：自主 AI Agent 框架，能够分解并执行复杂任务。
+- [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
+- [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。
+- [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime)：面向生产的 Agent 应用运行时，提供安全工具沙箱、Agent-as-a-Service API、可扩展部署和全栈可观测性。
 - [Langflow](https://github.com/langflow-ai/langflow)：LangChain 风格的图形化构建器，支持拖拽式构建 LLM 工作流。
 - [Dify](https://github.com/langgenius/dify)：开源 LLM 应用开发平台，支持可视化 Agent 工作流和 AI 应用部署。
 - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持 Agent 工作流编排。
