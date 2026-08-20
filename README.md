@@ -326,6 +326,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 
 **Selection guidance:** Separate acquisition from retrieval: crawlers and parsers should expose provenance, incremental refresh, rate-limit controls, and failure visibility; vector or hybrid search layers should make indexing, filtering, access control, and relevance evaluation explicit. Prefer components that can be operated independently rather than opaque end-to-end demos.
 
+- [MinerU](https://github.com/opendatalab/MinerU): High-accuracy document parsing engine that converts PDFs, Office files, and images into structured Markdown or JSON for LLM, RAG, and agent workflows.
 - [MetaMCP](https://github.com/metatool-ai/metamcp): Self-hosted MCP aggregator, orchestrator, middleware, and gateway for composing and governing tool servers.
 - [Firecrawl](https://github.com/firecrawl/firecrawl): Web search, scraping, crawling, and extraction API that turns web data into LLM-ready Markdown and structured outputs.
 - [anydoc](https://github.com/firecrawl/anydoc): Fast Rust library with Node.js, Python, and WebAssembly bindings for converting office documents, PDFs, and other files into clean, LLM-ready Markdown.
@@ -407,6 +408,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 **Selection guidance:** Treat ingestion, retrieval, evaluation, and serving as separate failure domains. Prefer projects with incremental re-indexing, source citations, connector or parser coverage, access-control boundaries, and measurable retrieval or answer-quality checks. A chatbot that cannot explain where an answer came from is a demo wearing a production badge.
 
+- [Graphify](https://github.com/Graphify-Labs/graphify): Zero-server code intelligence engine that builds an explorable knowledge graph from code, documentation, schemas, configs, and PDFs for agent-assisted code understanding.
 - [Agentset](https://github.com/agentset-ai/agentset): Open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with ingestion, vector indexing, citations, hosting, and developer APIs.
 - [RAGFlow](https://github.com/infiniflow/ragflow): Leading open-source RAG engine that combines deep document understanding, knowledge base management, and agent capabilities for enterprise knowledge workflows.
 - [FastGPT](https://github.com/labring/FastGPT): Knowledge-based LLM application platform with out-of-the-box data processing, model invocation, RAG, and visual workflow orchestration.
@@ -434,6 +436,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 ## Agentic Workflow
 
+- [Paperclip](https://github.com/paperclipai/paperclip): Open-source control plane for coordinating teams of AI agents with goals, org charts, approvals, budgets, persistent work, and audit trails.
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
 - [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
 - [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.

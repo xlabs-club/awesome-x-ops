@@ -326,6 +326,7 @@
 
 **选择建议：** 将数据采集与检索分开评估：爬虫和解析器应提供来源追踪、增量刷新、限流控制和失败可见性；向量或混合检索层应明确索引、过滤、访问控制和相关性评估。优先选择可以独立运维的组件，而不是不透明的端到端演示。
 
+- [MinerU](https://github.com/opendatalab/MinerU)：高精度文档解析引擎，可将 PDF、Office 文档和图像转换为结构化 Markdown 或 JSON，适用于 LLM、RAG 和 Agent 工作流。
 - [MetaMCP](https://github.com/metatool-ai/metamcp)：可自托管的 MCP 聚合器、编排器、中间件和网关，用于组合并治理工具服务器。
 - [Firecrawl](https://github.com/firecrawl/firecrawl)：Web 搜索、抓取、爬取与抽取 API，可将网页数据转换为适合 LLM 使用的 Markdown 和结构化输出。
 - [anydoc](https://github.com/firecrawl/anydoc)：基于 Rust 的快速文档转换库，提供 Node.js、Python 和 WebAssembly 绑定，可将 Office 文档、PDF 等文件转换为干净、适合 LLM 的 Markdown。
@@ -407,6 +408,7 @@
 
 **选择建议：** 将数据摄取、检索、评估和服务视为不同的故障域。优先选择支持增量索引、来源引用、丰富连接器或解析器、访问控制边界，以及可量化检索或回答质量检查的项目。无法说明答案来源的聊天机器人，通常只是戴着生产帽子的 Demo。
 
+- [Graphify](https://github.com/Graphify-Labs/graphify)：零服务器代码智能引擎，可从代码、文档、数据库模式、配置和 PDF 构建可探索的知识图谱，用于 Agent 辅助代码理解。
 - [Agentset](https://github.com/agentset-ai/agentset)：用于构建、评估和交付生产级 RAG 与 Agent 应用的开源平台，提供数据摄取、向量索引、引用、托管和开发者 API。
 - [RAGFlow](https://github.com/infiniflow/ragflow)：领先的开源 RAG 引擎，融合深度文档理解、知识库管理和 Agent 能力，适合企业知识工作流。
 - [FastGPT](https://github.com/labring/FastGPT)：基于 LLM 的知识库应用平台，提供开箱即用的数据处理、模型调用、RAG 和可视化工作流编排。
@@ -434,6 +436,7 @@
 
 ## Agentic Workflow 智能体工作流
 
+- [Paperclip](https://github.com/paperclipai/paperclip)：用于协调 AI Agent 团队的开源控制平面，提供目标、组织结构、审批、预算、持久化工作流和审计追踪。
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)：自主 AI Agent 框架，能够分解并执行复杂任务。
 - [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
 - [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。
