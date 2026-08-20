@@ -252,6 +252,7 @@
 - [Polyaxon](https://github.com/polyaxon/polyaxon)：开源 AI 基础设施与编排平台，用于在开发和生产环境管理可复现的 ML 与 LLM 工作负载。
 - [Triton Inference Server](https://github.com/triton-inference-server/server)：优化的推理服务器，用于在 GPU、CPU、云端和边缘环境部署 AI 模型。
 - [KServe](https://github.com/kserve/kserve)：Kubernetes 原生平台，用于标准化、可扩展地服务生成式和预测式 AI 推理。
+- [Seldon Core](https://github.com/seldonio/seldon-core)：MLOps 框架，用于在 Kubernetes 上打包、部署、监控和管理大规模生产机器学习模型。
 - [LitServe](https://github.com/Lightning-AI/LitServe)：简洁的 Python 框架，用于构建自定义 AI 推理服务器，并精细控制批处理、请求逻辑和扩缩容。
 - [AIBrix](https://github.com/vllm-project/aibrix)：云原生基础设施组件，用于高性价比、可扩展地运维 GenAI 和 LLM 推理。
 - [Dynamo](https://github.com/ai-dynamo/dynamo)：面向数据中心规模 LLM 与生成式 AI 负载的分布式推理服务框架，支持 Kubernetes 场景下的路由和扩缩容。
@@ -499,6 +500,8 @@
 - [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
 - [Flyte](https://github.com/flyteorg/flyte)：可扩展的 AI 与数据编排平台，使用强类型和 Kubernetes 原生执行构建可复现的声明式机器学习流水线。
 - [Airbyte](https://github.com/airbytehq/airbyte)：开源数据集成平台，用于构建从 API、数据库和文件到数据仓库、数据湖及 AI 应用的 ELT 流水线。
+- [Mage](https://github.com/mage-ai/mage-ai)：开源数据流水线平台，用于构建、运行和管理面向 AI 的数据集成与转换任务。
+- [DVC](https://github.com/iterative/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
 
 ### Streaming Operations 流式数据运维
 
@@ -524,6 +527,7 @@
 - [Prometheus](https://github.com/prometheus/prometheus)：云原生广泛采用的监控系统和时序数据库，适用于指标采集与告警。
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)：高性能、成本友好的时序数据库和监控栈，适合大规模 Prometheus 兼容指标场景。
 - [Grafana Mimir](https://github.com/grafana/mimir)：可水平扩展、多租户的 Prometheus 指标长期存储后端。
+- [Thanos](https://github.com/thanos-io/thanos)：CNCF 高可用 Prometheus 方案，提供长期存储、全局查询视图和多集群指标降采样。
 - [Grafana Tempo](https://github.com/grafana/tempo)：面向大规模链路数据的分布式追踪后端，以较低索引开销存储高容量 trace。
 - [Perses](https://github.com/perses/perses)：CNCF 可观测性可视化项目，用于基于 Prometheus、Tempo、Loki 等数据源构建仪表盘。
 - [Grafana Loki](https://github.com/grafana/loki)：面向标签索引设计的日志聚合系统，可与 Grafana 深度集成。
@@ -531,11 +535,13 @@
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)：OpenTelemetry Collector 的社区发行版，提供面向生产系统的遥测采集、处理和导出组件。
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions)：标准化遥测属性与命名约定，让不同工具和领域中的链路、指标与日志保持一致。
 - [SigNoz](https://github.com/SigNoz/signoz)：基于 OpenTelemetry 的开源可观测平台，整合指标、链路、日志、仪表盘和告警。
+- [HyperDX](https://github.com/hyperdxio/hyperdx)：开源可观测平台，基于 ClickHouse 与 OpenTelemetry 统一会话回放、日志、指标、链路和错误。
 - [Jaeger](https://github.com/jaegertracing/jaeger)：CNCF 分布式链路追踪平台，用于监控和排查微服务系统。
 - [Vector](https://github.com/vectordotdev/vector)：高性能可观测数据流水线，用于采集、转换和路由日志与指标。
 - [Grafana Alloy](https://github.com/grafana/alloy)：OpenTelemetry Collector 发行版，提供可编程流水线，用于采集、处理和转发可观测性信号。
 - [Grafana](https://github.com/grafana/grafana)：开源监控、可观测与数据可视化平台，支持仪表盘、告警和多数据源探索。
 - [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
+- [Grafana Beyla](https://github.com/grafana/beyla)：基于 eBPF 的 Web 应用与网络指标自动插桩工具，无需修改代码即可导出 OpenTelemetry 数据。
 - [Parca](https://github.com/parca-dev/parca)：持续性能剖析平台，用于分析 CPU 和内存使用随时间的变化，提升性能、可靠性和基础设施效率。
 - [Kepler](https://github.com/sustainable-computing-io/kepler)：Kubernetes 功耗与能耗 Exporter，用 Prometheus 衡量容器、Pod 和节点的能耗指标。
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)：基于 eBPF 的检查工具集，用于采集 Kubernetes 与 Linux 的底层运维遥测。
@@ -588,6 +594,7 @@
 - [Tilt](https://github.com/tilt-dev/tilt)：本地 Kubernetes 开发工具，支持多服务微服务的实时更新和声明式开发环境配置。
 - [Knative](https://github.com/knative/serving)：CNCF Kubernetes Serverless 平台，支持缩容到零、请求驱动计算和事件驱动工作负载。
 - [k3s](https://github.com/k3s-io/k3s)：轻量级 Kubernetes 发行版，专为边缘、IoT、CI 和资源受限环境设计。
+- [k9s](https://github.com/derailed/k9s)：终端界面 Kubernetes 集群管理工具，支持资源视图、日志查看与上下文切换。
 - [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
 - [Talos Linux](https://github.com/siderolabs/talos)：专为 Kubernetes 构建的现代 Linux 发行版，支持 API 驱动配置、不可变根文件系统和零接触 provisioning。
 - [KubeEdge](https://github.com/kubeedge/kubeedge)：CNCF Kubernetes 原生边缘计算框架，支持将容器化应用延伸到边缘节点，实现云边协同。
@@ -609,6 +616,7 @@
 - [Syft](https://github.com/anchore/syft)：用于从容器镜像和文件系统生成 SBOM 的 CLI 与库。
 - [Grype](https://github.com/anchore/grype)：面向容器镜像和文件系统的漏洞扫描器，可与 Syft 生成的 SBOM 配合使用。
 - [Kubescape](https://github.com/kubescape/kubescape)：Kubernetes 安全平台，支持风险分析、合规、错误配置扫描，以及 CI/CD 或集群检查。
+- [kube-bench](https://github.com/aquasecurity/kube-bench)：安全检查工具，对照 CIS Kubernetes Benchmark 检查集群部署是否符合最佳实践。
 - [Gitleaks](https://github.com/gitleaks/gitleaks)：Secret 扫描工具，用于在 Git 仓库、文件和 CI/CD 流程中发现硬编码凭据。
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog)：Secret 扫描工具，可在 Git、文件系统、CI 日志和云端来源中发现、验证并分析泄露凭据。
 - [Prowler](https://github.com/prowler-cloud/prowler)：多云安全与合规平台，用于审计 AWS、Azure、GCP、Kubernetes 和 SaaS 环境。
@@ -712,6 +720,7 @@
 - [Jenkins](https://www.jenkins.io/)：开源 CI/CD 自动化服务器，拥有丰富插件生态。
 - [argo-cd](https://argo-cd.readthedocs.io/)：流行的 Kubernetes 声明式 GitOps CD 工具。
 - [Argo Rollouts](https://github.com/argoproj/argo-rollouts)：Kubernetes 渐进式交付控制器，支持蓝绿发布、金丝雀发布和基于实验的部署。
+- [Flagger](https://github.com/fluxcd/flagger)：Kubernetes 渐进式交付算子，支持金丝雀、A/B 测试和蓝绿发布并自动分析结果。
 - [argo-workflows](https://github.com/argoproj/argo-workflows)：Kubernetes 原生工作流引擎。
 - [Tekton](https://tekton.dev/)：Kubernetes 原生 CI/CD 框架，提供灵活的任务编排能力。
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
