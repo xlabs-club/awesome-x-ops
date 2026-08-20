@@ -484,6 +484,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness): Loop-engineering harness for running Claude Code, Codex, and DeepSeek Harness across desktop apps and terminals with checkpoints, verification, recovery, and long-running task state.
 - [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
+- [Google ADK Java](https://github.com/google/adk-java): Code-first Java toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 - [Ouroboros](https://github.com/Q00/ouroboros): Self-improving Agent OS with interview-gated, staged evaluation and budgeted evolution loops across 13 coding-agent runtimes including Claude Code, Codex, and Gemini CLI.
 
 ## DataOps
