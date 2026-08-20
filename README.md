@@ -221,6 +221,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLM Space](https://github.com/deer-flow/llm-space): Local-first desktop workspace for prototyping agents, inspecting harness steps, replaying failures, and evaluating agent performance.
 - [NeMo Gym](https://github.com/NVIDIA-NeMo/Gym): Open framework for evaluating and improving models and agents through configurable environments and evaluation workflows.
 - [Agent Evaluation](https://github.com/awslabs/agent-evaluation): Generative AI evaluation framework for concurrent multi-turn virtual-agent testing, custom targets, hooks, and CI/CD integration.
+- [AgentArk](https://github.com/P90-RushB/AgentArk): Open environment framework for reproducible multimodal-agent evaluation, replay, and reinforcement-learning workflows with verifiable task feedback.
 - [Intellagent](https://github.com/plurai-ai/intellagent): Framework for diagnosing and optimizing agents through realistic simulated interactions and repeatable evaluation workflows.
 - [Rhesis](https://github.com/rhesis-ai/rhesis): Open-source collaboration layer where domain experts annotate agent behavior and engineering teams turn findings into evaluation and improvement loops.
 - [o11y-bench](https://github.com/grafana/o11y-bench): Open benchmark for evaluating AI agents on observability tasks in reproducible Harbor environments.
@@ -398,6 +399,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Agent-Sandbox](https://github.com/agent-sandbox/agent-sandbox): Enterprise-grade sandbox platform for AI agents, supporting secure execution of untrusted LLM-generated code, browser use, and computer use.
 - [OpenKruise Agents](https://github.com/openkruise/agents): Kubernetes operator and best-practice guide for rapid, cost-effective agent sandbox lifecycle management at scale.
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver that mounts large git repos instantly with on-demand hydration, eliminating clone latency for agents, sandboxes, and containers.
+- [Docker Compose for Agents](https://github.com/docker/compose-for-agents): Docker Compose examples for running open-source LLMs, tools, and agent runtimes as reproducible local or deployment workflows.
 
 ## LLM Knowledge
 
@@ -433,6 +435,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 ## Agentic Workflow
 
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
+- [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
+- [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.
+- [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime): Production-oriented runtime for agent applications with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, and full-stack observability.
 - [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
