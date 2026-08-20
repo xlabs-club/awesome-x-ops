@@ -252,6 +252,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Polyaxon](https://github.com/polyaxon/polyaxon): Open-source AI infrastructure and orchestration platform for managing reproducible ML and LLM workloads across development and production.
 - [Triton Inference Server](https://github.com/triton-inference-server/server): Optimized inference server for deploying AI models across GPUs, CPUs, and cloud or edge environments.
 - [KServe](https://github.com/kserve/kserve): Kubernetes-native platform for standardized, scalable generative and predictive AI inference serving.
+- [Seldon Core](https://github.com/seldonio/seldon-core): MLOps framework for packaging, deploying, monitoring, and managing thousands of production ML models on Kubernetes.
 - [LitServe](https://github.com/Lightning-AI/LitServe): Minimal Python framework for building custom AI inference servers with explicit control over batching, request logic, and scaling.
 - [AIBrix](https://github.com/vllm-project/aibrix): Cloud-native infrastructure components for cost-efficient, scalable GenAI and LLM inference operations.
 - [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
@@ -499,6 +500,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
 - [Flyte](https://github.com/flyteorg/flyte): Scalable AI and data orchestration platform for building reproducible, declarative ML pipelines with strong typing and Kubernetes-native execution.
 - [Airbyte](https://github.com/airbytehq/airbyte): Open-source data integration platform for building ELT pipelines from APIs, databases, and files to warehouses, lakes, and AI applications.
+- [Mage](https://github.com/mage-ai/mage-ai): Open-source data pipeline platform for building, running, and managing AI-ready data integrations and transformations.
+- [DVC](https://github.com/iterative/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
 
 ### Streaming Operations
 
@@ -524,6 +527,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Prometheus](https://github.com/prometheus/prometheus): Monitoring system and time-series database widely used for cloud-native metrics and alerting.
 - [VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics): Fast, cost-efficient time-series database and monitoring stack for Prometheus-compatible metrics at scale.
 - [Grafana Mimir](https://github.com/grafana/mimir): Horizontally scalable, multi-tenant long-term storage backend for Prometheus metrics.
+- [Thanos](https://github.com/thanos-io/thanos): CNCF highly available Prometheus setup with long-term storage, global query view, and downsampling for multi-cluster metrics.
 - [Grafana Tempo](https://github.com/grafana/tempo): Distributed tracing backend for high-volume trace storage with minimal indexing overhead.
 - [Perses](https://github.com/perses/perses): CNCF observability visualization project for building dashboards across Prometheus, Tempo, Loki, and related data sources.
 - [Grafana Loki](https://github.com/grafana/loki): Log aggregation system designed to index labels efficiently and integrate with Grafana.
@@ -531,11 +535,13 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib): Community distribution of OpenTelemetry Collector components for collecting, processing, and exporting telemetry across production systems.
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions): Standardized telemetry attributes and naming conventions that make traces, metrics, and logs consistent across tools and domains.
 - [SigNoz](https://github.com/SigNoz/signoz): OpenTelemetry-native observability platform combining metrics, traces, logs, dashboards, and alerts.
+- [HyperDX](https://github.com/hyperdxio/hyperdx): Open-source observability platform unifying session replays, logs, metrics, traces, and errors, powered by ClickHouse and OpenTelemetry.
 - [Jaeger](https://github.com/jaegertracing/jaeger): CNCF distributed tracing platform for monitoring and troubleshooting microservices.
 - [Vector](https://github.com/vectordotdev/vector): High-performance observability data pipeline for collecting, transforming, and routing logs and metrics.
 - [Grafana Alloy](https://github.com/grafana/alloy): OpenTelemetry Collector distribution with programmable pipelines for collecting, processing, and forwarding observability signals.
 - [Grafana](https://github.com/grafana/grafana): Open-source platform for monitoring, observability, and data visualization with dashboards, alerts, and multi-data-source exploration.
 - [Pixie](https://github.com/pixie-io/pixie): Kubernetes-native observability platform that uses eBPF to capture metrics, events, traces, and network telemetry without manual instrumentation.
+- [Grafana Beyla](https://github.com/grafana/beyla): eBPF-based auto-instrumentation for web applications and network metrics without code changes, exporting OpenTelemetry data.
 - [Parca](https://github.com/parca-dev/parca): Continuous profiling platform for analyzing CPU and memory usage over time to improve performance, reliability, and infrastructure efficiency.
 - [Kepler](https://github.com/sustainable-computing-io/kepler): Kubernetes power and energy exporter for measuring container, pod, and node energy consumption with Prometheus.
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget): eBPF-based inspection toolkit for collecting low-level Kubernetes and Linux operational telemetry.
@@ -588,6 +594,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Tilt](https://github.com/tilt-dev/tilt): Local Kubernetes development tool for multi-service microservices with live updates and declarative dev environment configuration.
 - [Knative](https://github.com/knative/serving): CNCF serverless platform for Kubernetes with scale-to-zero, request-driven compute, and event-driven workloads.
 - [k3s](https://github.com/k3s-io/k3s): Lightweight Kubernetes distribution designed for edge, IoT, CI, and resource-constrained environments.
+- [k9s](https://github.com/derailed/k9s): Terminal UI for managing Kubernetes clusters with resource views, logs, and context switching.
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
 - [Talos Linux](https://github.com/siderolabs/talos): Modern Linux distribution built specifically for Kubernetes with API-driven configuration, immutable root filesystem, and zero-touch provisioning.
 - [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
@@ -609,6 +616,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Syft](https://github.com/anchore/syft): CLI and library for generating SBOMs from container images and filesystems.
 - [Grype](https://github.com/anchore/grype): Vulnerability scanner for container images and filesystems that works well with Syft-generated SBOMs.
 - [Kubescape](https://github.com/kubescape/kubescape): Kubernetes security platform for risk analysis, compliance, misconfiguration scanning, and CI/CD or cluster checks.
+- [kube-bench](https://github.com/aquasecurity/kube-bench): Security scanner that checks Kubernetes deployments against the CIS Kubernetes Benchmark.
 - [Gitleaks](https://github.com/gitleaks/gitleaks): Secrets scanner for detecting hardcoded credentials in Git repositories, files, and CI/CD workflows.
 - [TruffleHog](https://github.com/trufflesecurity/trufflehog): Secrets scanner that finds, verifies, and analyzes leaked credentials across Git, filesystems, CI logs, and cloud sources.
 - [Prowler](https://github.com/prowler-cloud/prowler): Multi-cloud security and compliance platform for auditing AWS, Azure, GCP, Kubernetes, and SaaS environments.
@@ -712,6 +720,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Jenkins](https://www.jenkins.io/): Open-source CI/CD automation server with a large plugin ecosystem.
 - [argo-cd](https://argo-cd.readthedocs.io/): Popular declarative GitOps CD tool for Kubernetes.
 - [Argo Rollouts](https://github.com/argoproj/argo-rollouts): Kubernetes progressive delivery controller for blue-green, canary, and experiment-based deployments.
+- [Flagger](https://github.com/fluxcd/flagger): Kubernetes progressive delivery operator for canary, A/B testing, and blue-green deployments with automated analysis.
 - [argo-workflows](https://github.com/argoproj/argo-workflows): Kubernetes-native workflow engine.
 - [Tekton](https://tekton.dev/): Kubernetes-native CI/CD framework with flexible task orchestration.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
