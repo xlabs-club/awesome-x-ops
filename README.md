@@ -437,6 +437,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [LLM Wiki](https://github.com/nashsu/llm_wiki): Cross-platform document workspace that incrementally builds an organized, interconnected knowledge base instead of re-answering from scratch on every query.
 - [SurfSense](https://github.com/MODSetter/SurfSense): Open-source NotebookLM alternative for researching live web sources through a self-hosted application, API, or MCP server.
 - [Vespa](https://github.com/vespa-engine/vespa): Production AI search and serving platform for combining vector, lexical, and structured retrieval with real-time ranking and recommendations.
+- [Yuxi](https://github.com/xerrors/Yuxi): Self-hosted, multi-tenant knowledge-agent platform combining RAG, knowledge graphs, multi-agent workflows, MCP/Skills, sandboxing, and access control.
 
 ## Agentic Workflow
 

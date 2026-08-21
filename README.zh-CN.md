@@ -437,6 +437,7 @@
 - [LLM Wiki](https://github.com/nashsu/llm_wiki)：跨平台文档工作区，可持续构建结构化、互联的知识库，避免每次查询都从头进行 RAG 问答。
 - [SurfSense](https://github.com/MODSetter/SurfSense)：开源 NotebookLM 替代方案，可通过自托管应用、API 或 MCP 服务研究实时 Web 来源。
 - [Vespa](https://github.com/vespa-engine/vespa)：生产级 AI 搜索与服务平台，将向量、词法和结构化检索与实时排序、推荐结合起来。
+- [Yuxi](https://github.com/xerrors/Yuxi)：可自托管的多租户知识智能体平台，整合 RAG、知识图谱、多 Agent 工作流、MCP/Skills、沙箱和访问控制。
 
 ## Agentic Workflow 智能体工作流
 
