@@ -570,6 +570,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe): Open-source agent engineering platform for traces, evaluations, and metrics across LangGraph, CrewAI, Claude Agent SDK, and other agent runtimes.
 - [Claude Tap](https://github.com/liaohch3/claude-tap): Local trace viewer that intercepts and inspects coding-agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and other clients.
 - [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical AI observability project for collecting useful telemetry from agent and LLM workflows.
+- [FailproofAI](https://github.com/FailproofAI/failproofai): Observability and policy enforcement for AI-agent harnesses, with run capture, runtime reliability checks, and a local dashboard.
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon): Unified telemetry layer for AI agents running locally, in CI, or in the cloud, with a local dashboard and security-team workflows.
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals): Apache-2.0 CLI with evaluators for AI applications and agents, including LLM-as-a-judge workflows that support observability feedback loops.
 - [EfficientAI](https://github.com/EfficientAI-tech/efficientAI): Open-source voice AI evaluation platform for testing, comparing, and shipping reliable voice agents.
