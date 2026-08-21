@@ -433,6 +433,10 @@
 - [Semantica](https://github.com/semantica-agi/semantica)：面向 AI 系统的图原生基础设施，用于连接上下文、知识与可审计的证据。
 - [Cognee](https://github.com/topoteretes/cognee)：开源 AI 记忆平台，通过自托管知识图谱和向量数据库引擎为 Agent 提供跨会话的持久长期记忆。
 - [OpenViking](https://github.com/volcengine/OpenViking)：面向 AI Agent 的自进化上下文数据库，将 Agent 记忆、知识 RAG 和技能统一到一个检索入口。
+- [DocsGPT](https://github.com/arc53/DocsGPT)：可自托管的私有 AI 平台，支持企业搜索、文档分析、Agent 构建和多模型助手。
+- [LLM Wiki](https://github.com/nashsu/llm_wiki)：跨平台文档工作区，可持续构建结构化、互联的知识库，避免每次查询都从头进行 RAG 问答。
+- [SurfSense](https://github.com/MODSetter/SurfSense)：开源 NotebookLM 替代方案，可通过自托管应用、API 或 MCP 服务研究实时 Web 来源。
+- [Vespa](https://github.com/vespa-engine/vespa)：生产级 AI 搜索与服务平台，将向量、词法和结构化检索与实时排序、推荐结合起来。
 
 ## Agentic Workflow 智能体工作流
 
