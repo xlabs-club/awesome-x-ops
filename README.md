@@ -433,6 +433,10 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Semantica](https://github.com/semantica-agi/semantica): Graph-native infrastructure for connecting context, knowledge, and accountable evidence in AI systems.
 - [Cognee](https://github.com/topoteretes/cognee): Open-source AI memory platform that gives agents persistent long-term memory through a self-hosted knowledge graph and vector database engine.
 - [OpenViking](https://github.com/volcengine/OpenViking): Self-evolving context database for AI agents that unifies agent memory, knowledge RAG, and skills into a single retrieval surface.
+- [DocsGPT](https://github.com/arc53/DocsGPT): Self-hosted private AI platform for enterprise search, document analysis, agent building, and multi-model assistants.
+- [LLM Wiki](https://github.com/nashsu/llm_wiki): Cross-platform document workspace that incrementally builds an organized, interconnected knowledge base instead of re-answering from scratch on every query.
+- [SurfSense](https://github.com/MODSetter/SurfSense): Open-source NotebookLM alternative for researching live web sources through a self-hosted application, API, or MCP server.
+- [Vespa](https://github.com/vespa-engine/vespa): Production AI search and serving platform for combining vector, lexical, and structured retrieval with real-time ranking and recommendations.
 
 ## Agentic Workflow
 
