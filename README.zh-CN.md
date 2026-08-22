@@ -674,7 +674,8 @@
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于在真实工具调用工作流中评估 LLM Agent 攻击与防御能力的动态环境。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
-- [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：面向企业 Agent 操作授权的框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
+- [PyRIT](https://github.com/microsoft/PyRIT)：开源生成式 AI 风险识别框架，通过可配置的红队攻击策略主动发现和测试 AI 系统风险。
+- [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：企业级 Agent 操作授权框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus)：本地优先的 MCP Server 与 CLI，将 SAST、Secret、依赖和 AI 代码专项检查整合为面向 AI 生成应用的扫描、修复、复扫工作流。
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw)：面向 Agentic AI 安全的开源治理工具包，用于评估和控制自主 AI 系统中的风险。
