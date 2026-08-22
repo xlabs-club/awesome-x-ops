@@ -674,6 +674,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary): Sandboxed framework for evaluating AI agent security in realistic tool-using workflows, with trajectory-based scoring across safety, awareness, and task utility.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating attacks and defenses against LLM agents in realistic tool-use workflows.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
+- [PyRIT](https://github.com/microsoft/PyRIT): Open-source framework for proactively identifying and testing generative AI risks through configurable red-team attack strategies.
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus): Local-first MCP server and CLI that combines SAST, secret, dependency, and AI-code-specific checks into a scan-fix-rescan workflow for AI-generated applications.
