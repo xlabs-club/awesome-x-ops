@@ -492,6 +492,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework): MIT-licensed framework for building, orchestrating, and deploying AI agents and multi-agent workflows across Python and .NET.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python): Lightweight Python framework for multi-agent workflows with tools, handoffs, guardrails, and tracing-oriented runtime patterns.
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk): Apache-2.0 SDK for building and controlling production AI-agent harnesses in Python and TypeScript across models and clouds.
+- [OxyGent](https://github.com/jd-opensource/OxyGent): Modular, observable, and evolvable multi-agent framework with a unified abstraction for composing production agent systems.
 - [Deep Agents](https://github.com/langchain-ai/deepagents): Batteries-included agent harness for long-running tasks with planning, subagents, filesystem access, and operational workflow composition.
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness): Loop-engineering harness for running Claude Code, Codex, and DeepSeek Harness across desktop apps and terminals with checkpoints, verification, recovery, and long-running task state.
 - [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.

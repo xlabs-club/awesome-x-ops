@@ -492,6 +492,7 @@
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)：MIT 许可的 AI Agent 框架，支持使用 Python 和 .NET 构建、编排和部署 AI Agent 及多 Agent 工作流。
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python)：轻量级 Python 多 Agent 工作流框架，提供工具调用、交接、护栏和面向追踪的运行时能力。
 - [Strands Agents Harness SDK](https://github.com/strands-agents/harness-sdk)：Apache-2.0 许可的 SDK，用于在 Python 和 TypeScript 中构建并控制跨模型、跨云的生产级 AI Agent Harness。
+- [OxyGent](https://github.com/jd-opensource/OxyGent)：模块化、可观测且可演进的多 Agent 框架，通过统一抽象组合生产级 Agent 系统。
 - [Deep Agents](https://github.com/langchain-ai/deepagents)：开箱即用的 Agent Harness，面向长周期任务提供规划、子 Agent、文件系统访问和运维工作流编排能力。
 - [LongHorizon-Harness](https://github.com/AMAP-ML/LongHorizon-Harness)：面向循环工程的 Harness，可在桌面应用和终端中运行 Claude Code、Codex 与 DeepSeek Harness，并提供检查点、验证、恢复和长任务状态管理。
 - [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
