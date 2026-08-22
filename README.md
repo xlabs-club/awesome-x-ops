@@ -94,6 +94,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server): Unified MCP server for querying OpenTelemetry traces across Jaeger, Tempo, Traceloop, and other backends so AI agents can investigate distributed systems.
 - [Langfuse MCP Server](https://github.com/avivsinai/langfuse-mcp): MCP server and agent skill for querying Langfuse traces, debugging agent runs, inspecting sessions, and managing prompts from AI coding clients.
 - [Agent Diff](https://github.com/agent-diff-bench/agent-diff): Interactive, sandboxed replicas of third-party APIs for deterministic AI agent evaluation and reinforcement-learning experiments without external side effects.
+- [MCP State Twin](https://github.com/augety121/MCP-State-Twin): Deterministic, forkable, stateful MCP test worlds for reproducible AI agent evaluation without side effects in production systems.
+- [SCALE-CUA](https://github.com/THUDM/SCALE-CUA): Open framework for computer-use agents with verifiable task synthesis, online reinforcement learning, and OSWorld or ScienceBoard evaluation.
 - [ClawLens](https://github.com/nk3750/clawlens): Local OpenClaw observability plugin with tool-call audit logs, risk scoring, live sessions, and operator-controlled guardrails.
 - [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.

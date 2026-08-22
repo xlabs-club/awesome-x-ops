@@ -94,6 +94,8 @@
 - [OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server)：统一的 MCP Server，可查询 Jaeger、Tempo、Traceloop 等后端的 OpenTelemetry 链路，让 AI Agent 能够调查分布式系统。
 - [Langfuse MCP Server](https://github.com/avivsinai/langfuse-mcp)：面向 MCP Client 和 Agent Skill 的 Langfuse 连接器，可查询 trace、调试 Agent 运行、检查会话，并在 AI 编码客户端中管理 Prompt。
 - [Agent Diff](https://github.com/agent-diff-bench/agent-diff)：提供第三方 API 的交互式沙箱副本，用于在无外部副作用的情况下对 AI Agent 进行确定性评估和强化学习实验。
+- [MCP State Twin](https://github.com/augety121/MCP-State-Twin)：用于可复现 AI Agent 评估的确定性、可分叉、有状态 MCP 测试世界，不会对生产系统产生副作用。
+- [SCALE-CUA](https://github.com/THUDM/SCALE-CUA)：面向计算机使用 Agent 的开源框架，支持可验证任务合成、在线强化学习，以及 OSWorld 和 ScienceBoard 评估。
 - [ClawLens](https://github.com/nk3750/clawlens)：面向 OpenClaw 的本地可观测性插件，提供工具调用审计日志、风险评分、实时会话和由运维人员控制的防护规则。
 - [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
