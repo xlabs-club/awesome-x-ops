@@ -442,6 +442,7 @@
 ## Agentic Workflow 智能体工作流
 
 - [Paperclip](https://github.com/paperclipai/paperclip)：用于协调 AI Agent 团队的开源控制平面，提供目标、组织结构、审批、预算、持久化工作流和审计追踪。
+- [LoopX](https://github.com/huangruiteng/loopx)：面向长周期 Agent 的供应商无关、本地优先控制平面，提供持久状态、治理、恢复、证据记录和人机协作。
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)：自主 AI Agent 框架，能够分解并执行复杂任务。
 - [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
 - [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。

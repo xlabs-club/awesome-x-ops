@@ -442,6 +442,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 ## Agentic Workflow
 
 - [Paperclip](https://github.com/paperclipai/paperclip): Open-source control plane for coordinating teams of AI agents with goals, org charts, approvals, budgets, persistent work, and audit trails.
+- [LoopX](https://github.com/huangruiteng/loopx): Provider-neutral, local-first control plane for long-horizon agents with durable state, governance, recovery, evidence, and human-agent collaboration.
 - [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
 - [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
 - [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.
