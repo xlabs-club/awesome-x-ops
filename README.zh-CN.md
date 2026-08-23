@@ -66,6 +66,8 @@
 
 **回归门禁：** 在 CI 中维护一组小而有版本控制的评估集，分别比较检索质量与回答质量，并在修改 Prompt、模型、检索器或网关策略前定义回滚阈值。“Demo 里看起来不错”不是发布策略。
 
+**EvalOps 选择建议：** 优先选择能区分检索、生成、工具调用、安全性、延迟和成本信号，并同时支持固定数据集与生产轨迹采样的评估工具；结果应能以机器可读格式接入 CI 或发布门禁。LLM-as-a-judge 是证据，不是真理——应固定裁判模型和评分标准，抽样进行人工复核，并保留失败案例以便重放。
+
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
