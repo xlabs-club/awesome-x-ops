@@ -69,6 +69,7 @@
 **EvalOps 选择建议：** 优先选择能区分检索、生成、工具调用、安全性、延迟和成本信号，并同时支持固定数据集与生产轨迹采样的评估工具；结果应能以机器可读格式接入 CI 或发布门禁。LLM-as-a-judge 是证据，不是真理——应固定裁判模型和评分标准，抽样进行人工复核，并保留失败案例以便重放。
 
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
+- [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard)：LLM 流量路由器，可在保持 OpenAI 和 Anthropic API 兼容性的同时选择模型与供应商、进行性能基准测试并优化成本。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
 - [DeepEval](https://github.com/confident-ai/deepeval)：LLM 评估框架，适合在 CI 或生产流程中测试 RAG、Agent 和模型输出。
@@ -105,6 +106,7 @@
 - [ax](https://github.com/Necmttn/ax)：面向 AI 编码 Agent 的本地优先遥测与记忆图，覆盖成本、工具、技能、会话和 OTLP 事件。
 - [Mindwalk](https://github.com/cosmtrek/mindwalk)：可视化工具，在代码库 3D 地图上回放编码 Agent 会话，帮助调试和理解 Agent 行为。
 - [TensorZero](https://github.com/tensorzero/tensorzero)：开源 LLMOps 平台，整合 LLM 网关、可观测性、评估、优化和实验能力。
+- [cascadeflow](https://github.com/lemony-ai/cascadeflow)：面向 AI Agent 的级联运行时，在 Agent 循环中综合决策成本、延迟、质量和策略。
 - [Evidently](https://github.com/evidentlyai/evidently)：开源 ML 与 LLM 可观测性框架，支持评估、测试、监控和数据质量检查。
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
 - [Pydantic Logfire](https://github.com/pydantic/logfire)：面向生产级 LLM 与 Agent 系统的 AI 可观测平台，用于链路追踪和监控。
@@ -263,6 +265,7 @@
 - [Dynamo](https://github.com/ai-dynamo/dynamo)：面向数据中心规模 LLM 与生成式 AI 负载的分布式推理服务框架，支持 Kubernetes 场景下的路由和扩缩容。
 - [dstack](https://github.com/dstackai/dstack)：供应商无关的 GPU 供应与编排控制平面，可跨云、Kubernetes 和裸金属运行训练、推理与 Agent 工作负载。
 - [llm-d](https://github.com/llm-d/llm-d)：Kubernetes 原生分布式推理栈，面向现代加速器上的高性能 LLM 服务和智能路由。
+- [GPUd](https://github.com/leptonai/gpud)：GPU 监控与诊断工具，可自动执行健康检查并定位 AI 基础设施问题。
 - [KubeAI](https://github.com/kubeai-project/kubeai)：Kubernetes 原生推理 Operator，用 OpenAI 兼容 API 部署和扩缩容 LLM、VLM、Embedding、重排序及语音转文本模型。
 - [Kthena](https://github.com/volcano-sh/kthena)：Kubernetes 原生 AI 服务平台，用于可扩展的模型服务和生产推理运维。
 - [SkyPilot](https://github.com/skypilot-org/skypilot)：面向多云与 Kubernetes 的控制平面，用于在异构 GPU 基础设施上运行、扩缩容和管理 AI 工作负载。
@@ -351,6 +354,8 @@
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
 - [zvec](https://github.com/alibaba/zvec)：阿里巴巴开源的轻量级、极速进程内向量数据库，用于嵌入式 AI 搜索和检索，Apache-2.0 许可。
+- [Manticore Search](https://github.com/manticoresoftware/manticoresearch)：开源搜索数据库，支持全文、向量和混合搜索、实时索引及 SQL。
+- [USearch](https://github.com/unum-cloud/USearch)：快速紧凑的开源向量搜索与聚类引擎，提供多种语言绑定。
 - [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
 - [Feast](https://github.com/feast-dev/feast)：面向 AI/ML 的开源特征存储，可在模型训练和在线推理中一致地提供特征数据。
 - [Instructor](https://github.com/567-labs/instructor)：面向 LLM 的结构化输出工具，基于 Pydantic 校验，支持自动重试和跨供应商统一 API。
