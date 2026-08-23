@@ -69,6 +69,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 **Gateway selection guidance:** Choose the smallest control surface that covers provider abstraction, routing policy, quotas, retries, and auditability. Before production rollout, verify streaming behavior, timeout and fallback semantics, tenant isolation, secret rotation, cost attribution, and metrics or traces that remain useful when an upstream provider is degraded.
 
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
+- [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): LLM traffic router for selecting models and providers, benchmarking performance, and optimizing cost while preserving OpenAI and Anthropic API compatibility.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.
 - [DeepEval](https://github.com/confident-ai/deepeval): LLM evaluation framework for testing RAG, agents, and model outputs in CI or production workflows.
@@ -105,6 +106,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
 - [Mindwalk](https://github.com/cosmtrek/mindwalk): Visualization tool that replays coding-agent sessions on a 3D map of your codebase for debugging and understanding agent behavior.
 - [TensorZero](https://github.com/tensorzero/tensorzero): Open-source LLMOps platform that combines an LLM gateway, observability, evaluations, optimization, and experimentation.
+- [cascadeflow](https://github.com/lemony-ai/cascadeflow): Cascading runtime for AI agents that makes cost, latency, quality, and policy decisions inside the agent loop.
 - [Evidently](https://github.com/evidentlyai/evidently): Open-source ML and LLM observability framework for evaluation, testing, monitoring, and data quality checks.
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Agent AI observability and evaluation SDK for tracing, debugging, and monitoring multi-agent LLM systems.
 - [Pydantic Logfire](https://github.com/pydantic/logfire): AI observability platform for tracing and monitoring production LLM and agent systems.
@@ -263,6 +265,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Dynamo](https://github.com/ai-dynamo/dynamo): Distributed inference serving framework for datacenter-scale LLM and generative AI workloads with Kubernetes-oriented routing and scaling.
 - [dstack](https://github.com/dstackai/dstack): Vendor-agnostic control plane for provisioning GPUs and orchestrating training, inference, and agent workloads across clouds, Kubernetes, and bare metal.
 - [llm-d](https://github.com/llm-d/llm-d): Kubernetes-native distributed inference stack for high-performance LLM serving with intelligent routing on modern accelerators.
+- [GPUd](https://github.com/leptonai/gpud): GPU monitoring and diagnostics tool that automates health checks and issue identification for AI infrastructure.
 - [KubeAI](https://github.com/kubeai-project/kubeai): Kubernetes-native inference operator for deploying and scaling LLMs, VLMs, embeddings, rerankers, and speech-to-text models with OpenAI-compatible APIs.
 - [Kthena](https://github.com/volcano-sh/kthena): Kubernetes-native AI serving platform for scalable model serving and production inference operations.
 - [SkyPilot](https://github.com/skypilot-org/skypilot): Multi-cloud and Kubernetes control plane for running, scaling, and managing AI workloads across heterogeneous GPU infrastructure.
@@ -351,6 +354,8 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
 - [zvec](https://github.com/alibaba/zvec): Lightweight, lightning-fast in-process vector database from Alibaba for embedded AI search and retrieval, Apache-2.0.
+- [Manticore Search](https://github.com/manticoresoftware/manticoresearch): Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
+- [USearch](https://github.com/unum-cloud/USearch): Fast, compact open-source vector search and clustering engine with bindings for multiple languages.
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
 - [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
 - [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
