@@ -633,6 +633,8 @@
 
 ## Security and Supply Chain 安全与供应链
 
+**选择建议：** 将上线前测试与运行时执行分开：用可复现的探针和回归案例捕获 Prompt 注入或越狱回归，同时让运行时策略、隔离和审计证据不依赖单一模型供应商。扫描通过是门禁，不是安全证明。
+
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails)：面向 AI Agent 和 LLM 交互的低延迟信任层，用于筛查并执行安全策略。
 - [Falco](https://github.com/falcosecurity/falco)：CNCF 运行时安全工具，用于检测容器和 Kubernetes 中的可疑行为。
 - [Tetragon](https://github.com/cilium/tetragon)：基于 eBPF 的安全可观测与运行时执行工具，实时检测和拦截内核、容器及网络层的可疑活动。

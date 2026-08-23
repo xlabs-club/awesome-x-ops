@@ -633,6 +633,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 
 ## Security and Supply Chain
 
+**Selection guidance:** Separate pre-deployment testing from runtime enforcement: use reproducible probes and regression cases to catch prompt-injection or jailbreak regressions, then keep runtime policy, isolation, and audit evidence independent of any single model vendor. A green scan is a gate, not proof of safety.
+
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails): Low-latency trust layer for screening and enforcing security policies around AI-agent and LLM interactions.
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
 - [Tetragon](https://github.com/cilium/tetragon): eBPF-based security observability and runtime enforcement tool for detecting and blocking suspicious kernel, container, and network activity in real time.
