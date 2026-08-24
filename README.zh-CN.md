@@ -76,6 +76,7 @@
 - [Ragas](https://github.com/explodinggradients/ragas)：面向 RAG 流水线和 LLM 应用的评估框架。
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)：面向 LLM、RAG 和机器学习系统的开源可观测与评估平台。
 - [OpenInference](https://github.com/Arize-ai/openinference)：面向 LLM、RAG 和 Agent 应用的 OpenTelemetry 插桩与语义约定。
+- [Agent Telemetry Semantic Conventions](https://github.com/agent-telemetry-spec/atsc)：面向 AI Agent 可观测性的厂商中立、兼容 OpenTelemetry 的语义约定，支持跨工具互操作。
 - [OpenLLMetry](https://github.com/traceloop/openllmetry)：基于 OpenTelemetry 的 LLM 应用和 Agent 工作流可观测性工具。
 - [Multi-agent Observability with OpenTelemetry](https://github.com/chrisipanaque/multi-agent-observability-opentelemetry)：面向 LangGraph 多 Agent 系统的 OpenTelemetry 可观测性参考实现，覆盖路由决策、工具调用、LLM 调用、指标和 OTLP 导出。
 - [Helicone](https://github.com/Helicone/helicone)：开源 LLM 可观测平台，支持用量、延迟、成本、缓存和请求日志分析。
