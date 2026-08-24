@@ -82,7 +82,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [OpenLIT](https://github.com/openlit/openlit): OpenTelemetry-native AI engineering platform for LLM observability, evaluations, guardrails, prompt management, and GPU monitoring.
 - [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk): Open-source SDKs and coding-agent plugins for sending production agent and LLM telemetry to Grafana AI observability.
 - [LangWatch](https://github.com/langwatch/langwatch): Open-source platform for LLM monitoring, evaluations, traces, and agent testing.
+- [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec): Fully local observability and security dashboard for AI coding agents, with OpenTelemetry traces, command auditing, threat detection, and optional enforcement.
 - [Opik](https://github.com/comet-ml/opik): Open-source platform for tracing, evaluating, and monitoring LLM applications, RAG systems, and agent workflows.
+- [Exgentic](https://github.com/Exgentic/exgentic): General agent evaluation framework for standardized, reproducible testing across agents, benchmarks, and domains.
 - [promptfoo](https://github.com/promptfoo/promptfoo): Open-source CLI and platform for prompt testing, LLM evaluations, red teaming, and CI/CD regression checks.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace): OpenTelemetry-based observability platform for tracing, evaluating, and monitoring LLM applications.
 - [Future AGI](https://github.com/future-agi/future-agi): Self-hostable platform for evaluating, observing, and improving LLM and AI agent applications.

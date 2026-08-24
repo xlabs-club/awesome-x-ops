@@ -82,7 +82,9 @@
 - [OpenLIT](https://github.com/openlit/openlit)：基于 OpenTelemetry 的 AI 工程平台，支持 LLM 可观测性、评估、护栏、Prompt 管理和 GPU 监控。
 - [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk)：开源 SDK 与编码 Agent 插件，用于将生产环境 Agent 和 LLM 遥测数据发送到 Grafana AI observability。
 - [LangWatch](https://github.com/langwatch/langwatch)：开源平台，支持 LLM 监控、评估、链路追踪和 Agent 测试。
+- [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)：面向 AI 编码 Agent 的全本地可观测与安全仪表盘，支持 OpenTelemetry trace、命令审计、威胁检测和可选的运行时执行控制。
 - [Opik](https://github.com/comet-ml/opik)：开源平台，用于追踪、评估和监控 LLM 应用、RAG 系统与 Agent 工作流。
+- [Exgentic](https://github.com/Exgentic/exgentic)：通用 Agent 评估框架，用于跨 Agent、基准和领域进行标准化、可复现的测试。
 - [promptfoo](https://github.com/promptfoo/promptfoo)：开源 CLI 与平台，用于 Prompt 测试、LLM 评估、红队测试和 CI/CD 回归检查。
 - [Langtrace](https://github.com/Scale3-Labs/langtrace)：基于 OpenTelemetry 的可观测平台，用于追踪、评估和监控 LLM 应用。
 - [Future AGI](https://github.com/future-agi/future-agi)：可自托管平台，用于评估、观测和改进 LLM 与 AI Agent 应用。
