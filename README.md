@@ -419,6 +419,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 **Selection guidance:** Treat ingestion, retrieval, evaluation, and serving as separate failure domains. Prefer projects with incremental re-indexing, source citations, connector or parser coverage, access-control boundaries, and measurable retrieval or answer-quality checks. A chatbot that cannot explain where an answer came from is a demo wearing a production badge.
 
+**RAG release gate:** Keep ingestion, retrieval, and generation metrics separate; pin parser, embedding, and reranker versions; retain source and chunk identifiers for replay; and canary index or prompt changes against a fixed evaluation set before full rollout. If retrieval quality regresses, roll back the index or retriever first instead of compensating with a larger model.
+
 - [Graphify](https://github.com/Graphify-Labs/graphify): Zero-server code intelligence engine that builds an explorable knowledge graph from code, documentation, schemas, configs, and PDFs for agent-assisted code understanding.
 - [Agentset](https://github.com/agentset-ai/agentset): Open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with ingestion, vector indexing, citations, hosting, and developer APIs.
 - [RAGFlow](https://github.com/infiniflow/ragflow): Leading open-source RAG engine that combines deep document understanding, knowledge base management, and agent capabilities for enterprise knowledge workflows.
