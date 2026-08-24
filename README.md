@@ -84,6 +84,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LangWatch](https://github.com/langwatch/langwatch): Open-source platform for LLM monitoring, evaluations, traces, and agent testing.
 - [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec): Fully local observability and security dashboard for AI coding agents, with OpenTelemetry traces, command auditing, threat detection, and optional enforcement.
 - [Opik](https://github.com/comet-ml/opik): Open-source platform for tracing, evaluating, and monitoring LLM applications, RAG systems, and agent workflows.
+- [ClawMetry](https://github.com/vivekchand/clawmetry): Local-first observability and governance dashboard for 26 AI agent runtimes, with sessions, tool calls, token costs, alerts, approvals, and OpenTelemetry export.
 - [Exgentic](https://github.com/Exgentic/exgentic): General agent evaluation framework for standardized, reproducible testing across agents, benchmarks, and domains.
 - [promptfoo](https://github.com/promptfoo/promptfoo): Open-source CLI and platform for prompt testing, LLM evaluations, red teaming, and CI/CD regression checks.
 - [Langtrace](https://github.com/Scale3-Labs/langtrace): OpenTelemetry-based observability platform for tracing, evaluating, and monitoring LLM applications.

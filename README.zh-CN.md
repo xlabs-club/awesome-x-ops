@@ -84,6 +84,7 @@
 - [LangWatch](https://github.com/langwatch/langwatch)：开源平台，支持 LLM 监控、评估、链路追踪和 Agent 测试。
 - [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)：面向 AI 编码 Agent 的全本地可观测与安全仪表盘，支持 OpenTelemetry trace、命令审计、威胁检测和可选的运行时执行控制。
 - [Opik](https://github.com/comet-ml/opik)：开源平台，用于追踪、评估和监控 LLM 应用、RAG 系统与 Agent 工作流。
+- [ClawMetry](https://github.com/vivekchand/clawmetry)：本地优先的 AI Agent 可观测与治理仪表盘，支持 26 种 Agent 运行时、会话、工具调用、Token 成本、告警、审批和 OpenTelemetry 导出。
 - [Exgentic](https://github.com/Exgentic/exgentic)：通用 Agent 评估框架，用于跨 Agent、基准和领域进行标准化、可复现的测试。
 - [promptfoo](https://github.com/promptfoo/promptfoo)：开源 CLI 与平台，用于 Prompt 测试、LLM 评估、红队测试和 CI/CD 回归检查。
 - [Langtrace](https://github.com/Scale3-Labs/langtrace)：基于 OpenTelemetry 的可观测平台，用于追踪、评估和监控 LLM 应用。
