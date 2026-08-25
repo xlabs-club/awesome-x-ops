@@ -701,6 +701,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [nono](https://github.com/nolabs-ai/nono): Zero-setup, least-privilege sandbox for running AI agents and the tools they invoke across macOS, Linux, and Windows WSL2.
 - [Pipelock](https://github.com/luckyPipewrench/pipelock): Open-source AI agent firewall that inspects MCP, A2A, HTTP, and WebSocket egress for prompt injection, SSRF, secret exfiltration, and risky tool-call chains.
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar): Security scanner for agentic workflows that visualizes tools and MCP servers and maps discovered vulnerabilities to security frameworks.
+- [agentgg](https://github.com/agentgg-dev/agentgg): Agentic SAST scanner for repository and pull-request diffs, using tool-enabled agents to investigate code paths and turn confirmed findings into reusable detectors.
 - [deepsec](https://github.com/vercel-labs/deepsec): Agent-powered security harness for scanning large codebases, investigating hard-to-find vulnerabilities, and exporting findings for review.
 - [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner): MIT-licensed scanner for testing RAG and LLM applications against prompt injection, data leakage, function abuse, and context manipulation.
 - [Aegis](https://github.com/Justin0504/Aegis): Runtime policy enforcement for AI agents with cryptographic audit trails, human approval gates, and an emergency kill switch.

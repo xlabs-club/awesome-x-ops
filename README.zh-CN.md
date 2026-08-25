@@ -701,6 +701,7 @@
 - [nono](https://github.com/nolabs-ai/nono)：零配置、最小权限的 AI Agent 沙箱，可在 macOS、Linux 和 Windows WSL2 上隔离运行 Agent 及其调用的工具。
 - [Pipelock](https://github.com/luckyPipewrench/pipelock)：开源 AI Agent 防火墙，可检查 MCP、A2A、HTTP 和 WebSocket 出站流量，识别 Prompt 注入、SSRF、Secret 泄露和高风险工具调用链。
 - [Agentic Radar](https://github.com/splx-ai/agentic-radar)：面向 Agent 工作流的安全扫描器，可可视化工具与 MCP Server，并将发现的漏洞映射到安全框架。
+- [agentgg](https://github.com/agentgg-dev/agentgg)：面向代码仓库和 Pull Request diff 的 Agentic SAST 扫描器，可通过具备工具调用能力的 Agent 调查代码路径，并将已确认的问题沉淀为可复用检测器。
 - [deepsec](https://github.com/vercel-labs/deepsec)：基于 Agent 的代码安全扫描工具，用于检查大型代码库中的隐蔽漏洞，并导出结果供审查。
 - [RAG/LLM Security Scanner](https://github.com/olegnazarov/rag-security-scanner)：基于 MIT 许可的扫描器，用于测试 RAG 与 LLM 应用中的 Prompt 注入、数据泄露、函数滥用和上下文操纵风险。
 - [Aegis](https://github.com/Justin0504/Aegis)：AI Agent 运行时策略执行工具，提供加密审计轨迹、人机审批门禁和紧急停止开关。
