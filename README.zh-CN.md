@@ -462,6 +462,7 @@
 - [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
 - [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime)：面向生产的 Agent 应用运行时，提供安全工具沙箱、Agent-as-a-Service API、可扩展部署和全栈可观测性。
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)：可自托管的 Agent 运行时，提供 MCP 工具、持久会话、审批门、审计回放和可选择后端的执行沙箱。
 - [Langflow](https://github.com/langflow-ai/langflow)：LangChain 风格的图形化构建器，支持拖拽式构建 LLM 工作流。
 - [Dify](https://github.com/langgenius/dify)：开源 LLM 应用开发平台，支持可视化 Agent 工作流和 AI 应用部署。
 - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持 Agent 工作流编排。

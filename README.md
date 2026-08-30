@@ -462,6 +462,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
 - [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime): Production-oriented runtime for agent applications with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, and full-stack observability.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness): Self-hosted agent runtime with MCP tools, persistent sessions, approval gates, audit/replay, and backend-selectable execution sandboxes.
 - [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
