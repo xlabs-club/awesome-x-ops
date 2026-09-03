@@ -378,6 +378,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
+- [Zilla](https://github.com/aklivity/zilla): Lightweight, multi-protocol gateway for event-driven applications and AI agents, governing Kafka, MQTT, APIs, and MCP with shared routing, security, schema, and observability.
 - [Lunar.dev](https://github.com/TheLunarCompany/lunar): Open-source gateway for governing and optimizing third-party API and MCP traffic from applications and AI agents with visibility, policy enforcement, and traffic shaping.
 - [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry): Enterprise MCP and A2A gateway with identity-aware access control, tool discovery, OpenTelemetry tracing, and Prometheus metrics.
 - [Maxun](https://github.com/getmaxun/maxun): Open-source no-code platform for web scraping, crawling, search, and AI data extraction, turning websites into structured APIs for RAG and AI pipelines.
