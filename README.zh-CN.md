@@ -246,6 +246,8 @@
 - [continuous-eval](https://github.com/relari-ai/continuous-eval)：开源数据驱动评估框架，面向 LLM 应用提供检索、生成和端到端流水线质量指标。
 - [UQLM](https://github.com/cvs-health/uqlm)：Apache-2.0 许可的 LLM 不确定性量化 Python 包，用于在生产 Agent 工作流中检测幻觉和低置信度输出。
 - [APIPark](https://github.com/APIParkLab/APIPark)：云原生 AI 与 API 网关，提供统一 LLM 提供商管理、请求路由、负载均衡、多模型灾备、用量分析和 API 治理。
+- [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench)：基于 Apache-2.0 许可的基准测试工具，用于在可本地部署的真实 SaaS 工作流中评估 computer-use Agent，并通过应用状态验证任务结果。
+- [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing)：用于安全运行 Agent 评估的开源工具包，支持 Docker、Kubernetes 和 Proxmox 隔离环境，并提供工具、主机与网络隔离的实践指南。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
