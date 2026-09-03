@@ -246,6 +246,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [continuous-eval](https://github.com/relari-ai/continuous-eval): Open-source data-driven evaluation framework for LLM-powered applications, covering retrieval, generation, and end-to-end pipeline quality metrics.
 - [UQLM](https://github.com/cvs-health/uqlm): Apache-2.0 Python package for uncertainty quantification in LLMs, detecting hallucinations and low-confidence outputs in production agent workflows.
 - [APIPark](https://github.com/APIParkLab/APIPark): Cloud-native AI and API gateway for unified LLM provider management, request routing, load balancing, multi-model failover, usage analytics, and API governance.
+- [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench): Apache-2.0 benchmark for evaluating computer-use agents on realistic, locally deployable SaaS workflows with state-based task verification.
+- [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing): Open-source toolkit for safely running agentic evaluations in isolated Docker, Kubernetes, or Proxmox environments with guidance on tooling, host, and network isolation.
 
 ## AI Serving and Inference Operations
 
