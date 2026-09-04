@@ -423,6 +423,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [OpenKruise Agents](https://github.com/openkruise/agents): Kubernetes operator and best-practice guide for rapid, cost-effective agent sandbox lifecycle management at scale.
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver that mounts large git repos instantly with on-demand hydration, eliminating clone latency for agents, sandboxes, and containers.
 - [Docker Compose for Agents](https://github.com/docker/compose-for-agents): Docker Compose examples for running open-source LLMs, tools, and agent runtimes as reproducible local or deployment workflows.
+- [MCPHub](https://github.com/samanhappy/mcphub): Self-hosted MCP gateway and management platform with unified endpoints, access control, health checks, routing, logs, and hot-swappable server configuration.
 
 ## LLM Knowledge
 
@@ -719,7 +720,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Varlock](https://github.com/dmno-dev/varlock): AI-safe environment variable format that separates machine-readable schemas for agents from human-readable secrets, preventing accidental credential exposure in agent configs.
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner): Security scanner for MCP servers that identifies potential threats and security findings before agents depend on their tool integrations.
 - [OctoBus](https://github.com/chaitin/OctoBus): Local single-binary gateway for managing pluggable services and exposing selected capabilities through gRPC, Connect RPC, and MCP.
-- [yoloAI](https://github.com/kstenerud/yoloai): Sandboxed runner for AI coding agents with disposable project copies, controlled credentials and network access, reviewable diffs, and selectable isolation backends.
 - [Sandbox0](https://github.com/sandbox0-ai/sandbox0): Kubernetes-native runtime for persistent, encrypted AI-agent sandboxes with durable rootfs checkpoints, gVisor support, and separated storage and compute.
 - [OpenHack](https://github.com/openhackai/OpenHack): Open-source agentic security scanner and verifier for finding and validating vulnerabilities in codebases with open-source models.
 - [AgentStalker](https://github.com/Gach0ng/AgentStalker): End-to-end LLM agent security audit framework combining static modeling, attack synthesis, sandbox replay, MCP auditing, and evidence-backed reports.
