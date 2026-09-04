@@ -201,6 +201,7 @@
 - [Agents Observe](https://github.com/simple10/agents-observe)：Claude Code 和 Codex Agent 的实时可观测仪表盘，支持会话回放、过滤和 Token 用量统计。
 - [Pi Agent Observability](https://github.com/disler/pi-agent-observability)：面向 Pi 编码 Agent 的本地可观测性栈，将每轮执行、工具调用、模型变更及 Token 成本遥测流入仪表盘，支持回放和对比。
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval)：开源 RAG 评估工具包，无需预先准备标准答案即可衡量检索和回答质量。
+- [RAG Arena](https://github.com/firecrawl/rag-arena)：基于用户反馈的开源 RAG 评估工作流，用于比较回答质量并改进检索系统。
 - [Axon](https://github.com/langchain-tracer/Axon)：基于 OpenTelemetry 的 LLM 可观测性 CLI，可实时查看 LLM 和 Agent 链路。
 - [EvalScope](https://github.com/modelscope/evalscope)：LLM 评估框架，支持能力基准测试、带 trace 记录的 Agent Loop 评估、推理性能测试和交互式结果分析。
 - [Kiln](https://github.com/Kiln-AI/kiln)：用于构建和改进 AI 系统的开源工作台，支持协作式评估、Prompt 优化、RAG、Agent、合成数据和生产部署。

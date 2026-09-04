@@ -201,6 +201,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Agents Observe](https://github.com/simple10/agents-observe): Real-time observability dashboard for Claude Code and Codex agents with session replay, filtering, and token usage statistics.
 - [Pi Agent Observability](https://github.com/disler/pi-agent-observability): Local observability stack for the Pi coding agent, streaming turns, tool calls, model changes, and token-cost telemetry into a dashboard for replay and comparison.
 - [Open RAG Eval](https://github.com/vectara/open-rag-eval): Open-source RAG evaluation toolkit for measuring retrieval and answer quality without requiring golden answers.
+- [RAG Arena](https://github.com/firecrawl/rag-arena): Open-source RAG evaluation workflow that uses user feedback to compare answer quality and improve retrieval systems.
 - [Axon](https://github.com/langchain-tracer/Axon): OpenTelemetry-native LLM observability CLI for viewing LLM and agent traces in real time.
 - [EvalScope](https://github.com/modelscope/evalscope): LLM evaluation framework for capability benchmarks, agent-loop evaluation with recorded traces, inference performance testing, and interactive result analysis.
 - [Kiln](https://github.com/Kiln-AI/kiln): Open-source workbench for building and improving AI systems with collaborative evals, prompt optimization, RAG, agents, synthetic data, and production deployment support.
