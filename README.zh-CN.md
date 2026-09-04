@@ -423,6 +423,7 @@
 - [OpenKruise Agents](https://github.com/openkruise/agents)：Kubernetes Operator 与最佳实践指南，用于大规模、快速且低成本的 Agent 沙箱生命周期管理。
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs)：FUSE 文件系统驱动，可即时挂载大型 Git 仓库并按需加载文件内容，消除 Agent、沙箱和容器的克隆延迟。
 - [Docker Compose for Agents](https://github.com/docker/compose-for-agents)：使用 Docker Compose 运行开源 LLM、工具和 Agent 运行时的示例集合，便于构建可复现的本地或部署工作流。
+- [MCPHub](https://github.com/samanhappy/mcphub)：可自托管的 MCP 网关与管理平台，提供统一端点、访问控制、健康检查、路由、日志和无需停机的 Server 配置更新。
 
 ## LLM 知识库
 
@@ -719,7 +720,6 @@
 - [Varlock](https://github.com/dmno-dev/varlock)：AI 安全的环境变量格式，将面向 Agent 的机器可读 Schema 与面向人类的 Secret 分离，防止 Agent 配置中的凭据意外泄露。
 - [Cisco MCP Scanner](https://github.com/cisco-ai-defense/mcp-scanner)：MCP Server 安全扫描器，可在 Agent 依赖工具集成前识别潜在威胁和安全问题。
 - [OctoBus](https://github.com/chaitin/OctoBus)：本地单二进制网关，用于管理可插拔服务，并通过 gRPC、Connect RPC 和 MCP 暴露选定能力。
-- [yoloAI](https://github.com/kstenerud/yoloai)：面向 AI 编码 Agent 的沙箱运行器，提供项目副本隔离、受控凭据与网络访问、可审查 diff，以及可选的隔离后端。
 - [Sandbox0](https://github.com/sandbox0-ai/sandbox0)：Kubernetes 原生的持久化加密 AI Agent 沙箱运行时，支持持久 rootfs checkpoint、gVisor，以及存储与计算分离。
 - [OpenHack](https://github.com/openhackai/OpenHack)：开源 Agent 安全扫描与验证工具，使用开源模型在代码库中发现并验证安全漏洞。
 - [AgentStalker](https://github.com/Gach0ng/AgentStalker)：端到端 LLM Agent 安全审计框架，结合静态建模、攻击合成、沙箱回放、MCP 审计和基于证据的报告。
