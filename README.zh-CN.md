@@ -249,6 +249,8 @@
 - [APIPark](https://github.com/APIParkLab/APIPark)：云原生 AI 与 API 网关，提供统一 LLM 提供商管理、请求路由、负载均衡、多模型灾备、用量分析和 API 治理。
 - [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench)：基于 Apache-2.0 许可的基准测试工具，用于在可本地部署的真实 SaaS 工作流中评估 computer-use Agent，并通过应用状态验证任务结果。
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing)：用于安全运行 Agent 评估的开源工具包，支持 Docker、Kubernetes 和 Proxmox 隔离环境，并提供工具、主机与网络隔离的实践指南。
+- [Any Agent](https://github.com/mozilla-ai/any-agent)：Apache-2.0 许可的框架，提供统一接口来使用和评估不同 Agent 框架，支持标准化基准测试。
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)：Apache-2.0 许可的基准测试工具，用于在真实日常任务上评估浏览器 AI Agent，提供可复现的评估工作流。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -312,6 +314,7 @@
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf)：用于大规模部署和路由 GPU 加速推理、流式处理及批处理工作负载的平台。
 - [Grove](https://github.com/ai-dynamo/grove)：面向分布式 AI 工作负载的 Kubernetes 增强组件，支持拓扑感知的 Gang 调度和自动扩缩容。
 - [Cube Studio](https://github.com/data-infra/cube-studio)：面向 Kubernetes 的云原生 AI 平台，提供 MLOps 工作流、分布式训练、GPU 虚拟化、推理服务和 LLMOps 能力。
+- [InferenceX](https://github.com/SemiAnalysisAI/InferenceX)：开源持续推理基准平台，用于跨 GB200、MI355X、B200 和 Ascend 等硬件对比 LLM 服务性能。
 
 ## AIOps 智能运维
 
@@ -333,6 +336,7 @@
 - [Nudgebee](https://github.com/nudgebee/nudgebee)：面向 Kubernetes 和主流云平台的开源 SRE Copilot，整合可观测性、FinOps、Runbook 自动化、事件响应和 ChatOps 工作流。
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab)：用于设计、开发和评估自主 AIOps Agent 的综合框架，支持在可复现场景中验证运维能力。
 - [SREGym](https://github.com/SREGym/SREGym)：用于评估 AI Agent 能否在可复现 SRE 环境中诊断并解决生产事故的基准测试与实验框架。
+- [ANOLISA](https://github.com/alibaba/anolisa)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
 
 ## AI 基础设施
 
@@ -692,6 +696,7 @@
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于在真实工具调用工作流中评估 LLM Agent 攻击与防御能力的动态环境。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
+- [Prismor](https://github.com/PrismorSec/prismor)：可自托管的 AI Agent 运行时控制平面，可在执行前观察、审批或拦截恶意工具调用，覆盖 Secret 泄露、Prompt 注入和供应链风险。
 - [PyRIT](https://github.com/microsoft/PyRIT)：开源生成式 AI 风险识别框架，通过可配置的红队攻击策略主动发现和测试 AI 系统风险。
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：企业级 Agent 操作授权框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。

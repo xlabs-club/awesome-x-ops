@@ -249,6 +249,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [APIPark](https://github.com/APIParkLab/APIPark): Cloud-native AI and API gateway for unified LLM provider management, request routing, load balancing, multi-model failover, usage analytics, and API governance.
 - [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench): Apache-2.0 benchmark for evaluating computer-use agents on realistic, locally deployable SaaS workflows with state-based task verification.
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing): Open-source toolkit for safely running agentic evaluations in isolated Docker, Kubernetes, or Proxmox environments with guidance on tooling, host, and network isolation.
+- [Any Agent](https://github.com/mozilla-ai/any-agent): Apache-2.0 framework providing a single interface to use and evaluate different agent frameworks across standardized benchmarks.
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench): Apache-2.0 benchmark for evaluating browser AI agents on everyday real-world tasks with reproducible evaluation workflows.
 
 ## AI Serving and Inference Operations
 
@@ -312,6 +314,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf): Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.
 - [Grove](https://github.com/ai-dynamo/grove): Kubernetes enhancements for topology-aware gang scheduling and autoscaling of distributed AI workloads.
 - [Cube Studio](https://github.com/data-infra/cube-studio): Cloud-native AI platform for Kubernetes with MLOps workflows, distributed training, GPU virtualization, inference serving, and LLMOps capabilities.
+- [InferenceX](https://github.com/SemiAnalysisAI/InferenceX): Open-source continuous inference benchmark platform for comparing LLM serving performance across hardware including GB200, MI355X, B200, and Ascend.
 
 ## AIOps
 
@@ -333,6 +336,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Nudgebee](https://github.com/nudgebee/nudgebee): Open-source SRE copilot for Kubernetes and major clouds, combining observability, FinOps, runbook automation, incident response, and ChatOps workflows.
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab): Holistic framework for designing, developing, and evaluating autonomous AIOps agents against reproducible operations scenarios.
 - [SREGym](https://github.com/SREGym/SREGym): Benchmark and experimentation framework for evaluating whether AI agents can diagnose and resolve production incidents in reproducible SRE environments.
+- [ANOLISA](https://github.com/alibaba/anolisa): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
 
 ## AI Infrastructure
 
@@ -692,6 +696,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary): Sandboxed framework for evaluating AI agent security in realistic tool-using workflows, with trajectory-based scoring across safety, awareness, and task utility.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating attacks and defenses against LLM agents in realistic tool-use workflows.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
+- [Prismor](https://github.com/PrismorSec/prismor): Self-hosted runtime control plane for AI agents that observes, approves, or blocks rogue tool calls before execution, covering secret leaks, prompt injection, and supply-chain risks.
 - [PyRIT](https://github.com/microsoft/PyRIT): Open-source framework for proactively identifying and testing generative AI risks through configurable red-team attack strategies.
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
