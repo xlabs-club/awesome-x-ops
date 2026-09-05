@@ -62,7 +62,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 
 **EvalOps selection guidance:** Prefer evaluation tools that separate retrieval, generation, tool-use, safety, latency, and cost signals; support fixed datasets plus sampled production traces; and emit machine-readable results for CI or release gates. LLM-as-a-judge is useful evidence, not ground truth—pin the judge model and rubric, sample human review, and keep failed cases replayable.
 
-**Operational evidence checklist:** For production rollouts, record the trace and evaluation schema, sampling and PII-redaction policy, owner for each alert, retention and replay limits, and the rollback trigger. If a tool cannot export evidence that another system can inspect, it is an integration risk—not just a missing checkbox.
+**Operational evidence checklist:** For production rollouts, record the trace and evaluation schema, sampling and PII-redaction policy, owner for each alert, retention and replay limits, and the rollback trigger. For coding agents and other opaque runtimes, pair application traces with process, network, and resource signals so failures remain diagnosable when SDK instrumentation is missing. If a tool cannot export evidence that another system can inspect, it is an integration risk—not just a missing checkbox.
 
 **Gateway boundary:** Treat routing, rate limits, budgets, retries, and provider failover as gateway concerns; keep tracing, evaluation, and prompt or response analysis here only when they are the tool’s primary operational purpose. This avoids counting one gateway as three observability platforms with different hats.
 
