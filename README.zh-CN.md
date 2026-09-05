@@ -169,6 +169,7 @@
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
 - [TokenHub](https://github.com/astaxie/TokenHub)：企业级 AI 网关，用于统一模型访问、请求治理、可追溯性和用量归因。
 - [CliRelay](https://github.com/kittors/CliRelay)：面向 Coding CLI 的自托管 AI 网关，提供统一端点、多租户控制台、请求日志和费用配额。
+- [My Free Code](https://github.com/hkqr/my-free-code)：面向 Claude Code 和其他编码 Agent 的开源多供应商网关，支持流式响应、工具调用、健康感知路由、故障转移和本地模型。
 - [Adaline Gateway](https://github.com/adaline/gateway)：完全本地化的 TypeScript 网关 SDK，可调用 300+ 个 LLM，并支持批处理、重试、缓存、回调和 OpenTelemetry 集成。
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway)：云原生 LLM 网关，用于统一模型供应商、路由推理流量，并在 Kubernetes 上提供 OpenTelemetry 友好的运维能力。
 - [OneAIFW](https://github.com/funstory-ai/aifw)：轻量级本地 AI 防火墙，可在调用 LLM 前匿名化敏感数据，并在响应后还原。
@@ -224,7 +225,6 @@
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry)：本地仪表盘，用于统一追踪编码 Agent 和自主 Agent 的 Token、成本、工具调用、会话与推理步骤。
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox)：本地优先的编码 Agent 黑盒记录器与上下文效率分析工具，提供可回放的会话地图、成本分析和任务结果信号。
 - [Mira](https://github.com/everruns/mira)：Rust 优先的 Agent 评估框架，面向多轮、工具调用型和长时间运行的 Agent 轨迹，支持运行指标预算和 CI 原生报告。
-- [Tracely](https://github.com/Jwuthri/Tracely)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
@@ -256,6 +256,7 @@
 - [AgentLens (agentkitai)](https://github.com/agentkitai/agentlens)：基于 MIT 许可、面向 MCP 的 AI Agent 可观测性与审计追踪平台，提供防篡改事件日志和实时仪表盘。
 - [EvalForge](https://github.com/jsdhwfmax/EvalForge)：基于 MIT 许可的评估证据与策略门禁工具包，面向 RAG 应用和 AI 助手输出可移植的 JSON、JUnit 与 SARIF 报告，用于 CI 回归检查。
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever)：基于 MIT 许可的共享 Schema、校验和转换工具生态，用于存储来自 Inspect AI、HELM、lm-evaluation-harness 及本地运行的可比较、可复现 AI 评估结果。
+- [Tracely](https://github.com/Jwuthri/Tracely-ai)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
