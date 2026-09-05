@@ -253,6 +253,9 @@
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing)：用于安全运行 Agent 评估的开源工具包，支持 Docker、Kubernetes 和 Proxmox 隔离环境，并提供工具、主机与网络隔离的实践指南。
 - [Any Agent](https://github.com/mozilla-ai/any-agent)：Apache-2.0 许可的框架，提供统一接口来使用和评估不同 Agent 框架，支持标准化基准测试。
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)：Apache-2.0 许可的基准测试工具，用于在真实日常任务上评估浏览器 AI Agent，提供可复现的评估工作流。
+- [AgentLens (agentkitai)](https://github.com/agentkitai/agentlens)：基于 MIT 许可、面向 MCP 的 AI Agent 可观测性与审计追踪平台，提供防篡改事件日志和实时仪表盘。
+- [EvalForge](https://github.com/jsdhwfmax/EvalForge)：基于 MIT 许可的评估证据与策略门禁工具包，面向 RAG 应用和 AI 助手输出可移植的 JSON、JUnit 与 SARIF 报告，用于 CI 回归检查。
+- [Every Eval Ever](https://github.com/evaleval/every_eval_ever)：基于 MIT 许可的共享 Schema、校验和转换工具生态，用于存储来自 Inspect AI、HELM、lm-evaluation-harness 及本地运行的可比较、可复现 AI 评估结果。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 

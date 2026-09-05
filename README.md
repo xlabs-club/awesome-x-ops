@@ -253,6 +253,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing): Open-source toolkit for safely running agentic evaluations in isolated Docker, Kubernetes, or Proxmox environments with guidance on tooling, host, and network isolation.
 - [Any Agent](https://github.com/mozilla-ai/any-agent): Apache-2.0 framework providing a single interface to use and evaluate different agent frameworks across standardized benchmarks.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench): Apache-2.0 benchmark for evaluating browser AI agents on everyday real-world tasks with reproducible evaluation workflows.
+- [AgentLens (agentkitai)](https://github.com/agentkitai/agentlens): MIT-licensed, MCP-native observability and audit-trail platform for AI agents, with tamper-evident event logging and a real-time dashboard.
+- [EvalForge](https://github.com/jsdhwfmax/EvalForge): MIT-licensed evaluation-evidence and policy-gate toolkit for RAG applications and AI assistants, exporting portable JSON, JUnit, and SARIF reports for CI regression checks.
+- [Every Eval Ever](https://github.com/evaleval/every_eval_ever): MIT-licensed shared schema, validation, and converter ecosystem for storing comparable, reproducible AI evaluation results from Inspect AI, HELM, lm-evaluation-harness, and local runs.
 
 ## AI Serving and Inference Operations
 
