@@ -58,7 +58,7 @@
 
 **生产检查清单：** 采用前确认工具支持 OpenTelemetry 或可导出的 trace 格式、保留与脱敏控制、可复现的评估运行、目标框架覆盖，以及从告警追溯到具体 Prompt、工具调用、模型和成本的清晰路径。只有仪表盘而没有失败证据，就像把生产事故换成了彩色壁纸。
 
-**运维证据清单：** 推进生产落地时，记录 trace 和评估 schema、采样与 PII 脱敏策略、每个告警的负责人、保留与回放限制，以及触发回滚的条件。如果工具无法导出供其他系统检查的证据，它就是集成风险，而不只是少一个复选框。
+**运行证据检查清单：** 生产上线前应记录 Trace 和评估 Schema、采样与 PII 脱敏策略、每个告警的负责人、保留和回放限制，以及回滚触发条件。对于编码 Agent 等不透明运行时，应将应用 Trace 与进程、网络和资源信号结合起来，以便在缺少 SDK 埋点时仍能诊断故障。如果工具无法导出其他系统可以检查的证据，它就是集成风险，而不只是少了一个复选框。
 
 **网关边界：** 路由、限流、预算、重试和供应商故障转移应归入网关职责；只有当追踪、评估以及 Prompt/响应分析是工具的主要运维目的时，才放在本节。这样可以避免同一个网关换三顶帽子后被重复算成三个可观测平台。
 
@@ -114,9 +114,9 @@
 - [cascadeflow](https://github.com/lemony-ai/cascadeflow)：面向 AI Agent 的级联运行时，在 Agent 循环中综合决策成本、延迟、质量和策略。
 - [Evidently](https://github.com/evidentlyai/evidently)：开源 ML 与 LLM 可观测性框架，支持评估、测试、监控和数据质量检查。
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
-- [Pydantic Logfire](https://github.com/pydantic/logfire)：面向生产级 LLM 与 Agent 系统的 AI 可观测平台，用于链路追踪和监控。
-- [Laminar](https://github.com/lmnr-ai/lmnr)：专为 AI Agent 和 LLM 应用构建的开源可观测平台。
-- [whylogs](https://github.com/whylabs/whylogs)：开源数据日志库，用于 ML 和 LLM 数据画像、漂移检测和生产流水线遥测监控。
+- [Pydantic Logfire](https://github.com/pydantic/logfire)：用于追踪和监控生产级 LLM 与 Agent 系统的 AI 可观测性平台。
+- [Laminar](https://github.com/lmnr-ai/lmnr)：专为 AI Agent 和 LLM 应用构建的开源可观测性平台。
+- [whylogs](https://github.com/whylabs/whylogs)：开源数据日志库，用于分析 ML 和 LLM 数据质量、检测漂移，以及监控生产流水线遥测。
 - [MLflow](https://github.com/mlflow/mlflow)：开源 AI 工程平台，用于调试、评估、监控和优化 Agent、LLM 与机器学习模型。
 - [Giskard](https://github.com/Giskard-AI/giskard-oss)：面向 LLM 应用和 AI Agent 的开源评估与测试框架。
 - [ZenML](https://github.com/zenml-io/zenml)：面向生产级 ML、LLM 和 Agent 流水线的 AI 平台，支持编排、追踪和部署工作流。
