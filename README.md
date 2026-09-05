@@ -169,6 +169,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Bifrost](https://github.com/maximhq/bifrost): High-performance enterprise AI gateway with adaptive load balancing, guardrails, cluster mode, and 1000+ model support.
 - [TokenHub](https://github.com/astaxie/TokenHub): Enterprise AI gateway for unified model access, request governance, traceability, and usage attribution.
 - [CliRelay](https://github.com/kittors/CliRelay): Self-hosted AI gateway for coding CLIs with a unified endpoint, multi-tenant console, request logs, and spend quotas.
+- [My Free Code](https://github.com/hkqr/my-free-code): Open-source multi-provider gateway for Claude Code and other coding agents, with streaming, tool calls, health-aware routing, fallbacks, and local model support.
 - [Adaline Gateway](https://github.com/adaline/gateway): Fully local TypeScript gateway SDK for calling 300+ LLMs with batching, retries, caching, callbacks, and OpenTelemetry integration.
 - [Inference Gateway](https://github.com/inference-gateway/inference-gateway): Cloud-native LLM gateway for unifying providers, routing inference traffic, and exposing OpenTelemetry-friendly operations on Kubernetes.
 - [OneAIFW](https://github.com/funstory-ai/aifw): Lightweight local AI firewall for anonymizing sensitive data before LLM calls and restoring it after responses.
@@ -224,7 +225,6 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [TokenTelemetry](https://github.com/VasiHemanth/tokentelemetry): Local dashboard for tracking tokens, costs, tool calls, sessions, and reasoning across coding and autonomous agents.
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox): Local-first flight recorder and context-efficiency profiler for coding agents, with replayable session maps, cost analysis, and task-outcome signals.
 - [Mira](https://github.com/everruns/mira): Rust-first evaluation framework for multi-turn, tool-using, long-running agent trajectories with operational budgets and CI-native reports.
-- [Tracely](https://github.com/Jwuthri/Tracely): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
 - [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
@@ -256,6 +256,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [AgentLens (agentkitai)](https://github.com/agentkitai/agentlens): MIT-licensed, MCP-native observability and audit-trail platform for AI agents, with tamper-evident event logging and a real-time dashboard.
 - [EvalForge](https://github.com/jsdhwfmax/EvalForge): MIT-licensed evaluation-evidence and policy-gate toolkit for RAG applications and AI assistants, exporting portable JSON, JUnit, and SARIF reports for CI regression checks.
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever): MIT-licensed shared schema, validation, and converter ecosystem for storing comparable, reproducible AI evaluation results from Inspect AI, HELM, lm-evaluation-harness, and local runs.
+- [Tracely](https://github.com/Jwuthri/Tracely-ai): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
 
 ## AI Serving and Inference Operations
 
