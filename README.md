@@ -54,7 +54,7 @@ This project aims to become a practical open-source map for modern X-Ops. Contri
 
 Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent applications in production.
 
-**Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; for RAG, favor evaluation workflows that measure retrieval and answer quality without requiring brittle golden-answer sets; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose.
+**Selection guidance:** Prefer tools that connect traces to prompts, model versions, evaluations, and cost or latency signals; for RAG, favor evaluation workflows that measure retrieval and answer quality without requiring brittle golden-answer sets; use gateway, security, and serving tools in their dedicated sections when observability is not their primary operational purpose. For agent-specific tooling, verify that tool calls, state transitions, failures, and operator actions remain inspectable—not merely that a dashboard exists.
 
 **Production checklist:** Before adopting a tool, verify OpenTelemetry or an exportable trace format, retention and redaction controls, reproducible evaluation runs, framework coverage, and a clear path from an alert to the underlying prompt, tool call, model, and cost. A dashboard without failure evidence is just a very colorful shrug.
 
@@ -578,6 +578,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector): Vendor-neutral collector for receiving, processing, and exporting telemetry data.
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib): Community distribution of OpenTelemetry Collector components for collecting, processing, and exporting telemetry across production systems.
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions): Standardized telemetry attributes and naming conventions that make traces, metrics, and logs consistent across tools and domains.
+- [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical open-source project for collecting useful telemetry from AI agent and LLM workflows.
 - [SigNoz](https://github.com/SigNoz/signoz): OpenTelemetry-native observability platform combining metrics, traces, logs, dashboards, and alerts.
 - [HyperDX](https://github.com/hyperdxio/hyperdx): Open-source observability platform unifying session replays, logs, metrics, traces, and errors, powered by ClickHouse and OpenTelemetry.
 - [Jaeger](https://github.com/jaegertracing/jaeger): CNCF distributed tracing platform for monitoring and troubleshooting microservices.
@@ -600,7 +601,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Traccia](https://github.com/traccia-ai/traccia-py): OpenTelemetry-based Python SDK for AI-agent tracing, token and cost tracking, guardrail detection, governance evidence, and OTLP export.
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe): Open-source agent engineering platform for traces, evaluations, and metrics across LangGraph, CrewAI, Claude Agent SDK, and other agent runtimes.
 - [Claude Tap](https://github.com/liaohch3/claude-tap): Local trace viewer that intercepts and inspects coding-agent API traffic from Claude Code, Codex CLI, Gemini CLI, Cursor CLI, OpenCode, and other clients.
-- [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical AI observability project for collecting useful telemetry from agent and LLM workflows.
 - [FailproofAI](https://github.com/FailproofAI/failproofai): Observability and policy enforcement for AI-agent harnesses, with run capture, runtime reliability checks, and a local dashboard.
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon): Unified telemetry layer for AI agents running locally, in CI, or in the cloud, with a local dashboard and security-team workflows.
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals): Apache-2.0 CLI with evaluators for AI applications and agents, including LLM-as-a-judge workflows that support observability feedback loops.
