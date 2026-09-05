@@ -253,6 +253,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing): Open-source toolkit for safely running agentic evaluations in isolated Docker, Kubernetes, or Proxmox environments with guidance on tooling, host, and network isolation.
 - [Any Agent](https://github.com/mozilla-ai/any-agent): Apache-2.0 framework providing a single interface to use and evaluate different agent frameworks across standardized benchmarks.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench): Apache-2.0 benchmark for evaluating browser AI agents on everyday real-world tasks with reproducible evaluation workflows.
+- [agent-watch](https://github.com/soul-sol/agent-watch): POSIX shell scripts for classifying background coding-agent runs and distinguishing transport failures from authentication failures before launch.
 
 ## AI Serving and Inference Operations
 

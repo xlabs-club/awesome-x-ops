@@ -253,6 +253,7 @@
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing)：用于安全运行 Agent 评估的开源工具包，支持 Docker、Kubernetes 和 Proxmox 隔离环境，并提供工具、主机与网络隔离的实践指南。
 - [Any Agent](https://github.com/mozilla-ai/any-agent)：Apache-2.0 许可的框架，提供统一接口来使用和评估不同 Agent 框架，支持标准化基准测试。
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)：Apache-2.0 许可的基准测试工具，用于在真实日常任务上评估浏览器 AI Agent，提供可复现的评估工作流。
+- [agent-watch](https://github.com/soul-sol/agent-watch)：用于监控后台编码 Agent 任务的 POSIX Shell 脚本，可判定 RUNNING、DONE、FAILED、STALL，并在启动前区分传输故障与身份验证故障。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
