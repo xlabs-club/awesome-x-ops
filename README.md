@@ -163,6 +163,9 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Olmes](https://github.com/allenai/olmes): Reproducible and flexible framework for evaluating language models across configurable benchmarks and evaluation workflows.
 - [PromptWizard](https://github.com/microsoft/PromptWizard): Task-aware, agent-driven prompt optimization framework that uses iterative critique and evaluation to improve prompts for repeatable LLM workflows.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai): MIT-licensed framework for building, running, and analyzing reproducible evaluations of large language models.
+- [One-Eval](https://github.com/OpenDCAI/One-Eval): Agent-based evaluation framework that turns natural-language requirements into traceable, interruptible, and scalable LLM evaluation workflows and reports.
+- [MASEval](https://github.com/maseval/MASEval): Agent-agnostic evaluation infrastructure for benchmarking multi-agent systems with adapters, lifecycle hooks, tracing, logging, and metrics.
+- [Aleph Alpha Eval-Framework](https://github.com/Aleph-Alpha-Research/eval-framework): Apache-2.0 framework for distributed LLM evaluation across 90+ benchmarks, with extensible models, tasks, metrics, perturbation testing, and statistical reports.
 - [HELM](https://github.com/stanford-crfm/helm): Open-source framework for holistic, reproducible, and transparent evaluation of language and multimodal models.
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.

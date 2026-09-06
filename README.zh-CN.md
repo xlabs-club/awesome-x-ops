@@ -163,6 +163,9 @@
 - [Olmes](https://github.com/allenai/olmes)：可复现且灵活的语言模型评估框架，支持可配置的基准测试与评估工作流。
 - [PromptWizard](https://github.com/microsoft/PromptWizard)：面向任务、由 Agent 驱动的 Prompt 优化框架，通过迭代式批评与评估改进 Prompt，适合构建可重复的 LLM 工作流。
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai)：基于 MIT 许可的框架，用于构建、运行和分析可复现的大语言模型评测。
+- [One-Eval](https://github.com/OpenDCAI/One-Eval)：基于 Agent 的评估框架，可将自然语言需求转化为可追踪、可中断、可扩展的 LLM 评估流程和报告。
+- [MASEval](https://github.com/maseval/MASEval)：与 Agent 实现无关的评估基础设施，通过适配器、生命周期钩子、追踪、日志和指标对多 Agent 系统进行基准测试。
+- [Aleph Alpha Eval-Framework](https://github.com/Aleph-Alpha-Research/eval-framework)：基于 Apache-2.0 许可的框架，支持跨 90+ 基准测试分布式评估 LLM，并提供可扩展的模型、任务、指标、扰动测试和统计报告能力。
 - [HELM](https://github.com/stanford-crfm/helm)：开源框架，用于对语言模型和多模态模型进行全面、可复现且透明的评估。
 - [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
