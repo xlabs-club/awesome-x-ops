@@ -33,6 +33,10 @@ This list focuses on tools that help teams build, run, observe, secure, and opti
 - Engineering leaders looking for reliable open-source options before buying or building.
 - Open-source maintainers who want their production-grade operations tools to be discoverable.
 
+## How to use this map
+
+Start with the operational failure you need to control, not the most fashionable project: use **LLM and Agent Observability** for trace and evaluation evidence, **AI Serving and Inference Operations** for rollout and runtime capacity, **AI Infrastructure** or **LLM Knowledge** for ingestion and retrieval, and **Security and Supply Chain** for policy, isolation, and audit. Then compare the smallest set of tools that covers your rollback, ownership, and data-retention requirements.
+
 ## Curation Principles
 
 - Keep entries concise, efficient, accurate, and relevant.
