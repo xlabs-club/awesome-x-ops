@@ -662,7 +662,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 
 ## Security and Supply Chain
 
-**Selection guidance:** Separate pre-deployment testing from runtime enforcement: use reproducible probes and regression cases to catch prompt-injection or jailbreak regressions, then keep runtime policy, isolation, and audit evidence independent of any single model vendor. A green scan is a gate, not proof of safety.
+**Selection guidance:** Separate pre-deployment testing from runtime enforcement: use reproducible probes and regression cases to catch prompt-injection or jailbreak regressions, then keep runtime policy, isolation, and audit evidence independent of any single model vendor. For agent skills and MCP tools, scan untrusted packages before installation, pin or review the source and permissions, and retain machine-readable findings for CI or incident review. A green scan is a gate, not proof of safety.
 
 - [cc-safety-net](https://github.com/kenryu42/cc-safety-net): Pre-execution guard for AI coding agents that blocks destructive Git and filesystem commands and sensitive-file access across popular agent CLIs.
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails): Low-latency trust layer for screening and enforcing security policies around AI-agent and LLM interactions.

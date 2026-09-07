@@ -662,7 +662,7 @@
 
 ## Security and Supply Chain 安全与供应链
 
-**选择建议：** 将上线前测试与运行时执行分开：用可复现的探针和回归案例捕获 Prompt 注入或越狱回归，同时让运行时策略、隔离和审计证据不依赖单一模型供应商。扫描通过是门禁，不是安全证明。
+**选择建议：** 将发布前测试与运行时执行分开：用可复现的探测和回归用例捕捉 Prompt 注入或越狱回归，再让运行时策略、隔离和审计证据独立于任何单一模型供应商。对于 Agent Skill 和 MCP 工具，应在安装前扫描不可信包，固定或审查其来源与权限，并保留机器可读的发现结果用于 CI 或事故复盘。扫描通过只是门禁，不是安全证明。
 
 - [cc-safety-net](https://github.com/kenryu42/cc-safety-net)：面向 AI 编码 Agent 的执行前防护工具，可在常见 Agent CLI 中阻止破坏性 Git 与文件系统命令，以及访问敏感文件的行为。
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails)：面向 AI Agent 和 LLM 交互的低延迟信任层，用于筛查并执行安全策略。
