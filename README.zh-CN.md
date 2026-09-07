@@ -327,6 +327,7 @@
 - [aikit](https://github.com/kaito-project/aikit)：Kubernetes 原生工具包，支持基于 buildkit 的镜像构建和 GPU 加速推理，用于微调、构建和部署开源 LLM。
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf)：用于大规模部署和路由 GPU 加速推理、流式处理及批处理工作负载的平台。
 - [Grove](https://github.com/ai-dynamo/grove)：面向分布式 AI 工作负载的 Kubernetes 增强组件，支持拓扑感知的 Gang 调度和自动扩缩容。
+- [llm-d Router](https://github.com/llm-d/llm-d-router)：面向 Kubernetes 的智能推理路由器，支持负载与前缀缓存感知路由、请求优先级和 Gateway API 集成。
 - [Cube Studio](https://github.com/data-infra/cube-studio)：面向 Kubernetes 的云原生 AI 平台，提供 MLOps 工作流、分布式训练、GPU 虚拟化、推理服务和 LLMOps 能力。
 - [InferenceX](https://github.com/SemiAnalysisAI/InferenceX)：开源持续推理基准平台，用于跨 GB200、MI355X、B200 和 Ascend 等硬件对比 LLM 服务性能。
 
@@ -717,6 +718,7 @@
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth)：企业级 Agent 操作授权框架，支持加密身份绑定、细粒度权限和语义审计轨迹。
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector)：AI Agent Skill 安全扫描器，用于检测漏洞、恶意模式和其他安全风险。
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus)：本地优先的 MCP Server 与 CLI，将 SAST、Secret、依赖和 AI 代码专项检查整合为面向 AI 生成应用的扫描、修复、复扫工作流。
+- [DeepTeam](https://github.com/confident-ai/deepteam)：开源 LLM 与 AI Agent 红队测试框架，支持可配置的漏洞测试和评估工作流。
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw)：面向 Agentic AI 安全的开源治理工具包，用于评估和控制自主 AI 系统中的风险。
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway)：基于 Apache 许可证的 AI 与 MCP 安全网关，支持 HTTP 访问控制、策略执行和 Web 应用防火墙集成。
 - [Semia](https://github.com/berabuddies/Semia)：AI Agent Skill 安全审计工具，用于检查 Skill 包中的可疑行为和安全风险。
