@@ -75,6 +75,7 @@
 - [LiteLLM](https://github.com/BerriAI/litellm)：兼容 OpenAI API 的 LLM 网关，支持路由、预算、日志和多模型供应商抽象。
 - [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard)：LLM 流量路由器，可在保持 OpenAI 和 Anthropic API 兼容性的同时选择模型与供应商、进行性能基准测试并优化成本。
 - [Langfuse](https://github.com/langfuse/langfuse)：开源 LLM 工程平台，支持链路追踪、Prompt 管理、评估和指标分析。
+- [Candela](https://github.com/candelahq/candela)：基于 OpenTelemetry 的 LLM 可观测平台，支持链路追踪、成本统计和评估，并可使用本地或云端存储后端。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
 - [DeepEval](https://github.com/confident-ai/deepeval)：LLM 评估框架，适合在 CI 或生产流程中测试 RAG、Agent 和模型输出。
 - [Ragas](https://github.com/explodinggradients/ragas)：面向 RAG 流水线和 LLM 应用的评估框架。
@@ -133,6 +134,7 @@
 - [LLMIO](https://github.com/atopos31/llmio)：基于 Go 的 LLM 网关，支持按权重路由供应商、管理控制台、请求追踪、延迟与 Token 指标、成本统计和故障处理。
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway)：零信任、兼容 OpenAI API 的网关，支持基于身份的访问控制、语义路由，以及在托管和自托管模型供应商之间负载均衡。
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway)：AI 网关，用于路由 LLM 流量、应用护栏，并集中管理生产应用的模型访问。
+- [Ferro AI Gateway](https://github.com/ferro-labs/ai-gateway)：基于 Go 的 AI 网关，支持多供应商路由、缓存、护栏、A/B 测试和成本控制。
 - [Braintrust AI Proxy](https://github.com/braintrustdata/braintrust-proxy)：可自托管的统一 AI 模型代理，提供跨供应商访问、响应缓存和请求可观测性接入能力。
 - [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg)：高性能、引擎无关的 LLM 网关，支持缓存感知路由、HTTP/gRPC Worker、多租户控制、MCP，以及 OpenTelemetry 指标和链路追踪。
 - [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关，支持 OpenAI 和 Anthropic 兼容 API、供应商路由、故障转移、可观测性、成本追踪和多租户控制。

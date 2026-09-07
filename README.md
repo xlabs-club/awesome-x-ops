@@ -75,6 +75,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LiteLLM](https://github.com/BerriAI/litellm): OpenAI-compatible LLM gateway with routing, budgets, logging, and provider abstraction.
 - [Switchyard](https://github.com/NVIDIA-NeMo/Switchyard): LLM traffic router for selecting models and providers, benchmarking performance, and optimizing cost while preserving OpenAI and Anthropic API compatibility.
 - [Langfuse](https://github.com/langfuse/langfuse): Open-source LLM engineering platform for traces, prompt management, evaluations, and metrics.
+- [Candela](https://github.com/candelahq/candela): OpenTelemetry-native LLM observability platform for tracing, cost tracking, and evaluation with local or cloud storage backends.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.
 - [DeepEval](https://github.com/confident-ai/deepeval): LLM evaluation framework for testing RAG, agents, and model outputs in CI or production workflows.
 - [Ragas](https://github.com/explodinggradients/ragas): Evaluation framework for RAG pipelines and LLM applications.
@@ -133,6 +134,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LLMIO](https://github.com/atopos31/llmio): Go-based LLM gateway with weighted provider routing, an admin UI, request tracing, latency and token metrics, cost tracking, and failure handling.
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway): Zero-trust, OpenAI-compatible gateway with identity-based access, semantic routing, and load balancing across hosted and self-hosted model providers.
 - [Portkey AI Gateway](https://github.com/Portkey-AI/gateway): AI gateway for routing LLM traffic, applying guardrails, and centralizing model access for production applications.
+- [Ferro AI Gateway](https://github.com/ferro-labs/ai-gateway): Go-native AI gateway for multi-provider routing, caching, guardrails, A/B testing, and cost controls.
 - [Braintrust AI Proxy](https://github.com/braintrustdata/braintrust-proxy): Self-hostable unified AI model proxy with provider-neutral access, response caching, and request observability hooks.
 - [Shepherd Model Gateway (SMG)](https://github.com/smg-project/smg): High-performance, engine-agnostic LLM gateway with cache-aware routing, HTTP/gRPC workers, multi-tenant controls, MCP support, and OpenTelemetry metrics and traces.
 - [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway with OpenAI and Anthropic-compatible APIs, provider routing, failover, observability, cost tracking, and multi-tenant controls.
