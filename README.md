@@ -78,7 +78,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.
 - [DeepEval](https://github.com/confident-ai/deepeval): LLM evaluation framework for testing RAG, agents, and model outputs in CI or production workflows.
 - [Ragas](https://github.com/explodinggradients/ragas): Evaluation framework for RAG pipelines and LLM applications.
-- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay): Records a coding-agent run at the process and socket boundary and replays it offline byte-for-byte, or forks it from a checkpoint onto another model.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay): Records a coding-agent run at the process and socket boundary and replays it offline with the network off, or forks it from a checkpoint onto another model.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix): Open-source observability and evaluation platform for LLM, RAG, and ML systems.
 - [OpenInference](https://github.com/Arize-ai/openinference): OpenTelemetry instrumentation and semantic conventions for tracing LLM, RAG, and agent applications.
 - [Agent Telemetry Semantic Conventions](https://github.com/agent-telemetry-spec/atsc): Vendor-neutral, OpenTelemetry-compatible semantic conventions for interoperable AI agent observability.
