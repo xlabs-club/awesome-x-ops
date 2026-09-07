@@ -327,6 +327,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [aikit](https://github.com/kaito-project/aikit): Kubernetes-native toolkit for fine-tuning, building, and deploying open-source LLMs with buildkit-based image construction and GPU-accelerated inference.
 - [NVIDIA NVCF](https://github.com/NVIDIA/nvcf): Platform for deploying and routing GPU-accelerated inference, streaming, and batch workloads at scale.
 - [Grove](https://github.com/ai-dynamo/grove): Kubernetes enhancements for topology-aware gang scheduling and autoscaling of distributed AI workloads.
+- [llm-d Router](https://github.com/llm-d/llm-d-router): Kubernetes-oriented intelligent inference router with load- and prefix-cache-aware routing, request prioritization, and Gateway API integration.
 - [Cube Studio](https://github.com/data-infra/cube-studio): Cloud-native AI platform for Kubernetes with MLOps workflows, distributed training, GPU virtualization, inference serving, and LLMOps capabilities.
 - [InferenceX](https://github.com/SemiAnalysisAI/InferenceX): Open-source continuous inference benchmark platform for comparing LLM serving performance across hardware including GB200, MI355X, B200, and Ascend.
 
@@ -717,6 +718,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Open Agent Auth](https://github.com/alibaba/open-agent-auth): Enterprise framework for agent-operation authorization with cryptographic identity binding, fine-grained permissions, and semantic audit trails.
 - [SkillSpector](https://github.com/NVIDIA/SkillSpector): Security scanner for AI agent skills that detects vulnerabilities, malicious patterns, and other security risks.
 - [CodeInspectus](https://github.com/Synvoya/codeinspectus): Local-first MCP server and CLI that combines SAST, secret, dependency, and AI-code-specific checks into a scan-fix-rescan workflow for AI-generated applications.
+- [DeepTeam](https://github.com/confident-ai/deepteam): Open-source framework for red-teaming LLMs and AI agents with configurable vulnerability tests and evaluation workflows.
 - [DefenseClaw](https://github.com/cisco-ai-defense/defenseclaw): Open-source governance toolkit for agentic AI security, helping assess and control risks in autonomous AI systems.
 - [Apache Casbin Gateway](https://github.com/apache/casbin-gateway): Apache-licensed AI and MCP security gateway for HTTP access control, policy enforcement, and web application firewall integration.
 - [Semia](https://github.com/berabuddies/Semia): Security audit tool for AI agent skills that checks skill packages for suspicious behavior and security risks.
