@@ -666,6 +666,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 
 **Selection guidance:** Separate pre-deployment testing from runtime enforcement: use reproducible probes and regression cases to catch prompt-injection or jailbreak regressions, then keep runtime policy, isolation, and audit evidence independent of any single model vendor. For agent skills and MCP tools, scan untrusted packages before installation, pin or review the source and permissions, and retain machine-readable findings for CI or incident review. A green scan is a gate, not proof of safety.
 
+**Security regression gate:** Keep adversarial prompts, tool-permission cases, data-exfiltration fixtures, and sandbox-escape attempts versioned alongside the application. Run them against every model, prompt, policy, and tool change; fail closed on missing evidence; and preserve the trace, policy decision, and artifact versions needed to replay a failure. Security tests that only run before launch are a fire drill, not a control.
+
 - [cc-safety-net](https://github.com/kenryu42/cc-safety-net): Pre-execution guard for AI coding agents that blocks destructive Git and filesystem commands and sensitive-file access across popular agent CLIs.
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails): Low-latency trust layer for screening and enforcing security policies around AI-agent and LLM interactions.
 - [Falco](https://github.com/falcosecurity/falco): CNCF runtime security tool for detecting suspicious behavior in containers and Kubernetes.
