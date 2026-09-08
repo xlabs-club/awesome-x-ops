@@ -666,6 +666,8 @@
 
 **选择建议：** 将发布前测试与运行时执行分开：用可复现的探测和回归用例捕捉 Prompt 注入或越狱回归，再让运行时策略、隔离和审计证据独立于任何单一模型供应商。对于 Agent Skill 和 MCP 工具，应在安装前扫描不可信包，固定或审查其来源与权限，并保留机器可读的发现结果用于 CI 或事故复盘。扫描通过只是门禁，不是安全证明。
 
+**安全回归门禁：** 将对抗性 Prompt、工具权限用例、数据外泄夹具和沙箱逃逸尝试，与应用一起纳入版本控制。每次模型、Prompt、策略或工具变更都要执行；缺少证据时默认失败；并保留可重放失败所需的 trace、策略决策和制品版本。只在上线前执行的安全测试是消防演习，不是控制措施。
+
 - [cc-safety-net](https://github.com/kenryu42/cc-safety-net)：面向 AI 编码 Agent 的执行前防护工具，可在常见 Agent CLI 中阻止破坏性 Git 与文件系统命令，以及访问敏感文件的行为。
 - [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails)：面向 AI Agent 和 LLM 交互的低延迟信任层，用于筛查并执行安全策略。
 - [Falco](https://github.com/falcosecurity/falco)：CNCF 运行时安全工具，用于检测容器和 Kubernetes 中的可疑行为。
