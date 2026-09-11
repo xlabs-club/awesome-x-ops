@@ -338,6 +338,7 @@
 - [Gateway API Inference Extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension)：Kubernetes SIG 项目，在 Gateway API 之上扩展面向模型推理后端的感知路由能力。
 - [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws)：Kubernetes API，可将一组 Pod 作为单一副本单元部署，用于可靠运行多节点推理与训练工作负载。
 - [KitOps](https://github.com/kitops-ml/kitops)：CNCF 工具，将 AI/ML 模型、数据集、代码和配置打包并版本化为 OCI 制品，实现可复现的模型交付。
+- [FlashInfer](https://github.com/flashinfer-ai/flashinfer)：面向 LLM 服务的注意力与 GEMM 算子库，被 vLLM、SGLang 等推理引擎集成以降低推理延迟。
 
 ## AIOps 智能运维
 
@@ -388,6 +389,7 @@
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
 - [LanceDB](https://github.com/lancedb/lancedb)：面向开发者的嵌入式向量数据库，支持多模态 AI 搜索，采用无服务器架构和零拷贝检索。
 - [zvec](https://github.com/alibaba/zvec)：阿里巴巴开源的轻量级、极速进程内向量数据库，用于嵌入式 AI 搜索和检索，Apache-2.0 许可。
+- [LEANN](https://github.com/StarTrail-org/LEANN)：基于图的端侧向量索引，为本地 RAG 降低最多 97% 的索引存储，同时保持检索快速且数据私有。
 - [Manticore Search](https://github.com/manticoresoftware/manticoresearch)：开源搜索数据库，支持全文、向量和混合搜索、实时索引及 SQL。
 - [USearch](https://github.com/unum-cloud/USearch)：快速紧凑的开源向量搜索与聚类引擎，提供多种语言绑定。
 - [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
@@ -406,6 +408,7 @@
 - [InsForge](https://github.com/InsForge/InsForge)：面向 Agentic Coding 的开源后端平台，提供数据库、身份认证、存储、计算、托管和 AI 网关，支持端到端构建全栈应用。
 - [Label Studio](https://github.com/HumanSignal/label-studio)：开源数据标注平台，支持图像、文本、音频、视频和时序数据标注，适用于 ML 和 LLM 训练工作流。
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
+- [NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)：GPU 加速的 LLM 数据治理工具包，覆盖去重、质量过滤和数据集准备流程。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
 - [Lunar.dev](https://github.com/TheLunarCompany/lunar)：开源网关，用于治理和优化应用及 AI Agent 的第三方 API 与 MCP 流量，提供流量可见性、策略执行和流量整形能力。
@@ -583,6 +586,7 @@
 - [Trench](https://github.com/FrigadeHQ/trench)：基于 Kafka 和 ClickHouse 构建的自托管分析基础设施，支持高吞吐事件追踪和实时运营分析。
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw)：开源 LLM 路由器和 AI 成本优化工具，自动将简单请求路由至低成本模型、将复杂请求路由至高级模型，通过 OpenAI 兼容代理节省 40-70% 的 API 开销。
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
+- [Robusta KRR](https://github.com/robusta-dev/krr)：基于 Prometheus 的 Kubernetes 资源推荐工具，识别 CPU 与内存的过度分配，并支持自动应用规格调整建议。
 
 ## Observability 可观测性
 
@@ -628,6 +632,8 @@
 - [HUATUO](https://github.com/ccfos/huatuo)：基于 Apache-2.0 许可的 eBPF 可观测性工具，面向 Linux 内核、AI Agent 沙箱和异构基础设施，支持自动追踪与持续性能剖析。
 - [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus)：可自托管的管理面板与 AI 网关可观测性仪表盘，支持请求历史、用量、成本、配额、失败分析和账户健康度。
 - [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot)：本地优先的 OpenTelemetry Collector，可采集 Claude Code、Codex、Cursor 等编码 Agent 的事件，以及 Token、成本、Trace 和安全审计遥测数据。
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：开源可观测性数据库，以单一列式引擎在对象存储上统一承载指标、日志和 Trace。
+- [Odigos](https://github.com/odigos-io/odigos)：基于 eBPF 的自动埋点平台，无需修改代码即可为应用生成 OpenTelemetry 的 Trace、指标和日志。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -807,6 +813,7 @@
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp)：代码智能 MCP Server，可将代码库索引为持久化知识图谱，支持 158 种语言的亚毫秒级查询。
 - [Semble](https://github.com/MinishLab/semble)：面向 AI Agent 优化的代码搜索引擎，基于嵌入检索，Token 消耗比 grep 方案减少约 98%。
 - [OpenSrc](https://github.com/vercel-labs/opensrc)：按需获取 npm 包的真实源码，为 AI 编码 Agent 提供更深的库上下文，提升代码生成准确性。
+- [claude-context](https://github.com/zilliztech/claude-context)：语义代码搜索 MCP Server，将代码库索引到向量库，让编码 Agent 直接检索相关上下文，而不是逐行 grep。
 
 ### AI Coding Tools AI 编码工具
 

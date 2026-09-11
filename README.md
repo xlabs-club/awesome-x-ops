@@ -338,6 +338,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Gateway API Inference Extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension): Kubernetes SIG project that extends Gateway API with inference-aware routing for model-serving backends.
 - [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws): Kubernetes API for deploying a group of pods as a single replication unit, used to run multi-node inference and training workloads reliably.
 - [KitOps](https://github.com/kitops-ml/kitops): CNCF tool that packages and versions AI/ML models, datasets, code, and configuration as OCI artifacts for reproducible model delivery.
+- [FlashInfer](https://github.com/flashinfer-ai/flashinfer): Attention and GEMM kernel library for LLM serving, used by engines such as vLLM and SGLang to cut inference latency.
 
 ## AIOps
 
@@ -388,6 +389,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
 - [LanceDB](https://github.com/lancedb/lancedb): Developer-friendly embedded vector database for multimodal AI search with serverless architecture and zero-copy retrieval.
 - [zvec](https://github.com/alibaba/zvec): Lightweight, lightning-fast in-process vector database from Alibaba for embedded AI search and retrieval, Apache-2.0.
+- [LEANN](https://github.com/StarTrail-org/LEANN): Graph-based vector index for on-device RAG that cuts index storage by up to 97% while keeping retrieval fast and private.
 - [Manticore Search](https://github.com/manticoresoftware/manticoresearch): Open-source search database for full-text, vector, and hybrid search with real-time indexing and SQL.
 - [USearch](https://github.com/unum-cloud/USearch): Fast, compact open-source vector search and clustering engine with bindings for multiple languages.
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
@@ -406,6 +408,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [InsForge](https://github.com/InsForge/InsForge): Open-source backend platform for agentic coding that provides database, authentication, storage, compute, hosting, and an AI gateway for full-stack applications.
 - [Label Studio](https://github.com/HumanSignal/label-studio): Open-source data labeling platform for images, text, audio, video, and time series in ML and LLM training workflows.
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
+- [NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator): GPU-accelerated data curation toolkit for LLM pipelines, covering deduplication, quality filtering, and dataset preparation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
 - [Lunar.dev](https://github.com/TheLunarCompany/lunar): Open-source gateway for governing and optimizing third-party API and MCP traffic from applications and AI agents with visibility, policy enforcement, and traffic shaping.
@@ -583,6 +586,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Trench](https://github.com/FrigadeHQ/trench): Self-hosted analytics infrastructure built on Kafka and ClickHouse for high-volume event tracking and real-time operational analytics.
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw): Open-source LLM router and AI cost optimizer that routes simple prompts to cheap models and complex ones to premium, saving 40-70% on API costs with an OpenAI-compatible proxy.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
+- [Robusta KRR](https://github.com/robusta-dev/krr): Prometheus-based Kubernetes resource recommender that surfaces CPU and memory over-provisioning and can auto-apply rightsizing advice.
 
 ## Observability
 
@@ -628,6 +632,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [HUATUO](https://github.com/ccfos/huatuo): Apache-2.0 eBPF-based observability for Linux kernels, AI-agent sandboxes, and heterogeneous infrastructure, with automatic tracing and continuous profiling.
 - [CPA Manager Plus](https://github.com/seakee/CPA-Manager-Plus): Self-hosted management panel and AI gateway observability dashboard for request history, usage, cost, quotas, failures, and account health.
 - [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot): Local-first OpenTelemetry collector for coding-agent events from Claude Code, Codex, Cursor, and other clients, including token, cost, trace, and security-audit telemetry.
+- [GreptimeDB](https://github.com/GreptimeTeam/greptimedb): Open-source observability database that stores metrics, logs, and traces in one columnar engine on object storage.
+- [Odigos](https://github.com/odigos-io/odigos): eBPF-based auto-instrumentation platform that generates OpenTelemetry traces, metrics, and logs for applications without code changes.
 
 ## Kubernetes Operations
 
@@ -807,6 +813,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Codebase Memory MCP](https://github.com/DeusData/codebase-memory-mcp): Code intelligence MCP server that indexes codebases into persistent knowledge graphs for AI agents with sub-ms queries across 158 languages.
 - [Semble](https://github.com/MinishLab/semble): Code search engine optimized for AI agents, using embeddings-based retrieval with ~98% fewer tokens than grep-based approaches.
 - [OpenSrc](https://github.com/vercel-labs/opensrc): Fetch real source code for npm packages on-demand, giving AI coding agents deeper library context for more accurate code generation.
+- [claude-context](https://github.com/zilliztech/claude-context): Semantic code search MCP server that indexes a codebase into a vector store so coding agents retrieve relevant context instead of grepping.
 
 ### AI Coding Tools
 
