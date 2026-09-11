@@ -332,6 +332,12 @@
 - [llm-d Router](https://github.com/llm-d/llm-d-router)：面向 Kubernetes 的智能推理路由器，支持负载与前缀缓存感知路由、请求优先级和 Gateway API 集成。
 - [Cube Studio](https://github.com/data-infra/cube-studio)：面向 Kubernetes 的云原生 AI 平台，提供 MLOps 工作流、分布式训练、GPU 虚拟化、推理服务和 LLMOps 能力。
 - [InferenceX](https://github.com/SemiAnalysisAI/InferenceX)：开源持续推理基准平台，用于跨 GB200、MI355X、B200 和 Ascend 等硬件对比 LLM 服务性能。
+- [LMDeploy](https://github.com/InternLM/lmdeploy)：用于压缩、部署和运行 LLM 推理服务的工具包，支持高吞吐推理、量化与长上下文场景。
+- [Xinference](https://github.com/xorbitsai/inference)：统一的生产级推理 API，可在云端、本地或笔记本上运行开源 LLM、语音和多模态模型。
+- [vLLM Production Stack](https://github.com/vllm-project/production-stack)：vLLM 官方的 Kubernetes 原生参考栈，用于集群级 LLM 推理服务的部署、路由和可观测性。
+- [Gateway API Inference Extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension)：Kubernetes SIG 项目，在 Gateway API 之上扩展面向模型推理后端的感知路由能力。
+- [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws)：Kubernetes API，可将一组 Pod 作为单一副本单元部署，用于可靠运行多节点推理与训练工作负载。
+- [KitOps](https://github.com/kitops-ml/kitops)：CNCF 工具，将 AI/ML 模型、数据集、代码和配置打包并版本化为 OCI 制品，实现可复现的模型交付。
 
 ## AIOps 智能运维
 

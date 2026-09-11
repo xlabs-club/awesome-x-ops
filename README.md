@@ -332,6 +332,12 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [llm-d Router](https://github.com/llm-d/llm-d-router): Kubernetes-oriented intelligent inference router with load- and prefix-cache-aware routing, request prioritization, and Gateway API integration.
 - [Cube Studio](https://github.com/data-infra/cube-studio): Cloud-native AI platform for Kubernetes with MLOps workflows, distributed training, GPU virtualization, inference serving, and LLMOps capabilities.
 - [InferenceX](https://github.com/SemiAnalysisAI/InferenceX): Open-source continuous inference benchmark platform for comparing LLM serving performance across hardware including GB200, MI355X, B200, and Ascend.
+- [LMDeploy](https://github.com/InternLM/lmdeploy): Toolkit for compressing, deploying, and serving LLMs with high-throughput inference, quantization, and long-context support.
+- [Xinference](https://github.com/xorbitsai/inference): Unified production inference API for running open-source LLM, speech, and multimodal models on cloud, on-prem, or laptops.
+- [vLLM Production Stack](https://github.com/vllm-project/production-stack): vLLM's Kubernetes-native reference stack for cluster-wide deployment, routing, and observability of LLM serving.
+- [Gateway API Inference Extension](https://github.com/kubernetes-sigs/gateway-api-inference-extension): Kubernetes SIG project that extends Gateway API with inference-aware routing for model-serving backends.
+- [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws): Kubernetes API for deploying a group of pods as a single replication unit, used to run multi-node inference and training workloads reliably.
+- [KitOps](https://github.com/kitops-ml/kitops): CNCF tool that packages and versions AI/ML models, datasets, code, and configuration as OCI artifacts for reproducible model delivery.
 
 ## AIOps
 
