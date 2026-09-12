@@ -267,6 +267,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [EvalForge](https://github.com/jsdhwfmax/EvalForge): MIT-licensed evaluation-evidence and policy-gate toolkit for RAG applications and AI assistants, exporting portable JSON, JUnit, and SARIF reports for CI regression checks.
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever): MIT-licensed shared schema, validation, and converter ecosystem for storing comparable, reproducible AI evaluation results from Inspect AI, HELM, lm-evaluation-harness, and local runs.
 - [Tracely](https://github.com/Jwuthri/Tracely-ai): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
+- [agenttrail](https://github.com/sodiumsun/agenttrail): Local-first observability for coding agents that turns filesystem activity, plans, and supported agent events into live project and task views without running the agents itself.
 
 ## AI Serving and Inference Operations
 
@@ -449,6 +450,9 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs): FUSE filesystem driver that mounts large git repos instantly with on-demand hydration, eliminating clone latency for agents, sandboxes, and containers.
 - [Docker Compose for Agents](https://github.com/docker/compose-for-agents): Docker Compose examples for running open-source LLMs, tools, and agent runtimes as reproducible local or deployment workflows.
 - [MCPHub](https://github.com/samanhappy/mcphub): Self-hosted MCP gateway and management platform with unified endpoints, access control, health checks, routing, logs, and hot-swappable server configuration.
+- [Mirage](https://github.com/strukto-ai/mirage): Virtual terminal and filesystem sandbox for AI agents that mounts S3, Slack, Redis, and other sources under one POSIX root, with allow/ask/deny profiles and a scriptable policy engine.
+- [clawk](https://github.com/clawkwork/clawk): Gives coding agents a disposable Linux VM with the repository mounted in, so guest-root tooling and network allow-lists keep the host filesystem, keychain, and credentials out of reach.
+- [Containarium](https://github.com/FootprintAI/Containarium): Self-hosted agent runtime that gives each agent an SSH-reachable box with per-tenant network isolation, eBPF egress policy, GPU passthrough, and MCP-native tooling on Kubernetes and LXC.
 
 ## LLM Knowledge
 
@@ -674,6 +678,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator): Kubernetes operator for deploying and managing OpenClaw AI agent instances with security, observability, and lifecycle controls.
+- [Accelerated Container Image](https://github.com/containerd/accelerated-container-image): containerd sub-project implementing block-level remote images (overlaybd) so containers and agent sandboxes start on demand without downloading and unpacking the full image.
 
 ## Security and Supply Chain
 
@@ -777,6 +782,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Akto](https://github.com/akto-api-security/akto): Open-source AI security platform for testing and securing AI agents, MCP servers, LLM integrations, and GenAI applications against API-level threats.
 - [Prompt Injection Defenses](https://github.com/tldrsec/prompt-injection-defenses): Comprehensive guide cataloging every practical and proposed defense against prompt injection attacks on LLM systems.
 - [AIRT](https://github.com/0x4D31/airt): Free, open-source AI red teaming course with hands-on Docker labs covering adversarial testing and security evaluation of LLM systems.
+- [Codex Security](https://github.com/openai/codex-security): OpenAI CLI and TypeScript SDK for declaring security policy and finding, validating, and fixing vulnerabilities in code, including CI scan workflows driven by an API key.
+- [open-kritt](https://github.com/Kritt-ai/open-kritt): Self-hosted security and vulnerability research platform that orchestrates AI agents into de-duplicated, ranked findings with configurable validation and enrichment.
 
 ## Platform Engineering
 

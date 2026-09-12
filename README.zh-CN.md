@@ -267,6 +267,7 @@
 - [EvalForge](https://github.com/jsdhwfmax/EvalForge)：基于 MIT 许可的评估证据与策略门禁工具包，面向 RAG 应用和 AI 助手输出可移植的 JSON、JUnit 与 SARIF 报告，用于 CI 回归检查。
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever)：基于 MIT 许可的共享 Schema、校验和转换工具生态，用于存储来自 Inspect AI、HELM、lm-evaluation-harness 及本地运行的可比较、可复现 AI 评估结果。
 - [Tracely](https://github.com/Jwuthri/Tracely-ai)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
+- [agenttrail](https://github.com/sodiumsun/agenttrail)：面向编码 Agent 的本地优先可观测性工具，将文件变更、计划和支持的 Agent 事件转化为实时的项目与任务视图，本身不运行 Agent。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -449,6 +450,9 @@
 - [ArtifactFS](https://github.com/cloudflare/artifact-fs)：FUSE 文件系统驱动，可即时挂载大型 Git 仓库并按需加载文件内容，消除 Agent、沙箱和容器的克隆延迟。
 - [Docker Compose for Agents](https://github.com/docker/compose-for-agents)：使用 Docker Compose 运行开源 LLM、工具和 Agent 运行时的示例集合，便于构建可复现的本地或部署工作流。
 - [MCPHub](https://github.com/samanhappy/mcphub)：可自托管的 MCP 网关与管理平台，提供统一端点、访问控制、健康检查、路由、日志和无需停机的 Server 配置更新。
+- [Mirage](https://github.com/strukto-ai/mirage)：面向 AI Agent 的虚拟终端与文件系统沙箱，将 S3、Slack、Redis 等数据源挂载到统一的 POSIX 根目录下，并提供 allow/ask/deny 配置与可脚本化的策略引擎。
+- [clawk](https://github.com/clawkwork/clawk)：为编码 Agent 提供一次性的独立 Linux 虚拟机，仅挂载代码仓库，Agent 在 guest 内可获 root 权限，并通过网络白名单隔离宿主机的文件系统、密钥链与凭据。
+- [Containarium](https://github.com/FootprintAI/Containarium)：可自托管的 Agent 运行时，为每个 Agent 提供可通过 SSH 访问的独立环境，支持租户级网络隔离、eBPF 出站策略、GPU 直通，以及基于 Kubernetes 与 LXC 的 MCP 原生工具链。
 
 ## LLM 知识库
 
@@ -674,6 +678,7 @@
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator)：用于在 Kubernetes 上部署和管理 OpenClaw AI Agent 实例的 Operator，提供安全、可观测性和生命周期控制。
+- [Accelerated Container Image](https://github.com/containerd/accelerated-container-image)：containerd 子项目，实现基于块设备的远程镜像格式（overlaybd），使容器与 Agent 沙箱无需下载并解包完整镜像即可按需启动。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -777,6 +782,8 @@
 - [Akto](https://github.com/akto-api-security/akto)：开源 AI 安全平台，用于测试和保障 AI Agent、MCP 服务器、LLM 集成和 GenAI 应用免受 API 层面威胁。
 - [Prompt Injection Defenses](https://github.com/tldrsec/prompt-injection-defenses)：全面的 Prompt 注入防御指南，系统梳理了针对 LLM 系统的各类实用和理论防御方案。
 - [AIRT](https://github.com/0x4D31/airt)：免费开源的 AI 红队课程，包含动手 Docker 实验环境，覆盖 LLM 系统的对抗性测试和安全评估。
+- [Codex Security](https://github.com/openai/codex-security)：OpenAI 提供的 CLI 与 TypeScript SDK，用于声明安全策略并发现、验证和修复代码漏洞，支持通过 API Key 在 CI 中执行扫描。
+- [open-kritt](https://github.com/Kritt-ai/open-kritt)：可自托管的安全与漏洞研究平台，编排 AI Agent 产出已去重、按优先级排序的发现，并支持可配置的验证与信息补充。
 
 ## Platform Engineering 平台工程
 
