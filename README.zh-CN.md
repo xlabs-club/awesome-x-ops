@@ -411,6 +411,7 @@
 - [NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)：GPU 加速的 LLM 数据治理工具包，覆盖去重、质量过滤和数据集准备流程。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
+- [Zilla](https://github.com/aklivity/zilla)：面向事件驱动应用和 AI Agent 的轻量级多协议网关，通过统一的路由、安全、Schema 和可观测性治理 Kafka、MQTT、API 与 MCP。
 - [Lunar.dev](https://github.com/TheLunarCompany/lunar)：开源网关，用于治理和优化应用及 AI Agent 的第三方 API 与 MCP 流量，提供流量可见性、策略执行和流量整形能力。
 - [Jarvis Registry](https://github.com/ascending-llc/jarvis-registry)：企业级 MCP 与 A2A 网关，提供身份感知访问控制、工具发现、OpenTelemetry 链路和 Prometheus 指标。
 - [Maxun](https://github.com/getmaxun/maxun)：开源无代码平台，支持 Web 抓取、爬取、搜索和 AI 数据提取，可将网站转化为 RAG 和 AI 流水线所需的结构化 API。
