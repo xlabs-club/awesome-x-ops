@@ -173,7 +173,7 @@
 - [MASEval](https://github.com/maseval/MASEval)：与 Agent 实现无关的评估基础设施，通过适配器、生命周期钩子、追踪、日志和指标对多 Agent 系统进行基准测试。
 - [Aleph Alpha Eval-Framework](https://github.com/Aleph-Alpha-Research/eval-framework)：基于 Apache-2.0 许可的框架，支持跨 90+ 基准测试分布式评估 LLM，并提供可扩展的模型、任务、指标、扰动测试和统计报告能力。
 - [HELM](https://github.com/stanford-crfm/helm)：开源框架，用于对语言模型和多模态模型进行全面、可复现且透明的评估。
-- [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)：基于 Envoy 的 AI 网关，用于跨供应商和平台统一管理生成式 AI 服务访问。
+- [Agent Router](https://github.com/theagentrouter/agent-router)：基于 Envoy 的 AI 与 Agent 流量控制面，应用团队通过统一的 OpenAI 兼容 API 接入托管模型、自建推理服务与 MCP 服务器，平台团队集中管理凭证、路由、配额与故障切换（原 Envoy AI Gateway）。
 - [Higress](https://github.com/higress-group/higress)：基于 Envoy 的 AI 原生 API 网关，用于统一 LLM 供应商访问、金丝雀路由、限流和多模型可观测。
 - [Bifrost](https://github.com/maximhq/bifrost)：高性能企业级 AI 网关，支持自适应负载均衡、护栏、集群模式和 1000+ 模型接入。
 - [TokenHub](https://github.com/astaxie/TokenHub)：企业级 AI 网关，用于统一模型访问、请求治理、可追溯性和用量归因。
@@ -268,6 +268,7 @@
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever)：基于 MIT 许可的共享 Schema、校验和转换工具生态，用于存储来自 Inspect AI、HELM、lm-evaluation-harness 及本地运行的可比较、可复现 AI 评估结果。
 - [Tracely](https://github.com/Jwuthri/Tracely-ai)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
 - [agenttrail](https://github.com/sodiumsun/agenttrail)：面向编码 Agent 的本地优先可观测性工具，将文件变更、计划和支持的 Agent 事件转化为实时的项目与任务视图，本身不运行 Agent。
+- [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)：统一的多模态评测工具集，覆盖 100+ 文本、图像、视频与音频基准任务，提供可复现流水线与异步推理能力，支撑大规模模型评测。
 
 ## AI Serving and Inference Operations AI 推理服务运维
 
@@ -340,6 +341,8 @@
 - [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws)：Kubernetes API，可将一组 Pod 作为单一副本单元部署，用于可靠运行多节点推理与训练工作负载。
 - [KitOps](https://github.com/kitops-ml/kitops)：CNCF 工具，将 AI/ML 模型、数据集、代码和配置打包并版本化为 OCI 制品，实现可复现的模型交付。
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer)：面向 LLM 服务的注意力与 GEMM 算子库，被 vLLM、SGLang 等推理引擎集成以降低推理延迟。
+- [LMCache](https://github.com/LMCache/LMCache)：KV cache 管理层，将 LLM 的 key-value 缓存复用到 CPU 内存、本地磁盘和同集群对等实例，降低多轮对话、RAG 与 Agent 推理场景的 prefill 开销和首 token 延迟。
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni)：vLLM 项目的全模态（omni-modality）推理服务框架，将同一技术栈扩展到文本、图像、音频、视频与动作模型，涵盖扩散模型与 TTS 流水线，并提供 OpenAI 兼容 API。
 
 ## AIOps 智能运维
 
@@ -453,6 +456,7 @@
 - [Mirage](https://github.com/strukto-ai/mirage)：面向 AI Agent 的虚拟终端与文件系统沙箱，将 S3、Slack、Redis 等数据源挂载到统一的 POSIX 根目录下，并提供 allow/ask/deny 配置与可脚本化的策略引擎。
 - [clawk](https://github.com/clawkwork/clawk)：为编码 Agent 提供一次性的独立 Linux 虚拟机，仅挂载代码仓库，Agent 在 guest 内可获 root 权限，并通过网络白名单隔离宿主机的文件系统、密钥链与凭据。
 - [Containarium](https://github.com/FootprintAI/Containarium)：可自托管的 Agent 运行时，为每个 Agent 提供可通过 SSH 访问的独立环境，支持租户级网络隔离、eBPF 出站策略、GPU 直通，以及基于 Kubernetes 与 LXC 的 MCP 原生工具链。
+- [OpenLake](https://github.com/openlake-project/openlake)：面向 GPU 负载的 Rust 存储引擎，将 KV cache 与 checkpoint 卸载到持久化存储，提供百万级 IOPS 的随机读能力，用于降低推理成本、减少加速器空转。
 
 ## LLM 知识库
 
@@ -550,6 +554,7 @@
 - [Google ADK JavaScript](https://github.com/google/adk-js)：基于代码的 TypeScript 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 - [Google ADK Java](https://github.com/google/adk-java)：基于代码的 Java 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 - [Ouroboros](https://github.com/Q00/ouroboros)：自进化 Agent OS，提供面试门控的分阶段评估和预算化进化循环，支持 Claude Code、Codex、Gemini CLI 等 13 种编码 Agent 运行时。
+- [Omnara](https://github.com/omnara-ai/omnara)：自托管的托管式 Agent 平台，负责 Agent 的执行与状态管理，团队可通过 API、控制台或 Slack 连接器自行选择模型、工具与运行机器。
 
 ## DataOps
 
