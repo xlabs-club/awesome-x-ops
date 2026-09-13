@@ -173,7 +173,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [MASEval](https://github.com/maseval/MASEval): Agent-agnostic evaluation infrastructure for benchmarking multi-agent systems with adapters, lifecycle hooks, tracing, logging, and metrics.
 - [Aleph Alpha Eval-Framework](https://github.com/Aleph-Alpha-Research/eval-framework): Apache-2.0 framework for distributed LLM evaluation across 90+ benchmarks, with extensible models, tasks, metrics, perturbation testing, and statistical reports.
 - [HELM](https://github.com/stanford-crfm/helm): Open-source framework for holistic, reproducible, and transparent evaluation of language and multimodal models.
-- [Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway): Envoy-based gateway for managing unified access to generative AI services across providers and platforms.
+- [Agent Router](https://github.com/theagentrouter/agent-router): Envoy-based control plane for AI and agent traffic that gives application teams one OpenAI-compatible API across hosted providers, self-hosted inference, and MCP servers, while platform teams centralize credentials, routing, quotas, and failover. Formerly Envoy AI Gateway.
 - [Higress](https://github.com/higress-group/higress): AI-native API gateway built on Envoy for unified LLM provider access, canary routing, rate limiting, and multi-model observability.
 - [Bifrost](https://github.com/maximhq/bifrost): High-performance enterprise AI gateway with adaptive load balancing, guardrails, cluster mode, and 1000+ model support.
 - [TokenHub](https://github.com/astaxie/TokenHub): Enterprise AI gateway for unified model access, request governance, traceability, and usage attribution.
@@ -268,6 +268,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Every Eval Ever](https://github.com/evaleval/every_eval_ever): MIT-licensed shared schema, validation, and converter ecosystem for storing comparable, reproducible AI evaluation results from Inspect AI, HELM, lm-evaluation-harness, and local runs.
 - [Tracely](https://github.com/Jwuthri/Tracely-ai): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
 - [agenttrail](https://github.com/sodiumsun/agenttrail): Local-first observability for coding agents that turns filesystem activity, plans, and supported agent events into live project and task views without running the agents itself.
+- [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): Unified multimodal evaluation toolkit covering 100+ text, image, video, and audio benchmark tasks, with reproducible pipelines and async serving for large-scale model evaluation.
 
 ## AI Serving and Inference Operations
 
@@ -340,6 +341,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [LeaderWorkerSet](https://github.com/kubernetes-sigs/lws): Kubernetes API for deploying a group of pods as a single replication unit, used to run multi-node inference and training workloads reliably.
 - [KitOps](https://github.com/kitops-ml/kitops): CNCF tool that packages and versions AI/ML models, datasets, code, and configuration as OCI artifacts for reproducible model delivery.
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer): Attention and GEMM kernel library for LLM serving, used by engines such as vLLM and SGLang to cut inference latency.
+- [LMCache](https://github.com/LMCache/LMCache): KV cache management layer that stores and reuses LLM key-value cache across CPU memory, local disk, and peer instances to cut prefill cost and time to first token for multi-turn, RAG, and agentic serving.
+- [vLLM-Omni](https://github.com/vllm-project/vllm-omni): Omni-modality serving framework from the vLLM project that extends the same stack to text, image, audio, video, and action models, including diffusion and TTS pipelines, behind an OpenAI-compatible API.
 
 ## AIOps
 
@@ -453,6 +456,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Mirage](https://github.com/strukto-ai/mirage): Virtual terminal and filesystem sandbox for AI agents that mounts S3, Slack, Redis, and other sources under one POSIX root, with allow/ask/deny profiles and a scriptable policy engine.
 - [clawk](https://github.com/clawkwork/clawk): Gives coding agents a disposable Linux VM with the repository mounted in, so guest-root tooling and network allow-lists keep the host filesystem, keychain, and credentials out of reach.
 - [Containarium](https://github.com/FootprintAI/Containarium): Self-hosted agent runtime that gives each agent an SSH-reachable box with per-tenant network isolation, eBPF egress policy, GPU passthrough, and MCP-native tooling on Kubernetes and LXC.
+- [OpenLake](https://github.com/openlake-project/openlake): Rust storage engine for GPU workloads that offloads KV cache and checkpoints to durable storage with million-IOPS random reads, targeting lower inference cost and less accelerator idle time.
 
 ## LLM Knowledge
 
@@ -550,6 +554,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Google ADK JavaScript](https://github.com/google/adk-js): Code-first TypeScript toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 - [Google ADK Java](https://github.com/google/adk-java): Code-first Java toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 - [Ouroboros](https://github.com/Q00/ouroboros): Self-improving Agent OS with interview-gated, staged evaluation and budgeted evolution loops across 13 coding-agent runtimes including Claude Code, Codex, and Gemini CLI.
+- [Omnara](https://github.com/omnara-ai/omnara): Self-hosted platform for running managed AI agents that handles execution and state while teams choose the models, tools, and machines through an API, dashboard, or Slack connector.
 
 ## DataOps
 
