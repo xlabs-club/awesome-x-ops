@@ -343,6 +343,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer): Attention and GEMM kernel library for LLM serving, used by engines such as vLLM and SGLang to cut inference latency.
 - [LMCache](https://github.com/LMCache/LMCache): KV cache management layer that stores and reuses LLM key-value cache across CPU memory, local disk, and peer instances to cut prefill cost and time to first token for multi-turn, RAG, and agentic serving.
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni): Omni-modality serving framework from the vLLM project that extends the same stack to text, image, audio, video, and action models, including diffusion and TTS pipelines, behind an OpenAI-compatible API.
+- [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter): Prometheus exporter for NVIDIA GPU metrics built on DCGM, exposing utilization, profiler counters, and health signals for monitoring AI serving and training fleets.
 
 ## AIOps
 
@@ -457,6 +458,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [clawk](https://github.com/clawkwork/clawk): Gives coding agents a disposable Linux VM with the repository mounted in, so guest-root tooling and network allow-lists keep the host filesystem, keychain, and credentials out of reach.
 - [Containarium](https://github.com/FootprintAI/Containarium): Self-hosted agent runtime that gives each agent an SSH-reachable box with per-tenant network isolation, eBPF egress policy, GPU passthrough, and MCP-native tooling on Kubernetes and LXC.
 - [OpenLake](https://github.com/openlake-project/openlake): Rust storage engine for GPU workloads that offloads KV cache and checkpoints to durable storage with million-IOPS random reads, targeting lower inference cost and less accelerator idle time.
+- [VectorChord](https://github.com/supervc-stack/VectorChord): Scalable, disk-friendly vector search extension for PostgreSQL from the pgvecto.rs lineage, powering RAG and embedding retrieval directly inside Postgres.
 
 ## LLM Knowledge
 
@@ -577,6 +579,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Airbyte](https://github.com/airbytehq/airbyte): Open-source data integration platform for building ELT pipelines from APIs, databases, and files to warehouses, lakes, and AI applications.
 - [Mage](https://github.com/mage-ai/mage-ai): Open-source data pipeline platform for building, running, and managing AI-ready data integrations and transformations.
 - [DVC](https://github.com/iterative/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
+- [lakeFS](https://github.com/treeverse/lakeFS): Git-like version control for data lakes that adds branching, commits, and rollback semantics to S3 and object-store data used by ML, analytics, and RAG pipelines.
 
 ### Streaming Operations
 
@@ -644,6 +647,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot): Local-first OpenTelemetry collector for coding-agent events from Claude Code, Codex, Cursor, and other clients, including token, cost, trace, and security-audit telemetry.
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb): Open-source observability database that stores metrics, logs, and traces in one columnar engine on object storage.
 - [Odigos](https://github.com/odigos-io/odigos): eBPF-based auto-instrumentation platform that generates OpenTelemetry traces, metrics, and logs for applications without code changes.
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse): Real-time columnar OLAP database that powers the storage layer of many observability, LLM telemetry, and AI analytics stacks.
 
 ## Kubernetes Operations
 
@@ -852,6 +856,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Sourcery](https://github.com/sourcery-ai/sourcery): Instant AI code review tool that provides automated feedback on pull requests and changes.
 - [Kodus](https://github.com/kodustech/kodus-ai): Open-source AI code review agent with full control over model choice and costs, supporting multi-provider LLMs and enterprise-grade deployment.
 - [h5i](https://github.com/h5i-dev/h5i): Apache-2.0 platform for auditable AI coding-agent workspaces, with sandboxed Git worktrees, multi-agent orchestration, prompt and context tracking, review gates, and token-efficient logs.
+- [crush](https://github.com/charmbracelet/crush): Terminal-first coding agent from the Charm ecosystem with broad LLM provider support and a polished TUI (FSL-1.1-MIT, converts to MIT).
 
 ### Developer Environments
 
