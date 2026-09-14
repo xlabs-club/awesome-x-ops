@@ -343,6 +343,7 @@
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer)：面向 LLM 服务的注意力与 GEMM 算子库，被 vLLM、SGLang 等推理引擎集成以降低推理延迟。
 - [LMCache](https://github.com/LMCache/LMCache)：KV cache 管理层，将 LLM 的 key-value 缓存复用到 CPU 内存、本地磁盘和同集群对等实例，降低多轮对话、RAG 与 Agent 推理场景的 prefill 开销和首 token 延迟。
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni)：vLLM 项目的全模态（omni-modality）推理服务框架，将同一技术栈扩展到文本、图像、音频、视频与动作模型，涵盖扩散模型与 TTS 流水线，并提供 OpenAI 兼容 API。
+- [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter)：基于 DCGM 的 NVIDIA GPU 指标 Prometheus 导出器，暴露利用率、profiler 计数器与健康信号，用于监控 AI 推理与训练集群。
 
 ## AIOps 智能运维
 
@@ -457,6 +458,7 @@
 - [clawk](https://github.com/clawkwork/clawk)：为编码 Agent 提供一次性的独立 Linux 虚拟机，仅挂载代码仓库，Agent 在 guest 内可获 root 权限，并通过网络白名单隔离宿主机的文件系统、密钥链与凭据。
 - [Containarium](https://github.com/FootprintAI/Containarium)：可自托管的 Agent 运行时，为每个 Agent 提供可通过 SSH 访问的独立环境，支持租户级网络隔离、eBPF 出站策略、GPU 直通，以及基于 Kubernetes 与 LXC 的 MCP 原生工具链。
 - [OpenLake](https://github.com/openlake-project/openlake)：面向 GPU 负载的 Rust 存储引擎，将 KV cache 与 checkpoint 卸载到持久化存储，提供百万级 IOPS 的随机读能力，用于降低推理成本、减少加速器空转。
+- [VectorChord](https://github.com/supervc-stack/VectorChord)：来自 pgvecto.rs 团队的 PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
 
 ## LLM 知识库
 
@@ -577,6 +579,7 @@
 - [Airbyte](https://github.com/airbytehq/airbyte)：开源数据集成平台，用于构建从 API、数据库和文件到数据仓库、数据湖及 AI 应用的 ELT 流水线。
 - [Mage](https://github.com/mage-ai/mage-ai)：开源数据流水线平台，用于构建、运行和管理面向 AI 的数据集成与转换任务。
 - [DVC](https://github.com/iterative/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
+- [lakeFS](https://github.com/treeverse/lakeFS)：数据湖上的 Git 式版本控制，为 S3 与对象存储数据提供分支、提交与回滚语义，服务 ML、分析与 RAG 数据流水线。
 
 ### Streaming Operations 流式数据运维
 
@@ -644,6 +647,7 @@
 - [LoongSuite Pilot](https://github.com/alibaba/loongsuite-pilot)：本地优先的 OpenTelemetry Collector，可采集 Claude Code、Codex、Cursor 等编码 Agent 的事件，以及 Token、成本、Trace 和安全审计遥测数据。
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：开源可观测性数据库，以单一列式引擎在对象存储上统一承载指标、日志和 Trace。
 - [Odigos](https://github.com/odigos-io/odigos)：基于 eBPF 的自动埋点平台，无需修改代码即可为应用生成 OpenTelemetry 的 Trace、指标和日志。
+- [ClickHouse](https://github.com/ClickHouse/ClickHouse)：实时列式 OLAP 数据库，是众多可观测性、LLM 遥测与 AI 分析技术栈的底层存储。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -852,6 +856,7 @@
 - [Sourcery](https://github.com/sourcery-ai/sourcery)：即时 AI 代码审查工具，可为 Pull Request 和代码变更提供自动化反馈。
 - [Kodus](https://github.com/kodustech/kodus-ai)：开源 AI 代码审查 Agent，可完全控制模型选择和成本，支持多供应商 LLM 和企业级部署。
 - [h5i](https://github.com/h5i-dev/h5i)：Apache-2.0 许可的 AI 编码 Agent 可审计工作区平台，提供隔离 Git worktree、多 Agent 编排、Prompt 与上下文追踪、评审门禁和高效日志压缩。
+- [crush](https://github.com/charmbracelet/crush)：Charm 生态的终端优先编码 Agent，支持主流 LLM 供应商，TUI 体验出色（FSL-1.1-MIT，到期自动转为 MIT）。
 
 ### Developer Environments 开发环境
 
