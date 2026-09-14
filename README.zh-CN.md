@@ -458,7 +458,7 @@
 - [clawk](https://github.com/clawkwork/clawk)：为编码 Agent 提供一次性的独立 Linux 虚拟机，仅挂载代码仓库，Agent 在 guest 内可获 root 权限，并通过网络白名单隔离宿主机的文件系统、密钥链与凭据。
 - [Containarium](https://github.com/FootprintAI/Containarium)：可自托管的 Agent 运行时，为每个 Agent 提供可通过 SSH 访问的独立环境，支持租户级网络隔离、eBPF 出站策略、GPU 直通，以及基于 Kubernetes 与 LXC 的 MCP 原生工具链。
 - [OpenLake](https://github.com/openlake-project/openlake)：面向 GPU 负载的 Rust 存储引擎，将 KV cache 与 checkpoint 卸载到持久化存储，提供百万级 IOPS 的随机读能力，用于降低推理成本、减少加速器空转。
-- [VectorChord](https://github.com/supervc-stack/VectorChord)：来自 pgvecto.rs 团队的 PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
+- [VectorChord](https://github.com/supervc-stack/VectorChord)：pgvecto.rs 的继任项目，PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
 
 ## LLM 知识库
 
