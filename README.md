@@ -342,6 +342,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [KitOps](https://github.com/kitops-ml/kitops): CNCF tool that packages and versions AI/ML models, datasets, code, and configuration as OCI artifacts for reproducible model delivery.
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer): Attention and GEMM kernel library for LLM serving, used by engines such as vLLM and SGLang to cut inference latency.
 - [LMCache](https://github.com/LMCache/LMCache): KV cache management layer that stores and reuses LLM key-value cache across CPU memory, local disk, and peer instances to cut prefill cost and time to first token for multi-turn, RAG, and agentic serving.
+- [Mooncake](https://github.com/kvcache-ai/Mooncake): KVCache-centric serving platform behind Moonshot AI's Kimi that disaggregates prefill and decode and pools KV cache across CPU, DRAM, SSD, and peer instances to raise GPU utilization and serving throughput.
+- [DeepSpeed](https://github.com/deepspeedai/DeepSpeed): Deep learning optimization library providing ZeRO memory partitioning, mixed precision, and CPU or NVMe offloading so large models can be trained and served with far less GPU memory.
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni): Omni-modality serving framework from the vLLM project that extends the same stack to text, image, audio, video, and action models, including diffusion and TTS pipelines, behind an OpenAI-compatible API.
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter): Prometheus exporter for NVIDIA GPU metrics built on DCGM, exposing utilization, profiler counters, and health signals for monitoring AI serving and training fleets.
 
@@ -623,6 +625,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Pixie](https://github.com/pixie-io/pixie): Kubernetes-native observability platform that uses eBPF to capture metrics, events, traces, and network telemetry without manual instrumentation.
 - [Grafana Beyla](https://github.com/grafana/beyla): eBPF-based auto-instrumentation for web applications and network metrics without code changes, exporting OpenTelemetry data.
 - [Parca](https://github.com/parca-dev/parca): Continuous profiling platform for analyzing CPU and memory usage over time to improve performance, reliability, and infrastructure efficiency.
+- [Grafana Pyroscope](https://github.com/grafana/pyroscope): Continuous profiling platform that aggregates CPU and memory profiles across applications and infrastructure so performance regressions can be traced to specific functions and services.
 - [Kepler](https://github.com/sustainable-computing-io/kepler): Kubernetes power and energy exporter for measuring container, pod, and node energy consumption with Prometheus.
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget): eBPF-based inspection toolkit for collecting low-level Kubernetes and Linux operational telemetry.
 - [Robusta](https://github.com/robusta-dev/robusta): Kubernetes alert enrichment and automation platform for Prometheus alerts, runbooks, and remediation workflows.
@@ -652,6 +655,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 ## Kubernetes Operations
 
 - [Cilium](https://github.com/cilium/cilium): eBPF-based Kubernetes networking, security, and observability platform.
+- [Calico](https://github.com/projectcalico/calico): Kubernetes networking and network-policy engine with eBPF or iptables data planes for pod connectivity, policy enforcement, and encryption in multi-tenant clusters.
 - [Traefik](https://github.com/traefik/traefik): Cloud-native application proxy and ingress controller with automatic service discovery, middleware, and multi-protocol support.
 - [kgateway](https://github.com/kgateway-dev/kgateway): Cloud-native API and AI gateway built on Envoy for Kubernetes ingress, traffic management, and AI service routing.
 - [Istio](https://github.com/istio/istio): Leading open-source service mesh for connecting, securing, and observing microservices with traffic management, security policies, and telemetry.
@@ -679,10 +683,12 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [k3s](https://github.com/k3s-io/k3s): Lightweight Kubernetes distribution designed for edge, IoT, CI, and resource-constrained environments.
 - [k9s](https://github.com/derailed/k9s): Terminal UI for managing Kubernetes clusters with resource views, logs, and context switching.
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker): Lightweight KVM-based microVM monitor that provides fast-starting, strongly isolated sandboxes for multi-tenant serverless platforms and AI agent execution environments.
 - [Talos Linux](https://github.com/siderolabs/talos): Modern Linux distribution built specifically for Kubernetes with API-driven configuration, immutable root filesystem, and zero-touch provisioning.
 - [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
 - [Rook](https://github.com/rook/rook): CNCF storage orchestrator for Kubernetes, providing self-managing, self-scaling, and self-healing storage services for Ceph, NFS, and other providers.
 - [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
+- [Longhorn](https://github.com/longhorn/longhorn): Cloud-native distributed block storage for Kubernetes with replication, snapshots, backups, and a management UI for stateful workloads.
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
@@ -725,6 +731,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Tracecat](https://github.com/TracecatHQ/tracecat): Open-source security automation platform for teams and AI agents with event-driven orchestration, monitoring, and low-code workflows.
 - [OneCLI](https://github.com/onecli/onecli): Open-source credential gateway with built-in vault for giving AI agents access to services without exposing secrets.
 - [Privacy Filter](https://github.com/packyme/privacy-filter): Pure-Go privacy gateway that redacts PII and secrets before prompts reach an LLM, with HTTP, gRPC, and embeddable package interfaces.
+- [Presidio](https://github.com/data-privacy-stack/presidio): PII detection and anonymization framework with pluggable recognizers and NLP models, used to redact sensitive data before it reaches LLM prompts, traces, or logs.
+- [Invariant Analyzer](https://github.com/invariantlabs-ai/invariant): Guardrail and trace-analysis engine for agentic applications that inspects tool calls, data flow, and agent behavior to detect security and policy violations at runtime.
 - [Preloop](https://github.com/preloop/preloop): Self-hostable AI agent control plane combining an MCP firewall, model gateway, policy-as-code, human approvals, runtime observability, budgets, and audit trails.
 - [hoop](https://github.com/hoophq/hoop): Open-source layer-7 gateway for engineers and AI agents that masks sensitive data, blocks dangerous infrastructure operations, supports approvals, and records sessions across databases, Kubernetes, SSH, APIs, and MCP.
 - [Octelium](https://github.com/octelium/octelium): Self-hosted zero-trust access platform that also operates as an API, AI/LLM, MCP, Kubernetes, and container application gateway.

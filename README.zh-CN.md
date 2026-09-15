@@ -342,6 +342,8 @@
 - [KitOps](https://github.com/kitops-ml/kitops)：CNCF 工具，将 AI/ML 模型、数据集、代码和配置打包并版本化为 OCI 制品，实现可复现的模型交付。
 - [FlashInfer](https://github.com/flashinfer-ai/flashinfer)：面向 LLM 服务的注意力与 GEMM 算子库，被 vLLM、SGLang 等推理引擎集成以降低推理延迟。
 - [LMCache](https://github.com/LMCache/LMCache)：KV cache 管理层，将 LLM 的 key-value 缓存复用到 CPU 内存、本地磁盘和同集群对等实例，降低多轮对话、RAG 与 Agent 推理场景的 prefill 开销和首 token 延迟。
+- [Mooncake](https://github.com/kvcache-ai/Mooncake)：以 KVCache 为中心的推理服务平台（支撑 Moonshot AI 的 Kimi），将 prefill 与 decode 分离，并在 CPU、DRAM、SSD 与对等实例间池化 KV 缓存，提升 GPU 利用率和吞吐。
+- [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)：深度学习优化库，提供 ZeRO 显存切分、混合精度以及 CPU/NVMe 卸载，让大模型以更少的 GPU 显存完成训练与推理。
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni)：vLLM 项目的全模态（omni-modality）推理服务框架，将同一技术栈扩展到文本、图像、音频、视频与动作模型，涵盖扩散模型与 TTS 流水线，并提供 OpenAI 兼容 API。
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter)：基于 DCGM 的 NVIDIA GPU 指标 Prometheus 导出器，暴露利用率、profiler 计数器与健康信号，用于监控 AI 推理与训练集群。
 
@@ -622,6 +624,7 @@
 - [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
 - [Grafana Beyla](https://github.com/grafana/beyla)：基于 eBPF 的 Web 应用与网络指标自动插桩工具，无需修改代码即可导出 OpenTelemetry 数据。
 - [Parca](https://github.com/parca-dev/parca)：持续性能剖析平台，用于分析 CPU 和内存使用随时间的变化，提升性能、可靠性和基础设施效率。
+- [Grafana Pyroscope](https://github.com/grafana/pyroscope)：持续性能剖析平台，汇聚应用与基础设施的 CPU、内存 profile，便于把性能回归定位到具体函数与服务。
 - [Kepler](https://github.com/sustainable-computing-io/kepler)：Kubernetes 功耗与能耗 Exporter，用 Prometheus 衡量容器、Pod 和节点的能耗指标。
 - [Inspektor Gadget](https://github.com/inspektor-gadget/inspektor-gadget)：基于 eBPF 的检查工具集，用于采集 Kubernetes 与 Linux 的底层运维遥测。
 - [Robusta](https://github.com/robusta-dev/robusta)：Kubernetes 告警增强与自动化平台，支持 Prometheus 告警、Runbook 和修复工作流。
@@ -652,6 +655,7 @@
 ## Kubernetes Operations Kubernetes 运维
 
 - [Cilium](https://github.com/cilium/cilium)：基于 eBPF 的 Kubernetes 网络、安全和可观测性平台。
+- [Calico](https://github.com/projectcalico/calico)：Kubernetes 网络与网络策略引擎，支持 eBPF 与 iptables 数据面，在多租户集群中提供 Pod 连通性、策略执行与加密。
 - [Traefik](https://github.com/traefik/traefik)：云原生应用代理和入口控制器，支持自动服务发现、中间件和多协议。
 - [kgateway](https://github.com/kgateway-dev/kgateway)：基于 Envoy 的云原生 API 与 AI 网关，支持 Kubernetes 入口流量管理、AI 服务路由。
 - [Istio](https://github.com/istio/istio)：主流开源服务网格，用于连接、保护和观测微服务，支持流量管理、安全策略和遥测。
@@ -679,10 +683,12 @@
 - [k3s](https://github.com/k3s-io/k3s)：轻量级 Kubernetes 发行版，专为边缘、IoT、CI 和资源受限环境设计。
 - [k9s](https://github.com/derailed/k9s)：终端界面 Kubernetes 集群管理工具，支持资源视图、日志查看与上下文切换。
 - [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
+- [Firecracker](https://github.com/firecracker-microvm/firecracker)：基于 KVM 的轻量级 microVM 监视器，为多租户 Serverless 平台和 AI Agent 执行环境提供快速启动、强隔离的沙箱。
 - [Talos Linux](https://github.com/siderolabs/talos)：专为 Kubernetes 构建的现代 Linux 发行版，支持 API 驱动配置、不可变根文件系统和零接触 provisioning。
 - [KubeEdge](https://github.com/kubeedge/kubeedge)：CNCF Kubernetes 原生边缘计算框架，支持将容器化应用延伸到边缘节点，实现云边协同。
 - [Rook](https://github.com/rook/rook)：CNCF Kubernetes 存储编排器，为 Ceph、NFS 等存储系统提供自管理、自扩容和自修复的存储服务。
 - [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
+- [Longhorn](https://github.com/longhorn/longhorn)：面向 Kubernetes 的云原生分布式块存储，提供副本、快照、备份与管理界面，适合运行有状态负载。
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
@@ -725,6 +731,8 @@
 - [Tracecat](https://github.com/TracecatHQ/tracecat)：面向团队和 AI Agent 的开源安全自动化平台，支持事件驱动编排、监控和低代码工作流。
 - [OneCLI](https://github.com/onecli/onecli)：开源凭据网关，内置密钥保险库，让 AI Agent 无需暴露密钥即可安全访问服务。
 - [Privacy Filter](https://github.com/packyme/privacy-filter)：纯 Go 实现的隐私网关，在 Prompt 发送给 LLM 前脱敏 PII 和密钥，并提供 HTTP、gRPC 与可嵌入的包接口。
+- [Presidio](https://github.com/data-privacy-stack/presidio)：PII 识别与匿名化框架，提供可插拔的识别器与 NLP 模型，用于在敏感数据进入 LLM Prompt、Trace 或日志前完成脱敏。
+- [Invariant Analyzer](https://github.com/invariantlabs-ai/invariant)：面向 Agent 应用的护栏与 Trace 分析引擎，通过检查工具调用、数据流与 Agent 行为，在运行时发现安全与策略违规。
 - [Preloop](https://github.com/preloop/preloop)：可自托管的 AI Agent 控制平面，整合 MCP 防火墙、模型网关、policy-as-code、人机审批、运行时可观测性、预算和审计轨迹。
 - [hoop](https://github.com/hoophq/hoop)：开源七层网关，面向工程师和 AI Agent 对数据库、Kubernetes、SSH、API 与 MCP 访问执行敏感数据脱敏、危险操作拦截、审批和会话记录。
 - [Octelium](https://github.com/octelium/octelium)：可自托管的零信任访问平台，同时可作为 API、AI/LLM、MCP、Kubernetes 和容器应用网关。
