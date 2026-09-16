@@ -346,6 +346,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [DeepSpeed](https://github.com/deepspeedai/DeepSpeed): Deep learning optimization library providing ZeRO memory partitioning, mixed precision, and CPU or NVMe offloading so large models can be trained and served with far less GPU memory.
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni): Omni-modality serving framework from the vLLM project that extends the same stack to text, image, audio, video, and action models, including diffusion and TTS pipelines, behind an OpenAI-compatible API.
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter): Prometheus exporter for NVIDIA GPU metrics built on DCGM, exposing utilization, profiler counters, and health signals for monitoring AI serving and training fleets.
+- [oMLX](https://github.com/jundot/omlx): LLM inference server for Apple Silicon with continuous batching, tiered KV caching, and an OpenAI-compatible API managed from the macOS menu bar.
+- [nvtop](https://github.com/Syllo/nvtop): GPU and accelerator process monitor for NVIDIA, AMD, Intel, Apple, Huawei, and Qualcomm devices, showing utilization, memory, and per-process usage in real time.
 
 ## AIOps
 
@@ -559,6 +561,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Google ADK Java](https://github.com/google/adk-java): Code-first Java toolkit for building, evaluating, and deploying AI agents with flexible orchestration and tool integration.
 - [Ouroboros](https://github.com/Q00/ouroboros): Self-improving Agent OS with interview-gated, staged evaluation and budgeted evolution loops across 13 coding-agent runtimes including Claude Code, Codex, and Gemini CLI.
 - [Omnara](https://github.com/omnara-ai/omnara): Self-hosted platform for running managed AI agents that handles execution and state while teams choose the models, tools, and machines through an API, dashboard, or Slack connector.
+- [Trigger.dev](https://github.com/triggerdotdev/trigger.dev): Open-source durable execution platform for AI agents, background jobs, and long-running workflows, with retries, queues, observability, and self-hosting.
+- [Hive](https://github.com/aden-hive/hive): Multi-agent harness for production workloads with crash-safe state recovery, cost enforcement, persistent task plans, and human-in-the-loop oversight.
 
 ## DataOps
 
@@ -578,6 +582,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [dbt](https://github.com/dbt-labs/dbt-core): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
 - [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
 - [Flyte](https://github.com/flyteorg/flyte): Scalable AI and data orchestration platform for building reproducible, declarative ML pipelines with strong typing and Kubernetes-native execution.
+- [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler): Distributed, low-code workflow scheduler for data pipelines with visual DAG editing, multi-tenant execution, retries, and high availability.
 - [Airbyte](https://github.com/airbytehq/airbyte): Open-source data integration platform for building ELT pipelines from APIs, databases, and files to warehouses, lakes, and AI applications.
 - [Mage](https://github.com/mage-ai/mage-ai): Open-source data pipeline platform for building, running, and managing AI-ready data integrations and transformations.
 - [DVC](https://github.com/iterative/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
@@ -619,6 +624,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [SigNoz](https://github.com/SigNoz/signoz): OpenTelemetry-native observability platform combining metrics, traces, logs, dashboards, and alerts.
 - [HyperDX](https://github.com/hyperdxio/hyperdx): Open-source observability platform unifying session replays, logs, metrics, traces, and errors, powered by ClickHouse and OpenTelemetry.
 - [Jaeger](https://github.com/jaegertracing/jaeger): CNCF distributed tracing platform for monitoring and troubleshooting microservices.
+- [Apache SkyWalking](https://github.com/apache/skywalking): Apache APM platform for distributed systems that unifies traces, metrics, logs, service topology, and eBPF profiling, with OpenTelemetry-compatible ingest.
+- [Nightingale](https://github.com/ccfos/nightingale): Open-source alerting and monitoring platform that unifies Prometheus, VictoriaMetrics, Elasticsearch, and OpenTelemetry data sources with flexible alert rules and notification pipelines.
 - [Vector](https://github.com/vectordotdev/vector): High-performance observability data pipeline for collecting, transforming, and routing logs and metrics.
 - [Grafana Alloy](https://github.com/grafana/alloy): OpenTelemetry Collector distribution with programmable pipelines for collecting, processing, and forwarding observability signals.
 - [Grafana](https://github.com/grafana/grafana): Open-source platform for monitoring, observability, and data visualization with dashboards, alerts, and multi-data-source exploration.
@@ -660,6 +667,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [kgateway](https://github.com/kgateway-dev/kgateway): Cloud-native API and AI gateway built on Envoy for Kubernetes ingress, traffic management, and AI service routing.
 - [Istio](https://github.com/istio/istio): Leading open-source service mesh for connecting, securing, and observing microservices with traffic management, security policies, and telemetry.
 - [Linkerd](https://github.com/linkerd/linkerd2): Ultralight, security-first CNCF service mesh for Kubernetes with zero-config mutual TLS and minimal resource footprint.
+- [Meshery](https://github.com/meshery/meshery): CNCF cloud-native manager for designing, deploying, and operating service meshes and Kubernetes infrastructure, including performance benchmarking and configuration best-practice checks.
 - [Headlamp](https://github.com/kubernetes-sigs/headlamp): Extensible Kubernetes web UI for cluster visibility, resource management, and operational plugins.
 - [cert-manager](https://github.com/cert-manager/cert-manager): Kubernetes-native certificate management controller for issuing and renewing TLS certificates.
 - [KEDA](https://github.com/kedacore/keda): Kubernetes event-driven autoscaler for scaling workloads from external metrics and event sources.
