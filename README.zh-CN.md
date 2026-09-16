@@ -346,6 +346,8 @@
 - [DeepSpeed](https://github.com/deepspeedai/DeepSpeed)：深度学习优化库，提供 ZeRO 显存切分、混合精度以及 CPU/NVMe 卸载，让大模型以更少的 GPU 显存完成训练与推理。
 - [vLLM-Omni](https://github.com/vllm-project/vllm-omni)：vLLM 项目的全模态（omni-modality）推理服务框架，将同一技术栈扩展到文本、图像、音频、视频与动作模型，涵盖扩散模型与 TTS 流水线，并提供 OpenAI 兼容 API。
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter)：基于 DCGM 的 NVIDIA GPU 指标 Prometheus 导出器，暴露利用率、profiler 计数器与健康信号，用于监控 AI 推理与训练集群。
+- [oMLX](https://github.com/jundot/omlx)：面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与分层 KV 缓存，提供 OpenAI 兼容 API，可通过 macOS 菜单栏管理。
+- [nvtop](https://github.com/Syllo/nvtop)：面向 NVIDIA、AMD、Intel、Apple、Huawei、Qualcomm 设备的 GPU 与加速器进程监控工具，实时展示利用率、显存与各进程占用。
 
 ## AIOps 智能运维
 
@@ -559,6 +561,8 @@
 - [Google ADK Java](https://github.com/google/adk-java)：基于代码的 Java 工具包，用于构建、评估和部署 AI Agent，支持灵活的编排与工具集成。
 - [Ouroboros](https://github.com/Q00/ouroboros)：自进化 Agent OS，提供面试门控的分阶段评估和预算化进化循环，支持 Claude Code、Codex、Gemini CLI 等 13 种编码 Agent 运行时。
 - [Omnara](https://github.com/omnara-ai/omnara)：自托管的托管式 Agent 平台，负责 Agent 的执行与状态管理，团队可通过 API、控制台或 Slack 连接器自行选择模型、工具与运行机器。
+- [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)：开源的持久化执行（durable execution）平台，用于 AI Agent、后台任务与长时运行工作流，提供重试、队列、可观测性与自托管部署。
+- [Hive](https://github.com/aden-hive/hive)：面向生产负载的多 Agent harness，提供崩溃安全的状态恢复、成本管控、持久化任务计划与人工介入（human-in-the-loop）监督。
 
 ## DataOps
 
@@ -578,6 +582,7 @@
 - [dbt](https://github.com/dbt-labs/dbt-core)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
 - [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
 - [Flyte](https://github.com/flyteorg/flyte)：可扩展的 AI 与数据编排平台，使用强类型和 Kubernetes 原生执行构建可复现的声明式机器学习流水线。
+- [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)：分布式的低代码数据流水线调度平台，支持可视化 DAG 编排、多租户执行、失败重试与高可用部署。
 - [Airbyte](https://github.com/airbytehq/airbyte)：开源数据集成平台，用于构建从 API、数据库和文件到数据仓库、数据湖及 AI 应用的 ELT 流水线。
 - [Mage](https://github.com/mage-ai/mage-ai)：开源数据流水线平台，用于构建、运行和管理面向 AI 的数据集成与转换任务。
 - [DVC](https://github.com/iterative/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
@@ -618,6 +623,8 @@
 - [SigNoz](https://github.com/SigNoz/signoz)：基于 OpenTelemetry 的开源可观测平台，整合指标、链路、日志、仪表盘和告警。
 - [HyperDX](https://github.com/hyperdxio/hyperdx)：开源可观测平台，基于 ClickHouse 与 OpenTelemetry 统一会话回放、日志、指标、链路和错误。
 - [Jaeger](https://github.com/jaegertracing/jaeger)：CNCF 分布式链路追踪平台，用于监控和排查微服务系统。
+- [Apache SkyWalking](https://github.com/apache/skywalking)：Apache 出品的分布式系统 APM 平台，统一链路追踪、指标、日志、服务拓扑与 eBPF 性能剖析，并兼容 OpenTelemetry 数据接入。
+- [Nightingale](https://github.com/ccfos/nightingale)：开源监控告警平台，统一接入 Prometheus、VictoriaMetrics、Elasticsearch 与 OpenTelemetry 数据源，提供灵活的告警规则与通知管道。
 - [Vector](https://github.com/vectordotdev/vector)：高性能可观测数据流水线，用于采集、转换和路由日志与指标。
 - [Grafana Alloy](https://github.com/grafana/alloy)：OpenTelemetry Collector 发行版，提供可编程流水线，用于采集、处理和转发可观测性信号。
 - [Grafana](https://github.com/grafana/grafana)：开源监控、可观测与数据可视化平台，支持仪表盘、告警和多数据源探索。
@@ -660,6 +667,7 @@
 - [kgateway](https://github.com/kgateway-dev/kgateway)：基于 Envoy 的云原生 API 与 AI 网关，支持 Kubernetes 入口流量管理、AI 服务路由。
 - [Istio](https://github.com/istio/istio)：主流开源服务网格，用于连接、保护和观测微服务，支持流量管理、安全策略和遥测。
 - [Linkerd](https://github.com/linkerd/linkerd2)：超轻量、安全优先的 CNCF 服务网格，支持零配置双向 TLS 和最小资源开销。
+- [Meshery](https://github.com/meshery/meshery)：CNCF 云原生管理平台，用于设计、部署和运维服务网格与 Kubernetes 基础设施，内置性能基准测试与配置最佳实践检查。
 - [Headlamp](https://github.com/kubernetes-sigs/headlamp)：可扩展的 Kubernetes Web UI，用于集群可见性、资源管理和运维插件集成。
 - [cert-manager](https://github.com/cert-manager/cert-manager)：Kubernetes 原生证书管理控制器，用于签发和续期 TLS 证书。
 - [KEDA](https://github.com/kedacore/keda)：Kubernetes 事件驱动自动伸缩器，可基于外部指标和事件源扩缩容工作负载。
