@@ -390,6 +390,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Unstructured](https://github.com/Unstructured-IO/unstructured): Open-source ETL library for converting PDFs, HTML, Word, and other documents into clean structured data for RAG and LLM pipelines.
 - [MarkItDown](https://github.com/microsoft/markitdown): Microsoft's open-source tool for converting files and Office documents to Markdown for LLM and RAG data pipelines.
 - [Docling](https://github.com/docling-project/docling): IBM's open-source document understanding toolkit for converting PDFs, DOCX, PPTX, images, and HTML into LLM-ready structured formats at scale.
+- [Chonkie](https://github.com/feyninc/chonkie): Lightweight ingestion and chunking library with token, sentence, semantic, recursive, and code-aware chunkers so RAG preprocessing stays reproducible and benchmarkable.
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): Open-source OCR toolkit for converting PDFs and images into structured data for multilingual AI and RAG pipelines.
 - [Pathway LLM App](https://github.com/pathwaycom/llm-app): Ready-to-run templates for production RAG, AI pipelines, and enterprise search with live data connectors and Docker-friendly deployment.
 - [Cognita](https://github.com/truefoundry/cognita): Open-source modular RAG framework for building production applications with configurable data ingestion, retrieval, and serving components.
@@ -436,6 +437,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Developer tool with a web client and proxy for interactively testing and debugging MCP servers across supported transports.
 - [MCP Router](https://github.com/mcp-router/mcp-router): Unified MCP server management application for discovering, configuring, and operating MCP servers from one interface.
+- [MCP Registry](https://github.com/modelcontextprotocol/registry): Community-driven registry service that publishes, discovers, and governs MCP servers, giving agent tool integrations a verifiable source of truth instead of copy-pasted local configuration.
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway): Docker CLI plugin and gateway for securely running, deploying, and managing MCP servers in local or production workflows.
@@ -594,6 +596,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 
 - [Kafbat UI](https://github.com/kafbat/kafka-ui): Open-source web UI for managing Apache Kafka clusters, topics, consumers, schemas, and Kafka Connect.
 - [Apache SeaTunnel](https://github.com/apache/seatunnel): Distributed data integration platform for high-volume batch and streaming data movement.
+- [RisingWave](https://github.com/risingwavelabs/risingwave): Streaming database that continuously ingests, transforms, and serves event streams through materialized views with PostgreSQL compatibility, targeting real-time AI and agent workloads.
 
 ## FinOps
 
@@ -658,6 +661,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb): Open-source observability database that stores metrics, logs, and traces in one columnar engine on object storage.
 - [Odigos](https://github.com/odigos-io/odigos): eBPF-based auto-instrumentation platform that generates OpenTelemetry traces, metrics, and logs for applications without code changes.
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse): Real-time columnar OLAP database that powers the storage layer of many observability, LLM telemetry, and AI analytics stacks.
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch): Apache-2.0 distributed search and analytics engine used as a log and trace analytics store, alerting backend, and audit search layer for observability pipelines.
 
 ## Kubernetes Operations
 
@@ -679,6 +683,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Capsule](https://github.com/projectcapsule/capsule): Kubernetes multi-tenancy framework that lets platform teams delegate namespaces with policy-based tenant boundaries.
 - [vCluster](https://github.com/loft-sh/vcluster): Virtual Kubernetes clusters that run inside namespaces for multi-tenancy, isolation, and platform engineering workflows.
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
+- [Litmus](https://github.com/litmuschaos/litmus): CNCF chaos engineering platform that runs scheduled fault experiments against Kubernetes workloads so recovery, failover, and rollback paths are verified before real incidents.
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks): Kubernetes resource recommendation dashboard that helps tune workload requests and limits from VPA insights.
 - [Glasskube](https://github.com/glasskube/glasskube): Kubernetes package manager with GUI and CLI support for dependency-aware, GitOps-ready application operations.
 - [Botkube](https://github.com/kubeshop/botkube): Kubernetes ChatOps assistant for monitoring clusters, surfacing events, and helping teams debug deployments.
@@ -689,6 +694,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Tilt](https://github.com/tilt-dev/tilt): Local Kubernetes development tool for multi-service microservices with live updates and declarative dev environment configuration.
 - [Knative](https://github.com/knative/serving): CNCF serverless platform for Kubernetes with scale-to-zero, request-driven compute, and event-driven workloads.
 - [k3s](https://github.com/k3s-io/k3s): Lightweight Kubernetes distribution designed for edge, IoT, CI, and resource-constrained environments.
+- [k0s](https://github.com/k0sproject/k0s): Single-binary, zero-dependency Kubernetes distribution for fast cluster deployment, upgrades, and day-2 operations on edge, CI, and small production environments.
 - [k9s](https://github.com/derailed/k9s): Terminal UI for managing Kubernetes clusters with resource views, logs, and context switching.
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
 - [Firecracker](https://github.com/firecracker-microvm/firecracker): Lightweight KVM-based microVM monitor that provides fast-starting, strongly isolated sandboxes for multi-tenant serverless platforms and AI agent execution environments.
@@ -877,6 +883,7 @@ A curated technology stack and toolchain for platform engineering.
 ### Developer Environments
 
 - [Coder](https://github.com/coder/coder): Self-hosted remote development platform for provisioning secure, pre-configured workspaces for developers and AI agents on any infrastructure.
+- [code-server](https://github.com/coder/code-server): Run VS Code on a remote server and reach it from the browser, giving developers and agent workspaces a self-hosted IDE with no local setup.
 - [DevPod](https://github.com/loft-sh/devpod): Open-source, client-only development environment tool for creating reproducible, infrastructure-agnostic workspaces on any cloud, Kubernetes, or local machine.
 
 ### Code Service
