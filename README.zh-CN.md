@@ -390,6 +390,7 @@
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)：开源 ETL 库，可将 PDF、HTML、Word 等文档转换为干净的结构化数据，适用于 RAG 和 LLM 流水线。
 - [MarkItDown](https://github.com/microsoft/markitdown)：微软开源的文件转 Markdown 工具，可将 Office 文档和各类文件转换为 LLM 和 RAG 流水线可用的 Markdown 格式。
 - [Docling](https://github.com/docling-project/docling)：IBM 开源的文档理解工具包，可将 PDF、DOCX、PPTX、图片和 HTML 转换为适合 LLM 使用的结构化格式，并支持规模化处理。
+- [Chonkie](https://github.com/feyninc/chonkie)：轻量级入库与分块（chunking）库，提供 token、句子、语义、递归与代码感知分块器，让 RAG 预处理可复现、可基准评测。
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)：开源 OCR 工具包，可将 PDF 和图片转换为结构化数据，适用于多语言 AI 与 RAG 流水线。
 - [Pathway LLM App](https://github.com/pathwaycom/llm-app)：生产级 RAG、AI 流水线和企业搜索的开箱即用模板，支持实时数据连接器和 Docker 部署。
 - [Cognita](https://github.com/truefoundry/cognita)：用于构建生产级应用的开源模块化 RAG 框架，支持可配置的数据摄取、检索和服务组件。
@@ -436,6 +437,7 @@
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：开发者工具，提供 Web 客户端和代理，用于在支持的传输协议上交互式测试和调试 MCP Server。
 - [MCP Router](https://github.com/mcp-router/mcp-router)：统一的 MCP Server 管理应用，用于从一个界面发现、配置和运维 MCP Server。
+- [MCP Registry](https://github.com/modelcontextprotocol/registry)：社区驱动的 MCP 注册中心，用于发布、发现和治理 MCP Server，让 Agent 工具接入有可验证的可信来源，而不是复制粘贴本地配置。
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，用于基于私有数据构建数据产品、Text-to-SQL、RAG 和多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
 - [Docker MCP Gateway](https://github.com/docker/mcp-gateway)：Docker CLI 插件与网关，用于在本地或生产工作流中安全运行、部署和管理 MCP Server。
@@ -594,6 +596,7 @@
 
 - [Kafbat UI](https://github.com/kafbat/kafka-ui)：开源 Web UI，用于管理 Apache Kafka 集群、Topic、消费者、Schema 和 Kafka Connect。
 - [Apache SeaTunnel](https://github.com/apache/seatunnel)：分布式数据集成平台，支持高吞吐批处理和流式数据传输。
+- [RisingWave](https://github.com/risingwavelabs/risingwave)：流式数据库，通过物化视图持续摄取、转换并服务事件流，兼容 PostgreSQL 接口，面向实时 AI 与 Agent 工作负载。
 
 ## FinOps
 
@@ -658,6 +661,7 @@
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb)：开源可观测性数据库，以单一列式引擎在对象存储上统一承载指标、日志和 Trace。
 - [Odigos](https://github.com/odigos-io/odigos)：基于 eBPF 的自动埋点平台，无需修改代码即可为应用生成 OpenTelemetry 的 Trace、指标和日志。
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse)：实时列式 OLAP 数据库，是众多可观测性、LLM 遥测与 AI 分析技术栈的底层存储。
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch)：Apache-2.0 许可的分布式搜索与分析引擎，常作为可观测性链路中的日志/追踪存储、告警后端和安全审计检索层。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -679,6 +683,7 @@
 - [Capsule](https://github.com/projectcapsule/capsule)：Kubernetes 多租户框架，帮助平台团队通过策略化租户边界委派命名空间管理。
 - [vCluster](https://github.com/loft-sh/vcluster)：运行在命名空间内的虚拟 Kubernetes 集群，适合多租户、隔离和平台工程工作流。
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)：Kubernetes 原生混沌工程平台，用于在受控故障下测试系统韧性。
+- [Litmus](https://github.com/litmuschaos/litmus)：CNCF 云原生混沌工程平台，通过可编排的故障实验验证 Kubernetes 工作负载的恢复、故障转移与回滚路径，在真实事故前把降级能力测出来。
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks)：Kubernetes 资源推荐仪表盘，基于 VPA 洞察帮助调优工作负载 requests 和 limits。
 - [Glasskube](https://github.com/glasskube/glasskube)：Kubernetes 包管理器，提供 GUI 与 CLI，支持依赖感知和 GitOps 化的应用运维。
 - [Botkube](https://github.com/kubeshop/botkube)：Kubernetes ChatOps 助手，用于监控集群、暴露事件并帮助团队调试部署。
@@ -689,6 +694,7 @@
 - [Tilt](https://github.com/tilt-dev/tilt)：本地 Kubernetes 开发工具，支持多服务微服务的实时更新和声明式开发环境配置。
 - [Knative](https://github.com/knative/serving)：CNCF Kubernetes Serverless 平台，支持缩容到零、请求驱动计算和事件驱动工作负载。
 - [k3s](https://github.com/k3s-io/k3s)：轻量级 Kubernetes 发行版，专为边缘、IoT、CI 和资源受限环境设计。
+- [k0s](https://github.com/k0sproject/k0s)：单二进制、零依赖的 Kubernetes 发行版，适合在边缘、CI 与小规模生产环境中快速完成集群交付、升级和日常运维。
 - [k9s](https://github.com/derailed/k9s)：终端界面 Kubernetes 集群管理工具，支持资源视图、日志查看与上下文切换。
 - [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
 - [Firecracker](https://github.com/firecracker-microvm/firecracker)：基于 KVM 的轻量级 microVM 监视器，为多租户 Serverless 平台和 AI Agent 执行环境提供快速启动、强隔离的沙箱。
@@ -877,6 +883,7 @@
 ### Developer Environments 开发环境
 
 - [Coder](https://github.com/coder/coder)：自托管远程开发平台，可在任意基础设施上为开发者和 AI Agent 配置安全、预配置的工作空间。
+- [code-server](https://github.com/coder/code-server)：把 VS Code 跑在远程服务器上并通过浏览器访问，为开发者和 Agent 工作区提供免本地配置的自托管 IDE。
 - [DevPod](https://github.com/loft-sh/devpod)：开源、仅客户端的开发环境工具，可在任意云、Kubernetes 或本地机器上创建可复现、基础设施无关的工作空间。
 
 ### Code Service 代码服务
