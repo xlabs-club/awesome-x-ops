@@ -589,6 +589,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Mage](https://github.com/mage-ai/mage-ai): Open-source data pipeline platform for building, running, and managing AI-ready data integrations and transformations.
 - [DVC](https://github.com/iterative/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
 - [lakeFS](https://github.com/treeverse/lakeFS): Git-like version control for data lakes that adds branching, commits, and rollback semantics to S3 and object-store data used by ML, analytics, and RAG pipelines.
+- [Apache Gravitino](https://github.com/apache/gravitino): Apache metadata lake that federates catalogs across engines and clouds, providing unified metadata and access control for AI and analytics workloads on Iceberg, Hive, and object storage.
 
 ### Streaming Operations
 
@@ -662,11 +663,14 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Odigos](https://github.com/odigos-io/odigos): eBPF-based auto-instrumentation platform that generates OpenTelemetry traces, metrics, and logs for applications without code changes.
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse): Real-time columnar OLAP database that powers the storage layer of many observability, LLM telemetry, and AI analytics stacks.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch): Apache-2.0 distributed search and analytics engine used as a log and trace analytics store, alerting backend, and audit search layer for observability pipelines.
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma): Self-hosted uptime and status-page monitor with HTTP, TCP, DNS, and push checks plus multi-channel alerting, useful for tracking external dependency and endpoint availability SLA.
 
 ## Kubernetes Operations
 
 - [Cilium](https://github.com/cilium/cilium): eBPF-based Kubernetes networking, security, and observability platform.
 - [Calico](https://github.com/projectcalico/calico): Kubernetes networking and network-policy engine with eBPF or iptables data planes for pod connectivity, policy enforcement, and encryption in multi-tenant clusters.
+- [Multus CNI](https://github.com/k8snetworkplumbingwg/multus-cni): CNI meta-plugin that attaches multiple network interfaces to a single pod, so storage, RDMA, SR-IOV, and management traffic can be separated for AI and multi-tenant workloads.
+- [KWOK](https://github.com/kubernetes-sigs/kwok): Kubernetes controller simulator that fakes thousands of nodes and pods, letting teams validate control-plane behavior, autoscaling, and platform automation without provisioning real clusters.
 - [Traefik](https://github.com/traefik/traefik): Cloud-native application proxy and ingress controller with automatic service discovery, middleware, and multi-protocol support.
 - [kgateway](https://github.com/kgateway-dev/kgateway): Cloud-native API and AI gateway built on Envoy for Kubernetes ingress, traffic management, and AI service routing.
 - [Istio](https://github.com/istio/istio): Leading open-source service mesh for connecting, securing, and observing microservices with traffic management, security policies, and telemetry.
@@ -695,6 +699,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Knative](https://github.com/knative/serving): CNCF serverless platform for Kubernetes with scale-to-zero, request-driven compute, and event-driven workloads.
 - [k3s](https://github.com/k3s-io/k3s): Lightweight Kubernetes distribution designed for edge, IoT, CI, and resource-constrained environments.
 - [k0s](https://github.com/k0sproject/k0s): Single-binary, zero-dependency Kubernetes distribution for fast cluster deployment, upgrades, and day-2 operations on edge, CI, and small production environments.
+- [MicroK8s](https://github.com/canonical/microk8s): Canonical's single-package Kubernetes distribution for workstations, edge, IoT, and CI, with quick HA clustering and batteries-included add-ons for local or air-gapped operations.
 - [k9s](https://github.com/derailed/k9s): Terminal UI for managing Kubernetes clusters with resource views, logs, and context switching.
 - [containerd](https://github.com/containerd/containerd): Industry-standard container runtime providing the core container lifecycle management for Docker, Kubernetes, and cloud-native platforms.
 - [Firecracker](https://github.com/firecracker-microvm/firecracker): Lightweight KVM-based microVM monitor that provides fast-starting, strongly isolated sandboxes for multi-tenant serverless platforms and AI agent execution environments.
@@ -904,6 +909,7 @@ A curated technology stack and toolchain for platform engineering.
 - [CloudEvents](https://cloudevents.io/): Specification for interoperable event-driven systems.
 - [Argo Events](https://argoproj.github.io/argo-events/): Event-driven workflow automation framework for Kubernetes.
 - [Apache EventMesh](https://eventmesh.apache.org/): Distributed event middleware supporting multiple messaging protocols and event stream management.
+- [NATS](https://github.com/nats-io/nats-server): Lightweight cloud-native messaging system whose JetStream layer adds persistence and replay, making it a common transport for telemetry, event-driven automation, and edge-to-cloud data flows.
 
 ### Feature Management and Experimentation
 
@@ -940,6 +946,8 @@ Trusting is hard. Knowing who to trust is even harder.
 - [pomerium](https://github.com/pomerium/pomerium): Identity-aware proxy with richer access-control capabilities.
 - [Infisical](https://github.com/Infisical/infisical): Open-source platform for secrets management, certificate automation, and privileged access management across development and production environments.
 - [Metorial](https://github.com/metorial/metorial): Open-source identity and access layer for AI agents, standardizing authentication, scoped permissions, integrations, and auditability for external systems.
+- [SPIFFE/SPIRE](https://github.com/spiffe/spire): SPIFFE runtime environment that issues and rotates short-lived cryptographic workload identities for services, jobs, and agents instead of distributing long-lived static credentials.
+- [Teleport](https://github.com/gravitational/teleport): Identity-aware access plane that brokers short-lived, audited sessions to infrastructure, Kubernetes clusters, databases, and internal apps without exposing standing credentials.
 
 ### Internal Developer Platform (IDP)
 

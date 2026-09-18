@@ -589,6 +589,7 @@
 - [Mage](https://github.com/mage-ai/mage-ai)：开源数据流水线平台，用于构建、运行和管理面向 AI 的数据集成与转换任务。
 - [DVC](https://github.com/iterative/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
 - [lakeFS](https://github.com/treeverse/lakeFS)：数据湖上的 Git 式版本控制，为 S3 与对象存储数据提供分支、提交与回滚语义，服务 ML、分析与 RAG 数据流水线。
+- [Apache Gravitino](https://github.com/apache/gravitino)：Apache 元数据湖，跨引擎、跨云联邦元数据目录，为运行在 Iceberg、Hive 与对象存储上的 AI 与数据分析负载提供统一元数据和访问控制。
 
 ### Streaming Operations 流式数据运维
 
@@ -662,11 +663,14 @@
 - [Odigos](https://github.com/odigos-io/odigos)：基于 eBPF 的自动埋点平台，无需修改代码即可为应用生成 OpenTelemetry 的 Trace、指标和日志。
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse)：实时列式 OLAP 数据库，是众多可观测性、LLM 遥测与 AI 分析技术栈的底层存储。
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch)：Apache-2.0 许可的分布式搜索与分析引擎，常作为可观测性链路中的日志/追踪存储、告警后端和安全审计检索层。
+- [Uptime Kuma](https://github.com/louislam/uptime-kuma)：自托管的可用性监控与状态页工具，支持 HTTP、TCP、DNS 与推送检查以及多渠道告警，适合跟踪外部依赖与接口的可用性 SLA。
 
 ## Kubernetes Operations Kubernetes 运维
 
 - [Cilium](https://github.com/cilium/cilium)：基于 eBPF 的 Kubernetes 网络、安全和可观测性平台。
 - [Calico](https://github.com/projectcalico/calico)：Kubernetes 网络与网络策略引擎，支持 eBPF 与 iptables 数据面，在多租户集群中提供 Pod 连通性、策略执行与加密。
+- [Multus CNI](https://github.com/k8snetworkplumbingwg/multus-cni)：CNI meta 插件，可为同一个 Pod 挂载多块网卡，便于把存储、RDMA、SR-IOV 与管理流量在网络层隔离，常用于 AI 与多租户工作负载。
+- [KWOK](https://github.com/kubernetes-sigs/kwok)：Kubernetes 控制器模拟器，可伪造上千个节点与 Pod，让团队无需真实集群即可验证控制面行为、自动扩缩容与平台自动化逻辑。
 - [Traefik](https://github.com/traefik/traefik)：云原生应用代理和入口控制器，支持自动服务发现、中间件和多协议。
 - [kgateway](https://github.com/kgateway-dev/kgateway)：基于 Envoy 的云原生 API 与 AI 网关，支持 Kubernetes 入口流量管理、AI 服务路由。
 - [Istio](https://github.com/istio/istio)：主流开源服务网格，用于连接、保护和观测微服务，支持流量管理、安全策略和遥测。
@@ -695,6 +699,7 @@
 - [Knative](https://github.com/knative/serving)：CNCF Kubernetes Serverless 平台，支持缩容到零、请求驱动计算和事件驱动工作负载。
 - [k3s](https://github.com/k3s-io/k3s)：轻量级 Kubernetes 发行版，专为边缘、IoT、CI 和资源受限环境设计。
 - [k0s](https://github.com/k0sproject/k0s)：单二进制、零依赖的 Kubernetes 发行版，适合在边缘、CI 与小规模生产环境中快速完成集群交付、升级和日常运维。
+- [MicroK8s](https://github.com/canonical/microk8s)：Canonical 推出的单包 Kubernetes 发行版，面向工作站、边缘、IoT 与 CI 场景，可快速搭建高可用集群，并内置常用 add-on，适合本地或离线环境运维。
 - [k9s](https://github.com/derailed/k9s)：终端界面 Kubernetes 集群管理工具，支持资源视图、日志查看与上下文切换。
 - [containerd](https://github.com/containerd/containerd)：行业标准容器运行时，为 Docker、Kubernetes 和云原生平台提供核心容器生命周期管理。
 - [Firecracker](https://github.com/firecracker-microvm/firecracker)：基于 KVM 的轻量级 microVM 监视器，为多租户 Serverless 平台和 AI Agent 执行环境提供快速启动、强隔离的沙箱。
@@ -904,6 +909,7 @@
 - [CloudEvents](https://cloudevents.io/)：用于事件驱动系统互操作的事件规范。
 - [Argo Events](https://argoproj.github.io/argo-events/)：Kubernetes 事件驱动工作流自动化框架。
 - [Apache EventMesh](https://eventmesh.apache.org/)：分布式事件中间件，支持多种消息协议和事件流管理。
+- [NATS](https://github.com/nats-io/nats-server)：轻量级云原生消息系统，JetStream 提供持久化与消息回放能力，常用于遥测传输、事件驱动自动化与边缘到云的数据通道。
 
 ### Feature Management and Experimentation 特性管理与实验
 
@@ -940,6 +946,8 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [pomerium](https://github.com/pomerium/pomerium)：身份感知代理，提供更丰富的访问控制能力。
 - [Infisical](https://github.com/Infisical/infisical)：开源密钥管理平台，支持 Secret 管理、证书自动化和特权访问管理，覆盖开发和生产环境。
 - [Metorial](https://github.com/metorial/metorial)：开源 AI Agent 身份与访问层，统一外部系统的认证、细粒度权限、集成管理和审计追踪。
+- [SPIFFE/SPIRE](https://github.com/spiffe/spire)：SPIFFE 运行时实现，为服务、任务和 Agent 签发并轮换短期密码学工作负载身份，替代长期有效的静态凭证分发。
+- [Teleport](https://github.com/gravitational/teleport)：身份感知的访问平面，为基础设施、Kubernetes 集群、数据库与内部应用提供带审计的短期会话访问，无需暴露长期凭证。
 
 ### Internal Developer Platform (IDP)
 
