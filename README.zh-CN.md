@@ -78,15 +78,14 @@
 - [Candela](https://github.com/candelahq/candela)：基于 OpenTelemetry 的 LLM 可观测平台，支持链路追踪、成本统计和评估，并可使用本地或云端存储后端。
 - [Litefuse](https://github.com/litefuse/litefuse)：开源 LLM 工程平台，支持协作开发、监控、评估和调试 AI 应用，并可自托管部署。
 - [DeepEval](https://github.com/confident-ai/deepeval)：LLM 评估框架，适合在 CI 或生产流程中测试 RAG、Agent 和模型输出。
-- [Ragas](https://github.com/explodinggradients/ragas)：面向 RAG 流水线和 LLM 应用的评估框架。
+- [Ragas](https://github.com/vibrantlabsai/ragas)：面向 RAG 流水线和 LLM 应用的评估框架。
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix)：面向 LLM、RAG 和机器学习系统的开源可观测与评估平台。
 - [OpenInference](https://github.com/Arize-ai/openinference)：面向 LLM、RAG 和 Agent 应用的 OpenTelemetry 插桩与语义约定。
 - [Agent Telemetry Semantic Conventions](https://github.com/agent-telemetry-spec/atsc)：面向 AI Agent 可观测性的厂商中立、兼容 OpenTelemetry 的语义约定，支持跨工具互操作。
 - [OpenLLMetry](https://github.com/traceloop/openllmetry)：基于 OpenTelemetry 的 LLM 应用和 Agent 工作流可观测性工具。
-- [Multi-agent Observability with OpenTelemetry](https://github.com/chrisipanaque/multi-agent-observability-opentelemetry)：面向 LangGraph 多 Agent 系统的 OpenTelemetry 可观测性参考实现，覆盖路由决策、工具调用、LLM 调用、指标和 OTLP 导出。
 - [Helicone](https://github.com/Helicone/helicone)：开源 LLM 可观测平台，支持用量、延迟、成本、缓存和请求日志分析。
 - [OpenLIT](https://github.com/openlit/openlit)：基于 OpenTelemetry 的 AI 工程平台，支持 LLM 可观测性、评估、护栏、Prompt 管理和 GPU 监控。
-- [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk)：开源 SDK 与编码 Agent 插件，用于将生产环境 Agent 和 LLM 遥测数据发送到 Grafana AI observability。
+- [Grafana AI Observability SDK](https://github.com/grafana/agento11y)：开源 SDK 与编码 Agent 插件，用于将生产环境 Agent 和 LLM 遥测数据发送到 Grafana AI observability。
 - [LangWatch](https://github.com/langwatch/langwatch)：开源平台，支持 LLM 监控、评估、链路追踪和 Agent 测试。
 - [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)：面向 AI 编码 Agent 的全本地可观测与安全仪表盘，支持 OpenTelemetry trace、命令审计、威胁检测和可选的运行时执行控制。
 - [Opik](https://github.com/comet-ml/opik)：开源平台，用于追踪、评估和监控 LLM 应用、RAG 系统与 Agent 工作流。
@@ -115,7 +114,7 @@
 - [Kitaru](https://github.com/zenml-io/kitaru)：面向生产环境的 AI Agent 录制与回放工具，用于分析运行过程并改进 Agent 行为。
 - [ax](https://github.com/Necmttn/ax)：面向 AI 编码 Agent 的本地优先遥测与记忆图，覆盖成本、工具、技能、会话和 OTLP 事件。
 - [Mindwalk](https://github.com/cosmtrek/mindwalk)：可视化工具，在代码库 3D 地图上回放编码 Agent 会话，帮助调试和理解 Agent 行为。
-- [TensorZero](https://github.com/tensorzero/tensorzero)：开源 LLMOps 平台，整合 LLM 网关、可观测性、评估、优化和实验能力。
+- [TensorZero](https://github.com/tensorzero/tensorzero)：开源 LLMOps 平台，整合 LLM 网关、可观测性、评估、优化和实验能力。（上游已归档。）
 - [cascadeflow](https://github.com/lemony-ai/cascadeflow)：面向 AI Agent 的级联运行时，在 Agent 循环中综合决策成本、延迟、质量和策略。
 - [Evidently](https://github.com/evidentlyai/evidently)：开源 ML 与 LLM 可观测性框架，支持评估、测试、监控和数据质量检查。
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst)：面向 Agent AI 的可观测与评估 SDK，用于追踪、调试和监控多 Agent LLM 系统。
@@ -140,7 +139,7 @@
 - [GoModel](https://github.com/ENTERPILOT/GoModel)：基于 Go 的 AI 网关，支持 OpenAI 和 Anthropic 兼容 API、供应商路由、故障转移、可观测性、成本追踪和多租户控制。
 - [Traceloop Hub](https://github.com/traceloop/hub)：基于 Rust 的高性能 LLM 网关，提供统一供应商 API、OpenTelemetry 链路、Prometheus 指标和可配置请求流水线。
 - [New API](https://github.com/QuantumNous/new-api)：统一 AI 模型网关，用于聚合供应商、兼容 OpenAI/Claude/Gemini API，并管理企业级模型访问。
-- [Manifest](https://github.com/mnfst/manifest)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
+- [Manifest](https://github.com/mnfst/llm-gateway)：厂商无关的运行时，通过统一接口将 Agent 和 Agent 驱动框架连接到模型供应商。
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute)：自托管 AI 网关，将多个模型供应商统一到一个端点，支持自动故障转移、路由、MCP/A2A，以及节省 Token 的压缩能力。
 - [Otari](https://github.com/mozilla-ai/otari)：Mozilla AI 出品的开源、OpenAI 兼容 LLM 网关，一个端点支持 40+ 供应商，提供虚拟密钥、预算和使用量追踪。
 - [1flowbase](https://github.com/taichuy/1flowbase)：自托管 AI 网关，可将多模型工作流组合为 OpenAI 兼容的虚拟模型，并提供链路、Token 用量、延迟和成本可见性。
@@ -151,12 +150,12 @@
 - [Supergateway](https://github.com/supercorp-ai/supergateway)：轻量级桥接工具，可将 MCP stdio Server 通过 SSE 暴露，也能将 SSE 连接转换回 stdio，便于不同部署方式互通。
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)：用于为基于 LLM 的对话系统加入可编程安全、对话和策略护栏的工具包。
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama)：Meta 开源的信任与安全工具集，用于评估和过滤 LLM 输入、输出与模型风险。
-- [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。
+- [LLM Guard](https://github.com/protectai/llm-guard)：LLM 交互安全工具包，用于清洗输入输出、检测 Prompt 注入、拦截有害内容并降低数据泄露风险。（上游已归档。）
 - [garak](https://github.com/NVIDIA/garak)：LLM 漏洞扫描器，用于探测 Prompt 注入、越狱、数据泄露、幻觉等生成式 AI 风险。
 - [agentic-security](https://github.com/msoedov/agentic_security)：开源 LLM 漏洞扫描器与 AI 红队工具包，用于模糊测试和验证 LLM 护栏对抗攻击能力。
 - [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security)：面向对抗性环境的 Agent 安全审查框架，强调在验证前将所有外部输入视为不可信。
 - [Superagent](https://github.com/superagent-ai/superagent)：开源 AI 安全 SDK，用于保护 LLM 应用免受 Prompt 注入、数据泄露和有害输出的影响。
-- [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。
+- [PINT Benchmark](https://github.com/lakeraai/pint-benchmark)：开源基准测试工具，用于评估 Prompt 注入检测系统在多种攻击向量下的表现。（上游已归档。）
 - [FuzzyAI](https://github.com/cyberark/FuzzyAI)：基于 Apache-2.0 许可的 LLM 模糊测试工具，用于发现并缓解 LLM API 中的越狱漏洞。
 - [OpenEvals](https://github.com/langchain-ai/openevals)：现成的评估器集合，用于在开发和 CI 流程中测试 LLM 应用并做回归检查。
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval)：开源 RAG 评测系统，用于自动化执行覆盖检索和生成流程的数据集质量检查。
@@ -235,7 +234,7 @@
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox)：本地优先的编码 Agent 黑盒记录器与上下文效率分析工具，提供可回放的会话地图、成本分析和任务结果信号。
 - [Mira](https://github.com/everruns/mira)：Rust 优先的 Agent 评估框架，面向多轮、工具调用型和长时间运行的 Agent 轨迹，支持运行指标预算和 CI 原生报告。
 - [aws-bench](https://github.com/aws-bench/aws-bench)：在一次性环境中评估编码 Agent 执行真实 AWS 任务能力的基准工具，支持诊断、资源配置和运维任务验证。
-- [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
+- [claw-swe-bench](https://github.com/TokenRhythm/claw-swe-bench)：用于在可复现 SWE-bench Issue 修复任务上评估 OpenClaw 风格 Agent Harness 的适配器框架。
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval)：本地优先、框架无关的 RAG 与 AI Agent 评估框架，提供 CLI、SDK 和多种评估指标。
 - [OpenJudge](https://github.com/agentscope-ai/OpenJudge)：面向 AI 应用的开源评估框架，提供可复用 Grader、场景化评测规则、规模化运行和用于持续优化的奖励信号。
 - [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval)：面向 .NET 的 AI Agent 评估工具包，支持工具调用校验、RAG 质量指标、随机性测试和模型对比。
@@ -312,11 +311,11 @@
 - [OpenLLM](https://github.com/bentoml/OpenLLM)：将任意开源 LLM 以 OpenAI 兼容 API 运行，内置聊天 UI、模型目录和云端部署工作流。
 - [Oumi](https://github.com/oumi-ai/oumi)：开源 LLM/VLM 微调、评估和部署平台，支持生产就绪的训练与上线工作流。
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)：NVIDIA 官方 LLM 推理优化框架，提供先进的 GPU 优化和高效的运行时编排能力，适用于生产环境部署。
-- [Text Generation Inference](https://github.com/huggingface/text-generation-inference)：HuggingFace 的生产级 LLM 推理服务器，支持张量并行、连续批处理和量化。
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference)：HuggingFace 的生产级 LLM 推理服务器，支持张量并行、连续批处理和量化。（上游已归档。）
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference)：极速文本嵌入与重排序模型推理服务器，具备生产就绪性能。
 - [OpenVINO Model Server](https://github.com/openvinotoolkit/model_server)：面向 OpenVINO 优化模型的可扩展推理服务器，提供适合生产部署 AI 模型的 API。
-- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
+- [Axolotl](https://github.com/axolotl-ai-cloud/axolotl)：开源 LLM 微调框架，支持 LoRA、QLoRA 和全参数训练，覆盖主流模型架构。
+- [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
 - [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
 - [Llama Deploy](https://github.com/run-llama/llama_deploy)：面向 LlamaIndex Agent 工作流的生产部署框架，支持异步任务编排和服务管理。
@@ -348,6 +347,10 @@
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter)：基于 DCGM 的 NVIDIA GPU 指标 Prometheus 导出器，暴露利用率、profiler 计数器与健康信号，用于监控 AI 推理与训练集群。
 - [oMLX](https://github.com/jundot/omlx)：面向 Apple Silicon 的 LLM 推理服务器，支持连续批处理与分层 KV 缓存，提供 OpenAI 兼容 API，可通过 macOS 菜单栏管理。
 - [nvtop](https://github.com/Syllo/nvtop)：面向 NVIDIA、AMD、Intel、Apple、Huawei、Qualcomm 设备的 GPU 与加速器进程监控工具，实时展示利用率、显存与各进程占用。
+- [Microsoft PAI](https://github.com/microsoft/pai)：面向共享 AI 训练与推理集群的资源调度与集群管理平台，覆盖 GPU 分配、配额和作业生命周期运维。
+- [RamaLama](https://github.com/containers/ramalama)：容器原生的模型运行工具，可从 OCI 镜像仓库拉取、量化并服务 AI 模型，用标准容器工作流完成本地或自托管推理。
+- [LightLLM](https://github.com/ModelTC/LightLLM)：Python 实现的 LLM 推理与服务框架，具备 Token 级内存管理，面向高吞吐、低延迟的在线服务。
+- [FastDeploy](https://github.com/PaddlePaddle/FastDeploy)：基于 PaddlePaddle 生态的高性能 LLM 与 VLM 推理部署工具包，支持多种硬件与后端。
 
 ## AIOps 智能运维
 
@@ -369,7 +372,7 @@
 - [Nudgebee](https://github.com/nudgebee/nudgebee)：面向 Kubernetes 和主流云平台的开源 SRE Copilot，整合可观测性、FinOps、Runbook 自动化、事件响应和 ChatOps 工作流。
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab)：用于设计、开发和评估自主 AIOps Agent 的综合框架，支持在可复现场景中验证运维能力。
 - [SREGym](https://github.com/SREGym/SREGym)：用于评估 AI Agent 能否在可复现 SRE 环境中诊断并解决生产事故的基准测试与实验框架。
-- [ANOLISA](https://github.com/alibaba/anolisa)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
+- [ANOLISA](https://github.com/agentic-os-org/ANOLISA)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
 
 ## AI 基础设施
 
@@ -393,7 +396,7 @@
 - [Chonkie](https://github.com/feyninc/chonkie)：轻量级入库与分块（chunking）库，提供 token、句子、语义、递归与代码感知分块器，让 RAG 预处理可复现、可基准评测。
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)：开源 OCR 工具包，可将 PDF 和图片转换为结构化数据，适用于多语言 AI 与 RAG 流水线。
 - [Pathway LLM App](https://github.com/pathwaycom/llm-app)：生产级 RAG、AI 流水线和企业搜索的开箱即用模板，支持实时数据连接器和 Docker 部署。
-- [Cognita](https://github.com/truefoundry/cognita)：用于构建生产级应用的开源模块化 RAG 框架，支持可配置的数据摄取、检索和服务组件。
+- [Cognita](https://github.com/truefoundry/cognita)：用于构建生产级应用的开源模块化 RAG 框架，支持可配置的数据摄取、检索和服务组件。（上游已归档。）
 - [SuperDuper](https://github.com/superduper-io/superduper)：基于现有数据存储构建定制 AI 应用和 Agent 的开源框架，集成模型、数据和部署工作流。
 - [Weaviate](https://github.com/weaviate/weaviate)：开源向量数据库，结合向量搜索、结构化过滤和生成式 AI 集成能力。
 - [pgvector](https://github.com/pgvector/pgvector)：PostgreSQL 的开源向量相似度搜索扩展，广泛用于 RAG 和 AI 嵌入存储。
@@ -405,7 +408,7 @@
 - [txtai](https://github.com/neuml/txtai)：一体化 AI 框架，支持语义搜索、LLM 编排和语言模型工作流，内置嵌入和流水线能力。
 - [Feast](https://github.com/feast-dev/feast)：面向 AI/ML 的开源特征存储，可在模型训练和在线推理中一致地提供特征数据。
 - [Instructor](https://github.com/567-labs/instructor)：面向 LLM 的结构化输出工具，基于 Pydantic 校验，支持自动重试和跨供应商统一 API。
-- [pgai](https://github.com/timescale/pgai)：面向 PostgreSQL 的开源 AI 工具套件，支持在 PostgreSQL 上直接构建 RAG、语义搜索和 AI 应用。
+- [pgai](https://github.com/timescale/pgai)：面向 PostgreSQL 的开源 AI 工具套件，支持在 PostgreSQL 上直接构建 RAG、语义搜索和 AI 应用。（上游已归档。）
 - [Browser Use](https://github.com/browser-use/browser-use)：开源 Web 自动化工具包，让 AI Agent 能够浏览网页、提取数据并大规模执行在线自动化任务。
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach)：为 AI Agent 装上观察互联网的眼睛——通过一条 CLI 零 API 费用阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili 等平台。
 - [Steel Browser](https://github.com/steel-dev/steel-browser)：开源无头浏览器沙箱，为 AI Agent 和应用提供生产就绪的 Web 自动化基础设施。
@@ -436,7 +439,7 @@
 - [PageIndex](https://github.com/VectifyAI/PageIndex)：与向量无关、基于推理的文档索引系统，用于对长文档执行检索增强生成。
 - [Onyx](https://github.com/onyx-dot-app/onyx)：开源 AI 平台，面向企业搜索和 AI Chat，整合检索、数据连接器、Agent 工作流与自托管部署能力。
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector)：开发者工具，提供 Web 客户端和代理，用于在支持的传输协议上交互式测试和调试 MCP Server。
-- [MCP Router](https://github.com/mcp-router/mcp-router)：统一的 MCP Server 管理应用，用于从一个界面发现、配置和运维 MCP Server。
+- [MCP Router](https://github.com/mcp-router/mcp-router)：统一的 MCP Server 管理应用，用于从一个界面发现、配置和运维 MCP Server。（上游已归档。）
 - [MCP Registry](https://github.com/modelcontextprotocol/registry)：社区驱动的 MCP 注册中心，用于发布、发现和治理 MCP Server，让 Agent 工具接入有可验证的可信来源，而不是复制粘贴本地配置。
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT)：开源 Agentic AI 数据助手，用于基于私有数据构建数据产品、Text-to-SQL、RAG 和多 Agent 工作流。
 - [BoxLite](https://github.com/boxlite-ai/boxlite)：无守护进程的 AI Agent 微虚拟机运行时，提供硬件隔离、OCI 原生的执行环境，可作为库嵌入或以服务器模式部署。
@@ -445,7 +448,7 @@
 - [HelixDB](https://github.com/HelixDB/helix-db)：基于 Rust 构建的图-向量数据库，面向知识图谱、AI 记忆，并统一访问关系型、文档、键值和向量数据。
 - [RocketRide](https://github.com/rocketride-org/rocketride-server)：开源 AI 流水线构建器与运行时，采用 C++ 核心，提供可扩展节点、向量数据库集成，以及面向生产 AI 系统的 IDE/CLI 工作流。
 - [Golf](https://github.com/golf-mcp/golf)：面向生产的 MCP Server 框架，提供认证、可观测性、调试、遥测和运行时能力，用于部署安全的 Agent 基础设施。
-- [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。
+- [Airweave](https://github.com/airweave-ai/airweave)：开源上下文检索层，可将多种数据源同步为可搜索上下文，供 AI Agent 和应用使用。（上游已归档。）
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox)：安全、快速且可扩展的沙箱运行时，用于隔离 AI Agent 代码和工具执行。
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox)：用于管理隔离、有状态、单例工作负载的 Kubernetes API 与控制器，适合 AI Agent 运行时。
 - [KARS](https://github.com/Azure/kars)：Microsoft 面向 Kubernetes 的 AI Agent 参考栈，提供强化的 Agent 独立沙箱、受治理的出站流量和端到端加密的 Agent 间通信。
@@ -493,7 +496,7 @@
 - [MemPalace](https://github.com/MemPalace/mempalace)：开源 AI 记忆系统，提供基准测试最优的持久化知识存储能力，适用于 AI Agent 和 LLM 应用。
 - [LightRAG](https://github.com/HKUDS/LightRAG)：简洁高效的 RAG 框架，基于图谱检索，支持增量更新和高效知识图谱构建。
 - [Kotaemon](https://github.com/Cinnamon/kotaemon)：开源的 RAG 文档问答工具，支持多模型接入和可定制 UI，实现与文档的智能对话交互。
-- [Quivr](https://github.com/QuivrHQ/quivr)：面向应用集成的 RAG 平台，支持任意 LLM、向量存储和文件类型，让团队专注产品而非 RAG 实现细节。
+- [Quivr](https://github.com/The-Vibe-Company/quivr)：面向应用集成的 RAG 平台，支持任意 LLM、向量存储和文件类型，让团队专注产品而非 RAG 实现细节。
 - [R2R](https://github.com/sciphi-ai/r2r)：生产就绪的 AI 检索系统，支持 Agentic RAG 和 RESTful API，适合企业级知识工作流。
 - [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)：基于 LangChain 和 ChatGLM、Qwen、Llama 等本地 LLM 的 RAG 与 Agent 应用平台，支持知识库管理。
 - [Semantica](https://github.com/semantica-agi/semantica)：面向 AI 系统的图原生基础设施，用于连接上下文、知识与可审计的证据。
@@ -508,15 +511,15 @@
 ## Agentic Workflow 智能体工作流
 
 - [Paperclip](https://github.com/paperclipai/paperclip)：用于协调 AI Agent 团队的开源控制平面，提供目标、组织结构、审批、预算、持久化工作流和审计追踪。
-- [LoopX](https://github.com/huangruiteng/loopx)：面向长周期 Agent 的供应商无关、本地优先控制平面，提供持久状态、治理、恢复、证据记录和人机协作。
-- [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT)：自主 AI Agent 框架，能够分解并执行复杂任务。
+- [LoopX](https://github.com/loopx-project/loopx)：面向长周期 Agent 的供应商无关、本地优先控制平面，提供持久状态、治理、恢复、证据记录和人机协作。
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)：自主 AI Agent 框架，能够分解并执行复杂任务。
 - [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
 - [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime)：面向生产的 Agent 应用运行时，提供安全工具沙箱、Agent-as-a-Service API、可扩展部署和全栈可观测性。
 - [Langflow](https://github.com/langflow-ai/langflow)：LangChain 风格的图形化构建器，支持拖拽式构建 LLM 工作流。
 - [Dify](https://github.com/langgenius/dify)：开源 LLM 应用开发平台，支持可视化 Agent 工作流和 AI 应用部署。
 - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持 Agent 工作流编排。
-- [Flowise](https://github.com/FlowiseAI/Flowise)：低代码 LLM 工作流编排工具，支持可视化构建 AI 应用链。
+- [Flowise](https://github.com/FlowiseAI/Flowise)：低代码 LLM 工作流编排工具，支持可视化构建 AI 应用链。（上游已归档。）
 - [crewAI](https://github.com/crewAIInc/crewAI)：面向协作式 AI Agent 的框架，支持角色定义和任务编排。
 - [LlamaIndex](https://github.com/run-llama/llama_index)：LLM 数据框架，支持结构化数据检索和增强。
 - [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
@@ -572,7 +575,7 @@
 - [Apache NiFi](https://nifi.apache.org/)：可视化数据流编排工具，支持数据路由、转换和系统间协调。
 - [DataHub](https://github.com/datahub-project/datahub)：面向现代数据与 AI 技术栈的元数据平台，支持数据发现、血缘、治理和可观测性。
 - [OpenMetadata](https://github.com/open-metadata/OpenMetadata)：统一元数据平台，支持数据发现、血缘、治理和数据可观测性。
-- [Great Expectations](https://github.com/great-expectations/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
+- [Great Expectations](https://github.com/fivetran/great_expectations)：数据质量框架，用于验证数据集、记录数据期望并发现流水线回归。
 - [Dingo](https://github.com/MigoXLab/dingo)：开源 AI 数据质量评估工具，用于验证 LLM 数据集、检测幻觉并检查 RAG 应用质量。
 - [Soda Core](https://github.com/sodadata/soda-core)：面向现代数据栈的数据契约和质量检查引擎，用于验证数据流水线。
 - [Elementary](https://github.com/elementary-data/elementary)：dbt 原生数据可观测平台，用于监控流水线、测试、新鲜度和异常。
@@ -581,13 +584,13 @@
 - [Temporal](https://github.com/temporalio/temporal)：持久化执行平台，用于构建可靠的工作流、后台任务和长周期业务流程。
 - [Kestra](https://github.com/kestra-io/kestra)：事件驱动的编排与调度平台，支持声明式数据、基础设施和运维工作流。
 - [n8n](https://github.com/n8n-io/n8n)：公平代码的工作流自动化平台，内置 AI 能力，用于连接服务并构建自动化数据和运维流水线。
-- [dbt](https://github.com/dbt-labs/dbt-core)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
+- [dbt](https://github.com/dbt-labs/dbt)：数据转换工具，帮助数据分析师和工程师用软件工程最佳实践转换数据。
 - [Prefect](https://github.com/PrefectHQ/prefect)：工作流编排框架，用于构建具备调度、缓存、重试和事件驱动自动化的弹性数据流水线。
 - [Flyte](https://github.com/flyteorg/flyte)：可扩展的 AI 与数据编排平台，使用强类型和 Kubernetes 原生执行构建可复现的声明式机器学习流水线。
 - [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler)：分布式的低代码数据流水线调度平台，支持可视化 DAG 编排、多租户执行、失败重试与高可用部署。
 - [Airbyte](https://github.com/airbytehq/airbyte)：开源数据集成平台，用于构建从 API、数据库和文件到数据仓库、数据湖及 AI 应用的 ELT 流水线。
 - [Mage](https://github.com/mage-ai/mage-ai)：开源数据流水线平台，用于构建、运行和管理面向 AI 的数据集成与转换任务。
-- [DVC](https://github.com/iterative/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
+- [DVC](https://github.com/treeverse/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
 - [lakeFS](https://github.com/treeverse/lakeFS)：数据湖上的 Git 式版本控制，为 S3 与对象存储数据提供分支、提交与回滚语义，服务 ML、分析与 RAG 数据流水线。
 - [Apache Gravitino](https://github.com/apache/gravitino)：Apache 元数据湖，跨引擎、跨云联邦元数据目录，为运行在 Iceberg、Hive 与对象存储上的 AI 与数据分析负载提供统一元数据和访问控制。
 
@@ -650,7 +653,6 @@
 - [PandaProbe](https://github.com/chirpz-ai/pandaprobe)：开源 Agent 工程平台，面向 LangGraph、CrewAI、Claude Agent SDK 等运行时提供链路、评估和指标能力。
 - [Claude Tap](https://github.com/liaohch3/claude-tap)：本地 trace 查看器，可拦截和检查 Claude Code、Codex CLI、Gemini CLI、Cursor CLI、OpenCode 等编码 Agent 的 API 流量。
 - [FailproofAI](https://github.com/FailproofAI/failproofai)：面向 AI Agent Harness 的可观测性与策略执行工具，支持记录每次运行、检查运行时可靠性，并提供本地仪表板。
-- [Grafana Agento11y](https://github.com/grafana/agento11y)：Grafana 的实用型 AI 可观测性项目，用于采集 Agent 和 LLM 工作流的有效遥测数据。
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon)：面向本地、CI 和云端 AI Agent 的统一遥测层，并提供本地仪表盘和面向安全团队的工作流。
 - [dt-evals](https://github.com/dynatrace-oss/dt-evals)：Apache-2.0 许可的 AI 应用与 Agent 评估 CLI，包含 LLM-as-a-judge 评估器，可接入可观测性反馈闭环。
 - [EfficientAI](https://github.com/EfficientAI-tech/efficientAI)：开源语音 AI 评估平台，用于测试、比较并交付可靠的语音 Agent。
@@ -689,7 +691,7 @@
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh)：Kubernetes 原生混沌工程平台，用于在受控故障下测试系统韧性。
 - [Litmus](https://github.com/litmuschaos/litmus)：CNCF 云原生混沌工程平台，通过可编排的故障实验验证 Kubernetes 工作负载的恢复、故障转移与回滚路径，在真实事故前把降级能力测出来。
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks)：Kubernetes 资源推荐仪表盘，基于 VPA 洞察帮助调优工作负载 requests 和 limits。
-- [Glasskube](https://github.com/glasskube/glasskube)：Kubernetes 包管理器，提供 GUI 与 CLI，支持依赖感知和 GitOps 化的应用运维。
+- [Glasskube](https://github.com/glasskube/glasskube)：Kubernetes 包管理器，提供 GUI 与 CLI，支持依赖感知和 GitOps 化的应用运维。（上游已归档。）
 - [Botkube](https://github.com/kubeshop/botkube)：Kubernetes ChatOps 助手，用于监控集群、暴露事件并帮助团队调试部署。
 - [mirrord](https://github.com/metalbear-co/mirrord)：Kubernetes 开发工具，让本地进程使用集群网络、环境变量和流量上下文运行。
 - [OpenKruise](https://github.com/openkruise/kruise)：CNCF Kubernetes 工作负载自动化套件，支持高级应用部署、弹性伸缩和生命周期管理。
@@ -706,8 +708,10 @@
 - [Talos Linux](https://github.com/siderolabs/talos)：专为 Kubernetes 构建的现代 Linux 发行版，支持 API 驱动配置、不可变根文件系统和零接触 provisioning。
 - [KubeEdge](https://github.com/kubeedge/kubeedge)：CNCF Kubernetes 原生边缘计算框架，支持将容器化应用延伸到边缘节点，实现云边协同。
 - [Rook](https://github.com/rook/rook)：CNCF Kubernetes 存储编排器，为 Ceph、NFS 等存储系统提供自管理、自扩容和自修复的存储服务。
-- [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。
+- [MinIO](https://github.com/minio/minio)：高性能 S3 兼容对象存储，原生支持 Kubernetes，适用于 AI/ML 数据湖、分析和云原生应用。（上游已归档。）
 - [Longhorn](https://github.com/longhorn/longhorn)：面向 Kubernetes 的云原生分布式块存储，提供副本、快照、备份与管理界面，适合运行有状态负载。
+- [SeaweedFS](https://github.com/seaweedfs/seaweedfs)：分布式 S3 兼容对象存储，支持分层卷与 Iceberg 表，是 MinIO 上游归档后常见的自托管 AI 数据湖方案。
+- [RustFS](https://github.com/rustfs/rustfs)：Rust 实现的分布式 S3 兼容对象存储，提供 MinIO 迁移工具，可用作自托管 AI 数据湖与备份的替代方案。
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
@@ -760,14 +764,14 @@
 - [MCP Security Hub](https://github.com/FuzzingLabs/mcp-security-hub)：面向授权安全流程的 MCP 安全工具集合，将 Nmap、Ghidra、Nuclei、SQLMap 和 Hashcat 等工具带给 AI 助手。
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)：Apache-2.0 许可的结构化 AI Agent 网络安全 Skill 集合，映射 MITRE ATT&CK、NIST CSF、MITRE ATLAS、D3FEND 和 AI RMF。
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom)：Kubernetes 控制器，可为 AI 工作负载生成 CycloneDX ML-BOM，并提供可追溯的运行时证据。
-- [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。
+- [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai)：开源框架，用于将 AI Agent 应用于网络安全研究和防御性安全工作流。（上游已归档。）
 - [AgentShield](https://github.com/affaan-m/agentshield)：AI Agent 安全扫描器，通过 CLI 或 GitHub Action 检测 Agent 配置、MCP Server 和工具权限中的漏洞。
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules)：面向 AI Agent 威胁的开放检测规则标准，提供覆盖 Prompt 注入、工具滥用、数据外泄等攻击类别的可执行规则。
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner)：AI Agent Skill 安全扫描器，用于在 Skill 部署前发现高风险行为。
 - [Crust](https://github.com/BakeLens/crust)：本地 AI Agent 安全网关，可拦截工具调用及 MCP/ACP 流量，阻止危险操作、扫描 Secret 并执行运行时规则。
 - [Adrian](https://github.com/secureagentics/Adrian)：开源 AI Agent 运行时安全工具，实时监控和控制 AI Agent，在 Agent 执行动作前拦截恶意工具调用、Prompt 注入和策略偏移。
 - [Sage](https://github.com/gendigitalinc/sage)：轻量级 Agent Detection & Response 层，用于保护 AI Agent 的命令、文件和 Web 请求。
-- [Doberman](https://github.com/fu351/Doberman-Core)：面向 AI 编码 Agent 的运行时护栏与自适应授权工具，通过 MCP 或主机 Hook 在执行前实施策略，提供审批、审计日志和默认拒绝机制。
+- [Doberman](https://github.com/DobermanCore/Doberman-Core)：面向 AI 编码 Agent 的运行时护栏与自适应授权工具，通过 MCP 或主机 Hook 在执行前实施策略，提供审批、审计日志和默认拒绝机制。
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary)：在沙箱化真实工具工作流中评估 AI Agent 安全性的框架，基于完整执行轨迹从安全结果、安全意识和任务效用等维度评分。
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo)：用于在真实工具调用工作流中评估 LLM Agent 攻击与防御能力的动态环境。
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit)：用于自主 AI Agent 的策略执行、零信任身份、执行沙箱和可靠性工程工具包。
@@ -833,7 +837,7 @@
 ### Artifact 制品管理
 
 - [Harbor](https://github.com/goharbor/harbor)：企业级容器镜像仓库，支持安全扫描和访问控制。
-- [Skopeo](https://github.com/containers/skopeo)：用于检查、复制和签署容器镜像的开源工具。
+- [Skopeo](https://github.com/podman-container-tools/skopeo)：用于检查、复制和签署容器镜像的开源工具。
 - [Nexus Repository](https://github.com/sonatype/nexus-public)：通用制品仓库，支持 Maven、npm、Docker 等格式。
 - [ORAS](https://github.com/oras-project/oras)：将任意内容存储为 OCI Artifact 的工具。
 
@@ -867,11 +871,11 @@
 - [Continue](https://github.com/continuedev/continue)：开源 AI 代码助手，以自动驾驶模式集成到 IDE 中，支持自定义上下文和模型。
 - [Tabby](https://github.com/TabbyML/tabby)：自托管的 AI 编码助手，提供代码补全、对话和 Agent 能力，可完全在本地运行。
 - [Cline](https://github.com/cline/cline)：自主编码 Agent，以 SDK、IDE 扩展和 CLI 助手形式提供，支持 AI 驱动开发工作流。
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands)：AI 驱动开发平台，通过 Agent 工作流实现自动化编码、代码审查和软件工程任务。
+- [OpenHands](https://github.com/OpenHands/OpenHands)：AI 驱动开发平台，通过 Agent 工作流实现自动化编码、代码审查和软件工程任务。
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent)：基于 LLM 的智能 Agent，可自动解决 GitHub Issue 和修复 Bug，支持迭代式工具调用工作流。
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot)：AI 开发者，可从自然语言规格说明构建生产就绪应用，支持人机协作引导。
 - [OpenAI Codex CLI](https://github.com/openai/codex)：轻量级终端 AI 编码 Agent，在命令行中提供 AI 驱动的代码编辑和任务自动化能力。
-- [Void](https://github.com/voideditor/void)：开源 AI 代码编辑器，提供智能代码补全、编辑和 Agent 编码工作流。
+- [Void](https://github.com/voideditor/void)：开源 AI 代码编辑器，提供智能代码补全、编辑和 Agent 编码工作流。（上游已归档。）
 - [Goose](https://github.com/aaif-goose/goose)：开源可扩展 AI Agent，可用任意 LLM 安装、执行、编辑和测试代码，超越代码建议进入完整任务执行。
 - [Qwen Code](https://github.com/QwenLM/qwen-code)：开源终端 AI 编码 Agent，支持多文件编辑、任务规划和 MCP Server 集成。
 - [Open SWE](https://github.com/langchain-ai/open-swe)：LangChain 出品的开源异步编码 Agent，支持并行任务执行的自动化软件工程。
@@ -902,7 +906,7 @@
 - [OpenReview](https://github.com/vercel-labs/openreview)：开源、可自托管的 AI 代码审查机器人，基于 Vercel 部署，支持自动化 Pull Request 审查。
 - [Dependency Track](https://dependencytrack.org/)：开源软件组件分析平台，支持供应链风险、SBOM 和 License 检查。
 - [OpenRewrite](https://docs.openrewrite.org)：自动化大规模代码重构与现代化工具。
-- [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，稳定后计划替代 Dependency-Track。
+- [Hyades](https://github.com/DependencyTrack/hyades)：下一代软件供应链安全平台，稳定后计划替代 Dependency-Track。（上游已归档。）
 
 ### Event Mesh 事件网格
 
@@ -926,7 +930,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [sops](https://github.com/getsops/sops)：加密文件编辑器，支持 YAML、JSON、ENV、INI 和二进制文件。
 - [Crossplane](https://github.com/crossplane/crossplane)：Kubernetes 插件，让平台团队组合多云基础设施并暴露高层自助服务 API。
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt)：Terraform 包装工具，提供 DRY 配置和远程状态管理。
-- [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)：声明式 Kubernetes Secret 管理工具，可安全地将加密 Secret 存放在 Git 中。
+- [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets)：声明式 Kubernetes Secret 管理工具，可安全地将加密 Secret 存放在 Git 中。
 - [Checkov](https://github.com/bridgecrewio/checkov)：基础设施即代码静态分析工具，支持安全合规检查。
 - [helmfile](https://github.com/helmfile)：声明式 Helm Chart 编排和部署工具。
 - [Atlantis](https://github.com/runatlantis/atlantis)：面向 Terraform 的 Pull Request 自动化工具，支持计划、应用和协作式基础设施评审。
