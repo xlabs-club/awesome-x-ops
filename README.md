@@ -78,15 +78,14 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Candela](https://github.com/candelahq/candela): OpenTelemetry-native LLM observability platform for tracing, cost tracking, and evaluation with local or cloud storage backends.
 - [Litefuse](https://github.com/litefuse/litefuse): Open-source LLM engineering platform for collaboratively developing, monitoring, evaluating, and debugging AI applications with self-hosted deployment.
 - [DeepEval](https://github.com/confident-ai/deepeval): LLM evaluation framework for testing RAG, agents, and model outputs in CI or production workflows.
-- [Ragas](https://github.com/explodinggradients/ragas): Evaluation framework for RAG pipelines and LLM applications.
+- [Ragas](https://github.com/vibrantlabsai/ragas): Evaluation framework for RAG pipelines and LLM applications.
 - [Arize Phoenix](https://github.com/Arize-ai/phoenix): Open-source observability and evaluation platform for LLM, RAG, and ML systems.
 - [OpenInference](https://github.com/Arize-ai/openinference): OpenTelemetry instrumentation and semantic conventions for tracing LLM, RAG, and agent applications.
 - [Agent Telemetry Semantic Conventions](https://github.com/agent-telemetry-spec/atsc): Vendor-neutral, OpenTelemetry-compatible semantic conventions for interoperable AI agent observability.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry): OpenTelemetry-based observability for LLM applications and agent workflows.
-- [Multi-agent Observability with OpenTelemetry](https://github.com/chrisipanaque/multi-agent-observability-opentelemetry): OpenTelemetry reference implementation for tracing LangGraph multi-agent systems, including routing decisions, tool calls, LLM invocations, metrics, and OTLP export.
 - [Helicone](https://github.com/Helicone/helicone): Open-source observability platform for LLM usage, latency, cost, caching, and request logs.
 - [OpenLIT](https://github.com/openlit/openlit): OpenTelemetry-native AI engineering platform for LLM observability, evaluations, guardrails, prompt management, and GPU monitoring.
-- [Grafana AI Observability SDK](https://github.com/grafana/sigil-sdk): Open-source SDKs and coding-agent plugins for sending production agent and LLM telemetry to Grafana AI observability.
+- [Grafana AI Observability SDK](https://github.com/grafana/agento11y): Open-source SDKs and coding-agent plugins for sending production agent and LLM telemetry to Grafana AI observability.
 - [LangWatch](https://github.com/langwatch/langwatch): Open-source platform for LLM monitoring, evaluations, traces, and agent testing.
 - [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec): Fully local observability and security dashboard for AI coding agents, with OpenTelemetry traces, command auditing, threat detection, and optional enforcement.
 - [Opik](https://github.com/comet-ml/opik): Open-source platform for tracing, evaluating, and monitoring LLM applications, RAG systems, and agent workflows.
@@ -115,7 +114,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
 - [ax](https://github.com/Necmttn/ax): Local-first telemetry and memory graph for AI coding agents, covering costs, tools, skills, sessions, and OTLP events.
 - [Mindwalk](https://github.com/cosmtrek/mindwalk): Visualization tool that replays coding-agent sessions on a 3D map of your codebase for debugging and understanding agent behavior.
-- [TensorZero](https://github.com/tensorzero/tensorzero): Open-source LLMOps platform that combines an LLM gateway, observability, evaluations, optimization, and experimentation.
+- [TensorZero](https://github.com/tensorzero/tensorzero): Open-source LLMOps platform that combines an LLM gateway, observability, evaluations, optimization, and experimentation. (Archived upstream.)
 - [cascadeflow](https://github.com/lemony-ai/cascadeflow): Cascading runtime for AI agents that makes cost, latency, quality, and policy decisions inside the agent loop.
 - [Evidently](https://github.com/evidentlyai/evidently): Open-source ML and LLM observability framework for evaluation, testing, monitoring, and data quality checks.
 - [RagaAI Catalyst](https://github.com/raga-ai-hub/RagaAI-Catalyst): Agent AI observability and evaluation SDK for tracing, debugging, and monitoring multi-agent LLM systems.
@@ -140,7 +139,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [GoModel](https://github.com/ENTERPILOT/GoModel): Go-based AI gateway with OpenAI and Anthropic-compatible APIs, provider routing, failover, observability, cost tracking, and multi-tenant controls.
 - [Traceloop Hub](https://github.com/traceloop/hub): High-performance Rust LLM gateway with a unified provider API, OpenTelemetry traces, Prometheus metrics, and configurable request pipelines.
 - [New API](https://github.com/QuantumNous/new-api): Unified AI model gateway for aggregating providers, normalizing OpenAI/Claude/Gemini-compatible APIs, and managing enterprise model access.
-- [Manifest](https://github.com/mnfst/manifest): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
+- [Manifest](https://github.com/mnfst/llm-gateway): Provider-agnostic runtime that connects agents and agent harnesses to model providers through a unified interface.
 - [OmniRoute](https://github.com/diegosouzapw/OmniRoute): Self-hosted AI gateway that unifies many model providers behind one endpoint with automatic fallback, routing, MCP/A2A support, and token-saving compression.
 - [Otari](https://github.com/mozilla-ai/otari): Open-source, OpenAI-compatible LLM gateway from Mozilla AI with one endpoint for 40+ providers, virtual keys, budgets, and usage tracking.
 - [1flowbase](https://github.com/taichuy/1flowbase): Self-hosted AI gateway for composing multi-model workflows behind OpenAI-compatible virtual models with traces, token usage, latency, and cost visibility.
@@ -151,12 +150,12 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Supergateway](https://github.com/supercorp-ai/supergateway): Lightweight bridge that runs MCP stdio servers over SSE and converts SSE connections back to stdio for interoperable deployments.
 - [NVIDIA NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails): Toolkit for adding programmable safety, dialog, and policy guardrails to LLM-based conversational systems.
 - [Llama Guard](https://github.com/meta-llama/PurpleLlama): Meta's open trust and safety toolkit for evaluating and filtering LLM inputs, outputs, and model risks.
-- [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage.
+- [LLM Guard](https://github.com/protectai/llm-guard): Security toolkit for sanitizing LLM inputs and outputs, detecting prompt injection, blocking harmful content, and reducing data leakage. (Archived upstream.)
 - [garak](https://github.com/NVIDIA/garak): LLM vulnerability scanner for probing prompt injection, jailbreaks, data leakage, hallucination, and other generative AI risks.
 - [agentic-security](https://github.com/msoedov/agentic_security): Open-source LLM vulnerability scanner and AI red teaming kit for fuzzing and testing LLM guardrails against adversarial attacks.
 - [SlowMist Agent Security](https://github.com/slowmist/slowmist-agent-security): Agent security review framework for adversarial environments, centered on treating every external input as untrusted until verified.
 - [Superagent](https://github.com/superagent-ai/superagent): Open-source AI security SDK for protecting LLM applications against prompt injections, data leaks, and harmful outputs.
-- [PINT Benchmark](https://github.com/lakeraai/pint-benchmark): Open-source benchmark for evaluating prompt injection detection systems across diverse attack vectors.
+- [PINT Benchmark](https://github.com/lakeraai/pint-benchmark): Open-source benchmark for evaluating prompt injection detection systems across diverse attack vectors. (Archived upstream.)
 - [FuzzyAI](https://github.com/cyberark/FuzzyAI): Apache-2.0 LLM fuzzing tool for finding and mitigating jailbreak vulnerabilities in LLM APIs.
 - [OpenEvals](https://github.com/langchain-ai/openevals): Ready-made evaluators for testing and regression-checking LLM applications in development and CI workflows.
 - [RAGEval](https://github.com/BytePioneer-AI/RAGEval): Open-source RAG evaluation system for automating dataset-based quality checks across retrieval and generation workflows.
@@ -235,7 +234,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Agent-Blackbox](https://github.com/TaewoooPark/Agent-Blackbox): Local-first flight recorder and context-efficiency profiler for coding agents, with replayable session maps, cost analysis, and task-outcome signals.
 - [Mira](https://github.com/everruns/mira): Rust-first evaluation framework for multi-turn, tool-using, long-running agent trajectories with operational budgets and CI-native reports.
 - [aws-bench](https://github.com/aws-bench/aws-bench): Benchmark for evaluating coding agents on real AWS tasks in disposable environments, with verifiers for diagnosis, provisioning, and operations.
-- [claw-swe-bench](https://github.com/opensquilla/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
+- [claw-swe-bench](https://github.com/TokenRhythm/claw-swe-bench): Adapter framework for evaluating OpenClaw-style agent harnesses on reproducible SWE-bench issue-resolution tasks.
 - [OpenAgent Eval](https://github.com/OpenAgentHQ/openagent-eval): Local-first, framework-agnostic evaluation framework for RAG systems and AI agents with CLI, SDK, and multiple metrics.
 - [OpenJudge](https://github.com/agentscope-ai/OpenJudge): Open-source evaluation framework for AI applications with reusable graders, scenario-specific rubrics, scalable runs, and reward signals for continuous optimization.
 - [AgentEval (.NET)](https://github.com/AgentEvalHQ/AgentEval): .NET toolkit for evaluating AI agents with tool-use validation, RAG quality metrics, stochastic testing, and model comparison.
@@ -312,11 +311,11 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLM as an OpenAI-compatible API endpoint with built-in chat UI, model catalog, and cloud deployment workflows.
 - [Oumi](https://github.com/oumi-ai/oumi): Open-source platform for fine-tuning, evaluating, and deploying any open-source LLM or VLM with production-ready training and deployment workflows.
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA's official LLM inference optimization framework with state-of-the-art GPU optimizations and efficient runtime orchestration for production deployments.
-- [Text Generation Inference](https://github.com/huggingface/text-generation-inference): HuggingFace's production-grade inference server for LLMs with tensor parallelism, continuous batching, and quantization support.
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference): HuggingFace's production-grade inference server for LLMs with tensor parallelism, continuous batching, and quantization support. (Archived upstream.)
 - [Text Embeddings Inference](https://github.com/huggingface/text-embeddings-inference): Blazing-fast inference server for text embedding and reranking models with production-ready performance.
 - [OpenVINO Model Server](https://github.com/openvinotoolkit/model_server): Scalable inference server for OpenVINO-optimized models, exposing production-friendly APIs for deploying AI models.
-- [Axolotl](https://github.com/OpenAccess-AI-Collective/axolotl): Open-source LLM fine-tuning framework with support for LoRA, QLoRA, and full-parameter training across popular model architectures.
-- [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
+- [Axolotl](https://github.com/axolotl-ai-cloud/axolotl): Open-source LLM fine-tuning framework with support for LoRA, QLoRA, and full-parameter training across popular model architectures.
+- [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
 - [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
 - [Llama Deploy](https://github.com/run-llama/llama_deploy): Production deployment framework for LlamaIndex agentic workflows with asynchronous task orchestration and service management.
@@ -348,6 +347,10 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [NVIDIA DCGM Exporter](https://github.com/NVIDIA/dcgm-exporter): Prometheus exporter for NVIDIA GPU metrics built on DCGM, exposing utilization, profiler counters, and health signals for monitoring AI serving and training fleets.
 - [oMLX](https://github.com/jundot/omlx): LLM inference server for Apple Silicon with continuous batching, tiered KV caching, and an OpenAI-compatible API managed from the macOS menu bar.
 - [nvtop](https://github.com/Syllo/nvtop): GPU and accelerator process monitor for NVIDIA, AMD, Intel, Apple, Huawei, and Qualcomm devices, showing utilization, memory, and per-process usage in real time.
+- [Microsoft PAI](https://github.com/microsoft/pai): Resource scheduling and cluster management platform for shared AI training and inference clusters, covering GPU allocation, quotas, and job lifecycle operations.
+- [RamaLama](https://github.com/containers/ramalama): Container-native tool that pulls, quantizes, and serves AI models from OCI registries, so teams can run local or self-hosted inference with standard container workflows.
+- [LightLLM](https://github.com/ModelTC/LightLLM): Python inference and serving framework for LLMs with token-level memory management, built for high-throughput and low-latency online serving.
+- [FastDeploy](https://github.com/PaddlePaddle/FastDeploy): High-performance inference and deployment toolkit for LLMs and VLMs in the PaddlePaddle ecosystem, with multi-hardware and multi-backend support.
 
 ## AIOps
 
@@ -369,7 +372,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Nudgebee](https://github.com/nudgebee/nudgebee): Open-source SRE copilot for Kubernetes and major clouds, combining observability, FinOps, runbook automation, incident response, and ChatOps workflows.
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab): Holistic framework for designing, developing, and evaluating autonomous AIOps agents against reproducible operations scenarios.
 - [SREGym](https://github.com/SREGym/SREGym): Benchmark and experimentation framework for evaluating whether AI agents can diagnose and resolve production incidents in reproducible SRE environments.
-- [ANOLISA](https://github.com/alibaba/anolisa): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
+- [ANOLISA](https://github.com/agentic-os-org/ANOLISA): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
 
 ## AI Infrastructure
 
@@ -393,7 +396,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Chonkie](https://github.com/feyninc/chonkie): Lightweight ingestion and chunking library with token, sentence, semantic, recursive, and code-aware chunkers so RAG preprocessing stays reproducible and benchmarkable.
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR): Open-source OCR toolkit for converting PDFs and images into structured data for multilingual AI and RAG pipelines.
 - [Pathway LLM App](https://github.com/pathwaycom/llm-app): Ready-to-run templates for production RAG, AI pipelines, and enterprise search with live data connectors and Docker-friendly deployment.
-- [Cognita](https://github.com/truefoundry/cognita): Open-source modular RAG framework for building production applications with configurable data ingestion, retrieval, and serving components.
+- [Cognita](https://github.com/truefoundry/cognita): Open-source modular RAG framework for building production applications with configurable data ingestion, retrieval, and serving components. (Archived upstream.)
 - [SuperDuper](https://github.com/superduper-io/superduper): Open-source framework for building custom AI applications and agents directly on existing data stores, with integrated model, data, and deployment workflows.
 - [Weaviate](https://github.com/weaviate/weaviate): Open-source vector database combining vector search with structured filtering and generative AI integrations.
 - [pgvector](https://github.com/pgvector/pgvector): Open-source vector similarity search extension for PostgreSQL, widely used for RAG and AI embedding storage.
@@ -405,7 +408,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [txtai](https://github.com/neuml/txtai): All-in-one AI framework for semantic search, LLM orchestration, and language model workflows with embeddings and pipelines.
 - [Feast](https://github.com/feast-dev/feast): Open-source feature store for AI/ML that serves features consistently for model training and online inference.
 - [Instructor](https://github.com/567-labs/instructor): Structured outputs for LLMs with Pydantic validation, automatic retries, and provider-agnostic API.
-- [pgai](https://github.com/timescale/pgai): Open-source suite for building RAG, semantic search, and AI applications directly on PostgreSQL with vector and AI tooling.
+- [pgai](https://github.com/timescale/pgai): Open-source suite for building RAG, semantic search, and AI applications directly on PostgreSQL with vector and AI tooling. (Archived upstream.)
 - [Browser Use](https://github.com/browser-use/browser-use): Open-source web automation toolkit that enables AI agents to browse websites, extract data, and automate online tasks at scale.
 - [Agent-Reach](https://github.com/Panniantong/Agent-Reach): Give your AI agent eyes to see the entire internet — read and search Twitter, Reddit, YouTube, GitHub, Bilibili, and more via one CLI with zero API fees.
 - [Steel Browser](https://github.com/steel-dev/steel-browser): Open-source headless browser sandbox for AI agents and applications, providing production-ready web automation infrastructure.
@@ -436,7 +439,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [PageIndex](https://github.com/VectifyAI/PageIndex): Vectorless, reasoning-based document indexing system for retrieval-augmented generation over long documents.
 - [Onyx](https://github.com/onyx-dot-app/onyx): Open-source AI platform for enterprise search and AI chat, combining retrieval, connectors, agent workflows, and self-hosted deployment.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector): Developer tool with a web client and proxy for interactively testing and debugging MCP servers across supported transports.
-- [MCP Router](https://github.com/mcp-router/mcp-router): Unified MCP server management application for discovering, configuring, and operating MCP servers from one interface.
+- [MCP Router](https://github.com/mcp-router/mcp-router): Unified MCP server management application for discovering, configuring, and operating MCP servers from one interface. (Archived upstream.)
 - [MCP Registry](https://github.com/modelcontextprotocol/registry): Community-driven registry service that publishes, discovers, and governs MCP servers, giving agent tool integrations a verifiable source of truth instead of copy-pasted local configuration.
 - [DB-GPT](https://github.com/eosphoros-ai/DB-GPT): Open-source agentic AI data assistant for building data products, Text-to-SQL, RAG, and multi-agent workflows over private data.
 - [BoxLite](https://github.com/boxlite-ai/boxlite): Daemonless micro-VM runtime for AI agents — hardware-isolated, OCI-native execution environments embeddable as a library or deployed as a server.
@@ -445,7 +448,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [HelixDB](https://github.com/HelixDB/helix-db): Rust-built graph-vector database for knowledge graphs, AI memory, and unified access to relational, document, key-value, and vector data.
 - [RocketRide](https://github.com/rocketride-org/rocketride-server): Open-source AI pipeline builder and runtime with a C++ core, extensible nodes, vector database integrations, and IDE/CLI workflows for production AI systems.
 - [Golf](https://github.com/golf-mcp/golf): Production-ready MCP server framework with authentication, observability, debugging, telemetry, and runtime capabilities for deploying secure agent infrastructure.
-- [Airweave](https://github.com/airweave-ai/airweave): Open-source context retrieval layer that syncs diverse data sources into searchable context for AI agents and applications.
+- [Airweave](https://github.com/airweave-ai/airweave): Open-source context retrieval layer that syncs diverse data sources into searchable context for AI agents and applications. (Archived upstream.)
 - [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox): Secure, fast, and extensible sandbox runtime for isolating AI agent code and tool execution.
 - [Kubernetes Agent Sandbox](https://github.com/kubernetes-sigs/agent-sandbox): Kubernetes API and controller for managing isolated, stateful, singleton workloads such as AI agent runtimes.
 - [KARS](https://github.com/Azure/kars): Microsoft’s Kubernetes reference stack for running AI agents with hardened per-agent sandboxes, governed egress, and encrypted inter-agent communication.
@@ -493,7 +496,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [MemPalace](https://github.com/MemPalace/mempalace): Open-source AI memory system with best-in-class benchmarks, providing persistent knowledge storage for AI agents and LLM applications.
 - [LightRAG](https://github.com/HKUDS/LightRAG): Simple and fast RAG framework with graph-based retrieval, supporting incremental updates and efficient knowledge graph construction.
 - [Kotaemon](https://github.com/Cinnamon/kotaemon): Open-source RAG-based document QA tool with multi-model support and a customizable UI for chatting with documents.
-- [Quivr](https://github.com/QuivrHQ/quivr): Opinionated RAG platform for integrating GenAI into applications, supporting any LLM, vector store, and file type.
+- [Quivr](https://github.com/The-Vibe-Company/quivr): Opinionated RAG platform for integrating GenAI into applications, supporting any LLM, vector store, and file type.
 - [R2R](https://github.com/sciphi-ai/r2r): Production-ready AI retrieval system with agentic RAG and a RESTful API for enterprise knowledge workflows.
 - [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): RAG and Agent application platform based on LangChain and local LLMs such as ChatGLM, Qwen, and Llama with knowledge base management.
 - [Semantica](https://github.com/semantica-agi/semantica): Graph-native infrastructure for connecting context, knowledge, and accountable evidence in AI systems.
@@ -508,15 +511,15 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 ## Agentic Workflow
 
 - [Paperclip](https://github.com/paperclipai/paperclip): Open-source control plane for coordinating teams of AI agents with goals, org charts, approvals, budgets, persistent work, and audit trails.
-- [LoopX](https://github.com/huangruiteng/loopx): Provider-neutral, local-first control plane for long-horizon agents with durable state, governance, recovery, evidence, and human-agent collaboration.
-- [AutoGPT](https://github.com/Significant-Gravitas/Auto-GPT): Autonomous AI agent framework that can break down and execute complex tasks.
+- [LoopX](https://github.com/loopx-project/loopx): Provider-neutral, local-first control plane for long-horizon agents with durable state, governance, recovery, evidence, and human-agent collaboration.
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT): Autonomous AI agent framework that can break down and execute complex tasks.
 - [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
 - [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime): Production-oriented runtime for agent applications with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, and full-stack observability.
 - [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
-- [Flowise](https://github.com/FlowiseAI/Flowise): Low-code LLM workflow orchestration tool for visually building AI application chains.
+- [Flowise](https://github.com/FlowiseAI/Flowise): Low-code LLM workflow orchestration tool for visually building AI application chains. (Archived upstream.)
 - [crewAI](https://github.com/crewAIInc/crewAI): Framework for collaborative AI agents with role definition and task orchestration.
 - [LlamaIndex](https://github.com/run-llama/llama_index): Data framework for LLM applications, supporting structured data retrieval and augmentation.
 - [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
@@ -572,7 +575,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Apache NiFi](https://nifi.apache.org/): Visual dataflow orchestration for routing, transforming, and coordinating data across systems.
 - [DataHub](https://github.com/datahub-project/datahub): Metadata platform for data discovery, lineage, governance, and observability across modern data and AI stacks.
 - [OpenMetadata](https://github.com/open-metadata/OpenMetadata): Unified metadata platform for data discovery, lineage, governance, and data observability.
-- [Great Expectations](https://github.com/great-expectations/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
+- [Great Expectations](https://github.com/fivetran/great_expectations): Data quality framework for validating datasets, documenting expectations, and catching pipeline regressions.
 - [Dingo](https://github.com/MigoXLab/dingo): Open-source AI data-quality evaluation tool for validating LLM datasets, detecting hallucinations, and checking RAG application quality.
 - [Soda Core](https://github.com/sodadata/soda-core): Data contracts and quality checks engine for validating data pipelines in modern data stacks.
 - [Elementary](https://github.com/elementary-data/elementary): dbt-native data observability platform for monitoring pipelines, tests, freshness, and anomalies.
@@ -581,13 +584,13 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Temporal](https://github.com/temporalio/temporal): Durable execution platform for building reliable workflows, background jobs, and long-running business processes.
 - [Kestra](https://github.com/kestra-io/kestra): Event-driven orchestration and scheduling platform for declarative data, infrastructure, and operational workflows.
 - [n8n](https://github.com/n8n-io/n8n): Fair-code workflow automation platform with native AI capabilities for connecting services and building automated data and ops pipelines.
-- [dbt](https://github.com/dbt-labs/dbt-core): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
+- [dbt](https://github.com/dbt-labs/dbt): Data transformation tool that enables analysts and engineers to transform data with software engineering best practices.
 - [Prefect](https://github.com/PrefectHQ/prefect): Workflow orchestration framework for building resilient data pipelines with scheduling, caching, retries, and event-based automations.
 - [Flyte](https://github.com/flyteorg/flyte): Scalable AI and data orchestration platform for building reproducible, declarative ML pipelines with strong typing and Kubernetes-native execution.
 - [Apache DolphinScheduler](https://github.com/apache/dolphinscheduler): Distributed, low-code workflow scheduler for data pipelines with visual DAG editing, multi-tenant execution, retries, and high availability.
 - [Airbyte](https://github.com/airbytehq/airbyte): Open-source data integration platform for building ELT pipelines from APIs, databases, and files to warehouses, lakes, and AI applications.
 - [Mage](https://github.com/mage-ai/mage-ai): Open-source data pipeline platform for building, running, and managing AI-ready data integrations and transformations.
-- [DVC](https://github.com/iterative/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
+- [DVC](https://github.com/treeverse/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
 - [lakeFS](https://github.com/treeverse/lakeFS): Git-like version control for data lakes that adds branching, commits, and rollback semantics to S3 and object-store data used by ML, analytics, and RAG pipelines.
 - [Apache Gravitino](https://github.com/apache/gravitino): Apache metadata lake that federates catalogs across engines and clouds, providing unified metadata and access control for AI and analytics workloads on Iceberg, Hive, and object storage.
 
@@ -624,7 +627,6 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector): Vendor-neutral collector for receiving, processing, and exporting telemetry data.
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib): Community distribution of OpenTelemetry Collector components for collecting, processing, and exporting telemetry across production systems.
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions): Standardized telemetry attributes and naming conventions that make traces, metrics, and logs consistent across tools and domains.
-- [Grafana Agento11y](https://github.com/grafana/agento11y): Grafana's practical open-source project for collecting useful telemetry from AI agent and LLM workflows.
 - [SigNoz](https://github.com/SigNoz/signoz): OpenTelemetry-native observability platform combining metrics, traces, logs, dashboards, and alerts.
 - [HyperDX](https://github.com/hyperdxio/hyperdx): Open-source observability platform unifying session replays, logs, metrics, traces, and errors, powered by ClickHouse and OpenTelemetry.
 - [Jaeger](https://github.com/jaegertracing/jaeger): CNCF distributed tracing platform for monitoring and troubleshooting microservices.
@@ -689,7 +691,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Chaos Mesh](https://github.com/chaos-mesh/chaos-mesh): Kubernetes-native chaos engineering platform for testing system resilience under controlled failures.
 - [Litmus](https://github.com/litmuschaos/litmus): CNCF chaos engineering platform that runs scheduled fault experiments against Kubernetes workloads so recovery, failover, and rollback paths are verified before real incidents.
 - [Goldilocks](https://github.com/FairwindsOps/goldilocks): Kubernetes resource recommendation dashboard that helps tune workload requests and limits from VPA insights.
-- [Glasskube](https://github.com/glasskube/glasskube): Kubernetes package manager with GUI and CLI support for dependency-aware, GitOps-ready application operations.
+- [Glasskube](https://github.com/glasskube/glasskube): Kubernetes package manager with GUI and CLI support for dependency-aware, GitOps-ready application operations. (Archived upstream.)
 - [Botkube](https://github.com/kubeshop/botkube): Kubernetes ChatOps assistant for monitoring clusters, surfacing events, and helping teams debug deployments.
 - [mirrord](https://github.com/metalbear-co/mirrord): Kubernetes development tool that lets local processes run with cluster networking, environment, and traffic context.
 - [OpenKruise](https://github.com/openkruise/kruise): CNCF Kubernetes workload automation suite for advanced application deployment, scaling, and lifecycle management.
@@ -706,8 +708,10 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Talos Linux](https://github.com/siderolabs/talos): Modern Linux distribution built specifically for Kubernetes with API-driven configuration, immutable root filesystem, and zero-touch provisioning.
 - [KubeEdge](https://github.com/kubeedge/kubeedge): CNCF Kubernetes-native edge computing framework for extending containerized applications to edge nodes with cloud-edge synergy.
 - [Rook](https://github.com/rook/rook): CNCF storage orchestrator for Kubernetes, providing self-managing, self-scaling, and self-healing storage services for Ceph, NFS, and other providers.
-- [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications.
+- [MinIO](https://github.com/minio/minio): High-performance, S3-compatible object storage with native Kubernetes support for AI/ML data lakes, analytics, and cloud-native applications. (Archived upstream.)
 - [Longhorn](https://github.com/longhorn/longhorn): Cloud-native distributed block storage for Kubernetes with replication, snapshots, backups, and a management UI for stateful workloads.
+- [SeaweedFS](https://github.com/seaweedfs/seaweedfs): Distributed S3-compatible object storage with tiered volumes and Iceberg table support, widely used as a self-hosted AI data lake layer after MinIO's upstream archival.
+- [RustFS](https://github.com/rustfs/rustfs): Rust-built distributed S3-compatible object storage with MinIO migration tooling, used as a self-hosted alternative for AI data lakes and backups.
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
@@ -760,14 +764,14 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [MCP Security Hub](https://github.com/FuzzingLabs/mcp-security-hub): Collection of offensive-security MCP servers that brings tools such as Nmap, Ghidra, Nuclei, SQLMap, and Hashcat to AI assistants for authorized security workflows.
 - [Anthropic Cybersecurity Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills): Apache-2.0 collection of structured cybersecurity skills for AI agents, mapped to ATT&CK, NIST CSF, MITRE ATLAS, D3FEND, and AI RMF.
 - [Kubernetes AI-BOM](https://github.com/GoogleCloudPlatform/k8s-aibom): Kubernetes controller that generates CycloneDX ML-BOM documents for AI workloads with traceable runtime evidence.
-- [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows.
+- [Cybersecurity AI (CAI)](https://github.com/aliasrobotics/cai): Open-source framework for applying AI agents to cybersecurity research and defensive security workflows. (Archived upstream.)
 - [AgentShield](https://github.com/affaan-m/agentshield): AI agent security scanner for detecting vulnerabilities in agent configurations, MCP servers, and tool permissions via CLI or GitHub Action.
 - [Agent Threat Rules](https://github.com/Agent-Threat-Rule/agent-threat-rules): Open detection-rule standard for AI agent threats, with executable rules covering prompt injection, tool abuse, data exfiltration, and related attack categories.
 - [Cisco Skill Scanner](https://github.com/cisco-ai-defense/skill-scanner): Security scanner for AI agent skills that helps identify risky behavior before skills are deployed.
 - [Crust](https://github.com/BakeLens/crust): Local AI-agent security gateway that intercepts tool calls and MCP/ACP traffic to block dangerous actions, scan secrets, and enforce runtime rules.
 - [Adrian](https://github.com/secureagentics/Adrian): Open-source runtime AI agent security tool that monitors and controls AI agents in real time, catching malicious tool use, prompt injection, and policy drift before the agent acts.
 - [Sage](https://github.com/gendigitalinc/sage): Lightweight Agent Detection & Response layer that guards AI-agent commands, files, and web requests.
-- [Doberman](https://github.com/fu351/Doberman-Core): Runtime guardrails and adaptive authorization for AI coding agents, with MCP or host-hook enforcement, approvals, audit logs, and fail-closed policy decisions.
+- [Doberman](https://github.com/DobermanCore/Doberman-Core): Runtime guardrails and adaptive authorization for AI coding agents, with MCP or host-hook enforcement, approvals, audit logs, and fail-closed policy decisions.
 - [Agent3σ-Canary](https://github.com/antgroup/Agent3Sigma-Canary): Sandboxed framework for evaluating AI agent security in realistic tool-using workflows, with trajectory-based scoring across safety, awareness, and task utility.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo): Dynamic environment for evaluating attacks and defenses against LLM agents in realistic tool-use workflows.
 - [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit): Toolkit for policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents.
@@ -833,7 +837,7 @@ A curated technology stack and toolchain for platform engineering.
 ### Artifact Management
 
 - [Harbor](https://github.com/goharbor/harbor): Enterprise-grade container registry with security scanning and access control.
-- [Skopeo](https://github.com/containers/skopeo): Open-source tool for inspecting, copying, and signing container images.
+- [Skopeo](https://github.com/podman-container-tools/skopeo): Open-source tool for inspecting, copying, and signing container images.
 - [Nexus Repository](https://github.com/sonatype/nexus-public): Universal artifact repository supporting Maven, npm, Docker, and more.
 - [ORAS](https://github.com/oras-project/oras): Tool for storing arbitrary content as OCI artifacts.
 
@@ -867,11 +871,11 @@ A curated technology stack and toolchain for platform engineering.
 - [Continue](https://github.com/continuedev/continue): Open-source AI code assistant that integrates with IDEs as an autopilot for software development with customizable context and models.
 - [Tabby](https://github.com/TabbyML/tabby): Self-hosted AI coding assistant with code completion, chat, and agent capabilities that can run fully on-premises.
 - [Cline](https://github.com/cline/cline): Autonomous coding agent available as an SDK, IDE extension, and CLI assistant for AI-driven development workflows.
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands): AI-driven development platform for automated coding, code review, and software engineering tasks with agent-based workflows.
+- [OpenHands](https://github.com/OpenHands/OpenHands): AI-driven development platform for automated coding, code review, and software engineering tasks with agent-based workflows.
 - [SWE-agent](https://github.com/SWE-agent/SWE-agent): LLM-powered agent that automatically resolves GitHub issues and fixes bugs with iterative, tool-using workflows.
 - [GPT-Pilot](https://github.com/Pythagora-io/gpt-pilot): AI developer that builds production-ready applications from natural language specifications with human-in-the-loop guidance.
 - [OpenAI Codex CLI](https://github.com/openai/codex): Lightweight coding agent that runs in the terminal, providing AI-powered code editing and task automation from the command line.
-- [Void](https://github.com/voideditor/void): Open-source AI code editor with intelligent code completion, editing, and agentic coding workflows in a modern editor environment.
+- [Void](https://github.com/voideditor/void): Open-source AI code editor with intelligent code completion, editing, and agentic coding workflows in a modern editor environment. (Archived upstream.)
 - [Goose](https://github.com/aaif-goose/goose): Open-source extensible AI agent that installs, executes, edits, and tests code with any LLM, going beyond code suggestions into full task execution.
 - [Qwen Code](https://github.com/QwenLM/qwen-code): Open-source AI coding agent that runs in the terminal with multi-file editing, task planning, and MCP server integration.
 - [Open SWE](https://github.com/langchain-ai/open-swe): Open-source asynchronous coding agent from LangChain for automated software engineering with parallel task execution.
@@ -902,7 +906,7 @@ A curated technology stack and toolchain for platform engineering.
 - [OpenReview](https://github.com/vercel-labs/openreview): Open-source, self-hosted AI code review bot that runs automated pull request reviews with Vercel-powered deployment.
 - [Dependency Track](https://dependencytrack.org/): Open-source software component analysis platform for supply-chain risk, SBOM analysis, and license checks.
 - [OpenRewrite](https://docs.openrewrite.org): Automated large-scale code refactoring and modernization tool.
-- [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization.
+- [Hyades](https://github.com/DependencyTrack/hyades): Next-generation software supply-chain security platform intended to replace Dependency-Track after stabilization. (Archived upstream.)
 
 ### Event Mesh
 
@@ -926,7 +930,7 @@ Infrastructure as Code manages and provisions infrastructure through code instea
 - [sops](https://github.com/getsops/sops): Editor for encrypted YAML, JSON, ENV, INI, and binary files using AWS KMS, GCP KMS, Azure Key Vault, age, or PGP.
 - [Crossplane](https://github.com/crossplane/crossplane): Kubernetes add-on that lets platform teams compose infrastructure from multiple vendors and expose higher-level self-service APIs.
 - [Terragrunt](https://github.com/gruntwork-io/terragrunt): Terraform wrapper for DRY configuration and remote state management.
-- [bitnami/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets): Declarative Kubernetes secret management by encrypting secrets for safe storage in Git and decrypting them in-cluster.
+- [bitnami/sealed-secrets](https://github.com/bitnami/sealed-secrets): Declarative Kubernetes secret management by encrypting secrets for safe storage in Git and decrypting them in-cluster.
 - [Checkov](https://github.com/bridgecrewio/checkov): Static analysis tool for Infrastructure as Code security and compliance.
 - [helmfile](https://github.com/helmfile): Declarative tool for orchestrating and deploying Helm charts.
 - [Atlantis](https://github.com/runatlantis/atlantis): Pull request automation for Terraform workflows, plans, applies, and collaborative infrastructure reviews.
