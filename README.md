@@ -283,6 +283,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [KubeTorch](https://github.com/run-house/kubetorch): Python-native Kubernetes control layer for distributing and running AI workloads across cluster resources.
 - [ModelPlane](https://github.com/modelplaneai/modelplane): Open-source control plane for deploying, routing, and operating AI inference workloads.
 - [Polyaxon](https://github.com/polyaxon/polyaxon): Open-source AI infrastructure and orchestration platform for managing reproducible ML and LLM workloads across development and production.
+- [MLRun](https://github.com/mlrun/mlrun): Apache-2.0 MLOps platform that turns code into serverless functions and pipelines, adding a feature store, model serving, and production monitoring on Kubernetes.
 - [Triton Inference Server](https://github.com/triton-inference-server/server): Optimized inference server for deploying AI models across GPUs, CPUs, and cloud or edge environments.
 - [KServe](https://github.com/kserve/kserve): Kubernetes-native platform for standardized, scalable generative and predictive AI inference serving.
 - [Seldon Core](https://github.com/seldonio/seldon-core): MLOps framework for packaging, deploying, monitoring, and managing thousands of production ML models on Kubernetes.
@@ -307,7 +308,9 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator): Kubernetes operator for automating NVIDIA GPU driver installation, configuration, and lifecycle management.
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit): Build and run GPU-accelerated containers with NVIDIA CUDA support in Docker and Kubernetes environments.
 - [Volcano](https://github.com/volcano-sh/volcano): CNCF batch scheduling system for AI/ML, big data, and HPC workloads with gang scheduling, queue management, and fair-share policies.
+- [KAI Scheduler](https://github.com/kai-scheduler/KAI-Scheduler): Apache-2.0 Kubernetes-native scheduler for AI workloads that combines gang scheduling, queue quotas, fair-share policies, and dynamic GPU sharing so training and inference jobs can co-exist on the same cluster.
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer): Kubernetes-native operator for distributed AI/ML model training and LLM fine-tuning with PyTorch, JAX, and MPI support.
+- [Kubeflow Pipelines](https://github.com/kubeflow/pipelines): Kubernetes-native MLOps pipeline platform for authoring, scheduling, and tracking reproducible ML and LLM workflows with per-step artifacts and lineage.
 - [OpenLLM](https://github.com/bentoml/OpenLLM): Run any open-source LLM as an OpenAI-compatible API endpoint with built-in chat UI, model catalog, and cloud deployment workflows.
 - [Oumi](https://github.com/oumi-ai/oumi): Open-source platform for fine-tuning, evaluating, and deploying any open-source LLM or VLM with production-ready training and deployment workflows.
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM): NVIDIA's official LLM inference optimization framework with state-of-the-art GPU optimizations and efficient runtime orchestration for production deployments.
@@ -520,6 +523,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
 - [Flowise](https://github.com/FlowiseAI/Flowise): Low-code LLM workflow orchestration tool for visually building AI application chains. (Archived upstream.)
+- [Promptflow](https://github.com/microsoft/promptflow): Microsoft's MIT-licensed toolkit for building LLM flows from prototype to production deployment, with tracing, evaluation, and flow-as-code tooling that fits existing CI pipelines.
 - [crewAI](https://github.com/crewAIInc/crewAI): Framework for collaborative AI agents with role definition and task orchestration.
 - [LlamaIndex](https://github.com/run-llama/llama_index): Data framework for LLM applications, supporting structured data retrieval and augmentation.
 - [Haystack](https://github.com/deepset-ai/haystack): Extensible framework for question answering and custom AI workflow development.
@@ -854,6 +858,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Flux](https://fluxcd.io/): Popular Kubernetes GitOps toolkit.
 - [PipeCD](https://github.com/pipe-cd/pipecd): CNCF continuous delivery platform for applications, infrastructure, and platform operations across multiple deployment targets.
 - [Dagger](https://github.com/dagger/dagger): Open-source automation engine for building, testing, and shipping code in CI/CD pipelines with programmable, containerized workflows.
+- [Windmill](https://github.com/windmill-labs/windmill): Self-hostable developer platform that turns scripts into workflows, scheduled jobs, and internal UIs behind one API, worker pool, and permission model.
 
 ### Code Search and Understanding
 

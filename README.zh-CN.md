@@ -283,6 +283,7 @@
 - [KubeTorch](https://github.com/run-house/kubetorch)：面向 Python 的 Kubernetes 控制层，用于在集群资源上分发和运行 AI 工作负载。
 - [ModelPlane](https://github.com/modelplaneai/modelplane)：开源 AI 推理控制平面，用于部署、路由和运维推理工作负载。
 - [Polyaxon](https://github.com/polyaxon/polyaxon)：开源 AI 基础设施与编排平台，用于在开发和生产环境管理可复现的 ML 与 LLM 工作负载。
+- [MLRun](https://github.com/mlrun/mlrun)：Apache-2.0 的 MLOps 平台，将代码转化为无服务器函数与流水线，并在 Kubernetes 上提供特征存储、模型服务和生产监控。
 - [Triton Inference Server](https://github.com/triton-inference-server/server)：优化的推理服务器，用于在 GPU、CPU、云端和边缘环境部署 AI 模型。
 - [KServe](https://github.com/kserve/kserve)：Kubernetes 原生平台，用于标准化、可扩展地服务生成式和预测式 AI 推理。
 - [Seldon Core](https://github.com/seldonio/seldon-core)：MLOps 框架，用于在 Kubernetes 上打包、部署、监控和管理大规模生产机器学习模型。
@@ -307,7 +308,9 @@
 - [NVIDIA GPU Operator](https://github.com/NVIDIA/gpu-operator)：Kubernetes Operator，用于自动化 NVIDIA GPU 驱动安装、配置和生命周期管理。
 - [NVIDIA Container Toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)：在 Docker 和 Kubernetes 环境中构建和运行支持 NVIDIA CUDA 的 GPU 加速容器。
 - [Volcano](https://github.com/volcano-sh/volcano)：CNCF 批调度系统，用于 AI/ML、大数据和 HPC 工作负载，支持 Gang 调度、队列管理和公平份额策略。
+- [KAI Scheduler](https://github.com/kai-scheduler/KAI-Scheduler)：Apache-2.0 的 Kubernetes 原生 AI 工作负载调度器，结合 Gang 调度、队列配额、公平份额策略和 GPU 动态共享，让训练与推理任务共存于同一集群。
 - [Kubeflow Trainer](https://github.com/kubeflow/trainer)：Kubernetes 原生 Operator，用于分布式 AI/ML 模型训练和 LLM 微调，支持 PyTorch、JAX 和 MPI。
+- [Kubeflow Pipelines](https://github.com/kubeflow/pipelines)：Kubernetes 原生 MLOps 流水线平台，用于编排、调度和追踪可复现的 ML 与 LLM 工作流，并保留每步产物与血缘信息。
 - [OpenLLM](https://github.com/bentoml/OpenLLM)：将任意开源 LLM 以 OpenAI 兼容 API 运行，内置聊天 UI、模型目录和云端部署工作流。
 - [Oumi](https://github.com/oumi-ai/oumi)：开源 LLM/VLM 微调、评估和部署平台，支持生产就绪的训练与上线工作流。
 - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)：NVIDIA 官方 LLM 推理优化框架，提供先进的 GPU 优化和高效的运行时编排能力，适用于生产环境部署。
@@ -520,6 +523,7 @@
 - [Dify](https://github.com/langgenius/dify)：开源 LLM 应用开发平台，支持可视化 Agent 工作流和 AI 应用部署。
 - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持 Agent 工作流编排。
 - [Flowise](https://github.com/FlowiseAI/Flowise)：低代码 LLM 工作流编排工具，支持可视化构建 AI 应用链。（上游已归档。）
+- [Promptflow](https://github.com/microsoft/promptflow)：微软 MIT 许可的 LLM 流程开发工具包，覆盖从原型到生产部署的完整链路，提供追踪、评估和流程即代码能力，可接入现有 CI 流水线。
 - [crewAI](https://github.com/crewAIInc/crewAI)：面向协作式 AI Agent 的框架，支持角色定义和任务编排。
 - [LlamaIndex](https://github.com/run-llama/llama_index)：LLM 数据框架，支持结构化数据检索和增强。
 - [Haystack](https://github.com/deepset-ai/haystack)：可扩展的问答系统框架，支持自定义 AI 工作流构建。
@@ -854,6 +858,7 @@
 - [Flux](https://fluxcd.io/)：流行的 Kubernetes GitOps 工具包。
 - [PipeCD](https://github.com/pipe-cd/pipecd)：CNCF 持续交付平台，支持跨多种部署目标管理应用、基础设施和平台运维。
 - [Dagger](https://github.com/dagger/dagger)：开源自动化引擎，用于在 CI/CD 流水线中构建、测试和交付代码，支持可编程的容器化工作流。
+- [Windmill](https://github.com/windmill-labs/windmill)：可自托管的开发者平台，将脚本转化为工作流、定时任务和内部 UI，统一由单一 API、worker 池和权限模型驱动。
 
 ### Code Search and Understanding 代码搜索与理解
 
