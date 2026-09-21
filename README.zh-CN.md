@@ -321,6 +321,10 @@
 - [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory)：统一 LLM 微调框架，支持 100+ 模型和 50+ 方法，涵盖 LoRA、QLoRA 和全参数训练，提供 Web UI 工作流。
 - [Unsloth](https://github.com/unslothai/unsloth)：开源 LLM 微调加速库，可将微调速度提升 2-5 倍并显著降低内存占用，支持主流模型架构与训练工作流。
 - [HAMi](https://github.com/Project-HAMi/HAMi)：异构 GPU 共享中间件，支持 Kubernetes 上的 GPU 显存隔离、设备复用和多租户调度。
+- [Tensor Fusion](https://github.com/NexusGPU/tensor-fusion)：面向 Kubernetes 的 GPU 虚拟化与池化层，把加速卡切分后共享给多个工作负载，避免训练和推理任务长期独占整卡。
+- [MatrixHub](https://github.com/matrixhub-ai/matrixhub)：自托管、兼容 Hugging Face 的企业级模型仓库，支持一次拉取全局缓存、离线交付、Tag 锁定和多地域同步，加速 vLLM、SGLang 集群部署。
+- [AISIX](https://github.com/api7/aisix)：Rust 编写的 AI 网关，用一套 OpenAI 兼容 API 统一接入 OpenAI、Anthropic、Gemini、Bedrock 等模型，内置路由、护栏、缓存、限流与可观测性。
+- [AIHelms](https://github.com/beizhu-1209/AIHelms)：企业级 AI 资源纳管平台，集统一 AI 网关、Token 配额调度、MCP 工具与 Skill 注册分发、成本归因和安全审计报表于一体。
 - [Llama Deploy](https://github.com/run-llama/llama_deploy)：面向 LlamaIndex Agent 工作流的生产部署框架，支持异步任务编排和服务管理。
 - [Semantic Router](https://github.com/vllm-project/semantic-router)：系统级智能混合模型运行时，支持动态模型选择和跨边缘、数据中心及云环境的智能路由。
 - [FastChat](https://github.com/lm-sys/FastChat)：用于训练、部署和评估 LLM 的开放平台。Vicuna 和 Chatbot Arena 的发布仓库。
@@ -519,6 +523,7 @@
 - [Atmosphere](https://github.com/Atmosphere/atmosphere)：面向 JVM 的可移植 Agent 运行时，通过统一接口整合模型提供商和 Agent 框架，并支持流式输出、工具调用、人工审批、治理以及 MCP/A2A。
 - [Google AX](https://github.com/google/ax)：开源分布式 Agent 运行时，用于在可扩展的执行环境中协调 Agent 应用。
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime)：面向生产的 Agent 应用运行时，提供安全工具沙箱、Agent-as-a-Service API、可扩展部署和全栈可观测性。
+- [Nuwax](https://github.com/nuwax-ai/nuwax)：可自托管的 Agent 运营平台，用于构建和运行私有化 Agent，覆盖 Agent 创建分发、知识库管理、模型代理、记忆系统与插件生态。
 - [Langflow](https://github.com/langflow-ai/langflow)：LangChain 风格的图形化构建器，支持拖拽式构建 LLM 工作流。
 - [Dify](https://github.com/langgenius/dify)：开源 LLM 应用开发平台，支持可视化 Agent 工作流和 AI 应用部署。
 - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 驱动应用的开发框架，支持 Agent 工作流编排。
@@ -628,6 +633,7 @@
 - [Grafana Tempo](https://github.com/grafana/tempo)：面向大规模链路数据的分布式追踪后端，以较低索引开销存储高容量 trace。
 - [Perses](https://github.com/perses/perses)：CNCF 可观测性可视化项目，用于基于 Prometheus、Tempo、Loki 等数据源构建仪表盘。
 - [Grafana Loki](https://github.com/grafana/loki)：面向标签索引设计的日志聚合系统，可与 Grafana 深度集成。
+- [Fluent Bit](https://github.com/fluent/fluent-bit)：轻量级日志、指标与链路数据处理和转发器，适用于 Linux、容器和边缘节点，常作为 Kubernetes 集群的节点级遥测采集代理。
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector)：厂商中立的遥测数据采集器，支持接收、处理和导出指标、日志与链路数据。
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib)：OpenTelemetry Collector 的社区发行版，提供面向生产系统的遥测采集、处理和导出组件。
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions)：标准化遥测属性与命名约定，让不同工具和领域中的链路、指标与日志保持一致。
@@ -837,6 +843,8 @@
 
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch)：轻量级 API 开发工具套件，支持 REST、GraphQL 和 WebSocket。
 - [Bruno](https://github.com/usebruno/bruno)：快速且 Git 友好的开源 API 客户端，支持管理 API 集合并通过桌面端或 CLI 执行调用。
+- [Tyk](https://github.com/TykTechnologies/tyk)：开源 API 与 AI 网关，覆盖 REST、GraphQL、gRPC、TCP 与 MCP 流量，提供配额、分析和插件流水线能力。
+- [KrakenD CE](https://github.com/krakend/krakend-ce)：Go 编写的高性能、无状态、声明式 API 网关，在没有运行时状态存储的情况下组合与治理后端服务。
 
 ### Artifact 制品管理
 

@@ -321,6 +321,10 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [LLaMA-Factory](https://github.com/hiyouga/LlamaFactory): Unified framework for LLM fine-tuning with 100+ models and 50+ methods, supporting LoRA, QLoRA, and full-parameter training with web UI workflows.
 - [Unsloth](https://github.com/unslothai/unsloth): Open-source library for 2-5x faster LLM fine-tuning with significant memory reduction, supporting major model architectures and training workflows.
 - [HAMi](https://github.com/Project-HAMi/HAMi): Heterogeneous GPU sharing middleware for Kubernetes with device memory isolation and multi-tenant scheduling.
+- [Tensor Fusion](https://github.com/NexusGPU/tensor-fusion): GPU virtualization and pooling layer for Kubernetes that slices and shares accelerators across workloads so training and inference jobs stop reserving whole cards.
+- [MatrixHub](https://github.com/matrixhub-ai/matrixhub): Self-hosted, Hugging Face-compatible model registry for enterprise inference with pull-once caching, air-gapped delivery, tag locking, and multi-region sync for vLLM and SGLang clusters.
+- [AISIX](https://github.com/api7/aisix): Rust-native AI gateway that puts one OpenAI-compatible API in front of OpenAI, Anthropic, Gemini, and Bedrock with routing, guardrails, caching, rate limits, and observability.
+- [AIHelms](https://github.com/beizhu-1209/AIHelms): Enterprise AI resource governance platform combining a unified AI gateway, token quota scheduling, MCP tool and skill registry, cost attribution, and audit reporting.
 - [Llama Deploy](https://github.com/run-llama/llama_deploy): Production deployment framework for LlamaIndex agentic workflows with asynchronous task orchestration and service management.
 - [Semantic Router](https://github.com/vllm-project/semantic-router): System-level intelligent runtime for Mixture-of-Models, enabling dynamic model selection and intelligent routing across edge, data center, and cloud environments.
 - [FastChat](https://github.com/lm-sys/FastChat): Open platform for training, serving, and evaluating LLMs. Release repo for Vicuna and Chatbot Arena.
@@ -519,6 +523,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Atmosphere](https://github.com/Atmosphere/atmosphere): Portable JVM agent runtime that unifies model providers and agent frameworks with streaming, tool calls, human approvals, governance, and MCP or A2A support.
 - [Google AX](https://github.com/google/ax): Open-source distributed agent runtime for coordinating agent applications across scalable execution environments.
 - [AgentScope Runtime](https://github.com/agentscope-ai/agentscope-runtime): Production-oriented runtime for agent applications with secure tool sandboxing, Agent-as-a-Service APIs, scalable deployment, and full-stack observability.
+- [Nuwax](https://github.com/nuwax-ai/nuwax): Self-hostable agent operating platform for building and running private agents, covering agent creation and distribution, knowledge base management, model proxying, memory, and a plugin ecosystem.
 - [Langflow](https://github.com/langflow-ai/langflow): Graphical builder for LangChain-style LLM workflows.
 - [Dify](https://github.com/langgenius/dify): Open-source LLM application development platform with visual agent workflows and AI app deployment.
 - [LangChain](https://github.com/langchain-ai/langchain): Framework for building LLM-powered applications, including agent workflow orchestration.
@@ -628,6 +633,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Grafana Tempo](https://github.com/grafana/tempo): Distributed tracing backend for high-volume trace storage with minimal indexing overhead.
 - [Perses](https://github.com/perses/perses): CNCF observability visualization project for building dashboards across Prometheus, Tempo, Loki, and related data sources.
 - [Grafana Loki](https://github.com/grafana/loki): Log aggregation system designed to index labels efficiently and integrate with Grafana.
+- [Fluent Bit](https://github.com/fluent/fluent-bit): Lightweight logs, metrics, and traces processor and forwarder for Linux, containers, and edge nodes, commonly deployed as the node-level telemetry agent in Kubernetes clusters.
 - [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector): Vendor-neutral collector for receiving, processing, and exporting telemetry data.
 - [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib): Community distribution of OpenTelemetry Collector components for collecting, processing, and exporting telemetry across production systems.
 - [OpenTelemetry Semantic Conventions](https://github.com/open-telemetry/semantic-conventions): Standardized telemetry attributes and naming conventions that make traces, metrics, and logs consistent across tools and domains.
@@ -837,6 +843,8 @@ A curated technology stack and toolchain for platform engineering.
 
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch): Lightweight API development suite for REST, GraphQL, and WebSocket.
 - [Bruno](https://github.com/usebruno/bruno): Fast, Git-friendly open-source API client for managing API collections and running API calls via desktop app or CLI.
+- [Tyk](https://github.com/TykTechnologies/tyk): Open-source API and AI gateway covering REST, GraphQL, gRPC, TCP, and MCP traffic with quotas, analytics, and a plugin pipeline for platform teams.
+- [KrakenD CE](https://github.com/krakend/krakend-ce): High-performance, stateless, declarative API gateway in Go that composes and governs backend services without a runtime state store.
 
 ### Artifact Management
 
