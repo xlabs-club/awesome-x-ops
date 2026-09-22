@@ -358,6 +358,9 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [RamaLama](https://github.com/containers/ramalama): Container-native tool that pulls, quantizes, and serves AI models from OCI registries, so teams can run local or self-hosted inference with standard container workflows.
 - [LightLLM](https://github.com/ModelTC/LightLLM): Python inference and serving framework for LLMs with token-level memory management, built for high-throughput and low-latency online serving.
 - [FastDeploy](https://github.com/PaddlePaddle/FastDeploy): High-performance inference and deployment toolkit for LLMs and VLMs in the PaddlePaddle ecosystem, with multi-hardware and multi-backend support.
+- [vLLM Ascend](https://github.com/vllm-project/vllm-ascend): Community-maintained hardware plugin that runs the vLLM serving stack on Huawei Ascend NPUs, so Ascend clusters keep the same OpenAI-compatible API, quantization options, and rollout path used for GPU fleets.
+- [Chitu](https://github.com/thu-pacman/chitu): High-performance LLM inference framework with native support for Huawei Ascend, NVIDIA, MetaX, Moore Threads, and Hygon accelerators, including prefill-decode disaggregation and multi-node deployment launched from a single binary.
+- [GPTCache](https://github.com/zilliztech/GPTCache): Semantic cache library for LLM queries that stores prompt-response pairs in vector storage and serves semantically similar requests from cache, cutting API cost and latency on high-repetition traffic.
 
 ## AIOps
 
@@ -380,6 +383,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab): Holistic framework for designing, developing, and evaluating autonomous AIOps agents against reproducible operations scenarios.
 - [SREGym](https://github.com/SREGym/SREGym): Benchmark and experimentation framework for evaluating whether AI agents can diagnose and resolve production incidents in reproducible SRE environments.
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
+- [OpenOcta](https://github.com/openocta/openocta): Desktop IT ops agent for Windows and macOS that wires monitoring, logs, cloud platforms, databases, and scripts into an auto-inspection, alert-analysis, and remediation loop driven by natural language.
 
 ## AI Infrastructure
 
@@ -602,6 +606,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [DVC](https://github.com/treeverse/dvc): Open-source data version control and ML experiment management for tracking datasets, models, and pipelines.
 - [lakeFS](https://github.com/treeverse/lakeFS): Git-like version control for data lakes that adds branching, commits, and rollback semantics to S3 and object-store data used by ML, analytics, and RAG pipelines.
 - [Apache Gravitino](https://github.com/apache/gravitino): Apache metadata lake that federates catalogs across engines and clouds, providing unified metadata and access control for AI and analytics workloads on Iceberg, Hive, and object storage.
+- [Dagu](https://github.com/dagucloud/dagu): Self-hostable workflow orchestrator shipped as a single binary with no database requirement, scheduling scripts, SSH commands, and containers from declarative YAML as a lighter alternative to Airflow or cron.
+- [Maestro](https://github.com/Netflix/maestro): Netflix's general-purpose workflow orchestrator, open sourced as a workflow-as-a-service scheduler that runs hundreds of thousands of data and ML workflows per day with retries and operational visibility at scale.
 
 ### Streaming Operations
 
@@ -996,6 +1002,7 @@ Tools for testing engineers and quality-focused platform teams.
 - [grafana/k6](https://github.com/grafana/k6): Modern load-testing tool using Go and JavaScript, also useful for API testing workflows.
 - [JMeter](https://github.com/apache/jmeter): Java-based performance testing tool supporting many protocols.
 - [Tracetest](https://github.com/kubeshop/tracetest): OpenTelemetry-based trace testing tool for validating distributed workflows and observability instrumentation.
+- [Artillery](https://github.com/artilleryio/artillery): Load and performance testing platform for HTTP APIs, GraphQL, WebSocket, and Playwright browser flows, with distributed and serverless execution for production-scale load tests.
 
 ## License
 

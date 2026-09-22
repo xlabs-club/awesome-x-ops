@@ -358,6 +358,9 @@
 - [RamaLama](https://github.com/containers/ramalama)：容器原生的模型运行工具，可从 OCI 镜像仓库拉取、量化并服务 AI 模型，用标准容器工作流完成本地或自托管推理。
 - [LightLLM](https://github.com/ModelTC/LightLLM)：Python 实现的 LLM 推理与服务框架，具备 Token 级内存管理，面向高吞吐、低延迟的在线服务。
 - [FastDeploy](https://github.com/PaddlePaddle/FastDeploy)：基于 PaddlePaddle 生态的高性能 LLM 与 VLM 推理部署工具包，支持多种硬件与后端。
+- [vLLM Ascend](https://github.com/vllm-project/vllm-ascend)：由社区维护的 vLLM 硬件插件，让 vLLM 服务栈运行在华为昇腾 NPU 上，使昇腾集群沿用与 GPU 集群一致的 OpenAI 兼容接口、量化选项与上线流程。
+- [Chitu](https://github.com/thu-pacman/chitu)：高性能大模型推理框架，原生支持华为昇腾、英伟达、沐曦、摩尔线程与海光等加速卡，支持 PD 分离与多机多实例部署，可由单个可执行文件启动。
+- [GPTCache](https://github.com/zilliztech/GPTCache)：面向 LLM 查询的语义缓存库，将 prompt-response 存入向量存储，对语义相近的请求直接命中缓存，降低高频重复请求的 API 成本与延迟。
 
 ## AIOps 智能运维
 
@@ -380,6 +383,7 @@
 - [AIOpsLab](https://github.com/microsoft/AIOpsLab)：用于设计、开发和评估自主 AIOps Agent 的综合框架，支持在可复现场景中验证运维能力。
 - [SREGym](https://github.com/SREGym/SREGym)：用于评估 AI Agent 能否在可复现 SRE 环境中诊断并解决生产事故的基准测试与实验框架。
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
+- [OpenOcta](https://github.com/openocta/openocta)：面向 Windows 与 macOS 的桌面级 IT 运维 Agent，把监控、日志、云平台、数据库与脚本工具链串成巡检、告警分析与处置建议的闭环，以自然语言驱动。
 
 ## AI 基础设施
 
@@ -602,6 +606,8 @@
 - [DVC](https://github.com/treeverse/dvc)：开源数据版本控制与 ML 实验管理工具，用于跟踪数据集、模型与流水线。
 - [lakeFS](https://github.com/treeverse/lakeFS)：数据湖上的 Git 式版本控制，为 S3 与对象存储数据提供分支、提交与回滚语义，服务 ML、分析与 RAG 数据流水线。
 - [Apache Gravitino](https://github.com/apache/gravitino)：Apache 元数据湖，跨引擎、跨云联邦元数据目录，为运行在 Iceberg、Hive 与对象存储上的 AI 与数据分析负载提供统一元数据和访问控制。
+- [Dagu](https://github.com/dagucloud/dagu)：自托管工作流编排器，单二进制、无需数据库，用声明式 YAML 调度脚本、SSH 命令与容器，可作为 Airflow 或 cron 的轻量替代。
+- [Maestro](https://github.com/Netflix/maestro)：Netflix 开源的通用工作流编排器，以 workflow-as-a-service 方式调度，日均运行数十万数据与 ML 工作流，具备重试与大规模运维可视化能力。
 
 ### Streaming Operations 流式数据运维
 
@@ -996,6 +1002,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [grafana/k6](https://github.com/grafana/k6)：使用 Go 和 JavaScript 的现代负载测试工具，也适合 API 测试流程。
 - [JMeter](https://github.com/apache/jmeter)：Java 编写的性能测试工具，支持多种协议。
 - [Tracetest](https://github.com/kubeshop/tracetest)：基于 OpenTelemetry 的链路测试工具，用于验证分布式工作流和可观测性插桩。
+- [Artillery](https://github.com/artilleryio/artillery)：负载与性能测试平台，支持 HTTP API、GraphQL、WebSocket 与 Playwright 浏览器流程，可分布式与无服务器执行生产级压测。
 
 ## License 许可协议
 
