@@ -361,6 +361,8 @@
 - [vLLM Ascend](https://github.com/vllm-project/vllm-ascend)：由社区维护的 vLLM 硬件插件，让 vLLM 服务栈运行在华为昇腾 NPU 上，使昇腾集群沿用与 GPU 集群一致的 OpenAI 兼容接口、量化选项与上线流程。
 - [Chitu](https://github.com/thu-pacman/chitu)：高性能大模型推理框架，原生支持华为昇腾、英伟达、沐曦、摩尔线程与海光等加速卡，支持 PD 分离与多机多实例部署，可由单个可执行文件启动。
 - [GPTCache](https://github.com/zilliztech/GPTCache)：面向 LLM 查询的语义缓存库，将 prompt-response 存入向量存储，对语义相近的请求直接命中缓存，降低高频重复请求的 API 成本与延迟。
+- [Kubeflow Katib](https://github.com/kubeflow/katib)：Kubernetes 原生的 AutoML 系统，支持超参数调优和神经网络架构搜索，让模型调参成为可复现的集群作业，而不是在共享 GPU 机器上跑临时脚本。
+- [Kubeflow Hub Model Registry](https://github.com/kubeflow/hub)：在 MLOps 全生命周期中索引模型、版本与制品元数据的服务，为推理服务平台提供模型发布、对比与审计所需的目录。（上游为 Alpha 阶段。）
 
 ## AIOps 智能运维
 
@@ -518,6 +520,8 @@
 - [SurfSense](https://github.com/MODSetter/SurfSense)：开源 NotebookLM 替代方案，可通过自托管应用、API 或 MCP 服务研究实时 Web 来源。
 - [Vespa](https://github.com/vespa-engine/vespa)：生产级 AI 搜索与服务平台，将向量、词法和结构化检索与实时排序、推荐结合起来。
 - [Yuxi](https://github.com/xerrors/Yuxi)：可自托管的多租户知识智能体平台，整合 RAG、知识图谱、多 Agent 工作流、MCP/Skills、沙箱和访问控制。
+- [DeepSearcher](https://github.com/zilliztech/deep-searcher)：面向私有数据的深度研究引擎，将向量检索与推理结合生成可溯源答案，让内部文档集无需上传到托管研究服务即可被问答。
+- [ParadeDB](https://github.com/paradedb/paradedb)：基于 PostgreSQL 的搜索与分析引擎（AGPL-3.0），为现有 Postgres 增加 BM25 全文检索与向量检索能力，让 RAG 流水线不必在关系库之外再单独维护一套搜索集群。
 
 ## Agentic Workflow 智能体工作流
 
@@ -616,6 +620,7 @@
 - [Kafbat UI](https://github.com/kafbat/kafka-ui)：开源 Web UI，用于管理 Apache Kafka 集群、Topic、消费者、Schema 和 Kafka Connect。
 - [Apache SeaTunnel](https://github.com/apache/seatunnel)：分布式数据集成平台，支持高吞吐批处理和流式数据传输。
 - [RisingWave](https://github.com/risingwavelabs/risingwave)：流式数据库，通过物化视图持续摄取、转换并服务事件流，兼容 PostgreSQL 接口，面向实时 AI 与 Agent 工作负载。
+- [Strimzi Kafka Operator](https://github.com/strimzi/strimzi-kafka-operator)：在 Kubernetes 上部署、配置和升级 Apache Kafka 集群的 Operator，为遥测采集、用量计量和 RAG 刷新流水线提供事件传输底座。
 
 ## FinOps
 
@@ -682,6 +687,8 @@
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse)：实时列式 OLAP 数据库，是众多可观测性、LLM 遥测与 AI 分析技术栈的底层存储。
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch)：Apache-2.0 许可的分布式搜索与分析引擎，常作为可观测性链路中的日志/追踪存储、告警后端和安全审计检索层。
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)：自托管的可用性监控与状态页工具，支持 HTTP、TCP、DNS 与推送检查以及多渠道告警，适合跟踪外部依赖与接口的可用性 SLA。
+- [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator)：Kubernetes Operator，声明式部署并管理 OpenTelemetry Collector 集群与自动埋点，让 LLM 与 Agent 遥测管道具备可回滚的上线升级路径，而不是手工维护 Collector 配置。
+- [Logging Operator](https://github.com/kube-logging/logging-operator)：Kubernetes Operator，以声明式方式管理 Fluentd 和 Fluent Bit 日志管道，让 AI 与平台服务的日志采集也能像其他工作负载一样版本化、灰度与回滚。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -733,6 +740,7 @@
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator)：用于在 Kubernetes 上部署和管理 OpenClaw AI Agent 实例的 Operator，提供安全、可观测性和生命周期控制。
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image)：containerd 子项目，实现基于块设备的远程镜像格式（overlaybd），使容器与 Agent 沙箱无需下载并解包完整镜像即可按需启动。
+- [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator)：面向生产环境的 PostgreSQL Kubernetes Operator，提供高可用、连接池、备份与灾难恢复能力，覆盖 AI 与 Agent 平台依赖的关系型和扩展型数据存储。
 
 ## Security and Supply Chain 安全与供应链
 

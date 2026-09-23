@@ -361,6 +361,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [vLLM Ascend](https://github.com/vllm-project/vllm-ascend): Community-maintained hardware plugin that runs the vLLM serving stack on Huawei Ascend NPUs, so Ascend clusters keep the same OpenAI-compatible API, quantization options, and rollout path used for GPU fleets.
 - [Chitu](https://github.com/thu-pacman/chitu): High-performance LLM inference framework with native support for Huawei Ascend, NVIDIA, MetaX, Moore Threads, and Hygon accelerators, including prefill-decode disaggregation and multi-node deployment launched from a single binary.
 - [GPTCache](https://github.com/zilliztech/GPTCache): Semantic cache library for LLM queries that stores prompt-response pairs in vector storage and serves semantically similar requests from cache, cutting API cost and latency on high-repetition traffic.
+- [Kubeflow Katib](https://github.com/kubeflow/katib): Kubernetes-native AutoML system for hyperparameter tuning and neural architecture search, so model tuning runs as reproducible cluster jobs instead of ad-hoc scripts on a shared GPU box.
+- [Kubeflow Hub Model Registry](https://github.com/kubeflow/hub): Metadata service that indexes models, versions, and artifacts across the MLOps lifecycle, giving serving platforms a catalog to promote, compare, and audit model releases. (Alpha upstream.)
 
 ## AIOps
 
@@ -518,6 +520,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [SurfSense](https://github.com/MODSetter/SurfSense): Open-source NotebookLM alternative for researching live web sources through a self-hosted application, API, or MCP server.
 - [Vespa](https://github.com/vespa-engine/vespa): Production AI search and serving platform for combining vector, lexical, and structured retrieval with real-time ranking and recommendations.
 - [Yuxi](https://github.com/xerrors/Yuxi): Self-hosted, multi-tenant knowledge-agent platform combining RAG, knowledge graphs, multi-agent workflows, MCP/Skills, sandboxing, and access control.
+- [DeepSearcher](https://github.com/zilliztech/deep-searcher): Deep research engine for private data that combines vector retrieval with reasoning to produce cited answers, so internal document sets can be queried without shipping them to a hosted research service.
+- [ParadeDB](https://github.com/paradedb/paradedb): Postgres-based search and analytics engine (AGPL-3.0) that adds BM25 full-text and vector retrieval to an existing Postgres, letting RAG pipelines avoid operating a separate search cluster alongside their relational data.
 
 ## Agentic Workflow
 
@@ -616,6 +620,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Kafbat UI](https://github.com/kafbat/kafka-ui): Open-source web UI for managing Apache Kafka clusters, topics, consumers, schemas, and Kafka Connect.
 - [Apache SeaTunnel](https://github.com/apache/seatunnel): Distributed data integration platform for high-volume batch and streaming data movement.
 - [RisingWave](https://github.com/risingwavelabs/risingwave): Streaming database that continuously ingests, transforms, and serves event streams through materialized views with PostgreSQL compatibility, targeting real-time AI and agent workloads.
+- [Strimzi Kafka Operator](https://github.com/strimzi/strimzi-kafka-operator): Kubernetes operator for deploying, configuring, and upgrading Apache Kafka clusters, the event transport behind telemetry ingestion, usage metering, and RAG refresh pipelines.
 
 ## FinOps
 
@@ -682,6 +687,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [ClickHouse](https://github.com/ClickHouse/ClickHouse): Real-time columnar OLAP database that powers the storage layer of many observability, LLM telemetry, and AI analytics stacks.
 - [OpenSearch](https://github.com/opensearch-project/OpenSearch): Apache-2.0 distributed search and analytics engine used as a log and trace analytics store, alerting backend, and audit search layer for observability pipelines.
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma): Self-hosted uptime and status-page monitor with HTTP, TCP, DNS, and push checks plus multi-channel alerting, useful for tracking external dependency and endpoint availability SLA.
+- [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator): Kubernetes operator that deploys and manages OpenTelemetry Collector fleets and auto-instrumentation, giving LLM and agent telemetry pipelines a declarative rollout and upgrade path instead of hand-maintained collector configs.
+- [Logging Operator](https://github.com/kube-logging/logging-operator): Kubernetes operator that manages Fluentd and Fluent Bit log pipelines declaratively, so log collection for AI and platform services can be versioned, rolled out, and rolled back like any other workload.
 
 ## Kubernetes Operations
 
@@ -733,6 +740,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator): Kubernetes operator for deploying and managing OpenClaw AI agent instances with security, observability, and lifecycle controls.
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image): containerd sub-project implementing block-level remote images (overlaybd) so containers and agent sandboxes start on demand without downloading and unpacking the full image.
+- [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator): Kubernetes operator for production PostgreSQL with high availability, connection pooling, backups, and disaster recovery, covering the relational and extension-backed stores that AI and agent platforms depend on.
 
 ## Security and Supply Chain
 
