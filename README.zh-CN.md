@@ -363,6 +363,11 @@
 - [GPTCache](https://github.com/zilliztech/GPTCache)：面向 LLM 查询的语义缓存库，将 prompt-response 存入向量存储，对语义相近的请求直接命中缓存，降低高频重复请求的 API 成本与延迟。
 - [Kubeflow Katib](https://github.com/kubeflow/katib)：Kubernetes 原生的 AutoML 系统，支持超参数调优和神经网络架构搜索，让模型调参成为可复现的集群作业，而不是在共享 GPU 机器上跑临时脚本。
 - [Kubeflow Hub Model Registry](https://github.com/kubeflow/hub)：在 MLOps 全生命周期中索引模型、版本与制品元数据的服务，为推理服务平台提供模型发布、对比与审计所需的目录。（上游为 Alpha 阶段。）
+- [RTP-LLM](https://github.com/alibaba/rtp-llm)：阿里巴巴基础模型推理团队研发的大模型推理加速引擎，长期承载淘宝、天猫、菜鸟、高德等内部业务的 LLM 服务，支持 PD 分离与多硬件后端。
+- [xLLM](https://github.com/xLLM-AI/xllm)：面向 LLM、VLM、DiT 与推荐模型的高性能推理引擎，适配多种 AI 加速卡，已捐赠给开放原子开源基金会，并对新开源模型提供 day-0 支持。
+- [InfiniStore](https://github.com/bytedance/InfiniStore)：面向 LLM 推理集群的高性能 KV 存储，在 prefill 与 decode 节点之间完成 KV cache 传输与复用，通过 LMCache 集成 vLLM，也可作为独立的跨节点 KV cache 池使用。
+- [Truss](https://github.com/basetenlabs/truss)：把模型的推理逻辑、依赖与 GPU 配置打包成可复现容器的 CLI，同一份制品可在开发与生产环境中以 vLLM、SGLang、TensorRT-LLM 或原生 PyTorch 运行。
+- [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm)：兼容 OpenAI API 的推理优化代理，内置 chain-of-thought、mixture-of-agents、best-of-N 等 20 多种推理期技术，无需重训模型或改动应用代码即可提升推理准确率。
 
 ## AIOps 智能运维
 
@@ -481,6 +486,7 @@
 - [Containarium](https://github.com/FootprintAI/Containarium)：可自托管的 Agent 运行时，为每个 Agent 提供可通过 SSH 访问的独立环境，支持租户级网络隔离、eBPF 出站策略、GPU 直通，以及基于 Kubernetes 与 LXC 的 MCP 原生工具链。
 - [OpenLake](https://github.com/openlake-project/openlake)：面向 GPU 负载的 Rust 存储引擎，将 KV cache 与 checkpoint 卸载到持久化存储，提供百万级 IOPS 的随机读能力，用于降低推理成本、减少加速器空转。
 - [VectorChord](https://github.com/supervc-stack/VectorChord)：pgvecto.rs 的继任项目，PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
+- [Infinity](https://github.com/infiniflow/infinity)：InfiniFlow（RAGFlow）团队推出的 AI 原生数据库，统一支持稠密向量、稀疏向量、张量与全文检索，让 RAG 与搜索链路用一个检索引擎替代多个拼接的存储。
 
 ## LLM 知识库
 
@@ -921,6 +927,7 @@
 - [Coder](https://github.com/coder/coder)：自托管远程开发平台，可在任意基础设施上为开发者和 AI Agent 配置安全、预配置的工作空间。
 - [code-server](https://github.com/coder/code-server)：把 VS Code 跑在远程服务器上并通过浏览器访问，为开发者和 Agent 工作区提供免本地配置的自托管 IDE。
 - [DevPod](https://github.com/loft-sh/devpod)：开源、仅客户端的开发环境工具，可在任意云、Kubernetes 或本地机器上创建可复现、基础设施无关的工作空间。
+- [envd](https://github.com/tensorchord/envd)：用声明式 build.envd 文件构建容器化 AI/ML 开发环境的 CLI，让 CUDA、Python 与系统依赖的安装保持可复现，一条 `envd up` 取代需要人工维护的 Dockerfile。
 
 ### Code Service 代码服务
 
