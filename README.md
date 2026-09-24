@@ -363,6 +363,11 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [GPTCache](https://github.com/zilliztech/GPTCache): Semantic cache library for LLM queries that stores prompt-response pairs in vector storage and serves semantically similar requests from cache, cutting API cost and latency on high-repetition traffic.
 - [Kubeflow Katib](https://github.com/kubeflow/katib): Kubernetes-native AutoML system for hyperparameter tuning and neural architecture search, so model tuning runs as reproducible cluster jobs instead of ad-hoc scripts on a shared GPU box.
 - [Kubeflow Hub Model Registry](https://github.com/kubeflow/hub): Metadata service that indexes models, versions, and artifacts across the MLOps lifecycle, giving serving platforms a catalog to promote, compare, and audit model releases. (Alpha upstream.)
+- [RTP-LLM](https://github.com/alibaba/rtp-llm): LLM inference acceleration engine from Alibaba's Foundation Model Inference Team, serving Taobao, Tmall, Cainiao, Amap, and other internal business units, with prefill-decode separation and multi-hardware backends.
+- [xLLM](https://github.com/xLLM-AI/xllm): High-performance inference engine for LLM, VLM, DiT, and recommendation models across diverse AI accelerators, donated to the OpenAtom Foundation and shipping day-0 support for newly released open models.
+- [InfiniStore](https://github.com/bytedance/InfiniStore): High-performance KV store for LLM inference clusters that transfers and reuses KV cache between prefill and decode nodes, integrated with vLLM through LMCache and usable as a standalone cross-node cache pool.
+- [Truss](https://github.com/basetenlabs/truss): CLI that packages a model's serving logic, dependencies, and GPU configuration into a reproducible container, so the same artifact runs with vLLM, SGLang, TensorRT-LLM, or plain PyTorch in development and production.
+- [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm): OpenAI-compatible optimizing inference proxy that applies 20+ inference-time techniques such as chain-of-thought, mixture-of-agents, and best-of-N, so teams can raise reasoning accuracy without retraining or changing application code.
 
 ## AIOps
 
@@ -481,6 +486,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Containarium](https://github.com/FootprintAI/Containarium): Self-hosted agent runtime that gives each agent an SSH-reachable box with per-tenant network isolation, eBPF egress policy, GPU passthrough, and MCP-native tooling on Kubernetes and LXC.
 - [OpenLake](https://github.com/openlake-project/openlake): Rust storage engine for GPU workloads that offloads KV cache and checkpoints to durable storage with million-IOPS random reads, targeting lower inference cost and less accelerator idle time.
 - [VectorChord](https://github.com/supervc-stack/VectorChord): Scalable, disk-friendly vector search extension for PostgreSQL from the pgvecto.rs lineage, powering RAG and embedding retrieval directly inside Postgres.
+- [Infinity](https://github.com/infiniflow/infinity): AI-native database from the InfiniFlow (RAGFlow) team that unifies dense vector, sparse vector, tensor, and full-text search over structured and unstructured data, giving RAG and search pipelines one retrieval engine instead of several glued-together stores.
 
 ## LLM Knowledge
 
@@ -921,6 +927,7 @@ A curated technology stack and toolchain for platform engineering.
 - [Coder](https://github.com/coder/coder): Self-hosted remote development platform for provisioning secure, pre-configured workspaces for developers and AI agents on any infrastructure.
 - [code-server](https://github.com/coder/code-server): Run VS Code on a remote server and reach it from the browser, giving developers and agent workspaces a self-hosted IDE with no local setup.
 - [DevPod](https://github.com/loft-sh/devpod): Open-source, client-only development environment tool for creating reproducible, infrastructure-agnostic workspaces on any cloud, Kubernetes, or local machine.
+- [envd](https://github.com/tensorchord/envd): CLI that builds container-based AI/ML development environments from a declarative build.envd file, so CUDA, Python, and system dependency setup stays reproducible with one `envd up` instead of hand-maintained Dockerfiles.
 
 ### Code Service
 
