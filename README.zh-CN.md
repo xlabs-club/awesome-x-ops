@@ -528,6 +528,7 @@
 - [Yuxi](https://github.com/xerrors/Yuxi)：可自托管的多租户知识智能体平台，整合 RAG、知识图谱、多 Agent 工作流、MCP/Skills、沙箱和访问控制。
 - [DeepSearcher](https://github.com/zilliztech/deep-searcher)：面向私有数据的深度研究引擎，将向量检索与推理结合生成可溯源答案，让内部文档集无需上传到托管研究服务即可被问答。
 - [ParadeDB](https://github.com/paradedb/paradedb)：基于 PostgreSQL 的搜索与分析引擎（AGPL-3.0），为现有 Postgres 增加 BM25 全文检索与向量检索能力，让 RAG 流水线不必在关系库之外再单独维护一套搜索集群。
+- [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus)：开源流水线，把分散的 `SKILL.md` 文件整理成可直接检索的 Agent 技能语料库，涵盖来源聚合、安全与许可证门禁、质量评估和按任务匹配技能。
 
 ## Agentic Workflow 智能体工作流
 
@@ -591,6 +592,7 @@
 - [Omnara](https://github.com/omnara-ai/omnara)：自托管的托管式 Agent 平台，负责 Agent 的执行与状态管理，团队可通过 API、控制台或 Slack 连接器自行选择模型、工具与运行机器。
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)：开源的持久化执行（durable execution）平台，用于 AI Agent、后台任务与长时运行工作流，提供重试、队列、可观测性与自托管部署。
 - [Hive](https://github.com/aden-hive/hive)：面向生产负载的多 Agent harness，提供崩溃安全的状态恢复、成本管控、持久化任务计划与人工介入（human-in-the-loop）监督。
+- [HarnessRouter](https://github.com/HarnessRouter/harnessrouter)：自托管控制面，把 Codex、Claude Code 等现有 Agent Harness 变成即插即用的后端，用一个 API 统一处理会话、流式输出、取消和失败处理。
 
 ## DataOps
 
@@ -747,6 +749,7 @@
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator)：用于在 Kubernetes 上部署和管理 OpenClaw AI Agent 实例的 Operator，提供安全、可观测性和生命周期控制。
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image)：containerd 子项目，实现基于块设备的远程镜像格式（overlaybd），使容器与 Agent 沙箱无需下载并解包完整镜像即可按需启动。
 - [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator)：面向生产环境的 PostgreSQL Kubernetes Operator，提供高可用、连接池、备份与灾难恢复能力，覆盖 AI 与 Agent 平台依赖的关系型和扩展型数据存储。
+- [Cluster API](https://github.com/kubernetes-sigs/cluster-api)：CNCF 项目，用声明式方式管理集群生命周期，让平台团队沿用已有的 Kubernetes 调和（reconciliation）模式批量创建、升级和扩缩工作负载集群。
 
 ## Security and Supply Chain 安全与供应链
 

@@ -528,6 +528,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Yuxi](https://github.com/xerrors/Yuxi): Self-hosted, multi-tenant knowledge-agent platform combining RAG, knowledge graphs, multi-agent workflows, MCP/Skills, sandboxing, and access control.
 - [DeepSearcher](https://github.com/zilliztech/deep-searcher): Deep research engine for private data that combines vector retrieval with reasoning to produce cited answers, so internal document sets can be queried without shipping them to a hosted research service.
 - [ParadeDB](https://github.com/paradedb/paradedb): Postgres-based search and analytics engine (AGPL-3.0) that adds BM25 full-text and vector retrieval to an existing Postgres, letting RAG pipelines avoid operating a separate search cluster alongside their relational data.
+- [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus): Open-source pipeline that turns scattered `SKILL.md` files into a retrieval-ready agent skill corpus, covering source aggregation, safety and license gates, quality evaluation, and task-specific skill matching.
 
 ## Agentic Workflow
 
@@ -591,6 +592,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Omnara](https://github.com/omnara-ai/omnara): Self-hosted platform for running managed AI agents that handles execution and state while teams choose the models, tools, and machines through an API, dashboard, or Slack connector.
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev): Open-source durable execution platform for AI agents, background jobs, and long-running workflows, with retries, queues, observability, and self-hosting.
 - [Hive](https://github.com/aden-hive/hive): Multi-agent harness for production workloads with crash-safe state recovery, cost enforcement, persistent task plans, and human-in-the-loop oversight.
+- [HarnessRouter](https://github.com/HarnessRouter/harnessrouter): Self-hosted control plane that exposes existing agent harnesses such as Codex and Claude Code as plug-and-play backends behind one API, covering sessions, streaming, cancellation, and failure handling.
 
 ## DataOps
 
@@ -747,6 +749,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OpenClaw Operator](https://github.com/paperclipinc/openclaw-operator): Kubernetes operator for deploying and managing OpenClaw AI agent instances with security, observability, and lifecycle controls.
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image): containerd sub-project implementing block-level remote images (overlaybd) so containers and agent sandboxes start on demand without downloading and unpacking the full image.
 - [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator): Kubernetes operator for production PostgreSQL with high availability, connection pooling, backups, and disaster recovery, covering the relational and extension-backed stores that AI and agent platforms depend on.
+- [Cluster API](https://github.com/kubernetes-sigs/cluster-api): CNCF project for declarative cluster lifecycle management that lets platform teams provision, upgrade, and scale fleets of workload clusters with the same Kubernetes reconciliation patterns they already operate.
 
 ## Security and Supply Chain
 
