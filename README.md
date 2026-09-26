@@ -368,6 +368,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [InfiniStore](https://github.com/bytedance/InfiniStore): High-performance KV store for LLM inference clusters that transfers and reuses KV cache between prefill and decode nodes, integrated with vLLM through LMCache and usable as a standalone cross-node cache pool.
 - [Truss](https://github.com/basetenlabs/truss): CLI that packages a model's serving logic, dependencies, and GPU configuration into a reproducible container, so the same artifact runs with vLLM, SGLang, TensorRT-LLM, or plain PyTorch in development and production.
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm): OpenAI-compatible optimizing inference proxy that applies 20+ inference-time techniques such as chain-of-thought, mixture-of-agents, and best-of-N, so teams can raise reasoning accuracy without retraining or changing application code.
+- [kvcached](https://github.com/ovg-project/kvcached): KV cache daemon that brings OS-style virtual memory to LLM serving, decoupling GPU virtual addressing from physical allocation so shared GPUs scale accelerator cache elastically with live load across vLLM and SGLang.
 
 ## AIOps
 
@@ -391,6 +392,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [SREGym](https://github.com/SREGym/SREGym): Benchmark and experimentation framework for evaluating whether AI agents can diagnose and resolve production incidents in reproducible SRE environments.
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
 - [OpenOcta](https://github.com/openocta/openocta): Desktop IT ops agent for Windows and macOS that wires monitoring, logs, cloud platforms, databases, and scripts into an auto-inspection, alert-analysis, and remediation loop driven by natural language.
+- [OpenDerisk](https://github.com/derisk-ai/OpenDerisk): AI-native risk intelligence system for application operations that performs deep root-cause analysis over logs, traces, and code, and exposes a visualized evidence chain behind every diagnosis.
 
 ## AI Infrastructure
 
@@ -529,6 +531,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [DeepSearcher](https://github.com/zilliztech/deep-searcher): Deep research engine for private data that combines vector retrieval with reasoning to produce cited answers, so internal document sets can be queried without shipping them to a hosted research service.
 - [ParadeDB](https://github.com/paradedb/paradedb): Postgres-based search and analytics engine (AGPL-3.0) that adds BM25 full-text and vector retrieval to an existing Postgres, letting RAG pipelines avoid operating a separate search cluster alongside their relational data.
 - [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus): Open-source pipeline that turns scattered `SKILL.md` files into a retrieval-ready agent skill corpus, covering source aggregation, safety and license gates, quality evaluation, and task-specific skill matching.
+- [CocoIndex](https://github.com/cocoindex-io/cocoindex): Incremental indexing engine for AI data pipelines that reprocesses only changed deltas, keeping RAG stores and agent context continuously fresh from code, documents, Slack threads, and PDFs.
 
 ## Agentic Workflow
 
@@ -593,6 +596,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev): Open-source durable execution platform for AI agents, background jobs, and long-running workflows, with retries, queues, observability, and self-hosting.
 - [Hive](https://github.com/aden-hive/hive): Multi-agent harness for production workloads with crash-safe state recovery, cost enforcement, persistent task plans, and human-in-the-loop oversight.
 - [HarnessRouter](https://github.com/HarnessRouter/harnessrouter): Self-hosted control plane that exposes existing agent harnesses such as Codex and Claude Code as plug-and-play backends behind one API, covering sessions, streaming, cancellation, and failure handling.
+- [APM (Agent Package Manager)](https://github.com/microsoft/apm): Manifest-driven dependency manager for agent context that resolves skills, prompts, plugins, and instruction files from a single `apm.yml`, so any clone of a repository reproduces the same policy-governed agent setup.
+- [Bernstein](https://github.com/sipyourdrink-ltd/bernstein): Declarative governance and orchestration layer for AI agents that enforces written rules at runtime and emits a verifiable, replayable record of every run for audit and incident review.
 
 ## DataOps
 
@@ -642,6 +647,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw): Open-source LLM router and AI cost optimizer that routes simple prompts to cheap models and complex ones to premium, saving 40-70% on API costs with an OpenAI-compatible proxy.
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 - [Robusta KRR](https://github.com/robusta-dev/krr): Prometheus-based Kubernetes resource recommender that surfaces CPU and memory over-provisioning and can auto-apply rightsizing advice.
+- [OpenOps](https://github.com/openops-cloud/openops): No-code FinOps automation platform bundling prebuilt cost optimization, allocation, and anomaly workflows with human-in-the-loop approvals, its own tables, and analytics for cloud spend operations.
 
 ## Observability
 
