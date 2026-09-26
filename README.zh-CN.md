@@ -368,6 +368,7 @@
 - [InfiniStore](https://github.com/bytedance/InfiniStore)：面向 LLM 推理集群的高性能 KV 存储，在 prefill 与 decode 节点之间完成 KV cache 传输与复用，通过 LMCache 集成 vLLM，也可作为独立的跨节点 KV cache 池使用。
 - [Truss](https://github.com/basetenlabs/truss)：把模型的推理逻辑、依赖与 GPU 配置打包成可复现容器的 CLI，同一份制品可在开发与生产环境中以 vLLM、SGLang、TensorRT-LLM 或原生 PyTorch 运行。
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm)：兼容 OpenAI API 的推理优化代理，内置 chain-of-thought、mixture-of-agents、best-of-N 等 20 多种推理期技术，无需重训模型或改动应用代码即可提升推理准确率。
+- [kvcached](https://github.com/ovg-project/kvcached)：KV cache 守护进程，把类操作系统的虚拟内存抽象引入 LLM 推理，将 GPU 虚拟地址与物理显存分配解耦，使共享 GPU 能随实时负载弹性伸缩缓存，适配 vLLM 与 SGLang。
 
 ## AIOps 智能运维
 
@@ -391,6 +392,7 @@
 - [SREGym](https://github.com/SREGym/SREGym)：用于评估 AI Agent 能否在可复现 SRE 环境中诊断并解决生产事故的基准测试与实验框架。
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
 - [OpenOcta](https://github.com/openocta/openocta)：面向 Windows 与 macOS 的桌面级 IT 运维 Agent，把监控、日志、云平台、数据库与脚本工具链串成巡检、告警分析与处置建议的闭环，以自然语言驱动。
+- [OpenDerisk](https://github.com/derisk-ai/OpenDerisk)：面向应用系统的 AI 原生风险智能系统，基于日志、调用链与代码执行深度根因分析，并为每次诊断给出可视化证据链。
 
 ## AI 基础设施
 
@@ -529,6 +531,7 @@
 - [DeepSearcher](https://github.com/zilliztech/deep-searcher)：面向私有数据的深度研究引擎，将向量检索与推理结合生成可溯源答案，让内部文档集无需上传到托管研究服务即可被问答。
 - [ParadeDB](https://github.com/paradedb/paradedb)：基于 PostgreSQL 的搜索与分析引擎（AGPL-3.0），为现有 Postgres 增加 BM25 全文检索与向量检索能力，让 RAG 流水线不必在关系库之外再单独维护一套搜索集群。
 - [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus)：开源流水线，把分散的 `SKILL.md` 文件整理成可直接检索的 Agent 技能语料库，涵盖来源聚合、安全与许可证门禁、质量评估和按任务匹配技能。
+- [CocoIndex](https://github.com/cocoindex-io/cocoindex)：面向 AI 数据流水线的增量索引引擎，只重新处理发生变化的增量，让 RAG 存储与 Agent 上下文从代码、文档、Slack 讨论和 PDF 中持续保持新鲜。
 
 ## Agentic Workflow 智能体工作流
 
@@ -593,6 +596,8 @@
 - [Trigger.dev](https://github.com/triggerdotdev/trigger.dev)：开源的持久化执行（durable execution）平台，用于 AI Agent、后台任务与长时运行工作流，提供重试、队列、可观测性与自托管部署。
 - [Hive](https://github.com/aden-hive/hive)：面向生产负载的多 Agent harness，提供崩溃安全的状态恢复、成本管控、持久化任务计划与人工介入（human-in-the-loop）监督。
 - [HarnessRouter](https://github.com/HarnessRouter/harnessrouter)：自托管控制面，把 Codex、Claude Code 等现有 Agent Harness 变成即插即用的后端，用一个 API 统一处理会话、流式输出、取消和失败处理。
+- [APM (Agent Package Manager)](https://github.com/microsoft/apm)：基于清单的 Agent 上下文依赖管理器，用一份 `apm.yml` 解析 skills、prompt、插件和指令文件，让任何人克隆仓库后都能复现同一套受策略约束的 Agent 配置。
+- [Bernstein](https://github.com/sipyourdrink-ltd/bernstein)：面向 AI Agent 的声明式治理与编排层，在运行时强制执行既定规则，并为每次运行生成可验证、可回放的记录，便于审计与故障复盘。
 
 ## DataOps
 
@@ -642,6 +647,7 @@
 - [NadirClaw](https://github.com/NadirRouter/NadirClaw)：开源 LLM 路由器和 AI 成本优化工具，自动将简单请求路由至低成本模型、将复杂请求路由至高级模型，通过 OpenAI 兼容代理节省 40-70% 的 API 开销。
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
 - [Robusta KRR](https://github.com/robusta-dev/krr)：基于 Prometheus 的 Kubernetes 资源推荐工具，识别 CPU 与内存的过度分配，并支持自动应用规格调整建议。
+- [OpenOps](https://github.com/openops-cloud/openops)：无代码 FinOps 自动化平台，内置成本优化、分摊和异常处理工作流，支持人工审批，并自带表格与分析能力支撑云成本运营。
 
 ## Observability 可观测性
 
