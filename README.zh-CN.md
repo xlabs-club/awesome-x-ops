@@ -489,6 +489,7 @@
 - [OpenLake](https://github.com/openlake-project/openlake)：面向 GPU 负载的 Rust 存储引擎，将 KV cache 与 checkpoint 卸载到持久化存储，提供百万级 IOPS 的随机读能力，用于降低推理成本、减少加速器空转。
 - [VectorChord](https://github.com/supervc-stack/VectorChord)：pgvecto.rs 的继任项目，PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
 - [Infinity](https://github.com/infiniflow/infinity)：InfiniFlow（RAGFlow）团队推出的 AI 原生数据库，统一支持稠密向量、稀疏向量、张量与全文检索，让 RAG 与搜索链路用一个检索引擎替代多个拼接的存储。
+- [microsandbox](https://github.com/superradcompany/microsandbox)：Apache-2.0 的 microVM 运行时与库，把 AI Agent 代码、插件、CI 任务、抓取脚本等不可信负载放进快速启动的本地沙箱，按次隔离执行。
 
 ## LLM 知识库
 
@@ -532,6 +533,8 @@
 - [ParadeDB](https://github.com/paradedb/paradedb)：基于 PostgreSQL 的搜索与分析引擎（AGPL-3.0），为现有 Postgres 增加 BM25 全文检索与向量检索能力，让 RAG 流水线不必在关系库之外再单独维护一套搜索集群。
 - [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus)：开源流水线，把分散的 `SKILL.md` 文件整理成可直接检索的 Agent 技能语料库，涵盖来源聚合、安全与许可证门禁、质量评估和按任务匹配技能。
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex)：面向 AI 数据流水线的增量索引引擎，只重新处理发生变化的增量，让 RAG 存储与 Agent 上下文从代码、文档、Slack 讨论和 PDF 中持续保持新鲜。
+- [UltraRAG](https://github.com/OpenBMB/UltraRAG)：低代码 RAG 流水线框架，基于 MCP 把检索、生成、评测等环节声明为可复用组件，避免手工拼接脚本，并附带基准数据集用于衡量流水线改动的效果。
+- [Khoj](https://github.com/khoj-ai/khoj)：可自托管的知识助手（AGPL-3.0），把文档与网页来源索引成统一的可检索知识库，并在其上叠加自定义 Agent、定时研究任务以及本地或在线模型后端。
 
 ## Agentic Workflow 智能体工作流
 
@@ -598,6 +601,7 @@
 - [HarnessRouter](https://github.com/HarnessRouter/harnessrouter)：自托管控制面，把 Codex、Claude Code 等现有 Agent Harness 变成即插即用的后端，用一个 API 统一处理会话、流式输出、取消和失败处理。
 - [APM (Agent Package Manager)](https://github.com/microsoft/apm)：基于清单的 Agent 上下文依赖管理器，用一份 `apm.yml` 解析 skills、prompt、插件和指令文件，让任何人克隆仓库后都能复现同一套受策略约束的 Agent 配置。
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein)：面向 AI Agent 的声明式治理与编排层，在运行时强制执行既定规则，并为每次运行生成可验证、可回放的记录，便于审计与故障复盘。
+- [Sim](https://github.com/simstudioai/sim)：可自托管的协作式工作区，用于构建、部署和监控 AI Agent 与工作流，把可视化编排、部署与单次运行监控集中在一处，适合已走出本地原型阶段的团队。
 
 ## DataOps
 
@@ -648,6 +652,7 @@
 - [KubeStellar Console](https://github.com/kubestellar/console)：多集群 Kubernetes 控制台，提供 AI 辅助运维、实时可观测性和边缘/云集群管理能力。
 - [Robusta KRR](https://github.com/robusta-dev/krr)：基于 Prometheus 的 Kubernetes 资源推荐工具，识别 CPU 与内存的过度分配，并支持自动应用规格调整建议。
 - [OpenOps](https://github.com/openops-cloud/openops)：无代码 FinOps 自动化平台，内置成本优化、分摊和异常处理工作流，支持人工审批，并自带表格与分析能力支撑云成本运营。
+- [CloudQuery](https://github.com/cloudquery/cloudquery)：MPL-2.0 的云资产数据管道，从 70+ 云与 SaaS 来源抽取配置数据形成可查询的资产清单，用于构建 FinOps、CSPM 和漏洞管理流程。
 
 ## Observability 可观测性
 
@@ -863,6 +868,7 @@
 - [AIRT](https://github.com/0x4D31/airt)：免费开源的 AI 红队课程，包含动手 Docker 实验环境，覆盖 LLM 系统的对抗性测试和安全评估。
 - [Codex Security](https://github.com/openai/codex-security)：OpenAI 提供的 CLI 与 TypeScript SDK，用于声明安全策略并发现、验证和修复代码漏洞，支持通过 API Key 在 CI 中执行扫描。
 - [open-kritt](https://github.com/Kritt-ai/open-kritt)：可自托管的安全与漏洞研究平台，编排 AI Agent 产出已去重、按优先级排序的发现，并支持可配置的验证与信息补充。
+- [Model Transparency](https://github.com/sigstore/model-transparency)：基于 Sigstore 的模型签名 CLI、API 与签名格式，用于生成并验证模型完整性与来源的可验证声明，把软件供应链实践延伸到机器学习产物。
 
 ## Platform Engineering 平台工程
 

@@ -489,6 +489,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [OpenLake](https://github.com/openlake-project/openlake): Rust storage engine for GPU workloads that offloads KV cache and checkpoints to durable storage with million-IOPS random reads, targeting lower inference cost and less accelerator idle time.
 - [VectorChord](https://github.com/supervc-stack/VectorChord): Scalable, disk-friendly vector search extension for PostgreSQL from the pgvecto.rs lineage, powering RAG and embedding retrieval directly inside Postgres.
 - [Infinity](https://github.com/infiniflow/infinity): AI-native database from the InfiniFlow (RAGFlow) team that unifies dense vector, sparse vector, tensor, and full-text search over structured and unstructured data, giving RAG and search pipelines one retrieval engine instead of several glued-together stores.
+- [microsandbox](https://github.com/superradcompany/microsandbox): Apache-2.0 microVM runtime and library that runs untrusted workloads such as AI agent code, plugins, CI jobs, and scrapers in fast local sandboxes with per-run isolation.
 
 ## LLM Knowledge
 
@@ -532,6 +533,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [ParadeDB](https://github.com/paradedb/paradedb): Postgres-based search and analytics engine (AGPL-3.0) that adds BM25 full-text and vector retrieval to an existing Postgres, letting RAG pipelines avoid operating a separate search cluster alongside their relational data.
 - [SkillCorpus](https://github.com/EverMind-AI/SkillCorpus): Open-source pipeline that turns scattered `SKILL.md` files into a retrieval-ready agent skill corpus, covering source aggregation, safety and license gates, quality evaluation, and task-specific skill matching.
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex): Incremental indexing engine for AI data pipelines that reprocesses only changed deltas, keeping RAG stores and agent context continuously fresh from code, documents, Slack threads, and PDFs.
+- [UltraRAG](https://github.com/OpenBMB/UltraRAG): Low-code RAG pipeline framework that declares retrieval, generation, and evaluation stages as MCP-based components instead of hand-wired scripts, with a benchmark set for measuring pipeline changes.
+- [Khoj](https://github.com/khoj-ai/khoj): Self-hostable knowledge assistant (AGPL-3.0) that indexes documents and web sources into one searchable base, then layers custom agents, scheduled research automations, and local or hosted model backends on top.
 
 ## Agentic Workflow
 
@@ -598,6 +601,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [HarnessRouter](https://github.com/HarnessRouter/harnessrouter): Self-hosted control plane that exposes existing agent harnesses such as Codex and Claude Code as plug-and-play backends behind one API, covering sessions, streaming, cancellation, and failure handling.
 - [APM (Agent Package Manager)](https://github.com/microsoft/apm): Manifest-driven dependency manager for agent context that resolves skills, prompts, plugins, and instruction files from a single `apm.yml`, so any clone of a repository reproduces the same policy-governed agent setup.
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein): Declarative governance and orchestration layer for AI agents that enforces written rules at runtime and emits a verifiable, replayable record of every run for audit and incident review.
+- [Sim](https://github.com/simstudioai/sim): Self-hostable collaborative workspace for building, deploying, and monitoring AI agents and workflows, keeping the visual canvas, deployment, and per-run monitoring in one place for teams moving past local prototypes.
 
 ## DataOps
 
@@ -648,6 +652,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [KubeStellar Console](https://github.com/kubestellar/console): Multi-cluster Kubernetes dashboard with AI-powered operations, real-time observability, and CNCF project integrations across edge and cloud clusters.
 - [Robusta KRR](https://github.com/robusta-dev/krr): Prometheus-based Kubernetes resource recommender that surfaces CPU and memory over-provisioning and can auto-apply rightsizing advice.
 - [OpenOps](https://github.com/openops-cloud/openops): No-code FinOps automation platform bundling prebuilt cost optimization, allocation, and anomaly workflows with human-in-the-loop approvals, its own tables, and analytics for cloud spend operations.
+- [CloudQuery](https://github.com/cloudquery/cloudquery): MPL-2.0 data pipeline that extracts cloud configuration from 70+ cloud and SaaS sources into a queryable asset inventory, used to build FinOps, CSPM, and vulnerability management workflows.
 
 ## Observability
 
@@ -863,6 +868,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [AIRT](https://github.com/0x4D31/airt): Free, open-source AI red teaming course with hands-on Docker labs covering adversarial testing and security evaluation of LLM systems.
 - [Codex Security](https://github.com/openai/codex-security): OpenAI CLI and TypeScript SDK for declaring security policy and finding, validating, and fixing vulnerabilities in code, including CI scan workflows driven by an API key.
 - [open-kritt](https://github.com/Kritt-ai/open-kritt): Self-hosted security and vulnerability research platform that orchestrates AI agents into de-duplicated, ranked findings with configurable validation and enrichment.
+- [Model Transparency](https://github.com/sigstore/model-transparency): Sigstore-based model signing CLI, API, and signing format for producing and verifying claims about model integrity and provenance, extending software supply-chain practice to ML artifacts.
 
 ## Platform Engineering
 
