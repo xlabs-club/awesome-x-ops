@@ -442,6 +442,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Label Studio](https://github.com/HumanSignal/label-studio): Open-source data labeling platform for images, text, audio, video, and time series in ML and LLM training workflows.
 - [Argilla](https://github.com/argilla-io/argilla): Open-source collaboration platform for building, curating, and versioning high-quality datasets for LLM fine-tuning and evaluation.
 - [NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator): GPU-accelerated data curation toolkit for LLM pipelines, covering deduplication, quality filtering, and dataset preparation.
+- [FiftyOne](https://github.com/voxel51/fiftyone): Open-source dataset curation and quality platform for visual and multimodal AI, providing embedding-based exploration, annotation review, and label-error detection before training or evaluation.
 - [llmware](https://github.com/llmware-ai/llmware): Unified open-source framework for enterprise LLM applications with integrated RAG, parsing, embedding, and vector database orchestration.
 - [AgentGateway](https://github.com/agentgateway/agentgateway): Next-generation agentic proxy for AI agents and MCP servers, providing secure access, routing, and policy management for agent tool integrations.
 - [Zilla](https://github.com/aklivity/zilla): Lightweight, multi-protocol gateway for event-driven applications and AI agents, governing Kafka, MQTT, APIs, and MCP with shared routing, security, schema, and observability.
@@ -629,6 +630,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Apache Gravitino](https://github.com/apache/gravitino): Apache metadata lake that federates catalogs across engines and clouds, providing unified metadata and access control for AI and analytics workloads on Iceberg, Hive, and object storage.
 - [Dagu](https://github.com/dagucloud/dagu): Self-hostable workflow orchestrator shipped as a single binary with no database requirement, scheduling scripts, SSH commands, and containers from declarative YAML as a lighter alternative to Airflow or cron.
 - [Maestro](https://github.com/Netflix/maestro): Netflix's general-purpose workflow orchestrator, open sourced as a workflow-as-a-service scheduler that runs hundreds of thousands of data and ML workflows per day with retries and operational visibility at scale.
+- [SQLMesh](https://github.com/SQLMesh/sqlmesh): Data transformation framework with virtual data environments and column-level lineage, compatible with dbt projects and built around plan-before-apply, incremental pipeline changes.
+- [Meltano](https://github.com/meltano/meltano): Declarative, code-first data integration engine based on the Singer spec for extracting and loading data from APIs, databases, and files into warehouses and AI pipelines.
+- [Data Contract CLI](https://github.com/datacontract/datacontract-cli): CLI for creating, linting, testing, and exporting data contracts so producers and consumers can enforce schema, quality, and SLA expectations in CI.
 
 ### Streaming Operations
 
@@ -653,6 +657,9 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Robusta KRR](https://github.com/robusta-dev/krr): Prometheus-based Kubernetes resource recommender that surfaces CPU and memory over-provisioning and can auto-apply rightsizing advice.
 - [OpenOps](https://github.com/openops-cloud/openops): No-code FinOps automation platform bundling prebuilt cost optimization, allocation, and anomaly workflows with human-in-the-loop approvals, its own tables, and analytics for cloud spend operations.
 - [CloudQuery](https://github.com/cloudquery/cloudquery): MPL-2.0 data pipeline that extracts cloud configuration from 70+ cloud and SaaS sources into a queryable asset inventory, used to build FinOps, CSPM, and vulnerability management workflows.
+- [CloudBurn](https://github.com/towardsthecloud/cloudburn): Open-source AWS cost policy engine that blocks expensive infrastructure patterns before deployment and remediates already-running waste, moving FinOps checks into CI.
+- [Azure Cost CLI](https://github.com/mivano/azure-cost-cli): CLI for analyzing Azure subscription costs, with per-service and per-resource breakdowns for chargeback, anomaly review, and rightsizing workflows.
+- [ec2instances.info](https://github.com/vantage-sh/ec2instances.info): Community-maintained EC2 instance comparison dataset covering pricing, capacity, and hardware specs, used to ground rightsizing and instance-selection decisions.
 
 ## Observability
 

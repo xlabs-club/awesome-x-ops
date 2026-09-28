@@ -442,6 +442,7 @@
 - [Label Studio](https://github.com/HumanSignal/label-studio)：开源数据标注平台，支持图像、文本、音频、视频和时序数据标注，适用于 ML 和 LLM 训练工作流。
 - [Argilla](https://github.com/argilla-io/argilla)：面向 AI 工程师和领域专家的开源协作平台，用于构建、管理和版本化 LLM 微调与评估所需的高质量数据集。
 - [NVIDIA NeMo Curator](https://github.com/NVIDIA-NeMo/Curator)：GPU 加速的 LLM 数据治理工具包，覆盖去重、质量过滤和数据集准备流程。
+- [FiftyOne](https://github.com/voxel51/fiftyone)：面向视觉与多模态 AI 的开源数据集筛选与质量平台，提供基于 embedding 的探索、标注复核和标签错误检测，用于训练或评估前的数据治理。
 - [llmware](https://github.com/llmware-ai/llmware)：统一的开源框架，用于构建企业级 LLM 应用，集成 RAG、文档解析、嵌入和向量数据库编排能力。
 - [AgentGateway](https://github.com/agentgateway/agentgateway)：面向 AI Agent 和 MCP Server 的新一代代理网关，提供安全访问、路由和策略管理，用于 Agent 工具集成。
 - [Zilla](https://github.com/aklivity/zilla)：面向事件驱动应用和 AI Agent 的轻量级多协议网关，通过统一的路由、安全、Schema 和可观测性治理 Kafka、MQTT、API 与 MCP。
@@ -629,6 +630,9 @@
 - [Apache Gravitino](https://github.com/apache/gravitino)：Apache 元数据湖，跨引擎、跨云联邦元数据目录，为运行在 Iceberg、Hive 与对象存储上的 AI 与数据分析负载提供统一元数据和访问控制。
 - [Dagu](https://github.com/dagucloud/dagu)：自托管工作流编排器，单二进制、无需数据库，用声明式 YAML 调度脚本、SSH 命令与容器，可作为 Airflow 或 cron 的轻量替代。
 - [Maestro](https://github.com/Netflix/maestro)：Netflix 开源的通用工作流编排器，以 workflow-as-a-service 方式调度，日均运行数十万数据与 ML 工作流，具备重试与大规模运维可视化能力。
+- [SQLMesh](https://github.com/SQLMesh/sqlmesh)：数据转换框架，提供虚拟数据环境和列级血缘，兼容 dbt 项目，强调「先计划、后应用」的增量变更流程。
+- [Meltano](https://github.com/meltano/meltano)：声明式、code-first 的数据集成引擎，基于 Singer 规范从 API、数据库和文件中抽取加载数据到数仓与 AI 流水线。
+- [Data Contract CLI](https://github.com/datacontract/datacontract-cli)：用于创建、校验、测试和导出数据契约的 CLI，让生产方与消费方能在 CI 中落实 schema、数据质量与 SLA 约定。
 
 ### Streaming Operations 流式数据运维
 
@@ -653,6 +657,9 @@
 - [Robusta KRR](https://github.com/robusta-dev/krr)：基于 Prometheus 的 Kubernetes 资源推荐工具，识别 CPU 与内存的过度分配，并支持自动应用规格调整建议。
 - [OpenOps](https://github.com/openops-cloud/openops)：无代码 FinOps 自动化平台，内置成本优化、分摊和异常处理工作流，支持人工审批，并自带表格与分析能力支撑云成本运营。
 - [CloudQuery](https://github.com/cloudquery/cloudquery)：MPL-2.0 的云资产数据管道，从 70+ 云与 SaaS 来源抽取配置数据形成可查询的资产清单，用于构建 FinOps、CSPM 和漏洞管理流程。
+- [CloudBurn](https://github.com/towardsthecloud/cloudburn)：开源 AWS 成本策略引擎，在部署前拦截高开销基础设施模式，并修复已在浪费的存量资源，把 FinOps 检查前移到 CI。
+- [Azure Cost CLI](https://github.com/mivano/azure-cost-cli)：Azure 订阅成本分析 CLI，按服务与资源维度拆分开销，支撑成本分摊、异常排查和规格调整流程。
+- [ec2instances.info](https://github.com/vantage-sh/ec2instances.info)：社区维护的 EC2 实例对比数据集，覆盖价格、容量与硬件规格，用于支撑规格调整与实例选型决策。
 
 ## Observability 可观测性
 
