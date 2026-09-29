@@ -269,6 +269,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [agenttrail](https://github.com/sodiumsun/agenttrail): Local-first observability for coding agents that turns filesystem activity, plans, and supported agent events into live project and task views without running the agents itself.
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): Unified multimodal evaluation toolkit covering 100+ text, image, video, and audio benchmark tasks, with reproducible pipelines and async serving for large-scale model evaluation.
 
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai): Official OpenTelemetry conventions for GenAI spans, metrics, and events, covering GenAI clients, MCP, and provider-specific attributes so LLM and agent telemetry stays portable across backends.
+
 ## AI Serving and Inference Operations
 
 Tools for deploying, scaling, routing, and operating AI model inference workloads in production.
@@ -369,6 +371,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Truss](https://github.com/basetenlabs/truss): CLI that packages a model's serving logic, dependencies, and GPU configuration into a reproducible container, so the same artifact runs with vLLM, SGLang, TensorRT-LLM, or plain PyTorch in development and production.
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm): OpenAI-compatible optimizing inference proxy that applies 20+ inference-time techniques such as chain-of-thought, mixture-of-agents, and best-of-N, so teams can raise reasoning accuracy without retraining or changing application code.
 - [kvcached](https://github.com/ovg-project/kvcached): KV cache daemon that brings OS-style virtual memory to LLM serving, decoupling GPU virtual addressing from physical allocation so shared GPUs scale accelerator cache elastically with live load across vLLM and SGLang.
+
+- [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin): Kubernetes device plugin that advertises NVIDIA GPUs to the kubelet so GPU workloads schedule normally, with MIG, time-slicing, and CDI support for sharing accelerators across AI workloads.
 
 ## AIOps
 
@@ -604,6 +608,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein): Declarative governance and orchestration layer for AI agents that enforces written rules at runtime and emits a verifiable, replayable record of every run for audit and incident review.
 - [Sim](https://github.com/simstudioai/sim): Self-hostable collaborative workspace for building, deploying, and monitoring AI agents and workflows, keeping the visual canvas, deployment, and per-run monitoring in one place for teams moving past local prototypes.
 
+- [BAML](https://github.com/BoundaryML/baml): DSL and toolchain for typed LLM functions that compiles to Python, TypeScript, Ruby, Go, and Java clients, adding streaming, retries, and a local trace collector so prompt and agent behavior stays debuggable in production.
+- [SWE-ReX](https://github.com/SWE-agent/SWE-ReX): Runtime interface for sandboxed shell sessions that lets agent code execute commands locally, in Docker, or on cloud providers through one API, with massively parallel sessions for agent evaluation and execution isolation.
+
 ## DataOps
 
 - [Dagster](https://dagster.io/): Data orchestration platform for modeling data assets and managing the data lifecycle.
@@ -768,6 +775,9 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image): containerd sub-project implementing block-level remote images (overlaybd) so containers and agent sandboxes start on demand without downloading and unpacking the full image.
 - [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator): Kubernetes operator for production PostgreSQL with high availability, connection pooling, backups, and disaster recovery, covering the relational and extension-backed stores that AI and agent platforms depend on.
 - [Cluster API](https://github.com/kubernetes-sigs/cluster-api): CNCF project for declarative cluster lifecycle management that lets platform teams provision, upgrade, and scale fleets of workload clusters with the same Kubernetes reconciliation patterns they already operate.
+
+- [OKD](https://github.com/okd-project/okd): Community distribution of Kubernetes that powers Red Hat OpenShift, adding developer and operations tooling, multi-tenant deployment, and long-term cluster lifecycle management on top of upstream Kubernetes.
+- [Typhoon](https://github.com/poseidon/typhoon): Minimal, CNCF-conformant Kubernetes distribution provisioned with Terraform that ships upstream Kubernetes with Cilium or flannel networking, on-cluster etcd, and worker pools across clouds and bare metal.
 
 ## Security and Supply Chain
 

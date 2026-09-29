@@ -269,6 +269,8 @@
 - [agenttrail](https://github.com/sodiumsun/agenttrail)：面向编码 Agent 的本地优先可观测性工具，将文件变更、计划和支持的 Agent 事件转化为实时的项目与任务视图，本身不运行 Agent。
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)：统一的多模态评测工具集，覆盖 100+ 文本、图像、视频与音频基准任务，提供可复现流水线与异步推理能力，支撑大规模模型评测。
 
+- [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai)：OpenTelemetry 官方的 GenAI 语义约定，定义 GenAI 客户端、MCP 与各 provider 的 span、metric、event 及属性命名，让 LLM 与 Agent 遥测在不同后端之间保持可移植。
+
 ## AI Serving and Inference Operations AI 推理服务运维
 
 用于在生产环境部署、扩缩容、路由和运维 AI 模型推理负载的工具。
@@ -369,6 +371,8 @@
 - [Truss](https://github.com/basetenlabs/truss)：把模型的推理逻辑、依赖与 GPU 配置打包成可复现容器的 CLI，同一份制品可在开发与生产环境中以 vLLM、SGLang、TensorRT-LLM 或原生 PyTorch 运行。
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm)：兼容 OpenAI API 的推理优化代理，内置 chain-of-thought、mixture-of-agents、best-of-N 等 20 多种推理期技术，无需重训模型或改动应用代码即可提升推理准确率。
 - [kvcached](https://github.com/ovg-project/kvcached)：KV cache 守护进程，把类操作系统的虚拟内存抽象引入 LLM 推理，将 GPU 虚拟地址与物理显存分配解耦，使共享 GPU 能随实时负载弹性伸缩缓存，适配 vLLM 与 SGLang。
+
+- [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin)：Kubernetes 设备插件，把 NVIDIA GPU 注册给 kubelet，让 GPU 工作负载可被正常调度，并支持 MIG、时间片切分与 CDI，便于多个 AI 工作负载共享加速卡。
 
 ## AIOps 智能运维
 
@@ -604,6 +608,9 @@
 - [Bernstein](https://github.com/sipyourdrink-ltd/bernstein)：面向 AI Agent 的声明式治理与编排层，在运行时强制执行既定规则，并为每次运行生成可验证、可回放的记录，便于审计与故障复盘。
 - [Sim](https://github.com/simstudioai/sim)：可自托管的协作式工作区，用于构建、部署和监控 AI Agent 与工作流，把可视化编排、部署与单次运行监控集中在一处，适合已走出本地原型阶段的团队。
 
+- [BAML](https://github.com/BoundaryML/baml)：面向类型化 LLM 函数的 DSL 与工具链，可编译出 Python、TypeScript、Ruby、Go、Java 客户端，内置流式输出、重试与本地 trace 采集，让提示词与 Agent 行为在生产环境中依然可调试。
+- [SWE-ReX](https://github.com/SWE-agent/SWE-ReX)：沙箱 Shell 运行时接口，让 Agent 代码用同一套 API 在本地、Docker 或云端执行命令，支持大规模并行会话，用于 Agent 评测与执行隔离。
+
 ## DataOps
 
 - [Dagster](https://dagster.io/)：数据编排平台，支持数据资产建模和全生命周期管理。
@@ -768,6 +775,9 @@
 - [Accelerated Container Image](https://github.com/containerd/accelerated-container-image)：containerd 子项目，实现基于块设备的远程镜像格式（overlaybd），使容器与 Agent 沙箱无需下载并解包完整镜像即可按需启动。
 - [CrunchyData PGO](https://github.com/CrunchyData/postgres-operator)：面向生产环境的 PostgreSQL Kubernetes Operator，提供高可用、连接池、备份与灾难恢复能力，覆盖 AI 与 Agent 平台依赖的关系型和扩展型数据存储。
 - [Cluster API](https://github.com/kubernetes-sigs/cluster-api)：CNCF 项目，用声明式方式管理集群生命周期，让平台团队沿用已有的 Kubernetes 调和（reconciliation）模式批量创建、升级和扩缩工作负载集群。
+
+- [OKD](https://github.com/okd-project/okd)：Kubernetes 社区发行版，也是 Red Hat OpenShift 的上游，在上游 Kubernetes 之上补充面向开发与运维的工具链、多租户部署与集群长期生命周期维护能力。
+- [Typhoon](https://github.com/poseidon/typhoon)：用 Terraform 交付的极简 Kubernetes 发行版，通过 CNCF 一致性认证，内置上游 Kubernetes、Cilium 或 flannel 网络与集群内 etcd，并支持跨云与裸金属的 worker pool。
 
 ## Security and Supply Chain 安全与供应链
 
