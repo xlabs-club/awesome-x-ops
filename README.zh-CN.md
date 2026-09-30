@@ -495,6 +495,7 @@
 - [VectorChord](https://github.com/supervc-stack/VectorChord)：pgvecto.rs 的继任项目，PostgreSQL 向量检索扩展，可扩展、对磁盘友好，直接在 Postgres 内支撑 RAG 与 embedding 检索。
 - [Infinity](https://github.com/infiniflow/infinity)：InfiniFlow（RAGFlow）团队推出的 AI 原生数据库，统一支持稠密向量、稀疏向量、张量与全文检索，让 RAG 与搜索链路用一个检索引擎替代多个拼接的存储。
 - [microsandbox](https://github.com/superradcompany/microsandbox)：Apache-2.0 的 microVM 运行时与库，把 AI Agent 代码、插件、CI 任务、抓取脚本等不可信负载放进快速启动的本地沙箱，按次隔离执行。
+- [PixelRAG](https://github.com/StarTrail-org/PixelRAG)：像素级检索方案，直接对渲染后的页面截图建索引而非解析文本，让 RAG 流水线按视觉版式检索文档与网页，避免 HTML 或 PDF 抽取环节的信息损失。
 
 ## LLM 知识库
 
@@ -610,6 +611,8 @@
 
 - [BAML](https://github.com/BoundaryML/baml)：面向类型化 LLM 函数的 DSL 与工具链，可编译出 Python、TypeScript、Ruby、Go、Java 客户端，内置流式输出、重试与本地 trace 采集，让提示词与 Agent 行为在生产环境中依然可调试。
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX)：沙箱 Shell 运行时接口，让 Agent 代码用同一套 API 在本地、Docker 或云端执行命令，支持大规模并行会话，用于 Agent 评测与执行隔离。
+- [TrueForge](https://github.com/truefoundry/trueforge)：开源 Agent Harness，承担完整执行循环——模型调用、MCP 工具、沙箱化代码执行、人工审批、上下文管理与会话状态，并通过 Chat UI、HTTP API 与可嵌入 SDK 对外提供，支持单进程本地模式与 Postgres/Redis 托管模式。
+- [Reef](https://github.com/Human-Agent-Society/reef)：面向持续自我改进 Agent 的开源基础设施，把推理、反馈收集、学习与版本化交付串成闭环，让团队基于真实使用数据重训模型权重，或持续演进 Harness 的提示词、规则与技能，而不必手工改 Prompt。
 
 ## DataOps
 
@@ -886,6 +889,7 @@
 - [Codex Security](https://github.com/openai/codex-security)：OpenAI 提供的 CLI 与 TypeScript SDK，用于声明安全策略并发现、验证和修复代码漏洞，支持通过 API Key 在 CI 中执行扫描。
 - [open-kritt](https://github.com/Kritt-ai/open-kritt)：可自托管的安全与漏洞研究平台，编排 AI Agent 产出已去重、按优先级排序的发现，并支持可配置的验证与信息补充。
 - [Model Transparency](https://github.com/sigstore/model-transparency)：基于 Sigstore 的模型签名 CLI、API 与签名格式，用于生成并验证模型完整性与来源的可验证声明，把软件供应链实践延伸到机器学习产物。
+- [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)：面向编码 Agent 的安全审计技能，按侦察、覆盖度驱动挖掘、对抗式候选验证、独立记录复核等多阶段流程执行审计，产出通过 Schema 校验的机器可读结论，而非自由文本报告。
 
 ## Platform Engineering 平台工程
 
@@ -953,6 +957,8 @@
 - [Kodus](https://github.com/kodustech/kodus-ai)：开源 AI 代码审查 Agent，可完全控制模型选择和成本，支持多供应商 LLM 和企业级部署。
 - [h5i](https://github.com/h5i-dev/h5i)：Apache-2.0 许可的 AI 编码 Agent 可审计工作区平台，提供隔离 Git worktree、多 Agent 编排、Prompt 与上下文追踪、评审门禁和高效日志压缩。
 - [crush](https://github.com/charmbracelet/crush)：Charm 生态的终端优先编码 Agent，支持主流 LLM 供应商，TUI 体验出色（FSL-1.1-MIT，到期自动转为 MIT）。
+- [ripwire](https://github.com/redhat-et/ripwire)：零依赖的 C++23 CLI 与 MCP Server，在 Agent 读仓库之前先给出带排序的调用图——该改哪里、会破坏什么、要跑哪些测试，并在改动后核查影响范围与质量回归。
+- [Graft](https://github.com/trailhq/Graft)：开源上下文层，为 Claude Code、Cursor、Codex 等编码 Agent 构建针对具体代码库的理解，减少工具调用、Token 开销与耗时，同时提升任务正确率。
 
 ### Developer Environments 开发环境
 

@@ -495,6 +495,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [VectorChord](https://github.com/supervc-stack/VectorChord): Scalable, disk-friendly vector search extension for PostgreSQL from the pgvecto.rs lineage, powering RAG and embedding retrieval directly inside Postgres.
 - [Infinity](https://github.com/infiniflow/infinity): AI-native database from the InfiniFlow (RAGFlow) team that unifies dense vector, sparse vector, tensor, and full-text search over structured and unstructured data, giving RAG and search pipelines one retrieval engine instead of several glued-together stores.
 - [microsandbox](https://github.com/superradcompany/microsandbox): Apache-2.0 microVM runtime and library that runs untrusted workloads such as AI agent code, plugins, CI jobs, and scrapers in fast local sandboxes with per-run isolation.
+- [PixelRAG](https://github.com/StarTrail-org/PixelRAG): Pixel-native retrieval that indexes rendered page screenshots instead of parsed text, so RAG pipelines can search documents and web pages by visual layout and stop losing information to brittle HTML or PDF extraction.
 
 ## LLM Knowledge
 
@@ -610,6 +611,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 
 - [BAML](https://github.com/BoundaryML/baml): DSL and toolchain for typed LLM functions that compiles to Python, TypeScript, Ruby, Go, and Java clients, adding streaming, retries, and a local trace collector so prompt and agent behavior stays debuggable in production.
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX): Runtime interface for sandboxed shell sessions that lets agent code execute commands locally, in Docker, or on cloud providers through one API, with massively parallel sessions for agent evaluation and execution isolation.
+- [TrueForge](https://github.com/truefoundry/trueforge): Open-source agent harness that runs the full execution loop — model calls, MCP tools, sandboxed code execution, human approvals, context management, and session state — exposed through a chat UI, HTTP API, and embeddable SDK in either single-process local or Postgres/Redis hosted mode.
+- [Reef](https://github.com/Human-Agent-Society/reef): Open-source infrastructure for continually self-improving agents that links inference, feedback collection, learning, and versioned delivery, so teams can retrain model weights or evolve harness prompts, rules, and skills from real usage instead of manual prompt editing.
 
 ## DataOps
 
@@ -886,6 +889,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Codex Security](https://github.com/openai/codex-security): OpenAI CLI and TypeScript SDK for declaring security policy and finding, validating, and fixing vulnerabilities in code, including CI scan workflows driven by an API key.
 - [open-kritt](https://github.com/Kritt-ai/open-kritt): Self-hosted security and vulnerability research platform that orchestrates AI agents into de-duplicated, ranked findings with configurable validation and enrichment.
 - [Model Transparency](https://github.com/sigstore/model-transparency): Sigstore-based model signing CLI, API, and signing format for producing and verifying claims about model integrity and provenance, extending software supply-chain practice to ML artifacts.
+- [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill): Coding-agent skill that runs multi-phase security audits — reconnaissance, coverage-led hunting, adversarial candidate validation, and independent record verification — and emits schema-validated machine-readable findings instead of free-form prose.
 
 ## Platform Engineering
 
@@ -953,6 +957,8 @@ A curated technology stack and toolchain for platform engineering.
 - [Kodus](https://github.com/kodustech/kodus-ai): Open-source AI code review agent with full control over model choice and costs, supporting multi-provider LLMs and enterprise-grade deployment.
 - [h5i](https://github.com/h5i-dev/h5i): Apache-2.0 platform for auditable AI coding-agent workspaces, with sandboxed Git worktrees, multi-agent orchestration, prompt and context tracking, review gates, and token-efficient logs.
 - [crush](https://github.com/charmbracelet/crush): Terminal-first coding agent from the Charm ecosystem with broad LLM provider support and a polished TUI (FSL-1.1-MIT, converts to MIT).
+- [ripwire](https://github.com/redhat-et/ripwire): Zero-dependency C++23 CLI and MCP server that hands coding agents a ranked call graph before they read the repository — what to touch, what it breaks, which tests to run — then checks an edit's blast radius and quality deltas.
+- [Graft](https://github.com/trailhq/Graft): Open-source context layer that builds repository-specific understanding for coding agents such as Claude Code, Cursor, and Codex, cutting tool calls, token spend, and runtime while improving task correctness.
 
 ### Developer Environments
 
