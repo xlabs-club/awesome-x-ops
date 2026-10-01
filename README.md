@@ -268,6 +268,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [Tracely](https://github.com/Jwuthri/Tracely-ai): Trace-native CI/CD for AI agents that turns production failures into hermetic regression cases, replays them in CI, and blocks regressions without model spend.
 - [agenttrail](https://github.com/sodiumsun/agenttrail): Local-first observability for coding agents that turns filesystem activity, plans, and supported agent events into live project and task views without running the agents itself.
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): Unified multimodal evaluation toolkit covering 100+ text, image, video, and audio benchmark tasks, with reproducible pipelines and async serving for large-scale model evaluation.
+- [LiveBench](https://github.com/LiveBench/LiveBench): Contamination-free LLM benchmark with frequently refreshed questions, objective ground-truth scoring, and no LLM-as-judge, giving operators a signal less likely to be gamed by training-data leakage.
+- [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch): Self-hosted AI API and MCP gateway for organizations, with SSO and RBAC, per-user identity for MCP tool calls, PII redaction, budgets, rate limits, and audit logs.
 
 - [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai): Official OpenTelemetry conventions for GenAI spans, metrics, and events, covering GenAI clients, MCP, and provider-specific attributes so LLM and agent telemetry stays portable across backends.
 
@@ -371,6 +373,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Truss](https://github.com/basetenlabs/truss): CLI that packages a model's serving logic, dependencies, and GPU configuration into a reproducible container, so the same artifact runs with vLLM, SGLang, TensorRT-LLM, or plain PyTorch in development and production.
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm): OpenAI-compatible optimizing inference proxy that applies 20+ inference-time techniques such as chain-of-thought, mixture-of-agents, and best-of-N, so teams can raise reasoning accuracy without retraining or changing application code.
 - [kvcached](https://github.com/ovg-project/kvcached): KV cache daemon that brings OS-style virtual memory to LLM serving, decoupling GPU virtual addressing from physical allocation so shared GPUs scale accelerator cache elastically with live load across vLLM and SGLang.
+- [MLPerf Inference](https://github.com/mlcommons/inference): Reference implementations of the MLPerf inference benchmarks, providing reproducible, industry-standard latency and throughput measurements for comparing serving engines, hardware, and quantization choices.
+- [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker): Apache-2.0 benchmarking tool for LLM inference servers that runs standardized throughput, latency, and concurrency tests against OpenAI-compatible endpoints for cross-engine comparisons and regression gates.
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin): Kubernetes device plugin that advertises NVIDIA GPUs to the kubelet so GPU workloads schedule normally, with MIG, time-slicing, and CDI support for sharing accelerators across AI workloads.
 
@@ -541,6 +545,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex): Incremental indexing engine for AI data pipelines that reprocesses only changed deltas, keeping RAG stores and agent context continuously fresh from code, documents, Slack threads, and PDFs.
 - [UltraRAG](https://github.com/OpenBMB/UltraRAG): Low-code RAG pipeline framework that declares retrieval, generation, and evaluation stages as MCP-based components instead of hand-wired scripts, with a benchmark set for measuring pipeline changes.
 - [Khoj](https://github.com/khoj-ai/khoj): Self-hostable knowledge assistant (AGPL-3.0) that indexes documents and web sources into one searchable base, then layers custom agents, scheduled research automations, and local or hosted model backends on top.
+- [RAG-Anything](https://github.com/HKUDS/RAG-Anything): All-in-one multimodal RAG framework that indexes text, images, tables, and equations from documents such as PDFs and Office files into one knowledge base, closing the gap where text-only pipelines silently drop visual content.
 
 ## Agentic Workflow
 

@@ -268,6 +268,8 @@
 - [Tracely](https://github.com/Jwuthri/Tracely-ai)：面向 AI Agent 的 trace 原生 CI/CD 工具，将生产故障转化为可复现的回归用例，在 CI 中回放并阻止回归，且无需消耗模型调用。
 - [agenttrail](https://github.com/sodiumsun/agenttrail)：面向编码 Agent 的本地优先可观测性工具，将文件变更、计划和支持的 Agent 事件转化为实时的项目与任务视图，本身不运行 Agent。
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)：统一的多模态评测工具集，覆盖 100+ 文本、图像、视频与音频基准任务，提供可复现流水线与异步推理能力，支撑大规模模型评测。
+- [LiveBench](https://github.com/LiveBench/LiveBench)：抗数据污染的 LLM 基准，高频更新题目、提供客观 ground-truth 评分、不依赖 LLM-as-judge，让运维侧拿到的模型对比信号更难被训练集泄露污染。
+- [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch)：面向组织的自托管 AI API 与 MCP 网关，提供 SSO 与 RBAC、MCP 工具调用的按用户身份归因、PII 脱敏、预算与速率限制、成本核算和审计日志。
 
 - [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai)：OpenTelemetry 官方的 GenAI 语义约定，定义 GenAI 客户端、MCP 与各 provider 的 span、metric、event 及属性命名，让 LLM 与 Agent 遥测在不同后端之间保持可移植。
 
@@ -371,6 +373,8 @@
 - [Truss](https://github.com/basetenlabs/truss)：把模型的推理逻辑、依赖与 GPU 配置打包成可复现容器的 CLI，同一份制品可在开发与生产环境中以 vLLM、SGLang、TensorRT-LLM 或原生 PyTorch 运行。
 - [OptiLLM](https://github.com/algorithmicsuperintelligence/optillm)：兼容 OpenAI API 的推理优化代理，内置 chain-of-thought、mixture-of-agents、best-of-N 等 20 多种推理期技术，无需重训模型或改动应用代码即可提升推理准确率。
 - [kvcached](https://github.com/ovg-project/kvcached)：KV cache 守护进程，把类操作系统的虚拟内存抽象引入 LLM 推理，将 GPU 虚拟地址与物理显存分配解耦，使共享 GPU 能随实时负载弹性伸缩缓存，适配 vLLM 与 SGLang。
+- [MLPerf Inference](https://github.com/mlcommons/inference)：MLPerf 推理基准的参考实现，提供可复现、业界标准的延迟与吞吐度量，用于横向比较推理引擎、硬件平台与量化方案。
+- [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker)：Apache-2.0 许可的 LLM 推理服务基准工具，针对 OpenAI 兼容端点执行标准化的吞吐、延迟与并发测试，便于跨引擎对比与回归门禁。
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin)：Kubernetes 设备插件，把 NVIDIA GPU 注册给 kubelet，让 GPU 工作负载可被正常调度，并支持 MIG、时间片切分与 CDI，便于多个 AI 工作负载共享加速卡。
 
@@ -541,6 +545,7 @@
 - [CocoIndex](https://github.com/cocoindex-io/cocoindex)：面向 AI 数据流水线的增量索引引擎，只重新处理发生变化的增量，让 RAG 存储与 Agent 上下文从代码、文档、Slack 讨论和 PDF 中持续保持新鲜。
 - [UltraRAG](https://github.com/OpenBMB/UltraRAG)：低代码 RAG 流水线框架，基于 MCP 把检索、生成、评测等环节声明为可复用组件，避免手工拼接脚本，并附带基准数据集用于衡量流水线改动的效果。
 - [Khoj](https://github.com/khoj-ai/khoj)：可自托管的知识助手（AGPL-3.0），把文档与网页来源索引成统一的可检索知识库，并在其上叠加自定义 Agent、定时研究任务以及本地或在线模型后端。
+- [RAG-Anything](https://github.com/HKUDS/RAG-Anything)：一体化多模态 RAG 框架，把 PDF、Office 等文档中的文本、图像、表格与公式统一索引进同一知识库，补齐纯文本流水线静默丢失视觉信息的缺口。
 
 ## Agentic Workflow 智能体工作流
 
