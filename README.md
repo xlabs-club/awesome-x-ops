@@ -109,6 +109,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [SCALE-CUA](https://github.com/THUDM/SCALE-CUA): Open framework for computer-use agents with verifiable task synthesis, online reinforcement learning, and OSWorld or ScienceBoard evaluation.
 - [ClawLens](https://github.com/nk3750/clawlens): Local OpenClaw observability plugin with tool-call audit logs, risk scoring, live sessions, and operator-controlled guardrails.
 - [Opik OpenClaw](https://github.com/comet-ml/opik-openclaw): OpenClaw plugin that exports agent traces to Opik for monitoring behavior, errors, tokens, and cost.
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor): Free open-source web dashboard for OpenClaw AI agents with token usage, session tracking, 7-day trends, and multi-model support.
 - [Opik MCP](https://github.com/comet-ml/opik-mcp): MCP server for reading Opik traces, logging evaluation scores, and managing prompts from AI coding clients.
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay): Multi-language agent runtime and middleware library for managing execution scopes, lifecycle events, and tool or LLM call telemetry.
 - [Kitaru](https://github.com/zenml-io/kitaru): Production AI agent recording and replay toolkit for analyzing runs and improving agent behavior.
