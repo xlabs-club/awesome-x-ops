@@ -500,6 +500,7 @@
 - [Infinity](https://github.com/infiniflow/infinity)：InfiniFlow（RAGFlow）团队推出的 AI 原生数据库，统一支持稠密向量、稀疏向量、张量与全文检索，让 RAG 与搜索链路用一个检索引擎替代多个拼接的存储。
 - [microsandbox](https://github.com/superradcompany/microsandbox)：Apache-2.0 的 microVM 运行时与库，把 AI Agent 代码、插件、CI 任务、抓取脚本等不可信负载放进快速启动的本地沙箱，按次隔离执行。
 - [PixelRAG](https://github.com/StarTrail-org/PixelRAG)：像素级检索方案，直接对渲染后的页面截图建索引而非解析文本，让 RAG 流水线按视觉版式检索文档与网页，避免 HTML 或 PDF 抽取环节的信息损失。
+- [VexDB-Lite](https://github.com/VexDB-THU/VexDB-Lite)：清华大学开源的向量相似度检索引擎，以 PostgreSQL、DuckDB、SQLite 扩展形式交付，嵌入式、分析型与服务端部署共用同一套图索引、SIMD 距离调度与 PQ/RaBitQ 量化内核。
 
 ## LLM 知识库
 
@@ -546,6 +547,9 @@
 - [UltraRAG](https://github.com/OpenBMB/UltraRAG)：低代码 RAG 流水线框架，基于 MCP 把检索、生成、评测等环节声明为可复用组件，避免手工拼接脚本，并附带基准数据集用于衡量流水线改动的效果。
 - [Khoj](https://github.com/khoj-ai/khoj)：可自托管的知识助手（AGPL-3.0），把文档与网页来源索引成统一的可检索知识库，并在其上叠加自定义 Agent、定时研究任务以及本地或在线模型后端。
 - [RAG-Anything](https://github.com/HKUDS/RAG-Anything)：一体化多模态 RAG 框架，把 PDF、Office 等文档中的文本、图像、表格与公式统一索引进同一知识库，补齐纯文本流水线静默丢失视觉信息的缺口。
+- [Hindsight](https://github.com/vectorize-io/hindsight)：MIT 许可的 Agent 记忆服务，从已记录的运行结果与反馈中学习，而不是只依赖检索；支持本地或托管部署，提供公开基准与常见 Agent 框架集成。
+- [XERJ](https://github.com/xerj-org/xerj)：Rust 实现的自动索引引擎，用 BM25、kNN 与混合检索让代码、文档、日志和 PDF 可被搜索，并暴露 Elasticsearch 兼容 API，使既有客户端与 Agent 记忆流程共用同一索引，不必反复读取文件。
+- [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)：团队级记忆中枢，把对话、文档与代码沉淀为受治理、可复用的记忆资产（Chat Memory、技能、LLM-Wiki、Code-Graph），由一个记忆服务在多个 Agent 与框架之间共享。
 
 ## Agentic Workflow 智能体工作流
 
@@ -618,6 +622,7 @@
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX)：沙箱 Shell 运行时接口，让 Agent 代码用同一套 API 在本地、Docker 或云端执行命令，支持大规模并行会话，用于 Agent 评测与执行隔离。
 - [TrueForge](https://github.com/truefoundry/trueforge)：开源 Agent Harness，承担完整执行循环——模型调用、MCP 工具、沙箱化代码执行、人工审批、上下文管理与会话状态，并通过 Chat UI、HTTP API 与可嵌入 SDK 对外提供，支持单进程本地模式与 Postgres/Redis 托管模式。
 - [Reef](https://github.com/Human-Agent-Society/reef)：面向持续自我改进 Agent 的开源基础设施，把推理、反馈收集、学习与版本化交付串成闭环，让团队基于真实使用数据重训模型权重，或持续演进 Harness 的提示词、规则与技能，而不必手工改 Prompt。
+- [NoKV](https://github.com/NoKV-Lab/NoKV)：面向一次性 Agent 沙箱的持久化版本化工作区存储，在沙箱销毁后仍保留声明的输入、代码、产出、日志与血缘，并通过事务型元数据面发布不可变的 S3 兼容产物。
 
 ## DataOps
 
@@ -675,6 +680,7 @@
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn)：开源 AWS 成本策略引擎，在部署前拦截高开销基础设施模式，并修复已在浪费的存量资源，把 FinOps 检查前移到 CI。
 - [Azure Cost CLI](https://github.com/mivano/azure-cost-cli)：Azure 订阅成本分析 CLI，按服务与资源维度拆分开销，支撑成本分摊、异常排查和规格调整流程。
 - [ec2instances.info](https://github.com/vantage-sh/ec2instances.info)：社区维护的 EC2 实例对比数据集，覆盖价格、容量与硬件规格，用于支撑规格调整与实例选型决策。
+- [Frugon](https://github.com/Rodiun/frugon)：本地优先的 LLM 成本分析器，读取既有调用日志并给出切换或路由模型可节省的费用，使成本复盘与路由决策留在本机，无需把 Prompt 送往托管服务。
 
 ## Observability 可观测性
 
@@ -786,6 +792,7 @@
 
 - [OKD](https://github.com/okd-project/okd)：Kubernetes 社区发行版，也是 Red Hat OpenShift 的上游，在上游 Kubernetes 之上补充面向开发与运维的工具链、多租户部署与集群长期生命周期维护能力。
 - [Typhoon](https://github.com/poseidon/typhoon)：用 Terraform 交付的极简 Kubernetes 发行版，通过 CNCF 一致性认证，内置上游 Kubernetes、Cilium 或 flannel 网络与集群内 etcd，并支持跨云与裸金属的 worker pool。
+- [Polyaxon mloperator](https://github.com/polyaxon/mloperator)：Apache-2.0 的 Kubernetes Operator 与控制器，管理 ML/AI 训练与推理工作负载，同时负责 Agent 沙箱生命周期；适合只需要工作负载控制器、而非整套 ML 平台的集群。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -895,6 +902,7 @@
 - [open-kritt](https://github.com/Kritt-ai/open-kritt)：可自托管的安全与漏洞研究平台，编排 AI Agent 产出已去重、按优先级排序的发现，并支持可配置的验证与信息补充。
 - [Model Transparency](https://github.com/sigstore/model-transparency)：基于 Sigstore 的模型签名 CLI、API 与签名格式，用于生成并验证模型完整性与来源的可验证声明，把软件供应链实践延伸到机器学习产物。
 - [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)：面向编码 Agent 的安全审计技能，按侦察、覆盖度驱动挖掘、对抗式候选验证、独立记录复核等多阶段流程执行审计，产出通过 Schema 校验的机器可读结论，而非自由文本报告。
+- [yoloAI](https://github.com/kstenerud/yoloai)：Go 实现的编码 Agent 沙箱运行器，把凭证隔离在沙箱之外，并在人工复核前不落地项目改动，缓解权限确认疲劳的同时不把工作区写权限交给 Agent。
 
 ## Platform Engineering 平台工程
 
