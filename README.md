@@ -500,6 +500,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [Infinity](https://github.com/infiniflow/infinity): AI-native database from the InfiniFlow (RAGFlow) team that unifies dense vector, sparse vector, tensor, and full-text search over structured and unstructured data, giving RAG and search pipelines one retrieval engine instead of several glued-together stores.
 - [microsandbox](https://github.com/superradcompany/microsandbox): Apache-2.0 microVM runtime and library that runs untrusted workloads such as AI agent code, plugins, CI jobs, and scrapers in fast local sandboxes with per-run isolation.
 - [PixelRAG](https://github.com/StarTrail-org/PixelRAG): Pixel-native retrieval that indexes rendered page screenshots instead of parsed text, so RAG pipelines can search documents and web pages by visual layout and stop losing information to brittle HTML or PDF extraction.
+- [VexDB-Lite](https://github.com/VexDB-THU/VexDB-Lite): Vector similarity search engine from Tsinghua that ships as an extension for PostgreSQL, DuckDB, and SQLite, sharing one graph index, SIMD distance dispatch, and PQ/RaBitQ quantization path across embedded, analytical, and server-side deployments.
 
 ## LLM Knowledge
 
@@ -546,6 +547,9 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [UltraRAG](https://github.com/OpenBMB/UltraRAG): Low-code RAG pipeline framework that declares retrieval, generation, and evaluation stages as MCP-based components instead of hand-wired scripts, with a benchmark set for measuring pipeline changes.
 - [Khoj](https://github.com/khoj-ai/khoj): Self-hostable knowledge assistant (AGPL-3.0) that indexes documents and web sources into one searchable base, then layers custom agents, scheduled research automations, and local or hosted model backends on top.
 - [RAG-Anything](https://github.com/HKUDS/RAG-Anything): All-in-one multimodal RAG framework that indexes text, images, tables, and equations from documents such as PDFs and Office files into one knowledge base, closing the gap where text-only pipelines silently drop visual content.
+- [Hindsight](https://github.com/vectorize-io/hindsight): MIT-licensed agent memory service that learns from recorded outcomes and feedback instead of retrieval alone, with local or hosted deployment, published benchmarks, and integrations for common agent frameworks.
+- [XERJ](https://github.com/xerj-org/xerj): Rust autoindex engine that makes code, docs, logs, and PDFs searchable through BM25, kNN, and hybrid queries, and exposes an Elasticsearch-compatible API so existing clients and agent memory workflows can share one index instead of re-reading files.
+- [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory): Team-level memory hub that turns conversations, documents, and code into governed, reusable assets — chat memory, skills, LLM wiki, and code graph — shared across agents and frameworks from a single memory server.
 
 ## Agentic Workflow
 
@@ -618,6 +622,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [SWE-ReX](https://github.com/SWE-agent/SWE-ReX): Runtime interface for sandboxed shell sessions that lets agent code execute commands locally, in Docker, or on cloud providers through one API, with massively parallel sessions for agent evaluation and execution isolation.
 - [TrueForge](https://github.com/truefoundry/trueforge): Open-source agent harness that runs the full execution loop — model calls, MCP tools, sandboxed code execution, human approvals, context management, and session state — exposed through a chat UI, HTTP API, and embeddable SDK in either single-process local or Postgres/Redis hosted mode.
 - [Reef](https://github.com/Human-Agent-Society/reef): Open-source infrastructure for continually self-improving agents that links inference, feedback collection, learning, and versioned delivery, so teams can retrain model weights or evolve harness prompts, rules, and skills from real usage instead of manual prompt editing.
+- [NoKV](https://github.com/NoKV-Lab/NoKV): Durable, versioned workspace store for disposable agent sandboxes that keeps declared inputs, code, outputs, logs, and lineage recoverable after the sandbox is gone, publishing immutable S3-compatible artifacts through a transactional metadata plane.
 
 ## DataOps
 
@@ -675,6 +680,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [CloudBurn](https://github.com/towardsthecloud/cloudburn): Open-source AWS cost policy engine that blocks expensive infrastructure patterns before deployment and remediates already-running waste, moving FinOps checks into CI.
 - [Azure Cost CLI](https://github.com/mivano/azure-cost-cli): CLI for analyzing Azure subscription costs, with per-service and per-resource breakdowns for chargeback, anomaly review, and rightsizing workflows.
 - [ec2instances.info](https://github.com/vantage-sh/ec2instances.info): Community-maintained EC2 instance comparison dataset covering pricing, capacity, and hardware specs, used to ground rightsizing and instance-selection decisions.
+- [Frugon](https://github.com/Rodiun/frugon): Local-first LLM cost analyzer that reads existing call logs and reports what model switching or routing would have saved, keeping spend reviews and routing decisions on-premises without shipping prompts to a hosted service.
 
 ## Observability
 
@@ -786,6 +792,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 
 - [OKD](https://github.com/okd-project/okd): Community distribution of Kubernetes that powers Red Hat OpenShift, adding developer and operations tooling, multi-tenant deployment, and long-term cluster lifecycle management on top of upstream Kubernetes.
 - [Typhoon](https://github.com/poseidon/typhoon): Minimal, CNCF-conformant Kubernetes distribution provisioned with Terraform that ships upstream Kubernetes with Cilium or flannel networking, on-cluster etcd, and worker pools across clouds and bare metal.
+- [Polyaxon mloperator](https://github.com/polyaxon/mloperator): Apache-2.0 Kubernetes operator and controller for ML/AI training and serving workloads that also manages agent sandbox lifecycles, useful when a cluster only needs the workload controller rather than a full ML platform.
 
 ## Security and Supply Chain
 
@@ -895,6 +902,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [open-kritt](https://github.com/Kritt-ai/open-kritt): Self-hosted security and vulnerability research platform that orchestrates AI agents into de-duplicated, ranked findings with configurable validation and enrichment.
 - [Model Transparency](https://github.com/sigstore/model-transparency): Sigstore-based model signing CLI, API, and signing format for producing and verifying claims about model integrity and provenance, extending software supply-chain practice to ML artifacts.
 - [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill): Coding-agent skill that runs multi-phase security audits — reconnaissance, coverage-led hunting, adversarial candidate validation, and independent record verification — and emits schema-validated machine-readable findings instead of free-form prose.
+- [yoloAI](https://github.com/kstenerud/yoloai): Go sandboxed runner for AI coding agents that keeps credentials outside the sandbox and withholds project changes until they are reviewed, cutting permission-fatigue prompts without handing the agent write access to the working tree.
 
 ## Platform Engineering
 
