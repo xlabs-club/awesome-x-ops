@@ -401,6 +401,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA): Agentic OS with runtime, security, observability, and tokenless response compression for lowering token usage and cost in production AI agent deployments.
 - [OpenOcta](https://github.com/openocta/openocta): Desktop IT ops agent for Windows and macOS that wires monitoring, logs, cloud platforms, databases, and scripts into an auto-inspection, alert-analysis, and remediation loop driven by natural language.
 - [OpenDerisk](https://github.com/derisk-ai/OpenDerisk): AI-native risk intelligence system for application operations that performs deep root-cause analysis over logs, traces, and code, and exposes a visualized evidence chain behind every diagnosis.
+- [StackStorm](https://github.com/StackStorm/st2): Event-driven automation platform that turns alerts into versioned, auditable actions, combining a rules engine, workflows, 160+ integration packs, and ChatOps for auto-remediation and incident response.
 
 ## AI Infrastructure
 
@@ -653,6 +654,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh): Data transformation framework with virtual data environments and column-level lineage, compatible with dbt projects and built around plan-before-apply, incremental pipeline changes.
 - [Meltano](https://github.com/meltano/meltano): Declarative, code-first data integration engine based on the Singer spec for extracting and loading data from APIs, databases, and files into warehouses and AI pipelines.
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli): CLI for creating, linting, testing, and exporting data contracts so producers and consumers can enforce schema, quality, and SLA expectations in CI.
+- [Bytebase](https://github.com/bytebase/bytebase): Database DevOps platform that brings schema migration, SQL review, and access control for MySQL, PostgreSQL, and other engines into a Git-based change workflow.
+- [Recce](https://github.com/DataRecce/recce): Data-validation toolkit that diffs the actual data between a dbt pull request and its base environment, so reviewers see row and column-level impact before a model change merges.
 
 ### Streaming Operations
 
@@ -903,6 +906,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Model Transparency](https://github.com/sigstore/model-transparency): Sigstore-based model signing CLI, API, and signing format for producing and verifying claims about model integrity and provenance, extending software supply-chain practice to ML artifacts.
 - [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill): Coding-agent skill that runs multi-phase security audits — reconnaissance, coverage-led hunting, adversarial candidate validation, and independent record verification — and emits schema-validated machine-readable findings instead of free-form prose.
 - [yoloAI](https://github.com/kstenerud/yoloai): Go sandboxed runner for AI coding agents that keeps credentials outside the sandbox and withholds project changes until they are reviewed, cutting permission-fatigue prompts without handing the agent write access to the working tree.
+- [Infisical Agent Vault](https://github.com/Infisical/agent-vault): Credential proxy and vault that issues short-lived, scoped secrets to AI agents and coding harnesses over HTTP, so agent processes never hold long-lived cloud or API keys.
 
 ## Platform Engineering
 
@@ -936,6 +940,7 @@ A curated technology stack and toolchain for platform engineering.
 - [PipeCD](https://github.com/pipe-cd/pipecd): CNCF continuous delivery platform for applications, infrastructure, and platform operations across multiple deployment targets.
 - [Dagger](https://github.com/dagger/dagger): Open-source automation engine for building, testing, and shipping code in CI/CD pipelines with programmable, containerized workflows.
 - [Windmill](https://github.com/windmill-labs/windmill): Self-hostable developer platform that turns scripts into workflows, scheduled jobs, and internal UIs behind one API, worker pool, and permission model.
+- [werf](https://github.com/werf/werf): GitOps delivery tool that builds images from existing Dockerfiles with content-based tagging and deploys them to Kubernetes, giving CI/CD pipelines reproducible artifacts and one command for the build-deploy loop.
 
 ### Code Search and Understanding
 

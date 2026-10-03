@@ -401,6 +401,7 @@
 - [ANOLISA](https://github.com/agentic-os-org/ANOLISA)：Agentic OS，提供运行时、安全、可观测性和无 Token 响应压缩能力，用于降低生产 AI Agent 部署的 Token 用量和成本。
 - [OpenOcta](https://github.com/openocta/openocta)：面向 Windows 与 macOS 的桌面级 IT 运维 Agent，把监控、日志、云平台、数据库与脚本工具链串成巡检、告警分析与处置建议的闭环，以自然语言驱动。
 - [OpenDerisk](https://github.com/derisk-ai/OpenDerisk)：面向应用系统的 AI 原生风险智能系统，基于日志、调用链与代码执行深度根因分析，并为每次诊断给出可视化证据链。
+- [StackStorm](https://github.com/StackStorm/st2)：事件驱动的运维自动化平台，用规则引擎、工作流、160+ 集成包和 ChatOps 把告警转化为可版本化、可审计的处置动作，覆盖自动修复与事故响应。
 
 ## AI 基础设施
 
@@ -653,6 +654,8 @@
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh)：数据转换框架，提供虚拟数据环境和列级血缘，兼容 dbt 项目，强调「先计划、后应用」的增量变更流程。
 - [Meltano](https://github.com/meltano/meltano)：声明式、code-first 的数据集成引擎，基于 Singer 规范从 API、数据库和文件中抽取加载数据到数仓与 AI 流水线。
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli)：用于创建、校验、测试和导出数据契约的 CLI，让生产方与消费方能在 CI 中落实 schema、数据质量与 SLA 约定。
+- [Bytebase](https://github.com/bytebase/bytebase)：数据库 DevOps 平台，把 MySQL、PostgreSQL 等数据库的 Schema 变更、SQL 审核与访问控制纳入基于 Git 的变更流程。
+- [Recce](https://github.com/DataRecce/recce)：数据校验工具，对比 dbt PR 与基线环境之间的真实数据，让评审者在模型变更合入前看到行级与列级影响。
 
 ### Streaming Operations 流式数据运维
 
@@ -903,6 +906,7 @@
 - [Model Transparency](https://github.com/sigstore/model-transparency)：基于 Sigstore 的模型签名 CLI、API 与签名格式，用于生成并验证模型完整性与来源的可验证声明，把软件供应链实践延伸到机器学习产物。
 - [Cloudflare Security Audit Skill](https://github.com/cloudflare/security-audit-skill)：面向编码 Agent 的安全审计技能，按侦察、覆盖度驱动挖掘、对抗式候选验证、独立记录复核等多阶段流程执行审计，产出通过 Schema 校验的机器可读结论，而非自由文本报告。
 - [yoloAI](https://github.com/kstenerud/yoloai)：Go 实现的编码 Agent 沙箱运行器，把凭证隔离在沙箱之外，并在人工复核前不落地项目改动，缓解权限确认疲劳的同时不把工作区写权限交给 Agent。
+- [Infisical Agent Vault](https://github.com/Infisical/agent-vault)：面向 AI Agent 与编码运行时的凭据代理与凭据库，通过 HTTP 按需下发短时效、最小范围的密钥，使 Agent 进程无需持有长期有效的云和 API 凭据。
 
 ## Platform Engineering 平台工程
 
@@ -936,6 +940,7 @@
 - [PipeCD](https://github.com/pipe-cd/pipecd)：CNCF 持续交付平台，支持跨多种部署目标管理应用、基础设施和平台运维。
 - [Dagger](https://github.com/dagger/dagger)：开源自动化引擎，用于在 CI/CD 流水线中构建、测试和交付代码，支持可编程的容器化工作流。
 - [Windmill](https://github.com/windmill-labs/windmill)：可自托管的开发者平台，将脚本转化为工作流、定时任务和内部 UI，统一由单一 API、worker 池和权限模型驱动。
+- [werf](https://github.com/werf/werf)：GitOps 交付工具，基于现有 Dockerfile 构建镜像并生成内容可寻址标签后交付到 Kubernetes，为 CI/CD 流水线提供可复现产物，并用一条命令完成构建—部署闭环。
 
 ### Code Search and Understanding 代码搜索与理解
 
