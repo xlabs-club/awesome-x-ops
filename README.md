@@ -375,6 +375,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [kvcached](https://github.com/ovg-project/kvcached): KV cache daemon that brings OS-style virtual memory to LLM serving, decoupling GPU virtual addressing from physical allocation so shared GPUs scale accelerator cache elastically with live load across vLLM and SGLang.
 - [MLPerf Inference](https://github.com/mlcommons/inference): Reference implementations of the MLPerf inference benchmarks, providing reproducible, industry-standard latency and throughput measurements for comparing serving engines, hardware, and quantization choices.
 - [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker): Apache-2.0 benchmarking tool for LLM inference servers that runs standardized throughput, latency, and concurrency tests against OpenAI-compatible endpoints for cross-engine comparisons and regression gates.
+- [SIE](https://github.com/superlinked/sie): Self-hosted inference server and cluster for the open models agents depend on, serving embeddings, rerankers, SPLADE, and structured-output models behind one OpenAI-compatible API with on-demand model loading, LRU eviction, and shipped Helm, KEDA, and Grafana deployment assets.
+- [LLMLingua](https://github.com/microsoft/LLMLingua): Prompt-compression toolkit that removes non-essential tokens and compresses KV cache before inference, cutting prompt tokens and serving cost by up to 20x with minimal accuracy loss, with integrations for LangChain, LlamaIndex, and Prompt flow.
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin): Kubernetes device plugin that advertises NVIDIA GPUs to the kubelet so GPU workloads schedule normally, with MIG, time-slicing, and CDI support for sharing accelerators across AI workloads.
 
@@ -796,6 +798,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OKD](https://github.com/okd-project/okd): Community distribution of Kubernetes that powers Red Hat OpenShift, adding developer and operations tooling, multi-tenant deployment, and long-term cluster lifecycle management on top of upstream Kubernetes.
 - [Typhoon](https://github.com/poseidon/typhoon): Minimal, CNCF-conformant Kubernetes distribution provisioned with Terraform that ships upstream Kubernetes with Cilium or flannel networking, on-cluster etcd, and worker pools across clouds and bare metal.
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator): Apache-2.0 Kubernetes operator and controller for ML/AI training and serving workloads that also manages agent sandbox lifecycles, useful when a cluster only needs the workload controller rather than a full ML platform.
+- [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu): Kubernetes SIG project that moves NVIDIA GPU scheduling onto Dynamic Resource Allocation, exposing GPUs and ComputeDomains for robust Multi-Node NVLink; ComputeDomains are officially supported while some GPU allocation features are still maturing.
 
 ## Security and Supply Chain
 
@@ -1010,6 +1013,7 @@ A curated technology stack and toolchain for platform engineering.
 - [GrowthBook](https://github.com/growthbook/growthbook): Open-source feature flagging, experimentation, and product analytics platform for safer progressive delivery.
 - [Flagsmith](https://github.com/Flagsmith/flagsmith): Open-source feature flag and remote configuration service for self-hosted or managed release control.
 - [GO Feature Flag](https://github.com/thomaspoignant/go-feature-flag): Self-hosted cloud-native feature flag solution built on OpenFeature, with lightweight Go deployment and multi-provider support.
+- [Unleash](https://github.com/Unleash/unleash): Long-running open-source feature management platform with activation strategies, gradual rollouts, and kill switches, backed by 15+ official SDKs for self-hosted progressive delivery across heterogeneous stacks.
 
 ### Infrastructure as Code (IaC)
 

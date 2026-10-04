@@ -375,6 +375,8 @@
 - [kvcached](https://github.com/ovg-project/kvcached)：KV cache 守护进程，把类操作系统的虚拟内存抽象引入 LLM 推理，将 GPU 虚拟地址与物理显存分配解耦，使共享 GPU 能随实时负载弹性伸缩缓存，适配 vLLM 与 SGLang。
 - [MLPerf Inference](https://github.com/mlcommons/inference)：MLPerf 推理基准的参考实现，提供可复现、业界标准的延迟与吞吐度量，用于横向比较推理引擎、硬件平台与量化方案。
 - [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker)：Apache-2.0 许可的 LLM 推理服务基准工具，针对 OpenAI 兼容端点执行标准化的吞吐、延迟与并发测试，便于跨引擎对比与回归门禁。
+- [SIE](https://github.com/superlinked/sie)：自托管的推理服务器与推理集群，用一套 OpenAI 兼容 API 服务 Agent 依赖的开源模型（embedding、reranker、SPLADE、结构化输出等），支持模型按需加载与 LRU 淘汰，并自带 Helm、KEDA 与 Grafana 部署资产。
+- [LLMLingua](https://github.com/microsoft/LLMLingua)：Prompt 压缩工具链，在推理前剔除冗余 token 并压缩 KV cache，最高可把 Prompt token 量与推理成本压到约 1/20 而几乎不损失效果，已集成 LangChain、LlamaIndex 与 Prompt flow。
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin)：Kubernetes 设备插件，把 NVIDIA GPU 注册给 kubelet，让 GPU 工作负载可被正常调度，并支持 MIG、时间片切分与 CDI，便于多个 AI 工作负载共享加速卡。
 
@@ -796,6 +798,7 @@
 - [OKD](https://github.com/okd-project/okd)：Kubernetes 社区发行版，也是 Red Hat OpenShift 的上游，在上游 Kubernetes 之上补充面向开发与运维的工具链、多租户部署与集群长期生命周期维护能力。
 - [Typhoon](https://github.com/poseidon/typhoon)：用 Terraform 交付的极简 Kubernetes 发行版，通过 CNCF 一致性认证，内置上游 Kubernetes、Cilium 或 flannel 网络与集群内 etcd，并支持跨云与裸金属的 worker pool。
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator)：Apache-2.0 的 Kubernetes Operator 与控制器，管理 ML/AI 训练与推理工作负载，同时负责 Agent 沙箱生命周期；适合只需要工作负载控制器、而非整套 ML 平台的集群。
+- [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu)：Kubernetes SIG 项目，把 NVIDIA GPU 调度迁移到 Dynamic Resource Allocation（DRA），对外暴露 GPU 与用于多节点 NVLink 的 ComputeDomain；其中 ComputeDomain 已正式支持，部分 GPU 分配能力仍在成熟中。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -1010,6 +1013,7 @@
 - [GrowthBook](https://github.com/growthbook/growthbook)：开源特性开关、实验和产品分析平台，用于更安全的渐进式交付。
 - [Flagsmith](https://github.com/Flagsmith/flagsmith)：开源特性开关与远程配置服务，支持自托管或托管模式下的发布控制。
 - [GO Feature Flag](https://github.com/thomaspoignant/go-feature-flag)：基于 OpenFeature 构建的自托管云原生特性开关方案，轻量级 Go 部署，支持多供应商。
+- [Unleash](https://github.com/Unleash/unleash)：长期维护的开源特性管理平台，提供激活策略、灰度发布与 kill switch，配套 15+ 官方 SDK，可在自托管环境下跨异构技术栈实现渐进式交付。
 
 ### Infrastructure as Code (IaC)
 
