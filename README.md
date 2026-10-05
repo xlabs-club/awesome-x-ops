@@ -377,6 +377,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker): Apache-2.0 benchmarking tool for LLM inference servers that runs standardized throughput, latency, and concurrency tests against OpenAI-compatible endpoints for cross-engine comparisons and regression gates.
 - [SIE](https://github.com/superlinked/sie): Self-hosted inference server and cluster for the open models agents depend on, serving embeddings, rerankers, SPLADE, and structured-output models behind one OpenAI-compatible API with on-demand model loading, LRU eviction, and shipped Helm, KEDA, and Grafana deployment assets.
 - [LLMLingua](https://github.com/microsoft/LLMLingua): Prompt-compression toolkit that removes non-essential tokens and compresses KV cache before inference, cutting prompt tokens and serving cost by up to 20x with minimal accuracy loss, with integrations for LangChain, LlamaIndex, and Prompt flow.
+- [ServerlessLLM](https://github.com/ServerlessLLM/ServerlessLLM): Serverless LLM serving system that loads model checkpoints 6-10x faster than SafeTensors and migrates live inference sessions between GPUs, so a shared accelerator can host many models without paying cold-start latency on every scale-up.
+- [Parallax](https://github.com/GradientHQ/parallax): Decentralized inference engine that pipeline-shards one model across heterogeneous, physically distributed nodes over P2P transport with scheduler-driven routing, letting a platform team assemble a private inference cluster from the GPUs it already owns instead of renting uniform accelerators.
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin): Kubernetes device plugin that advertises NVIDIA GPUs to the kubelet so GPU workloads schedule normally, with MIG, time-slicing, and CDI support for sharing accelerators across AI workloads.
 
@@ -626,6 +628,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [TrueForge](https://github.com/truefoundry/trueforge): Open-source agent harness that runs the full execution loop — model calls, MCP tools, sandboxed code execution, human approvals, context management, and session state — exposed through a chat UI, HTTP API, and embeddable SDK in either single-process local or Postgres/Redis hosted mode.
 - [Reef](https://github.com/Human-Agent-Society/reef): Open-source infrastructure for continually self-improving agents that links inference, feedback collection, learning, and versioned delivery, so teams can retrain model weights or evolve harness prompts, rules, and skills from real usage instead of manual prompt editing.
 - [NoKV](https://github.com/NoKV-Lab/NoKV): Durable, versioned workspace store for disposable agent sandboxes that keeps declared inputs, code, outputs, logs, and lineage recoverable after the sandbox is gone, publishing immutable S3-compatible artifacts through a transactional metadata plane.
+- [Open Multi-Agent (OMA)](https://github.com/open-multi-agent/open-multi-agent): Self-hosted TypeScript agent runtime where consequential actions block on durable, tamper-evident human approvals and every run leaves a record that can be verified offline, giving agent operations an auditable approval and replay trail instead of trusting agent-written logs.
 
 ## DataOps
 
@@ -658,6 +661,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli): CLI for creating, linting, testing, and exporting data contracts so producers and consumers can enforce schema, quality, and SLA expectations in CI.
 - [Bytebase](https://github.com/bytebase/bytebase): Database DevOps platform that brings schema migration, SQL review, and access control for MySQL, PostgreSQL, and other engines into a Git-based change workflow.
 - [Recce](https://github.com/DataRecce/recce): Data-validation toolkit that diffs the actual data between a dbt pull request and its base environment, so reviewers see row and column-level impact before a model change merges.
+- [Marmot](https://github.com/marmotdata/marmot): Single-binary data catalog that indexes tables, topics, queues, and APIs with lineage, ownership, and glossary context, then serves that metadata to AI agents over MCP so retrieval and analytics agents are grounded in governed assets rather than raw connection details.
 
 ### Streaming Operations
 
@@ -741,6 +745,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma): Self-hosted uptime and status-page monitor with HTTP, TCP, DNS, and push checks plus multi-channel alerting, useful for tracking external dependency and endpoint availability SLA.
 - [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator): Kubernetes operator that deploys and manages OpenTelemetry Collector fleets and auto-instrumentation, giving LLM and agent telemetry pipelines a declarative rollout and upgrade path instead of hand-maintained collector configs.
 - [Logging Operator](https://github.com/kube-logging/logging-operator): Kubernetes operator that manages Fluentd and Fluent Bit log pipelines declaratively, so log collection for AI and platform services can be versioned, rolled out, and rolled back like any other workload.
+- [OneUptime](https://github.com/OneUptime/oneuptime): Self-hosted observability platform that keeps uptime checks, logs, traces, metrics, and APM in the same application as incidents, on-call schedules, and status pages, cutting the number of separate tools a team has to operate during an AI service outage.
 
 ## Kubernetes Operations
 
@@ -799,6 +804,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Typhoon](https://github.com/poseidon/typhoon): Minimal, CNCF-conformant Kubernetes distribution provisioned with Terraform that ships upstream Kubernetes with Cilium or flannel networking, on-cluster etcd, and worker pools across clouds and bare metal.
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator): Apache-2.0 Kubernetes operator and controller for ML/AI training and serving workloads that also manages agent sandbox lifecycles, useful when a cluster only needs the workload controller rather than a full ML platform.
 - [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu): Kubernetes SIG project that moves NVIDIA GPU scheduling onto Dynamic Resource Allocation, exposing GPUs and ComputeDomains for robust Multi-Node NVLink; ComputeDomains are officially supported while some GPU allocation features are still maturing.
+- [Zarf](https://github.com/zarf-dev/zarf): Airgap-native packaging tool that bundles the Helm charts, container images, and manifests a stack needs into one compressed, cosign-verifiable artifact deployable with no registry or internet access, which is how AI platform stacks reach disconnected or restricted environments reproducibly.
 
 ## Security and Supply Chain
 
@@ -1058,6 +1064,7 @@ An internal developer platform is more than a pile of tools; it is not just anot
 - [Score](https://github.com/score-spec/spec): Platform-agnostic workload specification for describing services once and generating environment-specific platform configuration.
 - [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
 - [Agyn](https://github.com/agynio/platform): Kubernetes-native runtime for moving AI coding agents from laptops to company infrastructure with enterprise controls.
+- [Kusion](https://github.com/KusionStack/kusion): Intent-driven platform orchestrator that compiles one application specification into the Kubernetes workloads and dependent cloud resources a service needs, keeping self-service delivery and infrastructure provisioning on a single versioned release path.
 
 ### IaaS Tools
 

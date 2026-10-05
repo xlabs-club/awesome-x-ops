@@ -377,6 +377,8 @@
 - [Hugging Face Inference Benchmarker](https://github.com/huggingface/inference-benchmarker)：Apache-2.0 许可的 LLM 推理服务基准工具，针对 OpenAI 兼容端点执行标准化的吞吐、延迟与并发测试，便于跨引擎对比与回归门禁。
 - [SIE](https://github.com/superlinked/sie)：自托管的推理服务器与推理集群，用一套 OpenAI 兼容 API 服务 Agent 依赖的开源模型（embedding、reranker、SPLADE、结构化输出等），支持模型按需加载与 LRU 淘汰，并自带 Helm、KEDA 与 Grafana 部署资产。
 - [LLMLingua](https://github.com/microsoft/LLMLingua)：Prompt 压缩工具链，在推理前剔除冗余 token 并压缩 KV cache，最高可把 Prompt token 量与推理成本压到约 1/20 而几乎不损失效果，已集成 LangChain、LlamaIndex 与 Prompt flow。
+- [ServerlessLLM](https://github.com/ServerlessLLM/ServerlessLLM)：Serverless LLM 推理系统，模型 checkpoint 加载速度是 SafeTensors 的 6-10 倍，并支持在 GPU 之间在线迁移推理会话，让共享同一张加速卡的多模型不必为每次扩容承担冷启动延迟。
+- [Parallax](https://github.com/GradientHQ/parallax)：去中心化推理引擎，以流水线并行把单个模型切分到配置各异、物理分散的节点上，通过 P2P 传输与调度路由分发请求，让平台团队用已有 GPU 拼出私有推理集群，而不必租用规格统一的加速器。
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin)：Kubernetes 设备插件，把 NVIDIA GPU 注册给 kubelet，让 GPU 工作负载可被正常调度，并支持 MIG、时间片切分与 CDI，便于多个 AI 工作负载共享加速卡。
 
@@ -626,6 +628,7 @@
 - [TrueForge](https://github.com/truefoundry/trueforge)：开源 Agent Harness，承担完整执行循环——模型调用、MCP 工具、沙箱化代码执行、人工审批、上下文管理与会话状态，并通过 Chat UI、HTTP API 与可嵌入 SDK 对外提供，支持单进程本地模式与 Postgres/Redis 托管模式。
 - [Reef](https://github.com/Human-Agent-Society/reef)：面向持续自我改进 Agent 的开源基础设施，把推理、反馈收集、学习与版本化交付串成闭环，让团队基于真实使用数据重训模型权重，或持续演进 Harness 的提示词、规则与技能，而不必手工改 Prompt。
 - [NoKV](https://github.com/NoKV-Lab/NoKV)：面向一次性 Agent 沙箱的持久化版本化工作区存储，在沙箱销毁后仍保留声明的输入、代码、产出、日志与血缘，并通过事务型元数据面发布不可变的 S3 兼容产物。
+- [Open Multi-Agent (OMA)](https://github.com/open-multi-agent/open-multi-agent)：可自托管的 TypeScript Agent 运行时，关键动作必须等待持久化、防篡改的人工审批，每次运行都留下可离线校验的记录，为 Agent 运维提供可审计的审批与回放链路，而不是只能相信 Agent 自己写的日志。
 
 ## DataOps
 
@@ -658,6 +661,7 @@
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli)：用于创建、校验、测试和导出数据契约的 CLI，让生产方与消费方能在 CI 中落实 schema、数据质量与 SLA 约定。
 - [Bytebase](https://github.com/bytebase/bytebase)：数据库 DevOps 平台，把 MySQL、PostgreSQL 等数据库的 Schema 变更、SQL 审核与访问控制纳入基于 Git 的变更流程。
 - [Recce](https://github.com/DataRecce/recce)：数据校验工具，对比 dbt PR 与基线环境之间的真实数据，让评审者在模型变更合入前看到行级与列级影响。
+- [Marmot](https://github.com/marmotdata/marmot)：单二进制数据目录，收录表、Topic、队列与 API 的元数据，并补齐血缘、负责人与术语表等信息，再通过 MCP 把这些元数据提供给 AI Agent，让检索与分析 Agent 基于受治理的资产而非裸连接信息作答。
 
 ### Streaming Operations 流式数据运维
 
@@ -741,6 +745,7 @@
 - [Uptime Kuma](https://github.com/louislam/uptime-kuma)：自托管的可用性监控与状态页工具，支持 HTTP、TCP、DNS 与推送检查以及多渠道告警，适合跟踪外部依赖与接口的可用性 SLA。
 - [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator)：Kubernetes Operator，声明式部署并管理 OpenTelemetry Collector 集群与自动埋点，让 LLM 与 Agent 遥测管道具备可回滚的上线升级路径，而不是手工维护 Collector 配置。
 - [Logging Operator](https://github.com/kube-logging/logging-operator)：Kubernetes Operator，以声明式方式管理 Fluentd 和 Fluent Bit 日志管道，让 AI 与平台服务的日志采集也能像其他工作负载一样版本化、灰度与回滚。
+- [OneUptime](https://github.com/OneUptime/oneuptime)：可自建的统一可观测性平台，把可用性探测、日志、链路、指标与 APM 与事故、值班排班、状态页放在同一个应用内，减少 AI 服务故障期间需要同时操作的工具数量。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -799,6 +804,7 @@
 - [Typhoon](https://github.com/poseidon/typhoon)：用 Terraform 交付的极简 Kubernetes 发行版，通过 CNCF 一致性认证，内置上游 Kubernetes、Cilium 或 flannel 网络与集群内 etcd，并支持跨云与裸金属的 worker pool。
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator)：Apache-2.0 的 Kubernetes Operator 与控制器，管理 ML/AI 训练与推理工作负载，同时负责 Agent 沙箱生命周期；适合只需要工作负载控制器、而非整套 ML 平台的集群。
 - [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu)：Kubernetes SIG 项目，把 NVIDIA GPU 调度迁移到 Dynamic Resource Allocation（DRA），对外暴露 GPU 与用于多节点 NVLink 的 ComputeDomain；其中 ComputeDomain 已正式支持，部分 GPU 分配能力仍在成熟中。
+- [Zarf](https://github.com/zarf-dev/zarf)：面向离线场景的 Kubernetes 打包工具，把一套技术栈所需的 Helm chart、容器镜像与清单封成单个压缩且可用 cosign 验签的制品，无需镜像仓库或外网即可部署，让 AI 平台栈能可重复地进入隔离或受限环境。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -1058,6 +1064,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [Score](https://github.com/score-spec/spec)：平台无关的 workload 规范，可一次描述服务并生成不同环境所需的平台配置。
 - [Superplane](https://github.com/superplanehq/superplane)：面向平台工程工作流的开源控制平面，连接服务、流水线和环境。
 - [Agyn](https://github.com/agynio/platform)：Kubernetes 原生运行时，将 Claude Code、Codex 等 AI 编码 Agent 从个人电脑迁移到具备企业控制能力的基础设施。
+- [Kusion](https://github.com/KusionStack/kusion)：意图驱动的平台编排器，把一份应用规格编译为该服务所需的 Kubernetes 工作负载与依赖云资源，让自助交付与基础设施供给共用同一条可版本化的发布路径。
 
 ### IaaS Tools IaaS 工具
 
