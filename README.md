@@ -631,6 +631,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Reef](https://github.com/Human-Agent-Society/reef): Open-source infrastructure for continually self-improving agents that links inference, feedback collection, learning, and versioned delivery, so teams can retrain model weights or evolve harness prompts, rules, and skills from real usage instead of manual prompt editing.
 - [NoKV](https://github.com/NoKV-Lab/NoKV): Durable, versioned workspace store for disposable agent sandboxes that keeps declared inputs, code, outputs, logs, and lineage recoverable after the sandbox is gone, publishing immutable S3-compatible artifacts through a transactional metadata plane.
 - [Open Multi-Agent (OMA)](https://github.com/open-multi-agent/open-multi-agent): Self-hosted TypeScript agent runtime where consequential actions block on durable, tamper-evident human approvals and every run leaves a record that can be verified offline, giving agent operations an auditable approval and replay trail instead of trusting agent-written logs.
+- [OpenAmer](https://github.com/openamer/openamer): Local-first agent runtime (Windows-native) that drives the real desktop over CDP, with one 10-subsystem heartbeat replacing per-feature cron jobs and peer-to-peer A2A work routing between instances.
 
 ## DataOps
 
