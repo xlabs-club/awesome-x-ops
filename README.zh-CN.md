@@ -270,6 +270,7 @@
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval)：统一的多模态评测工具集，覆盖 100+ 文本、图像、视频与音频基准任务，提供可复现流水线与异步推理能力，支撑大规模模型评测。
 - [LiveBench](https://github.com/LiveBench/LiveBench)：抗数据污染的 LLM 基准，高频更新题目、提供客观 ground-truth 评分、不依赖 LLM-as-judge，让运维侧拿到的模型对比信号更难被训练集泄露污染。
 - [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch)：面向组织的自托管 AI API 与 MCP 网关，提供 SSO 与 RBAC、MCP 工具调用的按用户身份归因、PII 脱敏、预算与速率限制、成本核算和审计日志。
+- [agentevals](https://github.com/agentevals-dev/agentevals)：Apache-2.0 评测框架，直接从已有的 OpenTelemetry trace（Jaeger JSON 或原生 OTLP）给 Agent 行为打分，可在录制好的运行结果上反复重跑评测，而不必重放昂贵的 LLM 调用。
 
 - [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai)：OpenTelemetry 官方的 GenAI 语义约定，定义 GenAI 客户端、MCP 与各 provider 的 span、metric、event 及属性命名，让 LLM 与 Agent 遥测在不同后端之间保持可移植。
 
@@ -555,6 +556,7 @@
 - [Hindsight](https://github.com/vectorize-io/hindsight)：MIT 许可的 Agent 记忆服务，从已记录的运行结果与反馈中学习，而不是只依赖检索；支持本地或托管部署，提供公开基准与常见 Agent 框架集成。
 - [XERJ](https://github.com/xerj-org/xerj)：Rust 实现的自动索引引擎，用 BM25、kNN 与混合检索让代码、文档、日志和 PDF 可被搜索，并暴露 Elasticsearch 兼容 API，使既有客户端与 Agent 记忆流程共用同一索引，不必反复读取文件。
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)：团队级记忆中枢，把对话、文档与代码沉淀为受治理、可复用的记忆资产（Chat Memory、技能、LLM-Wiki、Code-Graph），由一个记忆服务在多个 Agent 与框架之间共享。
+- [Moss](https://github.com/usemoss/moss)：BSD-2-Clause 语义检索运行时，通过 Python、TypeScript、Elixir、C 与 WebAssembly SDK 把检索嵌入进程内，让 Agent 应用无需自建向量数据库集群即可获得亚 10ms 的混合检索。
 
 ## Agentic Workflow 智能体工作流
 
@@ -658,6 +660,8 @@
 - [Maestro](https://github.com/Netflix/maestro)：Netflix 开源的通用工作流编排器，以 workflow-as-a-service 方式调度，日均运行数十万数据与 ML 工作流，具备重试与大规模运维可视化能力。
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh)：数据转换框架，提供虚拟数据环境和列级血缘，兼容 dbt 项目，强调「先计划、后应用」的增量变更流程。
 - [Meltano](https://github.com/meltano/meltano)：声明式、code-first 的数据集成引擎，基于 Singer 规范从 API、数据库和文件中抽取加载数据到数仓与 AI 流水线。
+- [dlt](https://github.com/dlt-hub/dlt)：Apache-2.0、code-first 的 Python 数据加载库，把 API、数据库与文件变成带类型、schema 感知的流水线，内置增量加载、schema 演进与流水线可观测性。
+- [Bruin](https://github.com/bruin-data/bruin)：单二进制数据流水线工具，把 SQL 与 Python 转换、数据摄取、内置质量校验和端到端血缘整合在一起，让数据与 AI 流水线变更带着校验结果上线，而不是只提交未经验证的 SQL。
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli)：用于创建、校验、测试和导出数据契约的 CLI，让生产方与消费方能在 CI 中落实 schema、数据质量与 SLA 约定。
 - [Bytebase](https://github.com/bytebase/bytebase)：数据库 DevOps 平台，把 MySQL、PostgreSQL 等数据库的 Schema 变更、SQL 审核与访问控制纳入基于 Git 的变更流程。
 - [Recce](https://github.com/DataRecce/recce)：数据校验工具，对比 dbt PR 与基线环境之间的真实数据，让评审者在模型变更合入前看到行级与列级影响。
@@ -792,6 +796,7 @@
 - [Longhorn](https://github.com/longhorn/longhorn)：面向 Kubernetes 的云原生分布式块存储，提供副本、快照、备份与管理界面，适合运行有状态负载。
 - [SeaweedFS](https://github.com/seaweedfs/seaweedfs)：分布式 S3 兼容对象存储，支持分层卷与 Iceberg 表，是 MinIO 上游归档后常见的自托管 AI 数据湖方案。
 - [RustFS](https://github.com/rustfs/rustfs)：Rust 实现的分布式 S3 兼容对象存储，提供 MinIO 迁移工具，可用作自托管 AI 数据湖与备份的替代方案。
+- [JuiceFS](https://github.com/juicedata/juicefs)：Apache-2.0 分布式 POSIX 文件系统，在既有对象存储与 Redis 之上挂载统一且带缓存的命名空间，让训练任务、模型 checkpoint 与多节点 RAG 流水线直接读写同一份数据，无需在集群之间复制数据集。
 - [KubeVirt](https://github.com/kubevirt/kubevirt)：Kubernetes 原生虚拟化平台，可在 Kubernetes 上与容器一同运行和管理虚拟机。
 - [KubeSphere](https://github.com/kubesphere/kubesphere)：面向多云、数据中心和边缘 Kubernetes 管理的容器平台，集成 DevOps、可观测性、服务网格和多租户能力。
 - [Kueue](https://github.com/kubernetes-sigs/kueue)：Kubernetes 原生作业排队系统，用于通过配额和公平共享管理批处理、AI/ML 及其他排队工作负载。

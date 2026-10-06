@@ -270,6 +270,7 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval): Unified multimodal evaluation toolkit covering 100+ text, image, video, and audio benchmark tasks, with reproducible pipelines and async serving for large-scale model evaluation.
 - [LiveBench](https://github.com/LiveBench/LiveBench): Contamination-free LLM benchmark with frequently refreshed questions, objective ground-truth scoring, and no LLM-as-judge, giving operators a signal less likely to be gamed by training-data leakage.
 - [ThinkWatch](https://github.com/ThinkWatchProject/ThinkWatch): Self-hosted AI API and MCP gateway for organizations, with SSO and RBAC, per-user identity for MCP tool calls, PII redaction, budgets, rate limits, and audit logs.
+- [agentevals](https://github.com/agentevals-dev/agentevals): Apache-2.0 evaluation framework that scores agent behavior directly from existing OpenTelemetry traces (Jaeger JSON or native OTLP), so graders can be re-run over recorded runs without replaying expensive LLM calls.
 
 - [OpenTelemetry GenAI Semantic Conventions](https://github.com/open-telemetry/semantic-conventions-genai): Official OpenTelemetry conventions for GenAI spans, metrics, and events, covering GenAI clients, MCP, and provider-specific attributes so LLM and agent telemetry stays portable across backends.
 
@@ -555,6 +556,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Hindsight](https://github.com/vectorize-io/hindsight): MIT-licensed agent memory service that learns from recorded outcomes and feedback instead of retrieval alone, with local or hosted deployment, published benchmarks, and integrations for common agent frameworks.
 - [XERJ](https://github.com/xerj-org/xerj): Rust autoindex engine that makes code, docs, logs, and PDFs searchable through BM25, kNN, and hybrid queries, and exposes an Elasticsearch-compatible API so existing clients and agent memory workflows can share one index instead of re-reading files.
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory): Team-level memory hub that turns conversations, documents, and code into governed, reusable assets — chat memory, skills, LLM wiki, and code graph — shared across agents and frameworks from a single memory server.
+- [Moss](https://github.com/usemoss/moss): BSD-2-Clause semantic search runtime that embeds retrieval in-process through Python, TypeScript, Elixir, C, and WebAssembly SDKs, giving agent applications sub-10 ms hybrid search without operating a separate vector database cluster.
 
 ## Agentic Workflow
 
@@ -658,6 +660,8 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Maestro](https://github.com/Netflix/maestro): Netflix's general-purpose workflow orchestrator, open sourced as a workflow-as-a-service scheduler that runs hundreds of thousands of data and ML workflows per day with retries and operational visibility at scale.
 - [SQLMesh](https://github.com/SQLMesh/sqlmesh): Data transformation framework with virtual data environments and column-level lineage, compatible with dbt projects and built around plan-before-apply, incremental pipeline changes.
 - [Meltano](https://github.com/meltano/meltano): Declarative, code-first data integration engine based on the Singer spec for extracting and loading data from APIs, databases, and files into warehouses and AI pipelines.
+- [dlt](https://github.com/dlt-hub/dlt): Apache-2.0 code-first Python data loading library that turns APIs, databases, and files into typed, schema-aware pipelines with incremental loading, schema evolution, and built-in pipeline observability.
+- [Bruin](https://github.com/bruin-data/bruin): Single-binary data pipeline tool that combines SQL and Python transforms, ingestion, built-in quality checks, and end-to-end lineage so data and AI pipeline changes ship with validation attached instead of as untested SQL.
 - [Data Contract CLI](https://github.com/datacontract/datacontract-cli): CLI for creating, linting, testing, and exporting data contracts so producers and consumers can enforce schema, quality, and SLA expectations in CI.
 - [Bytebase](https://github.com/bytebase/bytebase): Database DevOps platform that brings schema migration, SQL review, and access control for MySQL, PostgreSQL, and other engines into a Git-based change workflow.
 - [Recce](https://github.com/DataRecce/recce): Data-validation toolkit that diffs the actual data between a dbt pull request and its base environment, so reviewers see row and column-level impact before a model change merges.
@@ -792,6 +796,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Longhorn](https://github.com/longhorn/longhorn): Cloud-native distributed block storage for Kubernetes with replication, snapshots, backups, and a management UI for stateful workloads.
 - [SeaweedFS](https://github.com/seaweedfs/seaweedfs): Distributed S3-compatible object storage with tiered volumes and Iceberg table support, widely used as a self-hosted AI data lake layer after MinIO's upstream archival.
 - [RustFS](https://github.com/rustfs/rustfs): Rust-built distributed S3-compatible object storage with MinIO migration tooling, used as a self-hosted alternative for AI data lakes and backups.
+- [JuiceFS](https://github.com/juicedata/juicefs): Apache-2.0 distributed POSIX file system that mounts a shared, cache-accelerated namespace over existing object storage and Redis, so training jobs, model checkpoints, and multi-node RAG pipelines read the same data without copying datasets between clusters.
 - [KubeVirt](https://github.com/kubevirt/kubevirt): Kubernetes-native virtualization platform for running and managing virtual machines alongside containers on Kubernetes.
 - [KubeSphere](https://github.com/kubesphere/kubesphere): Container platform for multi-cloud, datacenter, and edge Kubernetes management with integrated DevOps, observability, service mesh, and multi-tenancy.
 - [Kueue](https://github.com/kubernetes-sigs/kueue): Kubernetes-native job queueing system for managing batch, AI/ML, and other queued workloads with quotas and fair sharing.
