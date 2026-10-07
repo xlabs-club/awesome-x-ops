@@ -258,6 +258,8 @@ Tools for tracing, evaluating, debugging, and operating LLM, RAG, and agent appl
 - [APIPark](https://github.com/APIParkLab/APIPark): Cloud-native AI and API gateway for unified LLM provider management, request routing, load balancing, multi-model failover, usage analytics, and API governance.
 - [Universal LLM API Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy): Self-hosted OpenAI- and Anthropic-compatible proxy with multi-provider translation, intelligent load balancing, key rotation, failover, and usage controls.
 - [GPT-Load](https://github.com/tbphp/gpt-load): Self-hosted AI gateway for consolidating multi-channel credentials behind one endpoint, with scheduling, failover, request logs, and usage accounting.
+- [opencodex](https://github.com/lidge-jun/opencodex): MIT-licensed universal provider proxy that points Codex CLI, Codex App/SDK, and Claude Code at any LLM provider or local Ollama model, centralizing credentials, routing, and failover for coding-agent traffic.
+- [LeanCTX](https://github.com/yvgude/lean-ctx): Apache-2.0 context gateway for AI systems that controls which context an agent can see and exposes context-selection policies plus the evidence behind each decision, instead of leaving prompt assembly implicit.
 - [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench): Apache-2.0 benchmark for evaluating computer-use agents on realistic, locally deployable SaaS workflows with state-based task verification.
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing): Open-source toolkit for safely running agentic evaluations in isolated Docker, Kubernetes, or Proxmox environments with guidance on tooling, host, and network isolation.
 - [Any Agent](https://github.com/mozilla-ai/any-agent): Apache-2.0 framework providing a single interface to use and evaluate different agent frameworks across standardized benchmarks.
@@ -407,6 +409,7 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [OpenOcta](https://github.com/openocta/openocta): Desktop IT ops agent for Windows and macOS that wires monitoring, logs, cloud platforms, databases, and scripts into an auto-inspection, alert-analysis, and remediation loop driven by natural language.
 - [OpenDerisk](https://github.com/derisk-ai/OpenDerisk): AI-native risk intelligence system for application operations that performs deep root-cause analysis over logs, traces, and code, and exposes a visualized evidence chain behind every diagnosis.
 - [StackStorm](https://github.com/StackStorm/st2): Event-driven automation platform that turns alerts into versioned, auditable actions, combining a rules engine, workflows, 160+ integration packs, and ChatOps for auto-remediation and incident response.
+- [Valqore](https://github.com/valqore/valqore): Safety-first guardrail engine for AI-driven cloud and Kubernetes operations that applies policy checks, change gating, and cost or carbon signals so autonomous operations actions stay within approved boundaries.
 
 ## AI Infrastructure
 
@@ -557,6 +560,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [XERJ](https://github.com/xerj-org/xerj): Rust autoindex engine that makes code, docs, logs, and PDFs searchable through BM25, kNN, and hybrid queries, and exposes an Elasticsearch-compatible API so existing clients and agent memory workflows can share one index instead of re-reading files.
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory): Team-level memory hub that turns conversations, documents, and code into governed, reusable assets — chat memory, skills, LLM wiki, and code graph — shared across agents and frameworks from a single memory server.
 - [Moss](https://github.com/usemoss/moss): BSD-2-Clause semantic search runtime that embeds retrieval in-process through Python, TypeScript, Elixir, C, and WebAssembly SDKs, giving agent applications sub-10 ms hybrid search without operating a separate vector database cluster.
+- [EverOS](https://github.com/EverMind-AI/EverOS): Apache-2.0 portable memory layer for AI agents that keeps context as user-owned local Markdown, so agent memory stays inspectable, portable, and self-hosted across apps and tools instead of locked inside one framework.
 
 ## Agentic Workflow
 
@@ -631,6 +635,7 @@ Open-source platforms for building, managing, and querying LLM-powered knowledge
 - [Reef](https://github.com/Human-Agent-Society/reef): Open-source infrastructure for continually self-improving agents that links inference, feedback collection, learning, and versioned delivery, so teams can retrain model weights or evolve harness prompts, rules, and skills from real usage instead of manual prompt editing.
 - [NoKV](https://github.com/NoKV-Lab/NoKV): Durable, versioned workspace store for disposable agent sandboxes that keeps declared inputs, code, outputs, logs, and lineage recoverable after the sandbox is gone, publishing immutable S3-compatible artifacts through a transactional metadata plane.
 - [Open Multi-Agent (OMA)](https://github.com/open-multi-agent/open-multi-agent): Self-hosted TypeScript agent runtime where consequential actions block on durable, tamper-evident human approvals and every run leaves a record that can be verified offline, giving agent operations an auditable approval and replay trail instead of trusting agent-written logs.
+- [Omnigent](https://github.com/omnigent-ai/omnigent): Apache-2.0 meta-harness that orchestrates Claude Code, Codex, Cursor, Pi, and custom agents under shared policies and sandboxing, so platform teams can swap harnesses without rewriting agent integrations.
 
 ## DataOps
 
@@ -750,6 +755,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator): Kubernetes operator that deploys and manages OpenTelemetry Collector fleets and auto-instrumentation, giving LLM and agent telemetry pipelines a declarative rollout and upgrade path instead of hand-maintained collector configs.
 - [Logging Operator](https://github.com/kube-logging/logging-operator): Kubernetes operator that manages Fluentd and Fluent Bit log pipelines declaratively, so log collection for AI and platform services can be versioned, rolled out, and rolled back like any other workload.
 - [OneUptime](https://github.com/OneUptime/oneuptime): Self-hosted observability platform that keeps uptime checks, logs, traces, metrics, and APM in the same application as incidents, on-call schedules, and status pages, cutting the number of separate tools a team has to operate during an AI service outage.
+- [witr](https://github.com/pranshuparmar/witr): Apache-2.0 CLI and TUI that traces any process, port, container, or file back to what started it, shortening the path from symptom to owning unit during incident response.
 
 ## Kubernetes Operations
 
@@ -991,6 +997,8 @@ A curated technology stack and toolchain for platform engineering.
 - [crush](https://github.com/charmbracelet/crush): Terminal-first coding agent from the Charm ecosystem with broad LLM provider support and a polished TUI (FSL-1.1-MIT, converts to MIT).
 - [ripwire](https://github.com/redhat-et/ripwire): Zero-dependency C++23 CLI and MCP server that hands coding agents a ranked call graph before they read the repository — what to touch, what it breaks, which tests to run — then checks an edit's blast radius and quality deltas.
 - [Graft](https://github.com/trailhq/Graft): Open-source context layer that builds repository-specific understanding for coding agents such as Claude Code, Cursor, and Codex, cutting tool calls, token spend, and runtime while improving task correctness.
+- [Orca](https://github.com/stablyai/orca): MIT-licensed agent development environment for running a fleet of parallel coding agents in isolated Git worktrees, with one terminal, mobile access, and per-agent monitoring so teams can scale agent throughput without losing review control.
+- [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix): MIT-licensed terminal coding agent for complex software engineering tasks, with tool use, prompt caching, a TUI, and plugins for the DeepSeek Harness ecosystem.
 
 ### Developer Environments
 
@@ -1070,6 +1078,7 @@ An internal developer platform is more than a pile of tools; it is not just anot
 - [Superplane](https://github.com/superplanehq/superplane): Open-source control plane for platform engineering workflows across services, pipelines, and environments.
 - [Agyn](https://github.com/agynio/platform): Kubernetes-native runtime for moving AI coding agents from laptops to company infrastructure with enterprise controls.
 - [Kusion](https://github.com/KusionStack/kusion): Intent-driven platform orchestrator that compiles one application specification into the Kubernetes workloads and dependent cloud resources a service needs, keeping self-service delivery and infrastructure provisioning on a single versioned release path.
+- [Kubero](https://github.com/kubero-dev/kubero): GPL-3.0 self-hosted PaaS on Kubernetes with Heroku-style Git-push builds, preview environments, and app/addon lifecycle management for teams that want self-service delivery without building a full internal developer platform.
 
 ### IaaS Tools
 
