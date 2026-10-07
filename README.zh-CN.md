@@ -714,6 +714,7 @@
 - [Apache SkyWalking](https://github.com/apache/skywalking)：Apache 出品的分布式系统 APM 平台，统一链路追踪、指标、日志、服务拓扑与 eBPF 性能剖析，并兼容 OpenTelemetry 数据接入。
 - [Nightingale](https://github.com/ccfos/nightingale)：开源监控告警平台，统一接入 Prometheus、VictoriaMetrics、Elasticsearch 与 OpenTelemetry 数据源，提供灵活的告警规则与通知管道。
 - [Vector](https://github.com/vectordotdev/vector)：高性能可观测数据流水线，用于采集、转换和路由日志与指标。
+- [Vectory](https://github.com/416rehman/Vectory)：自托管的 Vector 控制平面，支持可视化编辑流水线、部署版本化配置，并跟踪各主机实际运行的配置。
 - [Grafana Alloy](https://github.com/grafana/alloy)：OpenTelemetry Collector 发行版，提供可编程流水线，用于采集、处理和转发可观测性信号。
 - [Grafana](https://github.com/grafana/grafana)：开源监控、可观测与数据可视化平台，支持仪表盘、告警和多数据源探索。
 - [Pixie](https://github.com/pixie-io/pixie)：Kubernetes 原生可观测平台，基于 eBPF 自动采集指标、事件、链路和网络遥测，无需手动插桩。
