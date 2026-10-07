@@ -258,6 +258,8 @@
 - [APIPark](https://github.com/APIParkLab/APIPark)：云原生 AI 与 API 网关，提供统一 LLM 提供商管理、请求路由、负载均衡、多模型灾备、用量分析和 API 治理。
 - [Universal LLM API Proxy](https://github.com/Mirrowel/LLM-API-Key-Proxy)：自托管的 OpenAI 和 Anthropic 兼容代理，支持多供应商协议转换、智能负载均衡、密钥轮换、故障转移和用量控制。
 - [GPT-Load](https://github.com/tbphp/gpt-load)：自托管 AI 网关，将多渠道凭据统一到一个端点，并提供调度、故障转移、请求日志和用量统计。
+- [opencodex](https://github.com/lidge-jun/opencodex)：MIT 许可的通用模型供应商代理，可让 Codex CLI、Codex App/SDK 与 Claude Code 使用任意 LLM 服务商或本地 Ollama 模型，把编码 Agent 的凭证、路由与故障切换集中管理。
+- [LeanCTX](https://github.com/yvgude/lean-ctx)：Apache-2.0 的 AI 上下文网关，控制 Agent 能看到哪些上下文，并把上下文选择策略与每次决策的依据显式暴露出来，避免 prompt 组装停留在黑盒状态。
 - [SaaS-Bench](https://github.com/UniPat-AI/SaaS-Bench)：基于 Apache-2.0 许可的基准测试工具，用于在可本地部署的真实 SaaS 工作流中评估 computer-use Agent，并通过应用状态验证任务结果。
 - [Inspect Sandboxing Toolkit](https://github.com/UKGovernmentBEIS/aisi-sandboxing)：用于安全运行 Agent 评估的开源工具包，支持 Docker、Kubernetes 和 Proxmox 隔离环境，并提供工具、主机与网络隔离的实践指南。
 - [Any Agent](https://github.com/mozilla-ai/any-agent)：Apache-2.0 许可的框架，提供统一接口来使用和评估不同 Agent 框架，支持标准化基准测试。
@@ -407,6 +409,7 @@
 - [OpenOcta](https://github.com/openocta/openocta)：面向 Windows 与 macOS 的桌面级 IT 运维 Agent，把监控、日志、云平台、数据库与脚本工具链串成巡检、告警分析与处置建议的闭环，以自然语言驱动。
 - [OpenDerisk](https://github.com/derisk-ai/OpenDerisk)：面向应用系统的 AI 原生风险智能系统，基于日志、调用链与代码执行深度根因分析，并为每次诊断给出可视化证据链。
 - [StackStorm](https://github.com/StackStorm/st2)：事件驱动的运维自动化平台，用规则引擎、工作流、160+ 集成包和 ChatOps 把告警转化为可版本化、可审计的处置动作，覆盖自动修复与事故响应。
+- [Valqore](https://github.com/valqore/valqore)：面向 AI 驱动云与 Kubernetes 运维的安全优先护栏引擎，通过策略校验、变更门禁以及成本与碳排信号，把自动化运维动作约束在已批准的边界内。
 
 ## AI 基础设施
 
@@ -557,6 +560,7 @@
 - [XERJ](https://github.com/xerj-org/xerj)：Rust 实现的自动索引引擎，用 BM25、kNN 与混合检索让代码、文档、日志和 PDF 可被搜索，并暴露 Elasticsearch 兼容 API，使既有客户端与 Agent 记忆流程共用同一索引，不必反复读取文件。
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)：团队级记忆中枢，把对话、文档与代码沉淀为受治理、可复用的记忆资产（Chat Memory、技能、LLM-Wiki、Code-Graph），由一个记忆服务在多个 Agent 与框架之间共享。
 - [Moss](https://github.com/usemoss/moss)：BSD-2-Clause 语义检索运行时，通过 Python、TypeScript、Elixir、C 与 WebAssembly SDK 把检索嵌入进程内，让 Agent 应用无需自建向量数据库集群即可获得亚 10ms 的混合检索。
+- [EverOS](https://github.com/EverMind-AI/EverOS)：Apache-2.0 的可移植 Agent 记忆层，把上下文以用户自有的本地 Markdown 保存，使 Agent 记忆可检视、可迁移、可自托管，而不是被锁死在某个框架内部。
 
 ## Agentic Workflow 智能体工作流
 
@@ -631,6 +635,7 @@
 - [Reef](https://github.com/Human-Agent-Society/reef)：面向持续自我改进 Agent 的开源基础设施，把推理、反馈收集、学习与版本化交付串成闭环，让团队基于真实使用数据重训模型权重，或持续演进 Harness 的提示词、规则与技能，而不必手工改 Prompt。
 - [NoKV](https://github.com/NoKV-Lab/NoKV)：面向一次性 Agent 沙箱的持久化版本化工作区存储，在沙箱销毁后仍保留声明的输入、代码、产出、日志与血缘，并通过事务型元数据面发布不可变的 S3 兼容产物。
 - [Open Multi-Agent (OMA)](https://github.com/open-multi-agent/open-multi-agent)：可自托管的 TypeScript Agent 运行时，关键动作必须等待持久化、防篡改的人工审批，每次运行都留下可离线校验的记录，为 Agent 运维提供可审计的审批与回放链路，而不是只能相信 Agent 自己写的日志。
+- [Omnigent](https://github.com/omnigent-ai/omnigent)：Apache-2.0 的元 harness，在统一策略与沙箱约束下编排 Claude Code、Codex、Cursor、Pi 及自定义 Agent，让平台团队更换 harness 时无需重写 Agent 集成。
 
 ## DataOps
 
@@ -750,6 +755,7 @@
 - [OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator)：Kubernetes Operator，声明式部署并管理 OpenTelemetry Collector 集群与自动埋点，让 LLM 与 Agent 遥测管道具备可回滚的上线升级路径，而不是手工维护 Collector 配置。
 - [Logging Operator](https://github.com/kube-logging/logging-operator)：Kubernetes Operator，以声明式方式管理 Fluentd 和 Fluent Bit 日志管道，让 AI 与平台服务的日志采集也能像其他工作负载一样版本化、灰度与回滚。
 - [OneUptime](https://github.com/OneUptime/oneuptime)：可自建的统一可观测性平台，把可用性探测、日志、链路、指标与 APM 与事故、值班排班、状态页放在同一个应用内，减少 AI 服务故障期间需要同时操作的工具数量。
+- [witr](https://github.com/pranshuparmar/witr)：Apache-2.0 的命令行与 TUI 工具，可把任意进程、端口、容器或文件回溯到最初的启动来源，在事故响应中缩短从现象到责任单元的定位路径。
 
 ## Kubernetes Operations Kubernetes 运维
 
@@ -991,6 +997,8 @@
 - [crush](https://github.com/charmbracelet/crush)：Charm 生态的终端优先编码 Agent，支持主流 LLM 供应商，TUI 体验出色（FSL-1.1-MIT，到期自动转为 MIT）。
 - [ripwire](https://github.com/redhat-et/ripwire)：零依赖的 C++23 CLI 与 MCP Server，在 Agent 读仓库之前先给出带排序的调用图——该改哪里、会破坏什么、要跑哪些测试，并在改动后核查影响范围与质量回归。
 - [Graft](https://github.com/trailhq/Graft)：开源上下文层，为 Claude Code、Cursor、Codex 等编码 Agent 构建针对具体代码库的理解，减少工具调用、Token 开销与耗时，同时提升任务正确率。
+- [Orca](https://github.com/stablyai/orca)：MIT 许可的 Agent 开发环境（ADE），在隔离的 Git worktree 中并行运行多个编码 Agent，提供统一终端、移动端接入与逐 Agent 运行监控，让团队扩大 Agent 并行度的同时保留代码审查可控性。
+- [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix)：MIT 许可的终端编码 Agent，面向复杂软件工程任务，支持工具调用、prompt caching、TUI，并为 DeepSeek Harness 生态提供插件。
 
 ### Developer Environments 开发环境
 
@@ -1070,6 +1078,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [Superplane](https://github.com/superplanehq/superplane)：面向平台工程工作流的开源控制平面，连接服务、流水线和环境。
 - [Agyn](https://github.com/agynio/platform)：Kubernetes 原生运行时，将 Claude Code、Codex 等 AI 编码 Agent 从个人电脑迁移到具备企业控制能力的基础设施。
 - [Kusion](https://github.com/KusionStack/kusion)：意图驱动的平台编排器，把一份应用规格编译为该服务所需的 Kubernetes 工作负载与依赖云资源，让自助交付与基础设施供给共用同一条可版本化的发布路径。
+- [Kubero](https://github.com/kubero-dev/kubero)：GPL-3.0 的自托管 PaaS，运行在 Kubernetes 上，提供类 Heroku 的 Git 推送构建、预览环境与应用/附加组件生命周期管理，适合希望获得自助交付能力但不想自建完整 IDP 的团队。
 
 ### IaaS Tools IaaS 工具
 
