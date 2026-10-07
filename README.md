@@ -719,6 +719,7 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Apache SkyWalking](https://github.com/apache/skywalking): Apache APM platform for distributed systems that unifies traces, metrics, logs, service topology, and eBPF profiling, with OpenTelemetry-compatible ingest.
 - [Nightingale](https://github.com/ccfos/nightingale): Open-source alerting and monitoring platform that unifies Prometheus, VictoriaMetrics, Elasticsearch, and OpenTelemetry data sources with flexible alert rules and notification pipelines.
 - [Vector](https://github.com/vectordotdev/vector): High-performance observability data pipeline for collecting, transforming, and routing logs and metrics.
+- [Vectory](https://github.com/416rehman/Vectory): Self-hosted control plane for visually editing Vector pipelines, deploying versioned configurations, and tracking what runs on each host.
 - [Grafana Alloy](https://github.com/grafana/alloy): OpenTelemetry Collector distribution with programmable pipelines for collecting, processing, and forwarding observability signals.
 - [Grafana](https://github.com/grafana/grafana): Open-source platform for monitoring, observability, and data visualization with dashboards, alerts, and multi-data-source exploration.
 - [Pixie](https://github.com/pixie-io/pixie): Kubernetes-native observability platform that uses eBPF to capture metrics, events, traces, and network telemetry without manual instrumentation.
