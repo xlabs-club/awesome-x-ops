@@ -384,6 +384,8 @@
 - [Parallax](https://github.com/GradientHQ/parallax)：去中心化推理引擎，以流水线并行把单个模型切分到配置各异、物理分散的节点上，通过 P2P 传输与调度路由分发请求，让平台团队用已有 GPU 拼出私有推理集群，而不必租用规格统一的加速器。
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin)：Kubernetes 设备插件，把 NVIDIA GPU 注册给 kubelet，让 GPU 工作负载可被正常调度，并支持 MIG、时间片切分与 CDI，便于多个 AI 工作负载共享加速卡。
+- [KTransformers](https://github.com/kvcache-ai/ktransformers)：面向 MoE 模型的 CPU+GPU 异构推理与微调框架，attention 留在 GPU、专家权重放在 CPU 内存，让大参数量稀疏模型可以直接跑在团队既有硬件上，而不必为每个副本准备整机 GPU 节点。
+- [MLC-LLM](https://github.com/mlc-ai/mlc-llm)：基于编译的通用 LLM 部署引擎，一次模型定义即可下调到 CUDA、ROCm、Metal、Vulkan、WebGPU、iOS 与 Android 运行时，让边缘、桌面与服务器端复用同一套经过验证的引擎，而不是各自维护推理栈。
 
 ## AIOps 智能运维
 
@@ -510,6 +512,7 @@
 - [microsandbox](https://github.com/superradcompany/microsandbox)：Apache-2.0 的 microVM 运行时与库，把 AI Agent 代码、插件、CI 任务、抓取脚本等不可信负载放进快速启动的本地沙箱，按次隔离执行。
 - [PixelRAG](https://github.com/StarTrail-org/PixelRAG)：像素级检索方案，直接对渲染后的页面截图建索引而非解析文本，让 RAG 流水线按视觉版式检索文档与网页，避免 HTML 或 PDF 抽取环节的信息损失。
 - [VexDB-Lite](https://github.com/VexDB-THU/VexDB-Lite)：清华大学开源的向量相似度检索引擎，以 PostgreSQL、DuckDB、SQLite 扩展形式交付，嵌入式、分析型与服务端部署共用同一套图索引、SIMD 距离调度与 PQ/RaBitQ 量化内核。
+- [sqlite-vec](https://github.com/asg017/sqlite-vec)：零依赖的向量检索扩展，凡是能运行 SQLite 的环境都能使用，让本地 RAG 流水线与 Agent 记忆直接用暴力 k-NN 排序完成相似度检索，无需单独运维向量数据库服务。
 
 ## LLM 知识库
 
@@ -816,6 +819,8 @@
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator)：Apache-2.0 的 Kubernetes Operator 与控制器，管理 ML/AI 训练与推理工作负载，同时负责 Agent 沙箱生命周期；适合只需要工作负载控制器、而非整套 ML 平台的集群。
 - [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu)：Kubernetes SIG 项目，把 NVIDIA GPU 调度迁移到 Dynamic Resource Allocation（DRA），对外暴露 GPU 与用于多节点 NVLink 的 ComputeDomain；其中 ComputeDomain 已正式支持，部分 GPU 分配能力仍在成熟中。
 - [Zarf](https://github.com/zarf-dev/zarf)：面向离线场景的 Kubernetes 打包工具，把一套技术栈所需的 Helm chart、容器镜像与清单封成单个压缩且可用 cosign 验签的制品，无需镜像仓库或外网即可部署，让 AI 平台栈能可重复地进入隔离或受限环境。
+- [Fluid](https://github.com/fluid-cloudnative/fluid)：CNCF 数据集编排与加速层，把远端对象存储或 HDFS 数据缓存到 Kubernetes AI 任务所在节点，避免训练与推理 Pod 在每个节点反复拉取同一份数据集。
+- [Dragonfly](https://github.com/dragonflyoss/dragonfly)：CNCF 的 P2P 分发系统，加速大规模 Kubernetes 与 AI 集群中的容器镜像、模型制品与普通文件分发，降低镜像仓库出口流量与节点冷启动下载耗时。
 
 ## Security and Supply Chain 安全与供应链
 
@@ -1047,6 +1052,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [Checkov](https://github.com/bridgecrewio/checkov)：基础设施即代码静态分析工具，支持安全合规检查。
 - [helmfile](https://github.com/helmfile)：声明式 Helm Chart 编排和部署工具。
 - [Atlantis](https://github.com/runatlantis/atlantis)：面向 Terraform 的 Pull Request 自动化工具，支持计划、应用和协作式基础设施评审。
+- [Ansible](https://github.com/ansible/ansible)：无 Agent 的配置管理与自动化平台，通过 SSH 以声明式 playbook 完成批量配置下发、变更与补丁，同一套自动化既能覆盖基础设施与网络设备，也能管理承载 AI 平台的宿主机。
 
 ### Identity and Access Management (IAM)
 
@@ -1088,6 +1094,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [Vagrant](https://github.com/hashicorp/vagrant)：跨平台虚拟机管理工具，支持多种虚拟化后端。
 - [lima](https://github.com/lima-vm/lima)：支持自动文件共享和端口转发的 Linux 虚拟机工具，也可模拟异构虚拟机。
 - [multipass](https://github.com/canonical/multipass)：Ubuntu 出品的轻量级虚拟化工具。
+- [kind](https://github.com/kubernetes-sigs/kind)：在 Docker 容器中运行本地 Kubernetes 集群，为 CI 流水线与平台团队提供可随时销毁的多节点集群，用于验证 manifest、Operator 与集群升级，而无需在云上申请基础设施。
 
 ### Testing Tools 测试工具
 
@@ -1099,6 +1106,7 @@ Infrastructure as Code，基础设施即代码，是通过代码而非手动流�
 - [JMeter](https://github.com/apache/jmeter)：Java 编写的性能测试工具，支持多种协议。
 - [Tracetest](https://github.com/kubeshop/tracetest)：基于 OpenTelemetry 的链路测试工具，用于验证分布式工作流和可观测性插桩。
 - [Artillery](https://github.com/artilleryio/artillery)：负载与性能测试平台，支持 HTTP API、GraphQL、WebSocket 与 Playwright 浏览器流程，可分布式与无服务器执行生产级压测。
+- [Testcontainers](https://github.com/testcontainers/testcontainers-java)：为集成测试按需拉起一次性容器化依赖（数据库、消息队列、浏览器等）的库，让平台与 AI 服务的测试在 CI 中直接对接真实基础设施，而不是依赖 mock。
 
 ## License 许可协议
 
