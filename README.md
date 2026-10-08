@@ -384,6 +384,8 @@ Tools for deploying, scaling, routing, and operating AI model inference workload
 - [Parallax](https://github.com/GradientHQ/parallax): Decentralized inference engine that pipeline-shards one model across heterogeneous, physically distributed nodes over P2P transport with scheduler-driven routing, letting a platform team assemble a private inference cluster from the GPUs it already owns instead of renting uniform accelerators.
 
 - [NVIDIA Device Plugin for Kubernetes](https://github.com/NVIDIA/k8s-device-plugin): Kubernetes device plugin that advertises NVIDIA GPUs to the kubelet so GPU workloads schedule normally, with MIG, time-slicing, and CDI support for sharing accelerators across AI workloads.
+- [KTransformers](https://github.com/kvcache-ai/ktransformers): Heterogeneous CPU+GPU inference and fine-tuning framework for MoE models that keeps attention on the GPU and expert weights in CPU memory, so large sparse models can be served and tuned on hardware a team already owns instead of a full GPU node per replica.
+- [MLC-LLM](https://github.com/mlc-ai/mlc-llm): Compilation-based universal LLM deployment engine that lowers one model definition to CUDA, ROCm, Metal, Vulkan, WebGPU, iOS, and Android runtimes, so edge, desktop, and server targets share a validated engine instead of maintaining separate serving stacks.
 
 ## AIOps
 
@@ -510,6 +512,7 @@ Infrastructure for web crawling, AI-ready extraction, search intelligence, and R
 - [microsandbox](https://github.com/superradcompany/microsandbox): Apache-2.0 microVM runtime and library that runs untrusted workloads such as AI agent code, plugins, CI jobs, and scrapers in fast local sandboxes with per-run isolation.
 - [PixelRAG](https://github.com/StarTrail-org/PixelRAG): Pixel-native retrieval that indexes rendered page screenshots instead of parsed text, so RAG pipelines can search documents and web pages by visual layout and stop losing information to brittle HTML or PDF extraction.
 - [VexDB-Lite](https://github.com/VexDB-THU/VexDB-Lite): Vector similarity search engine from Tsinghua that ships as an extension for PostgreSQL, DuckDB, and SQLite, sharing one graph index, SIMD distance dispatch, and PQ/RaBitQ quantization path across embedded, analytical, and server-side deployments.
+- [sqlite-vec](https://github.com/asg017/sqlite-vec): Zero-dependency vector search extension that runs inside SQLite wherever SQLite runs, giving local RAG pipelines and agent memory brute-force k-NN ranking without operating a separate vector database service.
 
 ## LLM Knowledge
 
@@ -816,6 +819,8 @@ Streaming systems provide the event transport and analytics foundation for telem
 - [Polyaxon mloperator](https://github.com/polyaxon/mloperator): Apache-2.0 Kubernetes operator and controller for ML/AI training and serving workloads that also manages agent sandbox lifecycles, useful when a cluster only needs the workload controller rather than a full ML platform.
 - [DRA Driver for NVIDIA GPUs](https://github.com/kubernetes-sigs/dra-driver-nvidia-gpu): Kubernetes SIG project that moves NVIDIA GPU scheduling onto Dynamic Resource Allocation, exposing GPUs and ComputeDomains for robust Multi-Node NVLink; ComputeDomains are officially supported while some GPU allocation features are still maturing.
 - [Zarf](https://github.com/zarf-dev/zarf): Airgap-native packaging tool that bundles the Helm charts, container images, and manifests a stack needs into one compressed, cosign-verifiable artifact deployable with no registry or internet access, which is how AI platform stacks reach disconnected or restricted environments reproducibly.
+- [Fluid](https://github.com/fluid-cloudnative/fluid): CNCF dataset orchestration and acceleration layer that caches remote object storage or HDFS data next to Kubernetes AI jobs, so training and inference pods stop re-pulling the same dataset on every node.
+- [Dragonfly](https://github.com/dragonflyoss/dragonfly): CNCF P2P distribution system that accelerates container image, model artifact, and file delivery across large Kubernetes and AI clusters, cutting registry egress and node cold-start download time.
 
 ## Security and Supply Chain
 
@@ -1047,6 +1052,7 @@ Infrastructure as Code manages and provisions infrastructure through code instea
 - [Checkov](https://github.com/bridgecrewio/checkov): Static analysis tool for Infrastructure as Code security and compliance.
 - [helmfile](https://github.com/helmfile): Declarative tool for orchestrating and deploying Helm charts.
 - [Atlantis](https://github.com/runatlantis/atlantis): Pull request automation for Terraform workflows, plans, applies, and collaborative infrastructure reviews.
+- [Ansible](https://github.com/ansible/ansible): Agentless configuration management and automation platform that drives provisioning, configuration, and patching over SSH from declarative playbooks, so the same automation covers infrastructure, network devices, and the hosts running an AI platform.
 
 ### Identity and Access Management (IAM)
 
@@ -1088,6 +1094,7 @@ Lightweight virtualization tools useful for local Kubernetes and container-platf
 - [Vagrant](https://github.com/hashicorp/vagrant): Cross-platform virtual machine management tool supporting multiple virtualization backends.
 - [lima](https://github.com/lima-vm/lima): Linux virtual machines with automatic file sharing and port forwarding, including heterogeneous VM simulation.
 - [multipass](https://github.com/canonical/multipass): Lightweight virtualization tool from Ubuntu.
+- [kind](https://github.com/kubernetes-sigs/kind): Runs local Kubernetes clusters inside Docker containers, giving CI pipelines and platform teams ephemeral multi-node clusters for testing manifests, operators, and cluster upgrades without provisioning cloud infrastructure.
 
 ### Testing Tools
 
@@ -1099,6 +1106,7 @@ Tools for testing engineers and quality-focused platform teams.
 - [JMeter](https://github.com/apache/jmeter): Java-based performance testing tool supporting many protocols.
 - [Tracetest](https://github.com/kubeshop/tracetest): OpenTelemetry-based trace testing tool for validating distributed workflows and observability instrumentation.
 - [Artillery](https://github.com/artilleryio/artillery): Load and performance testing platform for HTTP APIs, GraphQL, WebSocket, and Playwright browser flows, with distributed and serverless execution for production-scale load tests.
+- [Testcontainers](https://github.com/testcontainers/testcontainers-java): Library that starts disposable containerized dependencies such as databases, message brokers, and browsers for integration tests, so platform and AI service tests can exercise real infrastructure in CI instead of mocks.
 
 ## License
 
