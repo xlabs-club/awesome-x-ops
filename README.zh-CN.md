@@ -109,6 +109,7 @@
 - [SCALE-CUA](https://github.com/THUDM/SCALE-CUA)：面向计算机使用 Agent 的开源框架，支持可验证任务合成、在线强化学习，以及 OSWorld 和 ScienceBoard 评估。
 - [ClawLens](https://github.com/nk3750/clawlens)：面向 OpenClaw 的本地可观测性插件，提供工具调用审计日志、风险评分、实时会话和由运维人员控制的防护规则。
 - [Opik OpenClaw](https://github.com/comet-ml/opik-openclaw)：将 Agent trace 导出到 Opik 的 OpenClaw 插件，用于监控行为、错误、Token 和成本。
+- [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor)：面向 OpenClaw AI Agent 的免费开源监控仪表盘，支持 Token 用量、会话跟踪与 7 天趋势。
 - [Opik MCP](https://github.com/comet-ml/opik-mcp)：面向 AI 编码客户端的 MCP Server，可读取 Opik trace、记录评估分数并管理 Prompt。
 - [NeMo Relay](https://github.com/NVIDIA/NeMo-Relay)：多语言 Agent 运行时与中间件库，用于管理执行作用域、生命周期事件以及工具或 LLM 调用遥测。
 - [Kitaru](https://github.com/zenml-io/kitaru)：面向生产环境的 AI Agent 录制与回放工具，用于分析运行过程并改进 Agent 行为。
